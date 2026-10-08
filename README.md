@@ -1,6 +1,6 @@
 # PONTIFEX — the Universal Language Gematria Cartographer
 
-*The bridge-builder. v0.2.0 "The Second Span."*
+*The bridge-builder. v0.3.0 "The Third Span."*
 
 ![PONTIFEX emblem](logo.png)
 
@@ -30,14 +30,22 @@ PONTIFEX is Latin for *bridge-builder* — proposed by the scribe, approved by t
 ## Usage
 
 ```bash
-python3 pontifex.py weigh CELL latin_ordinal
-python3 pontifex.py bridge AXONEME latin_ordinal עז hebrew
-python3 pontifex.py fallback cell        # Hebrew fallback, mergers shown
-python3 pontifex.py music "C E G"        # ABC notation or bare notes
-python3 pontifex.py selftest            # the instrument checks itself first
+python3 -m pontifex weigh CELL latin_ordinal
+python3 -m pontifex bridge AXONEME latin_ordinal עז hebrew
+python3 -m pontifex fallback cell        # Hebrew fallback, mergers shown
+python3 -m pontifex music "C E G"        # ABC notation or bare notes
+python3 -m pontifex selftest            # the instrument checks itself first
 ```
 
 Systems: `hebrew`, `greek`, `latin_ordinal`, `agrippa`, `arabic_abjad`, `braille`, `abc_notes`.
+
+## API
+
+Three doors into the same engine — see [API.md](API.md) for the full reference:
+
+- **Python:** `import pontifex` — `weigh()`, `bridge()`, `weigh_melody()`, `weigh_via_hebrew_fallback()`, `self_test()`.
+- **CLI:** `python -m pontifex ...` with `--json` anywhere for machine output; exit codes are a contract (0 = converged, 3 = diverged, 1 = error).
+- **HTTP:** `python -m pontifex serve` — loopback-only JSON API (`/weigh`, `/bridge`, `/music`, `/fallback`, `/systems`, `/selftest`).
 
 ## The music bridge
 
