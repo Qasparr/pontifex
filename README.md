@@ -1,6 +1,6 @@
 # PONTIFEX — the Universal Language Gematria Cartographer
 
-*The bridge-builder. v0.1.0 "The First Span."*
+*The bridge-builder. v0.2.0 "The Second Span."*
 
 ![PONTIFEX emblem](logo.png)
 
@@ -33,10 +33,17 @@ PONTIFEX is Latin for *bridge-builder* — proposed by the scribe, approved by t
 python3 pontifex.py weigh CELL latin_ordinal
 python3 pontifex.py bridge AXONEME latin_ordinal עז hebrew
 python3 pontifex.py fallback cell        # Hebrew fallback, mergers shown
+python3 pontifex.py music "C E G"        # ABC notation or bare notes
 python3 pontifex.py selftest            # the instrument checks itself first
 ```
 
-Systems: `hebrew`, `greek`, `latin_ordinal`, `agrippa`, `arabic_abjad`, `braille`.
+Systems: `hebrew`, `greek`, `latin_ordinal`, `agrippa`, `arabic_abjad`, `braille`, `abc_notes`.
+
+## The music bridge
+
+Note names in the English letter tradition *are* Latin letters, so their values fall out of the attested Latin ordinal — C=3, D=4, E=5, F=6, G=7, A=1, B=2. A melody is a word spelled in notes. ABC notation is the input format: a real, parseable corpus of thousands of tunes.
+
+Extraction conventions (stated, constructed): accidentals sharp +1 / flat −1 / natural +0; octave markers dropped (pitch-class level); durations ignored; chords weighed note by note; rests are silence. See [METHOD.md](METHOD.md) §7.
 
 ## Method
 

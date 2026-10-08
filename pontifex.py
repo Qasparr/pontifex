@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # =============================================================================
 # PONTIFEX — the Universal Correspondence Framework
-# v0.1.0 "The First Span"
+# v0.2.0 "The Second Span"
 #
 # Epigraph: "If I have seen further it is by standing on the shoulders
 # of Giants." — Isaac Newton, letter to Robert Hooke, 1676.
@@ -46,10 +46,13 @@ bridge, and a bridge needs two honest banks. (Settled with the author,
 DOCTRINE: a liber's number derives from its title's gematria (CELL=32 →
 XXXII); rename or renumber must follow the name.
 
-This module implements v0.1: the weighing engine over the attested tables
+This module implements v0.2: the weighing engine over the attested tables
 (Hebrew, Greek, Latin ordinal, Agrippa's Latin, Arabic abjad), the braille
-carrier table (constructed, 64 patterns), the Hebrew-fallback transliteration
-for tongues with no table, and the bridge check with provenance flags.
+carrier table (constructed, 64 patterns — charted because the tool's purpose
+is precisely universal charting), the Hebrew-fallback transliteration for
+tongues with no table, the music bridge (ABC-notation pitch weighing on
+attested Latin-ordinal note values), and the bridge check with provenance
+flags.
 
 Provenance tiers (every value carries one):
   ATTESTED    — the tradition's own table; verifies against the tradition.
@@ -60,6 +63,7 @@ Provenance tiers (every value carries one):
 """
 
 import sys
+import re
 import unicodedata
 
 # ---------------------------------------------------------------------------
@@ -132,8 +136,118 @@ def _braille_table():
 
 BRAILLE = _braille_table()
 
+# -- Music: ABC-notation pitch weighing ---------------------------------------
+# MECHANISM: musical note names in the English letter tradition ARE Latin
+# letters, so their values fall straight out of the ATTESTED Latin ordinal —
+# no constructed table is needed. C=3, D=4, E=5, F=6, G=7, A=1, B=2.
+# DOCTRINE: a melody is a word spelled in notes; the bridge between music
+# and tongue is weighed, not invented.
+NOTE_VALUES = {'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'A': 1, 'B': 2}
+
+# MECHANISM: the extraction conventions — every choice the parser makes that
+# the tradition does not hand down is stated here, so the weighing shows its
+# work. Values ATTESTED; extraction CONSTRUCTED.
+MUSIC_CONVENTIONS = [
+    'Note names: English letter tradition (CDEFGAB) — stated, not universal '
+    '(solfège do-re-mi is a different naming; pick one and state it).',
+    'Values: Latin ordinal on the letter (ATTESTED).',
+    'Accidentals: sharp +1, flat -1, natural +0 on the letter value '
+    '(CONSTRUCTED convention).',
+    'Octave markers (`,` / `\'`, upper/lower case): dropped — pitch-class '
+    'level, the letter not the frequency (CONSTRUCTED).',
+    'Durations: ignored — gematria weighs letters, not lengths (CONSTRUCTED).',
+    'Chords [CEG]: each note weighed in order (CONSTRUCTED).',
+    'Rests (z): silence — skipped, not zeroed; the standing doctrine.',
+    'Headers (X:, T:, M:, K:, ...), bar lines, ornaments: skipped.',
+]
+
+
+def extract_pitches(text):
+    """Extract (letter, accidental_offset) pitch pairs from ABC notation.
+
+    MECHANISM: accepts full ABC tunes or bare note sequences ("C E G").
+    Inline fields like [K:G] are stripped first — they are instructions, not
+    music, and their key letter must not be weighed. Full-line headers
+    (X:, T:, M:, L:, K:, w:, ...) and % comments are dropped. Then a single
+    left-to-right scan: ^/_/= accumulate the accidental for the next note,
+    A–G (either case; lower = higher octave in ABC, folded) emit a pitch,
+    z/Z rests reset the accidental and emit nothing, digits/slashes/bars/
+    octave marks/ties/spaces are skipped. Brackets are transparent — chord
+    tones are weighed in order, per the stated convention.
+    Returns a list of (LETTER, accidental_offset) tuples.
+    """
+    # MECHANISM: strip inline fields — [K:G], [M:3/4] — before anything else.
+    t = re.sub(r'\[[A-Za-z]:[^\]]*\]', '', text)
+    # MECHANISM: drop header lines and comments; what remains is music.
+    body = []
+    for line in t.splitlines():
+        line = line.split('%', 1)[0]
+        if re.match(r'^[A-Za-z]:', line.strip()):
+            continue
+        body.append(line)
+    t = ' '.join(body)
+    pitches = []
+    acc = 0
+    i = 0
+    n = len(t)
+    while i < n:
+        ch = t[i]
+        if ch == '^':
+            # MECHANISM: sharps stack (^^ = double sharp, +2), per ABC.
+            acc += 1
+        elif ch == '_':
+            acc -= 1
+        elif ch == '=':
+            # MECHANISM: natural cancels the accidental — back to the letter.
+            acc = 0
+        elif ch.upper() in 'ABCDEFG':
+            # MECHANISM: the pitch is emitted; the letter's value comes from
+            # NOTE_VALUES (attested Latin ordinal), the offset from the
+            # constructed accidental convention.
+            pitches.append((ch.upper(), acc))
+            acc = 0
+        elif ch in 'zZ':
+            # MECHANISM: rest — silence, not false weight; accidental dies.
+            acc = 0
+        # else: digits, /, |, :, ,, ', -, (, ), [, ], spaces — skipped.
+        i += 1
+    return pitches
+
+
+def weigh_melody(text):
+    """Weigh a melody given as ABC notation or a bare note sequence.
+
+    MECHANISM: extract pitches, then letter value + accidental offset, summed.
+    Returns the same result shape as weigh(), so bridge() works unchanged —
+    the melody stands as one bank of the bridge, the word as the other.
+    DOCTRINE: the result carries its conventions with it; a music bridge is
+    only as honest as the extraction it stands on.
+    """
+    pitches = extract_pitches(text)
+    total = 0
+    breakdown = []
+    for letter, acc in pitches:
+        v = NOTE_VALUES[letter] + acc
+        # MECHANISM: label shows the accidental so the audit trail reads —
+        # C# is 4, visibly 3+1.
+        label = letter + ('#' * acc if acc > 0 else '') + ('b' * (-acc) if acc < 0 else '')
+        breakdown.append((label, v))
+        total += v
+    shown = text if len(text) <= 48 else text[:45] + '...'
+    return {
+        'word': shown,
+        'system': 'abc_notes',
+        'value': total,
+        'provenance': 'ATTESTED values; CONSTRUCTED extraction',
+        'breakdown': breakdown,
+        'conventions': MUSIC_CONVENTIONS,
+    }
+
+
 # ---------------------------------------------------------------------------
 # MECHANISM: the registry. Every system knows its table and its provenance.
+# Systems with custom extraction (music) register a weigher instead of a
+# table; weigh() dispatches to it.
 # DOCTRINE: provenance is load-bearing — it decides whether a convergent
 # point is a candidate bridge (attested) or a hypothesis for the red pen
 # (constructed). A value without provenance is a rumor.
@@ -145,6 +259,9 @@ SYSTEMS = {
     'agrippa':       {'table': AGRIPPA,       'provenance': 'ATTESTED'},
     'arabic_abjad':  {'table': ARABIC_ABJAD,  'provenance': 'ATTESTED'},
     'braille':       {'table': BRAILLE,       'provenance': 'CONSTRUCTED'},
+    'abc_notes':     {'weigher': weigh_melody,
+                      'provenance': 'ATTESTED values; CONSTRUCTED extraction '
+                                     '(see MUSIC_CONVENTIONS)'},
 }
 
 # ---------------------------------------------------------------------------
@@ -235,8 +352,13 @@ def weigh(word, system):
     # would be a lie.
     if system not in SYSTEMS:
         raise ValueError("unknown system: %r (see SYSTEMS)" % system)
-    table = SYSTEMS[system]['table']
-    provenance = SYSTEMS[system]['provenance']
+    spec = SYSTEMS[system]
+    if 'weigher' in spec:
+        # MECHANISM: systems with custom extraction (music) weigh by their
+        # own function; the provenance travels inside the result.
+        return spec['weigher'](word)
+    table = spec['table']
+    provenance = spec['provenance']
     total = 0
     breakdown = []
     chars = list(word)
@@ -349,6 +471,27 @@ def self_test():
     r = weigh('test', 'braille')
     checks.append(('braille provenance == CONSTRUCTED',
                    r['provenance'] == 'CONSTRUCTED', r['provenance']))
+    # 6. Music: the C-major triad weighs 15 (C=3, E=5, G=7 — Latin ordinal
+    #    on note names, attested values).
+    r = weigh('C E G', 'abc_notes')
+    checks.append(('C E G/abc_notes == 15', r['value'] == 15, r['value']))
+    # 7. Accidentals: ^C (C#) = 3+1 = 4; _B (Bb) = 2-1 = 1; total 5.
+    r = weigh('^C _B', 'abc_notes')
+    checks.append(('^C _B/abc_notes == 5', r['value'] == 5, r['value']))
+    # 8. Rests are silence: 'C z D' weighs the same as 'C D' (3+4=7).
+    a = weigh('C z D', 'abc_notes')['value']
+    b = weigh('C D', 'abc_notes')['value']
+    checks.append(('rests are silence (C z D == C D == 7)',
+                   a == b == 7, (a, b)))
+    # 9. ABC headers are dropped: 'X:1\nT:Test\nK:C\nCDE' == CDE = 12.
+    r = weigh('X:1\nT:Test\nK:C\nCDE', 'abc_notes')
+    checks.append(('ABC headers dropped (== 12)', r['value'] == 12, r['value']))
+    # 10. The music bridge: C-E-G (15) converges with O (15) — attested
+    #     values on both banks.
+    m = bridge('C E G', 'abc_notes', 'O', 'latin_ordinal')
+    checks.append(('music bridge CEG<->O converges at 15',
+                   m['convergent'] and m['a']['value'] == 15,
+                   (m['a']['value'], m['b']['value'], m['standing'])))
     ok = True
     for name, passed, got in checks:
         mark = 'PASS' if passed else 'FAIL'
@@ -369,6 +512,7 @@ def _cli():
         print('    systems: %s' % ', '.join(sorted(SYSTEMS)))
         print('  pontifex.py bridge WORD1 SYSTEM1 WORD2 SYSTEM2')
         print('  pontifex.py fallback LATIN_WORD   (Hebrew fallback, mergers shown)')
+        print('  pontifex.py music "C E G"   (ABC notation or bare notes)')
         print('  pontifex.py selftest')
         return 0
     cmd = argv[0]
@@ -393,6 +537,14 @@ def _cli():
                 '%s ← %s' % (h, '/'.join(MERGERS[h])) for h in r['mergers']))
         else:
             print('  mergers: none — the rendering is lossless')
+    elif cmd == 'music' and len(argv) >= 2:
+        # MECHANISM: join all args so the tune can be quoted or bare.
+        r = weigh_melody(' '.join(argv[1:]))
+        print('melody [%s] = %d' % (r['provenance'], r['value']))
+        print('  ' + _fmt_breakdown(r['breakdown']))
+        print('  conventions:')
+        for c in r['conventions']:
+            print('    - ' + c)
     elif cmd == 'selftest':
         return 0 if self_test() else 1
     else:

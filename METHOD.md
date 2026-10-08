@@ -44,8 +44,26 @@ The reader sees what was preserved *and* what was merged, and can judge exactly 
 - **Sign handshapes are theoretical.** Chereme inventories are linguistic constructs, not settled alphabets. A sign table is the hardest build and the weakest ground — flagged accordingly.
 - **Chance guarantees matches.** With enough tables, convergent points appear by coincidence. The map is the instrument; TRVVTH sorts the music from the noise — penned, audited, attains TRVVST, warranted, passes TRVVTH again, then doctrine.
 
-## 6. What v0.1 does and does not do
+## 6. What v0.2 does and does not do
 
-Does: weigh in five attested systems plus the braille carrier; Hebrew-fallback transliteration with merger reporting; bridge checks with provenance standing; self-test against the author's established bridges (CELL=32, AXONEME=77=עז).
+Does: weigh in five attested systems plus the braille carrier (charted because the tool's purpose is precisely universal charting); Hebrew-fallback transliteration with merger reporting; the music bridge — ABC-notation pitch weighing on attested Latin-ordinal note values, with stated extraction conventions; bridge checks with provenance standing; self-test against the author's established bridges (CELL=32, AXONEME=77=עז) and the first music bridge (C-E-G=15=O).
 
-Does not yet: derived-tier tables (Cyrillic et al.), the full two-column bridge-table output, CJK or sign tables, the cross-language correspondence atlas. That is the work ahead.
+Does not yet: derived-tier tables (Cyrillic et al.), the full two-column bridge-table output, CJK tables, the cross-language correspondence atlas. That is the work ahead.
+
+## 7. The music bridge
+
+Note names in the English letter tradition are Latin letters, so no new table is needed: C=3, D=4, E=5, F=6, G=7, A=1, B=2, straight from the attested Latin ordinal. The values are attested; the *extraction* — turning ABC notation into a pitch sequence — is constructed, and every choice is stated:
+
+- Note names: English letter tradition (CDEFGAB). Solfège (do-re-mi) is a different naming; whichever is used must be stated.
+- Accidentals: sharp +1, flat −1, natural +0 on the letter value.
+- Octave markers (`,` / `'`, upper/lower case): dropped — pitch-class level, the letter not the frequency.
+- Durations: ignored — gematria weighs letters, not lengths.
+- Chords `[CEG]`: each note weighed in order.
+- Rests (`z`): silence — skipped, not zeroed.
+- Headers (`X:`, `T:`, `M:`, `K:`, …), bar lines, ornaments: skipped.
+
+Because the extraction is constructed, music bridges report as hypotheses for the red pen even when the values are attested — the instrument flags the tier honestly.
+
+## 8. Hand gestures — deferred
+
+Sign-language handshapes await a discovered method. Chereme inventories are linguistic constructs, not settled alphabets, and any table built on them would be the weakest ground in the framework. The work begins when a method is discovered — not before. This section holds the place open.
