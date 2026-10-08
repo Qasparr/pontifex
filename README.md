@@ -1,6 +1,8 @@
-# PONTIFEX — the Universal Correspondence Framework
+# PONTIFEX — the Universal Language Gematria Cartographer
 
 *The bridge-builder. v0.1.0 "The First Span."*
+
+![PONTIFEX emblem](logo.png)
 
 > "If I have seen further it is by standing on the shoulders of Giants."
 > — Isaac Newton, 1676
