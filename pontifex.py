@@ -14,9 +14,9 @@
 #
 # Authorship: Johnathan 'Qasparr' (Κασπάρρ) Monroe,
 # Keeper of the Secret Treasure.
-# The name PONTIFEX ("bridge-builder") is the scribe's proposal, submitted
-# to the author's red pen. The doctrine is the author's; the mechanisms
-# are not.
+# The name PONTIFEX ("bridge-builder") was proposed by the scribe and approved
+# by the author's red pen, 2026-10-07. The doctrine is the author's; the
+# mechanisms are not.
 #
 # SCIENTIFIC ILLUMINISM — hypothesis → method → observation → result:
 #   Hypothesis: that words in different tongues which weigh the same reveal

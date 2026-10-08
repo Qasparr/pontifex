@@ -25,7 +25,7 @@ Gematria's *method* is to weigh each word in its own tongue. Its *purpose* is th
 
 ## The name
 
-PONTIFEX is Latin for *bridge-builder* — proposed by the scribe, submitted to the author's red pen. The doctrine is the author's; the mechanisms are not.
+PONTIFEX is Latin for *bridge-builder* — proposed by the scribe, approved by the author's red pen 2026-10-07. The doctrine is the author's; the mechanisms are not.
 
 ## Usage
 
