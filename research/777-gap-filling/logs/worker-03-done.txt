@@ -1,0 +1,12 @@
+worker-03 done — 2026-10-13
+cells worked: 7 (XLVII/24, 27, 28, 29, 30, 31, 32)
+cells filled: 3 (XLVII/27 al-Ahmar; XLVII/30 al-Mudhhib; XLVII/32 Maymun)
+cells intentionally empty: 4 (XLVII/24 Scorpio; XLVII/28 Aquarius; XLVII/29 Pisces; XLVII/31 Fire)
+csv rows: 8 (al-Ahmar weighed twice for the 279/280 hamza-alif spread)
+bridges found: 0 (all single-bank Arabic; no second honest bank exists for Arabic words)
+
+flags for parent:
+- COLUMN-TITLES.md mislabels XLVII (says Taoism block; source says "Kings and Princes of the Jinn.").
+- share-file LINE_REF dot-runs (lines 1045, 1048-1053) belong to column XLVIII, not XLVII (proven via Col. XLVIII note on line 1047); XLVII is unrendered on the rows-14-32 page. Cells genuinely blank in transcription regardless.
+- transcription is LOSSY for XLVII: Crowley's endnote "COL. XLVII.- LINE 7.-Has a monkey" proves real entries existed that this text lost. (Worker-01's "never-worked column" conclusion is overstated.)
+- most interesting values: al-Mudhhib=778 (one off 777 - near-miss, chance-flagged, not a hit); al-Ahmar=279/280 (engine skips hamza-alif U+0623; spread reported); Maymun=146 (ميمون also = "monkey" in Arabic, resonating with the lost "monkey" entries).

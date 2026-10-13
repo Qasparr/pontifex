@@ -1,0 +1,25 @@
+WORKER-17 DONE — 2026-10-13
+
+Cells worked: 11/11 (all verified empty in source via verify_worker17_cells.py, 11/11 PASS)
+Cells filled: 0
+Cells intentionally empty: 11
+  - XI/0, XI/12, XI/13, XI/14, XI/21, XI/27, XI/30, XI/32
+  - IX/0, IX/32 bis, IX/31 bis
+
+Bridges found: 0 (no fillings proposed; the two tempting near-fills —
+Gimel/Moon->"Water" and Resh/Sun->"Fire" — were weighed and DISCARDED:
+no two honest banks agreed, and filling them would break Crowley's
+deliberate uniform blank across the seven double letters)
+
+Key finding: column IX's own text proves column XI's blanks are
+deliberate — "the Double letters, to the Planets" — and a planet is not
+an element. Five of the seven double letters rule two signs of different
+elements, so no honest single-element filling exists for any of them.
+
+Files:
+- hidden_files/worker-17-log.md (thought log, ultra-verbose)
+- hidden_files/worker-17-fillings.csv (11 rows, canonical header)
+- hidden_files/authored-tools/repo-exclusive/verify_worker17_cells.py (+ README entry)
+- hidden_files/worker-17-done.txt (this file)
+
+No other worker's files touched. Nothing pushed.

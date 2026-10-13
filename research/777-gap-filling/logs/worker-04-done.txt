@@ -1,0 +1,12 @@
+worker-04 done — 2026-10-13
+column: XLVII "Kings and Princes of the Jinn" (verified in source; COLUMN-TITLES.md label corrected per worker-01 corroboration)
+cells worked: 6 (XLVII/17, XLVII/22, XLVII/25, XLVII/26, XLVII/31 bis, XLVII/32 bis)
+cells filled: 6 (all with PONTIFEX-proposed 2026-10-13 proposals)
+cells intentionally empty: 0
+csv rows: 19 (one per proposal x bank weighing)
+bridges found: 0 (no two honest banks agree on any word; all single-bank values, reported as spreads)
+note: shares-file LINE_REFs for rows 17/22/25/26 were stale (pointed into the L/LI table); corrected to source lines 1038/1043/1046/1047. XLVII verified empty in ALL rows — an open gap, not a ruled-out one.
+custom tools authored: none (weighings done inline via ptk; no standalone scripts saved)
+files:
+- hidden_files/worker-04-log.md
+- hidden_files/worker-04-fillings.csv

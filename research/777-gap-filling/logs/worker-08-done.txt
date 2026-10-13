@@ -1,0 +1,10 @@
+worker-08 done — 2026-10-13
+cells_worked=9 (XLVI/4, XLVI/5, XLVI/7, XLVI/8, XLVI/9, XLVI/15, XLVI/16, XLVI/17, XLVI/18)
+cells_filled=9 (all with trigram proposals; 12 CSV rows incl. 3 recorded alternates)
+cells_intentionally_empty=0 (column XLVI row 0 is filled — the by-design rule does not apply; gaps are incompleteness, not design)
+bridges=0 (single-bank latin only; two honest banks impossible for Wade-Giles romanizations — refused to invent Hebrew spellings or double-count Agrippa)
+tiers: all constructed — findings, never doctrine; the red pen rules.
+outputs:
+- hidden_files/worker-08-fillings.csv (12 rows)
+- hidden_files/worker-08-log.md (ultra-verbose thought log)
+- hidden_files/authored-tools/repo-exclusive/verify_cells.py (+ README entry)

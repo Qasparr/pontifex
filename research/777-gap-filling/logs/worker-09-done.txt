@@ -1,0 +1,10 @@
+WORKER-09 DONE — 2026-10-13
+Column: XLVI (System of Taoism), Crowley's 777
+Cells worked: 9 (XLVI/19, /20, /22, /24, /25, /26, /28, /29, /31 bis) — all verified empty dot-runs in source before work.
+Cells filled (proposed): 9 — 7 with single proposals, 2 (XLVI/24, XLVI/26) with dual proposals.
+Cells intentionally empty: 0 (none is row 0; the column is unfinished, not doctrinally blank).
+CSV rows: 44 (one per proposal×bank weighing), all tier=constructed, bridge=no throughout.
+Key: proposals use Crowley's appendix trigram names (Khien/Tui/Li/Kbn/Sun/Khan/Khwbn); the double-printed "Kbn" (trigrams 4 and 1) kept as printed, disambiguated by number — audit observation filed for the red pen, not a correction.
+Authored tool: authored-tools/repo-exclusive/worker09_taoism_weigh.py (+ README entry).
+Log: worker-09-log.md (ultra-verbose, dead ends kept).
+Nothing pushed anywhere.

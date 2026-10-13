@@ -1,0 +1,8 @@
+WORKER-06 DONE — 2026-10-13
+cells_worked=7 (XXIV/15, XXIV/17, XXIV/18, XXIV/19, XXIV/20, XXIV/21, XXIV/22)
+cells_filled=7 (all with proposals; 13 candidates, 26 weighings)
+cells_intentionally_empty=0 (row 0 is filled in this column; blanks are knowledge gaps, not design)
+genuine_two_bank_bridges=0
+csv=~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-06-fillings.csv (26 rows)
+log=~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-06-log.md
+authored_tool=authored-tools/repo-exclusive/worker06_weigh_cells.py (+ README line)

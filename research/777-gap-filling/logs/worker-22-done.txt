@@ -1,0 +1,10 @@
+WORKER-22 DONE — 2026-10-13
+Cells worked: 10 (XX/32bis, XX/31bis, CLXXXV/4, CLXXXV/7, CXXXII/0, CXXXII/1, IV/0, XII/32bis, CLXXX/32bis, CLXXX/31bis)
+Cells filled (proposals): 5 (XX/32bis Seb, XX/31bis Atum, CLXXXV/4 = 5, CLXXXV/7 = 5, CXXXII/1 "The Root of the Powers of Earth")
+Cells intentionally empty: 5 (CXXXII/0, IV/0, XII/32bis, CLXXX/32bis, CLXXX/31bis)
+CSV rows: 12 (one per proposal×bank weighing; INTENTIONALLY_EMPTY rows single)
+Bridges claimed: 0. Chance-flags: 2 (SEB latin 26 = YHVH; ATUM latin 55 = Malkuth mystic number) — curiosities, not bridges.
+Custom tools authored: 0 (one-off shell/python one-liners + ptk only; nothing to file under authored-tools/).
+Weighing engine: ptk calibrate() True; unknown() clean on all 7 weighings.
+Log: hidden_files/worker-22-log.md (ultra-verbose, dead ends included).
+Output: hidden_files/worker-22-fillings.csv.

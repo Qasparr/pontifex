@@ -1,0 +1,23 @@
+worker-02 done 2026-10-13
+cells worked: 7 (XLVII/15, 16, 18, 19, 20, 21, 23)
+cells filled: 7 — all by RECOVERY of the printed Arabic column (Celephais
+  2019 e-text of 777 Revised; the local 777-crowley.txt predates the
+  key-entry of the Arabic and shows dot-runs)
+cells intentionally empty: 0 (the dots are a transcription omission, not
+  Crowley's design — transcriber's note, line ~2885)
+CSV rows: 35 (14 words x ARABIC-attested + HEBREW-derived + 7 entry totals)
+authored tools: 1 — authored-tools/general/arabic_ocr_decode.py
+  (visual-order Arabic OCR decoder + Persian fold + Arabic->Hebrew
+  transliterator; README entry added)
+notes:
+- Column XLVII = "Kings and Princes of the Jinn"; geometric names in the
+  visual block belong to XLVIII (gutter-verified; worker-01's correction
+  confirmed by measurement).
+- Native bank is Arabic abjad (the words' own tongue); Hebrew is fallback
+  only via the endnote-sanctioned consonantal transliteration (derived).
+- No genuine bridges: Arabic/Hebrew agreement is structural (shared Semitic
+  abjad core; no difference-set letters present) — recorded as
+  trivial:ARABIC+HEBREW, never as discovery.
+- Chance-flagged: حللد=72 (XLVII/19), ةروعبس=343=7^3 (XLVII/21).
+- حوميلم repeats verbatim as XLVII/16 word 3 and the whole XLVII/23 entry.
+- Nothing pushed.

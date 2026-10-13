@@ -1,0 +1,9 @@
+worker-14 DONE 2026-10-13
+cells worked: 10 (VIII/13, VIII/14, VIII/21, VIII/23, VIII/27, VIII/30, VIII/31, VIII/32, VIII/32 bis, VIII/31 bis)
+cells filled: 9 (all tier derived — values made explicit from 777's own printed rubrics, not invented)
+cells intentionally empty: 1 (VIII/31 bis Spirit — the rubric points at Col. LXVIII Demon Kings, which is itself blank for Spirit; the fifth element stands outside the four-king scheme by design)
+CSV rows: 10
+bridges found: 0 (each word weighed in its native bank only; no manufactured bridges)
+chance-flags: 2 (Golachab=49=7x7; Gamaliel=84 echoing the G-2 'Little' 84/93 anomaly — both flagged as coincidence, never claimed)
+calibrate(): True; unknown() audited on every weighing
+tools staged: repo-exclusive/fillings_emit.py (CSV emitter for worker fillings); no general tools

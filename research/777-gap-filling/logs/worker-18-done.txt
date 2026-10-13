@@ -1,0 +1,34 @@
+WORKER-18 DONE — 2026-10-13
+
+Cells worked: 11/11 (all verified empty in source before work)
+- XXXVI/16 (line 732), XXXVI/18 (735), XXXVI/22 (741), XXXVI/24 (743),
+  XXXVI/25 (744), XXXVI/26 (745), XXXVI/28 (747), XXXVI/29 (748)
+- XIII/0 (line 400), XIII/32 bis (447), XIII/31 bis (449)
+
+Cells filled: 0
+Cells intentionally empty: 11
+
+Weighing: ptk.weigh.calibrate() passed before any cell work. Zero weighings
+performed — by design, not by omission: every candidate considered was
+rejected at the premise stage because no bank attests the mapping (weighing a
+fabricated mapping is theater, per doctrine). unknown() checks moot.
+
+Verdict summary:
+- All 8 XXXVI cells: Crowley's own "[The Disciples are too indefinite]" at row
+  15 is an explicit editorial stop; the apostles roster is attested but no
+  apostle→path correspondence is attested anywhere; the column is a
+  self-described facetious "Selection". The dots are the honest state.
+- XIII/0: Sepher Yetzirah attests exactly 32 Intelligences (rows 1-32); row 0
+  has no attested intelligence.
+- XIII/31 bis, 32 bis: bis rows are Crowley's GD elemental additions
+  (Spirit/Earth); Yetzirah attests no intelligences for them.
+
+Bridges found: none — no honest (word, table) pair existed to bridge. Zero
+chance-flags needed; zero fillings shipped. Findings, never doctrine.
+
+Custom tools authored: none (task needed none); two-pile rule acknowledged.
+
+Outputs:
+- worker-18-log.md (ultra-verbose thought ledger, incl. dead ends)
+- worker-18-fillings.csv (11 rows, header-conformant, all flagged)
+- worker-18-done.txt (this file)

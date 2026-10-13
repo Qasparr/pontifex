@@ -1,0 +1,229 @@
+IV	0	line 212	0             [ws }ya Ain Soph       No Limit               . . . . . . . . . . 
+III	32 bis	line 250	32 bis                    wt Tau         . . . . . . . . .                      
+III	31 bis	line 251	31 bis                  }yc Shin         . . . . . . . . .                      
+VI	0	line 265	0      . . . . . . . . . . . . . . . . .     . . . . . . . . . . . .   . . . . .
+VI	13	line 282	13      . . . . . . . . . . . . . . . . .    Luna                      . . . . .
+VIII	13	line 282	13      . . . . . . . . . . . . . . . . .    Luna                      . . . . .
+VI	14	line 283	14      . . . . . . . . . . . . . . . . .    Venus                     . . . . .
+VIII	14	line 283	14      . . . . . . . . . . . . . . . . .    Venus                     . . . . .
+VI	21	line 290	21     . . . . . . . . . . . . . . . . .     Jupiter                   . . . . .
+VIII	21	line 290	21     . . . . . . . . . . . . . . . . .     Jupiter                   . . . . .
+VIII	23	line 292	23                     \ym Maim                Water                     . . . .
+VI	27	line 296	27     . . . . . . . . . . . . . . . . .     Mars                      . . . . .
+VIII	27	line 296	27     . . . . . . . . . . . . . . . . .     Mars                      . . . . .
+VI	30	line 299	30     . . . . . . . . . . . . . . . . .     Sol                       . . . . .
+VIII	30	line 299	30     . . . . . . . . . . . . . . . . .     Sol                       . . . . .
+VIII	31	line 300	31                     ca Ash                  Fire                      . . . .
+VI	32	line 301	32     . . . . . . . . . . . . . . . . .     Saturn                    . . . . .
+VIII	32	line 301	32     . . . . . . . . . . . . . . . . .     Saturn                    . . . . .
+VIII	32 bis	line 302	32 bis                 }ra Aretz               Earth                     . . . .
+VIII	31 bis	line 303	31 bis                  ta Ath                 Spirit                    . . . .
+IX	0	line 318	0    . . . . . . . . . . .                                                      
+XI	0	line 318	0    . . . . . . . . . . .                                                      
+XI	12	line 357	12                                                                              
+XI	13	line 364	13                                                                              
+XI	14	line 365	14                                                                              
+XI	21	line 372	21                                                                              
+XI	27	line 378	27                                                                              
+XI	30	line 381	30                                                                              
+XI	32	line 383	32                                                                              
+IX	32 bis	line 384	32 bis . . . . . . . . . .                                                      
+XII	32 bis	line 384	32 bis . . . . . . . . . .                                                      
+IX	31 bis	line 385	31 bis . . . . . . . . . .                                                      
+XIII	0	line 400	0     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           
+XIII	32 bis	line 447	32 bis . . . . . . . . . . . . . . . . . . Empresses [Coins]
+XIII	31 bis	line 449	31 bis . . . . . . . . . . . . . . . . . . All 22 Trumps                        
+XVI	0	line 464	0      . . . . . . . . . . . . . . . . . . . . . . . . . . .         . . . . . .
+XXI	18	line 555	18   Khephra                                      Hormakhu              . . . . 
+XXI	20	line 557	20   Isis [as Virgin]                             Heru-pa-Kraath        . . . . 
+XXI	22	line 559	22   Ma                                           Maat                  . . . . 
+XXI	25	line 564	25    Nephthys                                     Arwueri#              . . . .
+XX	32 bis	line 574	32 bis   Satem, Ahapshi, Nephthys, Ameshet            . . . . . . . . .     \yyj
+XX	31 bis	line 575	31 bis   Asar                                         . . . . . . . . .     . . 
+XXXIII	0	line 643	0        Nirvikalpa-samadhi, Shiva                                              
+XXIV	2	line 648	2      . . . . . . . . . . . . . .                                              
+XXIV	3	line 650	3      . . . . . . . . . . . . . .                                              
+XXIV	4	line 651	4      . . . . . . . . . . . . . .                                              
+XXIV	5	line 652	5      . . . . . . . . . . . . . .       We have insufficient knowledge of the a
+XXXIII	6	line 654	6      Vishvarupa-darshana                                                      
+XXIV	7	line 655	7      . . . . . . . . . . . . . .                                              
+XXIV	8	line 656	8      . . . . . . . . . . . . . .                                              
+XXIV	9	line 658	9      . . . . . . . . . . . . . .                                              
+XXXIII	10	line 660	10     the various Dhyanas or                                                   
+XXIV	12	line 668	12 . . . . . . . . . . . . . .                                                  
+XXXIII	13	line 669	13 Vision of Chandra                                                            
+XXIV	15	line 671	15 . . . . . . . . . . . . . .                                                  
+XXXIII	16	line 673	16   and Prana-yama                                                             
+XXIV	17	line 675	17 . . . . . . . . . . . . . .                                                  
+XXIV	18	line 676	18    . . . . . . . . . . . . . .                                               
+XXIV	19	line 677	19    . . . . . . . . . . . . . .                                               
+XXIV	20	line 678	20    . . . . . . . . . . . . . .                                               
+XXIV	21	line 679	21     . . . . . . . . . . . . . .                                              
+XXIV	22	line 681	22 . . . . . . . . . . . . . .                                                  
+XXXIII	23	line 682	23      Apo-Bhawana                                                             
+XXIV	24	line 683	24 . . . . . . . . . . . . . .                                                  
+XXIV	25	line 684	25 . . . . . . . . . . . . . .                                                  
+XXIV	26	line 685	26 . . . . . . . . . . . . . .                                                  
+XXIV	27	line 687	27 . . . . . . . . . . . . . .                                                  
+XXIV	28	line 688	28 . . . . . . . . . . . . . .                                                  
+XXIV	29	line 689	29 . . . . . . . . . . . . . .                                                  
+XXXIII	30	line 690	30 Vision of Surya                                                              
+XXXIII	31	line 691	31     Agni-Bhawana                                                             
+XXIV	32	line 692	32 . . . . . . . . . . . . . .                                                  
+XXXIII	32 bis	line 693	32 bis Prithiva-Bhawana                                                         
+XXXIII	31 bis	line 694	31 bis Vision of the Higher Self,                                               
+XXXV	0	line 706	0        . . . . . . . . . . . . . .       . . . . . . . . . . . . . . . . . . .
+XXXVI	16	line 732	16     Venus [[Hymen]]                   . . . . . . . . . . . . . . . . . . . .
+XXXVI	18	line 735	18   Mercury [[Lares and Penates]]     . . . . . . . . . . . . . . . . . . . . .
+XXXVI	22	line 741	22     Vulcan [[Venus, Nemesis]]         . . . . . . . . . . . . . . . . . . . .
+XXXVI	24	line 743	24     Mars [[Mors]]                     . . . . . . . . . . . . . . . . . . . .
+XXXVI	25	line 744	25     Diana (as Archer) [[Iris]]        . . . . . . . . . . . . . . . . . . . .
+XXXVI	26	line 745	26     Pan, Vesta, Bacchus               . . . . . . . . . . . . . . . . . . . .
+XXXVI	28	line 747	28     Juno [[Æolus]]                    . . . . . . . . . . . . . . . . . . . .
+XXXVI	29	line 748	29     Neptune                           . . . . . . . . . . . . . . . . . . . .
+CLXXXVII	1	line 833	1   Diamond                                                                     
+CLXXXVII	8	line 847	8 Opal, especially Fire Opal              The Names and Versicles and Apron     
+CLXXXVII	11	line 852	11     Topaz                                 The Dagger or Fan                  
+CLXXXVII	12	line 853	12 Opal, Agate                             The Wand or Caduceus                 
+CLXXXVII	15	line 856	15 Ruby                                  The Horns, Energy, the Burin           
+CLXXXVII	17	line 860	17 Alexandrite, Tourmaline, Iceland Spar The Tripod                             
+CLXXXVII	20	line 866	20 Peridot                                                                      
+CLXXXVII	21	line 868	21 Amethyst, Lapis Lazuli                  The Sceptre                          
+CLXXXVII	22	line 869	22 Emerald                               The Cross of Equilibrium               
+CLXXXVII	23	line 871	23     Beryl or Aquamarine                                                      
+CLXXXVII	27	line 878	27 Ruby, any red stone                     The Sword                            
+CLXXXVII	28	line 879	28 Artificial Glass [[Chalcedony]]       The Censer or Aspergillus              
+CLXXXVII	29	line 881	29 Pearl                                                                        
+CLXXXVII	31	line 885	31     Fire Opal                                                                
+CLXXXVII	32	line 887	32 Onyx                                    A Sickle                             
+CLXXXVII	32 bis	line 888	32 bis Salt                                  The Pantacle or [[Bread and]] Salt 
+CLXXXVII	31 bis	line 889	31 bis Black Diamond                         [[The Winged Egg]]                 
+XLIII	0	line 899	0   [[No attribution possible]]             . . . . . . . . . . . . . . . . . . 
+XLIV	4	line 904	4    Cedar                                    Opium                             
+XLIV	6	line 906	6    Olibanum                                 Stramonium, Alcohol, Digitalis, Co
+XLIV	11	line 913	11     Galbanum                                 Peppermint                      
+XLIV	13	line 917	13     Sweet Virginal Odours                  Jupiter, Pennyroyal, & all emmenog
+XLIV	14	line 918	14 Sandalwood, Myrtle, all Soft Volup- All aphrodisiacs                         
+XLIV	15	line 920	15 Dragon’s Blood                           All cerebral excitants              
+XLIV	16	line 921	16 Storax                                   Sugar                               
+XLIV	17	line 922	17 Wormwood                                 Ergot and ecbolics                  
+XLIV	18	line 923	18 Onycha                                   Watercress                          
+XLIV	19	line 924	19 Olibanum                                 All carminatives and tonics         
+XLIV	20	line 925	20 Narcissus                                All anaphrodisiacs                  
+XLIV	21	line 926	21 Saffron, all Generous Odours               Cocaine                           
+XLIV	22	line 927	22 Galbanum                                 Tobacco                             
+XLIII	24	line 929	24 Siamese Benzoin, Opoponax                . . . . . . . . . . . . . . . . . . 
+XLIII	25	line 930	25 Lign-aloes                               . . . . . . . . . . . . . . . . . . 
+XLIV	26	line 931	26 Musk, Civet (also 'ian Perfumes)         Orchis [Satyrion]                   
+XLII	27	line 932	27 Pepper, Dragon’s Blood, all Hot . . . . . . . . . . . . . . . . . . .        
+XLIV	28	line 934	28 Galbanum                                 All diuretics                       
+XLIV	29	line 935	29 Ambergris [[Menstrual Fluid]]            All narcotics                       
+XLIV	30	line 936	30 Olibanum, Cinnamon, all Glorious Alcohol                                     
+XLIII	31	line 938	31     Olibanum, all Fiery Odours               . . . . . . . . . . . . . . . . 
+XLIII	32 bis	line 941	32 bis Storax, all Dull and Heavy Odours        . . . . . . . . . . . . . . . . 
+XLVI	4	line 960	4     The Vision of Love                                         . . . . . . . .
+XLVI	5	line 961	5     The Vision of Power                                        . . . . . . . .
+XLVI	7	line 965	7 The Vision of Beauty Triumphant                               . . . . . . . . 
+XLVI	8	line 966	8 The Vision of Splendour [Ezekiel]                             . . . . . . . . 
+XLVI	9	line 967	9 The Vision of the Machinery of the Universe                   . . . . . . . . 
+XLVI	15	line 977	15 Power of Consecrating Things                               . . . . . . . . . 
+XLVI	16	line 978	16 The Secret of Physical Strength                            . . . . . . . . . 
+XLVI	17	line 980	17                                                            . . . . . . . . . 
+XLVI	18	line 982	18 Power of Casting Enchantments                              . . . . . . . . . 
+XLVI	19	line 983	19 Power of Training Wild Beasts                              . . . . . . . . . 
+XLVI	20	line 984	20 Invisibility, Parthenogenesis, Initiation (?)              . . . . . . . . . 
+XLVI	22	line 986	22 Works of Justice and Equilibrium                           . . . . . . . . . 
+XLVI	24	line 988	24 Necromancy                                                 . . . . . . . . . 
+XLVI	25	line 989	25 Transmutations [[Vision of Universal Peacock]]             . . . . . . . . . 
+XLVI	26	line 990	26 The Witches’ Sabbath so-called, the Evil Eye               . . . . . . . . . 
+XLVI	28	line 992	28 Astrology                                                  . . . . . . . . . 
+XLVI	29	line 993	29 Bewitchments, Casting Illusions                            . . . . . . . . . 
+XLVI	31 bis	line 1000	31 bis Invisibility, Transformations, Vision of the Genius         . . . . . . .
+XLVII	0	line 1015	0    . . . . . . . . . . . . . . . . . . . . . . . . . . . . The Circle
+XLVII	1	line 1017	1      . . . . . . . . . . . . . . . . . . . . . . . . . . . . The Point
+XLVII	2	line 1018	2      . . . . . . . . . . The Cross                                The Line, al
+XLVII	8	line 1027	8                         . . . . . . . . . . . . . . . . . .         the Moon, 
+XLVII	9	line 1028	9                         . . . . . . . . . . . . . . . . . .         Herschel r
+XLVII	11	line 1030	11                           . . . . . . . . . . . . . . . . . . Those of Dy Tri
+XLVII	14	line 1035	14                        . . . . . . . . . . . . . . . . . . Heptagram
+XLVII	15	line 1036	15                     . . . . . . . . . . . . . . . . . . Puer *
+XLVII	16	line 1037	16                     . . . . . . . . . . . . . . . . . . Amissio *
+XLVII	18	line 1039	18                     . . . . . . . . . . . . . . . . . . Populus and Via *
+XLVII	19	line 1040	19                     . . . . . . . . . . . . . . . . . . Fortuna Major and For
+XLVII	20	line 1041	20                     . . . . . . . . . . . . . . . . . . Conjunctio *
+XLVII	21	line 1042	21                        . . . . . . . . . . . . . . . . . . Square and Rhombus
+XLVII	23	line 1044	23                           . . . . . . . . . . . . . . . . . . Those of Cy Tri
+XLVII	24	line 1045	24                     . . . . . . . . . . . . . . . . . . Rubeus *
+XLVII	27	line 1048	27                        . . . . . . . . . . . . . . . . . . Pentagram
+XLVII	28	line 1049	28                     . . . . . . . . . . . . . . . . . . Tristitia *
+XLVII	29	line 1050	29                     . . . . . . . . . . . . . . . . . . Laetitia *
+XLVII	30	line 1051	30                        . . . . . . . . . . . . . . . . . . Hexagram
+XLVII	31	line 1052	31                           . . . . . . . . . . . . . . . . . . Those of By Tri
+XLVII	32	line 1053	32                        . . . . . . . . . . . . . . . . . . Triangle
+XLVII	32 bis	line 1054	32 bis . . . . . . . . . . . . . . . . . . . . . . . . . . . . Those of Ey Tripl
+XLVII	31 bis	line 1055	31 bis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+XLVII	0	line 1071	0     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+XLIX	2	line 1076	2     Devotion                                          { [     . . . . . . . . 
+XLIX	3	line 1077	3     Silence                                           } ]     . . . . . . . . 
+XLIX	9	line 1083	9     Independence                                      J j     . . . . . . . . 
+XLVII	15	line 1089	15 . . . . . . . . . . . . . . . . . . .            H h     . . . . . . . .     
+XLIX	15	line 1089	15 . . . . . . . . . . . . . . . . . . .            H h     . . . . . . . .     
+XLVII	16	line 1090	16 . . . . . . . . . . . . . . . . . . .            U u           400           
+XLVII	17	line 1091	17 . . . . . . . . . . . . . . . . . . .            Z z            7            
+XLVII	18	line 1092	18 . . . . . . . . . . . . . . . . . . .            Q q           600           
+XLVII	19	line 1093	19 . . . . . . . . . . . . . . . . . . .            Y y            9            
+XLVII	20	line 1094	20 . . . . . . . . . . . . . . . . . . .            I i            10           
+XLVII	22	line 1096	22 . . . . . . . . . . . . . . . . . . .            L l            30           
+XLVII	24	line 1098	24 . . . . . . . . . . . . . . . . . . .            N n            50           
+XLVII	25	line 1099	25 . . . . . . . . . . . . . . . . . . .            X x            60           
+XLVII	26	line 1100	26 . . . . . . . . . . . . . . . . . . .            O o            70           
+XLVII	28	line 1102	28 . . . . . . . . . . . . . . . . . . .            & ^           700           
+XLVII	29	line 1103	29 . . . . . . . . . . . . . . . . . . .            < %            90           
+XLVIII	32 bis	line 1107	32 bis Tacere                                . . . . . . . . . . . . . . . . . .
+XLVII	31 bis	line 1108	31 bis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+LII	0	line 1123	0    . . . . . . .  . . . . . . . . . . . . . . . . . . . . . .   . . . . . . . 
+CLXXXIV	1	line 1124	1                   . . . . . . . . . . . . . . . .      31       Death
+CLXXXIV	2	line 1126	2                   . . . . . . . . .       [s]          200      Insanity
+CLXXXIV	3	line 1128	3                   . . . . . . . . . . . . . . . . . . . . . .   Dementia (Amne
+CLXXXV	4	line 1129	4           T               500             [e]     . . . . . .   Dropsy
+CLXXXV	7	line 1132	7           ~               800             [e]     . . . . . .   Skin Troubles
+LIII	8	line 1133	8           „               900       . . . . . . . . . . . . .   Nerve Troubles
+CLXXXIV	10	line 1135	10                  . . . . . . . . .        "           900      Sterility
+LII	32 bis	line 1158	32 bis . . . . . . . . . . . . . . . . .        u           400      Sluggishnes
+LII	31 bis	line 1159	31 bis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Death (full
+LV	31 bis	line 1178	31 bis      c      A Spirit, Hearing . . . . . . . . . . . . . . . . . . .      
+LIX	31 bis	line 1189	31 bis . . . . . . . . . .      . . . . . . . . . . .        . . . . . . . . . .
+LXIII	31 bis	line 1202	31 bis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+LXVIII	31 bis	line 1213	31 bis          hdyjy Yechidah         . . . . . . . . . . . . . . . . .        
+LXXV	31 bis	line 1275	31 bis . . . . . . . . . . . . . . . . . . . . .
+LXXXIV	0	line 1339	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+LXXXVIII	0	line 1362	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+XCII	0	line 1383	0 . . . . . . . . . . . . . . . . . . . . .        . . . . . . . . . . . . . .. 
+XCV	0	line 1406	0    . . . . . . . . . . . . . . . . . . . . . .             . . . . . . . . . .
+XCIX	0	line 1426	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CIII	0	line 1444	0 . . . . . . . . . . . . . . . . . . . . . . . .                . . . . . . . .
+CVI	0	line 1466	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CVIII	1	line 1467	1                                           Satan and Moloch . . . . . . . . . .
+CVIII	2	line 1468	2      lwac Sheol        Grave                         * lams . . . . . . . . . 
+CVIII	3	line 1469	3                                                  \ynwnz tca . . . . . . . . . 
+CIX	0	line 1482	0 .    . . . . . . . . . . . . . . . . . .         . . . . . . . . . . . . . . .
+CIX	1	line 1483	1 .    . . . . . . . . . . . . . . . . . .               \yyj \yhla hwr Conceale
+CIX	2	line 1484	2 .    . . . . . . . . . . . . . . . . . .         Air                    Sky Bl
+CIX	3	line 1485	3 .    . . . . . . . . . . . . . . . . . .         Water and Earth        Yellow
+CXII	0	line 1499	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CXVII	0	line 1527	0  Hammemit                    . . . . . . . .. . . . . . . . . . . . . . . . . 
+CXX	0	line 1543	0 . . . . . . . . . . . . . . . . . .            08=0°                          
+CXXII	0	line 1543	0 . . . . . . . . . . . . . . . . . .            08=0°                          
+CXXIII	0	line 1576	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             
+CXXVIII	0	line 1601	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CXXIX	1	line 1602	1                                                     . . . . . . . . . . . . . 
+CXXXII	0	line 1617	0 . . . . . . . . . . . . . . . . . . . . . . . . . .         . . . . . . . . . 
+CXXXII	1	line 1618	1 . . . . . . . The Root of the Powers of Fire                The Root of the Po
+CXXXV	0	line 1633	0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CLXXVII	11	line 1965	11               a               1                D          . . . . . . . . . .
+CLXXVII	23	line 1977	23              m \           40 600              C          . . . . . . . . . .
+CLXXVII	31	line 1985	31               c              300               B          . . . . . . . . . .
+CLXXVII	32 bis	line 1987	32 bis           t              400               E          . . . . . . . . . .
+CLXXVII	31 bis	line 1988	31 bis           c              300               A          . . . . . . . . . .
+CLXXX	32 bis	line 2045	32 bis         . . . . . . . . . . . . . . . . . . . .       . . . . . . . . . .
+CLXXX	31 bis	line 2047	31 bis         . . . . . . . . . . . . . . . . . . . .       . . . . . . . . . .

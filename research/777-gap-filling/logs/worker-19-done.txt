@@ -1,0 +1,15 @@
+# worker-19 DONE — PONTIFEX 777 gap-filling (2026-10-13)
+
+- Cells worked: 10/10
+  - XLIII (Vegetable Drugs.): 0, 24, 25, 31, 32 bis
+  - CLXXVII (Geomantic Intelligences.): 11, 23, 31, 32 bis, 31 bis
+- Cells filled (PONTIFEX proposals): 4 — XLIII/24 Hemlock, XLIII/25 Sage, XLIII/31 Ginger + Capsicum, XLIII/32 bis Mandrake
+- Cells intentionally empty: 6 — XLIII/0 (Ain Soph, by design); CLXXVII/11, 23, 31, 32 bis, 31 bis (structural: scheme keys intelligences to planetary/zodiacal rulers; the five elemental rows have none)
+- Bridges found: 0 (honest negative; all values single-bank, tier attested)
+- CSV rows: 33 (27 weighings + 6 intentionally-empty) — all validated (header, 13 fields, flags, worker id)
+- Authored tool staged (repo-exclusive, NOT pushed): authored-tools/repo-exclusive/weigh_cells.py + README entry
+
+Outputs:
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-19-fillings.csv
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-19-log.md
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/authored-tools/repo-exclusive/weigh_cells.py

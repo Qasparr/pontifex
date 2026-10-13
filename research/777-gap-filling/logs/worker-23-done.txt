@@ -1,0 +1,18 @@
+worker-23 done 2026-10-13
+cells (line refs) worked: 12
+cell records produced: 14 (the LV/31 bis line ref held THREE empty columns — LVI, LVII, LVIII — all unassigned; worked all three)
+cells filled (proposals): 7 — XLIII/27, LI/32 bis, LIII/8, LVI/31 bis, LVII/31 bis, LVIII/31 bis, LXIII/31 bis
+cells intentionally empty: 7 — XVI/0, XXXV/0, LIX/31 bis, LXVIII/31 bis, CXCI/31 bis, LXXXIV/0, LXXXVIII/0
+CSV rows: 27
+custom tools authored: none (ptk used directly; no helper script files created)
+
+SHARES-FILE DISCREPANCIES (verified vs source; true column used in cell_id, shares label in notes):
+- "XLII/27" -> worked XLIII/27 (XLII/27 filled; XLIII/27 + XLIV/27 unassigned by all workers; took XLIII/27, left XLIV/27 noted unassigned)
+- "XLVIII/32 bis" -> worked LI/32 bis (line 1107 is in the L/LI table, not XLVIII)
+- "LV/31 bis" -> worked LVI/31 bis, LVII/31 bis, LVIII/31 bis (LV/31 bis filled)
+- "LXXV/31 bis" -> worked CXCI/31 bis (LXXV-table row 31 bis filled)
+ptk calibrate(): True (first action); unknown() clean on every weighing.
+outputs:
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-23-fillings.csv
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-23-log.md
+nothing pushed anywhere.

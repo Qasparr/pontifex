@@ -1,0 +1,9 @@
+worker-21 done 2026-10-13
+cells worked: 10
+cells with proposals: 2 (CVIII/1 "Satan and Moloch", CVIII/2 "Beelzebub")
+cells intentionally empty: 4 (LII/0, LII/32 bis, LII/31 bis, CVIII/3)
+cells already filled (not gaps): 4 (CLXXXIV/1, CLXXXIV/2, CLXXXIV/3, CLXXXIV/10 — source has Death/Insanity/Dementia (Amnesia)/Sterility; LINE_REFs pointed at filled cells)
+weighings recorded: 9 (6 for CVIII/1, 3 for CVIII/2; every weighing with breakdown + unknown() audit)
+bridges found: 0 (honest negative; no two banks agree on any candidate word)
+chance-flags: 0 (no coincidences claimed)
+outputs: worker-21-fillings.csv (17 rows), worker-21-log.md, authored-tools/repo-exclusive/weigh_worker21.py + README.md

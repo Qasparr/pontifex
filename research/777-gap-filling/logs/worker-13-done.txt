@@ -1,0 +1,27 @@
+WORKER-13 DONE — 2026-10-13
+Column: XLIV (Mineral Drugs.) — title verified against source header line 894-896.
+
+Cells worked: 8 (XLIV/19, 20, 21, 22, 26, 28, 29, 30; source lines 924-936)
+Cells filled (proposals with weighings): 8
+Cells intentionally empty: 0 (no principled bar found; column actively populated)
+Weighing rows written: 34 (tiers: 18 attested / 12 derived / 4 constructed)
+Two-bank bridges found: 0 — honest negatives recorded throughout.
+
+Proposals:
+  XLIV/19 (Teth/Serpent/Leo)      = ORPIMENT  (golden solar pigment; Pliny AURIPIGMENTUM=167, Gk arsenikon=506)
+  XLIV/20 (Yod/Hand/Virgo)        = CINNABAR  (mercury ore; Virgo Mercury-ruled; Gk kinnabari=244)
+  XLIV/21 (Kaph/Palm/Jupiter)     = TIN       (Jupiter's metal; Heb בדיל=46 attested, STANNVM=103)
+  XLIV/22 (Lamed/Ox Goad/Libra)   = COPPER    (Venus's metal; Heb נחשת=758 attested, CVPRVM=94)
+  XLIV/26 (Ayin/Eye/Capricorn)    = ANTIMONY  (Saturnine; kohl = Eye-medicine; Gk stimmi=106 ptk)
+  XLIV/28 (Tzaddi/Fish-hook/Aquarius) = ALUM  (Saturnine white salt; Heb אלום=77 chance-flagged)
+  XLIV/29 (Qoph/Back of head/Pisces)  = IODINE (seaweed-ash discovery; Heb יוד=20); SALT alternate (Heb מלח=78)
+  XLIV/30 (Resh/Head/Sol)         = GOLD      (Sol's metal; Heb זהב=14 attested; AVRVM=76 near-miss of 77, not a hit)
+
+Chance flags: אלום=77 (Hebrew, derived) — resonance with עז=77, filed as coincidence.
+Corrections owned: STIBIVM is 94 not 93 (V=22 in ptk ordinal — the 93 evaporated);
+AVRVM not "avrum"; greek() folds st→stigma=6 (documented) affecting stimmi/stypteria.
+No custom tools authored (ptk covered all weighings); nothing filed under authored-tools/.
+
+Outputs:
+  ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-13-fillings.csv
+  ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-13-log.md

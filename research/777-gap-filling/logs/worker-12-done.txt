@@ -1,0 +1,13 @@
+WORKER-12 DONE — 2026-10-13
+cells worked: 9 (XLIV/4, XLIV/6, XLIV/11, XLIV/13, XLIV/14, XLIV/15, XLIV/16, XLIV/17, XLIV/18 — column XLIV "Mineral Drugs")
+cells filled: 9 (11 proposals incl. 2 alternates: Blue Vitriol, Pearl)
+cells intentionally empty: 0
+weighings (CSV rows): 29
+bridges found: 0 (honest null — programmatic same-word detection, none agreed)
+chance-flags triggered: 0
+calibrate(): True; every unknown() audit clean (skipped=[])
+outputs:
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-12-fillings.csv
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/worker-12-log.md
+- ~/workspace/goals/cross-gematria-777-gap-filling/hidden_files/authored-tools/repo-exclusive/worker-12-weigh.py (+ README entry)
+nothing pushed (per orders)

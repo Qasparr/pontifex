@@ -1,0 +1,9 @@
+worker-07 done 2026-10-13
+cells worked: 7 (XXIV/24, XXIV/25, XXIV/26, XXIV/27, XXIV/28, XXIV/29, XXIV/32)
+cells filled (proposed): 2 — XXIV/27 "Vision of Mangala" (Peh/Mars), XXIV/32 "Vision of Shani" (Tav/Saturn)
+cells intentionally empty: 5 — XXIV/24, XXIV/25, XXIV/26, XXIV/28, XXIV/29 (systematic zodiacal-sign boundary)
+bridges found: 0 (honest negative — spreads reported, no two banks agree on any proposed word)
+csv rows: 13 (8 weighings + 5 intentionally-empty records)
+custom tools authored: 0 (ptk sufficed; no authored-tools entries)
+log: hidden_files/worker-07-log.md
+csv: hidden_files/worker-07-fillings.csv

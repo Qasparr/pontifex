@@ -1,0 +1,10 @@
+worker-15 done — 2026-10-13
+cells worked: 10 (XXXIII/0, 6, 10, 13, 16, 23, 30, 31, 32 bis, 31 bis)
+cells filled (proposals): 9 — BALDR(6), JORD(10), MANI(13), SIF(16), NJORD(23), SOL(30), SURTR(31), NERTHUS(32 bis), ODIN(31 bis); 5 alternates weighed (NERTHUS@10, SKADI, EIR, AEGIR, ERDA)
+cells intentionally empty: 1 — XXXIII/0 (row 0 blank by design in 4 of 6 god-columns; no Norse god-name fits the Ain Soph station; declined: GINNUNGAGAP/BURI/ALFODR)
+weighing rows written: 57 (56 weighings across LATIN-ordinal/AGRIPPA/HEBREW-fallback/HEBREW-gadol + 1 intentional-empty)
+bridges found: 0 genuine two-bank bridges (hechrechi/gadol agreements refused as phantoms per doctrine)
+chance-flags: MANI latin 37 = BALDR latin 37; SURTR latin 96 = SOL hebrew 96; EIR latin 32 = number of paths
+tools authored: general/weigh_spread.py, repo-exclusive/cell_context.py (both tested, both README'd)
+outputs: worker-15-fillings.csv, worker-15-log.md, worker-15-done.txt
+nothing pushed anywhere

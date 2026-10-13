@@ -1,0 +1,31 @@
+WORKER-16 DONE — 2026-10-13
+
+Cells worked: 9 (VI/0, VI/13, VI/14, VI/21, VI/27, VI/30, VI/32, III/32 bis, III/31 bis)
+Cells filled with proposals: 8
+Cells intentionally empty: 1 (VI/0 — row 0 blank by design; Ain Soph has no heaven of Assiah)
+
+Calibrate: PASS before any weighing. unknown() audited on all 16 weighings: zero skipped letters.
+
+Bridges found: 0 honest two-bank bridges. The six Hebrew planet-name proposals
+agree intra-script (hebrew/hebrew_gadol treated as ONE bank per doctrine, not two);
+the two English glosses disagree across latin_ordinal/agrippa (159 vs 1014; 78 vs 308).
+All spreads reported, no coincidence claims, no near-miss asserted as a hit.
+
+Most interesting results (no bridges — the honest negative):
+1. VI/13–32: Crowley's own marginal note at row 12 col VI ("[Planets follow
+   Sephiroth, corresponding]") resolves six of seven VI empties: the Hebrew planet
+   names already attested in rows 1–10 (Levanah 87, Nogah 58, Tzedeq 194,
+   Madim 95/655 gadol, Shemesh 640, Shabbathai 713), placement DERIVED from the
+   note, words ATTESTED in the same column.
+2. Madim מאדים is the only proposal with a real spread (95 hechrechi / 655 gadol)
+   — the standard final-mem convention, flagged in notes, not a second bank.
+3. III/32 bis + III/31 bis are deterministic: col III is "English of Col. II",
+   so Tau -> "Tau (as Egyptian)" and Shin -> "Tooth", copied from rows 32/31.
+
+Files:
+- hidden_files/worker-16-fillings.csv (17 rows: 16 weighings + VI/0 intentionally-empty)
+- hidden_files/worker-16-log.md (ultra-verbose thought log, dead ends included)
+- hidden_files/authored-tools/repo-exclusive/worker16_weigh.py (+ README entry)
+- (no general-pile tools authored)
+
+Nothing pushed. Findings, never doctrine — red pen rules.

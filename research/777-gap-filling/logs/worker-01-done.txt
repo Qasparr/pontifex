@@ -1,0 +1,9 @@
+worker-01 done 2026-10-13
+cells worked: 7 (XLVII/0, XLVII/1, XLVII/2, XLVII/8, XLVII/9, XLVII/11, XLVII/14)
+cells filled (proposed): 2 — XLVII/8 Barqan (برقان)=353 ARABIC_ABJAD constructed; XLVII/9 Murrah (مرة)=240 (245 incl. ة=5) ARABIC_ABJAD constructed
+cells intentionally empty: 5 — XLVII/0 (row 0 by design), XLVII/1, XLVII/2 (supernal, no jinn-king lore), XLVII/11 (no jinn-king for Spirit path), XLVII/14 (Venus king already at row 7)
+bridges found: 0 (single-bank Arabic weighings; no second honest bank per doctrine)
+log: worker-01-log.md (77 lines, ultra-verbose, dead ends included)
+csv: worker-01-fillings.csv (7 data rows, validated)
+correction filed: COLUMN-TITLES.md mislabels XLVII as Taoism-group; source header reads "Kings and Princes of the Jinn"
+authored tools: none (ptk + shell sufficed); nothing staged per refined two-pile instruction

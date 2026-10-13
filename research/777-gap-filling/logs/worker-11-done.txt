@@ -1,0 +1,12 @@
+worker-11 done — 2026-10-13
+Cells worked: 8 (CLXXXVII/23, /27, /28, /29, /31, /32, /32 bis, /31 bis)
+Cells filled: 8 (all with constructed-tier proposals; 1 primary + alternates each)
+Cells intentionally empty: 0 (all 8 verified as genuine gaps; row 0 by-design blankness not applicable)
+CSV rows: 51 (one per proposal-bank weighing)
+Bridges found: 0
+calibrate(): passed before all weighings; unknown()=[] on every weighing
+Files:
+- hidden_files/worker-11-fillings.csv
+- hidden_files/worker-11-log.md
+- hidden_files/authored-tools/repo-exclusive/worker-11-batch_weigh.py
+- hidden_files/authored-tools/repo-exclusive/worker-11-build_csv.py

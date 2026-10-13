@@ -1,0 +1,10 @@
+worker-20 done — 2026-10-13
+cells worked: 12 (XXI/18, XXI/20, XXI/22, XXI/25, LI/2, LI/3, LI/9, L/15, CIX/0, CIX/1, CIX/2, CIX/3)
+cells filled (proposals): 4 (XXI/18, XXI/20, XXI/22, XXI/25 — 8 proposals, 16 weighings, all tier=constructed)
+cells intentionally empty: 8 (CIX/0, CIX/1, CIX/2, CIX/3, L/15, LI/2, LI/3, LI/9)
+bridges found: 0
+chance-flags: 2 (Arwueri ארוארי=418 Hebrew; MOUTH=77 English ordinal)
+csv rows: 24 (header + 24) at hidden_files/worker-20-fillings.csv
+log: hidden_files/worker-20-log.md
+custom tool: hidden_files/authored-tools/repo-exclusive/label_audit.py (+ README entry) — sweeps all 24 share files for column-label/header mismatches; found 9 across workers 04/20/23
+IMPORTANT DATA NOTE: the share file mislabeled 4 cells as XLIX (lines 1076, 1077, 1083, 1089); they are actually in columns L/LI (Transcendental Morality / Coptic numeration). Worked as LI/2, LI/3, LI/9, L/15 with the discrepancy noted in every CSV row. Recommend the parent re-check workers 04 and 23, whose cells hit the same mislabeled region.
