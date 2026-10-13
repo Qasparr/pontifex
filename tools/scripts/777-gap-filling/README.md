@@ -1,0 +1,26 @@
+# Authored tools — REPO-EXCLUSIVE pile
+
+Tools EXCLUSIVE to the 777 gap-filling / PONTIFEX work (only useful here).
+Staged for Qasparr/pontifex under tools/. STAGED ONLY — not pushed.
+Johnathan pushes this pile himself.
+
+Format: `- filename: one-line description (author: worker-NN)`
+
+(none yet — first entry below)
+
+- worker16_weigh.py: Calibrate-then-weigh driver for worker-16's 9 cells: verifies calibrate() passes, weighs Hebrew planet-name proposals in hebrew()/hebrew_gadol() and English glosses in latin()/agrippa(), audits unknown() skips, writes worker-16-fillings.csv (author: worker-16)
+- worker-11-batch_weigh.py: Calibrate-then-weigh batch driver for worker-11's 8 cells (col CLXXXVII Magical Formulae): weighs candidate formula-words across every applicable bank (latin/agrippa/greek/hebrew/gadol) with unknown() skip audits (author: worker-11)
+- worker-11-build_csv.py: Formats worker-11's verified weighings into worker-11-fillings.csv (cell_id, proposal, bank, value, tier, bridge, notes, flag, worker); re-runs calibrate() before writing (author: worker-11)
+- verify_cells.py: verify a worker's share-file cells are genuinely empty dot-runs in 777-crowley.txt before gap-filling (checks row label + dot-run per LINE_REF; splits on "\n" only because the source's form feeds break str.splitlines() numbering) (author: worker-08)
+- weigh_worker05.py: Calibrate-then-weigh harness for worker-05's 16 column-XXIV candidates: IAST normalization (macron strip, hyphen/space drop), Latin-ordinal weighing, unknown() audit per weighing (uppercase-normalized; gotcha documented), term attestations (author: worker-05)
+- worker-12-weigh.py: calibrate-then-weigh batch driver for worker-12's 9 column-XLIV (Mineral Drugs) cells: weighs every (proposal, bank) pair across latin-ordinal/agrippa/hebrew/greek/arabic with unknown() skip audits and letter breakdowns, detects two-bank bridges programmatically (same word required), chance-flag watch-list, writes worker-12-fillings.csv (author: worker-12)
+- worker06_weigh_cells.py: Weighing harness for worker-06's 7 column-XXIV cells (rows 15,17-22): calibrate() first, weighs each Sanskrit/Pali candidate in LATIN_ORDINAL (romanized form) + HEBREW (documented Skt->Heb transliteration scheme, the proper fallback), unknown() audit + breakdown() verification on every weighing (author: worker-06)
+- fillings_emit.py: emit worker fillings CSV rows from a JSON proposal list with the operation's canonical header; validates the PONTIFEX flag and worker id on every row, quotes comma-bearing notes fields (author: worker-14)
+- cell_context.py: print one 777 cell's line with its column-title header and neighbouring rows, verifying dot-run empties against ~/workspace/liber777/777-crowley.txt (author: worker-15)
+- worker10_batch_weigher.py: calibrate-then-weigh batch driver for worker-10's 9 column-CLXXXVII (Magical Formulæ) cells: weighs candidate formula-words (path-letter names in full + weapon-operative words) across Hebrew/Greek/Latin banks, audits unknown() skips per weighing, records transliteration-tier bridges and same-number-different-word chance flags, writes worker-10-fillings.csv (author: worker-10)
+- verify_worker17_cells.py: verifies worker-17's 11 assigned cells (XI/0,12,13,14,21,27,30,32 + IX/0,32bis,31bis) are blank dot-runs in 777-crowley.txt before work begins — row-label match + dot-run in the expected column region per LINE_REF (author: worker-17)
+- weigh_jinn_kings.py: reproduces worker-03's Arabic abjad weighings for the proposed XLVII jinn-king fillings (calibrate() gate, breakdown() and unknown() audit trail, hamza-alif skip documented as 279/280 spread) (author: worker-03)
+- weigh_worker21.py: calibrate-then-weigh driver for worker-21's CVIII/1-2 Qliphoth-prince candidates (Satan/Moloch, Beelzebub) across hebrew/latin/greek with breakdown + unknown() audit per weighing; honest accent-skip handling for Greek (accents stripped openly, tier stays constructed); includes Arabic sanity weighings for the LII bis-row ruling (author: worker-21)
+- label_audit.py: sweep all 24 workers' cells files; for each LINE_REF finds the nearest Roman-numeral column header above the line (skips dotted abbreviations like L.V.X) and flags file labels absent from it — caught 9 XLVII/XLVIII/XLIX mislabels that actually land in columns L/LI (author: worker-20)
+- worker09_taoism_weigh.py: calibrate-then-weigh driver for worker-09's 9 column-XLVI (System of Taoism) cells: weighs Crowley's Yi King trigram tokens (Khien/Tui/Li/Kbn/Sun/Khan/Khwbn, pairs in his "Kan and Khwan" form) four ways — latin_ordinal + agrippa on the printed romanization, hebrew via the twelve-tongues pinyin→LATIN_TO_HEBREW→mispar-hechrechi chain (mergers on actual loss), PRC-standard stroke counts — unknown() audited per weighing, all tiers constructed, writes worker-09-fillings.csv (author: worker-09)
+- weigh_cells.py: calibrate-then-weigh harness for worker-19's 10 cells (XLIII Vegetable Drugs + CLXXVII Geomantic Intelligences): reads candidate/word/bank TSV rows, prints value + unknown() skips + letter-by-letter breakdown per weighing; ships with the worker-19 candidate set (hemlock/sage/ginger/capsicum/mandrake) as built-in default (author: worker-19)
