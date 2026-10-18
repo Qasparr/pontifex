@@ -1,0 +1,8 @@
+{
+ "date": "2026-10-18",
+ "cell": "XXIV/22",
+ "matter": "Tula-bhawana HEBREW: claimed 511 vs recomputed 506 (recorded token)",
+ "ruling": "Flag it what it is (arithmetic discrepancy, off by 5) but OPEN/UNRESOLVED. Do not correct to 506.",
+ "author_note": "5+6=11 in the recomputed token; the 511 seems legitimate to the author.",
+ "status": "open-unresolved"
+}
