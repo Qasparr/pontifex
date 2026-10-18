@@ -1,0 +1,3059 @@
+{
+ "verified": [
+  {
+   "cell": "XLVII/8",
+   "bank": "ARABIC_ABJAD",
+   "value": 353,
+   "via": "'برقان' (plain)"
+  },
+  {
+   "cell": "XLVII/9",
+   "bank": "ARABIC_ABJAD",
+   "value": 240,
+   "via": "'مرة' (plain)"
+  },
+  {
+   "cell": "XLVII/15",
+   "bank": "ARABIC",
+   "value": 517,
+   "via": "'كتمطمح' (plain)"
+  },
+  {
+   "cell": "XLVII/15",
+   "bank": "HEBREW",
+   "value": 517,
+   "via": "hebrew token 'כתמטמח'"
+  },
+  {
+   "cell": "XLVII/15",
+   "bank": "ARABIC",
+   "value": 517,
+   "via": "'كتمطمح' (plain)"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "ARABIC",
+   "value": 124,
+   "via": "'عطهم' (plain)"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "HEBREW",
+   "value": 124,
+   "via": "hebrew token 'עטהמ'"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "ARABIC",
+   "value": 86,
+   "via": "'ةولهم' (ta-marbuta=5)"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "HEBREW",
+   "value": 86,
+   "via": "hebrew token 'הולהמ'"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "ARABIC",
+   "value": 134,
+   "via": "'حوميلم' (plain)"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "HEBREW",
+   "value": 134,
+   "via": "hebrew token 'חומילמ'"
+  },
+  {
+   "cell": "XLVII/16",
+   "bank": "ARABIC",
+   "value": 344,
+   "via": "token-sum (ta-marbuta=5)=344"
+  },
+  {
+   "cell": "XLVII/18",
+   "bank": "ARABIC",
+   "value": 64,
+   "via": "'طيهم' (plain)"
+  },
+  {
+   "cell": "XLVII/18",
+   "bank": "HEBREW",
+   "value": 64,
+   "via": "hebrew token 'טיהמ'"
+  },
+  {
+   "cell": "XLVII/18",
+   "bank": "ARABIC",
+   "value": 71,
+   "via": "'لايل' (plain)"
+  },
+  {
+   "cell": "XLVII/18",
+   "bank": "HEBREW",
+   "value": 71,
+   "via": "hebrew token 'לאיל'"
+  },
+  {
+   "cell": "XLVII/18",
+   "bank": "ARABIC",
+   "value": 135,
+   "via": "token-sum (plain)=135"
+  },
+  {
+   "cell": "XLVII/19",
+   "bank": "ARABIC",
+   "value": 72,
+   "via": "'حللد' (plain)"
+  },
+  {
+   "cell": "XLVII/19",
+   "bank": "HEBREW",
+   "value": 72,
+   "via": "hebrew token 'חללד'"
+  },
+  {
+   "cell": "XLVII/19",
+   "bank": "ARABIC",
+   "value": 114,
+   "via": "'طهسم' (plain)"
+  },
+  {
+   "cell": "XLVII/19",
+   "bank": "HEBREW",
+   "value": 114,
+   "via": "hebrew token 'טהסמ'"
+  },
+  {
+   "cell": "XLVII/19",
+   "bank": "ARABIC",
+   "value": 186,
+   "via": "token-sum (plain)=186"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "ARABIC",
+   "value": 172,
+   "via": "'ةمطحيسم' (ta-marbuta=5)"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "HEBREW",
+   "value": 172,
+   "via": "hebrew token 'המטחיסמ'"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "ARABIC",
+   "value": 195,
+   "via": "'هنقم' (plain)"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "HEBREW",
+   "value": 195,
+   "via": "hebrew token 'הנקמ'"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "ARABIC",
+   "value": 105,
+   "via": "'فهك' (plain)"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "HEBREW",
+   "value": 105,
+   "via": "hebrew token 'פהכ'"
+  },
+  {
+   "cell": "XLVII/20",
+   "bank": "ARABIC",
+   "value": 472,
+   "via": "token-sum (ta-marbuta=5)=472"
+  },
+  {
+   "cell": "XLVII/21",
+   "bank": "ARABIC",
+   "value": 88,
+   "via": "'حديوس' (plain)"
+  },
+  {
+   "cell": "XLVII/21",
+   "bank": "HEBREW",
+   "value": 88,
+   "via": "hebrew token 'חדיוס'"
+  },
+  {
+   "cell": "XLVII/21",
+   "bank": "ARABIC",
+   "value": 343,
+   "via": "'ةروعبس' (ta-marbuta=5)"
+  },
+  {
+   "cell": "XLVII/21",
+   "bank": "HEBREW",
+   "value": 343,
+   "via": "hebrew token 'הרועבס'"
+  },
+  {
+   "cell": "XLVII/21",
+   "bank": "ARABIC",
+   "value": 431,
+   "via": "token-sum (ta-marbuta=5)=431"
+  },
+  {
+   "cell": "XLVII/23",
+   "bank": "ARABIC",
+   "value": 134,
+   "via": "'حوميلم' (plain)"
+  },
+  {
+   "cell": "XLVII/23",
+   "bank": "HEBREW",
+   "value": 134,
+   "via": "hebrew token 'חומילמ'"
+  },
+  {
+   "cell": "XLVII/23",
+   "bank": "ARABIC",
+   "value": 134,
+   "via": "'حوميلم' (plain)"
+  },
+  {
+   "cell": "XLVII/27",
+   "bank": "ARABIC abjad (ptk engine)",
+   "value": 279,
+   "via": "'الأحمر' (plain)"
+  },
+  {
+   "cell": "XLVII/27",
+   "bank": "ARABIC abjad (conventional; hamza-alif=1)",
+   "value": 280,
+   "via": "'الأحمر' (+hamza-alif=1)"
+  },
+  {
+   "cell": "XLVII/30",
+   "bank": "ARABIC abjad",
+   "value": 778,
+   "via": "'المذهب' (plain)"
+  },
+  {
+   "cell": "XLVII/32",
+   "bank": "ARABIC abjad",
+   "value": 146,
+   "via": "'ميمون' (plain)"
+  },
+  {
+   "cell": "XLVII/17",
+   "bank": "ARABIC",
+   "value": 353,
+   "via": "'برقان' (plain)"
+  },
+  {
+   "cell": "XLVII/17",
+   "bank": "ARABIC",
+   "value": 359,
+   "via": "'بورقان' (plain)"
+  },
+  {
+   "cell": "XLVII/17",
+   "bank": "ARABIC",
+   "value": 223,
+   "via": "token-sum (plain)=223"
+  },
+  {
+   "cell": "XLVII/17",
+   "bank": "LATIN-ORDINAL",
+   "value": 53,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/17",
+   "bank": "AGRIPPA",
+   "value": 194,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/22",
+   "bank": "ARABIC",
+   "value": 85,
+   "via": "'زوبعة' (plain)"
+  },
+  {
+   "cell": "XLVII/22",
+   "bank": "LATIN-ORDINAL",
+   "value": 62,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/22",
+   "bank": "AGRIPPA",
+   "value": 513,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/25",
+   "bank": "ARABIC",
+   "value": 851,
+   "via": "'شمهورش' (plain)"
+  },
+  {
+   "cell": "XLVII/25",
+   "bank": "LATIN-ORDINAL",
+   "value": 124,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/25",
+   "bank": "AGRIPPA",
+   "value": 524,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/26",
+   "bank": "ARABIC",
+   "value": 146,
+   "via": "'ميمون' (plain)"
+  },
+  {
+   "cell": "XLVII/26",
+   "bank": "LATIN-ORDINAL",
+   "value": 87,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/26",
+   "bank": "AGRIPPA",
+   "value": 701,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/31 bis",
+   "bank": "ARABIC",
+   "value": 54,
+   "via": "'جان' (plain)"
+  },
+  {
+   "cell": "XLVII/31 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 39,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/31 bis",
+   "bank": "AGRIPPA",
+   "value": 90,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/32 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 66,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 161,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/2",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 147,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/2",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 123,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/3",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 89,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/3",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 91,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/4",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 102,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/4",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 114,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/5",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 36,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/5",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 68,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/7",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 102,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/7",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 90,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/8",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 34,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/8",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 91,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/9",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 121,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/9",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 95,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/12",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 151,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/12",
+   "bank": "LATIN_ORDINAL (IAST transliteration, macrons stripped)",
+   "value": 49,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/15",
+   "bank": "LATIN_ORDINAL",
+   "value": 92,
+   "via": "compact 'KARMAYOGA'"
+  },
+  {
+   "cell": "XXIV/15",
+   "bank": "HEBREW",
+   "value": 289,
+   "via": "hebrew token 'כרמהיוגה'"
+  },
+  {
+   "cell": "XXIV/17",
+   "bank": "LATIN_ORDINAL",
+   "value": 88,
+   "via": "compact 'JNANAYOGA'"
+  },
+  {
+   "cell": "XXIV/17",
+   "bank": "HEBREW",
+   "value": 133,
+   "via": "hebrew token 'גנאנהיוגה'"
+  },
+  {
+   "cell": "XXIV/17",
+   "bank": "LATIN_ORDINAL",
+   "value": 36,
+   "via": "compact 'BUDHA'"
+  },
+  {
+   "cell": "XXIV/17",
+   "bank": "HEBREW",
+   "value": 17,
+   "via": "hebrew token 'בודה'"
+  },
+  {
+   "cell": "XXIV/18",
+   "bank": "LATIN_ORDINAL",
+   "value": 98,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/18",
+   "bank": "HEBREW",
+   "value": 181,
+   "via": "hebrew token 'סומהבהאואנה'"
+  },
+  {
+   "cell": "XXIV/18",
+   "bank": "LATIN_ORDINAL",
+   "value": 115,
+   "via": "compact 'MANTRAYOGA'"
+  },
+  {
+   "cell": "XXIV/18",
+   "bank": "HEBREW",
+   "value": 720,
+   "via": "hebrew token 'מאנתרהיוגה'"
+  },
+  {
+   "cell": "XXIV/19",
+   "bank": "LATIN_ORDINAL",
+   "value": 100,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/19",
+   "bank": "HEBREW",
+   "value": 480,
+   "via": "hebrew token 'תאגובהאואנה'"
+  },
+  {
+   "cell": "XXIV/19",
+   "bank": "LATIN_ORDINAL",
+   "value": 110,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/19",
+   "bank": "HEBREW",
+   "value": 626,
+   "via": "hebrew token 'תאפאססידי'"
+  },
+  {
+   "cell": "XXIV/20",
+   "bank": "LATIN_ORDINAL",
+   "value": 112,
+   "via": "compact 'KRIYAYOGA'"
+  },
+  {
+   "cell": "XXIV/20",
+   "bank": "HEBREW",
+   "value": 269,
+   "via": "hebrew token 'כרייהיוגה'"
+  },
+  {
+   "cell": "XXIV/20",
+   "bank": "LATIN_ORDINAL",
+   "value": 120,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/20",
+   "bank": "HEBREW",
+   "value": 118,
+   "via": "hebrew token 'ויואכהבהאואנה'"
+  },
+  {
+   "cell": "XXIV/21",
+   "bank": "LATIN_ORDINAL",
+   "value": 133,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/21",
+   "bank": "HEBREW",
+   "value": 776,
+   "via": "hebrew token 'גורודארשאנה'"
+  },
+  {
+   "cell": "XXIV/21",
+   "bank": "LATIN_ORDINAL",
+   "value": 78,
+   "via": "compact 'RAJAYOGA'"
+  },
+  {
+   "cell": "XXIV/21",
+   "bank": "HEBREW",
+   "value": 233,
+   "via": "hebrew token 'ראגהיוגה'"
+  },
+  {
+   "cell": "XXIV/22",
+   "bank": "LATIN_ORDINAL",
+   "value": 104,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/22",
+   "bank": "LATIN_ORDINAL",
+   "value": 111,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/22",
+   "bank": "HEBREW",
+   "value": 811,
+   "via": "hebrew token 'דארמהדארשאנה'"
+  },
+  {
+   "cell": "XXIV/27",
+   "bank": "latin",
+   "value": 49,
+   "via": "notes 'MANGALA=49'"
+  },
+  {
+   "cell": "XXIV/27",
+   "bank": "agrippa",
+   "value": 100,
+   "via": "keyword 'Mangala'"
+  },
+  {
+   "cell": "XXIV/27",
+   "bank": "hebrew",
+   "value": 123,
+   "via": "hebrew token 'מנגל'"
+  },
+  {
+   "cell": "XXIV/27",
+   "bank": "latin(phrase)",
+   "value": 158,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXIV/32",
+   "bank": "latin",
+   "value": 51,
+   "via": "keyword 'Shani'"
+  },
+  {
+   "cell": "XXIV/32",
+   "bank": "agrippa",
+   "value": 148,
+   "via": "keyword 'Shani'"
+  },
+  {
+   "cell": "XXIV/32",
+   "bank": "hebrew",
+   "value": 360,
+   "via": "hebrew token 'שני'"
+  },
+  {
+   "cell": "XXIV/32",
+   "bank": "latin(phrase)",
+   "value": 160,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLVI/4",
+   "bank": "latin",
+   "value": 50,
+   "via": "notes breakdown sums to 50"
+  },
+  {
+   "cell": "XLVI/4",
+   "bank": "latin",
+   "value": 47,
+   "via": "notes breakdown sums to 47"
+  },
+  {
+   "cell": "XLVI/5",
+   "bank": "latin",
+   "value": 27,
+   "via": "notes breakdown sums to 27"
+  },
+  {
+   "cell": "XLVI/7",
+   "bank": "latin",
+   "value": 50,
+   "via": "notes breakdown sums to 50"
+  },
+  {
+   "cell": "XLVI/7",
+   "bank": "latin",
+   "value": 54,
+   "via": "notes breakdown sums to 54"
+  },
+  {
+   "cell": "XLVI/8",
+   "bank": "latin",
+   "value": 21,
+   "via": "notes breakdown sums to 21"
+  },
+  {
+   "cell": "XLVI/9",
+   "bank": "latin",
+   "value": 26,
+   "via": "notes breakdown sums to 26"
+  },
+  {
+   "cell": "XLVI/15",
+   "bank": "latin",
+   "value": 21,
+   "via": "notes breakdown sums to 21"
+  },
+  {
+   "cell": "XLVI/16",
+   "bank": "latin",
+   "value": 34,
+   "via": "notes breakdown sums to 34"
+  },
+  {
+   "cell": "XLVI/16",
+   "bank": "latin",
+   "value": 57,
+   "via": "notes breakdown sums to 57"
+  },
+  {
+   "cell": "XLVI/17",
+   "bank": "latin",
+   "value": 54,
+   "via": "notes breakdown sums to 54"
+  },
+  {
+   "cell": "XLVI/18",
+   "bank": "latin",
+   "value": 26,
+   "via": "notes breakdown sums to 26"
+  },
+  {
+   "cell": "XLVI/19",
+   "bank": "latin_ordinal",
+   "value": 27,
+   "via": "notes breakdown sums to 27"
+  },
+  {
+   "cell": "XLVI/19",
+   "bank": "agrippa",
+   "value": 52,
+   "via": "notes breakdown sums to 52"
+  },
+  {
+   "cell": "XLVI/19",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 58,
+   "via": "notes breakdown sums to 58"
+  },
+  {
+   "cell": "XLVI/20",
+   "bank": "latin_ordinal",
+   "value": 27,
+   "via": "notes breakdown sums to 27"
+  },
+  {
+   "cell": "XLVI/20",
+   "bank": "agrippa",
+   "value": 52,
+   "via": "notes breakdown sums to 52"
+  },
+  {
+   "cell": "XLVI/20",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 58,
+   "via": "notes breakdown sums to 58"
+  },
+  {
+   "cell": "XLVI/22",
+   "bank": "latin_ordinal",
+   "value": 105,
+   "via": "notes breakdown sums to 105"
+  },
+  {
+   "cell": "XLVI/22",
+   "bank": "agrippa",
+   "value": 132,
+   "via": "notes breakdown sums to 132"
+  },
+  {
+   "cell": "XLVI/22",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 237,
+   "via": "notes breakdown sums to 237"
+  },
+  {
+   "cell": "XLVI/24",
+   "bank": "latin_ordinal",
+   "value": 34,
+   "via": "notes breakdown sums to 34"
+  },
+  {
+   "cell": "XLVI/24",
+   "bank": "agrippa",
+   "value": 59,
+   "via": "notes breakdown sums to 59"
+  },
+  {
+   "cell": "XLVI/24",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 71,
+   "via": "notes breakdown sums to 71"
+  },
+  {
+   "cell": "XLVI/24",
+   "bank": "latin_ordinal",
+   "value": 58,
+   "via": "notes breakdown sums to 58"
+  },
+  {
+   "cell": "XLVI/24",
+   "bank": "agrippa",
+   "value": 60,
+   "via": "notes breakdown sums to 60"
+  },
+  {
+   "cell": "XLVI/24",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 76,
+   "via": "notes breakdown sums to 76"
+  },
+  {
+   "cell": "XLVI/25",
+   "bank": "latin_ordinal",
+   "value": 55,
+   "via": "notes breakdown sums to 55"
+  },
+  {
+   "cell": "XLVI/25",
+   "bank": "agrippa",
+   "value": 88,
+   "via": "notes breakdown sums to 88"
+  },
+  {
+   "cell": "XLVI/25",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 111,
+   "via": "notes breakdown sums to 111"
+  },
+  {
+   "cell": "XLVI/26",
+   "bank": "latin_ordinal",
+   "value": 34,
+   "via": "notes breakdown sums to 34"
+  },
+  {
+   "cell": "XLVI/26",
+   "bank": "agrippa",
+   "value": 59,
+   "via": "notes breakdown sums to 59"
+  },
+  {
+   "cell": "XLVI/26",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 71,
+   "via": "notes breakdown sums to 71"
+  },
+  {
+   "cell": "XLVI/26",
+   "bank": "latin_ordinal",
+   "value": 58,
+   "via": "notes breakdown sums to 58"
+  },
+  {
+   "cell": "XLVI/26",
+   "bank": "agrippa",
+   "value": 60,
+   "via": "notes breakdown sums to 60"
+  },
+  {
+   "cell": "XLVI/26",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 76,
+   "via": "notes breakdown sums to 76"
+  },
+  {
+   "cell": "XLVI/28",
+   "bank": "latin_ordinal",
+   "value": 47,
+   "via": "notes breakdown sums to 47"
+  },
+  {
+   "cell": "XLVI/28",
+   "bank": "agrippa",
+   "value": 72,
+   "via": "notes breakdown sums to 72"
+  },
+  {
+   "cell": "XLVI/28",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 161,
+   "via": "notes breakdown sums to 161"
+  },
+  {
+   "cell": "XLVI/29",
+   "bank": "latin_ordinal",
+   "value": 50,
+   "via": "notes breakdown sums to 50"
+  },
+  {
+   "cell": "XLVI/29",
+   "bank": "agrippa",
+   "value": 309,
+   "via": "notes breakdown sums to 309"
+  },
+  {
+   "cell": "XLVI/29",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 20,
+   "via": "notes breakdown sums to 20"
+  },
+  {
+   "cell": "XLVI/31 bis",
+   "bank": "latin_ordinal",
+   "value": 54,
+   "via": "notes breakdown sums to 54"
+  },
+  {
+   "cell": "XLVI/31 bis",
+   "bank": "agrippa",
+   "value": 330,
+   "via": "notes breakdown sums to 330"
+  },
+  {
+   "cell": "XLVI/31 bis",
+   "bank": "hebrew_pinyin_fallback",
+   "value": 216,
+   "via": "notes breakdown sums to 216"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "HEBREW",
+   "value": 31,
+   "via": "hebrew token 'אל'"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "GREEK",
+   "value": 31,
+   "via": "'אל'->'αλ'"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "LATIN",
+   "value": 13,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "HEBREW",
+   "value": 21,
+   "via": "hebrew token 'אהיה'"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "LATIN",
+   "value": 26,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "GREEK",
+   "value": 27,
+   "via": "'אהיה'->'αηιη'"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "HEBREW",
+   "value": 11,
+   "via": "hebrew token 'יא'"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "GREEK",
+   "value": 11,
+   "via": "'יא'->'ια'"
+  },
+  {
+   "cell": "CLXXXVII/1",
+   "bank": "LATIN",
+   "value": 10,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/8",
+   "bank": "HEBREW",
+   "value": 91,
+   "via": "hebrew token 'אמן'"
+  },
+  {
+   "cell": "CLXXXVII/8",
+   "bank": "LATIN",
+   "value": 33,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/8",
+   "bank": "GREEK",
+   "value": 99,
+   "via": "latin->greek 'AMEN'->'αμην'"
+  },
+  {
+   "cell": "CLXXXVII/11",
+   "bank": "HEBREW",
+   "value": 111,
+   "via": "hebrew token 'אלף'"
+  },
+  {
+   "cell": "CLXXXVII/11",
+   "bank": "LATIN",
+   "value": 37,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/11",
+   "bank": "GREEK",
+   "value": 531,
+   "via": "'אלף'->'αλφ'"
+  },
+  {
+   "cell": "CLXXXVII/11",
+   "bank": "LATIN",
+   "value": 28,
+   "via": "keyword 'AIR'"
+  },
+  {
+   "cell": "CLXXXVII/11",
+   "bank": "HEBREW",
+   "value": 217,
+   "via": "hebrew token 'אויר'"
+  },
+  {
+   "cell": "CLXXXVII/11",
+   "bank": "GREEK",
+   "value": 109,
+   "via": "greek token 'αήρ'"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "HEBREW",
+   "value": 412,
+   "via": "hebrew token 'בית'"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "LATIN",
+   "value": 39,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "GREEK",
+   "value": 21,
+   "via": "'בית'->'βιθ'"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "GREEK",
+   "value": 353,
+   "via": "greek token 'Ἑρμῆς'"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "LATIN",
+   "value": 68,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "HEBREW",
+   "value": 305,
+   "via": "'hermes'->'הרמס'=305"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "GREEK",
+   "value": 818,
+   "via": "greek token 'Θώθ'"
+  },
+  {
+   "cell": "CLXXXVII/12",
+   "bank": "LATIN",
+   "value": 71,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "HEBREW",
+   "value": 6,
+   "via": "hebrew token 'הא'"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "LATIN",
+   "value": 9,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "GREEK",
+   "value": 9,
+   "via": "'הא'->'ηα'"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "LATIN",
+   "value": 74,
+   "via": "keyword 'ENERGY'"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "LATIN",
+   "value": 70,
+   "via": "keyword 'AZOTH'"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "GREEK",
+   "value": 817,
+   "via": "latin->greek 'AZOTH'->'αζωθ'"
+  },
+  {
+   "cell": "CLXXXVII/15",
+   "bank": "HEBREW",
+   "value": 414,
+   "via": "'azoth'->'אזות'=414"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "HEBREW",
+   "value": 67,
+   "via": "hebrew token 'זין'"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "GREEK",
+   "value": 67,
+   "via": "'זין'->'ζιν'"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "LATIN",
+   "value": 49,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "GREEK",
+   "value": 1061,
+   "via": "greek token 'Ἀπόλλων'"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "LATIN",
+   "value": 71,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "GREEK",
+   "value": 619,
+   "via": "greek token 'Δελφοί'"
+  },
+  {
+   "cell": "CLXXXVII/17",
+   "bank": "LATIN",
+   "value": 54,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "bank": "HEBREW",
+   "value": 20,
+   "via": "hebrew token 'יוד'"
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "bank": "LATIN",
+   "value": 51,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "bank": "LATIN",
+   "value": 58,
+   "via": "keyword 'LVX'"
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "bank": "GREEK",
+   "value": 490,
+   "via": "latin->greek 'LVX'->'λυξ'"
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "bank": "HEBREW",
+   "value": 78,
+   "via": "hebrew token 'לחם'"
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "bank": "LATIN",
+   "value": 46,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "HEBREW",
+   "value": 100,
+   "via": "hebrew token 'כף'"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "LATIN",
+   "value": 35,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "GREEK",
+   "value": 520,
+   "via": "'כף'->'κφ'"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "LATIN",
+   "value": 99,
+   "via": "keyword 'JUPITER'"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "GREEK",
+   "value": 612,
+   "via": "greek token 'Ζεύς'"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "LATIN",
+   "value": 71,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/21",
+   "bank": "HEBREW",
+   "value": 74,
+   "via": "'zeus'->'זאוס'=74"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "HEBREW",
+   "value": 74,
+   "via": "hebrew token 'למד'"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "GREEK",
+   "value": 74,
+   "via": "'למד'->'λμδ'"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "LATIN",
+   "value": 29,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "HEBREW",
+   "value": 148,
+   "via": "hebrew token 'מאזנים'"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "LATIN",
+   "value": 100,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "HEBREW",
+   "value": 441,
+   "via": "'maat'->'מאת'=441"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "GREEK",
+   "value": 342,
+   "via": "latin->greek 'MAAT'->'μαατ'"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "LATIN",
+   "value": 35,
+   "via": "keyword 'MAAT'"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "LATIN",
+   "value": 42,
+   "via": "keyword 'LIBRA'"
+  },
+  {
+   "cell": "CLXXXVII/22",
+   "bank": "LATIN",
+   "value": 74,
+   "via": "keyword 'CROSS'"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "LATIN-ORDINAL",
+   "value": 40,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "AGRIPPA",
+   "value": 272,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "LATIN-ORDINAL",
+   "value": 49,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "AGRIPPA",
+   "value": 333,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "LATIN-ORDINAL",
+   "value": 79,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "AGRIPPA",
+   "value": 479,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/23",
+   "bank": "HEBREW",
+   "value": 90,
+   "via": "hebrew token 'מים'"
+  },
+  {
+   "cell": "CLXXXVII/27",
+   "bank": "LATIN-ORDINAL",
+   "value": 73,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/27",
+   "bank": "AGRIPPA",
+   "value": 331,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/27",
+   "bank": "HEBREW",
+   "value": 210,
+   "via": "hebrew token 'חרב'"
+  },
+  {
+   "cell": "CLXXXVII/27",
+   "bank": "LATIN-ORDINAL",
+   "value": 81,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/27",
+   "bank": "AGRIPPA",
+   "value": 401,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/28",
+   "bank": "LATIN-ORDINAL",
+   "value": 68,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/28",
+   "bank": "AGRIPPA",
+   "value": 398,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/28",
+   "bank": "HEBREW",
+   "value": 709,
+   "via": "hebrew token 'קטרת'"
+  },
+  {
+   "cell": "CLXXXVII/28",
+   "bank": "GREEK",
+   "value": 501,
+   "via": "greek token 'θυμιαμα'"
+  },
+  {
+   "cell": "CLXXXVII/29",
+   "bank": "LATIN-ORDINAL",
+   "value": 110,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/29",
+   "bank": "AGRIPPA",
+   "value": 608,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/29",
+   "bank": "LATIN-ORDINAL",
+   "value": 48,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/29",
+   "bank": "AGRIPPA",
+   "value": 261,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/29",
+   "bank": "HEBREW",
+   "value": 246,
+   "via": "hebrew token 'מראה'"
+  },
+  {
+   "cell": "CLXXXVII/29",
+   "bank": "GREEK",
+   "value": 301,
+   "via": "greek token 'σεληνη'"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "LATIN-ORDINAL",
+   "value": 58,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "AGRIPPA",
+   "value": 155,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "HEBREW",
+   "value": 301,
+   "via": "hebrew token 'אש'"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "LATIN-ORDINAL",
+   "value": 57,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "AGRIPPA",
+   "value": 520,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "LATIN-ORDINAL",
+   "value": 62,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "AGRIPPA",
+   "value": 202,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31",
+   "bank": "GREEK",
+   "value": 580,
+   "via": "greek token 'πυρ'"
+  },
+  {
+   "cell": "CLXXXVII/32",
+   "bank": "LATIN-ORDINAL",
+   "value": 43,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32",
+   "bank": "AGRIPPA",
+   "value": 327,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32",
+   "bank": "HEBREW",
+   "value": 548,
+   "via": "hebrew token 'חרמש'"
+  },
+  {
+   "cell": "CLXXXVII/32",
+   "bank": "LATIN-ORDINAL",
+   "value": 84,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32",
+   "bank": "AGRIPPA",
+   "value": 314,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32",
+   "bank": "GREEK",
+   "value": 189,
+   "via": "greek token 'αρπη'"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 32,
+   "via": "notes 'SAL=32'"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 111,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "HEBREW",
+   "value": 78,
+   "via": "hebrew token 'מלח'"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "HEBREW",
+   "value": 78,
+   "via": "hebrew token 'לחם'"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 62,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 266,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 59,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 200,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 71,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "AGRIPPA",
+   "value": 480,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "HEBREW",
+   "value": 214,
+   "via": "hebrew token 'רוח'"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "HEBREW",
+   "value": 107,
+   "via": "hebrew token 'ביצה'"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "LATIN-ORDINAL",
+   "value": 131,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "AGRIPPA",
+   "value": 638,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CLXXXVII/31 bis",
+   "bank": "GREEK",
+   "value": 576,
+   "via": "greek token 'πνευμα'"
+  },
+  {
+   "cell": "XLIV/4",
+   "bank": "latin-ordinal",
+   "value": 43,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/4",
+   "bank": "agrippa",
+   "value": 149,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/4",
+   "bank": "hebrew",
+   "value": 46,
+   "via": "'bedil'->'בדיל'=46"
+  },
+  {
+   "cell": "XLIV/6",
+   "bank": "latin-ordinal",
+   "value": 38,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/6",
+   "bank": "agrippa",
+   "value": 81,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/6",
+   "bank": "hebrew",
+   "value": 14,
+   "via": "'zahab'->'זהב'=14"
+  },
+  {
+   "cell": "XLIV/11",
+   "bank": "latin-ordinal",
+   "value": 128,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/11",
+   "bank": "agrippa",
+   "value": 516,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/13",
+   "bank": "latin-ordinal",
+   "value": 142,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/13",
+   "bank": "agrippa",
+   "value": 747,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/14",
+   "bank": "latin-ordinal",
+   "value": 73,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/14",
+   "bank": "agrippa",
+   "value": 258,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/14",
+   "bank": "hebrew",
+   "value": 758,
+   "via": "'nehoshet'->'נחשת'=758"
+  },
+  {
+   "cell": "XLIV/14",
+   "bank": "latin-ordinal",
+   "value": 145,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/14",
+   "bank": "agrippa",
+   "value": 695,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/15",
+   "bank": "latin-ordinal",
+   "value": 159,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/15",
+   "bank": "agrippa",
+   "value": 736,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/16",
+   "bank": "latin-ordinal",
+   "value": 72,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/16",
+   "bank": "agrippa",
+   "value": 177,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/16",
+   "bank": "greek",
+   "value": 1190,
+   "via": "'malachite'->'μαλαχιτης'"
+  },
+  {
+   "cell": "XLIV/17",
+   "bank": "latin-ordinal",
+   "value": 62,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/17",
+   "bank": "agrippa",
+   "value": 176,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/17",
+   "bank": "arabic",
+   "value": 340,
+   "via": "'cinnabar'->'زنجفر'"
+  },
+  {
+   "cell": "XLIV/18",
+   "bank": "latin-ordinal",
+   "value": 49,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/18",
+   "bank": "agrippa",
+   "value": 154,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/18",
+   "bank": "hebrew",
+   "value": 80,
+   "via": "'almog'->'אלמוג'=80"
+  },
+  {
+   "cell": "XLIV/18",
+   "bank": "latin-ordinal",
+   "value": 52,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/18",
+   "bank": "agrippa",
+   "value": 166,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/18",
+   "bank": "hebrew",
+   "value": 683,
+   "via": "'margalit'->'מרגלית'=683"
+  },
+  {
+   "cell": "XLIV/19",
+   "bank": "LATIN-ordinal",
+   "value": 110,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/19",
+   "bank": "LATIN-ordinal",
+   "value": 167,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/19",
+   "bank": "GREEK",
+   "value": 506,
+   "via": "greek token 'αρσενικον'"
+  },
+  {
+   "cell": "XLIV/19",
+   "bank": "HEBREW",
+   "value": 287,
+   "via": "hebrew token 'זרניך'"
+  },
+  {
+   "cell": "XLIV/20",
+   "bank": "LATIN-ordinal",
+   "value": 62,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/20",
+   "bank": "GREEK",
+   "value": 244,
+   "via": "greek token 'κινναβαρι'"
+  },
+  {
+   "cell": "XLIV/20",
+   "bank": "HEBREW",
+   "value": 282,
+   "via": "hebrew token 'כינבר'"
+  },
+  {
+   "cell": "XLIV/21",
+   "bank": "LATIN-ordinal",
+   "value": 43,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/21",
+   "bank": "LATIN-ordinal",
+   "value": 103,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/21",
+   "bank": "AGRIPPA",
+   "value": 501,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/21",
+   "bank": "HEBREW",
+   "value": 46,
+   "via": "hebrew token 'בדיל'"
+  },
+  {
+   "cell": "XLIV/22",
+   "bank": "LATIN-ordinal",
+   "value": 73,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/22",
+   "bank": "LATIN-ordinal",
+   "value": 94,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/22",
+   "bank": "AGRIPPA",
+   "value": 573,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/22",
+   "bank": "HEBREW",
+   "value": 758,
+   "via": "hebrew token 'נחשת'"
+  },
+  {
+   "cell": "XLIV/26",
+   "bank": "LATIN-ordinal",
+   "value": 111,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/26",
+   "bank": "LATIN-ordinal",
+   "value": 94,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/26",
+   "bank": "AGRIPPA",
+   "value": 440,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/26",
+   "bank": "GREEK",
+   "value": 106,
+   "via": "greek token 'στιμμι'"
+  },
+  {
+   "cell": "XLIV/26",
+   "bank": "HEBREW",
+   "value": 166,
+   "via": "hebrew token 'אנטימון'"
+  },
+  {
+   "cell": "XLIV/28",
+   "bank": "LATIN-ordinal",
+   "value": 47,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/28",
+   "bank": "LATIN-ordinal",
+   "value": 48,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/28",
+   "bank": "AGRIPPA",
+   "value": 251,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/28",
+   "bank": "GREEK",
+   "value": 905,
+   "via": "greek token 'στυπτηρια'"
+  },
+  {
+   "cell": "XLIV/28",
+   "bank": "HEBREW",
+   "value": 77,
+   "via": "hebrew token 'אלום'"
+  },
+  {
+   "cell": "XLIV/29",
+   "bank": "LATIN-ordinal",
+   "value": 56,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/29",
+   "bank": "GREEK",
+   "value": 1022,
+   "via": "greek token 'ιωδης'"
+  },
+  {
+   "cell": "XLIV/29",
+   "bank": "HEBREW",
+   "value": 20,
+   "via": "hebrew token 'יוד'"
+  },
+  {
+   "cell": "XLIV/29",
+   "bank": "LATIN-ordinal",
+   "value": 52,
+   "via": "keyword 'SALT'"
+  },
+  {
+   "cell": "XLIV/29",
+   "bank": "HEBREW",
+   "value": 78,
+   "via": "hebrew token 'מלח'"
+  },
+  {
+   "cell": "XLIV/30",
+   "bank": "LATIN-ordinal",
+   "value": 38,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/30",
+   "bank": "LATIN-ordinal",
+   "value": 76,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/30",
+   "bank": "AGRIPPA",
+   "value": 511,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIV/30",
+   "bank": "HEBREW",
+   "value": 14,
+   "via": "hebrew token 'זהב'"
+  },
+  {
+   "cell": "VIII/13",
+   "bank": "HEBREW",
+   "value": 84,
+   "via": "hebrew token 'גמיאל'"
+  },
+  {
+   "cell": "VIII/14",
+   "bank": "HEBREW",
+   "value": 579,
+   "via": "token-sum=579"
+  },
+  {
+   "cell": "VIII/21",
+   "bank": "HEBREW",
+   "value": 434,
+   "via": "hebrew token 'עוגשכלה'"
+  },
+  {
+   "cell": "VIII/27",
+   "bank": "HEBREW",
+   "value": 49,
+   "via": "hebrew token 'גולחב'"
+  },
+  {
+   "cell": "VIII/30",
+   "bank": "HEBREW",
+   "value": 869,
+   "via": "hebrew token 'תגרירון'"
+  },
+  {
+   "cell": "VIII/32",
+   "bank": "HEBREW",
+   "value": 702,
+   "via": "hebrew token 'סתאריאל'"
+  },
+  {
+   "cell": "VIII/23",
+   "bank": "AGRIPPA",
+   "value": 280,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "VIII/31",
+   "bank": "AGRIPPA",
+   "value": 190,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "VIII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 161,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/6",
+   "bank": "LATIN-ordinal",
+   "value": 37,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/6",
+   "bank": "AGRIPPA",
+   "value": 107,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "LATIN-ordinal",
+   "value": 47,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "AGRIPPA",
+   "value": 143,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "HEBREW-fallback",
+   "value": 220,
+   "via": "'jord'->'יורד'=220"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "HEBREW-gadol",
+   "value": 220,
+   "via": "'jord'->'יורד'=220"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "LATIN-ordinal",
+   "value": 105,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "AGRIPPA",
+   "value": 523,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "HEBREW-fallback",
+   "value": 716,
+   "via": "'nerthus'->'נרתוס'=716"
+  },
+  {
+   "cell": "XXXIII/10",
+   "bank": "HEBREW-gadol",
+   "value": 716,
+   "via": "'nerthus'->'נרתוס'=716"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "LATIN-ordinal",
+   "value": 37,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "AGRIPPA",
+   "value": 80,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "HEBREW-fallback",
+   "value": 101,
+   "via": "'mani'->'מאני'=101"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "HEBREW-gadol",
+   "value": 101,
+   "via": "'mani'->'מאני'=101"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "LATIN-ordinal",
+   "value": 44,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "AGRIPPA",
+   "value": 114,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "HEBREW-fallback",
+   "value": 175,
+   "via": "'skadi'->'סקאדי'=175"
+  },
+  {
+   "cell": "XXXIII/13",
+   "bank": "HEBREW-gadol",
+   "value": 175,
+   "via": "'skadi'->'סקאדי'=175"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "LATIN-ordinal",
+   "value": 34,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "AGRIPPA",
+   "value": 105,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "HEBREW-fallback",
+   "value": 150,
+   "via": "'sif'->'סיף'=150"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "HEBREW-gadol",
+   "value": 870,
+   "via": "'sif'->'סיף'=870"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "LATIN-ordinal",
+   "value": 32,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "AGRIPPA",
+   "value": 94,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "HEBREW-fallback",
+   "value": 211,
+   "via": "'eir'->'איר'=211"
+  },
+  {
+   "cell": "XXXIII/16",
+   "bank": "HEBREW-gadol",
+   "value": 211,
+   "via": "'eir'->'איר'=211"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "LATIN-ordinal",
+   "value": 61,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "AGRIPPA",
+   "value": 183,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "HEBREW-fallback",
+   "value": 270,
+   "via": "'njord'->'ניורד'=270"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "HEBREW-gadol",
+   "value": 270,
+   "via": "'njord'->'ניורד'=270"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "LATIN-ordinal",
+   "value": 40,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "AGRIPPA",
+   "value": 102,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "HEBREW-fallback",
+   "value": 214,
+   "via": "'aegir'->'איגר'=214"
+  },
+  {
+   "cell": "XXXIII/23",
+   "bank": "HEBREW-gadol",
+   "value": 214,
+   "via": "'aegir'->'איגר'=214"
+  },
+  {
+   "cell": "XXXIII/30",
+   "bank": "LATIN-ordinal",
+   "value": 46,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/30",
+   "bank": "AGRIPPA",
+   "value": 160,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/30",
+   "bank": "HEBREW-fallback",
+   "value": 96,
+   "via": "'sol'->'סול'=96"
+  },
+  {
+   "cell": "XXXIII/30",
+   "bank": "HEBREW-gadol",
+   "value": 96,
+   "via": "'sol'->'סול'=96"
+  },
+  {
+   "cell": "XXXIII/31",
+   "bank": "LATIN-ordinal",
+   "value": 96,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/31",
+   "bank": "AGRIPPA",
+   "value": 550,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/31",
+   "bank": "HEBREW-fallback",
+   "value": 475,
+   "via": "'surtr'->'סורטר'=475"
+  },
+  {
+   "cell": "XXXIII/31",
+   "bank": "HEBREW-gadol",
+   "value": 475,
+   "via": "'surtr'->'סורטר'=475"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "LATIN-ordinal",
+   "value": 105,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 523,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "HEBREW-fallback",
+   "value": 716,
+   "via": "'nerthus'->'נרתוס'=716"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "HEBREW-gadol",
+   "value": 716,
+   "via": "'nerthus'->'נרתוס'=716"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "LATIN-ordinal",
+   "value": 28,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "AGRIPPA",
+   "value": 90,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "HEBREW-fallback",
+   "value": 206,
+   "via": "'erda'->'ארדא'=206"
+  },
+  {
+   "cell": "XXXIII/32 bis",
+   "bank": "HEBREW-gadol",
+   "value": 206,
+   "via": "'erda'->'ארדא'=206"
+  },
+  {
+   "cell": "XXXIII/31 bis",
+   "bank": "LATIN-ordinal",
+   "value": 42,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/31 bis",
+   "bank": "AGRIPPA",
+   "value": 103,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XXXIII/31 bis",
+   "bank": "HEBREW-fallback",
+   "value": 71,
+   "via": "'odin'->'אודין'=71"
+  },
+  {
+   "cell": "XXXIII/31 bis",
+   "bank": "HEBREW-gadol",
+   "value": 721,
+   "via": "'odin'->'אודין'=721"
+  },
+  {
+   "cell": "VI/13",
+   "bank": "hebrew",
+   "value": 87,
+   "via": "notes breakdown sums to 87"
+  },
+  {
+   "cell": "VI/13",
+   "bank": "hebrew_gadol",
+   "value": 87,
+   "via": "notes breakdown sums to 87"
+  },
+  {
+   "cell": "VI/14",
+   "bank": "hebrew",
+   "value": 58,
+   "via": "notes breakdown sums to 58"
+  },
+  {
+   "cell": "VI/14",
+   "bank": "hebrew_gadol",
+   "value": 58,
+   "via": "notes breakdown sums to 58"
+  },
+  {
+   "cell": "VI/21",
+   "bank": "hebrew",
+   "value": 194,
+   "via": "notes breakdown sums to 194"
+  },
+  {
+   "cell": "VI/21",
+   "bank": "hebrew_gadol",
+   "value": 194,
+   "via": "notes breakdown sums to 194"
+  },
+  {
+   "cell": "VI/27",
+   "bank": "hebrew",
+   "value": 95,
+   "via": "notes breakdown sums to 95"
+  },
+  {
+   "cell": "VI/27",
+   "bank": "hebrew_gadol",
+   "value": 655,
+   "via": "notes breakdown sums to 655"
+  },
+  {
+   "cell": "VI/30",
+   "bank": "hebrew",
+   "value": 640,
+   "via": "notes breakdown sums to 640"
+  },
+  {
+   "cell": "VI/30",
+   "bank": "hebrew_gadol",
+   "value": 640,
+   "via": "notes breakdown sums to 640"
+  },
+  {
+   "cell": "VI/32",
+   "bank": "hebrew",
+   "value": 713,
+   "via": "notes breakdown sums to 713"
+  },
+  {
+   "cell": "VI/32",
+   "bank": "hebrew_gadol",
+   "value": 713,
+   "via": "notes breakdown sums to 713"
+  },
+  {
+   "cell": "III/32 bis",
+   "bank": "latin_ordinal",
+   "value": 159,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "III/32 bis",
+   "bank": "agrippa",
+   "value": 1014,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "III/31 bis",
+   "bank": "latin_ordinal",
+   "value": 78,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "III/31 bis",
+   "bank": "agrippa",
+   "value": 308,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIII/24",
+   "bank": "LATIN-ordinal",
+   "value": 75,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/24",
+   "bank": "LATIN-agrippa",
+   "value": 332,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/24",
+   "bank": "LATIN-ordinal",
+   "value": 180,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/24",
+   "bank": "LATIN-agrippa",
+   "value": 917,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/24",
+   "bank": "GREEK",
+   "value": 1005,
+   "via": "greek token 'κωνειον'"
+  },
+  {
+   "cell": "XLIII/24",
+   "bank": "HEBREW",
+   "value": 501,
+   "via": "hebrew token 'ראש'"
+  },
+  {
+   "cell": "XLIII/25",
+   "bank": "LATIN-ordinal",
+   "value": 64,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/25",
+   "bank": "LATIN-agrippa",
+   "value": 321,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/25",
+   "bank": "LATIN-ordinal",
+   "value": 167,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/25",
+   "bank": "LATIN-agrippa",
+   "value": 564,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/25",
+   "bank": "HEBREW",
+   "value": 257,
+   "via": "hebrew token 'מרווה'"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-ordinal",
+   "value": 90,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-agrippa",
+   "value": 652,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-ordinal",
+   "value": 170,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-agrippa",
+   "value": 801,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "HEBREW",
+   "value": 102,
+   "via": "hebrew token 'זנגביל'"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-ordinal",
+   "value": 85,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-agrippa",
+   "value": 396,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-ordinal",
+   "value": 169,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "LATIN-agrippa",
+   "value": 907,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "HEBREW",
+   "value": 220,
+   "via": "hebrew token 'פלפל'"
+  },
+  {
+   "cell": "XLIII/31",
+   "bank": "HEBREW",
+   "value": 620,
+   "via": "hebrew token 'פלפלת'"
+  },
+  {
+   "cell": "XLIII/32 bis",
+   "bank": "LATIN-ordinal",
+   "value": 92,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/32 bis",
+   "bank": "LATIN-agrippa",
+   "value": 294,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/32 bis",
+   "bank": "LATIN-ordinal",
+   "value": 207,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/32 bis",
+   "bank": "LATIN-agrippa",
+   "value": 728,
+   "via": "post---segment"
+  },
+  {
+   "cell": "XLIII/32 bis",
+   "bank": "HEBREW",
+   "value": 65,
+   "via": "hebrew token 'דודאים'"
+  },
+  {
+   "cell": "XXI/18",
+   "bank": "HEBREW",
+   "value": 277,
+   "via": "hebrew token 'הורמכו'"
+  },
+  {
+   "cell": "XXI/18",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 62,
+   "via": "notes 'FOREHEAD=62'"
+  },
+  {
+   "cell": "XXI/18",
+   "bank": "HEBREW",
+   "value": 358,
+   "via": "hebrew token 'חפרע'"
+  },
+  {
+   "cell": "XXI/18",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 46,
+   "via": "notes 'HANDS=46'"
+  },
+  {
+   "cell": "XXI/20",
+   "bank": "HEBREW",
+   "value": 996,
+   "via": "hebrew token 'חרופאקראת'"
+  },
+  {
+   "cell": "XXI/20",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 82,
+   "via": "notes 'TONGUE=82'"
+  },
+  {
+   "cell": "XXI/20",
+   "bank": "HEBREW",
+   "value": 88,
+   "via": "hebrew token 'איזיס'"
+  },
+  {
+   "cell": "XXI/20",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 51,
+   "via": "notes 'CHEEKS=51'"
+  },
+  {
+   "cell": "XXI/22",
+   "bank": "HEBREW",
+   "value": 510,
+   "via": "hebrew token 'מעת'"
+  },
+  {
+   "cell": "XXI/22",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 86,
+   "via": "notes 'RIGHTEAR=86'"
+  },
+  {
+   "cell": "XXI/22",
+   "bank": "HEBREW",
+   "value": 41,
+   "via": "hebrew token 'מא'"
+  },
+  {
+   "cell": "XXI/22",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 77,
+   "via": "notes 'MOUTH=77'"
+  },
+  {
+   "cell": "XXI/25",
+   "bank": "HEBREW",
+   "value": 600,
+   "via": "hebrew token 'נפתיס'"
+  },
+  {
+   "cell": "XXI/25",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 54,
+   "via": "notes 'KNEES=54'"
+  },
+  {
+   "cell": "XXI/25",
+   "bank": "HEBREW",
+   "value": 418,
+   "via": "hebrew token 'ארוארי'"
+  },
+  {
+   "cell": "XXI/25",
+   "bank": "ENGLISH_ORDINAL",
+   "value": 36,
+   "via": "notes 'FEET=36'"
+  },
+  {
+   "cell": "CVIII/1",
+   "bank": "hebrew",
+   "value": 359,
+   "via": "'satan'->'שטן'=359"
+  },
+  {
+   "cell": "CVIII/1",
+   "bank": "latin",
+   "value": 55,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CVIII/1",
+   "bank": "greek",
+   "value": 552,
+   "via": "latin->greek 'Satan'->'σαταν'"
+  },
+  {
+   "cell": "CVIII/1",
+   "bank": "hebrew",
+   "value": 90,
+   "via": "'moloch'->'מלך'=90"
+  },
+  {
+   "cell": "CVIII/1",
+   "bank": "latin",
+   "value": 66,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CVIII/1",
+   "bank": "greek",
+   "value": 810,
+   "via": "'moloch'->'μολοχ'"
+  },
+  {
+   "cell": "CVIII/2",
+   "bank": "hebrew",
+   "value": 119,
+   "via": "'beelzebub'->'בעלזבוב'=119"
+  },
+  {
+   "cell": "CVIII/2",
+   "bank": "latin",
+   "value": 80,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "CVIII/2",
+   "bank": "greek",
+   "value": 556,
+   "via": "'beelzeboul'->'βεελζεβουλ'"
+  },
+  {
+   "cell": "XX/32 bis",
+   "bank": "LATIN",
+   "value": 26,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XX/32 bis",
+   "bank": "HEBREW",
+   "value": 62,
+   "via": "hebrew token 'סב'"
+  },
+  {
+   "cell": "XX/31 bis",
+   "bank": "LATIN",
+   "value": 55,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XX/31 bis",
+   "bank": "HEBREW",
+   "value": 447,
+   "via": "hebrew token 'אתום'"
+  },
+  {
+   "cell": "CLXXXV/4",
+   "bank": "GREEK",
+   "value": 5,
+   "via": "greek token 'ε'"
+  },
+  {
+   "cell": "CLXXXV/7",
+   "bank": "GREEK",
+   "value": 5,
+   "via": "greek token 'ε'"
+  },
+  {
+   "cell": "CXXXII/1",
+   "bank": "LATIN",
+   "value": 324,
+   "via": "full-proposal"
+  },
+  {
+   "cell": "XLIII/27",
+   "bank": "LATIN-ORDINAL",
+   "value": 96,
+   "via": "keyword 'Mustard'"
+  },
+  {
+   "cell": "XLIII/27",
+   "bank": "AGRIPPA",
+   "value": 505,
+   "via": "keyword 'Mustard'"
+  },
+  {
+   "cell": "XLIII/27",
+   "bank": "LATIN-ORDINAL",
+   "value": 87,
+   "via": "keyword 'SINAPIS'"
+  },
+  {
+   "cell": "XLIII/27",
+   "bank": "AGRIPPA",
+   "value": 299,
+   "via": "keyword 'SINAPIS'"
+  },
+  {
+   "cell": "XLIII/27",
+   "bank": "LATIN-ORDINAL",
+   "value": 85,
+   "via": "keyword 'Capsicum'"
+  },
+  {
+   "cell": "XLIII/27",
+   "bank": "AGRIPPA",
+   "value": 396,
+   "via": "keyword 'Capsicum'"
+  },
+  {
+   "cell": "LI/32 bis",
+   "bank": "HEBREW",
+   "value": 400,
+   "via": "'tav'->'ת'=400"
+  },
+  {
+   "cell": "LIII/8",
+   "bank": "GREEK",
+   "value": 900,
+   "via": "'sampi'->'ϡ'"
+  },
+  {
+   "cell": "LVI/31 bis",
+   "bank": "HEBREW",
+   "value": 379,
+   "via": "token-sum=379"
+  },
+  {
+   "cell": "LVI/31 bis",
+   "bank": "HEBREW",
+   "value": 255,
+   "via": "hebrew token 'נהר'"
+  },
+  {
+   "cell": "LVII/31 bis",
+   "bank": "HEBREW",
+   "value": 426,
+   "via": "hebrew token 'תוך'"
+  },
+  {
+   "cell": "LVII/31 bis",
+   "bank": "ENGLISH",
+   "value": 65,
+   "via": "keyword 'Centre'"
+  },
+  {
+   "cell": "LVII/31 bis",
+   "bank": "AGRIPPA",
+   "value": 233,
+   "via": "keyword 'Centre'"
+  },
+  {
+   "cell": "LVII/31 bis",
+   "bank": "HEBREW",
+   "value": 65,
+   "via": "hebrew token 'אדני'"
+  },
+  {
+   "cell": "LVIII/31 bis",
+   "bank": "HEBREW",
+   "value": 77,
+   "via": "hebrew token 'טאביטומ'"
+  },
+  {
+   "cell": "LXIII/31 bis",
+   "bank": "HEBREW",
+   "value": 245,
+   "via": "token-sum=245"
+  },
+  {
+   "cell": "LXIII/31 bis",
+   "bank": "HEBREW-GADOL",
+   "value": 895,
+   "via": "nun-only gadol 'adam kadmon'->'אדם קדמון' (documented)"
+  }
+ ],
+ "mismatches": [
+  {
+   "cell": "XXIV/22",
+   "proposal": "Tula-bhawana",
+   "bank": "HEBREW",
+   "claimed": 511,
+   "tier": "constructed",
+   "notes": "Weighed תולבהאואנה; unknown() empty. No row coincidence."
+  },
+  {
+   "cell": "CLXXXVII/20",
+   "proposal": "YVD (יוד)",
+   "bank": "GREEK",
+   "claimed": 404,
+   "tier": "constructed",
+   "notes": "Weapon: The Lamp and Wand (Virile Force reserved), the Bread [Lotus Wand]. Transliteration; 404, no agreement."
+  },
+  {
+   "cell": "XXXIII/6",
+   "proposal": "BALDR",
+   "bank": "HEBREW-fallback",
+   "claimed": 237,
+   "tier": "constructed",
+   "notes": "The beautiful slain-and-returning god -- Adonis/Dionysus parallel to XXXIV/6 (Iacchus, Apollo, Adonis, Dionysus, Bacchus). Freyr considered, declined: Baldr is the tighter dying-god parallel."
+  },
+  {
+   "cell": "XXXIII/6",
+   "proposal": "BALDR",
+   "bank": "HEBREW-gadol",
+   "claimed": 237,
+   "tier": "constructed",
+   "notes": "The beautiful slain-and-returning god -- Adonis/Dionysus parallel to XXXIV/6 (Iacchus, Apollo, Adonis, Dionysus, Bacchus). Freyr considered, declined: Baldr is the tighter dying-god parallel."
+  },
+  {
+   "cell": "LVIII/31 bis",
+   "proposal": "Elexarpeh, Comananu, Tabitom - the Three Angels ruling ",
+   "bank": "HEBREW",
+   "claimed": 476,
+   "tier": "derived",
+   "notes": "Shares file labeled LV/31 bis (see LVI note). GD Portal-grade Enochian invocation (Regardie, Ceremonial Magic): 'These are the three Angels who rule over the Tablet of Union.' Spirit's tablet has no s"
+  },
+  {
+   "cell": "LVIII/31 bis",
+   "proposal": "Comananu (of the three)",
+   "bank": "HEBREW",
+   "claimed": 254,
+   "tier": "derived",
+   "notes": "Second angel's weighing (Hebrew fallback, constructed transliteration)."
+  }
+ ],
+ "unverifiable": [
+  {
+   "cell": "XLVI/19",
+   "proposal": "Kbn [1]",
+   "bank": "stroke_count_prc",
+   "value": 6,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/20",
+   "proposal": "Kbn [1]",
+   "bank": "stroke_count_prc",
+   "value": 6,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/22",
+   "proposal": "Khien and Khwbn",
+   "bank": "stroke_count_prc",
+   "value": 19,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/24",
+   "proposal": "Khan [2]",
+   "bank": "stroke_count_prc",
+   "value": 7,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/24",
+   "proposal": "Khwbn [0]",
+   "bank": "stroke_count_prc",
+   "value": 8,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/25",
+   "proposal": "Khan and Li",
+   "bank": "stroke_count_prc",
+   "value": 17,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/26",
+   "proposal": "Khan [2]",
+   "bank": "stroke_count_prc",
+   "value": 7,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/26",
+   "proposal": "Khwbn [0]",
+   "bank": "stroke_count_prc",
+   "value": 8,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/28",
+   "proposal": "Khien [7]",
+   "bank": "stroke_count_prc",
+   "value": 11,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/29",
+   "proposal": "Tui [6]",
+   "bank": "stroke_count_prc",
+   "value": 7,
+   "tier": "constructed"
+  },
+  {
+   "cell": "XLVI/31 bis",
+   "proposal": "Sun [3]",
+   "bank": "stroke_count_prc",
+   "value": 12,
+   "tier": "constructed"
+  },
+  {
+   "cell": "LI/32 bis",
+   "proposal": "T (Tau, Coptic) - as row 32",
+   "bank": "COPTIC",
+   "value": 300,
+   "tier": "derived"
+  }
+ ],
+ "n_verified": 486,
+ "n_mismatch": 6,
+ "n_unverifiable": 12
+}
