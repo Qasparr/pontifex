@@ -1,0 +1,12 @@
+term,language,script_form,transliteration_convention,table_used,provenance_tier,value,mergers_or_loss,notes
+AXONEME,English,AXONEME,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,77,"none — 26 letters, 26 distinct values",normalized: none; breakdown A1+X24+O15+N14+E5+M13+E5=77; TARGET HIT 77
+OZ,English,OZ,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,41,"none — 26 letters, 26 distinct values",normalized: none; breakdown O15+Z26=41
+TRVVTH,English,TRVVTH,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,110,"none — 26 letters, 26 distinct values",normalized: none; breakdown T20+R18+V22+V22+T20+H8=110
+THELEMA,English,THELEMA,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,64,"none — 26 letters, 26 distinct values",normalized: none; breakdown T20+H8+E5+L12+E5+M13+A1=64
+AGAPE,English,AGAPE,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,30,"none — 26 letters, 26 distinct values",normalized: none; breakdown A1+G7+A1+P16+E5=30
+BABALON,English,BABALON,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,47,"none — 26 letters, 26 distinct values",normalized: none; breakdown B2+A1+B2+A1+L12+O15+N14=47
+HERU-RA-HA,English,HERU-RA-HA,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,80,"none — 26 letters, 26 distinct values",normalized: hyphen stripped from HERU-RA-HA; breakdown H8+E5+R18+U21+R18+A1+H8+A1=80
+ABRAHADABRA,English,ABRAHADABRA,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,57,"none — 26 letters, 26 distinct values",normalized: none; breakdown A1+B2+R18+A1+H8+A1+D4+A1+B2+R18+A1=57
+QIRA,English,QIRA,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,45,"none — 26 letters, 26 distinct values",normalized: none; breakdown Q17+I9+R18+A1=45
+LIBERTY,English,LIBERTY,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,91,"none — 26 letters, 26 distinct values",normalized: none; breakdown L12+I9+B2+E5+R18+T20+Y25=91
+CELL,English,CELL,native script; no transliteration,LATIN_ORDINAL — English ordinal A=1..Z=26 (native),ATTESTED,32,"none — 26 letters, 26 distinct values",normalized: none; breakdown C3+E5+L12+L12=32

@@ -1,0 +1,24 @@
+term,language,script_form,transliteration_convention,table_used,provenance_tier,value,mergers_or_loss,notes
+AXONEME,Latin,AXONEME,none needed (Latin script native),latin_ordinal,ATTESTED,77,none — 26-letter 1:1 weighing; hyphen is a separator with no value,"Calibrator #1: 1+24+15+14+5+13+5=77, verified letter-by-letter."
+AXONEME,Latin,AXONEME,none needed (Latin script native),agrippa,ATTESTED,431,none — 26-letter 1:1 weighing; hyphen is a separator with no value,"Calibrator #1: 1+24+15+14+5+13+5=77, verified letter-by-letter."
+OZ,Latin,OZ,none needed (Latin script native),latin_ordinal,ATTESTED,41,none — 26-letter 1:1 weighing; hyphen is a separator with no value,"Also the Latin transliteration of the Hebrew-bank reference term עז (ע=70, ז=7, total 77 — attested mispar hechrechi; the Hebrew bank's term, weighed by the Hebrew worker, not here)."
+OZ,Latin,OZ,none needed (Latin script native),agrippa,ATTESTED,550,none — 26-letter 1:1 weighing; hyphen is a separator with no value,"Also the Latin transliteration of the Hebrew-bank reference term עז (ע=70, ז=7, total 77 — attested mispar hechrechi; the Hebrew bank's term, weighed by the Hebrew worker, not here)."
+TRVVTH,Latin,TRVVTH,none needed (Latin script native),latin_ordinal,ATTESTED,110,none — 26-letter 1:1 weighing; hyphen is a separator with no value,Contains VV. Latin ordinal: V=22 each. Agrippa: U/V=200 each — the classical U=V merger is in the table as Agrippa published it.
+TRVVTH,Latin,TRVVTH,none needed (Latin script native),agrippa,ATTESTED,688,none — 26-letter 1:1 weighing; hyphen is a separator with no value,Contains VV. Latin ordinal: V=22 each. Agrippa: U/V=200 each — the classical U=V merger is in the table as Agrippa published it.
+THELEMA,Latin,THELEMA,none needed (Latin script native),latin_ordinal,ATTESTED,64,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+THELEMA,Latin,THELEMA,none needed (Latin script native),agrippa,ATTESTED,169,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+AGAPE,Latin,AGAPE,none needed (Latin script native),latin_ordinal,ATTESTED,30,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+AGAPE,Latin,AGAPE,none needed (Latin script native),agrippa,ATTESTED,74,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+BABALON,Latin,BABALON,none needed (Latin script native),latin_ordinal,ATTESTED,47,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+BABALON,Latin,BABALON,none needed (Latin script native),agrippa,ATTESTED,116,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+HERU-RA-HA,Latin,HERU-RA-HA,hyphen-stripped (HERURAHA),latin_ordinal,ATTESTED,80,none — hyphen stripped; separators carry no value in either Latin table,"Raw form hyphenated (HERU-RA-HA); hyphen stripped before weighing — a separator, not a letter, so no weight is lost."
+HERU-RA-HA,Latin,HERU-RA-HA,hyphen-stripped (HERURAHA),agrippa,ATTESTED,383,none — hyphen stripped; separators carry no value in either Latin table,"Raw form hyphenated (HERU-RA-HA); hyphen stripped before weighing — a separator, not a letter, so no weight is lost."
+ABRAHADABRA,Latin,ABRAHADABRA,none needed (Latin script native),latin_ordinal,ATTESTED,57,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+ABRAHADABRA,Latin,ABRAHADABRA,none needed (Latin script native),agrippa,ATTESTED,181,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+QIRA,Latin,QIRA,none needed (Latin script native),latin_ordinal,ATTESTED,45,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+QIRA,Latin,QIRA,none needed (Latin script native),agrippa,ATTESTED,160,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+LIBERTY,Latin,LIBERTY,none needed (Latin script native),latin_ordinal,ATTESTED,91,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+LIBERTY,Latin,LIBERTY,none needed (Latin script native),agrippa,ATTESTED,616,none — 26-letter 1:1 weighing; hyphen is a separator with no value,
+CELL,Latin,CELL,none needed (Latin script native),latin_ordinal,ATTESTED,32,none — 26-letter 1:1 weighing; hyphen is a separator with no value,"Calibrator #2: 3+5+12+12=32 in Latin ordinal, verified letter-by-letter."
+CELL,Latin,CELL,none needed (Latin script native),agrippa,ATTESTED,48,none — 26-letter 1:1 weighing; hyphen is a separator with no value,"Calibrator #2: 3+5+12+12=32 in Latin ordinal, verified letter-by-letter."
+עז,Hebrew,עז,"n/a — Hebrew bank's term, reference only",hebrew_attested (reference; not weighed in this bank),ATTESTED,77,none — reference row,ע=70 + ז=7 = 77. This is the number the Latin OZ line is checked against.

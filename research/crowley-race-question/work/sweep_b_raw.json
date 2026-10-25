@@ -1,0 +1,321 @@
+{
+ "mismatches": [
+  {
+   "word_hebrew": "שוחונ",
+   "letters_used": "שוחונ",
+   "printed": 114,
+   "recomputed": 370,
+   "transliteration": "ShVChVN",
+   "desc": "Brains",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "אחובראינ",
+   "letters_used": "אחובראינ",
+   "printed": 276,
+   "recomputed": 278,
+   "transliteration": "AChVBRAYN",
+   "desc": "Angel L.T.N. of ♎. [Vide Liber 777, p. 29]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "יהבמצרימ",
+   "letters_used": "יהבמצרימ",
+   "printed": 380,
+   "recomputed": 397,
+   "transliteration": "YHBMTzRYM",
+   "desc": "Difficulty, narrowness",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "ס:ו:ד:",
+   "letters_used": "סוד",
+   "printed": 566,
+   "recomputed": 70,
+   "transliteration": "S:V:D:",
+   "desc": "[SMK + VV + DLTh, SVD = a secret, spelt in full",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "יהוה אלהיכ",
+   "letters_used": "יהוהאלהיכ",
+   "printed": 572,
+   "recomputed": 92,
+   "transliteration": "YHVH ALHYK",
+   "desc": "A chastening GOD. [Deut. xxviii. 58.] [HB:K counted as final]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "א:ו:ר:",
+   "letters_used": "אור",
+   "printed": 628,
+   "recomputed": 207,
+   "transliteration": "A:V:R:",
+   "desc": "Light. [Spelt in full, with HB:V as VA]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "א:ו:ר:",
+   "letters_used": "אור",
+   "printed": 633,
+   "recomputed": 207,
+   "transliteration": "A:V:R:",
+   "desc": "Light. [Spelt in full, when HB:V = VV]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "א:ו:ר:",
+   "letters_used": "אור",
+   "printed": 643,
+   "recomputed": 207,
+   "transliteration": "A:V:R:",
+   "desc": "Light. [Spelt in full, when HB:V = VYV]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "אלהימ",
+   "letters_used": "אלהימ",
+   "printed": 646,
+   "recomputed": 86,
+   "transliteration": "ALHYM",
+   "desc": "Elohim [HB:M counted as Final]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "הא x אלפ",
+   "letters_used": "האאלפ",
+   "printed": 666,
+   "recomputed": 117,
+   "transliteration": "HA x ALP",
+   "desc": "The number 5, which is 6 (HB:HA), on the Grand Scale",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "א:ד:נ:י:",
+   "letters_used": "אדני",
+   "printed": 671,
+   "recomputed": 65,
+   "transliteration": "A:D:N:Y:",
+   "desc": "Adonai. [Spelt in full]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "גלגלימ",
+   "letters_used": "גלגלימ",
+   "printed": 676,
+   "recomputed": 116,
+   "transliteration": "GLGLYM",
+   "desc": "Artificial. [HB:M final]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "ב:ת",
+   "letters_used": "בת",
+   "printed": 709,
+   "recomputed": 402,
+   "transliteration": "B:Th",
+   "desc": "HB:B, HB:G, HB:D, HB:K, HB:P, HB:R, H",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "אמנ",
+   "letters_used": "אמנ",
+   "printed": 741,
+   "recomputed": 91,
+   "transliteration": "AMN",
+   "desc": "(HB:N counted as Final) Amen: see 91",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "למרבה",
+   "letters_used": "למרבה",
+   "printed": 837,
+   "recomputed": 277,
+   "transliteration": "LMRBH",
+   "desc": "[HB:M counted as Final. Vide 277. This \"is\" written]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "כ:ת:ר:",
+   "letters_used": "כתר",
+   "printed": 936,
+   "recomputed": 620,
+   "transliteration": "K:Th:R:",
+   "desc": "Kether. [Spelt in full]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "א:כה:ד:",
+   "letters_used": "אכהד",
+   "printed": 963,
+   "recomputed": 30,
+   "transliteration": "A:CH:D:",
+   "desc": "Achad; unity. [Spelt fully]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "משכנ",
+   "letters_used": "משכנ",
+   "printed": 1060,
+   "recomputed": 410,
+   "transliteration": "MShKN",
+   "desc": "The Tabernacle [HB:N final]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "את יהוה אלהינ",
+   "letters_used": "אתיהוהאלהינ",
+   "printed": 1173,
+   "recomputed": 523,
+   "transliteration": "ATh YHVH ALHYN",
+   "desc": "[With HB:N counted as Final]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "את",
+   "letters_used": "את",
+   "printed": 1400,
+   "recomputed": 401,
+   "transliteration": "ATh",
+   "desc": "Chaos, or = HB:ATh, 401 q.v.",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "בראשית ברא אלהימ",
+   "letters_used": "בראשיתבראאלהימ",
+   "printed": 3200,
+   "recomputed": 1202,
+   "transliteration": "BRAShYTh BRA ALHYM",
+   "desc": "",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "מלכא בתרשישימ ועד ברוה שהרימ",
+   "letters_used": "מלכאבתרשישימועדברוהשהרימ",
+   "printed": 3321,
+   "recomputed": 2201,
+   "transliteration": "MLKA BThRShYShYM Va'aD BRVH ShHRYM",
+   "desc": "The Intelligence of the Intelligences of the ☽",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "שדברשהמעת שרתתנ",
+   "letters_used": "שדברשהמעתשרתתנ",
+   "printed": 3321,
+   "recomputed": 2671,
+   "transliteration": "ShDBRShHMa'aTh ShRThThN",
+   "desc": "The Spirit of the Spirits of the ☽",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  }
+ ],
+ "correct_sample": [
+  {
+   "word_hebrew": "א:א:",
+   "letters_used": "אא",
+   "printed": 2,
+   "recomputed": 2,
+   "transliteration": "A:A:",
+   "desc": "[Abbreviation for 422, ARYK ANPYN, q.v.]",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "אב",
+   "letters_used": "אב",
+   "printed": 3,
+   "recomputed": 3,
+   "transliteration": "AB",
+   "desc": "Father",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "בא",
+   "letters_used": "בא",
+   "printed": 3,
+   "recomputed": 3,
+   "transliteration": "BA",
+   "desc": "To come, go",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "אבא",
+   "letters_used": "אבא",
+   "printed": 4,
+   "recomputed": 4,
+   "transliteration": "ABA",
+   "desc": "Father",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "בב",
+   "letters_used": "בב",
+   "printed": 4,
+   "recomputed": 4,
+   "transliteration": "BB",
+   "desc": "Hollow; a vein",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "גא",
+   "letters_used": "גא",
+   "printed": 4,
+   "recomputed": 4,
+   "transliteration": "GA",
+   "desc": "Proud",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "אד",
+   "letters_used": "אד",
+   "printed": 5,
+   "recomputed": 5,
+   "transliteration": "AD",
+   "desc": "Mist, vapour",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "בג",
+   "letters_used": "בג",
+   "printed": 5,
+   "recomputed": 5,
+   "transliteration": "BG",
+   "desc": "Back",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "גבא",
+   "letters_used": "גבא",
+   "printed": 6,
+   "recomputed": 6,
+   "transliteration": "GBA",
+   "desc": "To gather, collect",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "גג",
+   "letters_used": "גג",
+   "printed": 6,
+   "recomputed": 6,
+   "transliteration": "GG",
+   "desc": "Gog, the giant whose partner is Magog",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "דב",
+   "letters_used": "דב",
+   "printed": 6,
+   "recomputed": 6,
+   "transliteration": "DB",
+   "desc": "A bear",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  },
+  {
+   "word_hebrew": "הא",
+   "letters_used": "הא",
+   "printed": 6,
+   "recomputed": 6,
+   "transliteration": "HA",
+   "desc": "A window",
+   "source": "Sepher Sephiroth (Equinox I:8, 1912; via alanwillms transcription)"
+  }
+ ]
+}
