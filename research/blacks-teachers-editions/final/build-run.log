@@ -1,0 +1,47 @@
+  … typeset 2000 entries
+  … typeset 4000 entries
+  … typeset 6000 entries
+  … typeset 8000 entries
+  … typeset 10000 entries
+  … typeset 12000 entries
+BUILD STATS: {
+ "strikethrough_ok": true,
+ "entries": 13145,
+ "cleanup": {
+  "R1_tabs": 0,
+  "R2_multispace": 896289,
+  "R3_hyphen_join": 378,
+  "R4_trailing_ws": 0
+ },
+ "phantom_keys_absent": true,
+ "kjv_corrections_applied": 8,
+ "kjv_flags_printed": 11,
+ "dropped_last_annotations": 1,
+ "per_well": {
+  "law": 2096,
+  "scripture": 1621,
+  "humanity": 676,
+  "hiphop": 109
+ },
+ "entries_with_notes": 3500,
+ "red_letter": 538,
+ "sans_jour_marked": 1,
+ "rehomes": 83,
+ "direct_joins": 4256,
+ "mapping_entries": 13145,
+ "marker_entries": 772,
+ "markers_total": 775,
+ "register_entries": 18155,
+ "rendered": 13145,
+ "markers_printed": {
+  "candidate": 643,
+  "strong": 132
+ },
+ "substring_fallbacks": 0,
+ "apparatus_counts": {
+  "carried": 3872,
+  "not-carried": 9273
+ },
+ "pages": 3736,
+ "out_pdf": "/home/hatch/workspace/your_files/blacks-teachers-editions/final/blacks-2e-final-teachers-edition.pdf"
+}

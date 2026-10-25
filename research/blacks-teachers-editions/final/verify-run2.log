@@ -1,0 +1,18 @@
+PAGES: 3736  SIZE: 13985049 bytes
+COUNTS: {
+ "apparatus_carried": 3872,
+ "apparatus_not": 9273,
+ "mark_strong": 133,
+ "mark_cand": 644,
+ "struck_label": 1,
+ "not_audited": 1,
+ "murder_new": 2,
+ "murder_old": 1,
+ "gallows_flag": 2,
+ "register_header": 1,
+ "colophon": 1,
+ "flagpole_pages": 0,
+ "self_defense_mentions": 4
+}
+LOCATE: {"sans_jour_headword": [14, 16, 181, 3127], "errata": [11], "register_start": [3660], "murder": [11, 35, 1189, 2358], "ju8titia": [10, 2035]}
+SAMPLE: 32 entries probed, 32 bodies found, 0 missed

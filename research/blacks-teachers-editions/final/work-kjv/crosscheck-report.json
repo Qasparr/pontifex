@@ -1,0 +1,111 @@
+{
+ "diffed_against": "Project Gutenberg #10 (pg10.txt)",
+ "crosscheck_against": "thiagobodruk/bible en_kjv.json",
+ "distinct_cited_verses_compared": 833,
+ "agreements": 816,
+ "agreements_letterstream_blind": 819,
+ "disagreements": [
+  {
+   "verse": "1 Samuel 7:16",
+   "pg": "And he went from year to year in circuit to Bethel, and Gilgal, and Mizpeh, and judged Israel in all those places.",
+   "structured": "And he went from year to year in circuit to Beth-el, and Gilgal, and Mizpeh, and judged Israel in all those places.",
+   "kind": "word-division-or-hyphenation-only"
+  },
+  {
+   "verse": "2 Chronicles 25:24",
+   "pg": "And he took all the gold and the silver, and all the vessels that were found in the house of God with Obededom, and the treasures of the king’s house, the hostages also, and returned to Samaria.",
+   "structured": "And he took all the gold and the silver, and all the vessels that were found in the house of God with Obed-edom, and the treasures of the king’s house, the hostages also, and returned to Samaria.",
+   "kind": "word-division-or-hyphenation-only"
+  },
+  {
+   "verse": "Acts 24:16",
+   "pg": "And herein do I exercise myself, to have always a conscience void to offence toward God, and toward men.",
+   "structured": "And herein do I exercise myself, to have always a conscience void of offence toward God, and toward men.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Deuteronomy 25:22",
+   "pg": null,
+   "structured": null,
+   "kind": "missing-in-one-source"
+  },
+  {
+   "verse": "Deuteronomy 25:23",
+   "pg": null,
+   "structured": null,
+   "kind": "missing-in-one-source"
+  },
+  {
+   "verse": "Genesis 27:19",
+   "pg": "And Jacob said unto his father, I am Esau thy first born; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me.",
+   "structured": "And Jacob said unto his father, I am Esau thy firstborn; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me.",
+   "kind": "word-division-or-hyphenation-only"
+  },
+  {
+   "verse": "Isaiah 62:6",
+   "pg": "I have set watchmen upon thy walls, O Jerusalem, which shall never hold their peace day nor night: ye that make mention of the LORD, keep not silence,",
+   "structured": "I have set watchmen upon thy walls, O Jerusalem, which shall never hold their peace day nor night: ye that make mention of the LORD , keep not silence, remembrancers",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "John 19:12",
+   "pg": "And from thenceforth Pilate sought to release him: but the Jews cried out, saying, If thou let this man go, thou art not Caesar’s friend: whosoever maketh himself a king speaketh against Caesar.",
+   "structured": "And from thenceforth Pilate sought to release him: but the Jews cried out, saying, If thou let this man go, thou art not Cæsar’s friend: whosoever maketh himself a king speaketh against Cæsar.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Leviticus 19:15",
+   "pg": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+   "structured": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Luke 2:1",
+   "pg": "And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.",
+   "structured": "And it came to pass in those days, that there went out a decree from Cæsar Augustus, that all the world should be taxed.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Luke 3:1",
+   "pg": "Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene,",
+   "structured": "Now in the fifteenth year of the reign of Tiberius Cæsar, Pontius Pilate being governor of Judæa, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene,",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Luke 6:15",
+   "pg": "Matthew and Thomas, James the son of Alphaeus, and Simon called Zelotes,",
+   "structured": "Matthew and Thomas, James the son of Alphæus, and Simon called Zelotes,",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Luke 19:8",
+   "pg": "And Zacchaeus stood, and said unto the Lord: Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.",
+   "structured": "And Zacchæus stood, and said unto the Lord; Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Mark 10:46",
+   "pg": "And they came to Jericho: and as he went out of Jericho with his disciples and a great number of people, blind Bartimaeus, the son of Timaeus, sat by the highway side begging.",
+   "structured": "And they came to Jericho: and as he went out of Jericho with his disciples and a great number of people, blind Bartimæus, the son of Timæus, sat by the highway side begging.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Mark 12:17",
+   "pg": "And Jesus answering said unto them, Render to Caesar the things that are Caesar’s, and to God the things that are God’s. And they marvelled at him.",
+   "structured": "And Jesus answering said unto them, Render to Cæsar the things that are Cæsar’s, and to God the things that are God’s. And they marvelled at him.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Matthew 22:21",
+   "pg": "They say unto him, Caesar’s. Then saith he unto them, Render therefore unto Caesar the things which are Caesar’s; and unto God the things that are God’s.",
+   "structured": "They say unto him, Cæsar’s. Then saith he unto them, Render therefore unto Cæsar the things which are Cæsar’s; and unto God the things that are God’s.",
+   "kind": "text-differs"
+  },
+  {
+   "verse": "Proverbs 6:26",
+   "pg": "For by means of a whorish woman a man is brought to a piece of bread: and the adultress will hunt for the precious life.",
+   "structured": "For by means of a whorish woman a man is brought to a piece of bread: and the adulteress will hunt for the precious life.",
+   "kind": "text-differs"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+[
+ {
+  "key": "CLEAR",
+  "idx": 0,
+  "ref": "[Acts 24:16, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: And herein do I exercise myself, to have always a conscience void to offence toward God, and toward men. || Structured: And herein do I exercise myself, to have always a conscience void of offence toward God, and toward men.",
+  "note": "And herein do I exercise myself, to have always a conscience void of offence toward God, and toward men."
+ },
+ {
+  "key": "DENARIUS",
+  "idx": 0,
+  "ref": "[Matthew 22:19-20, KJV]",
+  "reason": "Quote overruns cited range: note continues verbatim into Matthew 22:21, beyond the cited range. Trim the quote or extend the citation — editor's pen; not auto-corrected.",
+  "note": "Shew me the tribute money. And they brought unto him a penny. And he saith unto them, Whose is this image and superscription? They say unto him, Caesar's."
+ },
+ {
+  "key": "EYRE",
+  "idx": 0,
+  "ref": "[1 Samuel 7:16, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: And he went from year to year in circuit to Bethel, and Gilgal, and Mizpeh, and judged Israel in all those places. || Structured: And he went from year to year in circuit to Beth-el, and Gilgal, and Mizpeh, and judged Israel in all those places.",
+  "note": "And he went from year to year in circuit to Beth-el, and Gilgal, and Mizpeh, and judged Israel in all those places."
+ },
+ {
+  "key": "GALLOWS",
+  "idx": 0,
+  "ref": "[Deuteronomy 25:22-23, KJV]",
+  "reason": "Cited verse(s) do not exist in the KJV: [('Deuteronomy', 25, 22), ('Deuteronomy', 25, 23)] (chapter cited past its end). The quotation matches Deuteronomy 21:22; Deuteronomy 21:23 exactly/as a clean partial. Citation NOT changed — editor's pen.",
+  "note": "And if a man have committed a sin worthy of death, and he be to be put to death, and thou hang him on a tree: His body shall not remain all night upon the tree, but thou shalt in any wise bury him that day; (for he that is hanged is accursed of God;)"
+ },
+ {
+  "key": "HADERUNGA",
+  "idx": 0,
+  "ref": "[Leviticus 19:15, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty: but in righteousness shalt thou judge thy neighbour. || Structured: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+  "note": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour."
+ },
+ {
+  "key": "INDIFFERENT",
+  "idx": 0,
+  "ref": "[Leviticus 19:15, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty: but in righteousness shalt thou judge thy neighbour. || Structured: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+  "note": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour."
+ },
+ {
+  "key": "OUVERTURE DES SUCCESSIONS",
+  "idx": 0,
+  "ref": "[Numbers 27:8, KJV]",
+  "reason": "Unmarked omission: note is the cited text minus interior KJV word(s), with no omission mark. Omitted: ['thou', 'shalt', 'speak', 'unto', 'the', 'children', 'of', 'israel', 'saying']. Restore or mark the omission — editor's pen.",
+  "note": "\"And if a man die, and have no son, then ye shall cause his inheritance to pass unto his daughter.\""
+ },
+ {
+  "key": "PACK",
+  "idx": 0,
+  "ref": "[Leviticus 19:15, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty: but in righteousness shalt thou judge thy neighbour. || Structured: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+  "note": "\"Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.\""
+ },
+ {
+  "key": "PERSONATE",
+  "idx": 0,
+  "ref": "[Genesis 27:19, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: And Jacob said unto his father, I am Esau thy first born; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me. || Structured: And Jacob said unto his father, I am Esau thy firstborn; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me.",
+  "note": "And Jacob said unto his father, I am Esau thy firstborn; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me."
+ },
+ {
+  "key": "PREJUDICE",
+  "idx": 0,
+  "ref": "[Leviticus 19:15, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty: but in righteousness shalt thou judge thy neighbour. || Structured: Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+  "note": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour."
+ },
+ {
+  "key": "WHORE",
+  "idx": 0,
+  "ref": "[Proverbs 6:26, KJV]",
+  "reason": "Edition variant: note matches the structured KJV transcription (thiagobodruk en_kjv) for the cited verse(s) but differs from Project Gutenberg #10. PG: For by means of a whorish woman a man is brought to a piece of bread: and the adultress will hunt for the precious life. || Structured: For by means of a whorish woman a man is brought to a piece of bread: and the adulteress will hunt for the precious life.",
+  "note": "For by means of a whorish woman a man is brought to a piece of bread: and the adulteress will hunt for the precious life."
+ }
+]

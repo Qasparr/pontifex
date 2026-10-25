@@ -1,0 +1,58 @@
+[
+ {
+  "key": "BURIAL",
+  "idx": 0,
+  "ref": "[Genesis 23:4, KJV]",
+  "old_note": "I am a stranger and a sojourner with you: give me possession of a buryingplace with you, that I may bury my dead out of my sight.",
+  "new_note": "I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight."
+ },
+ {
+  "key": "IM NOMINE DEI, AMEN",
+  "idx": 0,
+  "ref": "[Colossians 3:17, KJV]",
+  "old_note": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and to the Father by him.",
+  "new_note": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him."
+ },
+ {
+  "key": "MURDER",
+  "idx": 0,
+  "ref": "[Numbers 35:16, KJV]",
+  "old_note": "But if he smite him with an instrument of iron, so that he die, he is a murderer: the murderer shall surely be put to death.",
+  "new_note": "And if he smite him with an instrument of iron, so that he die, he is a murderer: the murderer shall surely be put to death."
+ },
+ {
+  "key": "NOXAL ACTION",
+  "idx": 0,
+  "ref": "[Exodus 21:30, KJV]",
+  "old_note": "\"But if there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.\"",
+  "new_note": "\"If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.\""
+ },
+ {
+  "key": "OBSES",
+  "idx": 0,
+  "ref": "[2 Chronicles 25:24, KJV]",
+  "old_note": "\"And he took all the gold and silver, and all the vessels that were found in the house of God with Obededom, and the treasures of the king's house, the hostages also, and returned to Samaria.\"",
+  "new_note": "\"And he took all the gold and the silver, and all the vessels that were found in the house of God with Obededom, and the treasures of the king's house, the hostages also, and returned to Samaria.\""
+ },
+ {
+  "key": "OPERATIVE",
+  "idx": 0,
+  "ref": "[Luke 10:7, KJV]",
+  "old_note": "\"And remain in the same house, eating and drinking such things as they give: for the labourer is worthy of his hire.\"",
+  "new_note": "\"And in the same house remain, eating and drinking such things as they give: for the labourer is worthy of his hire.\""
+ },
+ {
+  "key": "PEB INFORTUNIUM",
+  "idx": 0,
+  "ref": "[Numbers 35:22-23, KJV]",
+  "old_note": "But if he thrust him suddenly without enmity, or have cast upon him any thing without laying of wait, Or with any stone, whereby a man may die, seeing him not, and cast it upon him, that he die, and was not his enemy, neither sought his harm:",
+  "new_note": "But if he thrust him suddenly without enmity, or have cast upon him any thing without laying of wait, Or with any stone, wherewith a man may die, seeing him not, and cast it upon him, that he die, and was not his enemy, neither sought his harm:"
+ },
+ {
+  "key": "RENDER",
+  "idx": 0,
+  "ref": "[Matthew 22:21, KJV]",
+  "old_note": "Render therefore unto Caesar the things which are Caesar's; and unto God the things which are God's.",
+  "new_note": "Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's."
+ }
+]
