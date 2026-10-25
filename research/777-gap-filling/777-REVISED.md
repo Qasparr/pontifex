@@ -978,12 +978,12 @@ Worker: worker-07
 |------|-------|------|
 | LATIN-ordinal | 37 | attested |
 | AGRIPPA | 107 | attested |
-| HEBREW-fallback | 237 | constructed |
-| HEBREW-gadol | 237 | constructed |
+| HEBREW-fallback | 236 | constructed |
+| HEBREW-gadol | 236 | constructed |
 
 Bridge: none.
 
-Notes: The beautiful slain-and-returning god -- Adonis/Dionysus parallel to XXXIV/6 (Iacchus, Apollo, Adonis, Dionysus, Bacchus). Freyr considered, declined: Baldr is the tighter dying-god parallel.
+Notes: The beautiful slain-and-returning god -- Adonis/Dionysus parallel to XXXIV/6 (Iacchus, Apollo, Adonis, Dionysus, Bacchus). Freyr considered, declined: Baldr is the tighter dying-god parallel. CORRECTED 237->236 by ruling 2026-10-25 (delegated red-pen authority; revisable by his pen): documented phonetic scheme gives בלדר=236.
 
 Worker: worker-15
 
