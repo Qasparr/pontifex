@@ -33,10 +33,13 @@ invention, and invention is not the Latin bank's office.
 
 - **Uppercase** — both tables are case-folding (the engine folds; I did
   the same before weighing).
-- **HERU-RA-HA → HERURAHA**: hyphen stripped. The hyphen is a separator,
+- **HERU-RA-HA → HERVRAHA**: hyphen stripped. The hyphen is a separator,
   not a letter; it carries no value in either table, so no weight is
   lost. Recorded in the CSV's `transliteration_convention` column and in
-  notes.
+  notes. [Orthography correction 2026-10-27: the weighed form was filed
+  as HERURAHA; under the classical rule (every U is V) it is HERVRAHA.
+  Ordinal value corrected at the table below; Agrippa unaffected (the
+  bank reads U as V, 200).]
 - **TRVVTH**: contains VV. Weighed exactly as written — Latin ordinal
   V=22 each; Agrippa U/V=200 each. No classicalization applied (the VV
   spelling is itself classical orthography). The corpus contains no J,
@@ -75,13 +78,15 @@ contains no W, so no weighing in this survey was affected.
 | THELEMA | THELEMA | 64 | 169 | 20+8+5+12+5+13+1 | 100+8+5+20+5+30+1 |
 | AGAPE | AGAPE | 30 | 74 | 1+7+1+16+5 | 1+7+1+60+5 |
 | BABALON | BABALON | 47 | 116 | 2+1+2+1+12+15+14 | 2+1+2+1+20+50+40 |
-| HERU-RA-HA | HERURAHA | 80 | 383 | 8+5+18+21+18+1+8+1 | 8+5+80+200+80+1+8+1 |
+| HERU-RA-HA | HERVRAHA | 81 | 383 | 8+5+18+22+18+1+8+1 | 8+5+80+200+80+1+8+1 |
 | ABRAHADABRA | ABRAHADABRA | 57 | 181 | 1+2+18+1+8+1+4+1+2+18+1 | 1+2+80+1+8+1+4+1+2+80+1 |
 | QIRA | QIRA | 45 | 160 | 17+9+18+1 | 70+9+80+1 |
 | LIBERTY | LIBERTY | 91 | 616 | 12+9+2+5+18+20+25 | 20+9+2+5+80+100+400 |
 | CELL | CELL | **32** ✓32 | 48 | 3+5+12+12 | 3+5+20+20 |
 
 ✓ = calibration target verified letter-by-letter (see log, Step 3).
+
+[Orthography correction 2026-10-27: filed as HERURAHA = 80 under mixed spelling; reweighed under the classical rule (every U is V) as HERVRAHA = 81. Old value marked, not vanished. Agrippa 383 stands — that bank reads U as V (200) by its own publication. The ×4.79 factor in the scaling table below derived from the filed 80 and is likewise corrected to ×4.72. The survey's no-collisions finding survives at 81: all eleven ordinal values remain distinct.]
 
 ### Calibrations — confirmed
 
@@ -126,7 +131,7 @@ numbers on this corpus.
 | THELEMA | 64 | 169 | 2.64 |
 | QIRA | 45 | 160 | 3.56 |
 | ABRAHADABRA | 57 | 181 | 3.18 |
-| HERURAHA | 80 | 383 | 4.79 |
+| HERVRAHA | 81 | 383 | 4.72 |
 | AXONEME | 77 | 431 | 5.60 |
 | TRVVTH | 110 | 688 | 6.25 |
 | LIBERTY | 91 | 616 | 6.77 |

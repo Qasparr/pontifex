@@ -375,12 +375,14 @@ Worker: worker-14
 
 ### XX/31 bis — Spirit (31 bis)
 
-**Proposal:** Atum `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Atvm `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN | 55 | constructed |
+| LATIN | 56 | constructed |
 | HEBREW | 447 | constructed |
+
+[Orthography correction 2026-10-27: filed as ATUM = 55 under mixed spelling; reweighed under the classical rule (every U is V) as ATVM = 56. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -537,7 +539,9 @@ Worker: worker-05
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 123 | constructed |
+| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 124 | constructed |
+
+[Orthography correction 2026-10-27: filed as MUDITA-SAMADHI = 123 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 124. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -551,7 +555,9 @@ Worker: worker-05
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 89 | constructed |
+| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 90 | constructed |
+
+[Orthography correction 2026-10-27: filed as MAHAKARUNA = 89 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 90. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -581,7 +587,7 @@ Worker: worker-05
 
 Bridge: none.
 
-Notes: PRIMARY. Term attested: Pali canon, the four divine abidings; Visuddhimagga: metta-bhavana issues in the brahma-abidings. Chesed=mercy is metta's own sephira. CHANCE-FLAG: value 102 coincides with Sayujya (XXIV/7) -- different word, coincidence only. unknown()=[] verified.
+Notes: PRIMARY. Term attested: Pali canon, the four divine abidings; Visuddhimagga: metta-bhavana issues in the brahma-abidings. Chesed=mercy is metta's own sephira. CHANCE-FLAG: value 102 coincides with Sayujya (XXIV/7) -- different word, coincidence only. [Orthography correction 2026-10-27: Sayujya reweighed 102 → 103 under the classical rule (see its entry at XXIV/7); the coincidence printed here no longer holds as written and stands marked.] unknown()=[] verified.
 
 Worker: worker-05
 
@@ -629,7 +635,9 @@ Worker: worker-05
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 102 | constructed |
+| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 103 | constructed |
+
+[Orthography correction 2026-10-27: filed as SAYUJYA = 102 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 103. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -667,7 +675,9 @@ Worker: worker-05
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 91 | constructed |
+| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 92 | constructed |
+
+[Orthography correction 2026-10-27: filed as VIBHUTI = 91 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 92. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -693,7 +703,9 @@ Worker: worker-05
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 95 | constructed |
+| LATIN_ORDINAL (IAST transliteration, macrons stripped) | 96 | constructed |
+
+[Orthography correction 2026-10-27: filed as DHAMMACAKKHU = 95 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 96. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -757,12 +769,14 @@ Notes: Weighed compact JNANAYOGA; unknown() empty. jnana-yoga attested (Gita); p
 
 Worker: worker-06
 
-**Proposal:** Vision of Budha `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Vision of Bvdha `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL | 36 | constructed |
+| LATIN_ORDINAL | 37 | constructed |
 | HEBREW | 17 | constructed |
+
+[Orthography correction 2026-10-27: filed as BUDHA = 36 under mixed spelling; reweighed under the classical rule (every U is V) as BVDHA = 37. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -860,8 +874,10 @@ Worker: worker-06
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL | 133 | constructed |
+| LATIN_ORDINAL | 135 | constructed |
 | HEBREW | 776 | constructed |
+
+[Orthography correction 2026-10-27: filed as GURU-DARSHANA = 133 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 135. Old value marked, not vanished. The Notes remark that the filed 133 also equals JNANAYOGA (Hebrew) described the filed value and lapses with it.]
 
 Bridge: none.
 
@@ -888,8 +904,10 @@ Worker: worker-06
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN_ORDINAL | 104 | constructed |
+| LATIN_ORDINAL | 105 | constructed |
 | HEBREW | 511 | constructed |
+
+[Orthography correction 2026-10-27: filed as TULA-BHAWANA = 104 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 105. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1004,14 +1022,16 @@ Notes: The Norse earth goddess (Thor's mother), the inhabited earth. Alternative
 
 Worker: worker-15
 
-**Proposal:** NERTHUS `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** NERTHVS `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 105 | attested |
+| LATIN-ordinal | 106 | attested |
 | AGRIPPA | 523 | attested |
 | HEBREW-fallback | 716 | constructed |
 | HEBREW-gadol | 716 | constructed |
+
+[Orthography correction 2026-10-27: filed as NERTHUS = 105 under mixed spelling; reweighed under the classical rule (every U is V) as NERTHVS = 106. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1134,18 +1154,20 @@ Worker: worker-15
 
 ### XXXIII/31 — Path of Shin (Fire)
 
-**Proposal:** SURTR `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** SVRTR `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 96 | attested |
+| LATIN-ordinal | 97 | attested |
 | AGRIPPA | 550 | attested |
 | HEBREW-fallback | 475 | constructed |
 | HEBREW-gadol | 475 | constructed |
 
+[Orthography correction 2026-10-27: filed as SURTR = 96 under mixed spelling; reweighed under the classical rule (every U is V) as SVRTR = 97. Old value marked, not vanished.]
+
 Bridge: none.
 
-Notes: The fire giant of Muspelheim, flaming sword at Ragnarok -- the fire office (XXXIV/31: Hades). Chance-flag: SURTR latin 96 = SOL hebrew 96, cross-word coincidence, not a bridge.
+Notes: The fire giant of Muspelheim, flaming sword at Ragnarok -- the fire office (XXXIV/31: Hades). Chance-flag: SURTR latin 96 = SOL hebrew 96, cross-word coincidence, not a bridge. [Orthography correction 2026-10-27: SVRTR reweighed = 97 under the classical rule (see table above); the coincidence with SOL hebrew 96 printed here no longer holds and stands marked as superseded.]
 
 Worker: worker-15
 
@@ -1168,14 +1190,16 @@ Worker: worker-15
 
 ### XXXIII/32 bis — Earth (element, added row)
 
-**Proposal:** NERTHUS `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** NERTHVS `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 105 | attested |
+| LATIN-ordinal | 106 | attested |
 | AGRIPPA | 523 | attested |
 | HEBREW-fallback | 716 | constructed |
 | HEBREW-gadol | 716 | constructed |
+
+[Orthography correction 2026-10-27: filed as NERTHUS = 105 under mixed spelling; reweighed under the classical rule (every U is V) as NERTHVS = 106. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1246,12 +1270,14 @@ Worker: worker-15
 
 ### XLIII/24 — 24 = Nun = Scorpio = Death (path 6-7)
 
-**Proposal:** Hemlock (Conium maculatum) -- CONIUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Hemlock (Conium maculatum) -- CONIVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 75 | attested |
+| LATIN-ordinal | 76 | attested |
 | LATIN-agrippa | 332 | attested |
+
+[Orthography correction 2026-10-27: filed as CONIUM = 75 under mixed spelling; reweighed under the classical rule (every U is V) as CONIVM = 76. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1259,12 +1285,14 @@ Notes: Proposal: Hemlock for Nun=Scorpio=Death: the classic death-poison (Socrat
 
 Worker: worker-19
 
-**Proposal:** Hemlock (Conium maculatum) -- CONIUM MACULATUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Hemlock (Conium maculatum) -- CONIVM MACVLATVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 180 | attested |
+| LATIN-ordinal | 183 | attested |
 | LATIN-agrippa | 917 | attested |
+
+[Orthography correction 2026-10-27: filed as CONIUM MACULATUM = 180 under mixed spelling; reweighed under the classical rule (every U is V) as CONIVM MACVLATVM = 183. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1368,8 +1396,10 @@ Worker: worker-23
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 85 | constructed |
+| LATIN-ORDINAL | 86 | constructed |
 | AGRIPPA | 396 | constructed |
+
+[Orthography correction 2026-10-27: filed as CAPSICUM = 85 under mixed spelling; reweighed under the classical rule (every U is V) as CAPSICVM = 86. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1417,12 +1447,14 @@ Notes: Proposal: Ginger for Shin=Fire=Aeon: the heating/pungent drug; the same w
 
 Worker: worker-19
 
-**Proposal:** Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 85 | attested |
+| LATIN-ordinal | 86 | attested |
 | LATIN-agrippa | 396 | attested |
+
+[Orthography correction 2026-10-27: filed as CAPSICUM = 85 under mixed spelling; reweighed under the classical rule (every U is V) as CAPSICVM = 86. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1430,12 +1462,14 @@ Notes: Proposal: Capsicum (chili/cayenne) for Shin=Fire=Aeon: the fiery drug par
 
 Worker: worker-19
 
-**Proposal:** Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICUM ANNUUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICVM ANNVVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 169 | attested |
+| LATIN-ordinal | 172 | attested |
 | LATIN-agrippa | 907 | attested |
+
+[Orthography correction 2026-10-27: filed as CAPSICUM ANNUUM = 169 under mixed spelling; reweighed under the classical rule (every U is V) as CAPSICVM ANNVVM = 172. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1482,12 +1516,14 @@ Notes: Proposal: Mandrake for 32 bis=Earth: the magical earth-root, narcotic ('d
 
 Worker: worker-19
 
-**Proposal:** Mandrake (Mandragora officinarum) -- MANDRAGORA OFFICINARUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Mandrake (Mandragora officinarum) -- MANDRAGORA OFFICINARVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 207 | attested |
+| LATIN-ordinal | 208 | attested |
 | LATIN-agrippa | 728 | attested |
+
+[Orthography correction 2026-10-27: filed as MANDRAGORA OFFICINARUM = 207 under mixed spelling; reweighed under the classical rule (every U is V) as MANDRAGORA OFFICINARVM = 208. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1602,12 +1638,14 @@ Worker: worker-12
 
 ### XLIV/15 — Heh — Window (Aries, Mars-ruled)
 
-**Proposal:** Crocus Martis `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** CROCVS MARTIS `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin-ordinal | 159 | derived |
+| latin-ordinal | 160 | derived |
 | agrippa | 736 | derived |
+
+[Orthography correction 2026-10-27: filed as Crocus Martis = 159 under mixed spelling; reweighed under the classical rule (every U is V) as CROCVS MARTIS = 160. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1691,11 +1729,13 @@ Notes: English native weighing; golden alchemical pigment, solar colour for Leo;
 
 Worker: worker-13
 
-**Proposal:** AURIPIGMENTUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** AVRIPIGMENTVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 167 | attested |
+| LATIN-ordinal | 169 | attested |
+
+[Orthography correction 2026-10-27: filed as AURIPIGMENTUM = 167 under mixed spelling; reweighed under the classical rule (every U is V) as AVRIPIGMENTVM = 169. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -1896,11 +1936,13 @@ Worker: worker-13
 
 ### XLIV/28 — Tzaddi - Fish-hook - Aquarius
 
-**Proposal:** ALUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** ALVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ordinal | 47 | attested |
+| LATIN-ordinal | 48 | attested |
+
+[Orthography correction 2026-10-27: filed as ALUM = 47 under mixed spelling; reweighed under the classical rule (every U is V) as ALVM = 48. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -2050,11 +2092,13 @@ Worker: worker-13
 
 ### XLVI/4 — Chesed — The Vision of Love
 
-**Proposal:** TUI `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** TVI `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin | 50 | constructed |
+| latin | 51 | constructed |
+
+[Orthography correction 2026-10-27: filed as TUI = 50 under mixed spelling; reweighed under the classical rule (every U is V) as TVI = 51. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -2090,11 +2134,13 @@ Worker: worker-08
 
 ### XLVI/7 — Netzach — The Vision of Beauty Triumphant
 
-**Proposal:** TUI `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** TVI `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin | 50 | constructed |
+| latin | 51 | constructed |
+
+[Orthography correction 2026-10-27: filed as TUI = 50 under mixed spelling; reweighed under the classical rule (every U is V) as TVI = 51. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -2102,11 +2148,13 @@ Notes: Netzach/Vision of Beauty Triumphant: Tui = the Joyous; beauty's triumph i
 
 Worker: worker-08
 
-**Proposal:** SUN `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** SVN `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin | 54 | constructed |
+| latin | 55 | constructed |
+
+[Orthography correction 2026-10-27: filed as SUN = 54 under mixed spelling; reweighed under the classical rule (every U is V) as SVN = 55. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -2184,11 +2232,13 @@ Worker: worker-08
 
 ### XLVI/17 — Zayin/Gemini path — bilocation and Prophecy
 
-**Proposal:** SUN `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** SVN `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin | 54 | constructed |
+| latin | 55 | constructed |
+
+[Orthography correction 2026-10-27: filed as SUN = 54 under mixed spelling; reweighed under the classical rule (every U is V) as SVN = 55. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -2361,11 +2411,13 @@ Worker: worker-09
 
 ### XLVI/29 — Qoph (Back of head), Pisces/Moon
 
-**Proposal:** Tui [6] `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Tvi [6] `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin_ordinal | 50 | constructed |
+| latin_ordinal | 51 | constructed |
+
+[Orthography correction 2026-10-27: filed as TUI = 50 under mixed spelling; reweighed under the classical rule (every U is V) as TVI = 51. Old value marked, not vanished.]
 | agrippa | 309 | constructed |
 | hebrew_pinyin_fallback | 20 | constructed |
 | stroke_count_prc | 7 | constructed |
@@ -2378,11 +2430,13 @@ Worker: worker-09
 
 ### XLVI/31 bis — Shin repeated — Spirit
 
-**Proposal:** Sun [3] `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Svn [3] `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| latin_ordinal | 54 | constructed |
+| latin_ordinal | 55 | constructed |
+
+[Orthography correction 2026-10-27: filed as SUN = 54 under mixed spelling; reweighed under the classical rule (every U is V) as SVN = 55. Old value marked, not vanished.]
 | agrippa | 330 | constructed |
 | hebrew_pinyin_fallback | 216 | constructed |
 | stroke_count_prc | 12 | constructed |
@@ -2955,8 +3009,10 @@ Worker: worker-04
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 124 | derived |
+| LATIN-ORDINAL | 125 | derived |
 | AGRIPPA | 524 | derived |
+
+[Orthography correction 2026-10-27: filed as SHAMHURISH = 124 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 125. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -2982,8 +3038,10 @@ Worker: worker-04
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 87 | derived |
+| LATIN-ORDINAL | 88 | derived |
 | AGRIPPA | 701 | derived |
+
+[Orthography correction 2026-10-27: filed as MAYMUN = 87 under mixed spelling (U weighed 21); reweighed under the classical rule (every U is V — in the Latin bank U reads as V, 22) = 88. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -3378,13 +3436,15 @@ Worker: worker-21
 
 ### CVIII/2 — 2 = Chokmah (2nd Sephirah)
 
-**Proposal:** Beelzebub `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** Beelzebvb `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
 | hebrew | 119 | attested |
-| latin | 80 | constructed |
+| latin | 81 | constructed |
 | greek | 556 | constructed |
+
+[Orthography correction 2026-10-27: filed as Beelzebub = 80 under mixed spelling; reweighed under the classical rule (every U is V) as BEELZEBVB = 81. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -3823,12 +3883,14 @@ Notes: Weapon: The Lamp and Wand (Virile Force reserved), the Bread [Lotus Wand]
 
 Worker: worker-10
 
-**Proposal:** LVX (lux) `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** LVX (lvx) `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
 | LATIN | 58 | attested |
 | GREEK | 490 | constructed |
+
+[Respell only, 2026-10-27: gloss filed as (lux); classical form (lvx) under the ruling (every U is V). Value 58 stands — no reweighing.]
 
 Bridge: none.
 
@@ -3865,11 +3927,13 @@ Notes: Weapon: The Sceptre. Kaph spelled in full; the formula OF the path. 100.
 
 Worker: worker-10
 
-**Proposal:** JUPITER (jupiter) `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** JVPITER (jupiter) `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN | 99 | attested |
+| LATIN | 100 | attested |
+
+[Orthography correction 2026-10-27: filed as JUPITER = 99 under mixed spelling; reweighed under the classical rule (every U is V) as JVPITER = 100. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -3877,13 +3941,15 @@ Notes: Weapon: The Sceptre. Jupiter, wielder of the Sceptre; Latin word on its n
 
 Worker: worker-10
 
-**Proposal:** ZEUS (Ζεύς) `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** ZEVS (Ζεύς) `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
 | GREEK | 612 | attested |
-| LATIN | 71 | constructed |
+| LATIN | 72 | constructed |
 | HEBREW | 74 | constructed |
+
+[Orthography correction 2026-10-27: filed as ZEUS = 71 under mixed spelling; reweighed under the classical rule (every U is V) as ZEVS = 72. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -3961,12 +4027,14 @@ Worker: worker-10
 
 ### CLXXXVII/23 — Mem (Water), 23rd path
 
-**Proposal:** AQUA `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** AQVA `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 40 | constructed |
+| LATIN-ORDINAL | 41 | constructed |
 | AGRIPPA | 272 | constructed |
+
+[Orthography correction 2026-10-27: filed as AQUA = 40 under mixed spelling; reweighed under the classical rule (every U is V) as AQVA = 41. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -3987,12 +4055,14 @@ Notes: ALTERNATE (Latin: cup). unknown()=[].
 
 Worker: worker-11
 
-**Proposal:** VINUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** VINVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 79 | constructed |
+| LATIN-ORDINAL | 80 | constructed |
 | AGRIPPA | 479 | constructed |
+
+[Orthography correction 2026-10-27: filed as VINUM = 79 under mixed spelling; reweighed under the classical rule (every U is V) as VINVM = 80. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4014,12 +4084,14 @@ Worker: worker-11
 
 ### CLXXXVII/27 — Peh (Mouth, Mars), 27th path
 
-**Proposal:** GLADIUS `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** GLADIVS `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 73 | constructed |
+| LATIN-ORDINAL | 74 | constructed |
 | AGRIPPA | 331 | constructed |
+
+[Orthography correction 2026-10-27: filed as GLADIUS = 73 under mixed spelling; reweighed under the classical rule (every U is V) as GLADIVS = 74. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4039,12 +4111,14 @@ Notes: ALTERNATE (Hebrew: sword, cherev). unknown()=[].
 
 Worker: worker-11
 
-**Proposal:** FERRUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** FERRVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 81 | constructed |
+| LATIN-ORDINAL | 82 | constructed |
 | AGRIPPA | 401 | constructed |
+
+[Orthography correction 2026-10-27: filed as FERRUM = 81 under mixed spelling; reweighed under the classical rule (every U is V) as FERRVM = 82. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4054,12 +4128,14 @@ Worker: worker-11
 
 ### CLXXXVII/28 — Tzaddi (Fish-hook), 28th path
 
-**Proposal:** THUS `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** THVS `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 68 | constructed |
+| LATIN-ORDINAL | 69 | constructed |
 | AGRIPPA | 398 | constructed |
+
+[Orthography correction 2026-10-27: filed as THUS = 68 under mixed spelling; reweighed under the classical rule (every U is V) as THVS = 69. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4093,12 +4169,14 @@ Worker: worker-11
 
 ### CLXXXVII/29 — Qoph (Back of head, Moon), 29th path
 
-**Proposal:** SPECULUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** SPECVLVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 110 | constructed |
+| LATIN-ORDINAL | 112 | constructed |
 | AGRIPPA | 608 | constructed |
+
+[Orthography correction 2026-10-27: filed as SPECULUM = 110 under mixed spelling; reweighed under the classical rule (every U is V) as SPECVLVM = 112. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4106,12 +4184,14 @@ Notes: PRIMARY. Weapon (col XLI): The Twilight of the Place and Magic Mirror; st
 
 Worker: worker-11
 
-**Proposal:** LUNA `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** LVNA `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 48 | constructed |
+| LATIN-ORDINAL | 49 | constructed |
 | AGRIPPA | 261 | constructed |
+
+[Orthography correction 2026-10-27: filed as LUNA = 48 under mixed spelling; reweighed under the classical rule (every U is V) as LVNA = 49. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4170,12 +4250,14 @@ Notes: ALTERNATE (Hebrew: fire, esh). NOTE: =301, same number as σεληνη (/
 
 Worker: worker-11
 
-**Proposal:** LUX `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** LVX `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 57 | constructed |
+| LATIN-ORDINAL | 58 | constructed |
 | AGRIPPA | 520 | constructed |
+
+[Orthography correction 2026-10-27: filed as LUX = 57 under mixed spelling; reweighed under the classical rule (every U is V) as LVX = 58. Old value marked, not vanished. The respelled entry now converges at 58 with the pre-existing LVX entry (CLXXXVII/20), which was already filed in classical spelling and stands untouched.]
 
 Bridge: none.
 
@@ -4210,12 +4292,14 @@ Worker: worker-11
 
 ### CLXXXVII/31 bis — Spirit (added row)
 
-**Proposal:** OVUM `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** OVVM `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 71 | constructed |
+| LATIN-ORDINAL | 72 | constructed |
 | AGRIPPA | 480 | constructed |
+
+[Orthography correction 2026-10-27: filed as OVUM = 71 under mixed spelling; reweighed under the classical rule (every U is V) as OVVM = 72. Old value marked, not vanished.]
 
 Bridge: none.
 
@@ -4247,12 +4331,14 @@ Notes: ALTERNATE (Hebrew: egg, betzah). unknown()=[].
 
 Worker: worker-11
 
-**Proposal:** SPIRITUS `[PONTIFEX-proposed 2026-10-13]`
+**Proposal:** SPIRITVS `[PONTIFEX-proposed 2026-10-13]`
 
 | Bank | Value | Tier |
 |------|-------|------|
-| LATIN-ORDINAL | 131 | constructed |
+| LATIN-ORDINAL | 132 | constructed |
 | AGRIPPA | 638 | constructed |
+
+[Orthography correction 2026-10-27: filed as SPIRITUS = 131 under mixed spelling; reweighed under the classical rule (every U is V) as SPIRITVS = 132. Old value marked, not vanished.]
 
 Bridge: none.
 

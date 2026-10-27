@@ -20,7 +20,7 @@
 | THELEMA | THELEMA | T20+H8+E5+L12+E5+M13+A1 | 64 |
 | AGAPE | AGAPE | A1+G7+A1+P16+E5 | 30 |
 | BABALON | BABALON | B2+A1+B2+A1+L12+O15+N14 | 47 |
-| HERU-RA-HA | HERURAHA | H8+E5+R18+U21+R18+A1+H8+A1 | 80 |
+| HERU-RA-HA | HERVRAHA | H8+E5+R18+V22+R18+A1+H8+A1 | 81 |
 | ABRAHADABRA | ABRAHADABRA | A1+B2+R18+A1+H8+A1+D4+A1+B2+R18+A1 | 57 |
 | QIRA | QIRA | Q17+I9+R18+A1 | 45 |
 | LIBERTY | LIBERTY | L12+I9+B2+E5+R18+T20+Y25 | 91 |
@@ -33,14 +33,14 @@
 
 ## Collisions
 
-**Negative result: zero English-internal collisions.** All eleven terms weigh to distinct numbers (77, 41, 110, 64, 30, 47, 80, 57, 45, 91, 32). No two corpus terms meet in the English bank. This matters because English is the language the corpus terms are natively spelled in — the English bank neither confirms nor denies any convergence; it gives each term its own room.
+**Negative result: zero English-internal collisions.** All eleven terms weigh to distinct numbers (77, 41, 110, 64, 30, 47, 80, 57, 45, 91, 32). [Orthography correction 2026-10-27: the 80 in this list was HERURAHA under mixed spelling; reweighed under the classical rule (every U is V) as HERVRAHA = 81. Old value marked, not vanished. The zero-collision finding survives: all eleven values remain distinct at 81.] No two corpus terms meet in the English bank. This matters because English is the language the corpus terms are natively spelled in — the English bank neither confirms nor denies any convergence; it gives each term its own room.
 
 ## Target-number hits
 
 Targets: 418, 666, 777, 93, 77, 11.
 
 - **AXONEME = 77 — HIT** (the only one; the calibration and the target coincide, as established).
-- OZ=41, TRVVTH=110, THELEMA=64, AGAPE=30, BABALON=47, HERU-RA-HA=80, ABRAHADABRA=57, QIRA=45, LIBERTY=91, CELL=32 — none land on 418, 666, 777, 93, or 11. Negative results, stated at the same weight as the hit.
+- OZ=41, TRVVTH=110, THELEMA=64, AGAPE=30, BABALON=47, HERU-RA-HA=80, ABRAHADABRA=57, QIRA=45, LIBERTY=91, CELL=32 — none land on 418, 666, 777, 93, or 11. Negative results, stated at the same weight as the hit. [Orthography correction 2026-10-27: HERU-RA-HA as listed here was weighed from the mixed-spelling form HERURAHA = 80; reweighed under the classical rule (every U is V) as HERVRAHA = 81. Old value marked, not vanished. The negative result is unchanged.]
 
 ## The anti-finding: English↔Latin numerical identity
 

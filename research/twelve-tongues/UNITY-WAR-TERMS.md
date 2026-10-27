@@ -44,6 +44,7 @@ checks matched (e.g. שבט=300+2+9=311; אחדות=1+8+4+6+400=419). Dead end #
 I first mis-added BROTHERHOOD as 123 (=מלחמה!) before the script corrected
 me to 128 — the would-be "brotherhood=war" bridge died in arithmetic, and
 is recorded here so nobody resurrects it. Dead end #2: TRIBUS=89=UNITY=89
+[Equation superseded 2026-10-27 — see values above.]
 looked like a bridge until the sweep's own anti-finding applied — English
 and Latin share the ordinal bank (one bank, not two), so it is bank
 identity, not a bridge. Result: 24 verified values, CSV written.
@@ -64,7 +65,8 @@ Result: the control did its job — see §4.
 ### UNITY
 - Native: JP 団結/統一 (jisho.org EDICT; Collins) · ZH 统一/团结 (Collins) · SA ऐक्यम् aikyam (Apte: "oneness, unity, harmony")
 - Hebrew: אחדות=419 · איחוד=29 → spread {419, 29}
-- English: UNITY=89 · Latin: UNITAS=84
+- English: UNITY=89 · Latin: VNITAS=85
+  [Orthography correction 2026-10-27: filed as UNITAS = 84 under mixed spelling; reweighed under the classical rule (every U is V) as VNITAS = 85. Old value marked, not vanished.]
 - Notes: אחדות=419 is one off 418 (ABRAHADABRA) — near-miss, not a hit.
 
 ### HARMONY
@@ -76,13 +78,15 @@ Result: the control did its job — see §4.
 ### WAR
 - Native: JP 戦争 (jisho, standard) · ZH 战争 (standard) · SA युद्ध yuddha (Apte: "war, battle, fight")
 - Hebrew: מלחמה=123 · קרב=302 → spread {123, 302}
-- English: WAR=42 · Latin: BELLUM=65
+- English: WAR=42 · Latin: BELLVM=66
+  [Orthography correction 2026-10-27: filed as BELLUM = 65 under mixed spelling; reweighed under the classical rule (every U is V) as BELLVM = 66. Old value marked, not vanished.]
 - Notes: the BROTHERHOOD=123 phantom died in arithmetic (true 128) — recorded, not claimed.
 
 ### TRIBE
 - Native: JP 部族 (jisho, standard) · ZH 部落 (standard) · SA जन jana (sanskritdictionary.com: "people, tribe," Rigvedic)
 - Hebrew: שבט=311 · מטה=54 → spread {311, 54}
-- English: TRIBE=54 · Latin: TRIBUS=89
+- English: TRIBE=54 · Latin: TRIBVS=90
+  [Orthography correction 2026-10-27: filed as TRIBUS = 89 under mixed spelling; reweighed under the classical rule (every U is V) as TRIBVS = 90. Old value marked, not vanished.]
 - Notes: שבט=311 collides with sweep-internal QIRA=311 — but QIRA was weighed
   in the Hebrew bank, so this is an **in-bank collision**, not a cross-bank
   bridge. מטה=54 meets English TRIBE=54 — a genuine Hebrew↔ordinal meeting,
@@ -91,7 +95,8 @@ Result: the control did its job — see §4.
 ### HUMANITY
 - Native: JP 人類 (Reverso; standard) · ZH 人类 (standard) · SA मानवता (WEAK — standard modern word, classical attestation not re-verified)
 - Hebrew: אנושות=763 · אנושיות=773 → spread {763, 773}
-- English: HUMANITY=111 · Latin: HUMANITAS=106
+- English: HUMANITY=111 · Latin: HVMANITAS=107
+  [Orthography correction 2026-10-27: filed as HUMANITAS = 106 under mixed spelling; reweighed under the classical rule (every U is V) as HVMANITAS = 107. Old value marked, not vanished.]
 - Notes: HUMANITY=111 — 111 is Crowley's א-in-full number (cf. G-1
   verification: אעם=111), but 111 is not a sweep target; noted, not claimed.
 
@@ -107,12 +112,14 @@ Result: the control did its job — see §4.
 
 | Concept | Hebrew spread | Latin value(s) | Verdict |
 |---|---|---|---|
-| unity | {419, 29} | 84 | no meeting — fallback-dependent (nothing shared) |
+| unity | {419, 29} | 85 | no meeting — fallback-dependent (nothing shared) |
 | harmony | {316, 451} | 79, 82 | no meeting |
-| war | {123, 302} | 65 | no meeting |
-| tribe | {311, 54} | 89 | no meeting in Latin; מטה=54 meets the *ordinal bank* (English TRIBE=54) — one-fallback meeting, chance-flagged |
-| humanity | {763, 773} | 106 | no meeting |
+| war | {123, 302} | 66 | no meeting |
+| tribe | {311, 54} | 90 | no meeting in Latin; מטה=54 meets the *ordinal bank* (English TRIBE=54) — one-fallback meeting, chance-flagged |
+| humanity | {763, 773} | 107 | no meeting |
 | brotherhood | {26} | 131 | no meeting |
+
+[Orthography correction 2026-10-27: the Latin values in this table were filed under mixed spelling — UNITAS 84, BELLUM 65, TRIBUS 89, HUMANITAS 106 — and stand corrected above to the classical forms VNITAS 85, BELLVM 66, TRIBVS 90, HVMANITAS 107. Old values marked, not vanished. Verdicts unchanged.]
 
 **Control result: ZERO concepts bridge in both fallbacks.** Every number in
 this extension is fallback-dependent. Per John's rationale for the control,
@@ -121,6 +128,7 @@ the "robust" flag; none did.
 
 **Bank-identity correction (sweep's own anti-finding, honored):**
 TRIBUS=89=UNITY=89 is one bank (English≡Latin ordinal), not a bridge.
+[Equation superseded 2026-10-27 — see values above. Under the classical-orthography ruling the Latin side now weighs TRIBVS = 90 while UNITY (English, unrespelled) remains 89; the §2 verdicts above are unchanged.]
 
 ---
 
