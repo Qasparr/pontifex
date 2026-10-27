@@ -26,6 +26,13 @@
 # All Rights Reserved, Without Prejudice.
 # =============================================================================
 
+# MECHANISM: unicodedata folds Greek diacritics for the dual-readout path
+# (see greek_strict below); warnings carries the divergence note the
+# 2026-10-27 ruling requires in the standard path. No other dependencies —
+# the kit stays bare-metal on purpose.
+import unicodedata
+import warnings
+
 # ---------------------------------------------------------------------------
 # DOCTRINE: provenance. ATTESTED copies of pontifex/pontifex/tables.py,
 # synced 2026-10-11. The scribe records; he does not revise.
@@ -138,13 +145,56 @@ def hebrew_gadol(word):
     return total
 
 
-def greek(word):
-    """Weigh a Greek word in Milesian isopsephy (ATTESTED bank).
+def _fold_greek(word):
+    """MECHANISM: normalise a Greek word for weighing — lowercase, then
+    strip diacritics (breathings, tonos, diaeresis) by NFD decomposition,
+    dropping combining marks, and recomposing. ἀ→α, ί→ι, ή→η.
 
-    MECHANISM: lowercase the input first — the bank is keyed on lowercase
-    with epissemones; 'στ' is handled as a two-character key, so check it
-    before single letters."""
-    w = word.lower()
+    DOCTRINE: an accent is a reader's aid, not a letter; a weighing that
+    silently skips an accented vowel under-counts the word. Before
+    2026-10-27 the kit skipped accented letters whole (πίστις weighed
+    296 ligature instead of 306). Folding makes the skip visible as a
+    correction, recorded here — never silent. Words already stripped by
+    the caller are unchanged by the fold, so every filed weighing stands.
+    """
+    decomposed = unicodedata.normalize('NFD', word.lower())
+    stripped = ''.join(ch for ch in decomposed
+                       if unicodedata.category(ch) != 'Mn')
+    return unicodedata.normalize('NFC', stripped)
+
+
+def greek_strict(word):
+    """Weigh a Greek word STRICTLY letter by letter (Milesian values).
+
+    MECHANISM: fold diacritics (see _fold_greek), then sum single letters
+    only — σ=200 and τ=300 are always counted apart; the digraph is never
+    fused. The stigma SIGN ϛ, where a text carries it as one character,
+    is a letter in its own right and weighs 6 in this mode too.
+
+    DOCTRINE: this is the second witness the 2026-10-27 dual-readout
+    ruling (RULING-2026-10-27-SIGMA-TAU-DUAL-READOUT.md, delegate ruling,
+    revisable by the author's pen) requires beside the ligature reading:
+    neither reading is the "true" one by decree — both are reported.
+    """
+    w = _fold_greek(word)
+    return sum(GREEK[ch] for ch in w if len(ch) == 1 and ch in GREEK)
+
+
+def greek(word):
+    """Weigh a Greek word in Milesian isopsephy (ATTESTED bank) — the
+    LIGATURE reading: the στ digraph counts as stigma, 6.
+
+    MECHANISM: fold diacritics, lowercase (the bank is keyed on lowercase
+    with epissemones); 'στ' is handled as a two-character key, so check it
+    before single letters.
+
+    DOCTRINE (ruling 2026-10-27): where the ligature reading and the
+    strict letter-by-letter reading (greek_strict) diverge, this function
+    still returns the ligature value — the historical default — but it
+    WARNS: no Greek weighing through the standard path is silently
+    single-valued when the two witnesses disagree. Use greek_dual() to
+    receive both numbers as data."""
+    w = _fold_greek(word)
     total, i = 0, 0
     while i < len(w):
         if w[i:i + 2] == 'στ':
@@ -153,7 +203,51 @@ def greek(word):
         else:
             total += GREEK.get(w[i], 0)
             i += 1
+    strict = greek_strict(word)
+    if strict != total:
+        warnings.warn(
+            "στ dual-readout: %r weighs %d (ligature) / %d (strict) — "
+            "both readings stand; see greek_dual()" % (word, total, strict),
+            UserWarning, stacklevel=2)
     return total
+
+
+def greek_dual(word):
+    """MECHANISM: the dual readout ruled 2026-10-27 — weigh a Greek word
+    BOTH ways and return the pair as data:
+        {'word', 'ligature', 'strict', 'divergent', 'note'}
+    'ligature' is greek()'s στ-as-stigma value (without its warning —
+    this function IS the place the divergence is surfaced, so it reads
+    the ligature sum directly); 'strict' is greek_strict(); 'divergent'
+    is True exactly when the two witnesses disagree.
+
+    DOCTRINE: a divergence is a finding, not an error to be repaired by
+    choosing a winner. Type exhibit, filed in the ruling note:
+    σταυρος — 777 ligature / 1271 strict.
+
+    Inputs:  the word as written (accents welcome; they are folded).
+    Outputs: the dict above; neither value is ever suppressed.
+    Tolerances: zero — both sums are exact integer accounts of the bank.
+    """
+    w = _fold_greek(word)
+    ligature, i = 0, 0
+    while i < len(w):
+        if w[i:i + 2] == 'στ':
+            ligature += 6
+            i += 2
+        else:
+            ligature += GREEK.get(w[i], 0)
+            i += 1
+    strict = greek_strict(word)
+    divergent = ligature != strict
+    return {
+        'word': word,
+        'ligature': ligature,
+        'strict': strict,
+        'divergent': divergent,
+        'note': ('στ dual-readout: both readings stand'
+                 if divergent else 'readings agree'),
+    }
 
 
 def latin(word):
@@ -193,6 +287,67 @@ def calibrate():
     for got, want, name in checks:
         assert got == want, f"calibration failed: {name} = {got}, want {want}"
     return True
+
+
+def selftest():
+    """MECHANISM: the στ dual-readout checks ruled 2026-10-27, beside the
+    anchorage above. calibrate() guards the banks; selftest() guards the
+    READINGS. Raise AssertionError on any failure; return True on pass.
+
+    The cases, one per clause of the ruling:
+    (1) a στ word reports BOTH values — σταυρος 777 ligature / 1271
+        strict, divergent flagged (the type exhibit);
+    (2) accented στ words fold and report both — ἀπανίστημι 206 / 700,
+        πίστις 306 / 800;
+    (3) a word with no στ stays single-valued, unflagged — θελημα 93;
+    (4) the stigma sign ϛ itself weighs 6 under both readings — the sign
+        is one letter, not a fused pair, so the witnesses agree;
+    (5) the standard path warns on divergence and stays silent on
+        agreement — no silent single value, no noise without cause.
+    """
+    import warnings as _warnings
+
+    dual = greek_dual('σταυρος')
+    assert (dual['ligature'], dual['strict'], dual['divergent']) \
+        == (777, 1271, True), f"σταυρος dual failed: {dual}"
+    dual = greek_dual('ἀπανίστημι')
+    assert (dual['ligature'], dual['strict'], dual['divergent']) \
+        == (206, 700, True), f"ἀπανίστημι dual failed: {dual}"
+    dual = greek_dual('πίστις')
+    assert (dual['ligature'], dual['strict'], dual['divergent']) \
+        == (306, 800, True), f"πίστις dual failed: {dual}"
+    dual = greek_dual('θελημα')
+    assert (dual['ligature'], dual['strict'], dual['divergent']) \
+        == (93, 93, False), f"θελημα dual failed: {dual}"
+    dual = greek_dual('ϛ')
+    assert (dual['ligature'], dual['strict'], dual['divergent']) \
+        == (6, 6, False), f"ϛ dual failed: {dual}"
+    assert greek_strict('ϛ') == 6 and greek('ϛ') == 6
+    with _warnings.catch_warnings(record=True) as caught:
+        _warnings.simplefilter('always')
+        assert greek('σταυρος') == 777
+        assert len(caught) == 1 and 'dual-readout' in str(caught[0].message), \
+            "standard path must warn exactly once on a divergent weighing"
+    with _warnings.catch_warnings(record=True) as caught:
+        _warnings.simplefilter('always')
+        assert greek('θελημα') == 93
+        assert len(caught) == 0, \
+            "standard path must stay silent when the readings agree"
+    return True
+
+
+if __name__ == '__main__':
+    # MECHANISM: running the module directly runs the anchorage, then the
+    # dual-readout self-test, then prints the ruled demonstrations.
+    # DOCTRINE: an instrument that cannot show its papers on demand is
+    # not an instrument.
+    calibrate()
+    selftest()
+    print('calibrate: PASS · selftest (στ dual-readout): PASS')
+    for demo in ('σταυρος', 'ἀπανίστημι', 'πίστις', 'θελημα'):
+        d = greek_dual(demo)
+        print('%s -> ligature %d · strict %d · divergent %s'
+              % (demo, d['ligature'], d['strict'], d['divergent']))
 
 
 # Live, Love, and let Love, Live. — 93.

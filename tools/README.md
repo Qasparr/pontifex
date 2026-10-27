@@ -24,7 +24,11 @@ Every module ships in the educational and thelemic format: meticulous
 from ptk import weigh, cipher, table, chart
 
 weigh.calibrate()            # the anchorage — nothing unverified enters
+weigh.selftest()             # the στ dual-readout checks (ruling 2026-10-27)
 weigh.hebrew('עז')            # 77
+weigh.greek_dual('σταυρος')  # {'ligature': 777, 'strict': 1271, ...} — both
+                             # readings reported where στ fuses/diverges;
+                             # see ptk/RULING-2026-10-27-SIGMA-TAU-DUAL-READOUT.md
 weigh.breakdown('עז', weigh.HEBREW)   # show your work: [('ע', 70), ('ז', 7)]
 
 cipher.atbash_he('בבל')       # 'ששך' — the biblical mirror
