@@ -11,7 +11,7 @@ Filed 2026-11-01 by the desk (Kon, the scribe) at the Founder's order.
 - LAYLA = 51 ordinal — VERIFIED (L12+A1+Y25+L12+A1).
 - علي (Ali) = 110 Abjad — VERIFIED (ع70+ل30+ي10).
 - OZ = 41 ordinal — VERIFIED. Cassis = Latin "helmet" — VERIFIED (Lewis & Short).
-- **FLAGGED:** the filing prints "GOAT 42 ordinal." House computation: GOAT = G7+O15+A1+T20 = **43**. One digit, marked for the Founder's red pen; the text is NOT corrected here.
+- **FLAGGED → CORRECTED (2026-11-01):** the filing as delivered prints "GOAT 42 ordinal." House computation: GOAT = G7+O15+A1+T20 = **43** (reverse ordinal 65, Agrippa 158, Pythagorean 16 — no house bank pays 42). On the desk's flag the Founder ordered the correction in his own words: *"Correct it. I ain't scared of trvvth."* The extracted-text copies are corrected to 43 with a correction colophon appended; the delivered PDF still prints 42 and stands as the original artifact; the figure 42 is preserved in this note. Marked, never vanished.
 - Extraction artifact noted: several Arabic words render as ■ blocks in the extracted text layer (the printed PDF carries them; the text layer does not).
 
 *Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice.*
