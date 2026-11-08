@@ -90,4 +90,23 @@ What would NOT count: any English↔Latin-ordinal convergence (identity), any nu
 
 ---
 
+## Addendum — 2026-11-08: QASH weighed (post-corpus; findings above untouched)
+
+*This addendum records a weighing made after the corpus closed. The corpus findings above — eleven terms, zero English-internal collisions, one target hit — stand exactly as written, for that corpus. Nothing above is altered.*
+
+**The weighing (verified with the house tool, `pontifex/tools/ptk/weigh.py`):**
+
+| Term | Breakdown (English ordinal) | Value | Breakdown (Agrippa) | Value |
+|------|-----------|-----------|-----------|-------|
+| QASH | Q17+A1+S19+H8 | **45** | Q70+A1+S90+H8 | **169** |
+| QIRA | Q17+I9+R18+A1 | **45** | Q70+I9+R80+A1 | **160** |
+
+- **Reasoning — why this word, in this tongue, in this record:** QASH is the name of the Enclave's Utility & Execution token in the author's Liber VII tokenomics (written **$$QASH**, double sigil, per ruling R-65). It is an English coinage of the house, so it is weighed in English, on the native English bank, per the author's own-tongue doctrine — the same reason QIRA stands in the corpus above at 45. The weighing was occasioned by the author's lyric use of the token (2026-11-08) and his order the same day to plug $$QASH in wherever it is best utilized.
+- **Reasoning — the sigil weighs nothing:** the $ (single in the lyric line, double in the canonical written form) is a mark, not a letter; neither bank assigns it a value, so QASH weighs 45 with or without it. The tie is at word level.
+- **The result, stated at full weight:** QASH = QIRA = **45** in English ordinal — an English-internal collision, the first recorded against this file's corpus (the corpus itself contained none). Tier: **derived** — a real arithmetic meeting of two house coinages in their native bank, recorded as a datum for the author's pen, not decreed a bridge and not doctrine.
+- **The boundary, marked:** the meeting is ordinal only. Agrippa — a genuinely different table — separates the pair (QASH 169, QIRA 160), so no cross-bank convergence is claimed. Per this file's own anti-finding, an ordinal agreement is one bank speaking, however suggestive the echo.
+- **Where it is used:** the tie and its reasoning are recorded in the canonical tokenomics spec (QIRA whitepaper v0.6, §4.2), where a desk proposal — par redemption of $$QASH into QIRA credit, justified by this tie — is filed as [ASSUMED], unadopted, for the red pen (Appendix B, item 14). The corpus CSV (`english-values.csv`) is script output of the original eleven terms and is not extended by this addendum.
+
+---
+
 *93. All Rights Reserved, Without Prejudice. "Live, Love, and let Love, Live."*
