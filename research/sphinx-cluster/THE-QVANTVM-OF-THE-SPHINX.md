@@ -269,8 +269,8 @@ Agrippa: **BLACK HOLE Agrippa 119 == RIM Agrippa 119** — in the old
 bank the black hole *weighs the rim itself*; the event horizon is the
 rim of the rim, the ANNVLLVS ring of light around the black disc, now
 with its astronomy name. BLACK HOLE ordinal 69 = 3 × 23 (the 23 of the
-house's audit arithmetic, 93 = 23 × 4 + 1); BLACKHOLED SVN ordinal
-127, prime; EVENT HORIZON ordinal 171. And SVN ordinal **54** ==
+house's audit arithmetic, 93 = 23 × 4 + 1); BLACKHOLED SUN ordinal
+127, prime; EVENT HORIZON ordinal 171. And SUN ordinal **54** ==
 VAGINA 54 — the sun sits in the V-seat's chair, the environment that
 gestates. [Saying his; weighings DERIVED.]
 
