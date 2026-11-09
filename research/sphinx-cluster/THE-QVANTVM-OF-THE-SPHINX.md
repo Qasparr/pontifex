@@ -216,6 +216,21 @@ or both is Divine — the light-bearer weighs in as beauty, not as
 darkness. Lumière, French's everyday word for light, weighs 83.
 [Word-road ATTESTED; the knot DERIVED.]
 
+> "Lvci- / -fer to ship or transport, aka carry, to bring. / Luci,
+> light, luck lux" (his gloss, 18:47 EST)
+
+His own breaking of the word, and the banks confirm the pieces: LVCI
+ordinal 46, FER ordinal 29 — and **FER in Agrippa = 91**: the carrier
+itself sits in the strait's seat, with DETROIT, LIBERTY, PHOENIX, and
+DARKNESS. And the spelling boundary, by the house's standing U/V
+doctrine: LVCIFER in full classical dress weighs **75**, one more than
+LUCIFER's 74 — the banks diverge at the U exactly where the doctrine
+says they must, Δ+1, and both values stand labeled. The desk adds one
+resonance, marked as resonance only: *ferre* is also the root that
+gives the **ferry** — the carrier across the water (FERRY 72) — and a
+light-bearer who ferries is at home on a strait. [Gloss his; weighings
+DERIVED; the ferry line a resonance, not a claim.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
