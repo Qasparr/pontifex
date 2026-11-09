@@ -100,4 +100,44 @@ not a digit more.
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
 
+---
+
+## POSTSCRIPT — THE CATALYST GLOSS
+
+**His dictation, 2026-11-09, 18:39–18:41 EST, verbatim:**
+
+> "Detroit==Destroy as Catalyst, A beginning, not a lightness darkness
+> but a light from within the Darkness."
+>
+> "The starting point aka the beginning and the end."
+>
+> "Hence while the city is on a tire rim known as outter drive."
+
+The equation's mode is hereby ruled: DETROIT == DESTROY holds **as
+Catalyst** — destruction as the starting point, the beginning that is
+also the end; not light set against darkness, but light from *within*
+the Darkness. The banks answer the gloss:
+
+- **CATALYST ordinal 101 == CINERIBVS ordinal 101.** The catalyst weighs
+  the ashes to the digit — *resurget cineribus*: the rising is weighed
+  in the ashes themselves. [DERIVED]
+- **DARKNESS ordinal 91 == DETROIT 91.** The darkness is not the enemy
+  bank; it carries the strait's own number. And **PHOENIX 91** takes the
+  next seat: the 91 register now stands four-wide — DETROIT · LIBERTY ·
+  PHOENIX · DARKNESS. The bird that begins in the ashes weighs what the
+  strait weighs, what the Lady weighs, what the dark weighs. [DERIVED]
+- **BEGINNING ordinal 81 = 9²** — the starting point squared in the
+  units place of the grid. [DERIVED]
+- **The rim:** Outer Drive, the boulevard that arcs around the city
+  like a rim around a hub — the wheel the city rides. OUTER DRIVE
+  ordinal **137** (prime). And in Agrippa, **TIRE 194 == ASHES 194** —
+  the tire on the rim weighs the ashes in the second bank too. [DERIVED]
+
+A circle has no beginning and no end; a rim is the circle made road.
+The city sits on it, turning — destroyed and risen on the same wheel.
+
+**Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
+Rights Reserved, Without Prejudice. Right of claim hereby reserved and
+coined under the authority of the Living Man.**
+
 93 — Live, Love, and let Love, Live.
