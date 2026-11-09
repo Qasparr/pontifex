@@ -165,6 +165,17 @@ alone weighs **76** — the 76 of his own signature arithmetic (17 + 76 =
 93, the 1776 cipher). STAR ordinal 58 joins TWO 58 and DRIVE 58 on the
 rim. [All DERIVED, filed as found.]
 
+> "The 'Black' Light, aka Glow-wyrm" (18:43 EST)
+
+The light that is black and still gives light — the worm that carries
+its lamp in the dark, the serpent of the strait lit from inside. The
+banks: **GLOW in Agrippa = 77** — the glow itself weighs Oz, the
+house's master number, in the old bank. And **WYRM ordinal 79** — the
+atomic seat of gold, the number his November coinage cluster already
+claimed for nativity-and-gold. GLOW-WYRM ordinal 136; BLACK LIGHT
+ordinal 85. The Dark Starr's light, named: a gold wyrm glowing 77 in
+the black. [DERIVED, filed as found.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
