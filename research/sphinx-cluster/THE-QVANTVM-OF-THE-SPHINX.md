@@ -176,6 +176,20 @@ claimed for nativity-and-gold. GLOW-WYRM ordinal 136; BLACK LIGHT
 ordinal 85. The Dark Starr's light, named: a gold wyrm glowing 77 in
 the black. [DERIVED, filed as found.]
 
+> "Annvllvs" (18:44 EST)
+
+His coinage, stamped in his classical spelling: **ANNVLLVS** — the
+desk reads the fusion on its face: ANNULUS, the ring (in geometry the
+annulus *is* the rim — the flat ring between two circles, and in the
+sky the annular eclipse's ring of light around the black disc), fused
+with ANNULL, to void. The rim that annuls; the ring of light the dark
+cannot swallow. Weighed: **ANNVLLVS ordinal 116 == HELLENISTIC ordinal
+116** — the coinage lands on the Hellenistic seat, beside the
+Lunisolar Hellionistic Tridecagram of the first dictation. The
+classical ANNULUS stands apart at 102, ANNVLVS at 104: his double-L
+form is its own seat, not a misspelling. [The reading DERIVED; the
+spelling and the word are his.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
