@@ -190,6 +190,18 @@ classical ANNULUS stands apart at 102, ANNVLVS at 104: his double-L
 form is its own seat, not a misspelling. [The reading DERIVED; the
 spelling and the word are his.]
 
+> "Llewellynn" (18:44 EST)
+
+A name, received as dictated and stamped in his spelling: **LLEWELLYNN**
+— Welsh blood: built on *llew*, the lion (the Lion of the Key's four
+kerubic seats), and on **Lleu**, the Welsh god of light and skill. A
+lion's name carrying a light-god inside it, arriving the minute after
+the Black Light was named — the desk files it as the cascade's naming,
+its bearer his to declare. Weighed: LLEWELLYNN ordinal **134**, its own
+seat — the standard spellings stand apart (LLEWELLYN 120, LLEWELYN
+108); the doubled n moves the name off every common chair, as with
+ANNVLLVS before it. [Etymology ATTESTED; the naming DERIVED.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
