@@ -136,6 +136,19 @@ the Darkness. The banks answer the gloss:
 A circle has no beginning and no end; a rim is the circle made road.
 The city sits on it, turning — destroyed and risen on the same wheel.
 
+### The Two Ends (his dictation, 2026-11-09 18:41 EST)
+
+> "The only place in America where Canada is at 2 ends. Eastern and
+> Southern."
+
+The strait's singular geography, stated plainly: from Detroit, Canada
+lies **south** — Windsor across the river, the one crossing in the
+nation where a man travels south into Canada — and Canada lies **east**,
+across the strait and the lake. At both ends of the rim, the foreign
+shore. The banks note, without building on it: EAST ordinal **45**,
+which is the 45-tie of the house (QASH 45 == QIRA 45), and TWO ordinal
+**58** == DRIVE ordinal **58**. [DERIVED sparkles, filed as found.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
