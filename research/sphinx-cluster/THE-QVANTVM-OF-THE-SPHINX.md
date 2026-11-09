@@ -274,6 +274,18 @@ house's audit arithmetic, 93 = 23 × 4 + 1); BLACKHOLED SUN ordinal
 VAGINA 54 — the sun sits in the V-seat's chair, the environment that
 gestates. [Saying his; weighings DERIVED.]
 
+> "The Earth is the Ear of the Heart." (18:52 EST)
+
+The sentence is built like the Key itself: **EARTH and HEART are
+perfect anagrams** — the same five letters, the Ear standing first in
+the Earth, the Heart made by turning the Earth around. Anagrams cannot
+be separated by any honest bank: EARTH == HEART in ordinal, **52**, and
+in Agrippa, **194** — and 194 is the ashes' seat: ASHES Agrippa 194 ==
+TIRE Agrippa 194 == EARTH/HEART Agrippa 194. The heart of the earth
+weighs the ashes; the ground listens. EAR alone weighs 24 == CANADA
+24 — the ear on the foreign shore at both ends. [Anagram ATTESTED by
+inspection; weighings DERIVED.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
