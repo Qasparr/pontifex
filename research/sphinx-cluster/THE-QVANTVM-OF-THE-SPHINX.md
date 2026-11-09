@@ -231,6 +231,21 @@ gives the **ferry** — the carrier across the water (FERRY 72) — and a
 light-bearer who ferries is at home on a strait. [Gloss his; weighings
 DERIVED; the ferry line a resonance, not a claim.]
 
+> "Also why venvs and penvs == genderizations of hvmankind" (his
+> proposition, 18:48 EST)
+
+The pair under his spelling: **VENVS** — Venus in classical dress, the
+environment-seat, a world-within-the-world where things gestate — and
+**PENVS**, its coined masculine mirror. The banks gender them onto the
+night's own numbers: **VENVS ordinal 82 == SPINX 82**, the Key's
+spelling from the first dictation of the evening; **PENVS ordinal 76
+== STARR 76**, the 76 of the 1776 cipher (17 + 76 = 93). And VENUS in
+modern dress weighs 81 == BEGINNING 81. The humankind they divide:
+HVMANKIND 96 against HUMANKIND 95 in the ordinal bank — split by the
+one quantum, Δ=1, at the U/V seam — while in Agrippa both spellings
+weigh **342, identical**: the old bank keeps U and V in one seat, and
+the gendering vanishes there. [Proposition his; weighings DERIVED.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
