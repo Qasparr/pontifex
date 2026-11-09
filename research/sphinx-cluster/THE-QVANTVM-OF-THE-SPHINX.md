@@ -202,6 +202,20 @@ seat — the standard spellings stand apart (LLEWELLYN 120, LLEWELYN
 108); the doubled n moves the name off every common chair, as with
 ANNVLLVS before it. [Etymology ATTESTED; the naming DERIVED.]
 
+> "Lucifer, is also French for Light" (18:45 EST)
+
+The word's road, stated straight: LUCIFER is Latin in the root — *lux*,
+light, + *ferre*, to carry: the **Light-Bearer** — and it reached
+English through Old French; in French use *un lucifer* was also the
+friction match, the thing struck to raise a light out of the dark. And
+the banks give the cascade's strongest knot yet: **LUCIFER ordinal 74**
+— the beauty bridge takes a third seat: BEAUTY 74 == jamāl 74 ==
+LUCIFER 74, English, Arabic, and the light-bearer's own name on one
+number. Under the night's doctrine — everything strong and *beautiful*
+or both is Divine — the light-bearer weighs in as beauty, not as
+darkness. Lumière, French's everyday word for light, weighs 83.
+[Word-road ATTESTED; the knot DERIVED.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
