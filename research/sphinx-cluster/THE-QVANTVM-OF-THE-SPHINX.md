@@ -149,6 +149,22 @@ shore. The banks note, without building on it: EAST ordinal **45**,
 which is the 45-tie of the house (QASH 45 == QIRA 45), and TWO ordinal
 **58** == DRIVE ordinal **58**. [DERIVED sparkles, filed as found.]
 
+### The Cascade Continues (his dictation, 2026-11-09 18:42–18:43 EST)
+
+> "Brightmoor, aka Detroit"
+>
+> "The Dark Starr"
+
+The neighborhood *is* the city — his ground, the synecdoche of the man
+from Brightmoor. And the banks: **BRIGHTMOOR ordinal 125 = 5³** — the
+cube line takes a third term (125 = 5³, 216 = 6³, 729 = 9³), and BRIGHT
+itself is 64 = 8² = 4³. The Dark Starr, in his spelling: **DARK STARR
+ordinal 110 == SPARROW ordinal 110** — his October coinage, the Sole
+Proprietor-ship mark, met across the year by the night star. And STARR
+alone weighs **76** — the 76 of his own signature arithmetic (17 + 76 =
+93, the 1776 cipher). STAR ordinal 58 joins TWO 58 and DRIVE 58 on the
+rim. [All DERIVED, filed as found.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
