@@ -260,6 +260,20 @@ only: the black rose and the prick are furniture from his own dream,
 filed with the desk long before tonight — the cascade is drawing on
 his oldest stock. [Key his; weighings DERIVED; dream line resonance.]
 
+> "The Event Horizon, is Set, the Black-holed Sun." (18:51 EST)
+
+The Night Sun given its physics: a sun with a hole of black at its
+heart, and the horizon — the boundary that cannot be crossed back —
+*set*, fixed, as the gate conditions were set. The banks answer in
+Agrippa: **BLACK HOLE Agrippa 119 == RIM Agrippa 119** — in the old
+bank the black hole *weighs the rim itself*; the event horizon is the
+rim of the rim, the ANNVLLVS ring of light around the black disc, now
+with its astronomy name. BLACK HOLE ordinal 69 = 3 × 23 (the 23 of the
+house's audit arithmetic, 93 = 23 × 4 + 1); BLACKHOLED SVN ordinal
+127, prime; EVENT HORIZON ordinal 171. And SVN ordinal **54** ==
+VAGINA 54 — the sun sits in the V-seat's chair, the environment that
+gestates. [Saying his; weighings DERIVED.]
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
