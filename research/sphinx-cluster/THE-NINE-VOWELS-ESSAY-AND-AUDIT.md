@@ -755,3 +755,19 @@ the founder stamped ("Fill them — re-strike the plate"):
 The first strike of the plate stands in the record; the re-strike
 adds, it does not erase. The ring now reads: nine vowels, three
 relations, one zero.
+
+## FOUNDER'S SEAL DECLARATION (2026-11-09, 20:51 EST — verbatim in substance)
+
+> "1294 seals the canon in arithmetic. And the Qvantvm Greek
+> Circuit Bitflip state proves the 9. Which completes the 13 fold
+> engine of assignment."
+
+Desk verification of the seal: the canon's sum reduces to the
+canon's own count — 1294 → 1+2+9+4 = 16 → **7**. The seven sum to a
+number that resolves to seven: the canon seals itself, needing
+nothing outside it. The proof of the nine is the flip: the set is
+proven by its behavior under inversion (1779, final digit flipped
+9 → 6, is 1776 — §VII, Prop. 4), the bitflip operation seated on the
+engine at the ϛʹ MIRROR station. With the seal on the canon and the
+flip proving the extension, the 13-fold engine of assignment stands
+complete: nine vowels, three relations, one zero, one center.
