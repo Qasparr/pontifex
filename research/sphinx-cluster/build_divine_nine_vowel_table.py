@@ -97,7 +97,8 @@ star = [pts[(i * 5) % 13] for i in range(14)]
 dr.line(star, fill=(150, 108, 44), width=2)
 LABELS = [("Α", GOLD), ("Ε", GOLD), ("Η", GOLD), ("Ι", GOLD), ("Ο", GOLD),
           ("Υ", GOLD), ("Ω", GOLD), ("ΕΙ", GREEN), ("ΟΥ", GREEN),
-          ("γʹ OFFSET", DIM), ("ϛʹ MIRROR", DIM), ("OPEN", FAINT), ("OPEN", FAINT)]
+          ("γʹ OFFSET", DIM), ("ϛʹ MIRROR", DIM), ("κʹ REFUSAL", (206, 120, 96)),
+          ("οὐδέν · ZERO", (178, 158, 214))]
 for i, (p, (lab, color)) in enumerate(zip(pts, LABELS)):
     dr.ellipse([p[0] - 17, p[1] - 17, p[0] + 17, p[1] + 17], fill=color)
     lx = CX + (R + 150) * math.cos(math.radians(-90 + i * 360 / 13))
@@ -109,7 +110,7 @@ T(CX, CY - 190, "the Engine of Assignment", 58, DIM)
 T(CX, CY - 96, "͵αψοθ", 128, GOLD)
 T(CX, CY + 88, "1779", 96, CREAM)
 T(CX, CY + 218, "mirror → ͵αψοϛ · 1776", 66, GOLD)
-_cap = "thirteen stations · nine bear vowels · two bear the operators · two stand open"
+_cap = "thirteen stations · nine vowels · three relations · one zero — the ring complete"
 _cf = fit(_cap, 2050, 52)
 _cbb = dr.textbbox((0, 0), _cap, font=_cf)
 dr.text((CX - (_cbb[2] - _cbb[0]) / 2 - _cbb[0], CY + R + 330), _cap, font=_cf, fill=DIM)

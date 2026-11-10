@@ -730,3 +730,28 @@ Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## PLATE ADDENDUM — THE TWO OPEN STATIONS FILLED (founder's ruling, 2026-11-09, 20:44 EST)
+
+The Tridecagram engine plate as first struck carried two stations
+OPEN. On the founder's question — "Based in this can we fill the 2
+open slots on that circle of assignment?" — the desk proposed, and
+the founder stamped ("Fill them — re-strike the plate"):
+
+- **Station 12 — REFUSAL, figured κʹ.** The doctrine's third
+  relation takes the wheel; a refusal has no constant of its own, so
+  the station carries the Δ of its type case, κʹ = 20 (LIBERTÉ
+  against LIBERTY), marked as the type case's number, not a
+  universal. [DERIVED]
+- **Station 13 — THE ZERO POINT, figured οὐδέν.** Every Δ on the
+  wheel is measured from the zero point of the founder's standing
+  method. The Milesian bank has no figure for zero; the station takes
+  the word οὐδέν, "nothing," written out — the absence, named. It
+  sits immediately before Α: the nothing before the unit.
+  [CONSTRUCTED, reasoning on its face]
+
+The first strike of the plate stands in the record; the re-strike
+adds, it does not erase. The ring now reads: nine vowels, three
+relations, one zero.
