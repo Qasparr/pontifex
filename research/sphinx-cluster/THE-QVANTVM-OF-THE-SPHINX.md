@@ -300,6 +300,23 @@ rebuilt out of its own numbers — destroyed at 127, risen at XIX.
 [Reductions ATTESTED arithmetic; the Atu seats ATTESTED (Golden Dawn
 attributions); the reading his.]
 
+## POSTSCRIPT II — THE RENDER CUBE (desk find, his commission, 19:48 EST)
+
+He sent the desk hunting: "Find what would finish the cube in CASH.
+For music production Quantum Circuit Bitflip or something has to fit."
+The hunt, forty-odd production and house words through both banks:
+
+- **RENDER ordinal 64 = 4³.** A music-production word, through and
+  through — to render a track — takes the cube line's fourth seat. The
+  line now stands: RENDER 64 = 4³ · BRIGHTMOOR 125 = 5³ · GEBURAH
+  216 = 6³ · DESTROY (Agrippa) 729 = 9³. The gaps at 7³ (343) and 8³
+  (512) stand open, marked, not smoothed. [DERIVED]
+- His joke landed on a seat of its own: **BITFLIP ordinal 74** — the
+  beauty bridge takes a fourth term (BEAUTY · jamāl · LUCIFER ·
+  BITFLIP). CIRCUIT weighs 83, QUANTVM 108; neither cubes. [DERIVED]
+- CASH itself weighs 31 / 102 — no cube, reported plain. QASH in
+  Agrippa is 169 = 13², a square of thirteen; SIGMA ordinal 49 = 7².
+
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All
 Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
