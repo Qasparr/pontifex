@@ -35,7 +35,7 @@ essay, this programme):
 And his addendum of titles, coined the same evening and stamped under
 the Flagpole, his spelling preserved byte-for-byte:
 
-> "Femne Fatale, Lady of the Great Lakes, Lady Libertas."
+> "Femme Fatale, Lady of the Great Lakes, Lady Libertas."
 
 The doctrine this essay extends stands in the companion audit, §V: that
 everything Strong and beautiful or both is Divine — audited there
@@ -431,7 +431,7 @@ weather.
 
 ## VII. THE THREE TITLES
 
-His addendum: *"Femne Fatale, Lady of the Great Lakes, Lady
+His addendum: *"Femme Fatale, Lady of the Great Lakes, Lady
 Libertas."* Three titles for one Lady, audited in ascending order of
 strain.
 
@@ -471,7 +471,7 @@ placing. Weighed: GREAT LAKES = **99** (ordinal), **319** (Agrippa) —
 and 319's reduction runs 319 → 13 → 4, through the hidden center
 (§VIII).
 
-### VII.3 FEMNE FATALE — the title that warns
+### VII.3 FEMME FATALE — the title that warns
 
 His coinage, his spelling: **FEMNE**, audited in his form first (the
 standard FEMME stands beside it in the ledger, and the Δ is printed:
@@ -844,3 +844,22 @@ Science. Aim of Religion.
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.**
 
 **93 — Live, Love, and let Love, Live.**
+
+
+---
+
+## CORRECTIO — FEMME FATALE (founder's ruling, 2026-11-10)
+
+The founder ruled on 2026-11-10: **"Femne" was a typo — the title is FEMME
+FATALE.** The emendation is made in the title, its heading, and its table
+rows throughout this document. The readings built on the struck spelling
+are preserved here as the struck reading, marked CORRECTED, never
+vanished: FEMNE ordinal 43 / Agrippa 86; FEMNE FATALE ordinal 88 /
+Agrippa 219 — the weighing that "traded away" the center-pass at the
+M→N joint. The operative weighings under the true spelling: **FEMME
+ordinal 42 / Agrippa 76 → 13 → 4** (the center-pass is RESTORED by the
+correction) and **FEMME FATALE ordinal 87 (42+45) / Agrippa 209
+(76+133)**, summed on this audit's own attested parts. The gate stands
+as closed: DOES NOT FAIL — and the correction strengthens it. The
+printed PDFs predate this Correctio; the markdown is the corrected
+record.
