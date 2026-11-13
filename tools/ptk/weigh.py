@@ -90,6 +90,163 @@ ARABIC_ABJAD = {
     'ث': 500, 'خ': 600, 'ذ': 700, 'ض': 800, 'ظ': 900, 'غ': 1000,
 }
 
+# ---------------------------------------------------------------------------
+# Japanese kana — THE GOJŪON MINT [PROPOSED — desk ruling, 2026-11-12]
+#
+# Thelemic date: Thu 2026-11-12 (dies jovis), Anno V:xii e.n.
+#
+# PROVENANCE — READ BEFORE EVERY OTHER BANK'S HABIT. Every bank above is
+# an ATTESTED copy, synced from pontifex/pontifex/tables.py; the scribe
+# records and does not revise. THIS BANK IS NOT. It is a CONSTRUCTION,
+# coined at the desk under the founder's commission for the project
+# Complete the Tables in Japanese (Phase III: the gojūon mint), and it
+# stands [PROPOSED] — desk rulings under the founder's pen — until his
+# stamp makes it doctrine. It is NOT synced from tables.py and must not
+# be cited as attested, traditional, or ancient: no kana letter-value
+# bank is attested before the 21st century (the Second Reckoning,
+# Essay IV), and this one is dated 2026 on its face. Source of record:
+# THE JAPANESE TABLES — PHASE III: THE GOJŪON MINT (PROPOSED), house
+# files + pontifex/research/sphinx-cluster/.
+#
+# DOCTRINE — THE SEVEN RULINGS (each [PROPOSED], reasoning in the
+# Phase III document; the gap numbers are Phase I §VI's):
+#   G1 THE AXIS: gojūon positional, row-major in the spoken column
+#      order a-i-u-e-o （あ=1, い=2, う=3, え=4, お=5, か=6 …). The grid
+#      seats 47 (the や row's yi/ye cells and the わ row's wu cell are
+#      holes — no kana, no seat); ゐ・ゑ hold their grid seats (45, 46)
+#      as ARCHIVAL seats; を=47; ん, the hatsuon outside the fifty,
+#      takes the next seat, 48 — ONE value. Dual values are refused
+#      bank-wide (against Fukada's ン 1-or-10: a sign with two values
+#      is a fork in every sum it enters).
+#   G2 DAKUTEN LAW: continuation ON THE MINT'S OWN AXIS. The desk
+#      attempted a derived diacritic constant (same seat + C) and
+#      found no derivation that holds — the grid gives the dakuten
+#      no seat and no constant, and a constant chosen anyway would
+#      be invented, not derived (the attempts are printed in the
+#      Phase III document). So the voiced rows take the next seats
+#      after the base inventory entire, in the grid's printed
+#      dakuten order: が行 49–53, ざ行 54–58, だ行 59–63, ば行 64–68,
+#      ぱ行 69–73. (Fukada's continuation is the precedent's shape;
+#      the seats are the mint's own axis, not his: his が is 51,
+#      the mint's is 49.) Subtraction (Yoshino) is refused: it drives
+#      totals negative, which no house bank admits.
+#   G3 CHŌON LAW: the mark ー is an operator, not a sign: it weighs
+#      the seat value of the vowel it lengthens (かー → あ's 1;
+#      とー → お's 5). Length is a second mora OF THAT VOWEL
+#      (Abroad III §III.2: the OFFSET made audible — the dialect
+#      orthographises it), against Yoshino's ー=0, which erases
+#      what the spelling declares. Length spelled with a vowel
+#      kana （おう, えい) is weighed as written (G6's fence); the
+#      seam that opens is printed in the Phase III document, not
+#      hidden.
+#   G4 YŌON LAW: a small kana weighs at its full-size form's seat
+#      （ゃ=ヤ 36, ゅ=ユ 37, ょ=ヨ 38; small vowels likewise; ゎ, ゕ,
+#      ゖ by the same law). A yōon mora is one mora, sounded whole;
+#      Yoshino's full-value rule is the precedent.
+#   G5 SOKUON LAW: っ/ッ weighs at つ/ツ's seat, 18 — its full-size
+#      form (Yoshino's precedent). The geminate mora is a full beat
+#      of blockage, not silence.
+#   G6 DEVOICING: the bank weighs the WRITTEN sign. Devoicing
+#      (Abroad III §III.4, the ghost seat) is phonology and belongs
+#      to the performance register (the Divine Nine vocal tool);
+#      it has no mechanic here, and the fence is declared, not
+#      silent. All three predecessor banks are orthographic; so is
+#      every house bank.
+#   G7 REDUCTION: totals stand raw; digit-reduction rides beside,
+#      never instead (the rōmaji seam's Rule 7, carried over).
+#
+# MECHANISM: the bank is generated from the grid rows below so the
+# table in the Phase III document and the table in this engine are
+# one object, not two copies that can drift. Columns run a-i-u-e-o;
+# a sign's value is its sequence position; its column gives the
+# vowel a following ー weighs. Katakana is generated from hiragana
+# by the Unicode block offset (+0x60): one sign, two dresses
+# (Abroad III, Rule 7) — あ and ア share a seat by construction.
+# ---------------------------------------------------------------------------
+
+_KANA_GRID = [
+    ('あ', 'い', 'う', 'え', 'お'),
+    ('か', 'き', 'く', 'け', 'こ'),
+    ('さ', 'し', 'す', 'せ', 'そ'),
+    ('た', 'ち', 'つ', 'て', 'と'),
+    ('な', 'に', 'ぬ', 'ね', 'の'),
+    ('は', 'ひ', 'ふ', 'へ', 'ほ'),
+    ('ま', 'み', 'む', 'め', 'も'),
+    ('や', None, 'ゆ', None, 'よ'),   # holes: yi, ye — no kana, no seat
+    ('ら', 'り', 'る', 'れ', 'ろ'),
+    ('わ', 'ゐ', None, 'ゑ', 'を'),   # hole: wu; ゐ・ゑ ARCHIVAL seats
+]
+
+_KANA_DAKUTEN_ROWS = [
+    ('が', 'ぎ', 'ぐ', 'げ', 'ご'),
+    ('ざ', 'じ', 'ず', 'ぜ', 'ぞ'),
+    ('だ', 'ぢ', 'づ', 'で', 'ど'),
+    ('ば', 'び', 'ぶ', 'べ', 'ぼ'),
+    ('ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ'),
+]
+
+# MECHANISM: small kana seated by law, at their full-size partners'
+# seats — ゃゅょ and the small vowels by G4, ゎ・ゕ・ゖ by G4's same
+# law extended to the small forms the modern script still writes,
+# っ by G5 (the sokuon is listed here because its seat is a law,
+# not a grid position).
+_KANA_SMALL_PARTNER = {
+    'ぁ': 'あ', 'ぃ': 'い', 'ぅ': 'う', 'ぇ': 'え', 'ぉ': 'お',
+    'ゃ': 'や', 'ゅ': 'ゆ', 'ょ': 'よ',
+    'ゎ': 'わ', 'ゕ': 'か', 'ゖ': 'け',
+    'っ': 'つ',
+}
+
+
+def _build_kana():
+    """MECHANISM: seat the grid row-major (a-i-u-e-o), then the
+    dakuten block, then ん after the inventory entire; record each
+    sign's column-vowel seat value for the ー operator (G3); seat
+    the small kana at their partners (G4/G5); mirror every seat
+    into katakana by the block offset. Returns (bank, vowel_map).
+    ん and っ have no vowel: a ー after them weighs 0."""
+    bank, vowel = {}, {}
+    n = 0
+
+    def seat(rows):
+        nonlocal n
+        for row in rows:
+            for col, ch in enumerate(row):
+                if ch is None:
+                    continue
+                n += 1
+                bank[ch] = n
+                vowel[ch] = col + 1  # あ=1 い=2 う=3 え=4 お=5 by column
+
+    # MECHANISM: seating order is the rulings' order — the grid (G1),
+    # then ん at the next seat (G1), then the dakuten block after the
+    # base inventory entire (G2). The order is load-bearing: seat
+    # the dakuten rows before ん and every voiced value shifts by
+    # one — the kana self-test's むげつ case guards exactly this.
+    seat(_KANA_GRID)
+    n += 1
+    bank['ん'] = n  # G1: the hatsuon after the grid — seat 48
+    seat(_KANA_DAKUTEN_ROWS)
+    for small, partner in _KANA_SMALL_PARTNER.items():
+        bank[small] = bank[partner]
+        vowel[small] = vowel[partner]
+    # MECHANISM: the sokuon carries a seat (G5) but no vowel — its
+    # partner's vowel is not inherited, so a ー after っ weighs 0.
+    vowel.pop('っ', None)
+    for ch in list(bank):
+        kata = chr(ord(ch) + 0x60)
+        bank[kata] = bank[ch]
+        if ch in vowel:
+            vowel[kata] = vowel[ch]
+    return bank, vowel
+
+
+KANA, _KANA_VOWEL = _build_kana()
+# DOCTRINE: ー (U+30FC) is deliberately NOT a key of KANA — it is an
+# operator (G3) and only kana() / kana_breakdown() may read it. A raw
+# weigh(word, KANA) therefore skips it, and unknown() will report it;
+# that visibility is intended.
+
 
 # ---------------------------------------------------------------------------
 # The engine
@@ -267,6 +424,56 @@ def arabic(word):
     return weigh(word, ARABIC_ABJAD)
 
 
+def kana(word):
+    """Weigh a Japanese word in the GOJŪON MINT [PROPOSED bank —
+    desk ruling 2026-11-12, under the founder's pen; NOT attested].
+
+    MECHANISM: sum the seated signs (hiragana and katakana share
+    seats); the mark ー is read as an operator (G3): it adds the
+    seat value of the vowel of the sign it follows (とー weighs
+    ト 20 + お 5). A ー with no vowel before it (word-initial, or
+    after ん/っ) adds 0. Characters the bank does not know are
+    skipped — and reset the ー's memory, so length never reaches
+    across a separator; audit them with unknown(word, KANA),
+    noting ー itself is reported there by design (it is an
+    operator, not a key).
+
+    DOCTRINE: the bank weighs the WRITTEN sign (G6); devoicing is
+    not modelled. Totals stand raw (G7).
+    """
+    total, prev_vowel = 0, None
+    for ch in word:
+        if ch == 'ー':
+            if prev_vowel is not None:
+                total += prev_vowel
+            continue
+        if ch in KANA:
+            total += KANA[ch]
+            prev_vowel = _KANA_VOWEL.get(ch)
+        else:
+            prev_vowel = None
+    return total
+
+
+def kana_breakdown(word):
+    """MECHANISM: the letter-by-letter accounting for the mint —
+    [(sign, value), ...] plus the total, with ー resolved to the
+    value it actually contributes (0 where it has no vowel to
+    lengthen). DOCTRINE: as breakdown() — show your work; the
+    Phase III calibration tables are printed from this output."""
+    pairs, prev_vowel = [], None
+    for ch in word:
+        if ch == 'ー':
+            pairs.append((ch, prev_vowel if prev_vowel is not None else 0))
+            continue
+        if ch in KANA:
+            pairs.append((ch, KANA[ch]))
+            prev_vowel = _KANA_VOWEL.get(ch)
+        else:
+            prev_vowel = None
+    return pairs, sum(v for _, v in pairs)
+
+
 def calibrate():
     """MECHANISM: the anchorage. Weigh the calibration words every bank must
     reproduce; raise AssertionError on any failure.
@@ -336,6 +543,46 @@ def selftest():
     return True
 
 
+def kana_selftest():
+    """MECHANISM: the gojūon mint's own papers [PROPOSED bank].
+    calibrate() guards the attested banks; this guards the mint's
+    DESIGN: every worked example the Phase III document prints as
+    the design's own must return exact here. Raise AssertionError
+    on any failure; return True on pass.
+
+    The cases, one per clause of the design:
+    (1) the axis itself — あいうえお = 1+2+3+4+5 = 15 (G1);
+    (2) the calibration heads of the Phase II protocol (P4/P5) —
+        あくま = 40, むげつ = 103, printed beside AKUMA 47 and
+        MUGETSU 106 in the Phase III document, agreeing or not;
+    (3) the three bridges found at calibration — かな = 27,
+        しおん = 65, ゆず = 93, each equal to its seam twin;
+    (4) the dakuten continuation — ありがとう = 113, が at 49 (G2);
+    (5) the yōon at full-size value — きゃ = 7 + 36 = 43 (G4);
+    (6) the sokuon at ツ's seat — ずっと = 56 + 18 + 20 = 94 (G5);
+    (7) the chōon operator in katakana dress — ラーメン
+        = 39 + 1 (ー lengthens a) + 34 + 48 = 122 (G3);
+    (8) one sign, two dresses — かたかな == カタカナ (49).
+    """
+    checks = [
+        (kana('あいうえお'), 15, "KANA あいうえお (G1 axis)"),
+        (kana('あくま'), 40, "KANA あくま (P4 head)"),
+        (kana('むげつ'), 103, "KANA むげつ (P4 head)"),
+        (kana('かな'), 27, "KANA かな (bridge)"),
+        (kana('しおん'), 65, "KANA しおん (bridge)"),
+        (kana('ゆず'), 93, "KANA ゆず (bridge)"),
+        (kana('ありがとう'), 113, "KANA ありがとう (G2)"),
+        (kana('きゃ'), 43, "KANA きゃ (G4)"),
+        (kana('ずっと'), 94, "KANA ずっと (G5)"),
+        (kana('ラーメン'), 122, "KANA ラーメン (G3)"),
+        (kana('カタカナ'), 49, "KANA カタカナ (two dresses)"),
+        (kana('かたかな'), 49, "KANA かたかな (two dresses)"),
+    ]
+    for got, want, name in checks:
+        assert got == want, f"kana self-test failed: {name} = {got}, want {want}"
+    return True
+
+
 if __name__ == '__main__':
     # MECHANISM: running the module directly runs the anchorage, then the
     # dual-readout self-test, then prints the ruled demonstrations.
@@ -343,11 +590,15 @@ if __name__ == '__main__':
     # not an instrument.
     calibrate()
     selftest()
-    print('calibrate: PASS · selftest (στ dual-readout): PASS')
+    kana_selftest()
+    print('calibrate: PASS · selftest (στ dual-readout): PASS · '
+          'kana_selftest (gojūon mint, PROPOSED): PASS')
     for demo in ('σταυρος', 'ἀπανίστημι', 'πίστις', 'θελημα'):
         d = greek_dual(demo)
         print('%s -> ligature %d · strict %d · divergent %s'
               % (demo, d['ligature'], d['strict'], d['divergent']))
+    for demo in ('あくま', 'むげつ', 'かな', 'しおん', 'ゆず'):
+        print('%s -> gojūon mint %d [PROPOSED]' % (demo, kana(demo)))
 
 
 # Live, Love, and let Love, Live. — 93.
