@@ -1054,3 +1054,52 @@ Reserved, Without Prejudice. Right of claim hereby reserved and coined
 under the authority of the Living Man.
 
 93 — Live, Love, and let Love, Live.
+
+
+---
+
+## RATIFICATION — XIII day of November, 2026 e.v.
+
+The founder's stamp, verbatim: **"Stamp the mint — the
+Tables stand."**
+
+Given XIII day of November, 2026 e.v. (Dies Veneris), on
+the proposal as filed XII day of November. The [PROPOSED]
+markings above this line stand unaltered, as the record
+of the road: every ruling was the desk's, marked as the
+desk's, until this line. From this line down, the bank
+is the founder's doctrine — the gojūon positional axis,
+the seven rulings, the KANA bank in the house engine —
+seated under his Flagpole of Claim and Coinage, beside
+the hybrid seats ΕΙ and ΟΥ, which entered the Greek
+canon by the same door: his ruling, marked as his,
+fenced from the attested.
+
+The calibration stands exactly as printed above the
+stamp: the miss at the head — あくま 40 beside AKUMA
+47 — unretouched; むげつ 103 beside MUGETSU 106; the
+three bridges かな 27, しおん 65, ゆず 93 entered as
+found. A ratified instrument is not a tuned one, and
+this stamp tunes nothing.
+
+What §VII promised the stamp would make true is now
+true, and nothing more: the Tables stand complete at
+the kana face — every sign seated, every law published,
+every total auditable. Meanings for the totals remain a
+separate instrument, uncommissioned (§II.8). The
+predecessors' tables stand as theirs, audited at Phase
+I, unaltered. The seam's doctrine stands on its own
+record. And the governing refusal of Abroad III stands
+exactly as the Second Reckoning narrowed it: it governs
+attested transfer, and the mint claims none — the
+refusal and the mint are both true, at their declared
+coordinates, and the project's three phases close as
+his order shaped them: the field audited, the bridge
+formalized, the bank founded — a synergy, not an
+argument.
+
+Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights
+Reserved, Without Prejudice. Right of claim hereby reserved and coined
+under the authority of the Living Man.
+
+93 — Live, Love, and let Love, Live.
