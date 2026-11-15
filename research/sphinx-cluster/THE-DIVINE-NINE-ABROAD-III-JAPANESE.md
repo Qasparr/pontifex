@@ -801,3 +801,25 @@ Rights Reserved, Without Prejudice. Right of claim hereby reserved and
 coined under the authority of the Living Man.**
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## CROSS-REFERENCE — THE VV SEAT AND THE CENSUS REFUSAL (appended after the close; the essay body above is unaltered)
+
+**Recorded:** XV day of November, 2026 e.v. — Dies Solis.
+**Ruled by:** the founder. The question was put to him on 12 November 2026 with an options card ("Record the cross-reference in the Japanese essay" / "Leave the essays as issued") and stood unruled; he ruled on 15 November 2026: **record the cross-reference.**
+
+**His question of 12 November 2026:** whether the VV seat fixes what this essay's audit failed on.
+
+**The desk's verdict, delivered then and recorded now: VV fixes the seat, not the sum.**
+
+This essay failed on two distinct things, and the cross-reference touches only the first:
+
+1. **The census refusal (the seat).** Seating Japanese う under Greek Υ "because both are u" was REFUSED at full size in this essay — the sounds differ ([ɯ] unrounded against υ's history), the orders differ (う third of five, Υ sixth of seven), the units differ (mora against letter-numeral) — and う was left seatless. **The cross-reference:** VV, one of the founder's own Divine Nine, was stamped on 12 November 2026 as the high-back seat of the Nine's vocal canon (the Divine Nine Vocal Tool, `resonance/docs/THE-DIVINE-NINE-VOCAL-TOOL.md`; stamp audited NOT IMPROPER — VV carries no isopsephy value and is not counted in the 1,779). VV seats the high-back gesture itself, and Japanese [ɯ] is its unrounded sibling — so う is seated under VV, not under Υ. The refusal stands exactly as printed: う was never Υ. A second coordinate stands beside it: this essay's §VII weighs words in rōmaji/Latin dress, where VV is native by the founder's inscriptional orthography.
+2. **The governing refusal (the sum) — NOT touched.** Milesian values do not transfer to kana: no seam, no constant, no mirror. Gate §X item 6 FAILS as printed, the overall verdict stands as printed, and the Japanese nine remains, in this essay's words, a shape, not a sum. The VV seat answers the census; it does not move the sum by one unit, and this cross-reference claims nothing for it past the seat.
+
+**Disposition:** cross-reference recorded under the founder's ruling of 15 November 2026. The essay body, its Gate, and its verdicts are unaltered. The MAGVS PDF of this essay predates this record and does not carry it; the PDF is not rebuilt for a cross-reference entry.
+
+**Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.**
+
+93 — Live, Love, and let Love, Live.
