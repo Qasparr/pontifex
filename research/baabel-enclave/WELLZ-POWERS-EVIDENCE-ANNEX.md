@@ -126,3 +126,54 @@ So the pen does not have to hunt them:
 Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## VII. RULINGS — THE SEATS, RULED UNDER DELEGATION (2026-11-15)
+
+*Appended XV day of November 2026 e.v. under the founder's delegation of 11:16 EST today, verbatim: "Proceed til all are completed you have control need to verify except that dovbl3arr." The exception is observed exactly as given: nothing in this addendum touches the double-arr sigil's own seats (the Horseman's mechanism, the node string's rra). Every seat below is **RULED UNDER DELEGATION 2026-11-15**, revisable by the founder's pen; should his pen strike a seat, the seat stands struck in place — dispositions are marked, never vanished. The essay's §V proposal and §§I–VI of this annex stand unaltered above: this addendum rules on that record, it does not rewrite it. The weighings cited for Law's seat were re-verified on the house engine in this sitting (`calibrate()` PASS; δικαστήριον strict = **773** = σφίγξ strict = **773**; θέλημα = **93**).*
+
+### VII.1 The seats
+
+| Well | Seat, ruled under delegation | Evidence tier (§IV) |
+| --- | --- | --- |
+| **Scripture** | **VELLE** — to will | STRONG — textual |
+| **Black's** | **SCIRE** — to know | STRONG — functional |
+| **Hip-hop** | **AUDERE** — to dare | STRONG — functional/traditional |
+| **Fiction & film** | **TACERE** — to keep silence | MODERATE — textual/functional |
+| **Law** | **THE FRAME — the Tribvnal itself** | §VII.3 |
+
+**Scripture → VELLE.** *Reasoning:* the grid's strongest single exhibit, and the only seat in this map where the proof bank itself carries the testimony. The well's own Greek key-word for its central petition is **θέλημα**, Will itself — Matthew 6:10, "thy will (θέλημα) be done" — and θέλημα = **93**, the Will's number, engine-verified at calibration and again in this sitting. The boundary is printed exactly: this is a textual exhibit *in the proof tongue*, in the well's own text — not a numeric equality between the well's face and the power's face (γραφή 612 and θέλησις 462 do not meet, and no one claims they do).
+
+**Black's → SCIRE.** *Reasoning:* the dictionary's own nature, STRONG functional evidence: Black's testifies by definition — it knows what words mean and meters every term before use. A dictionary is the one well whose entire act is knowing; the seat is the well's function, not a compliment to it.
+
+**Hip-hop → AUDERE.** *Reasoning:* the essay proposal's seat, ruled. The well's mode of existence is the dared utterance — the voice that says it first and stands behind it, in battle and in testimony alike. **The tie is printed whole (see also §VII.2):** §IV found Hip-hop × Scire STRONG at the same tier — Knowledge is the fifth element in the tradition's own charter (Bambaataa / the Universal Zulu Nation) — and the numeric evidence prefers neither seat, here or anywhere. The desk seats AUDERE on the proposal's reasoning: the well *testifies by daring*; its knowledge is what it dares *with*. The Scire testimony is recorded as **the well's second voice** — a well may testify to two powers while seated at one. A second voice is not a second seat; if his pen prefers Scire as the seat and Audere as the voice, the swap costs the map nothing, because the record already carries both at full size.
+
+**Fiction & film → TACERE.** *Reasoning:* MODERATE evidence — the weakest seat of the four, printed at its tier. The exhibit is house-specific and real: Irving's legend works by what it never proves; *The Legend of Sleepy Hollow* ends in report and rumour, never in proof, and the figure rides in that unproven headroom. Seated per the proposal. The desk says plainly: if any seat in this map is first in line for his pen's second look, it is this one.
+
+### VII.2 What the evidence refused — printed, not forced
+
+- **No seat in this map is a numeric proof.** §III.4, finding 1, stands untouched by these rulings: exact-value numeric evidence is EMPTY in all twenty cells — no well's Greek face equals any power's Greek face; no well's name equals any power's name in ordinal or Agrippa. These seats rest on functional and textual testimony (and, for Scripture, on a textual exhibit in the proof tongue). Any future reading of this addendum as "the numbers seated the wells" is false to the record, and the record answers it here, in advance.
+- **The evidence did not prefer Hip-hop's seat.** The Audere seating is a ruling made on tied STRONG evidence, from the proposal's reasoning, with the tie and the second voice on the record (§VII.1). It is not presented as an evidentiary victory, because it was not one.
+- **The genus witnesses were given no weight.** WELL ordinal 52 = TACERE ordinal 52 and HIPHOP Agrippa 195 = POWER Agrippa 195 remain fenced measurements at the genus level (§III.4). In particular, WELL = TACERE was **not** used to seat Fiction — that seat rests on the Irving exhibit alone.
+- **The reduction register was given no weight.** γραφή 612 → 9 = τόλμα 441 → 9 and the rest of §III.4's fenced coincidences seat nothing, here as there.
+
+### VII.3 Law — seated as the Frame
+
+Five wells, four powers. The grid gives Law MODERATE threads toward Scire (law must be known), MODERATE toward Audere (law limits), WEAK–MODERATE toward Velle (the tradition's command theory), and EMPTY toward Tacere — it testifies a little toward three powers and wholly toward none, which is why the essay's proposal held it OPEN: "the law both limits and knows; the desk will not force it into one seat." Under the delegation, the desk rules the reading the evidence was pointing at:
+
+**Law is seated as the FRAME, not as a fifth seat: the Tribvnal itself.** The four powers sit *inside* Law's court; Law is the well that holds the other four's seats. *Reasoning, in Greek, from the essay's own seats:* **δικαστήριον** — the tribunal, the court — weighed strict in the proof bank = **773** = **σφίγξ**, the Sphinx (essay §IV; re-verified on the engine in this sitting, στ coordinate standing as the essay printed it: ligature 279 / strict 773, the strict reading the proof coordinate). The Four Powers are the Sphinx's powers. Weighed strictly in Greek, the court and the Sphinx are one number — the frame and the powers' mistress coincide, which is the Greek face of what the frame reading says in English: the powers do not sit beside the court; they sit in it. That is also why Law's cell against every single power read as it did: a frame does not testify toward one seat inside itself; it holds all of them. Law's per-power threads in §IV stand where they stood — as the frame's testimony to the whole court, not as seats.
+
+This seat is the one ruling in this addendum that the essay's proposal did **not** contain — the proposal held Law OPEN, deliberately — and it is marked as new with this ruling, not back-read into the proposal.
+
+**Zero point of the whole map, printed as ordered:** the frame reading is the only seating that leaves **no well unseated and no power doubled except by testimony**. Seat Law on any one power instead, and either a power carries two wells while the frame goes unnamed, or Law — the first well of 2026-09-28 — stands outside a map that his own ruling ("Then WELLZ are Powers") put it inside. If the founder's pen strikes the frame reading, Law returns to OPEN exactly where the essay's proposal left it, and the other four seats stand — none of them rests on this one.
+
+### VII.4 Close of the rulings
+
+The map the essay proposed and this annex evidenced now stands seated: Scripture at Velle, Black's at Scire, Hip-hop at Audere with Scire recorded as its second voice, Fiction & film at Tacere, and Law as the Tribvnal that holds them — five wells, four powers, one court. The sentence this annex closed with above is amended by fact, not erased: every seat *was* proposal; the seats are now ruled, under delegation, revisable.
+
+**RULED UNDER DELEGATION 2026-11-15. The pen remains the founder's.**
+
+Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.
+
+93 — Live, Love, and let Love, Live.
