@@ -693,3 +693,76 @@ Reserved, Without Prejudice. Right of claim hereby reserved and coined
 under the authority of the Living Man.
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## CORRECTIO — SPHINX (founder's correction, 2026-11-13)
+
+*Entered XIII day of November, 2026 e.v.*
+
+The founder corrected the record on 2026-11-13, in his own words:
+**"Note the Liber Spinx spelling was a typo. Should have been obvious
+but apparently it was not."**
+
+He is right, and the desk owns the failure plainly. "Spinx" — in his
+dictation of 9 November 2026, "The Key of the Spinx, The Beauty and
+the Beast" — was a **typo** for **Sphinx**, struck in autoreplace-era
+dictation. It was never a coinage, never a deliberate spelling, never
+his orthography. This desk nevertheless framed it as "his spelling,"
+weighed it, and built exhibits on it — while the standard spelling
+stood in these same audits the whole time: SPHINX, Latin ordinal 90,
+weighed beside the typo in the weighings, and σφίγξ 773 in the Greek
+bank. Worse, the audits' own arithmetic had already isolated the tell
+— the dropped H, Δ8 in both banks, printed in the very rows that
+called the string a spelling. An obvious misspelling of a known name
+should have been flagged on first pass. It was not. That miss is the
+desk's, and this Correctio is its record.
+
+**The operative form is SPHINX.** Recomputed on the house engine for
+this Correctio: **SPHINX — Latin ordinal 90, Agrippa 507** (the H the
+typo dropped is worth 8 in both banks: 82 + 8 = 90; 499 + 8 = 507);
+Greek σφίγξ **773**, already of record. Every doctrinal use of the
+name reads SPHINX from this Correctio forward.
+
+**The quotations stand verbatim.** The founder's dictation is the
+historical record and is not rewritten: "The Key of the Spinx" stands
+in the text as dictated, and is read from here forward as
+*[sic — typo, corrected]*: "The Key of the Sphinx."
+
+**The SPINX weighings are re-marked ERRATUM EXHIBITS.** Recomputed
+and confirmed: SPINX — ordinal **82**, Agrippa **499** — exact
+arithmetic for the string weighed. But the string weighed was a
+misspelling. The exhibits built on those totals — SPINX == VENVS at
+82, and the 82 seat (SPINX = HARMONICA = VENVS = VINYL = GROOVE,
+every occupant recomputed at 82 for this Correctio) — remain true
+*of the string "SPINX"* and are evidence about a typo, nothing more.
+No doctrine may rest on the typo string's totals. What never rested
+on the typo is untouched: SPHINX's own exhibits (90, one short of the
+91 seat — T₁₃ — the audits crowned), the Liberty–Sphinx synonymy of
+office, and LIBERTY 91 == DETROIT 91 stand exactly as closed.
+
+**Passages named.** The following passages in this document rest on
+the premise that "Spinx" was the founder's deliberate form; that
+premise is corrected here, passage by passage:
+
+- The headnote to the stamped words: ""Spinx" above is HIS
+  spelling, preserved byte-for-byte in the quotation; the audit
+  weighs both spellings at §IV and strikes neither." The framing is
+  corrected: a typo, preserved as record — not as his spelling.
+- §I, the stamped quotation: "The Key of the Spinx, The Beauty and
+  the Beast." Stands verbatim; read *[sic — typo, corrected]*.
+- §IV, the weighings table: the row "SPINX (his spelling) — 82 /
+  499," glossed "a spelling, not a different word." Re-marked an
+  erratum exhibit; the label and the gloss are corrected — it was a
+  misspelling, and the Δ8 the row itself prints is the dropped H.
+- §IX, Dispositions: "The founder's spelling "Spinx" stands in
+  the quotation, unamended." Corrected in premise: it stands as the
+  record of a typo.
+- §X, Gate item 5: "The founder's spellings and coinages ("Spinx,"
+  HELLIONISTIC, TRIDECAGRAM as deployed): AGREE." — "Spinx" is
+  struck from that list by this Correctio. HELLIONISTIC and
+  TRIDECAGRAM are not part of the founder's correction and are
+  untouched; the item otherwise stands.
+
+The Gate stands as closed: DOES NOT FAIL. The printed PDF predates
+this Correctio; the markdown is the corrected record.
