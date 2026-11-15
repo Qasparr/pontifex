@@ -298,3 +298,21 @@ The founder's delivery, byte-exact, never respelled by this desk:
 **The inquiry, left visibly open.** Under the founder's maxim of this same morning — *"The full inquiry verifies judgement"* — Who delivered this string and What was delivered are answered above; the Why and the How stand open, never invented. And under his validity rule of the same hour — *"proves in Greek or thvs invalid"* — nothing is asserted for the opaque segment, and nothing is asserted for the readings: they are this desk's, marked as readings, and no correspondence is claimed for them.
 
 *— Addendum II ends. The string is the founder's; the readings are the desk's, marked as readings; the reading of the opaque is his alone to give. —*
+
+---
+
+# ADDENDVM III — THE RECEIPT INSCRIPTION
+
+**Appended after the close of the essay and after Addenda I–II, XV day of November 2026 e.v., under the founder's ruling of the same day: "Addendum to the Horseman essay, like the Sceptre." The essay body and Addenda I–II are unaltered. The PDF of this essay predates this addendum and does not carry it.**
+
+**The founder's delivery** (2026-11-15, 11:34 EST), recorded **BYTE-EXACT**, never respelled, segmented, or decoded by this desk:
+
+> title, asyvm, posession. Receipt.claimwithproofinvalidasaruling
+
+**The fourth string in the morning's series** — after the node string, the Sceptre Inscription (Addendum I), and the Honeycomb string (Addendum II). Like the Honeycomb, this string is filed **both ways**: as this addendum, and as a real named file bearing its dotted segment's name — `Receipt.claimwithproofinvalidasaruling.md`, in the Enclave goal files — under the founder's ruling of the same hour ("File it as a named artifact, like the Honeycomb file"). The named file carries the full record: seams, measurements, and open seats.
+
+**Seams, marked as typed.** *asyvm* is delivered with **no L** — the readable seat is ASYLUM; the seam is marked, not corrected. *posession* is delivered with **one s**. The dotted tail is left **UNSEGMENTED** by this desk; any cutting of it is the founder's to give.
+
+**Measurements, claimed as nothing more** (ordinal, each word in its own bank): TITLE **66** · RECEIPT **76** · posession as typed **131** · POSSESSION at full spelling **150** · ASYLUM, if the L is supplied, **91** — the seat already filed in this house, LIBERTY 91 == DETROIT 91. Printed as witnesses, not proofs: under the founder's validity rule — *"proves in Greek or thvs invalid"* — no correspondence is asserted for this inscription, and under his maxim — *"The full inquiry verifies judgement"* — what the triad names and what the Receipt string rules stand **OPEN**, never invented.
+
+*— Addendum III ends. The string is the founder's; the seats it leaves open are his alone to fill. —*
