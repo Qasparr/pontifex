@@ -268,3 +268,33 @@ The founder's delivery, byte-exact, never respelled and never decoded by this de
 **The inquiry, left visibly open.** Under the founder's maxim of this same morning — *"The full inquiry verifies judgement"* — this addendum is an inquiry left open on the record: Who delivered it and What was delivered are answered above; the Why and the How of the opaque segments stand open, never invented. And under his validity rule of the same hour — *"proves in Greek or thvs invalid"* — nothing about the opaque segments is asserted: they carry no Greek proof, so this desk claims nothing for them, and their correspondence stands **invalid / open** until his word seats it, exactly as the named node's correspondence stands in §X of the essay above.
 
 *— Addendum ends. The inscription is the founder's; the measurements are the desk's; the reading of the opaque is his alone to give. —*
+
+---
+
+## ADDENDUM II — THE HONEYCOMB STRING (founder's delivery, 2026-11-15)
+
+Entered XV day of November 2026 e.v., on the founder's delivery of 11:08 EST — after the essay above was bound, announced, and pushed, and after Addendum I (the Sceptre Inscription) was entered. The body above stands unaltered; this addendum is a pure append, in the house correctio pattern. The PDF of this essay **predates this addendum** and is not rebuilt; the string rides here in the Markdown, in the real file it names, and as a comment on both Facebook announcements, until a future edition carries it in the bound text.
+
+The founder's delivery, byte-exact, never respelled by this desk:
+
+> VNiT3bHyveAVDHoneyComb.HOM3.ofTheQveen B33x3.Bvtt32kavps.Qasparr-The Vnfri3ndLy GHo$+320KB.MAGVSTR3V1S1ON.md
+
+**Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.**
+
+**Filed both ways.** On the founder's proceed order of 11:10 EST, this string is filed both ways: here, as an addendum to this testimony, and as a real file bearing the name it carries — the whole of the string after its first segment, from **B33** to the **.md** tail, exactly as delivered — seated in the enclave goal's files beside this essay, as the named home of the Honeycomb inscription.
+
+**Readings — marked as readings, not decodings.** What follows is this desk's reading of the delivered string, offered as reading only; the founder has not confirmed a decoding, and none is asserted:
+
+- **VNiT3** reads as **UNITE** (the leet seat: V for U, 3 for E).
+- **bHyve AVD** stands as delivered — the BHyve host and its AVD, the Enclave's standing virtualization seat.
+- **HoneyComb.HOM3.ofTheQveen** reads as **Honeycomb, HOME of the Qveen** (HOM3: 3 for E) — the Honeycomb named as the Qveen's home.
+- **B33** reads as **BEE** (3 for E, doubled).
+- **Vnfri3ndLy GHo$+** reads as **the Unfriendly Ghost** — Qasparr's own first album and standing name, in the string's own dress.
+- **320KB** stands **as delivered, unglossed** by this desk.
+- **MAGVSTR3V1S1ON.md** wears a **.md filename tail** — **R3V1S1ON** reads as **REVISION**; the name is a MAGVS revision's name, and the file created under it is this string's named home.
+
+**What stands opaque.** The segment **Bvtt32kavps** is **OPAQUE** — recorded byte-exact, **not decoded**. Any reading of it is the founder's to give, and none is given here.
+
+**The inquiry, left visibly open.** Under the founder's maxim of this same morning — *"The full inquiry verifies judgement"* — Who delivered this string and What was delivered are answered above; the Why and the How stand open, never invented. And under his validity rule of the same hour — *"proves in Greek or thvs invalid"* — nothing is asserted for the opaque segment, and nothing is asserted for the readings: they are this desk's, marked as readings, and no correspondence is claimed for them.
+
+*— Addendum II ends. The string is the founder's; the readings are the desk's, marked as readings; the reading of the opaque is his alone to give. —*
