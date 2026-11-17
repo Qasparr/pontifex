@@ -118,13 +118,60 @@ def transliterate_latin_to_hebrew(word):
     return hebrew, mergers
 
 
+def _normalize_greek(word):
+    """Prepare a Greek word for the isopsephy table.
+
+    MECHANISM: casefold, then NFD-decompose and drop every combining
+    mark. Case carries no Milesian value (the tradition weighs letters,
+    not their height), and neither do the breathings and accents —
+    θέλημα and ΘΕΛΗΜΑ and θελημα are one word to the table. Before this
+    normalization existed, weigh() looked the raw characters up and
+    SILENTLY SKIPPED every accented letter and every capital: θέλημα
+    weighed 88 (the έ never counted), πειρατής 696 (the ή gone), and
+    ΘΕΛΗΜΑ weighed 0 with an empty breakdown. The defect was found by
+    control weighings on 2026-11-16 and repaired the same night, at the
+    founder's order; greek_checks() below pins the repair.
+
+    DOCTRINE: what the eye reads as the letter is what gets weighed —
+    the same rule transliterate_latin_to_hebrew() already applies to
+    its own input. The table itself is NOT touched: it stands as the
+    tradition hands it down, in bare lowercase letters; the preparation
+    happens here, at the door, where a reader of the breakdown can see
+    the normalized letters that were actually weighed. (A word-final
+    capital Σ folds to σ in the breakdown; a lowercase ς the writer
+    actually wrote is restored in final position — see below. σ and ς
+    both carry 200 in the table, so no weight turns on the glyph.)
+    """
+    folded = word.casefold()
+    out = ''.join(
+        c for c in unicodedata.normalize('NFD', folded)
+        if not unicodedata.combining(c)
+    )
+    # MECHANISM: casefold unifies all three sigma forms (Σ, σ, ς) to σ.
+    # Where the input itself was written with a final ς, restore that
+    # glyph in final position, so the breakdown shows the letter the
+    # eye read on the page. Pure fidelity of the audit trail: σ and ς
+    # carry the same 200, so the restoration moves no weight.
+    bare = ''.join(
+        c for c in unicodedata.normalize('NFD', word)
+        if not unicodedata.combining(c)
+    )
+    if bare.endswith('ς') and out.endswith('σ'):
+        out = out[:-1] + 'ς'
+    return out
+
+
 def weigh(word, system):
     """Weigh a word in a system's table.
 
     MECHANISM: look up each character, sum the values. Unknown characters
     are skipped (silence, not false weight). Latin systems fold case.
-    Returns a dict: value, provenance, and the per-letter breakdown so any
-    weighing can be audited by hand.
+    Greek input is normalized first (see _normalize_greek): casefolded
+    and stripped of diacritics, because case and accents carry no
+    Milesian value — the breakdown then shows the normalized letters
+    that were actually weighed, while the result's 'word' field keeps
+    the word exactly as it was given. Returns a dict: value, provenance,
+    and the per-letter breakdown so any weighing can be audited by hand.
 
     DOCTRINE: the breakdown is the audit trail — TRVVTH requires that every
     number show its work.
@@ -144,7 +191,17 @@ def weigh(word, system):
     breakdown = []
     # MECHANISM: Greek digraph 'στ' (stigma) is two codepoints with one
     # value — check the pair before the singles.
-    w = word.upper() if system in ('latin_ordinal', 'agrippa') else word
+    # MECHANISM: each script is prepared at this one seam, so all three
+    # doors (Python, CLI, HTTP) weigh the same letters: Latin folds to
+    # capitals (its tables are keyed in capitals); Greek is casefolded
+    # and stripped of diacritics (its table is keyed in bare lowercase,
+    # and neither case nor accent carries Milesian value).
+    if system in ('latin_ordinal', 'agrippa'):
+        w = word.upper()
+    elif system == 'greek':
+        w = _normalize_greek(word)
+    else:
+        w = word
     i = 0
     while i < len(w):
         pair = w[i:i + 2]
@@ -267,6 +324,74 @@ def engine_checks():
     except ValueError:
         checks.append(('unknown system raises', True, 'ValueError'))
     checks.extend(music_checks())
+    return checks
+
+
+def greek_checks():
+    """Self-checks for the Greek normalization. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the repair of 2026-11-16 — before it, weigh()
+    silently dropped accented Greek letters (θέλημα read 88, πειρατής
+    696, πλοῖον 300) and read uppercase Greek as zero (ΘΕΛΗΜΑ, empty
+    breakdown). The battery holds the three doors of the defect shut:
+    accents, capitals, and the final sigma. Kept beside engine_checks()
+    rather than inside it, so the established eleven checks stand
+    untouched as the no-collateral witness; run both for the full suite.
+    """
+    checks = []
+    # 1. The control word, accented as a man actually writes it: θέλημα
+    #    must weigh 93 — the έ counts.
+    r = weigh('θέλημα', 'greek')
+    checks.append(('θέλημα/greek == 93 (accented)', r['value'] == 93, r['value']))
+    # 2. The same word in capitals must not vanish: ΘΕΛΗΜΑ == 93, with a
+    #    full breakdown (before the repair: 0, empty).
+    r = weigh('ΘΕΛΗΜΑ', 'greek')
+    checks.append(('ΘΕΛΗΜΑ/greek == 93 (uppercase)',
+                   r['value'] == 93 and len(r['breakdown']) == 6,
+                   (r['value'], len(r['breakdown']))))
+    # 3. All three writings of the word agree — accented, capital, bare.
+    vals = {weigh(w, 'greek')['value'] for w in ('θέλημα', 'ΘΕΛΗΜΑ', 'θελημα')}
+    checks.append(('θέλημα in three writings agrees at 93',
+                   vals == {93}, sorted(vals)))
+    # 4. Breathing and accent together: ἀλήθεια == 64.
+    r = weigh('ἀλήθεια', 'greek')
+    checks.append(('ἀλήθεια/greek == 64', r['value'] == 64, r['value']))
+    # 5. Capitals again, on the truth: ΑΛΗΘΕΙΑ == 64.
+    r = weigh('ΑΛΗΘΕΙΑ', 'greek')
+    checks.append(('ΑΛΗΘΕΙΑ/greek == 64', r['value'] == 64, r['value']))
+    # 6. The perispomeni is a mark, not a letter: πλοῖον == 310 (before
+    #    the repair the ῖ was skipped and the vessel read 300).
+    r = weigh('πλοῖον', 'greek')
+    checks.append(('πλοῖον/greek == 310', r['value'] == 310, r['value']))
+    # 7. ΠΛΟΙΟΝ in capitals == 310.
+    r = weigh('ΠΛΟΙΟΝ', 'greek')
+    checks.append(('ΠΛΟΙΟΝ/greek == 310', r['value'] == 310, r['value']))
+    # 8. σκαμνόν, accented on the omicron, == 431.
+    r = weigh('σκαμνόν', 'greek')
+    checks.append(('σκαμνόν/greek == 431', r['value'] == 431, r['value']))
+    # 9. πειρατής == 704, and the breakdown closes on the final sigma —
+    #    a lowercase ς in the input stays ς and carries its 200.
+    r = weigh('πειρατής', 'greek')
+    checks.append(('πειρατής/greek == 704, final sigma in breakdown',
+                   r['value'] == 704 and r['breakdown'][-1] == ('ς', 200),
+                   (r['value'], r['breakdown'][-1])))
+    # 10. Final-sigma agreement across case: λόγος (accented, ends ς)
+    #     and ΛΟΓΟΣ (capitals; the final Σ folds to σ) weigh the same —
+    #     σ and ς are one weight in the table.
+    a = weigh('λόγος', 'greek')['value']
+    b = weigh('ΛΟΓΟΣ', 'greek')['value']
+    checks.append(('λόγος == ΛΟΓΟΣ == 373 (final sigma across case)',
+                   a == b == 373, (a, b)))
+    # 11. The stigma digraph survives normalization, in either case:
+    #     στ and ΣΤ both read as the pair, value 6.
+    a = weigh('στ', 'greek')['value']
+    b = weigh('ΣΤ', 'greek')['value']
+    checks.append(('stigma digraph στ == ΣΤ == 6', a == b == 6, (a, b)))
+    # 12. The breakdown shows the letters actually weighed — normalized:
+    #     ΘΕΛΗΜΑ's audit trail spells θελημα.
+    toks = ''.join(tok for tok, _ in weigh('ΘΕΛΗΜΑ', 'greek')['breakdown'])
+    checks.append(('breakdown shows normalized letters (ΘΕΛΗΜΑ → θελημα)',
+                   toks == 'θελημα', toks))
     return checks
 
 

@@ -1,6 +1,6 @@
 # PONTIFEX API Reference — v0.3.0 "The Third Span"
 
-Three doors into the same engine: the **Python API** (import it), the **CLI** (script it), the **HTTP API** (query it on loopback). All three speak the same result shape.
+Three doors into the same engine: the **Python API** (import it), the **CLI** (script it), the **HTTP API** (query it on loopback). All three speak the same result shape, with one conversion at the JSON door (see the note under the result shape).
 
 ## The result shape
 
@@ -17,6 +17,8 @@ Every weighing returns a dict:
 ```
 
 `breakdown` is the audit trail — TRVVTH requires that every number show its work. `provenance` is load-bearing: ATTESTED / DERIVED / CONSTRUCTED (see METHOD.md §1).
+
+**The tuple note (the runtime is the truth):** in the Python API, `breakdown` is a list of (token, value) **tuples** — `[("C", 3), ("E", 5), ("L", 12), ("L", 12)]`. The `{"token", "value"}` objects in the JSON above are the wire rendering: `pontifex.to_jsonable(result)` converts the tuples for the CLI's `--json` output and for the HTTP API. Same data, two shapes — tuples in Python, objects in JSON.
 
 `bridge()` returns:
 
@@ -40,6 +42,13 @@ import pontifex
 pontifex.weigh('CELL', 'latin_ordinal')
 pontifex.weigh('עז', 'hebrew')
 pontifex.weigh('test', 'braille')          # CONSTRUCTED carrier
+
+# Greek input is normalized before weighing — casefolded, diacritics
+# stripped — because neither case nor accent carries a Milesian value:
+pontifex.weigh('θέλημα', 'greek')          # 93
+pontifex.weigh('ΘΕΛΗΜΑ', 'greek')          # 93 — the same word to the table
+# The result's 'word' keeps the input as given; the breakdown shows the
+# normalized letters that were actually weighed.
 
 # Check a convergent point
 pontifex.bridge('AXONEME', 'latin_ordinal', 'עז', 'hebrew')

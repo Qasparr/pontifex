@@ -17,7 +17,7 @@ A convergent point on attested tables is a **candidate bridge**. A convergent po
 ## 2. The attested tables (v0.1)
 
 - **Hebrew**, mispar hechrechi — the root engine. א=1 … ת=400; final forms share values.
-- **Greek**, isopsephy — Milesian values with the epissemones (digamma/stigma 6, koppa 90, sampi 900).
+- **Greek**, isopsephy — Milesian values with the epissemones (digamma/stigma 6, koppa 90, sampi 900). Greek input is **normalized before weighing** — casefolded, then stripped of diacritics (NFD decomposition, combining marks dropped) — because neither case nor accent carries a Milesian value: θέλημα, ΘΕΛΗΜΑ and θελημα are one word to the table, and each weighs 93. The table itself stands as the tradition hands it down, in bare lowercase letters; the preparation happens in `weigh()`, and the breakdown shows the normalized letters actually weighed. (Defect record: before 2026-11-16 the engine looked raw characters up and silently skipped every accented letter — θέλημα read 88, πειρατής 696, πλοῖον 300 — and read uppercase Greek as zero. Found by control weighings, repaired the same night at the founder's order; `greek_checks()` in pontifex/engine.py pins the repair.)
 - **Latin ordinal**, A=1…Z=26 — the working Latin table; what "Latin gematria" is in practice.
 - **Agrippa's Latin**, *De occulta philosophia* II.xix — a=1…z=500 in the classical alphabet (J=I, U=V).
 - **Arabic abjad**, Eastern order — ا=1 … غ=1000. (The Maghrebi order differs in a few letters; noted, not hidden.)
