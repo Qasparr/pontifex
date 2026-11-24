@@ -1,0 +1,89 @@
+1. CONTROLS
+  [OK] control θελημα = 93 
+  [OK] control VAPOUR = 93 
+  [OK] control σφιγξ = 773 
+2. THE BANK — 29 keys re-weighed, plate rows parsed
+  [OK] bank α = 1 (engine 1, plate 1)
+  [OK] bank β = 2 (engine 2, plate 2)
+  [OK] bank γ = 3 (engine 3, plate 3)
+  [OK] bank δ = 4 (engine 4, plate 4)
+  [OK] bank ε = 5 (engine 5, plate 5)
+  [OK] bank ϛ = 6 (engine 6, plate 6)
+  [OK] bank στ = 6 (engine 6, plate 6)
+  [OK] bank ζ = 7 (engine 7, plate 7)
+  [OK] bank η = 8 (engine 8, plate 8)
+  [OK] bank θ = 9 (engine 9, plate 9)
+  [OK] bank ι = 10 (engine 10, plate 10)
+  [OK] bank κ = 20 (engine 20, plate 20)
+  [OK] bank λ = 30 (engine 30, plate 30)
+  [OK] bank μ = 40 (engine 40, plate 40)
+  [OK] bank ν = 50 (engine 50, plate 50)
+  [OK] bank ξ = 60 (engine 60, plate 60)
+  [OK] bank ο = 70 (engine 70, plate 70)
+  [OK] bank π = 80 (engine 80, plate 80)
+  [OK] bank ϟ = 90 (engine 90, plate 90)
+  [OK] bank ρ = 100 (engine 100, plate 100)
+  [OK] bank σ = 200 (engine 200, plate 200)
+  [OK] bank ς = 200 (engine 200, plate 200)
+  [OK] bank τ = 300 (engine 300, plate 300)
+  [OK] bank υ = 400 (engine 400, plate 400)
+  [OK] bank φ = 500 (engine 500, plate 500)
+  [OK] bank χ = 600 (engine 600, plate 600)
+  [OK] bank ψ = 700 (engine 700, plate 700)
+  [OK] bank ω = 800 (engine 800, plate 800)
+  [OK] bank ϡ = 900 (engine 900, plate 900)
+  [OK] plate prints all 29 bank rows (29)
+3. THE ZERO, THE DIPHTHONGS, THE NINE
+  [OK] οὐδέν = 529 
+  [OK] diphthongs {'αι': 11, 'ει': 15, 'οι': 80, 'ου': 470} 
+  [OK] diphthong four sum 576 = 24² 
+  [OK] the nine weigh 1779 
+4. THE CLAIMS — 38, keys on the plate, words re-weighed
+  [OK] register carries 38 Greek claims 
+  [OK] all 38 claim keys stand on the plate (missing: [])
+  [OK] S084-P2-C0 κωνειον = 1005 (register recomputed 1005, claimed 1005, VERIFIED)
+  [OK] S098-P2-C0 αρσενικον = 506 (register recomputed 506, claimed 506, VERIFIED)
+  [OK] S099-P1-C0 κινναβαρι = 244 (register recomputed 244, claimed 244, VERIFIED)
+  [OK] S102-P2-C0 στιμμι = 106 (register recomputed 106, claimed 106, VERIFIED)
+  [OK] S103-P2-C0 στυπτηρια = 905 (register recomputed 905, claimed 905, VERIFIED)
+  [OK] S104-P1-C0 ιωδης = 1022 (register recomputed 1022, claimed 1022, VERIFIED)
+  [OK] S159-P0-C0 ϡ = 900 (register recomputed 900, claimed 900, VERIFIED)
+  [OK] S201-P0-C0 ε = 5 (register recomputed 5, claimed 5, VERIFIED)
+  [OK] S202-P0-C0 ε = 5 (register recomputed 5, claimed 5, VERIFIED)
+  [OK] S205-P3-C0 αήρ = 109 (register recomputed 109, claimed 109, VERIFIED)
+  [OK] S206-P1-C0 Ἑρμῆς = 353 (register recomputed 353, claimed 353, VERIFIED)
+  [OK] S206-P2-C0 Θώθ = 818 (register recomputed 818, claimed 818, VERIFIED)
+  [OK] S207-P0-C2 ΗΑ = 9 (register recomputed 9, claimed 9, VERIFIED)
+  [OK] S208-P1-C0 Ἀπόλλων = 1061 (register recomputed 1061, claimed 1061, VERIFIED)
+  [OK] S208-P2-C0 Δελφοί = 619 (register recomputed 619, claimed 619, VERIFIED)
+  [OK] S210-P2-C0 Ζεύς = 612 (register recomputed 612, claimed 612, VERIFIED)
+  [OK] S214-P2-C0 θυμιαμα = 501 (register recomputed 501, claimed 501, VERIFIED)
+  [OK] S215-P3-C0 σεληνη = 301 (register recomputed 301, claimed 301, VERIFIED)
+  [OK] S216-P4-C0 πυρ = 580 (register recomputed 580, claimed 580, VERIFIED)
+  [OK] S217-P4-C0 πνευμα = 576 (register recomputed 576, claimed 576, VERIFIED)
+  [OK] S218-P3-C0 αρπη = 189 (register recomputed 189, claimed 189, VERIFIED)
+  [OK] register verdicts {'VERIFIED': 21, 'NOT VERIFIABLE': 17} 
+  [OK] plate prints the verdict counts entire 
+5. THE NATIVES — 11 renderings re-weighed
+  [OK] native XLIII/24 κωνειον = 1005 
+  [OK] native XLIV/19 αρσενικον = 506 
+  [OK] native XLIV/20 κινναβαρι = 244 
+  [OK] native XLIV/26 στιμμι = 106 
+  [OK] native XLIV/28 στυπτηρια = 905 
+  [OK] native XLIV/29 ιωδης = 1022 
+  [OK] native CLXXXVII/28 θυμιαμα = 501 
+  [OK] native CLXXXVII/29 σεληνη = 301 
+  [OK] native CLXXXVII/31 πυρ = 580 
+  [OK] native CLXXXVII/31 bis πνευμα = 576 
+  [OK] native CLXXXVII/32 αρπη = 189 
+  [OK] eleven NATIVE cells audited (11)
+6. THE SEATING'S GREEK COORDINATES
+  [OK] ΟΥ = 470 (Triad III mark) 
+  [OK] ΕΙ = 15 (Triad II mark) 
+  [OK] Frame B triad sums [14, 95, 1670], each reducing to root 5 
+7. THE MAGVS PDF — text layer and furniture
+  [OK] all 38 claim keys in the PDF text layer (absent: [])
+  [OK] footer count resolves (last: ('15', '15'))
+
+PRICED CELLS RE-WEIGHED: 84
+AUDIT VERDICT: PASS
