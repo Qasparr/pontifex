@@ -711,6 +711,117 @@ ARMENIAN_LATE = {
     'Ֆ': 20000, 'ֆ': 20000,
 }
 
+# -- Aramaic: THE ABJAD BANK IN ITS OWN SCRIPTS (ATTESTED) -------------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — THE MAP'S LAST SEAT, stated against its twin so the
+# identity is never double-counted. This bank is the shared
+# Northwest Semitic abjad — the 22 letters at the values 1–400 —
+# seated in Aramaic's OWN scripts: the IMPERIAL stratum (the
+# classical Imperial Aramaic glyphs, U+10840–U+10855) and the
+# SYRIAC stratum (the letters of Aramaic's living descendant
+# script). Audited 2026-11-24 (THE-ARAMAIC-SEAT-PHASE-I-AUDIT.md):
+# three witnesses read entire agree on all 22 cells — Cherry
+# (York University, 2007), "Imperial Aramaic Script (700 B.C.E.–
+# 200 B.C.E.) with West-Syriac Reading", whose chart pairs the
+# values with the Imperial glyphs themselves (references Diringer,
+# Healey, Hetzron, Rogers); Wikipedia, "Syriac alphabet", whose
+# summary table carries the Numerical Value column AND pairs each
+# Syriac glyph with its Imperial Aramaic and Hebrew equivalents;
+# tooldune's Syriac table concurring — and the Syriac numeral
+# PRACTICE is documented by the grammatical tradition itself:
+# Nöldeke's Kurzgefasste syrische Grammatik, appendix, via Hughes,
+# "A guide to numerals in Syriac" (letters overlined to mark
+# numeral use; the letters suffice for 1–499; the higher hundreds
+# written additively). Parity of this seat against the audit's
+# frozen transcription is proven by test_aramaic_parity.py at the
+# repository root.
+#
+# THE IDENTITY, AT THE SAME SIZE AS THE VALUES: this bank and the
+# HEBREW bank above are ONE table in two scripts — the same 22
+# values at the same 22 seats, proven in both directions by the
+# audit's identity battery (22/22 positions). The descent runs
+# THIS way historically: the Hebrew square script descends FROM
+# the Imperial Aramaic script (Wikipedia, "Aramaic alphabet":
+# the Jewish Hebrew alphabet "bears the closest relation to the
+# Imperial Aramaic script of the 5th century BC, with an identical
+# letter inventory"), so the values are the common inheritance,
+# not a borrowing from Hebrew. DOCTRINE, inherited from the sweep
+# (Worker #7, §7) and binding on every reader of this bank: the
+# identity is ONE fact, never two witnesses — a convergence
+# between 'aramaic' and 'hebrew' corroborates nothing twice, and
+# the founding bridge keeps its honest shape (AXONEME = 77 is
+# English-ordinal-side; עז = 77 is the one Semitic fact, in
+# whichever of its scripts it is written: עז, 𐡏𐡆, ܥܙ).
+#
+# WHY TWO STRATA IN ONE BANK: the Hebrew bank's own shape is the
+# precedent — one bank, its letterforms keyed together (there the
+# final forms; here the second script). The Syriac stratum is the
+# same table at the same tier in Aramaic's living hand — not an
+# annex of lesser attestation (the ARMENIAN_LATE shape), because
+# its practice is documented in its own right. The SQUARE script
+# is deliberately NOT re-keyed here: its glyphs ARE the 'hebrew'
+# bank's keys (Biblical and Jewish Aramaic are written in them to
+# this day), and re-keying them would seat one fact as two banks.
+# A square-script Aramaic weighing is a 'hebrew' weighing; the
+# audit prints that as a finding, not an omission.
+#
+# THE FINALS COORDINATE — THE ONE PARTING, PRINTED AT FULL SIZE:
+# Hebrew's record carries an extension this bank does NOT import.
+# In mispar gadol — a separate method, documented in medieval
+# Kabbalistic sources (Wikipedia, "Gematria") — the five final
+# letters take values 500–900 (ך 500, ם 600, ן 700, ף 800, ץ 900).
+# Three fences keep it out of this seat: (1) the engine's own
+# Hebrew bank is mispar HECHRECHI, where the finals stand at their
+# letters' values — the extension is seated NOWHERE in this
+# engine, and Aramaic will not be given a system Hebrew's own
+# seat refuses; (2) the Imperial block encodes NO final forms at
+# all (22 letters, one form each — verified against the standard);
+# Syriac's finals are contextual glyph forms of the same
+# codepoints (Wikipedia's forms tables), carrying the letter's
+# value, never a second one; (3) Aramaic's own practice past 400
+# is documented and different: ADDITION (Syriac ܬܩ = 400 + 100 =
+# 500, ܬܬܩ = 900 — Nöldeke via Hughes, recomputed in the audit)
+# and the raised-decade device (a decade letter with a raised
+# point read as its century), which the engine's aramaic() door
+# counts and does not price. No glyph in either stratum carries
+# a value in 500–900; the largest value in this bank is taw's 400.
+#
+# THE OTHER NOTATION, AT THE BOUNDARY: the Imperial block also
+# encodes eight dedicated NUMBER signs (U+10858–U+1085F: ONE,
+# TWO, THREE, TEN, TWENTY, ONE HUNDRED, ONE THOUSAND, TEN
+# THOUSAND) and a section sign — the empire's chancellery wrote
+# numbers with signs, and Old Syriac inscriptions used a stroke
+# system of the same kind. Those are SIGNS, not letters: they
+# are not keys of either stratum, and a weighing that meets one
+# passes it in silence. The letter-value practice this bank
+# seats is attested in Aramaic's later life (the square-script
+# tradition; the Syriac grammatical tradition) and tabulated for
+# the Imperial glyphs by Cherry; the audit prints the depth
+# exactly (§VI): no witness read exhibits an Achaemenid document
+# writing a number in letter values.
+#
+# MECHANISM: the strata are generated from their codepoints —
+# the Imperial block is consecutive (U+10840 + position − 1),
+# the Syriac letters stand at the standard's own seats — over
+# the one value sequence, so the identity between the strata is
+# mechanical, not editorial: they cannot drift apart without a
+# battery failing. Singleness AND uniqueness hold in each
+# stratum: 22 letters, 22 distinct values, sum 1495. The merged
+# bank carries 44 keys; no glyph is shared between the strata,
+# and no Hebrew-block glyph is a key of this bank.
+_ABJAD_VALUES = [1, 2, 3, 4, 5, 6, 7, 8, 9,
+                 10, 20, 30, 40, 50, 60, 70, 80, 90,
+                 100, 200, 300, 400]
+_SYRIAC_CPS = [0x0710, 0x0712, 0x0713, 0x0715, 0x0717, 0x0718,
+               0x0719, 0x071A, 0x071B, 0x071D, 0x071F, 0x0720,
+               0x0721, 0x0722, 0x0723, 0x0725, 0x0726, 0x0728,
+               0x0729, 0x072A, 0x072B, 0x072C]
+ARAMAIC_IMPERIAL = {chr(0x10840 + i): v
+                    for i, v in enumerate(_ABJAD_VALUES)}
+ARAMAIC_SYRIAC = {chr(cp): v for cp, v in zip(_SYRIAC_CPS,
+                                              _ABJAD_VALUES)}
+ARAMAIC = {**ARAMAIC_IMPERIAL, **ARAMAIC_SYRIAC}
+
 # =============================================================================
 # Closing motto: "Live, Love, and let Love, Live."
 # 93. All Rights Reserved, Without Prejudice.

@@ -49,6 +49,7 @@ from .engine import (
     halehame,
     armenian,
     coptic,
+    aramaic,
     weigh_via_hebrew_fallback,
     bridge,
     transliterate_latin_to_hebrew,

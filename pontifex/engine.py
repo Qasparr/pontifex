@@ -61,6 +61,7 @@ from .tables import (
     HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE,
     ARMENIAN,
     COPTIC, ARMENIAN_LATE,
+    ARAMAIC, ARAMAIC_IMPERIAL, ARAMAIC_SYRIAC,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -242,6 +243,61 @@ SYSTEMS = {
                                     'letter values; the coptic() '
                                     'door counts the marks and '
                                     'prices none'},
+    # DOCTRINE: the ARAMAIC bank is the map's last seat — the
+    # abjad bank entire in Aramaic's own scripts, audited
+    # 2026-11-24 as an IDENTITY to be sourced, not assumed: the
+    # same 22 values the 'hebrew' bank carries, seated in the
+    # Imperial glyphs and in the Syriac letters. Its fence states
+    # the identity and its one parting: the identity is ONE fact,
+    # never two witnesses (agreement with 'hebrew' corroborates
+    # nothing twice), and NO finals extension is seated — mispar
+    # gadol's 500–900 is a Hebrew method this engine seats
+    # nowhere, and Aramaic's own practice writes past 400
+    # additively. aramaic() below is the manuscript door: it
+    # counts the dress marks (the overline; the raised point)
+    # and prices none.
+    'aramaic':       {'table': ARAMAIC,
+                      'provenance': 'ATTESTED — the Aramaic abjad '
+                                    'table: the 22 letters at the '
+                                    'shared Northwest Semitic '
+                                    'values (1–400), seated in TWO '
+                                    'scripts — the Imperial '
+                                    'Aramaic glyphs '
+                                    '(U+10840–U+10855), tabulated '
+                                    'with these values by Cherry '
+                                    '(York University, 2007), and '
+                                    'the Syriac letters, whose own '
+                                    'numeral practice the '
+                                    'grammatical tradition '
+                                    'documents (Nöldeke\'s '
+                                    'appendix, via Hughes) — '
+                                    'audited 2026-11-24 (three '
+                                    'witnesses agree on all 22 '
+                                    'cells; the identity with '
+                                    'the \'hebrew\' bank proven '
+                                    'seat by seat in both '
+                                    'directions). The identity '
+                                    'is ONE fact, never two '
+                                    'witnesses: this bank and '
+                                    '\'hebrew\' are the same '
+                                    'inheritance in two scripts, '
+                                    'and a convergence between '
+                                    'them corroborates nothing '
+                                    'twice. NO finals extension '
+                                    'is seated: the mispar gadol '
+                                    'values (500–900) are a '
+                                    'Hebrew method this engine '
+                                    'seats nowhere, and '
+                                    'Aramaic\'s own practice '
+                                    'writes past 400 additively '
+                                    '(Syriac ܬܩ = 500). The '
+                                    'Imperial block\'s dedicated '
+                                    'number signs are not '
+                                    'letters and carry no seat '
+                                    'here. The aramaic() door '
+                                    'counts the manuscript marks '
+                                    '(the overline; the raised '
+                                    'point) and prices none'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -700,6 +756,53 @@ def coptic(word):
     result['overline_marks'] = overlines
     result['double_overline_marks'] = doubles
     result['numeral_sign_marks'] = signs
+    return result
+
+
+def aramaic(word):
+    """Weigh an Aramaic word in the abjad bank, manuscript dress.
+
+    MECHANISM: the bank's reading door for text as the traditions
+    write it. It counts the two combining marks that carry
+    numeral meaning in the Syriac practice — U+0305, the overline,
+    and U+0307, the raised point — strips them, and weighs the
+    bare letters in the bank (either stratum; weigh() passes the
+    glyphs as written, there being no case in either script). The
+    result is weigh()'s result on the bare word, with 'word'
+    restored to the input as given and the counts carried as
+    'overline_marks' and 'raised_point_marks', so every mark's
+    presence is auditable, never silent. Other combining marks a
+    pointed Syriac text carries (the vowel points, the bgdkpt
+    dots below) are not numeral marks and are neither stripped
+    nor counted — weigh() passes them in silence, as it passes
+    every character no bank seats.
+
+    DOCTRINE: no mark is priced at this door. The overline is a
+    MARKER in the Syriac witness — Hughes, after Nöldeke: the
+    numerals "are written overlined" so the reader does not take
+    them for words — the same office the line holds in Coptic,
+    and the opposite of Armenia, where the line is a multiplier:
+    one mark, three offices, each read from its own sources. The
+    raised point is the raised-decade DEVICE (a decade letter
+    with a raised point reads as its century: ܣ̇ = 600 in the
+    pointed convention Hughes describes) — counted, not priced,
+    for two reasons printed here: the additive writing is the
+    tradition's plain alternative and already weighs true at the
+    raw bank (ܬܩ = 500 needs no device), and the same combining
+    dot above is Syriac's hard-dot for the bgdkpt letters, so a
+    priced point would tax ordinary pointed text for a numeral
+    it does not intend. A reading law for the device is an open
+    coordinate for the founder's pen (Phase I audit §VII Q1).
+    The additive hundreds need no door at all: they are the
+    bank's own letters summed, at weigh() as here.
+    """
+    overlines = word.count('\u0305')       # the numeral-use marker
+    raised = word.count('\u0307')          # the raised-decade device
+    bare = word.replace('\u0305', '').replace('\u0307', '')
+    result = weigh(bare, 'aramaic')
+    result['word'] = word
+    result['overline_marks'] = overlines
+    result['raised_point_marks'] = raised
     return result
 
 
@@ -1499,6 +1602,169 @@ def coptic_checks():
                    p.startswith('DERIVED') and '27' in p
                    and 'fai' in p and 'NO value' in p
                    and 'prices none' in p, p))
+    return checks
+
+
+# MECHANISM: the two strata in abjad order — the audit's
+# coordinates for the seat. The Imperial order is the block's own
+# (consecutive codepoints); the Syriac order is the standard's
+# seats, stated seat by seat. The Hebrew twin string is the
+# identity's third side. Values are recomputed from position in
+# aramaic_checks() below, never trusted from the dicts' shape.
+_ARAMAIC_IMPERIAL_ORDER = ''.join(chr(0x10840 + i) for i in range(22))
+_ARAMAIC_SYRIAC_ORDER = ''.join(chr(cp) for cp in (
+    0x0710, 0x0712, 0x0713, 0x0715, 0x0717, 0x0718, 0x0719, 0x071A,
+    0x071B, 0x071D, 0x071F, 0x0720, 0x0721, 0x0722, 0x0723, 0x0725,
+    0x0726, 0x0728, 0x0729, 0x072A, 0x072B, 0x072C))
+_ARAMAIC_HEBREW_ORDER = 'אבגדהוזחטיכלמנסעפצקרשת'
+
+
+def aramaic_checks():
+    """Self-checks for the ARAMAIC seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against its audit of record
+    (THE-ARAMAIC-SEAT-PHASE-I-AUDIT.md): the abjad law recomputed
+    from position in both strata, the identity exhibited against
+    the LIVING Hebrew bank seat by seat, the founding head in
+    three scripts, the Syriac additive hundreds, the finals
+    boundary, the number-sign boundary, and the manuscript door's
+    refusal to price a mark. Sign-for-sign parity against the
+    audit's frozen transcription (research/twelve-tongues/
+    aramaic-table.csv and aramaic-identity.csv) is a relation
+    between two seats and lives in test_aramaic_parity.py at the
+    repository root; this battery holds the seat to the doctrine
+    itself. Kept beside coptic_checks() rather than inside
+    engine_checks(), so the established checks stand untouched as
+    the no-collateral witness; run all for the full suite.
+
+    DOCTRINE — THE IDENTITY, AT THE SEAT: this bank IS the Hebrew
+    bank's table in Aramaic's scripts, and the checks below pin
+    the identity as the audit established it — total, at every
+    seat, in both directions — together with its one parting
+    (the finals) and its discipline: the identity is ONE fact,
+    never two witnesses, and no convergence between these banks
+    corroborates anything twice.
+    """
+    checks = []
+    # 1. The abjad law entire, recomputed from position in both
+    #    strata: nine units, nine tens, four hundreds.
+    def law(pos):
+        return pos if pos <= 9 else (pos - 9) * 10 if pos <= 18 \
+            else (pos - 18) * 100
+    imp = [ARAMAIC_IMPERIAL[ch] for ch in _ARAMAIC_IMPERIAL_ORDER]
+    syr = [ARAMAIC_SYRIAC[ch] for ch in _ARAMAIC_SYRIAC_ORDER]
+    checks.append(('the abjad law at all 22 seats in both strata '
+                   '(nine units, nine tens, four hundreds, '
+                   'recomputed from position)',
+                   imp == syr == [law(p) for p in range(1, 23)],
+                   imp[:4] + imp[-2:]))
+    # 2. The seat's shape: two strata of 22, one bank of 44;
+    #    singleness and uniqueness in each stratum; the sums.
+    checks.append(('two strata of 22, one bank of 44; 22 distinct '
+                   'values per stratum, each summing 1495',
+                   len(ARAMAIC_IMPERIAL) == 22
+                   and len(ARAMAIC_SYRIAC) == 22
+                   and len(ARAMAIC) == 44
+                   and len(set(ARAMAIC_IMPERIAL.values())) == 22
+                   and len(set(ARAMAIC_SYRIAC.values())) == 22
+                   and sum(ARAMAIC_IMPERIAL.values()) == 1495
+                   and sum(ARAMAIC_SYRIAC.values()) == 1495,
+                   (len(ARAMAIC), sum(ARAMAIC_IMPERIAL.values()))))
+    # 3. THE IDENTITY against the living Hebrew bank, seat by
+    #    seat: at every position the Imperial value, the Syriac
+    #    value, and the Hebrew base letter's hechrechi value are
+    #    one number.
+    ident = all(ARAMAIC_IMPERIAL[i] == ARAMAIC_SYRIAC[s]
+                == HEBREW[h]
+                for i, s, h in zip(_ARAMAIC_IMPERIAL_ORDER,
+                                   _ARAMAIC_SYRIAC_ORDER,
+                                   _ARAMAIC_HEBREW_ORDER))
+    checks.append(('THE IDENTITY at the seat: Imperial == Syriac '
+                   '== Hebrew (mispar hechrechi) at 22/22 seats',
+                   ident, '22/22 seats'))
+    # 4. The founding head in three scripts: the house's first
+    #    bridge-land weighs 77 in whichever Semitic script it is
+    #    written — one fact, exhibited, never counted thrice.
+    a = weigh('𐡏𐡆', 'aramaic')
+    b = weigh('ܥܙ', 'aramaic')
+    c = weigh('עז', 'hebrew')
+    checks.append(('the founding head in three scripts: 𐡏𐡆 '
+                   '(Imperial) == ܥܙ (Syriac) == עז (Hebrew) == 77',
+                   a['value'] == b['value'] == c['value'] == 77
+                   and a['breakdown'] == [('𐡏', 70), ('𐡆', 7)]
+                   and b['breakdown'] == [('ܥ', 70), ('ܙ', 7)],
+                   (a['value'], b['value'], c['value'])))
+    # 5. The Syriac practice at the seat: past 400 by ADDITION —
+    #    the additive hundreds of Nöldeke's appendix, and two of
+    #    Hughes' worked examples, weigh true at the raw bank.
+    ex = (weigh('ܬܩ', 'aramaic')['value'],
+          weigh('ܬܬܩ', 'aramaic')['value'],
+          weigh('ܩܢܙ', 'aramaic')['value'],
+          weigh('ܬܫܣܕ', 'aramaic')['value'])
+    checks.append(('the Syriac additive hundreds weigh at the '
+                   'bank: ܬܩ 500, ܬܬܩ 900; Hughes\' examples '
+                   'ܩܢܙ 157, ܬܫܣܕ 764',
+                   ex == (500, 900, 157, 764), ex))
+    # 6. THE FINALS BOUNDARY: no final-form glyph is a key of
+    #    this bank; no value in either stratum enters 500–900;
+    #    a weighing that meets a Hebrew final here hears silence
+    #    (its seat is the 'hebrew' bank, at its letter's value).
+    checks.append(('the finals boundary: ךםןףץ are not keys; no '
+                   'value in 500–900 in either stratum; ך weighs '
+                   'nothing here',
+                   all(g not in ARAMAIC for g in 'ךםןףץ')
+                   and max(ARAMAIC_IMPERIAL.values()) == 400
+                   and max(ARAMAIC_SYRIAC.values()) == 400
+                   and weigh('ך', 'aramaic')['value'] == 0
+                   and weigh('ך', 'aramaic')['breakdown'] == [],
+                   (max(ARAMAIC.values()),)))
+    # 7. The other notation's boundary: the Imperial block's
+    #    dedicated number signs and its section sign are not
+    #    letters — not keys, and silent at the door.
+    signs = ''.join(chr(cp) for cp in range(0x10857, 0x10860))
+    checks.append(('the number-sign boundary: U+10857–U+1085F '
+                   '(section sign + 8 number signs) are not keys '
+                   'and weigh nothing',
+                   all(chr(cp) not in ARAMAIC
+                       for cp in range(0x10857, 0x10860))
+                   and weigh(signs, 'aramaic')['value'] == 0,
+                   weigh(signs, 'aramaic')['value']))
+    # 8. The square script is not re-keyed: no glyph of this bank
+    #    is a glyph of the Hebrew bank — the two seats share
+    #    values, never keys, so no weighing can count one fact
+    #    at both doors by accident of script.
+    checks.append(('the square script not re-keyed: the two '
+                   'banks\' key sets are disjoint (values shared, '
+                   'glyphs never)',
+                   set(ARAMAIC).isdisjoint(set(HEBREW)),
+                   len(set(ARAMAIC) & set(HEBREW))))
+    # 9. The manuscript door: marks counted, NONE priced — an
+    #    overlined ܬܩ weighs its face 500 under two marks; a
+    #    raised point on ܣ is counted and the letter still
+    #    weighs its face 60, NOT the device's 600.
+    d = aramaic('ܬ' + '\u0305' + 'ܩ' + '\u0305')
+    r = aramaic('ܣ' + '\u0307')
+    checks.append(('aramaic() counts the marks and prices none: '
+                   'overlined ܬܩ == 500 at face, 2 marks; '
+                   'raised-point ܣ == 60 at face (not 600), '
+                   '1 mark counted',
+                   d['value'] == 500 and d['overline_marks'] == 2
+                   and d['raised_point_marks'] == 0
+                   and r['value'] == 60
+                   and r['raised_point_marks'] == 1,
+                   (d['value'], d['overline_marks'], r['value'],
+                    r['raised_point_marks'])))
+    # 10. The fence: attested, both strata named, the identity's
+    #     discipline and the unseated extension on its face.
+    p = SYSTEMS['aramaic']['provenance']
+    checks.append(('aramaic provenance carries the fence '
+                   '(ATTESTED, Imperial + Syriac strata, ONE fact '
+                   'never two witnesses, mispar gadol unseated, '
+                   'marks unpriced)',
+                   p.startswith('ATTESTED') and 'Imperial' in p
+                   and 'Syriac' in p and 'never two witnesses' in p
+                   and 'mispar gadol' in p and 'prices none' in p,
+                   p))
     return checks
 
 
