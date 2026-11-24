@@ -634,6 +634,26 @@ def weigh(word, system):
         # keys of the bank and pass in silence here; the coptic()
         # door counts the numeral marks.
         w = word.casefold()
+    elif system == 'georgian':
+        # MECHANISM: the Mtavruli headline dress (U+1C90–U+1CBA)
+        # folds to the Mkhedruli the bank is keyed in — case
+        # preparation at the seam, exactly as Armenian and the
+        # Slavonic pair fold: Mtavruli is the capital case of the
+        # same letters, and case carries no numeral value. The
+        # fold maps ONLY the Mtavruli block (offset 0xBC0); the
+        # older dresses (Asomtavruli, Nuskhuri) are NOT folded —
+        # D2 of the Georgian seat stands: the witnesses print
+        # Mkhedruli, and one bank is not re-keyed per dress.
+        # DOCTRINE: this fold is the resolution of the Georgian
+        # audit's Q3, taken at the desk 2026-11-24 under the
+        # founder's synergy ruling (the Twelve Tables build): the
+        # question asked whether Mtavruli seats as a fold at this
+        # seam or stands in silence; synergy answers fold, because
+        # every other cased bank in the registry folds its capital
+        # dress here, and a headline-cased Georgian word is the
+        # same word. Revisable by the founder's pen.
+        w = ''.join(chr(ord(c) - 0xBC0) if 0x1C90 <= ord(c) <= 0x1CBA
+                    else c for c in word)
     else:
         w = word
     i = 0
@@ -2017,6 +2037,19 @@ def georgian_checks():
                    'letter stated, NOT the Armenian case)',
                    p.startswith('ATTESTED') and '38' in p
                    and '400' in p and '10000' in p, p[:60]))
+    # 11. The Mtavruli fold (Twelve Tables fill, 2026-11-24,
+    #     resolving the audit's Q3 by synergy): the headline dress
+    #     weighs as its Mkhedruli — თბილისი in Mtavruli capitals
+    #     is the same 271 — while the older dresses stay unfolded
+    #     (Asomtavruli passes in silence, per D2).
+    mtav = ''.join(chr(ord(c) + 0xBC0) for c in 'თბილისი')
+    checks.append(('the Mtavruli fold: headline dress weighs as '
+                   'Mkhedruli (თბილისი == 271 in both dresses); '
+                   'Asomtavruli unfolded, in silence',
+                   weigh(mtav, 'georgian')['value'] == 271
+                   and weigh('ႧႡႨႪႨႱႨ', 'georgian')['value'] == 0,
+                   (weigh(mtav, 'georgian')['value'],
+                    weigh('ႧႡႨႪႨႱႨ', 'georgian')['value'])))
     return checks
 
 
