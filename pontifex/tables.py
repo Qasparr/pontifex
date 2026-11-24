@@ -601,6 +601,82 @@ ARMENIAN = {
     'Փ': 8000, 'Ք': 9000,
 }
 
+# -- Coptic: THE MILESIAN INHERITANCE (DERIVED — descent from Greek) --------
+# ---------------------------------------------------------------------------
+# PROVENANCE — A RECEIVED TABLE, stated against its parent so the
+# descent is never blurred. The Coptic alphabetic numeral system is
+# the Greek Milesian system inherited entire: the Coptic script is
+# the uncial Greek alphabet augmented by Demotic letters, and its
+# letters carry the Milesian values seat for seat — all 27 value
+# seats (units 1–9, tens 10–90, hundreds 100–900) agree with the
+# GREEK bank above, verified against the living bank by the Phase I
+# audit's descent battery (THE-COPTIC-TABLE-PHASE-I-AUDIT.md,
+# 2026-11-24): three full-table witnesses agree on every cell
+# (Wikipedia, "Coptic script"; fsymbols; tooldune concurring, its
+# derivation from the first stated on its face), with Satzinger's
+# Coptic Course exhibiting 26 seats and Dr. Isaac's Institute page
+# the practice, all concurring. Parity of this seat against the
+# audit's frozen transcription is proven by test_coptic_parity.py
+# at the repository root.
+#
+# WHAT DESCENT PRESERVED, AND WHAT IT ALTERED — the partings ride
+# here at the same size as the values:
+#   * THE VALUES: total agreement, 27/27 seats. The two banks'
+#     value SETS are identical. No value parting exists.
+#   * AT 6 AND 900, A PARTING OF KIND: the epissemon seats kept
+#     numeral SIGNS on both banks — Greek ϛ (stigma) → Coptic ⲋ
+#     (sou: "not used as a letter, but as a numeral whose value
+#     is 6" — Isaac), and Greek ϡ (sampi) → Coptic Ⳁ (sampi),
+#     the same sign descended into the Coptic block. Neither is
+#     a living letter on either bank; sampi is not one of the
+#     32 letters of the Coptic alphabet at all.
+#   * AT 90, THE ONE PARTING OF LINEAGE: Greek's holder, ϟ
+#     (koppa), was an archaic letter, dead in words; Coptic seats
+#     ϥ (fai) there — a LIVING Demotic letter, /f/, at home in
+#     ordinary words. Wikipedia marks the equivalence
+#     "(numerical value)": the kinship is the seat, not the
+#     glyph. The grid's one vacancy is the one seat a native
+#     letter took.
+#   * AT 200, A PARTING OF FORM: the Greek bank carries two
+#     glyphs (σ and its word-final form ς); Coptic ⲥ is one
+#     letter with no final-form split.
+#
+# THE BOUNDARY, AT THE SAME SIZE: the remaining Demotic letters —
+# ϣ (shai), Ϧ (khai, Bohairic form), Ⳉ (khai, Akhmimic form),
+# ϩ (hori), ϫ (gangia), Ϭ (shima), ϯ (dei) — are NOT keys of this
+# bank. Every witness read prints a dash against their names: the
+# Milesian grid arrived FULL (9/9/9 seats held), so the native
+# letters Greek had no room for took no numeral seats. A weighing
+# that meets one skips it — silence, printed here, never an
+# invented value (the sweep's HERU-RA-HA and ABRAHADABRA fail
+# closed on ϩ for exactly this reason, and the failure is data).
+#
+# MECHANISM: the bank is keyed in the SMALL letters — the parent
+# Greek bank's habit, and the case of the witnesses' number
+# sequences. The script was caseless (case distinctions are a
+# modern convention — Wikipedia, on its face), and engine.weigh()
+# casefolds Coptic input at its seam, so both cases weigh — the
+# preparation happens at the door, never by duplicating the bank.
+# Singleness AND uniqueness both hold: 27 signs, 27 distinct
+# values, sum 4995.
+#
+# THE MARKS ARE NOT VALUES: beyond 900 the sources show devices,
+# never letter values — the numeral sign ͵ (U+0375: ⲁ͵ = 1,000)
+# and the double overline (U+033F: ⲁ̿ = 1,000), per the Unicode
+# Standard §7.3 as Wikipedia reports it, with Satzinger printing
+# a stauros sign at 1000 instead. The engine's coptic() door
+# counts these marks and prices none of them; the plain overline
+# (U+0305) is in every source a MARKER of numeral use, never a
+# multiplier — descent kept the Greek mark a mark, where the
+# Armenian road found its line grown into a factor.
+COPTIC = {
+    'ⲁ': 1, 'ⲃ': 2, 'ⲅ': 3, 'ⲇ': 4, 'ⲉ': 5, 'ⲋ': 6, 'ⲍ': 7,
+    'ⲏ': 8, 'ⲑ': 9, 'ⲓ': 10, 'ⲕ': 20, 'ⲗ': 30, 'ⲙ': 40, 'ⲛ': 50,
+    'ⲝ': 60, 'ⲟ': 70, 'ⲡ': 80, 'ϥ': 90, 'ⲣ': 100, 'ⲥ': 200,
+    'ⲧ': 300, 'ⲩ': 400, 'ⲫ': 500, 'ⲭ': 600, 'ⲯ': 700, 'ⲱ': 800,
+    'ⳁ': 900,
+}
+
 # -- Armenian: THE LATE ANNEX (the medieval additions, opt-in) ----------------
 # ---------------------------------------------------------------------------
 # PROVENANCE — A TIER BELOW THE CLASSICAL TABLE, stated at its own

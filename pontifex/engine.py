@@ -59,7 +59,8 @@ from .tables import (
     HEBREW, GREEK, LATIN_ORDINAL, AGRIPPA, ARABIC_ABJAD, BRAILLE,
     KANA, KANA_VOWEL, KANA_BASE,
     HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE,
-    ARMENIAN, ARMENIAN_LATE,
+    ARMENIAN,
+    COPTIC, ARMENIAN_LATE,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -187,6 +188,60 @@ SYSTEMS = {
                                     'selects; Omniglot\'s x1,000 '
                                     'stands recorded as the parted '
                                     'source'},
+    # DOCTRINE: the COPTIC bank is the registry's one DERIVED
+    # table — the Greek Milesian values received entire by
+    # script descent, audited 2026-11-24 as the key's first
+    # inheritance test: a table received, not made (the mints)
+    # and not found (the attested tables). Its fence carries
+    # the descent and its partings: value agreement with the
+    # 'greek' bank is total (27/27 seats), and what changed in
+    # the receiving is printed — the 90-seat's holder changed
+    # lineage (koppa's dead letter out, the living Demotic fai
+    # in), the epissemon seats kept signs, and the native
+    # letters beyond fai took no seats because the grid arrived
+    # full. The sweep (Worker #8) argued ATTESTED; the seat
+    # takes DERIVED, reasoning printed in the audit (§VIII D1):
+    # the tradition's use is its own and attested, but the
+    # values are inherited. The bank is keyed in small letters;
+    # weigh() casefolds Coptic input at its seam (the script
+    # was caseless). coptic() below is the manuscript door: it
+    # counts the numeral marks and prices none.
+    'coptic':        {'table': COPTIC,
+                      'provenance': 'DERIVED — the Coptic alphabetic '
+                                    'numeral table: the Greek '
+                                    'Milesian values received entire '
+                                    'by script descent (all 27 value '
+                                    'seats agree with the \'greek\' '
+                                    'bank), audited 2026-11-24 '
+                                    '(Wikipedia, "Coptic script"; '
+                                    'fsymbols; tooldune concurring; '
+                                    'Satzinger\'s course and Dr. '
+                                    'Isaac\'s Institute page '
+                                    'concurring where they exhibit). '
+                                    'The partings ride on its face: '
+                                    'at 90 the seat\'s holder changed '
+                                    'lineage — Greek\'s archaic '
+                                    'koppa ϟ yields to Coptic\'s '
+                                    'living Demotic letter fai ϥ; '
+                                    'at 6 and 900 the epissemon seats '
+                                    'kept numeral signs (ⲋ sou, '
+                                    'Ⳁ sampi); the Demotic letters '
+                                    'beyond fai (ϣ Ϧ Ϩ ϫ Ϭ ϯ, and '
+                                    'Akhmimic Ⳉ) carry NO value in '
+                                    'any source — the grid arrived '
+                                    'full. The sweep (Worker #8, '
+                                    '2026-10-11) argued ATTESTED for '
+                                    'this bank; the seat takes '
+                                    'DERIVED: the tradition\'s use '
+                                    'is its own and attested, but '
+                                    'the VALUES are inherited, not '
+                                    'made or found (Phase I audit '
+                                    '§VIII D1). Thousands are '
+                                    'written by marks (the ͵ sign; '
+                                    'the double overline), never by '
+                                    'letter values; the coptic() '
+                                    'door counts the marks and '
+                                    'prices none'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -309,11 +364,22 @@ def weigh(word, system):
     # created in, and case carries no numeral value — the alphabet's
     # own table pairs the cases at one value); Greek is casefolded
     # and stripped of diacritics (its table is keyed in bare lowercase,
-    # and neither case nor accent carries Milesian value).
+    # and neither case nor accent carries Milesian value); Coptic is
+    # casefolded to its small-letter bank (the script was caseless —
+    # case is a modern convention — so the fold is pure preparation).
     if system in ('latin_ordinal', 'agrippa', 'armenian'):
         w = word.upper()
     elif system == 'greek':
         w = _normalize_greek(word)
+    elif system == 'coptic':
+        # MECHANISM: Coptic folds the other way — its bank is keyed
+        # in small letters (the parent Greek bank's habit), and the
+        # script was caseless, case being a modern convention, so
+        # casefold carries no value away. The combining marks a
+        # manuscript carries (the overline, the jinkim) are not
+        # keys of the bank and pass in silence here; the coptic()
+        # door counts the numeral marks.
+        w = word.casefold()
     else:
         w = word
     i = 0
@@ -587,6 +653,54 @@ def armenian(word, late=False):
         'overline_factor': 10000,
         'late_annex': bool(late),
     }
+
+
+def coptic(word):
+    """Weigh a Coptic word in the inherited Milesian table, manuscript dress.
+
+    MECHANISM: the bank's reading door for text as manuscripts
+    write it. It strips the two combining overlines — U+0305, the
+    continuous line that marks numeral use, and U+033F, the double
+    overline — COUNTS each kind, counts the numeral signs (U+0375)
+    standing in the text, and weighs the bare letters in the
+    inherited table (case folded at weigh()'s seam). The result is
+    weigh()'s result on the bare word, with 'word' restored to the
+    input as given and the three counts carried as
+    'overline_marks', 'double_overline_marks', and
+    'numeral_sign_marks', so every mark's presence is auditable,
+    never silent.
+
+    DOCTRINE: no mark is priced at this door, and the refusal is
+    the sources' own shape, not a disputed factor. In every
+    witness read, the plain overline is a MARKER — "sometimes
+    numerical use is distinguished from text with a continuous
+    overline above the letters" (Wikipedia) — never a multiplier:
+    descent kept the Greek mark a mark. (The Armenian line, by
+    contrast, is a multiplier in its sources, its factor settled
+    by the founder's ruling at x10,000; no Coptic source gives
+    its line a factor at all.) The double overline and the ͵ sign
+    are the record's thousands DEVICES (the Unicode Standard
+    §7.3, as Wikipedia reports it: ⲁ̿ and ⲁ͵ each write 1,000) —
+    devices of notation, not letter values, and Satzinger prints
+    yet a third (a stauros sign at 1000). This door reports the
+    devices it sees and prices none of them: a thousands reading
+    law is an open coordinate for the founder's pen (Phase I
+    audit §VII Q1), and weigh(word, 'coptic') is the raw bank
+    door, which passes all three marks in silence. The jinkim
+    (U+0300, the Bohairic syllable mark) is not a numeral mark
+    and is neither stripped nor counted — it passes as it passes
+    at the raw door, in silence.
+    """
+    overlines = word.count('\u0305')       # the numeral-use marker
+    doubles = word.count('\u033f')         # the thousands device
+    signs = word.count('\u0375')           # the other thousands device
+    bare = word.replace('\u0305', '').replace('\u033f', '')
+    result = weigh(bare, 'coptic')
+    result['word'] = word
+    result['overline_marks'] = overlines
+    result['double_overline_marks'] = doubles
+    result['numeral_sign_marks'] = signs
+    return result
 
 
 def bridge(word1, system1, word2, system2):
@@ -1245,6 +1359,146 @@ def armenian_checks():
                    p.startswith('ATTESTED') and '36' in p
                    and 'halehame' in p and 'ARMENIAN_LATE' in p
                    and '10,000' in p, p))
+    return checks
+
+
+# MECHANISM: the valued signs in Milesian seat order — the audit's
+# coordinate for the seat. The value sequence is recomputed from
+# position in coptic_checks() below, never trusted from the
+# dict's shape.
+_COPTIC_ORDER = 'ⲁⲃⲅⲇⲉⲋⲍⲏⲑⲓⲕⲗⲙⲛⲝⲟⲡϥⲣⲥⲧⲩⲫⲭⲯⲱⳁ'
+
+
+def coptic_checks():
+    """Self-checks for the COPTIC seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against its audit of record
+    (THE-COPTIC-TABLE-PHASE-I-AUDIT.md): the Milesian sequence
+    recomputed from position, the witnesses' worked examples, the
+    descent exhibited against the living Greek bank, the boundary
+    at the unseated Demotic letters (with fai's seat as the
+    anti-boundary), and the manuscript door's refusal to price a
+    mark. Sign-for-sign parity against the audit's frozen
+    transcription (research/twelve-tongues/coptic-table.csv) is a
+    relation between two seats and lives in test_coptic_parity.py
+    at the repository root; this battery holds the seat to the
+    doctrine itself. Kept beside armenian_checks() rather than
+    inside engine_checks(), so the established checks stand
+    untouched as the no-collateral witness; run all for the full
+    suite.
+
+    DOCTRINE — THE DESCENT, AT THE SEAT: this bank is the Greek
+    bank's heir, and the checks below pin the inheritance as the
+    audit established it — the values entire (the two banks' value
+    sets identical), the holders altered at exactly three seats
+    (6, 90, 900), and the parent reachable at the next desk for
+    every comparison. A convergence between these two banks is
+    continuity, single-sourced — the audit's §1.7 discipline,
+    inherited from the sweep: agreement here corroborates
+    nothing twice.
+    """
+    checks = []
+    # 1. The Milesian sequence entire, recomputed from position:
+    #    three classes of nine, at all 27 seats.
+    milesian = ([d for d in range(1, 10)]
+                + [d * 10 for d in range(1, 10)]
+                + [d * 100 for d in range(1, 10)])
+    law = [COPTIC[ch] for ch in _COPTIC_ORDER]
+    checks.append(('the Milesian sequence at all 27 seats (three '
+                   'classes of nine, recomputed from position)',
+                   law == milesian and len(COPTIC) == 27,
+                   law[:4] + law[-2:]))
+    # 2. Uniqueness, printed as the audit measured it: 27 signs,
+    #    27 distinct values — the inherited ciphered grid, whole.
+    checks.append(('27 signs, 27 distinct values (uniqueness '
+                   'holds; singleness and uniqueness both)',
+                   len(set(COPTIC.values())) == 27
+                   and sum(COPTIC.values()) == 4995,
+                   (len(set(COPTIC.values())), sum(COPTIC.values()))))
+    # 3. Calibration: the witnesses' worked examples, exact —
+    #    the numbers the audit trusted before any derived number.
+    r = weigh('ⲧⲝⲉ', 'coptic')
+    checks.append(('ⲧⲝⲉ == 365 (fsymbols\' worked example) and '
+                   'ⲫ == 500 (Wikipedia\'s), breakdowns exact',
+                   r['value'] == 365
+                   and r['breakdown'] == [('ⲧ', 300), ('ⲝ', 60),
+                                          ('ⲉ', 5)]
+                   and weigh('ⲫ', 'coptic')['value'] == 500,
+                   (r['value'], r['breakdown'])))
+    # 4. The letter part of Wikipedia's thousands example:
+    #    ⲱⲡⲏ = 888 of ⲁ͵ⲱ̅ⲡ̅ⲏ̅ = 1,888 — the device reported at
+    #    the door (check 9), never priced into the letters.
+    checks.append(('ⲱⲡⲏ == 888 (the letter part of the 1,888 '
+                   'example)', weigh('ⲱⲡⲏ', 'coptic')['value'] == 888,
+                   weigh('ⲱⲡⲏ', 'coptic')['value']))
+    # 5. The system's own arithmetic: the largest number writable
+    #    in letters alone — one sign per class, descending.
+    checks.append(('ⳁϥⲑ == 999 (the maximum in letters alone)',
+                   weigh('ⳁϥⲑ', 'coptic')['value'] == 999,
+                   weigh('ⳁϥⲑ', 'coptic')['value']))
+    # 6. Case: the seam casefolds to the small-letter bank — the
+    #    script was caseless, so ⲀⲂⲄ and ⲁⲃⲅ are one weighing;
+    #    the Greek-block capitals fold too (Ϥⲁ == ϥⲁ == 91), and
+    #    sampi's pair with them (Ⳁ == ⳁ == 900).
+    a = weigh('ⲀⲂⲄ', 'coptic')['value']
+    b = weigh('ⲁⲃⲅ', 'coptic')['value']
+    f = weigh('Ϥⲁ', 'coptic')['value']
+    s = weigh('Ⳁ', 'coptic')['value']
+    checks.append(('case folds at the seam: ⲀⲂⲄ == ⲁⲃⲅ == 6; '
+                   'Ϥⲁ == 91; Ⳁ == 900',
+                   a == b == 6 and f == 91 and s == 900, (a, b, f, s)))
+    # 7. The descent exhibited at the seat: the sweep's bridge
+    #    row — ⲟⲍ and οζ are the same Milesian seats in two
+    #    scripts, 77 on both banks. Continuity, single-sourced:
+    #    the check pins the inheritance, it claims no second
+    #    witness.
+    checks.append(('the descent exhibited: ⲟⲍ (coptic) == οζ '
+                   '(greek) == 77 — one fact in two scripts',
+                   weigh('ⲟⲍ', 'coptic')['value']
+                   == weigh('οζ', 'greek')['value'] == 77,
+                   (weigh('ⲟⲍ', 'coptic')['value'],
+                    weigh('οζ', 'greek')['value'])))
+    # 8. The boundary at the door, and its anti-boundary: the
+    #    Demotic letters beyond fai are not keys — a weighing
+    #    that meets one hears silence, in either case — while
+    #    fai itself, the one native letter the grid had room
+    #    for, weighs its 90.
+    checks.append(('the boundary: ϣ, ϩ, ϯ, ⳉ weigh nothing (not '
+                   'seated) — and ϥ weighs 90 (the seated native)',
+                   all(ch not in COPTIC for ch in 'ϢϨϮⳈ')
+                   and weigh('ϣϩϯ', 'coptic')['value'] == 0
+                   and weigh('ϣϩϯ', 'coptic')['breakdown'] == []
+                   and weigh('ⳉ', 'coptic')['value'] == 0
+                   and weigh('ϥ', 'coptic')['value'] == 90,
+                   (weigh('ϣϩϯ', 'coptic')['value'],
+                    weigh('ϥ', 'coptic')['value'])))
+    # 9. The manuscript door: marks counted, NONE priced — an
+    #    overlined ⲧⲝⲉ weighs its face 365 under three marks;
+    #    the thousands devices are reported, and ⲁ̿ and ⲁ͵ each
+    #    still weigh the letter's face 1, where a priced device
+    #    would read 1000.
+    d = coptic('ⲧ' + '\u0305' + 'ⲝ' + '\u0305' + 'ⲉ' + '\u0305')
+    t1 = coptic('ⲁ' + '\u033f')
+    t2 = coptic('ⲁ' + '\u0375')
+    checks.append(('coptic() counts the marks and prices none: '
+                   'overlined ⲧⲝⲉ == 365 at face, 3 marks; ⲁ̿ and '
+                   'ⲁ͵ == 1 at face, devices counted',
+                   d['value'] == 365 and d['overline_marks'] == 3
+                   and t1['value'] == 1
+                   and t1['double_overline_marks'] == 1
+                   and t2['value'] == 1
+                   and t2['numeral_sign_marks'] == 1,
+                   (d['value'], d['overline_marks'], t1['value'],
+                    t2['value'])))
+    # 10. The fence: derived, the descent and its partings named,
+    #     the boundary and the unpriced marks on its face.
+    p = SYSTEMS['coptic']['provenance']
+    checks.append(('coptic provenance carries the fence '
+                   '(DERIVED, 27 seats, fai\'s lineage parting, '
+                   'NO value boundary, marks unpriced)',
+                   p.startswith('DERIVED') and '27' in p
+                   and 'fai' in p and 'NO value' in p
+                   and 'prices none' in p, p))
     return checks
 
 
