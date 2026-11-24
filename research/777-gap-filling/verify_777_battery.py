@@ -382,8 +382,20 @@ def verify_claim(claim, proposal, notes, bridge, decisions, queue,
                 # proposal has no single door input and gets
                 # none).
                 door_word = None
+                # the fill's own documented weighed form
+                # outranks every other door input ('Weighed
+                # compact KARMAYOGA', the XXIV notes say) — it
+                # is the word the claim actually weighs.
+                named = re.search(
+                    r"[Ww]eighed compact ([A-Za-z]+)"
+                    r"|[Ww]eighing ([A-Za-z]+)"
+                    r"|[Tt]ransliteration ([A-Za-z][A-Za-z]+)",
+                    notes)
+                if named:
+                    door_word = next(g for g in named.groups()
+                                     if g)
                 toks = re.sub(r"\[\d+\]", "", proposal).split()
-                if len(toks) <= 3:
+                if door_word is None and len(toks) <= 3:
                     for _, lw in latin_candidates(proposal, notes):
                         if " " not in lw and "(" not in lw:
                             door_word = lw
