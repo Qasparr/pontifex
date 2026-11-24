@@ -1,0 +1,9 @@
+sign,form,value,standing,source
+unit tick,one horizontal line on the stem,1,"the additive unit — n ticks read n, to four","Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+four ticks,four horizontal lines on the stem,4,the largest tick group the witnesses describe,"Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+five-sign,what looks like an inverted letter U,5,"a single sign, not five ticks (W1)","Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+five-sign + ticks,the five-sign with n ticks added,5+n,"6–9, n to four (the witnesses' shape; cf. the positional stratum's ""additional branches"" for 6–9)","Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+ten-sign,two U's opposing each other,10,a single sign (W1),"Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+ten-sign + unit,the ten-sign with a unit sign,10+n,11–19 — the golden-number extent,"Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+two ten-signs,two ten-signs,20,"""up to 19, or even 20"" (W1) — the notation's stated ceiling","Wikipedia, ""Pentadic numerals""; Wikipedia, ""Runic calendar"" (""Later calendars used Pentadic numerals for the values 1–19"")"
+positional digit set,"ten distinct digit signs on stems, base-ten positional",0–9 per position,"RECORDED, UNSEATED — MODERN (19th century); the North American stones are hoaxes (W1, refs. 1–3); oldest authenticated use: Edward Larsson's notes, 1885 (W1)","Wikipedia, ""Pentadic numerals"" (Positional notation)"

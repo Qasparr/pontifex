@@ -1,0 +1,27 @@
+seat,aicme,glyph,codepoint,unicode_name,name,transliteration_w1,transliteration_w2,parting,standing
+1,beithe,ᚁ,U+1681,OGHAM LETTER BEITH,beith,b,b,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+2,beithe,ᚂ,U+1682,OGHAM LETTER LUIS,luis,l,l,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+3,beithe,ᚃ,U+1683,OGHAM LETTER FEARN,fearn,f,w,fearn: W1 f (later) / W2 w (Primitive Irish [w]),SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+4,beithe,ᚄ,U+1684,OGHAM LETTER SAIL,sail,s,s,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+5,beithe,ᚅ,U+1685,OGHAM LETTER NION,nion,n,n,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+6,hÚatha,ᚆ,U+1686,OGHAM LETTER UATH,uath,h,j,uath: W1 h / W2 j — the letter's value is uncertain in both witnesses (W1 prints [j] and [h] side by side),SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+7,hÚatha,ᚇ,U+1687,OGHAM LETTER DAIR,dair,d,d,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+8,hÚatha,ᚈ,U+1688,OGHAM LETTER TINNE,tinne,t,t,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+9,hÚatha,ᚉ,U+1689,OGHAM LETTER COLL,coll,c,k,"coll: W1 c / W2 k — one sound, two conventions",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+10,hÚatha,ᚊ,U+168A,OGHAM LETTER CEIRT,ceirt,q,kʷ,"ceirt: W1 q / W2 kʷ — one sound, two conventions",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+11,muine,ᚋ,U+168B,OGHAM LETTER MUIN,muin,m,m,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+12,muine,ᚌ,U+168C,OGHAM LETTER GORT,gort,g,ɡ,"gort: W1 g / W2 ɡ — one sound, two conventions",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+13,muine,ᚍ,U+168D,OGHAM LETTER NGEADAL,ngéadal,ng,ɡʷ,"ngéadal: W1 ng / W2 ɡʷ — the manuscript value against the etymological value (W1's own text: ""probably GW"")",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+14,muine,ᚎ,U+168E,OGHAM LETTER STRAIF,straif,st,st/ts/sw,"straif: W1 st / W2 st, ts, sw — the range stated wider",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+15,muine,ᚏ,U+168F,OGHAM LETTER RUIS,ruis,r,r,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+16,ailme,ᚐ,U+1690,OGHAM LETTER AILM,ailm,a,a,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+17,ailme,ᚑ,U+1691,OGHAM LETTER ONN,onn,o,o,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+18,ailme,ᚒ,U+1692,OGHAM LETTER UR,úr,u,u,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+19,ailme,ᚓ,U+1693,OGHAM LETTER EADHADH,eadhadh,e,e,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+20,ailme,ᚔ,U+1694,OGHAM LETTER IODHADH,iodhadh,i,i,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+21,forfeda,ᚕ,U+1695,OGHAM LETTER EABHADH,éabhadh,ea,ea,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+22,forfeda,ᚖ,U+1696,OGHAM LETTER OR,óir,oi,oi,the standard shortens the name to OR; both witnesses print Óir,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+23,forfeda,ᚗ,U+1697,OGHAM LETTER UILLEANN,uilleann,ui,ui,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+24,forfeda,ᚘ,U+1698,OGHAM LETTER IFIN,pín/ifín,p/io,ia,"ifín: W1 p/io (name pín, later ifín) / W2 ia — the forfeda's reassignment, both witnesses record it",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+25,forfeda,ᚙ,U+1699,OGHAM LETTER EAMHANCHOLL,eamhancholl,ch/x/ae,x/ai,"eamhancholl: W1 ch/x/ae / W2 x/ai — the reassignment, as at 24",SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
+26,"— (peith: manuscript letter, outside the five aicmi in both witnesses)",ᚚ,U+169A,OGHAM LETTER PEITH,peith,p,p,,SOURCED — a seat in an ORDER; the letter carries no numeral value in any witness
