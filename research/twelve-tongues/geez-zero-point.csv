@@ -1,0 +1,27 @@
+base,base_name,grid_position,folk_value,relation,folk_multiplier_at_order_6,note
+ሀ,Hoy,1,1,AGREE — folk value equals grid position,6,
+ለ,Lawi,2,2,AGREE — folk value equals grid position,12,
+ሐ,Hawt,3,3,AGREE — folk value equals grid position,18,
+መ,May,4,4,AGREE — folk value equals grid position,24,
+ሠ,Sewt,5,5,AGREE — folk value equals grid position,30,
+ረ,Ris,6,6,AGREE — folk value equals grid position,36,
+ሰ,Sat,7,7,AGREE — folk value equals grid position,42,
+ቀ,Qaf,8,8,AGREE — folk value equals grid position,48,
+በ,Bet,9,9,AGREE — folk value equals grid position,54,
+ተ,Taw,10,10,AGREE — folk value equals grid position,60,boundary: last agreement
+ኀ,Harm,11,20,PART — tens law: folk = (position − 9) × 10,120,boundary: first parting
+ነ,Nehas,12,30,PART — tens law: folk = (position − 9) × 10,180,
+አ,Alef,13,40,PART — tens law: folk = (position − 9) × 10,240,
+ከ,Kaf,14,50,PART — tens law: folk = (position − 9) × 10,300,
+ወ,Wewe,15,60,PART — tens law: folk = (position − 9) × 10,360,
+ዐ,Ayin,16,70,PART — tens law: folk = (position − 9) × 10,420,
+ዘ,Zey,17,80,PART — tens law: folk = (position − 9) × 10,480,
+የ,Yemen,18,90,PART — tens law: folk = (position − 9) × 10,540,
+ደ,Dint,19,100,PART — tens law: folk = (position − 9) × 10,600,boundary: tens/hundreds hinge (last tens value)
+ገ,Gemel,20,200,PART — hundreds law: folk = (position − 18) × 100,1200,boundary: first hundreds step
+ጠ,Teyt,21,300,PART — hundreds law: folk = (position − 18) × 100,1800,
+ጰ,Peyt,22,400,PART — hundreds law: folk = (position − 18) × 100,2400,
+ጸ,Sedey,23,500,PART — hundreds law: folk = (position − 18) × 100,3000,
+ፀ,Sepa,24,600,PART — hundreds law: folk = (position − 18) × 100,3600,
+ፈ,Af,25,700,PART — hundreds law: folk = (position − 18) × 100,4200,
+ፐ,Psa,26,800,PART — hundreds law: folk = (position − 18) × 100,4800,folk maximum

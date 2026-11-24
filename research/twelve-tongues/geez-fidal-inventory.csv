@@ -1,0 +1,238 @@
+series,base,base_name,base_position,order,order_name,vowel,glyph,codepoint,unicode_name
+classical,ሀ,Hoy,1,1,Ge'ez (ግዕዝ),ä,ሀ,U+1200,ETHIOPIC SYLLABLE HA
+classical,ሀ,Hoy,1,2,Ka'eb (ካዕብ),u,ሁ,U+1201,ETHIOPIC SYLLABLE HU
+classical,ሀ,Hoy,1,3,Salis (ሣልስ),i,ሂ,U+1202,ETHIOPIC SYLLABLE HI
+classical,ሀ,Hoy,1,4,Rabe' (ራብዕ),a,ሃ,U+1203,ETHIOPIC SYLLABLE HAA
+classical,ሀ,Hoy,1,5,Hamis (ኃምስ),e,ሄ,U+1204,ETHIOPIC SYLLABLE HEE
+classical,ሀ,Hoy,1,6,Sadis (ሳድስ),ə,ህ,U+1205,ETHIOPIC SYLLABLE HE
+classical,ሀ,Hoy,1,7,Sabe' (ሳብዕ),o,ሆ,U+1206,ETHIOPIC SYLLABLE HO
+eighth-slot,ሀ,Hoy,1,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሇ,U+1207,ETHIOPIC SYLLABLE HOA
+classical,ለ,Lawi,2,1,Ge'ez (ግዕዝ),ä,ለ,U+1208,ETHIOPIC SYLLABLE LA
+classical,ለ,Lawi,2,2,Ka'eb (ካዕብ),u,ሉ,U+1209,ETHIOPIC SYLLABLE LU
+classical,ለ,Lawi,2,3,Salis (ሣልስ),i,ሊ,U+120A,ETHIOPIC SYLLABLE LI
+classical,ለ,Lawi,2,4,Rabe' (ራብዕ),a,ላ,U+120B,ETHIOPIC SYLLABLE LAA
+classical,ለ,Lawi,2,5,Hamis (ኃምስ),e,ሌ,U+120C,ETHIOPIC SYLLABLE LEE
+classical,ለ,Lawi,2,6,Sadis (ሳድስ),ə,ል,U+120D,ETHIOPIC SYLLABLE LE
+classical,ለ,Lawi,2,7,Sabe' (ሳብዕ),o,ሎ,U+120E,ETHIOPIC SYLLABLE LO
+eighth-slot,ለ,Lawi,2,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሏ,U+120F,ETHIOPIC SYLLABLE LWA
+classical,ሐ,Hawt,3,1,Ge'ez (ግዕዝ),ä,ሐ,U+1210,ETHIOPIC SYLLABLE HHA
+classical,ሐ,Hawt,3,2,Ka'eb (ካዕብ),u,ሑ,U+1211,ETHIOPIC SYLLABLE HHU
+classical,ሐ,Hawt,3,3,Salis (ሣልስ),i,ሒ,U+1212,ETHIOPIC SYLLABLE HHI
+classical,ሐ,Hawt,3,4,Rabe' (ራብዕ),a,ሓ,U+1213,ETHIOPIC SYLLABLE HHAA
+classical,ሐ,Hawt,3,5,Hamis (ኃምስ),e,ሔ,U+1214,ETHIOPIC SYLLABLE HHEE
+classical,ሐ,Hawt,3,6,Sadis (ሳድስ),ə,ሕ,U+1215,ETHIOPIC SYLLABLE HHE
+classical,ሐ,Hawt,3,7,Sabe' (ሳብዕ),o,ሖ,U+1216,ETHIOPIC SYLLABLE HHO
+eighth-slot,ሐ,Hawt,3,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሗ,U+1217,ETHIOPIC SYLLABLE HHWA
+classical,መ,May,4,1,Ge'ez (ግዕዝ),ä,መ,U+1218,ETHIOPIC SYLLABLE MA
+classical,መ,May,4,2,Ka'eb (ካዕብ),u,ሙ,U+1219,ETHIOPIC SYLLABLE MU
+classical,መ,May,4,3,Salis (ሣልስ),i,ሚ,U+121A,ETHIOPIC SYLLABLE MI
+classical,መ,May,4,4,Rabe' (ራብዕ),a,ማ,U+121B,ETHIOPIC SYLLABLE MAA
+classical,መ,May,4,5,Hamis (ኃምስ),e,ሜ,U+121C,ETHIOPIC SYLLABLE MEE
+classical,መ,May,4,6,Sadis (ሳድስ),ə,ም,U+121D,ETHIOPIC SYLLABLE ME
+classical,መ,May,4,7,Sabe' (ሳብዕ),o,ሞ,U+121E,ETHIOPIC SYLLABLE MO
+eighth-slot,መ,May,4,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሟ,U+121F,ETHIOPIC SYLLABLE MWA
+classical,ሠ,Sewt,5,1,Ge'ez (ግዕዝ),ä,ሠ,U+1220,ETHIOPIC SYLLABLE SZA
+classical,ሠ,Sewt,5,2,Ka'eb (ካዕብ),u,ሡ,U+1221,ETHIOPIC SYLLABLE SZU
+classical,ሠ,Sewt,5,3,Salis (ሣልስ),i,ሢ,U+1222,ETHIOPIC SYLLABLE SZI
+classical,ሠ,Sewt,5,4,Rabe' (ራብዕ),a,ሣ,U+1223,ETHIOPIC SYLLABLE SZAA
+classical,ሠ,Sewt,5,5,Hamis (ኃምስ),e,ሤ,U+1224,ETHIOPIC SYLLABLE SZEE
+classical,ሠ,Sewt,5,6,Sadis (ሳድስ),ə,ሥ,U+1225,ETHIOPIC SYLLABLE SZE
+classical,ሠ,Sewt,5,7,Sabe' (ሳብዕ),o,ሦ,U+1226,ETHIOPIC SYLLABLE SZO
+eighth-slot,ሠ,Sewt,5,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሧ,U+1227,ETHIOPIC SYLLABLE SZWA
+classical,ረ,Ris,6,1,Ge'ez (ግዕዝ),ä,ረ,U+1228,ETHIOPIC SYLLABLE RA
+classical,ረ,Ris,6,2,Ka'eb (ካዕብ),u,ሩ,U+1229,ETHIOPIC SYLLABLE RU
+classical,ረ,Ris,6,3,Salis (ሣልስ),i,ሪ,U+122A,ETHIOPIC SYLLABLE RI
+classical,ረ,Ris,6,4,Rabe' (ራብዕ),a,ራ,U+122B,ETHIOPIC SYLLABLE RAA
+classical,ረ,Ris,6,5,Hamis (ኃምስ),e,ሬ,U+122C,ETHIOPIC SYLLABLE REE
+classical,ረ,Ris,6,6,Sadis (ሳድስ),ə,ር,U+122D,ETHIOPIC SYLLABLE RE
+classical,ረ,Ris,6,7,Sabe' (ሳብዕ),o,ሮ,U+122E,ETHIOPIC SYLLABLE RO
+eighth-slot,ረ,Ris,6,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሯ,U+122F,ETHIOPIC SYLLABLE RWA
+classical,ሰ,Sat,7,1,Ge'ez (ግዕዝ),ä,ሰ,U+1230,ETHIOPIC SYLLABLE SA
+classical,ሰ,Sat,7,2,Ka'eb (ካዕብ),u,ሱ,U+1231,ETHIOPIC SYLLABLE SU
+classical,ሰ,Sat,7,3,Salis (ሣልስ),i,ሲ,U+1232,ETHIOPIC SYLLABLE SI
+classical,ሰ,Sat,7,4,Rabe' (ራብዕ),a,ሳ,U+1233,ETHIOPIC SYLLABLE SAA
+classical,ሰ,Sat,7,5,Hamis (ኃምስ),e,ሴ,U+1234,ETHIOPIC SYLLABLE SEE
+classical,ሰ,Sat,7,6,Sadis (ሳድስ),ə,ስ,U+1235,ETHIOPIC SYLLABLE SE
+classical,ሰ,Sat,7,7,Sabe' (ሳብዕ),o,ሶ,U+1236,ETHIOPIC SYLLABLE SO
+eighth-slot,ሰ,Sat,7,8,Eighth slot (wa-form / ኧ-type),wa/ä,ሷ,U+1237,ETHIOPIC SYLLABLE SWA
+classical,ቀ,Qaf,8,1,Ge'ez (ግዕዝ),ä,ቀ,U+1240,ETHIOPIC SYLLABLE QA
+classical,ቀ,Qaf,8,2,Ka'eb (ካዕብ),u,ቁ,U+1241,ETHIOPIC SYLLABLE QU
+classical,ቀ,Qaf,8,3,Salis (ሣልስ),i,ቂ,U+1242,ETHIOPIC SYLLABLE QI
+classical,ቀ,Qaf,8,4,Rabe' (ራብዕ),a,ቃ,U+1243,ETHIOPIC SYLLABLE QAA
+classical,ቀ,Qaf,8,5,Hamis (ኃምስ),e,ቄ,U+1244,ETHIOPIC SYLLABLE QEE
+classical,ቀ,Qaf,8,6,Sadis (ሳድስ),ə,ቅ,U+1245,ETHIOPIC SYLLABLE QE
+classical,ቀ,Qaf,8,7,Sabe' (ሳብዕ),o,ቆ,U+1246,ETHIOPIC SYLLABLE QO
+eighth-slot,ቀ,Qaf,8,8,Eighth slot (wa-form / ኧ-type),wa/ä,ቇ,U+1247,ETHIOPIC SYLLABLE QOA
+classical,በ,Bet,9,1,Ge'ez (ግዕዝ),ä,በ,U+1260,ETHIOPIC SYLLABLE BA
+classical,በ,Bet,9,2,Ka'eb (ካዕብ),u,ቡ,U+1261,ETHIOPIC SYLLABLE BU
+classical,በ,Bet,9,3,Salis (ሣልስ),i,ቢ,U+1262,ETHIOPIC SYLLABLE BI
+classical,በ,Bet,9,4,Rabe' (ራብዕ),a,ባ,U+1263,ETHIOPIC SYLLABLE BAA
+classical,በ,Bet,9,5,Hamis (ኃምስ),e,ቤ,U+1264,ETHIOPIC SYLLABLE BEE
+classical,በ,Bet,9,6,Sadis (ሳድስ),ə,ብ,U+1265,ETHIOPIC SYLLABLE BE
+classical,በ,Bet,9,7,Sabe' (ሳብዕ),o,ቦ,U+1266,ETHIOPIC SYLLABLE BO
+eighth-slot,በ,Bet,9,8,Eighth slot (wa-form / ኧ-type),wa/ä,ቧ,U+1267,ETHIOPIC SYLLABLE BWA
+classical,ተ,Taw,10,1,Ge'ez (ግዕዝ),ä,ተ,U+1270,ETHIOPIC SYLLABLE TA
+classical,ተ,Taw,10,2,Ka'eb (ካዕብ),u,ቱ,U+1271,ETHIOPIC SYLLABLE TU
+classical,ተ,Taw,10,3,Salis (ሣልስ),i,ቲ,U+1272,ETHIOPIC SYLLABLE TI
+classical,ተ,Taw,10,4,Rabe' (ራብዕ),a,ታ,U+1273,ETHIOPIC SYLLABLE TAA
+classical,ተ,Taw,10,5,Hamis (ኃምስ),e,ቴ,U+1274,ETHIOPIC SYLLABLE TEE
+classical,ተ,Taw,10,6,Sadis (ሳድስ),ə,ት,U+1275,ETHIOPIC SYLLABLE TE
+classical,ተ,Taw,10,7,Sabe' (ሳብዕ),o,ቶ,U+1276,ETHIOPIC SYLLABLE TO
+eighth-slot,ተ,Taw,10,8,Eighth slot (wa-form / ኧ-type),wa/ä,ቷ,U+1277,ETHIOPIC SYLLABLE TWA
+classical,ኀ,Harm,11,1,Ge'ez (ግዕዝ),ä,ኀ,U+1280,ETHIOPIC SYLLABLE XA
+classical,ኀ,Harm,11,2,Ka'eb (ካዕብ),u,ኁ,U+1281,ETHIOPIC SYLLABLE XU
+classical,ኀ,Harm,11,3,Salis (ሣልስ),i,ኂ,U+1282,ETHIOPIC SYLLABLE XI
+classical,ኀ,Harm,11,4,Rabe' (ራብዕ),a,ኃ,U+1283,ETHIOPIC SYLLABLE XAA
+classical,ኀ,Harm,11,5,Hamis (ኃምስ),e,ኄ,U+1284,ETHIOPIC SYLLABLE XEE
+classical,ኀ,Harm,11,6,Sadis (ሳድስ),ə,ኅ,U+1285,ETHIOPIC SYLLABLE XE
+classical,ኀ,Harm,11,7,Sabe' (ሳብዕ),o,ኆ,U+1286,ETHIOPIC SYLLABLE XO
+eighth-slot,ኀ,Harm,11,8,Eighth slot (wa-form / ኧ-type),wa/ä,ኇ,U+1287,ETHIOPIC SYLLABLE XOA
+classical,ነ,Nehas,12,1,Ge'ez (ግዕዝ),ä,ነ,U+1290,ETHIOPIC SYLLABLE NA
+classical,ነ,Nehas,12,2,Ka'eb (ካዕብ),u,ኑ,U+1291,ETHIOPIC SYLLABLE NU
+classical,ነ,Nehas,12,3,Salis (ሣልስ),i,ኒ,U+1292,ETHIOPIC SYLLABLE NI
+classical,ነ,Nehas,12,4,Rabe' (ራብዕ),a,ና,U+1293,ETHIOPIC SYLLABLE NAA
+classical,ነ,Nehas,12,5,Hamis (ኃምስ),e,ኔ,U+1294,ETHIOPIC SYLLABLE NEE
+classical,ነ,Nehas,12,6,Sadis (ሳድስ),ə,ን,U+1295,ETHIOPIC SYLLABLE NE
+classical,ነ,Nehas,12,7,Sabe' (ሳብዕ),o,ኖ,U+1296,ETHIOPIC SYLLABLE NO
+eighth-slot,ነ,Nehas,12,8,Eighth slot (wa-form / ኧ-type),wa/ä,ኗ,U+1297,ETHIOPIC SYLLABLE NWA
+classical,አ,Alef,13,1,Ge'ez (ግዕዝ),ä,አ,U+12A0,ETHIOPIC SYLLABLE GLOTTAL A
+classical,አ,Alef,13,2,Ka'eb (ካዕብ),u,ኡ,U+12A1,ETHIOPIC SYLLABLE GLOTTAL U
+classical,አ,Alef,13,3,Salis (ሣልስ),i,ኢ,U+12A2,ETHIOPIC SYLLABLE GLOTTAL I
+classical,አ,Alef,13,4,Rabe' (ራብዕ),a,ኣ,U+12A3,ETHIOPIC SYLLABLE GLOTTAL AA
+classical,አ,Alef,13,5,Hamis (ኃምስ),e,ኤ,U+12A4,ETHIOPIC SYLLABLE GLOTTAL EE
+classical,አ,Alef,13,6,Sadis (ሳድስ),ə,እ,U+12A5,ETHIOPIC SYLLABLE GLOTTAL E
+classical,አ,Alef,13,7,Sabe' (ሳብዕ),o,ኦ,U+12A6,ETHIOPIC SYLLABLE GLOTTAL O
+eighth-slot,አ,Alef,13,8,Eighth slot (wa-form / ኧ-type),wa/ä,ኧ,U+12A7,ETHIOPIC SYLLABLE GLOTTAL WA
+classical,ከ,Kaf,14,1,Ge'ez (ግዕዝ),ä,ከ,U+12A8,ETHIOPIC SYLLABLE KA
+classical,ከ,Kaf,14,2,Ka'eb (ካዕብ),u,ኩ,U+12A9,ETHIOPIC SYLLABLE KU
+classical,ከ,Kaf,14,3,Salis (ሣልስ),i,ኪ,U+12AA,ETHIOPIC SYLLABLE KI
+classical,ከ,Kaf,14,4,Rabe' (ራብዕ),a,ካ,U+12AB,ETHIOPIC SYLLABLE KAA
+classical,ከ,Kaf,14,5,Hamis (ኃምስ),e,ኬ,U+12AC,ETHIOPIC SYLLABLE KEE
+classical,ከ,Kaf,14,6,Sadis (ሳድስ),ə,ክ,U+12AD,ETHIOPIC SYLLABLE KE
+classical,ከ,Kaf,14,7,Sabe' (ሳብዕ),o,ኮ,U+12AE,ETHIOPIC SYLLABLE KO
+eighth-slot,ከ,Kaf,14,8,Eighth slot (wa-form / ኧ-type),wa/ä,ኯ,U+12AF,ETHIOPIC SYLLABLE KOA
+classical,ወ,Wewe,15,1,Ge'ez (ግዕዝ),ä,ወ,U+12C8,ETHIOPIC SYLLABLE WA
+classical,ወ,Wewe,15,2,Ka'eb (ካዕብ),u,ዉ,U+12C9,ETHIOPIC SYLLABLE WU
+classical,ወ,Wewe,15,3,Salis (ሣልስ),i,ዊ,U+12CA,ETHIOPIC SYLLABLE WI
+classical,ወ,Wewe,15,4,Rabe' (ራብዕ),a,ዋ,U+12CB,ETHIOPIC SYLLABLE WAA
+classical,ወ,Wewe,15,5,Hamis (ኃምስ),e,ዌ,U+12CC,ETHIOPIC SYLLABLE WEE
+classical,ወ,Wewe,15,6,Sadis (ሳድስ),ə,ው,U+12CD,ETHIOPIC SYLLABLE WE
+classical,ወ,Wewe,15,7,Sabe' (ሳብዕ),o,ዎ,U+12CE,ETHIOPIC SYLLABLE WO
+eighth-slot,ወ,Wewe,15,8,Eighth slot (wa-form / ኧ-type),wa/ä,ዏ,U+12CF,ETHIOPIC SYLLABLE WOA
+classical,ዐ,Ayin,16,1,Ge'ez (ግዕዝ),ä,ዐ,U+12D0,ETHIOPIC SYLLABLE PHARYNGEAL A
+classical,ዐ,Ayin,16,2,Ka'eb (ካዕብ),u,ዑ,U+12D1,ETHIOPIC SYLLABLE PHARYNGEAL U
+classical,ዐ,Ayin,16,3,Salis (ሣልስ),i,ዒ,U+12D2,ETHIOPIC SYLLABLE PHARYNGEAL I
+classical,ዐ,Ayin,16,4,Rabe' (ራብዕ),a,ዓ,U+12D3,ETHIOPIC SYLLABLE PHARYNGEAL AA
+classical,ዐ,Ayin,16,5,Hamis (ኃምስ),e,ዔ,U+12D4,ETHIOPIC SYLLABLE PHARYNGEAL EE
+classical,ዐ,Ayin,16,6,Sadis (ሳድስ),ə,ዕ,U+12D5,ETHIOPIC SYLLABLE PHARYNGEAL E
+classical,ዐ,Ayin,16,7,Sabe' (ሳብዕ),o,ዖ,U+12D6,ETHIOPIC SYLLABLE PHARYNGEAL O
+classical,ዘ,Zey,17,1,Ge'ez (ግዕዝ),ä,ዘ,U+12D8,ETHIOPIC SYLLABLE ZA
+classical,ዘ,Zey,17,2,Ka'eb (ካዕብ),u,ዙ,U+12D9,ETHIOPIC SYLLABLE ZU
+classical,ዘ,Zey,17,3,Salis (ሣልስ),i,ዚ,U+12DA,ETHIOPIC SYLLABLE ZI
+classical,ዘ,Zey,17,4,Rabe' (ራብዕ),a,ዛ,U+12DB,ETHIOPIC SYLLABLE ZAA
+classical,ዘ,Zey,17,5,Hamis (ኃምስ),e,ዜ,U+12DC,ETHIOPIC SYLLABLE ZEE
+classical,ዘ,Zey,17,6,Sadis (ሳድስ),ə,ዝ,U+12DD,ETHIOPIC SYLLABLE ZE
+classical,ዘ,Zey,17,7,Sabe' (ሳብዕ),o,ዞ,U+12DE,ETHIOPIC SYLLABLE ZO
+eighth-slot,ዘ,Zey,17,8,Eighth slot (wa-form / ኧ-type),wa/ä,ዟ,U+12DF,ETHIOPIC SYLLABLE ZWA
+classical,የ,Yemen,18,1,Ge'ez (ግዕዝ),ä,የ,U+12E8,ETHIOPIC SYLLABLE YA
+classical,የ,Yemen,18,2,Ka'eb (ካዕብ),u,ዩ,U+12E9,ETHIOPIC SYLLABLE YU
+classical,የ,Yemen,18,3,Salis (ሣልስ),i,ዪ,U+12EA,ETHIOPIC SYLLABLE YI
+classical,የ,Yemen,18,4,Rabe' (ራብዕ),a,ያ,U+12EB,ETHIOPIC SYLLABLE YAA
+classical,የ,Yemen,18,5,Hamis (ኃምስ),e,ዬ,U+12EC,ETHIOPIC SYLLABLE YEE
+classical,የ,Yemen,18,6,Sadis (ሳድስ),ə,ይ,U+12ED,ETHIOPIC SYLLABLE YE
+classical,የ,Yemen,18,7,Sabe' (ሳብዕ),o,ዮ,U+12EE,ETHIOPIC SYLLABLE YO
+eighth-slot,የ,Yemen,18,8,Eighth slot (wa-form / ኧ-type),wa/ä,ዯ,U+12EF,ETHIOPIC SYLLABLE YOA
+classical,ደ,Dint,19,1,Ge'ez (ግዕዝ),ä,ደ,U+12F0,ETHIOPIC SYLLABLE DA
+classical,ደ,Dint,19,2,Ka'eb (ካዕብ),u,ዱ,U+12F1,ETHIOPIC SYLLABLE DU
+classical,ደ,Dint,19,3,Salis (ሣልስ),i,ዲ,U+12F2,ETHIOPIC SYLLABLE DI
+classical,ደ,Dint,19,4,Rabe' (ራብዕ),a,ዳ,U+12F3,ETHIOPIC SYLLABLE DAA
+classical,ደ,Dint,19,5,Hamis (ኃምስ),e,ዴ,U+12F4,ETHIOPIC SYLLABLE DEE
+classical,ደ,Dint,19,6,Sadis (ሳድስ),ə,ድ,U+12F5,ETHIOPIC SYLLABLE DE
+classical,ደ,Dint,19,7,Sabe' (ሳብዕ),o,ዶ,U+12F6,ETHIOPIC SYLLABLE DO
+eighth-slot,ደ,Dint,19,8,Eighth slot (wa-form / ኧ-type),wa/ä,ዷ,U+12F7,ETHIOPIC SYLLABLE DWA
+classical,ገ,Gemel,20,1,Ge'ez (ግዕዝ),ä,ገ,U+1308,ETHIOPIC SYLLABLE GA
+classical,ገ,Gemel,20,2,Ka'eb (ካዕብ),u,ጉ,U+1309,ETHIOPIC SYLLABLE GU
+classical,ገ,Gemel,20,3,Salis (ሣልስ),i,ጊ,U+130A,ETHIOPIC SYLLABLE GI
+classical,ገ,Gemel,20,4,Rabe' (ራብዕ),a,ጋ,U+130B,ETHIOPIC SYLLABLE GAA
+classical,ገ,Gemel,20,5,Hamis (ኃምስ),e,ጌ,U+130C,ETHIOPIC SYLLABLE GEE
+classical,ገ,Gemel,20,6,Sadis (ሳድስ),ə,ግ,U+130D,ETHIOPIC SYLLABLE GE
+classical,ገ,Gemel,20,7,Sabe' (ሳብዕ),o,ጎ,U+130E,ETHIOPIC SYLLABLE GO
+eighth-slot,ገ,Gemel,20,8,Eighth slot (wa-form / ኧ-type),wa/ä,ጏ,U+130F,ETHIOPIC SYLLABLE GOA
+classical,ጠ,Teyt,21,1,Ge'ez (ግዕዝ),ä,ጠ,U+1320,ETHIOPIC SYLLABLE THA
+classical,ጠ,Teyt,21,2,Ka'eb (ካዕብ),u,ጡ,U+1321,ETHIOPIC SYLLABLE THU
+classical,ጠ,Teyt,21,3,Salis (ሣልስ),i,ጢ,U+1322,ETHIOPIC SYLLABLE THI
+classical,ጠ,Teyt,21,4,Rabe' (ራብዕ),a,ጣ,U+1323,ETHIOPIC SYLLABLE THAA
+classical,ጠ,Teyt,21,5,Hamis (ኃምስ),e,ጤ,U+1324,ETHIOPIC SYLLABLE THEE
+classical,ጠ,Teyt,21,6,Sadis (ሳድስ),ə,ጥ,U+1325,ETHIOPIC SYLLABLE THE
+classical,ጠ,Teyt,21,7,Sabe' (ሳብዕ),o,ጦ,U+1326,ETHIOPIC SYLLABLE THO
+eighth-slot,ጠ,Teyt,21,8,Eighth slot (wa-form / ኧ-type),wa/ä,ጧ,U+1327,ETHIOPIC SYLLABLE THWA
+classical,ጰ,Peyt,22,1,Ge'ez (ግዕዝ),ä,ጰ,U+1330,ETHIOPIC SYLLABLE PHA
+classical,ጰ,Peyt,22,2,Ka'eb (ካዕብ),u,ጱ,U+1331,ETHIOPIC SYLLABLE PHU
+classical,ጰ,Peyt,22,3,Salis (ሣልስ),i,ጲ,U+1332,ETHIOPIC SYLLABLE PHI
+classical,ጰ,Peyt,22,4,Rabe' (ራብዕ),a,ጳ,U+1333,ETHIOPIC SYLLABLE PHAA
+classical,ጰ,Peyt,22,5,Hamis (ኃምስ),e,ጴ,U+1334,ETHIOPIC SYLLABLE PHEE
+classical,ጰ,Peyt,22,6,Sadis (ሳድስ),ə,ጵ,U+1335,ETHIOPIC SYLLABLE PHE
+classical,ጰ,Peyt,22,7,Sabe' (ሳብዕ),o,ጶ,U+1336,ETHIOPIC SYLLABLE PHO
+eighth-slot,ጰ,Peyt,22,8,Eighth slot (wa-form / ኧ-type),wa/ä,ጷ,U+1337,ETHIOPIC SYLLABLE PHWA
+classical,ጸ,Sedey,23,1,Ge'ez (ግዕዝ),ä,ጸ,U+1338,ETHIOPIC SYLLABLE TSA
+classical,ጸ,Sedey,23,2,Ka'eb (ካዕብ),u,ጹ,U+1339,ETHIOPIC SYLLABLE TSU
+classical,ጸ,Sedey,23,3,Salis (ሣልስ),i,ጺ,U+133A,ETHIOPIC SYLLABLE TSI
+classical,ጸ,Sedey,23,4,Rabe' (ራብዕ),a,ጻ,U+133B,ETHIOPIC SYLLABLE TSAA
+classical,ጸ,Sedey,23,5,Hamis (ኃምስ),e,ጼ,U+133C,ETHIOPIC SYLLABLE TSEE
+classical,ጸ,Sedey,23,6,Sadis (ሳድስ),ə,ጽ,U+133D,ETHIOPIC SYLLABLE TSE
+classical,ጸ,Sedey,23,7,Sabe' (ሳብዕ),o,ጾ,U+133E,ETHIOPIC SYLLABLE TSO
+eighth-slot,ጸ,Sedey,23,8,Eighth slot (wa-form / ኧ-type),wa/ä,ጿ,U+133F,ETHIOPIC SYLLABLE TSWA
+classical,ፀ,Sepa,24,1,Ge'ez (ግዕዝ),ä,ፀ,U+1340,ETHIOPIC SYLLABLE TZA
+classical,ፀ,Sepa,24,2,Ka'eb (ካዕብ),u,ፁ,U+1341,ETHIOPIC SYLLABLE TZU
+classical,ፀ,Sepa,24,3,Salis (ሣልስ),i,ፂ,U+1342,ETHIOPIC SYLLABLE TZI
+classical,ፀ,Sepa,24,4,Rabe' (ራብዕ),a,ፃ,U+1343,ETHIOPIC SYLLABLE TZAA
+classical,ፀ,Sepa,24,5,Hamis (ኃምስ),e,ፄ,U+1344,ETHIOPIC SYLLABLE TZEE
+classical,ፀ,Sepa,24,6,Sadis (ሳድስ),ə,ፅ,U+1345,ETHIOPIC SYLLABLE TZE
+classical,ፀ,Sepa,24,7,Sabe' (ሳብዕ),o,ፆ,U+1346,ETHIOPIC SYLLABLE TZO
+eighth-slot,ፀ,Sepa,24,8,Eighth slot (wa-form / ኧ-type),wa/ä,ፇ,U+1347,ETHIOPIC SYLLABLE TZOA
+classical,ፈ,Af,25,1,Ge'ez (ግዕዝ),ä,ፈ,U+1348,ETHIOPIC SYLLABLE FA
+classical,ፈ,Af,25,2,Ka'eb (ካዕብ),u,ፉ,U+1349,ETHIOPIC SYLLABLE FU
+classical,ፈ,Af,25,3,Salis (ሣልስ),i,ፊ,U+134A,ETHIOPIC SYLLABLE FI
+classical,ፈ,Af,25,4,Rabe' (ራብዕ),a,ፋ,U+134B,ETHIOPIC SYLLABLE FAA
+classical,ፈ,Af,25,5,Hamis (ኃምስ),e,ፌ,U+134C,ETHIOPIC SYLLABLE FEE
+classical,ፈ,Af,25,6,Sadis (ሳድስ),ə,ፍ,U+134D,ETHIOPIC SYLLABLE FE
+classical,ፈ,Af,25,7,Sabe' (ሳብዕ),o,ፎ,U+134E,ETHIOPIC SYLLABLE FO
+eighth-slot,ፈ,Af,25,8,Eighth slot (wa-form / ኧ-type),wa/ä,ፏ,U+134F,ETHIOPIC SYLLABLE FWA
+classical,ፐ,Psa,26,1,Ge'ez (ግዕዝ),ä,ፐ,U+1350,ETHIOPIC SYLLABLE PA
+classical,ፐ,Psa,26,2,Ka'eb (ካዕብ),u,ፑ,U+1351,ETHIOPIC SYLLABLE PU
+classical,ፐ,Psa,26,3,Salis (ሣልስ),i,ፒ,U+1352,ETHIOPIC SYLLABLE PI
+classical,ፐ,Psa,26,4,Rabe' (ራብዕ),a,ፓ,U+1353,ETHIOPIC SYLLABLE PAA
+classical,ፐ,Psa,26,5,Hamis (ኃምስ),e,ፔ,U+1354,ETHIOPIC SYLLABLE PEE
+classical,ፐ,Psa,26,6,Sadis (ሳድስ),ə,ፕ,U+1355,ETHIOPIC SYLLABLE PE
+classical,ፐ,Psa,26,7,Sabe' (ሳብዕ),o,ፖ,U+1356,ETHIOPIC SYLLABLE PO
+eighth-slot,ፐ,Psa,26,8,Eighth slot (wa-form / ኧ-type),wa/ä,ፗ,U+1357,ETHIOPIC SYLLABLE PWA
+labiovelar-classical,ቀ,ቀ-series (labiovelar),,1,Ge'ez (ግዕዝ),ä,ቈ,U+1248,ETHIOPIC SYLLABLE QWA
+labiovelar-classical,ቀ,ቀ-series (labiovelar),,3,Salis (ሣልስ),i,ቊ,U+124A,ETHIOPIC SYLLABLE QWI
+labiovelar-classical,ቀ,ቀ-series (labiovelar),,4,Rabe' (ራብዕ),a,ቋ,U+124B,ETHIOPIC SYLLABLE QWAA
+labiovelar-classical,ቀ,ቀ-series (labiovelar),,5,Hamis (ኃምስ),e,ቌ,U+124C,ETHIOPIC SYLLABLE QWEE
+labiovelar-classical,ቀ,ቀ-series (labiovelar),,6,Sadis (ሳድስ),ə,ቍ,U+124D,ETHIOPIC SYLLABLE QWE
+labiovelar-classical,ኀ,ኀ-series (labiovelar),,1,Ge'ez (ግዕዝ),ä,ኈ,U+1288,ETHIOPIC SYLLABLE XWA
+labiovelar-classical,ኀ,ኀ-series (labiovelar),,3,Salis (ሣልስ),i,ኊ,U+128A,ETHIOPIC SYLLABLE XWI
+labiovelar-classical,ኀ,ኀ-series (labiovelar),,4,Rabe' (ራብዕ),a,ኋ,U+128B,ETHIOPIC SYLLABLE XWAA
+labiovelar-classical,ኀ,ኀ-series (labiovelar),,5,Hamis (ኃምስ),e,ኌ,U+128C,ETHIOPIC SYLLABLE XWEE
+labiovelar-classical,ኀ,ኀ-series (labiovelar),,6,Sadis (ሳድስ),ə,ኍ,U+128D,ETHIOPIC SYLLABLE XWE
+labiovelar-classical,ከ,ከ-series (labiovelar),,1,Ge'ez (ግዕዝ),ä,ኰ,U+12B0,ETHIOPIC SYLLABLE KWA
+labiovelar-classical,ከ,ከ-series (labiovelar),,3,Salis (ሣልስ),i,ኲ,U+12B2,ETHIOPIC SYLLABLE KWI
+labiovelar-classical,ከ,ከ-series (labiovelar),,4,Rabe' (ራብዕ),a,ኳ,U+12B3,ETHIOPIC SYLLABLE KWAA
+labiovelar-classical,ከ,ከ-series (labiovelar),,5,Hamis (ኃምስ),e,ኴ,U+12B4,ETHIOPIC SYLLABLE KWEE
+labiovelar-classical,ከ,ከ-series (labiovelar),,6,Sadis (ሳድስ),ə,ኵ,U+12B5,ETHIOPIC SYLLABLE KWE
+labiovelar-classical,ገ,ገ-series (labiovelar),,1,Ge'ez (ግዕዝ),ä,ጐ,U+1310,ETHIOPIC SYLLABLE GWA
+labiovelar-classical,ገ,ገ-series (labiovelar),,3,Salis (ሣልስ),i,ጒ,U+1312,ETHIOPIC SYLLABLE GWI
+labiovelar-classical,ገ,ገ-series (labiovelar),,4,Rabe' (ራብዕ),a,ጓ,U+1313,ETHIOPIC SYLLABLE GWAA
+labiovelar-classical,ገ,ገ-series (labiovelar),,5,Hamis (ኃምስ),e,ጔ,U+1314,ETHIOPIC SYLLABLE GWEE
+labiovelar-classical,ገ,ገ-series (labiovelar),,6,Sadis (ሳድስ),ə,ጕ,U+1315,ETHIOPIC SYLLABLE GWE
+labiovelar-postclassical,ቐ,ቐ-series (labiovelar),,1,Ge'ez (ግዕዝ),ä,ቘ,U+1258,ETHIOPIC SYLLABLE QHWA
+labiovelar-postclassical,ቐ,ቐ-series (labiovelar),,3,Salis (ሣልስ),i,ቚ,U+125A,ETHIOPIC SYLLABLE QHWI
+labiovelar-postclassical,ቐ,ቐ-series (labiovelar),,4,Rabe' (ራብዕ),a,ቛ,U+125B,ETHIOPIC SYLLABLE QHWAA
+labiovelar-postclassical,ቐ,ቐ-series (labiovelar),,5,Hamis (ኃምስ),e,ቜ,U+125C,ETHIOPIC SYLLABLE QHWEE
+labiovelar-postclassical,ቐ,ቐ-series (labiovelar),,6,Sadis (ሳድስ),ə,ቝ,U+125D,ETHIOPIC SYLLABLE QHWE
+labiovelar-postclassical,ኸ,ኸ-series (labiovelar),,1,Ge'ez (ግዕዝ),ä,ዀ,U+12C0,ETHIOPIC SYLLABLE KXWA
+labiovelar-postclassical,ኸ,ኸ-series (labiovelar),,3,Salis (ሣልስ),i,ዂ,U+12C2,ETHIOPIC SYLLABLE KXWI
+labiovelar-postclassical,ኸ,ኸ-series (labiovelar),,4,Rabe' (ራብዕ),a,ዃ,U+12C3,ETHIOPIC SYLLABLE KXWAA
+labiovelar-postclassical,ኸ,ኸ-series (labiovelar),,5,Hamis (ኃምስ),e,ዄ,U+12C4,ETHIOPIC SYLLABLE KXWEE
+labiovelar-postclassical,ኸ,ኸ-series (labiovelar),,6,Sadis (ሳድስ),ə,ዅ,U+12C5,ETHIOPIC SYLLABLE KXWE
