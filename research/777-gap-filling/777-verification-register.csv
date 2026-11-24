@@ -1,0 +1,591 @@
+section_idx,cell_id,column,section_kind,proposal_idx,proposal_raw,claim_idx,bank_label_raw,bank_engine,claimed_value,claim_variant_note,tier_printed,bridge,worker
+0,III/31 bis,Column III — English of Col. II,FILLED,0,Tooth,0,latin_ordinal,latin_ordinal,78,,attested,none.,worker-16
+0,III/31 bis,Column III — English of Col. II,FILLED,0,Tooth,1,agrippa,agrippa,308,,attested,none.,worker-16
+1,III/32 bis,Column III — English of Col. II,FILLED,0,Tau (as Egyptian),0,latin_ordinal,latin_ordinal,159,,attested,none.,worker-16
+1,III/32 bis,Column III — English of Col. II,FILLED,0,Tau (as Egyptian),1,agrippa,agrippa,1014,,attested,none.,worker-16
+2,IV/0,Column IV — Consciousness of the Adept.,INTENTIONALLY_EMPTY,,,,,,,,,,
+3,VI/0,Column VI — The Heavens of Assiah,INTENTIONALLY_EMPTY,,,,,,,,,,
+4,VI/13,Column VI — The Heavens of Assiah,FILLED,0,לבנה (Levanah),0,hebrew,hebrew,87,,attested,none.,worker-16
+4,VI/13,Column VI — The Heavens of Assiah,FILLED,0,לבנה (Levanah),1,hebrew_gadol,hebrew_gadol,87,,attested,none.,worker-16
+5,VI/14,Column VI — The Heavens of Assiah,FILLED,0,נגה (Nogah),0,hebrew,hebrew,58,,attested,none.,worker-16
+5,VI/14,Column VI — The Heavens of Assiah,FILLED,0,נגה (Nogah),1,hebrew_gadol,hebrew_gadol,58,,attested,none.,worker-16
+6,VI/21,Column VI — The Heavens of Assiah,FILLED,0,צדק (Tzedeq),0,hebrew,hebrew,194,,attested,none.,worker-16
+6,VI/21,Column VI — The Heavens of Assiah,FILLED,0,צדק (Tzedeq),1,hebrew_gadol,hebrew_gadol,194,,attested,none.,worker-16
+7,VI/27,Column VI — The Heavens of Assiah,FILLED,0,מאדים (Madim),0,hebrew,hebrew,95,,attested,none.,worker-16
+7,VI/27,Column VI — The Heavens of Assiah,FILLED,0,מאדים (Madim),1,hebrew_gadol,hebrew_gadol,655,,attested,none.,worker-16
+8,VI/30,Column VI — The Heavens of Assiah,FILLED,0,שמש (Shemesh),0,hebrew,hebrew,640,,attested,none.,worker-16
+8,VI/30,Column VI — The Heavens of Assiah,FILLED,0,שמש (Shemesh),1,hebrew_gadol,hebrew_gadol,640,,attested,none.,worker-16
+9,VI/32,Column VI — The Heavens of Assiah,FILLED,0,שבתאי (Shabbathai),0,hebrew,hebrew,713,,attested,none.,worker-16
+9,VI/32,Column VI — The Heavens of Assiah,FILLED,0,שבתאי (Shabbathai),1,hebrew_gadol,hebrew_gadol,713,,attested,none.,worker-16
+10,VIII/13,Column VIII — Orders of Qliphoth.,FILLED,0,Gamaliel,0,HEBREW,hebrew,84,,derived,none.,worker-14
+11,VIII/14,Column VIII — Orders of Qliphoth.,FILLED,0,A'arab Zaraq,0,HEBREW,hebrew,579,,derived,none.,worker-14
+12,VIII/21,Column VIII — Orders of Qliphoth.,FILLED,0,Gha'agsheklah,0,HEBREW,hebrew,434,,derived,none.,worker-14
+13,VIII/23,Column VIII — Orders of Qliphoth.,FILLED,0,Ariton,0,AGRIPPA,agrippa,280,,derived,none.,worker-14
+14,VIII/27,Column VIII — Orders of Qliphoth.,FILLED,0,Golachab,0,HEBREW,hebrew,49,,derived,none.,worker-14
+15,VIII/30,Column VIII — Orders of Qliphoth.,FILLED,0,Thagiriron,0,HEBREW,hebrew,869,,derived,none.,worker-14
+16,VIII/31,Column VIII — Orders of Qliphoth.,FILLED,0,Paimon,0,AGRIPPA,agrippa,190,,derived,none.,worker-14
+17,VIII/31 bis,Column VIII — Orders of Qliphoth.,INTENTIONALLY_EMPTY,,,,,,,,,,
+18,VIII/32,Column VIII — Orders of Qliphoth.,FILLED,0,Satariel,0,HEBREW,hebrew,702,,derived,none.,worker-14
+19,VIII/32 bis,Column VIII — Orders of Qliphoth.,FILLED,0,Amaimon,0,AGRIPPA,agrippa,161,,derived,none.,worker-14
+20,IX/0,Column IX — The Sword and the Serpent,INTENTIONALLY_EMPTY,,,,,,,,,,
+21,IX/31 bis,Column IX — The Sword and the Serpent,INTENTIONALLY_EMPTY,,,,,,,,,,
+22,IX/32 bis,Column IX — The Sword and the Serpent,INTENTIONALLY_EMPTY,,,,,,,,,,
+23,XI/0,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+24,XI/12,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+25,XI/13,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+26,XI/14,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+27,XI/21,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+28,XI/27,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+29,XI/30,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+30,XI/32,Column XI — Elements (with their Planetary Rulers),INTENTIONALLY_EMPTY,,,,,,,,,,
+31,XII/32 bis,Column XII — The Tree of Life.,INTENTIONALLY_EMPTY,,,,,,,,,,
+32,XIII/0,Column XIII — The Paths of the Sepher Yetzirah,INTENTIONALLY_EMPTY,,,,,,,,,,
+33,XIII/31 bis,Column XIII — The Paths of the Sepher Yetzirah,INTENTIONALLY_EMPTY,,,,,,,,,,
+34,XIII/32 bis,Column XIII — The Paths of the Sepher Yetzirah,INTENTIONALLY_EMPTY,,,,,,,,,,
+35,XVI/0,Column XVI — The Queen Scale of Colour (h).,INTENTIONALLY_EMPTY,,,,,,,,,,
+36,XX/31 bis,Column XX — Complete Practical Attribution of Egyptian Gods.,FILLED,0,Atum,0,LATIN,latin_ordinal,55,,constructed,none.,worker-22
+36,XX/31 bis,Column XX — Complete Practical Attribution of Egyptian Gods.,FILLED,0,Atum,1,HEBREW,hebrew,447,,constructed,none.,worker-22
+37,XX/32 bis,Column XX — Complete Practical Attribution of Egyptian Gods.,FILLED,0,Seb,0,LATIN,latin_ordinal,26,,constructed,none.,worker-22
+37,XX/32 bis,Column XX — Complete Practical Attribution of Egyptian Gods.,FILLED,0,Seb,1,HEBREW,hebrew,62,,constructed,none.,worker-22
+38,XXI/18,Column XXI — The Perfected Man.,FILLED,0,Hormakhu — the Forehead,0,HEBREW,hebrew,277,,constructed,none.,worker-20
+38,XXI/18,Column XXI — The Perfected Man.,FILLED,0,Hormakhu — the Forehead,1,ENGLISH_ORDINAL,english_ordinal,62,,constructed,none.,worker-20
+38,XXI/18,Column XXI — The Perfected Man.,FILLED,1,Khephra — the Hands,0,HEBREW,hebrew,358,,constructed,none.,worker-20
+38,XXI/18,Column XXI — The Perfected Man.,FILLED,1,Khephra — the Hands,1,ENGLISH_ORDINAL,english_ordinal,46,,constructed,none.,worker-20
+39,XXI/20,Column XXI — The Perfected Man.,FILLED,0,Heru-pa-Kraath — the Tongue,0,HEBREW,hebrew,996,,constructed,none.,worker-20
+39,XXI/20,Column XXI — The Perfected Man.,FILLED,0,Heru-pa-Kraath — the Tongue,1,ENGLISH_ORDINAL,english_ordinal,82,,constructed,none.,worker-20
+39,XXI/20,Column XXI — The Perfected Man.,FILLED,1,Isis — the Cheeks,0,HEBREW,hebrew,88,,constructed,none.,worker-20
+39,XXI/20,Column XXI — The Perfected Man.,FILLED,1,Isis — the Cheeks,1,ENGLISH_ORDINAL,english_ordinal,51,,constructed,none.,worker-20
+40,XXI/22,Column XXI — The Perfected Man.,FILLED,0,Maat — the Right Ear,0,HEBREW,hebrew,510,,constructed,none.,worker-20
+40,XXI/22,Column XXI — The Perfected Man.,FILLED,0,Maat — the Right Ear,1,ENGLISH_ORDINAL,english_ordinal,86,,constructed,none.,worker-20
+40,XXI/22,Column XXI — The Perfected Man.,FILLED,1,Ma — the Mouth,0,HEBREW,hebrew,41,,constructed,none.,worker-20
+40,XXI/22,Column XXI — The Perfected Man.,FILLED,1,Ma — the Mouth,1,ENGLISH_ORDINAL,english_ordinal,77,,constructed,none.,worker-20
+41,XXI/25,Column XXI — The Perfected Man.,FILLED,0,Nephthys — the Knees,0,HEBREW,hebrew,600,,constructed,none.,worker-20
+41,XXI/25,Column XXI — The Perfected Man.,FILLED,0,Nephthys — the Knees,1,ENGLISH_ORDINAL,english_ordinal,54,,constructed,none.,worker-20
+41,XXI/25,Column XXI — The Perfected Man.,FILLED,1,Arwueri — the Feet,0,HEBREW,hebrew,418,,constructed,none.,worker-20
+41,XXI/25,Column XXI — The Perfected Man.,FILLED,1,Arwueri — the Feet,1,ENGLISH_ORDINAL,english_ordinal,36,,constructed,none.,worker-20
+42,XXIV/2,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Savikalpa-samadhi,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,147,,constructed,none.,worker-05
+42,XXIV/2,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Mudita-samadhi,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,123,,constructed,none.,worker-05
+43,XXIV/3,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Mahakaruna,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,89,,constructed,none.,worker-05
+43,XXIV/3,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Bodhicitta,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,91,,constructed,none.,worker-05
+44,XXIV/4,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Brahmavihara,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,102,,constructed,none.,worker-05
+44,XXIV/4,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Metta-samadhi,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,114,,constructed,none.,worker-05
+45,XXIV/5,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Amata,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,36,,constructed,none.,worker-05
+45,XXIV/5,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Samvega,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,68,,constructed,none.,worker-05
+46,XXIV/7,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Sayujya,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,102,,constructed,none.,worker-05
+46,XXIV/7,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Deva-darsana,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,90,,constructed,none.,worker-05
+47,XXIV/8,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Iddhi,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,34,,constructed,none.,worker-05
+47,XXIV/8,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Vibhuti,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,91,,constructed,none.,worker-05
+48,XXIV/9,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Sotapatti,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,121,,constructed,none.,worker-05
+48,XXIV/9,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Dhammacakkhu,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,95,,constructed,none.,worker-05
+49,XXIV/12,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Patibhaga-nimitta,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,151,,constructed,none.,worker-05
+49,XXIV/12,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Appana,0,"LATIN_ORDINAL (IAST transliteration, macrons stripped)",latin_ordinal,49,,constructed,none.,worker-05
+50,XXIV/15,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Success in Karma-yoga,0,LATIN_ORDINAL,latin_ordinal,92,,constructed,none.,worker-06
+50,XXIV/15,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Success in Karma-yoga,1,HEBREW,hebrew,289,,constructed,none.,worker-06
+51,XXIV/17,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Success in Jnana-yoga,0,LATIN_ORDINAL,latin_ordinal,88,,constructed,none.,worker-06
+51,XXIV/17,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Success in Jnana-yoga,1,HEBREW,hebrew,133,,constructed,none.,worker-06
+51,XXIV/17,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Vision of Budha,0,LATIN_ORDINAL,latin_ordinal,36,,constructed,none.,worker-06
+51,XXIV/17,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Vision of Budha,1,HEBREW,hebrew,17,,constructed,none.,worker-06
+52,XXIV/18,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Soma-bhawana,0,LATIN_ORDINAL,latin_ordinal,98,,constructed,none.,worker-06
+52,XXIV/18,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Soma-bhawana,1,HEBREW,hebrew,181,,constructed,none.,worker-06
+52,XXIV/18,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Success in Mantra-yoga,0,LATIN_ORDINAL,latin_ordinal,115,,constructed,none.,worker-06
+52,XXIV/18,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Success in Mantra-yoga,1,HEBREW,hebrew,720,,constructed,none.,worker-06
+53,XXIV/19,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Tejo-bhawana,0,LATIN_ORDINAL,latin_ordinal,100,,constructed,none.,worker-06
+53,XXIV/19,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Tejo-bhawana,1,HEBREW,hebrew,480,,constructed,none.,worker-06
+53,XXIV/19,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Tapas-siddhi,0,LATIN_ORDINAL,latin_ordinal,110,,constructed,none.,worker-06
+53,XXIV/19,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Tapas-siddhi,1,HEBREW,hebrew,626,,constructed,none.,worker-06
+54,XXIV/20,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Success in Kriya-yoga,0,LATIN_ORDINAL,latin_ordinal,112,,constructed,none.,worker-06
+54,XXIV/20,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Success in Kriya-yoga,1,HEBREW,hebrew,269,,constructed,none.,worker-06
+54,XXIV/20,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Viveka-bhawana,0,LATIN_ORDINAL,latin_ordinal,120,,constructed,none.,worker-06
+54,XXIV/20,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Viveka-bhawana,1,HEBREW,hebrew,118,,constructed,none.,worker-06
+55,XXIV/21,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Guru-darshana,0,LATIN_ORDINAL,latin_ordinal,133,,constructed,none.,worker-06
+55,XXIV/21,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Guru-darshana,1,HEBREW,hebrew,776,,constructed,none.,worker-06
+55,XXIV/21,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Success in Raja-yoga,0,LATIN_ORDINAL,latin_ordinal,78,,constructed,none.,worker-06
+55,XXIV/21,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Success in Raja-yoga,1,HEBREW,hebrew,233,,constructed,none.,worker-06
+56,XXIV/22,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Tula-bhawana,0,LATIN_ORDINAL,latin_ordinal,104,,constructed,none.,worker-06
+56,XXIV/22,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Tula-bhawana,1,HEBREW,hebrew,511,,constructed,none.,worker-06
+56,XXIV/22,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Dharma-darshana,0,LATIN_ORDINAL,latin_ordinal,111,,constructed,none.,worker-06
+56,XXIV/22,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,1,Dharma-darshana,1,HEBREW,hebrew,811,,constructed,none.,worker-06
+57,XXIV/24,Column XXIV — Certain of the Hindu and Buddhist Results.,INTENTIONALLY_EMPTY,,,,,,,,,,
+58,XXIV/25,Column XXIV — Certain of the Hindu and Buddhist Results.,INTENTIONALLY_EMPTY,,,,,,,,,,
+59,XXIV/26,Column XXIV — Certain of the Hindu and Buddhist Results.,INTENTIONALLY_EMPTY,,,,,,,,,,
+60,XXIV/27,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Mangala,0,latin,latin_ordinal,49,,derived,none.,worker-07
+60,XXIV/27,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Mangala,1,agrippa,agrippa,100,,derived,none.,worker-07
+60,XXIV/27,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Mangala,2,hebrew,hebrew,123,,constructed,none.,worker-07
+60,XXIV/27,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Mangala,3,latin(phrase),latin_ordinal,158,,constructed,none.,worker-07
+61,XXIV/28,Column XXIV — Certain of the Hindu and Buddhist Results.,INTENTIONALLY_EMPTY,,,,,,,,,,
+62,XXIV/29,Column XXIV — Certain of the Hindu and Buddhist Results.,INTENTIONALLY_EMPTY,,,,,,,,,,
+63,XXIV/32,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Shani,0,latin,latin_ordinal,51,,derived,none.,worker-07
+63,XXIV/32,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Shani,1,agrippa,agrippa,148,,derived,none.,worker-07
+63,XXIV/32,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Shani,2,hebrew,hebrew,360,,constructed,none.,worker-07
+63,XXIV/32,Column XXIV — Certain of the Hindu and Buddhist Results.,FILLED,0,Vision of Shani,3,latin(phrase),latin_ordinal,160,,constructed,none.,worker-07
+64,XXXIII/0,Column XXXIII — Some Scandinavian Gods.,INTENTIONALLY_EMPTY,,,,,,,,,,
+65,XXXIII/6,Column XXXIII — Some Scandinavian Gods.,FILLED,0,BALDR,0,LATIN-ordinal,latin_ordinal,37,,attested,none.,worker-15
+65,XXXIII/6,Column XXXIII — Some Scandinavian Gods.,FILLED,0,BALDR,1,AGRIPPA,agrippa,107,,attested,none.,worker-15
+65,XXXIII/6,Column XXXIII — Some Scandinavian Gods.,FILLED,0,BALDR,2,HEBREW-fallback,hebrew_fallback,236,,constructed,none.,worker-15
+65,XXXIII/6,Column XXXIII — Some Scandinavian Gods.,FILLED,0,BALDR,3,HEBREW-gadol,hebrew_gadol,236,,constructed,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,0,JORD,0,LATIN-ordinal,latin_ordinal,47,,attested,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,0,JORD,1,AGRIPPA,agrippa,143,,attested,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,0,JORD,2,HEBREW-fallback,hebrew_fallback,220,,constructed,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,0,JORD,3,HEBREW-gadol,hebrew_gadol,220,,constructed,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,1,NERTHUS,0,LATIN-ordinal,latin_ordinal,105,,attested,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,1,NERTHUS,1,AGRIPPA,agrippa,523,,attested,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,1,NERTHUS,2,HEBREW-fallback,hebrew_fallback,716,,constructed,none.,worker-15
+66,XXXIII/10,Column XXXIII — Some Scandinavian Gods.,FILLED,1,NERTHUS,3,HEBREW-gadol,hebrew_gadol,716,,constructed,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,0,MANI,0,LATIN-ordinal,latin_ordinal,37,,attested,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,0,MANI,1,AGRIPPA,agrippa,80,,attested,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,0,MANI,2,HEBREW-fallback,hebrew_fallback,101,,constructed,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,0,MANI,3,HEBREW-gadol,hebrew_gadol,101,,constructed,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,1,SKADI,0,LATIN-ordinal,latin_ordinal,44,,attested,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,1,SKADI,1,AGRIPPA,agrippa,114,,attested,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,1,SKADI,2,HEBREW-fallback,hebrew_fallback,175,,constructed,none.,worker-15
+67,XXXIII/13,Column XXXIII — Some Scandinavian Gods.,FILLED,1,SKADI,3,HEBREW-gadol,hebrew_gadol,175,,constructed,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SIF,0,LATIN-ordinal,latin_ordinal,34,,attested,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SIF,1,AGRIPPA,agrippa,105,,attested,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SIF,2,HEBREW-fallback,hebrew_fallback,150,,constructed,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SIF,3,HEBREW-gadol,hebrew_gadol,870,,constructed,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,1,EIR,0,LATIN-ordinal,latin_ordinal,32,,attested,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,1,EIR,1,AGRIPPA,agrippa,94,,attested,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,1,EIR,2,HEBREW-fallback,hebrew_fallback,211,,constructed,none.,worker-15
+68,XXXIII/16,Column XXXIII — Some Scandinavian Gods.,FILLED,1,EIR,3,HEBREW-gadol,hebrew_gadol,211,,constructed,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NJORD,0,LATIN-ordinal,latin_ordinal,61,,attested,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NJORD,1,AGRIPPA,agrippa,183,,attested,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NJORD,2,HEBREW-fallback,hebrew_fallback,270,,constructed,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NJORD,3,HEBREW-gadol,hebrew_gadol,270,,constructed,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,1,AEGIR,0,LATIN-ordinal,latin_ordinal,40,,attested,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,1,AEGIR,1,AGRIPPA,agrippa,102,,attested,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,1,AEGIR,2,HEBREW-fallback,hebrew_fallback,214,,constructed,none.,worker-15
+69,XXXIII/23,Column XXXIII — Some Scandinavian Gods.,FILLED,1,AEGIR,3,HEBREW-gadol,hebrew_gadol,214,,constructed,none.,worker-15
+70,XXXIII/30,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SOL,0,LATIN-ordinal,latin_ordinal,46,,attested,none.,worker-15
+70,XXXIII/30,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SOL,1,AGRIPPA,agrippa,160,,attested,none.,worker-15
+70,XXXIII/30,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SOL,2,HEBREW-fallback,hebrew_fallback,96,,constructed,none.,worker-15
+70,XXXIII/30,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SOL,3,HEBREW-gadol,hebrew_gadol,96,,constructed,none.,worker-15
+71,XXXIII/31,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SURTR,0,LATIN-ordinal,latin_ordinal,96,,attested,none.,worker-15
+71,XXXIII/31,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SURTR,1,AGRIPPA,agrippa,550,,attested,none.,worker-15
+71,XXXIII/31,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SURTR,2,HEBREW-fallback,hebrew_fallback,475,,constructed,none.,worker-15
+71,XXXIII/31,Column XXXIII — Some Scandinavian Gods.,FILLED,0,SURTR,3,HEBREW-gadol,hebrew_gadol,475,,constructed,none.,worker-15
+72,XXXIII/31 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,ODIN,0,LATIN-ordinal,latin_ordinal,42,,attested,none.,worker-15
+72,XXXIII/31 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,ODIN,1,AGRIPPA,agrippa,103,,attested,none.,worker-15
+72,XXXIII/31 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,ODIN,2,HEBREW-fallback,hebrew_fallback,71,,constructed,none.,worker-15
+72,XXXIII/31 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,ODIN,3,HEBREW-gadol,hebrew_gadol,721,,constructed,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NERTHUS,0,LATIN-ordinal,latin_ordinal,105,,attested,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NERTHUS,1,AGRIPPA,agrippa,523,,attested,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NERTHUS,2,HEBREW-fallback,hebrew_fallback,716,,constructed,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,0,NERTHUS,3,HEBREW-gadol,hebrew_gadol,716,,constructed,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,1,ERDA,0,LATIN-ordinal,latin_ordinal,28,,attested,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,1,ERDA,1,AGRIPPA,agrippa,90,,attested,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,1,ERDA,2,HEBREW-fallback,hebrew_fallback,206,,constructed,none.,worker-15
+73,XXXIII/32 bis,Column XXXIII — Some Scandinavian Gods.,FILLED,1,ERDA,3,HEBREW-gadol,hebrew_gadol,206,,constructed,none.,worker-15
+74,XXXV/0,Column XXXV — Some Roman Gods.,INTENTIONALLY_EMPTY,,,,,,,,,,
+75,XXXVI/16,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+76,XXXVI/18,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+77,XXXVI/22,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+78,XXXVI/24,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+79,XXXVI/25,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+80,XXXVI/26,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+81,XXXVI/28,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+82,XXXVI/29,Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7),INTENTIONALLY_EMPTY,,,,,,,,,,
+83,XLIII/0,Column XLIII — Vegetable Drugs.,INTENTIONALLY_EMPTY,,,,,,,,,,
+84,XLIII/24,Column XLIII — Vegetable Drugs.,FILLED,0,Hemlock (Conium maculatum) -- CONIUM,0,LATIN-ordinal,latin_ordinal,75,,attested,none.,worker-19
+84,XLIII/24,Column XLIII — Vegetable Drugs.,FILLED,0,Hemlock (Conium maculatum) -- CONIUM,1,LATIN-agrippa,agrippa,332,,attested,none.,worker-19
+84,XLIII/24,Column XLIII — Vegetable Drugs.,FILLED,1,Hemlock (Conium maculatum) -- CONIUM MACULATUM,0,LATIN-ordinal,latin_ordinal,180,,attested,none.,worker-19
+84,XLIII/24,Column XLIII — Vegetable Drugs.,FILLED,1,Hemlock (Conium maculatum) -- CONIUM MACULATUM,1,LATIN-agrippa,agrippa,917,,attested,none.,worker-19
+84,XLIII/24,Column XLIII — Vegetable Drugs.,FILLED,2,Hemlock (Conium maculatum) -- κωνειον,0,GREEK,greek,1005,,attested,none.,worker-19
+84,XLIII/24,Column XLIII — Vegetable Drugs.,FILLED,3,Hemlock (Conium maculatum) -- ראש,0,HEBREW,hebrew,501,,attested,none.,worker-19
+85,XLIII/25,Column XLIII — Vegetable Drugs.,FILLED,0,Sage (Salvia officinalis) -- SALVIA,0,LATIN-ordinal,latin_ordinal,64,,attested,none.,worker-19
+85,XLIII/25,Column XLIII — Vegetable Drugs.,FILLED,0,Sage (Salvia officinalis) -- SALVIA,1,LATIN-agrippa,agrippa,321,,attested,none.,worker-19
+85,XLIII/25,Column XLIII — Vegetable Drugs.,FILLED,1,Sage (Salvia officinalis) -- SALVIA OFFICINALIS,0,LATIN-ordinal,latin_ordinal,167,,attested,none.,worker-19
+85,XLIII/25,Column XLIII — Vegetable Drugs.,FILLED,1,Sage (Salvia officinalis) -- SALVIA OFFICINALIS,1,LATIN-agrippa,agrippa,564,,attested,none.,worker-19
+85,XLIII/25,Column XLIII — Vegetable Drugs.,FILLED,2,Sage (Salvia officinalis) -- מרווה,0,HEBREW,hebrew,257,,attested,none.,worker-19
+86,XLIII/27,Column XLIII — Vegetable Drugs.,FILLED,0,Mustard seed [Sinapis],0,LATIN-ORDINAL,latin_ordinal,96,,constructed,none.,worker-23
+86,XLIII/27,Column XLIII — Vegetable Drugs.,FILLED,0,Mustard seed [Sinapis],1,AGRIPPA,agrippa,505,,constructed,none.,worker-23
+86,XLIII/27,Column XLIII — Vegetable Drugs.,FILLED,1,SINAPIS (Latin form),0,LATIN-ORDINAL,latin_ordinal,87,,constructed,none.,worker-23
+86,XLIII/27,Column XLIII — Vegetable Drugs.,FILLED,1,SINAPIS (Latin form),1,AGRIPPA,agrippa,299,,constructed,none.,worker-23
+86,XLIII/27,Column XLIII — Vegetable Drugs.,FILLED,2,Capsicum [Cayenne] (alternative),0,LATIN-ORDINAL,latin_ordinal,85,,constructed,none.,worker-23
+86,XLIII/27,Column XLIII — Vegetable Drugs.,FILLED,2,Capsicum [Cayenne] (alternative),1,AGRIPPA,agrippa,396,,constructed,none.,worker-23
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,0,Ginger (Zingiber officinale) -- ZINGIBER,0,LATIN-ordinal,latin_ordinal,90,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,0,Ginger (Zingiber officinale) -- ZINGIBER,1,LATIN-agrippa,agrippa,652,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,1,Ginger (Zingiber officinale) -- ZINGIBER OFFICINALE,0,LATIN-ordinal,latin_ordinal,170,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,1,Ginger (Zingiber officinale) -- ZINGIBER OFFICINALE,1,LATIN-agrippa,agrippa,801,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,2,Ginger (Zingiber officinale) -- זנגביל,0,HEBREW,hebrew,102,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,3,Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICUM,0,LATIN-ordinal,latin_ordinal,85,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,3,Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICUM,1,LATIN-agrippa,agrippa,396,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,4,Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICUM ANNUUM,0,LATIN-ordinal,latin_ordinal,169,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,4,Capsicum (Capsicum annuum; chili/cayenne) -- CAPSICUM ANNUUM,1,LATIN-agrippa,agrippa,907,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,5,Capsicum (Capsicum annuum; chili/cayenne) -- פלפל,0,HEBREW,hebrew,220,,attested,none.,worker-19
+87,XLIII/31,Column XLIII — Vegetable Drugs.,FILLED,6,Capsicum (Capsicum annuum; chili/cayenne) -- פלפלת,0,HEBREW,hebrew,620,,attested,none.,worker-19
+88,XLIII/32 bis,Column XLIII — Vegetable Drugs.,FILLED,0,Mandrake (Mandragora officinarum) -- MANDRAGORA,0,LATIN-ordinal,latin_ordinal,92,,attested,none.,worker-19
+88,XLIII/32 bis,Column XLIII — Vegetable Drugs.,FILLED,0,Mandrake (Mandragora officinarum) -- MANDRAGORA,1,LATIN-agrippa,agrippa,294,,attested,none.,worker-19
+88,XLIII/32 bis,Column XLIII — Vegetable Drugs.,FILLED,1,Mandrake (Mandragora officinarum) -- MANDRAGORA OFFICINARUM,0,LATIN-ordinal,latin_ordinal,207,,attested,none.,worker-19
+88,XLIII/32 bis,Column XLIII — Vegetable Drugs.,FILLED,1,Mandrake (Mandragora officinarum) -- MANDRAGORA OFFICINARUM,1,LATIN-agrippa,agrippa,728,,attested,none.,worker-19
+88,XLIII/32 bis,Column XLIII — Vegetable Drugs.,FILLED,2,Mandrake (Mandragora officinarum) -- דודאים,0,HEBREW,hebrew,65,,attested,none.,worker-19
+89,XLIV/4,Column XLIV — Mineral Drugs,FILLED,0,Tin,0,latin-ordinal,latin_ordinal,43,,derived,none.,worker-12
+89,XLIV/4,Column XLIV — Mineral Drugs,FILLED,0,Tin,1,agrippa,agrippa,149,,derived,none.,worker-12
+89,XLIV/4,Column XLIV — Mineral Drugs,FILLED,0,Tin,2,hebrew,hebrew,46,,derived,none.,worker-12
+90,XLIV/6,Column XLIV — Mineral Drugs,FILLED,0,Gold,0,latin-ordinal,latin_ordinal,38,,derived,none.,worker-12
+90,XLIV/6,Column XLIV — Mineral Drugs,FILLED,0,Gold,1,agrippa,agrippa,81,,derived,none.,worker-12
+90,XLIV/6,Column XLIV — Mineral Drugs,FILLED,0,Gold,2,hebrew,hebrew,14,,derived,none.,worker-12
+91,XLIV/11,Column XLIV — Mineral Drugs,FILLED,0,Sal Volatile,0,latin-ordinal,latin_ordinal,128,,constructed,none.,worker-12
+91,XLIV/11,Column XLIV — Mineral Drugs,FILLED,0,Sal Volatile,1,agrippa,agrippa,516,,constructed,none.,worker-12
+92,XLIV/13,Column XLIV — Mineral Drugs,FILLED,0,Lunar Caustic,0,latin-ordinal,latin_ordinal,142,,derived,none.,worker-12
+92,XLIV/13,Column XLIV — Mineral Drugs,FILLED,0,Lunar Caustic,1,agrippa,agrippa,747,,derived,none.,worker-12
+93,XLIV/14,Column XLIV — Mineral Drugs,FILLED,0,Copper,0,latin-ordinal,latin_ordinal,73,,derived,none.,worker-12
+93,XLIV/14,Column XLIV — Mineral Drugs,FILLED,0,Copper,1,agrippa,agrippa,258,,derived,none.,worker-12
+93,XLIV/14,Column XLIV — Mineral Drugs,FILLED,0,Copper,2,hebrew,hebrew,758,,derived,none.,worker-12
+93,XLIV/14,Column XLIV — Mineral Drugs,FILLED,1,Blue Vitriol,0,latin-ordinal,latin_ordinal,145,,derived,none.,worker-12
+93,XLIV/14,Column XLIV — Mineral Drugs,FILLED,1,Blue Vitriol,1,agrippa,agrippa,695,,derived,none.,worker-12
+94,XLIV/15,Column XLIV — Mineral Drugs,FILLED,0,Crocus Martis,0,latin-ordinal,latin_ordinal,159,,derived,none.,worker-12
+94,XLIV/15,Column XLIV — Mineral Drugs,FILLED,0,Crocus Martis,1,agrippa,agrippa,736,,derived,none.,worker-12
+95,XLIV/16,Column XLIV — Mineral Drugs,FILLED,0,Malachite,0,latin-ordinal,latin_ordinal,72,,constructed,none.,worker-12
+95,XLIV/16,Column XLIV — Mineral Drugs,FILLED,0,Malachite,1,agrippa,agrippa,177,,constructed,none.,worker-12
+95,XLIV/16,Column XLIV — Mineral Drugs,FILLED,0,Malachite,2,greek,greek,1190,,constructed,none.,worker-12
+96,XLIV/17,Column XLIV — Mineral Drugs,FILLED,0,Cinnabar,0,latin-ordinal,latin_ordinal,62,,derived,none.,worker-12
+96,XLIV/17,Column XLIV — Mineral Drugs,FILLED,0,Cinnabar,1,agrippa,agrippa,176,,derived,none.,worker-12
+96,XLIV/17,Column XLIV — Mineral Drugs,FILLED,0,Cinnabar,2,arabic,arabic_abjad,340,,derived,none.,worker-12
+97,XLIV/18,Column XLIV — Mineral Drugs,FILLED,0,Coral,0,latin-ordinal,latin_ordinal,49,,constructed,none.,worker-12
+97,XLIV/18,Column XLIV — Mineral Drugs,FILLED,0,Coral,1,agrippa,agrippa,154,,constructed,none.,worker-12
+97,XLIV/18,Column XLIV — Mineral Drugs,FILLED,0,Coral,2,hebrew,hebrew,80,,constructed,none.,worker-12
+97,XLIV/18,Column XLIV — Mineral Drugs,FILLED,1,Pearl,0,latin-ordinal,latin_ordinal,52,,constructed,none.,worker-12
+97,XLIV/18,Column XLIV — Mineral Drugs,FILLED,1,Pearl,1,agrippa,agrippa,166,,constructed,none.,worker-12
+97,XLIV/18,Column XLIV — Mineral Drugs,FILLED,1,Pearl,2,hebrew,hebrew,683,,constructed,none.,worker-12
+98,XLIV/19,Column XLIV — Mineral Drugs,FILLED,0,ORPIMENT,0,LATIN-ordinal,latin_ordinal,110,,attested,none.,worker-13
+98,XLIV/19,Column XLIV — Mineral Drugs,FILLED,1,AURIPIGMENTUM,0,LATIN-ordinal,latin_ordinal,167,,attested,none.,worker-13
+98,XLIV/19,Column XLIV — Mineral Drugs,FILLED,2,αρσενικον,0,GREEK,greek,506,,attested,none.,worker-13
+98,XLIV/19,Column XLIV — Mineral Drugs,FILLED,3,זרניך,0,HEBREW,hebrew,287,,constructed,none.,worker-13
+99,XLIV/20,Column XLIV — Mineral Drugs,FILLED,0,CINNABAR,0,LATIN-ordinal,latin_ordinal,62,,attested,none.,worker-13
+99,XLIV/20,Column XLIV — Mineral Drugs,FILLED,1,κινναβαρι,0,GREEK,greek,244,,attested,none.,worker-13
+99,XLIV/20,Column XLIV — Mineral Drugs,FILLED,2,כינבר,0,HEBREW,hebrew,282,,constructed,none.,worker-13
+100,XLIV/21,Column XLIV — Mineral Drugs,FILLED,0,TIN,0,LATIN-ordinal,latin_ordinal,43,,attested,none.,worker-13
+100,XLIV/21,Column XLIV — Mineral Drugs,FILLED,1,STANNVM,0,LATIN-ordinal,latin_ordinal,103,,derived,none.,worker-13
+100,XLIV/21,Column XLIV — Mineral Drugs,FILLED,1,STANNVM,1,AGRIPPA,agrippa,501,,derived,none.,worker-13
+100,XLIV/21,Column XLIV — Mineral Drugs,FILLED,2,בדיל,0,HEBREW,hebrew,46,,attested,none.,worker-13
+101,XLIV/22,Column XLIV — Mineral Drugs,FILLED,0,COPPER,0,LATIN-ordinal,latin_ordinal,73,,attested,none.,worker-13
+101,XLIV/22,Column XLIV — Mineral Drugs,FILLED,1,CVPRVM,0,LATIN-ordinal,latin_ordinal,94,,derived,none.,worker-13
+101,XLIV/22,Column XLIV — Mineral Drugs,FILLED,1,CVPRVM,1,AGRIPPA,agrippa,573,,derived,none.,worker-13
+101,XLIV/22,Column XLIV — Mineral Drugs,FILLED,2,נחשת,0,HEBREW,hebrew,758,,attested,none.,worker-13
+102,XLIV/26,Column XLIV — Mineral Drugs,FILLED,0,ANTIMONY,0,LATIN-ordinal,latin_ordinal,111,,attested,none.,worker-13
+102,XLIV/26,Column XLIV — Mineral Drugs,FILLED,1,STIBIVM,0,LATIN-ordinal,latin_ordinal,94,,derived,none.,worker-13
+102,XLIV/26,Column XLIV — Mineral Drugs,FILLED,1,STIBIVM,1,AGRIPPA,agrippa,440,,derived,none.,worker-13
+102,XLIV/26,Column XLIV — Mineral Drugs,FILLED,2,στιμμι,0,GREEK,greek,106,,attested,none.,worker-13
+102,XLIV/26,Column XLIV — Mineral Drugs,FILLED,3,אנטימון,0,HEBREW,hebrew,166,,constructed,none.,worker-13
+103,XLIV/28,Column XLIV — Mineral Drugs,FILLED,0,ALUM,0,LATIN-ordinal,latin_ordinal,47,,attested,none.,worker-13
+103,XLIV/28,Column XLIV — Mineral Drugs,FILLED,1,ALVM,0,LATIN-ordinal,latin_ordinal,48,,derived,none.,worker-13
+103,XLIV/28,Column XLIV — Mineral Drugs,FILLED,1,ALVM,1,AGRIPPA,agrippa,251,,derived,none.,worker-13
+103,XLIV/28,Column XLIV — Mineral Drugs,FILLED,2,στυπτηρια,0,GREEK,greek,905,,attested,none.,worker-13
+103,XLIV/28,Column XLIV — Mineral Drugs,FILLED,3,אלום,0,HEBREW,hebrew,77,,derived,none.,worker-13
+104,XLIV/29,Column XLIV — Mineral Drugs,FILLED,0,IODINE,0,LATIN-ordinal,latin_ordinal,56,,attested,none.,worker-13
+104,XLIV/29,Column XLIV — Mineral Drugs,FILLED,1,ιωδης,0,GREEK,greek,1022,,constructed,none.,worker-13
+104,XLIV/29,Column XLIV — Mineral Drugs,FILLED,2,יוד,0,HEBREW,hebrew,20,,derived,none.,worker-13
+104,XLIV/29,Column XLIV — Mineral Drugs,FILLED,3,SALT (alternate),0,LATIN-ordinal,latin_ordinal,52,,attested,none.,worker-13
+104,XLIV/29,Column XLIV — Mineral Drugs,FILLED,4,מלח,0,HEBREW,hebrew,78,,attested,none.,worker-13
+105,XLIV/30,Column XLIV — Mineral Drugs,FILLED,0,GOLD,0,LATIN-ordinal,latin_ordinal,38,,attested,none.,worker-13
+105,XLIV/30,Column XLIV — Mineral Drugs,FILLED,1,AVRVM,0,LATIN-ordinal,latin_ordinal,76,,derived,none.,worker-13
+105,XLIV/30,Column XLIV — Mineral Drugs,FILLED,1,AVRVM,1,AGRIPPA,agrippa,511,,derived,none.,worker-13
+105,XLIV/30,Column XLIV — Mineral Drugs,FILLED,2,זהב,0,HEBREW,hebrew,14,,attested,none.,worker-13
+106,XLVI/4,Column XLVI — System of Taoism,FILLED,0,TUI,0,latin,latin_ordinal,50,,constructed,none.,worker-08
+106,XLVI/4,Column XLVI — System of Taoism,FILLED,1,KHIEN,0,latin,latin_ordinal,47,,constructed,none.,worker-08
+107,XLVI/5,Column XLVI — System of Taoism,FILLED,0,KBN,0,latin,latin_ordinal,27,,constructed,none.,worker-08
+108,XLVI/7,Column XLVI — System of Taoism,FILLED,0,TUI,0,latin,latin_ordinal,50,,constructed,none.,worker-08
+108,XLVI/7,Column XLVI — System of Taoism,FILLED,1,SUN,0,latin,latin_ordinal,54,,constructed,none.,worker-08
+109,XLVI/8,Column XLVI — System of Taoism,FILLED,0,LI,0,latin,latin_ordinal,21,,constructed,none.,worker-08
+110,XLVI/9,Column XLVI — System of Taoism,FILLED,0,KAN,0,latin,latin_ordinal,26,,constructed,none.,worker-08
+111,XLVI/15,Column XLVI — System of Taoism,FILLED,0,LI,0,latin,latin_ordinal,21,,constructed,none.,worker-08
+112,XLVI/16,Column XLVI — System of Taoism,FILLED,0,KHAN,0,latin,latin_ordinal,34,,constructed,none.,worker-08
+112,XLVI/16,Column XLVI — System of Taoism,FILLED,1,KHWAN,0,latin,latin_ordinal,57,,constructed,none.,worker-08
+113,XLVI/17,Column XLVI — System of Taoism,FILLED,0,SUN,0,latin,latin_ordinal,54,,constructed,none.,worker-08
+114,XLVI/18,Column XLVI — System of Taoism,FILLED,0,KAN,0,latin,latin_ordinal,26,,constructed,none.,worker-08
+115,XLVI/19,Column XLVI — System of Taoism,FILLED,0,Kbn [1],0,latin_ordinal,latin_ordinal,27,,constructed,none.,worker-09
+115,XLVI/19,Column XLVI — System of Taoism,FILLED,0,Kbn [1],1,agrippa,agrippa,52,,constructed,none.,worker-09
+115,XLVI/19,Column XLVI — System of Taoism,FILLED,0,Kbn [1],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,58,,constructed,none.,worker-09
+115,XLVI/19,Column XLVI — System of Taoism,FILLED,0,Kbn [1],3,stroke_count_prc,stroke_count_prc,6,,constructed,none.,worker-09
+116,XLVI/20,Column XLVI — System of Taoism,FILLED,0,Kbn [1],0,latin_ordinal,latin_ordinal,27,,constructed,none.,worker-09
+116,XLVI/20,Column XLVI — System of Taoism,FILLED,0,Kbn [1],1,agrippa,agrippa,52,,constructed,none.,worker-09
+116,XLVI/20,Column XLVI — System of Taoism,FILLED,0,Kbn [1],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,58,,constructed,none.,worker-09
+116,XLVI/20,Column XLVI — System of Taoism,FILLED,0,Kbn [1],3,stroke_count_prc,stroke_count_prc,6,,constructed,none.,worker-09
+117,XLVI/22,Column XLVI — System of Taoism,FILLED,0,Khien and Khwbn,0,latin_ordinal,latin_ordinal,105,,constructed,none.,worker-09
+117,XLVI/22,Column XLVI — System of Taoism,FILLED,0,Khien and Khwbn,1,agrippa,agrippa,132,,constructed,none.,worker-09
+117,XLVI/22,Column XLVI — System of Taoism,FILLED,0,Khien and Khwbn,2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,237,,constructed,none.,worker-09
+117,XLVI/22,Column XLVI — System of Taoism,FILLED,0,Khien and Khwbn,3,stroke_count_prc,stroke_count_prc,19,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,0,Khan [2],0,latin_ordinal,latin_ordinal,34,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,0,Khan [2],1,agrippa,agrippa,59,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,0,Khan [2],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,71,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,0,Khan [2],3,stroke_count_prc,stroke_count_prc,7,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],0,latin_ordinal,latin_ordinal,58,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],1,agrippa,agrippa,60,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,76,,constructed,none.,worker-09
+118,XLVI/24,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],3,stroke_count_prc,stroke_count_prc,8,,constructed,none.,worker-09
+119,XLVI/25,Column XLVI — System of Taoism,FILLED,0,Khan and Li,0,latin_ordinal,latin_ordinal,55,,constructed,none.,worker-09
+119,XLVI/25,Column XLVI — System of Taoism,FILLED,0,Khan and Li,1,agrippa,agrippa,88,,constructed,none.,worker-09
+119,XLVI/25,Column XLVI — System of Taoism,FILLED,0,Khan and Li,2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,111,,constructed,none.,worker-09
+119,XLVI/25,Column XLVI — System of Taoism,FILLED,0,Khan and Li,3,stroke_count_prc,stroke_count_prc,17,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,0,Khan [2],0,latin_ordinal,latin_ordinal,34,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,0,Khan [2],1,agrippa,agrippa,59,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,0,Khan [2],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,71,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,0,Khan [2],3,stroke_count_prc,stroke_count_prc,7,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],0,latin_ordinal,latin_ordinal,58,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],1,agrippa,agrippa,60,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,76,,constructed,none.,worker-09
+120,XLVI/26,Column XLVI — System of Taoism,FILLED,1,Khwbn [0],3,stroke_count_prc,stroke_count_prc,8,,constructed,none.,worker-09
+121,XLVI/28,Column XLVI — System of Taoism,FILLED,0,Khien [7],0,latin_ordinal,latin_ordinal,47,,constructed,none.,worker-09
+121,XLVI/28,Column XLVI — System of Taoism,FILLED,0,Khien [7],1,agrippa,agrippa,72,,constructed,none.,worker-09
+121,XLVI/28,Column XLVI — System of Taoism,FILLED,0,Khien [7],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,161,,constructed,none.,worker-09
+121,XLVI/28,Column XLVI — System of Taoism,FILLED,0,Khien [7],3,stroke_count_prc,stroke_count_prc,11,,constructed,none.,worker-09
+122,XLVI/29,Column XLVI — System of Taoism,FILLED,0,Tui [6],0,latin_ordinal,latin_ordinal,50,,constructed,none.,worker-09
+122,XLVI/29,Column XLVI — System of Taoism,FILLED,0,Tui [6],1,agrippa,agrippa,309,,constructed,none.,worker-09
+122,XLVI/29,Column XLVI — System of Taoism,FILLED,0,Tui [6],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,20,,constructed,none.,worker-09
+122,XLVI/29,Column XLVI — System of Taoism,FILLED,0,Tui [6],3,stroke_count_prc,stroke_count_prc,7,,constructed,none.,worker-09
+123,XLVI/31 bis,Column XLVI — System of Taoism,FILLED,0,Sun [3],0,latin_ordinal,latin_ordinal,54,,constructed,none.,worker-09
+123,XLVI/31 bis,Column XLVI — System of Taoism,FILLED,0,Sun [3],1,agrippa,agrippa,330,,constructed,none.,worker-09
+123,XLVI/31 bis,Column XLVI — System of Taoism,FILLED,0,Sun [3],2,hebrew_pinyin_fallback,hebrew_pinyin_fallback,216,,constructed,none.,worker-09
+123,XLVI/31 bis,Column XLVI — System of Taoism,FILLED,0,Sun [3],3,stroke_count_prc,stroke_count_prc,12,,constructed,none.,worker-09
+124,XLVII/0,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+125,XLVII/1,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+126,XLVII/2,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+127,XLVII/8,Column XLVII — Kings and Princes of the Jinn,FILLED,0,Barqan (برقان),0,ARABIC_ABJAD,arabic_abjad,353,,constructed,none.,worker-01
+128,XLVII/9,Column XLVII — Kings and Princes of the Jinn,FILLED,0,Murrah (مرة),0,ARABIC_ABJAD,arabic_abjad,240,(245 incl. ة=5),constructed,none.,worker-01
+129,XLVII/11,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+130,XLVII/14,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+131,XLVII/15,Column XLVII — Kings and Princes of the Jinn,FILLED,0,كتمطمح,0,ARABIC,arabic_abjad,517,,attested,none.,worker-02
+131,XLVII/15,Column XLVII — Kings and Princes of the Jinn,FILLED,0,كتمطمح,1,ARABIC,arabic_abjad,517,,attested,none.,worker-02
+131,XLVII/15,Column XLVII — Kings and Princes of the Jinn,FILLED,1,כתמטמח,0,HEBREW,hebrew,517,,derived,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,0,عطهم,0,ARABIC,arabic_abjad,124,,attested,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,1,עטהמ,0,HEBREW,hebrew,124,,derived,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,2,ةولهم,0,ARABIC,arabic_abjad,86,,attested,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,3,הולהמ,0,HEBREW,hebrew,86,,derived,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,4,حوميلم,0,ARABIC,arabic_abjad,134,,attested,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,5,חומילמ,0,HEBREW,hebrew,134,,derived,none.,worker-02
+132,XLVII/16,Column XLVII — Kings and Princes of the Jinn,FILLED,6,عطهم ةولهم حوميلم,0,ARABIC,arabic_abjad,344,,attested,none.,worker-02
+133,XLVII/17,Column XLVII — Kings and Princes of the Jinn,FILLED,0,BARQAN (برقان),0,ARABIC,arabic_abjad,353,,attested,none.,worker-04
+133,XLVII/17,Column XLVII — Kings and Princes of the Jinn,FILLED,1,BARQAN-alt (بورقان),0,ARABIC,arabic_abjad,359,,attested,none.,worker-04
+133,XLVII/17,Column XLVII — Kings and Princes of the Jinn,FILLED,2,AL-MALIK AL-ASWAD (الملك الاسود),0,ARABIC,arabic_abjad,223,,attested,none.,worker-04
+133,XLVII/17,Column XLVII — Kings and Princes of the Jinn,FILLED,3,BARQAN,0,LATIN-ORDINAL,latin_ordinal,53,,derived,none.,worker-04
+133,XLVII/17,Column XLVII — Kings and Princes of the Jinn,FILLED,3,BARQAN,1,AGRIPPA,agrippa,194,,derived,none.,worker-04
+134,XLVII/18,Column XLVII — Kings and Princes of the Jinn,FILLED,0,طيهم,0,ARABIC,arabic_abjad,64,,attested,none.,worker-02
+134,XLVII/18,Column XLVII — Kings and Princes of the Jinn,FILLED,1,טיהמ,0,HEBREW,hebrew,64,,derived,none.,worker-02
+134,XLVII/18,Column XLVII — Kings and Princes of the Jinn,FILLED,2,لايل,0,ARABIC,arabic_abjad,71,,attested,none.,worker-02
+134,XLVII/18,Column XLVII — Kings and Princes of the Jinn,FILLED,3,לאיל,0,HEBREW,hebrew,71,,derived,none.,worker-02
+134,XLVII/18,Column XLVII — Kings and Princes of the Jinn,FILLED,4,طيهم لايل,0,ARABIC,arabic_abjad,135,,attested,none.,worker-02
+135,XLVII/19,Column XLVII — Kings and Princes of the Jinn,FILLED,0,حللد,0,ARABIC,arabic_abjad,72,,attested,none.,worker-02
+135,XLVII/19,Column XLVII — Kings and Princes of the Jinn,FILLED,1,חללד,0,HEBREW,hebrew,72,,derived,none.,worker-02
+135,XLVII/19,Column XLVII — Kings and Princes of the Jinn,FILLED,2,طهسم,0,ARABIC,arabic_abjad,114,,attested,none.,worker-02
+135,XLVII/19,Column XLVII — Kings and Princes of the Jinn,FILLED,3,טהסמ,0,HEBREW,hebrew,114,,derived,none.,worker-02
+135,XLVII/19,Column XLVII — Kings and Princes of the Jinn,FILLED,4,حللد طهسم,0,ARABIC,arabic_abjad,186,,attested,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,0,ةمطحيسم,0,ARABIC,arabic_abjad,172,,attested,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,1,המטחיסמ,0,HEBREW,hebrew,172,,derived,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,2,هنقم,0,ARABIC,arabic_abjad,195,,attested,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,3,הנקמ,0,HEBREW,hebrew,195,,derived,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,4,فهك,0,ARABIC,arabic_abjad,105,,attested,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,5,פהכ,0,HEBREW,hebrew,105,,derived,none.,worker-02
+136,XLVII/20,Column XLVII — Kings and Princes of the Jinn,FILLED,6,ةمطحيسم هنقم فهك,0,ARABIC,arabic_abjad,472,,attested,none.,worker-02
+137,XLVII/21,Column XLVII — Kings and Princes of the Jinn,FILLED,0,حديوس,0,ARABIC,arabic_abjad,88,,attested,none.,worker-02
+137,XLVII/21,Column XLVII — Kings and Princes of the Jinn,FILLED,1,חדיוס,0,HEBREW,hebrew,88,,derived,none.,worker-02
+137,XLVII/21,Column XLVII — Kings and Princes of the Jinn,FILLED,2,ةروعبس,0,ARABIC,arabic_abjad,343,,attested,none.,worker-02
+137,XLVII/21,Column XLVII — Kings and Princes of the Jinn,FILLED,3,הרועבס,0,HEBREW,hebrew,343,,derived,none.,worker-02
+137,XLVII/21,Column XLVII — Kings and Princes of the Jinn,FILLED,4,حديوس ةروعبس,0,ARABIC,arabic_abjad,431,,attested,none.,worker-02
+138,XLVII/22,Column XLVII — Kings and Princes of the Jinn,FILLED,0,ZAWBAAH (زوبعة),0,ARABIC,arabic_abjad,85,,attested,none.,worker-04
+138,XLVII/22,Column XLVII — Kings and Princes of the Jinn,FILLED,1,ZAWBAAH,0,LATIN-ORDINAL,latin_ordinal,62,,derived,none.,worker-04
+138,XLVII/22,Column XLVII — Kings and Princes of the Jinn,FILLED,1,ZAWBAAH,1,AGRIPPA,agrippa,513,,derived,none.,worker-04
+139,XLVII/23,Column XLVII — Kings and Princes of the Jinn,FILLED,0,حوميلم,0,ARABIC,arabic_abjad,134,,attested,none.,worker-02
+139,XLVII/23,Column XLVII — Kings and Princes of the Jinn,FILLED,0,حوميلم,1,ARABIC,arabic_abjad,134,,attested,none.,worker-02
+139,XLVII/23,Column XLVII — Kings and Princes of the Jinn,FILLED,1,חומילמ,0,HEBREW,hebrew,134,,derived,none.,worker-02
+140,XLVII/24,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+141,XLVII/25,Column XLVII — Kings and Princes of the Jinn,FILLED,0,SHAMHURISH (شمهورش),0,ARABIC,arabic_abjad,851,,attested,none.,worker-04
+141,XLVII/25,Column XLVII — Kings and Princes of the Jinn,FILLED,1,SHAMHURISH,0,LATIN-ORDINAL,latin_ordinal,124,,derived,none.,worker-04
+141,XLVII/25,Column XLVII — Kings and Princes of the Jinn,FILLED,1,SHAMHURISH,1,AGRIPPA,agrippa,524,,derived,none.,worker-04
+142,XLVII/26,Column XLVII — Kings and Princes of the Jinn,FILLED,0,MAYMUN (ميمون),0,ARABIC,arabic_abjad,146,,attested,none.,worker-04
+142,XLVII/26,Column XLVII — Kings and Princes of the Jinn,FILLED,1,MAYMUN,0,LATIN-ORDINAL,latin_ordinal,87,,derived,none.,worker-04
+142,XLVII/26,Column XLVII — Kings and Princes of the Jinn,FILLED,1,MAYMUN,1,AGRIPPA,agrippa,701,,derived,none.,worker-04
+143,XLVII/27,Column XLVII — Kings and Princes of the Jinn,FILLED,0,"al-Ahmar (الأحمر, 'the Red One')",0,ARABIC abjad (ptk engine),arabic_abjad,279,,constructed,none.,worker-03
+143,XLVII/27,Column XLVII — Kings and Princes of the Jinn,FILLED,0,"al-Ahmar (الأحمر, 'the Red One')",1,ARABIC abjad (conventional; hamza-alif=1),arabic_abjad,280,,constructed,none.,worker-03
+144,XLVII/28,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+145,XLVII/29,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+146,XLVII/30,Column XLVII — Kings and Princes of the Jinn,FILLED,0,"al-Mudhhib (المذهب, 'the Gilder')",0,ARABIC abjad,arabic_abjad,778,,constructed,none.,worker-03
+147,XLVII/31,Column XLVII — Kings and Princes of the Jinn,INTENTIONALLY_EMPTY,,,,,,,,,,
+148,XLVII/31 bis,Column XLVII — Kings and Princes of the Jinn,FILLED,0,JANN (جان),0,ARABIC,arabic_abjad,54,,attested,none.,worker-04
+148,XLVII/31 bis,Column XLVII — Kings and Princes of the Jinn,FILLED,1,JANN,0,LATIN-ORDINAL,latin_ordinal,39,,derived,none.,worker-04
+148,XLVII/31 bis,Column XLVII — Kings and Princes of the Jinn,FILLED,1,JANN,1,AGRIPPA,agrippa,90,,derived,none.,worker-04
+149,XLVII/32,Column XLVII — Kings and Princes of the Jinn,FILLED,0,"Maymun (ميمون, 'the Fortunate')",0,ARABIC abjad,arabic_abjad,146,,constructed,none.,worker-03
+150,XLVII/32 bis,Column XLVII — Kings and Princes of the Jinn,FILLED,0,AMAIMON,0,LATIN-ORDINAL,latin_ordinal,66,,attested,none.,worker-04
+150,XLVII/32 bis,Column XLVII — Kings and Princes of the Jinn,FILLED,0,AMAIMON,1,AGRIPPA,agrippa,161,,derived,none.,worker-04
+151,L/15,Column L — Transcendental Morality.,INTENTIONALLY_EMPTY,,,,,,,,,,
+152,LI/2,Column LI — The Coptic Alphabet — Numeration of Col. LI.,INTENTIONALLY_EMPTY,,,,,,,,,,
+153,LI/3,Column LI — The Coptic Alphabet — Numeration of Col. LI.,INTENTIONALLY_EMPTY,,,,,,,,,,
+154,LI/9,Column LI — The Coptic Alphabet — Numeration of Col. LI.,INTENTIONALLY_EMPTY,,,,,,,,,,
+155,LI/32 bis,Column LI — The Coptic Alphabet — Numeration of Col. LI.,FILLED,0,"T (Tau, Coptic) - as row 32",0,COPTIC,coptic,300,,derived,none.,worker-23
+155,LI/32 bis,Column LI — The Coptic Alphabet — Numeration of Col. LI.,FILLED,0,"T (Tau, Coptic) - as row 32",1,HEBREW,hebrew,400,,derived,none.,worker-23
+156,LII/0,Column LII — Numeration of Arabic Alphabet,INTENTIONALLY_EMPTY,,,,,,,,,,
+157,LII/31 bis,Column LII — Numeration of Arabic Alphabet,INTENTIONALLY_EMPTY,,,,,,,,,,
+158,LII/32 bis,Column LII — Numeration of Arabic Alphabet,INTENTIONALLY_EMPTY,,,,,,,,,,
+159,LIII/8,Column LIII — The Greek Alphabet.,FILLED,0,sampi (900),0,GREEK,greek,900,,attested,none.,worker-23
+160,LVI/31 bis,Column LVI — The Four Rivers.,FILLED,0,"The River of Eden, undivided source (Gen. 2:10)",0,HEBREW,hebrew,379,,derived,none.,worker-23
+160,LVI/31 bis,Column LVI — The Four Rivers.,FILLED,1,Nahar (river) alone,0,HEBREW,hebrew,255,,derived,none.,worker-23
+161,LVII/31 bis,Column LVII — The Four Quarters.,FILLED,0,Tokh (the Midst),0,HEBREW,hebrew,426,,constructed,none.,worker-23
+161,LVII/31 bis,Column LVII — The Four Quarters.,FILLED,1,The Centre,0,ENGLISH,english_ordinal,65,,constructed,"yes:ENGLISH+HEBREW — BRIDGE CANDIDATE (chance-flagged): CENTRE = 65 (English ordinal, native) = אדני Adonai = 65 (Hebrew, attested). Two honest banks, same number - but small number and thin semantic link, so flagged as p",worker-23
+161,LVII/31 bis,Column LVII — The Four Quarters.,FILLED,1,The Centre,1,AGRIPPA,agrippa,233,,constructed,"yes:ENGLISH+HEBREW — BRIDGE CANDIDATE (chance-flagged): CENTRE = 65 (English ordinal, native) = אדני Adonai = 65 (Hebrew, attested). Two honest banks, same number - but small number and thin semantic link, so flagged as p",worker-23
+161,LVII/31 bis,Column LVII — The Four Quarters.,FILLED,2,Adonai (bridge counterpart),0,HEBREW,hebrew,65,,attested,yes:ENGLISH+HEBREW — Counterpart weighing for the bridge: אדני = 65 (attested). See CENTRE row.,worker-23
+162,LVIII/31 bis,Column LVIII — Supreme Elemental Kings (source sic 'Supereme').,FILLED,0,"Elexarpeh, Comananu, Tabitom - the Three Angels ruling the Tablet of Union (no single King)",0,HEBREW,hebrew,476,,derived,none.,worker-23
+162,LVIII/31 bis,Column LVIII — Supreme Elemental Kings (source sic 'Supereme').,FILLED,1,Comananu (of the three),0,HEBREW,hebrew,254,,derived,none.,worker-23
+162,LVIII/31 bis,Column LVIII — Supreme Elemental Kings (source sic 'Supereme').,FILLED,2,Tabitom (of the three),0,HEBREW,hebrew,77,,derived,none.,worker-23
+163,LIX/31 bis,Column LIX — Archangels of the Quarters.,INTENTIONALLY_EMPTY,,,,,,,,,,
+164,LXIII/31 bis,Column LXIII — The Four Worlds.,FILLED,0,"Adam Kadmon, the fifth world above Atziluth",0,HEBREW,hebrew,245,,derived,none.,worker-23
+164,LXIII/31 bis,Column LXIII — The Four Worlds.,FILLED,1,Adam Kadmon (mispar gadol),0,HEBREW-GADOL,hebrew_gadol,895,,derived,none.,worker-23
+165,LXVIII/31 bis,Column LXVIII — The Demon Kings.,INTENTIONALLY_EMPTY,,,,,,,,,,
+166,LXXXIV/0,Column LXXXIV — Divine Names of Briah.,INTENTIONALLY_EMPTY,,,,,,,,,,
+167,LXXXVIII/0,Column LXXXVIII — Translation of Col. LXXXVII.,INTENTIONALLY_EMPTY,,,,,,,,,,
+168,XCII/0,Column XCII — The Angelic Functions in the World of Yetzirah.,INTENTIONALLY_EMPTY,,,,,,,,,,
+169,XCV/0,Column XCV — Contents of Col. XCIV. (Heavens of Assiah),INTENTIONALLY_EMPTY,,,,,,,,,,
+170,XCIX/0,Column XCIX — Archangels of Assiah.,INTENTIONALLY_EMPTY,,,,,,,,,,
+171,CIII/0,Column CIII — The Ten Divisions of the Body of God.,INTENTIONALLY_EMPTY,,,,,,,,,,
+172,CVI/0,Column CVI — The Ten Hells in Seven Palaces.,INTENTIONALLY_EMPTY,,,,,,,,,,
+173,CVIII/1,Column CVIII — Some Princes of the Qliphoth,FILLED,0,Satan,0,hebrew,hebrew,359,,attested,none.,worker-21
+173,CVIII/1,Column CVIII — Some Princes of the Qliphoth,FILLED,0,Satan,1,latin,latin_ordinal,55,,constructed,none.,worker-21
+173,CVIII/1,Column CVIII — Some Princes of the Qliphoth,FILLED,0,Satan,2,greek,greek,552,,constructed,none.,worker-21
+173,CVIII/1,Column CVIII — Some Princes of the Qliphoth,FILLED,1,Moloch,0,hebrew,hebrew,90,,attested,none.,worker-21
+173,CVIII/1,Column CVIII — Some Princes of the Qliphoth,FILLED,1,Moloch,1,latin,latin_ordinal,66,,constructed,none.,worker-21
+173,CVIII/1,Column CVIII — Some Princes of the Qliphoth,FILLED,1,Moloch,2,greek,greek,810,,constructed,none.,worker-21
+174,CVIII/2,Column CVIII — Some Princes of the Qliphoth,FILLED,0,Beelzebub,0,hebrew,hebrew,119,,attested,none.,worker-21
+174,CVIII/2,Column CVIII — Some Princes of the Qliphoth,FILLED,0,Beelzebub,1,latin,latin_ordinal,80,,constructed,none.,worker-21
+174,CVIII/2,Column CVIII — Some Princes of the Qliphoth,FILLED,0,Beelzebub,2,greek,greek,556,,constructed,none.,worker-21
+175,CVIII/3,Column CVIII — Some Princes of the Qliphoth,INTENTIONALLY_EMPTY,,,,,,,,,,
+176,CIX/0,Column CIX — The Dukes of Edom.,INTENTIONALLY_EMPTY,,,,,,,,,,
+177,CIX/1,Column CIX — The Dukes of Edom.,INTENTIONALLY_EMPTY,,,,,,,,,,
+178,CIX/2,Column CIX — The Dukes of Edom.,INTENTIONALLY_EMPTY,,,,,,,,,,
+179,CIX/3,Column CIX — The Dukes of Edom.,INTENTIONALLY_EMPTY,,,,,,,,,,
+180,CXII/0,Column CXII — Alchemical Tree of Life (i.),INTENTIONALLY_EMPTY,,,,,,,,,,
+181,CXVII/0,Column CXVII — The Soul (Hindu).,INTENTIONALLY_EMPTY,,,,,,,,,,
+182,CXX/0,Column CXX — Magical Images of the Sephiroth.,INTENTIONALLY_EMPTY,,,,,,,,,,
+183,CXXII/0,Column CXXII — The Ten Plagues of Egypt.,INTENTIONALLY_EMPTY,,,,,,,,,,
+184,CXXIII/0,Column CXXIII — English of Col. VIII. Lines 1-10,INTENTIONALLY_EMPTY,,,,,,,,,,
+185,CXXVIII/0,Column CXXVIII — Meaning of Col. CXXVII. (Seven Heavens of the Arabs),INTENTIONALLY_EMPTY,,,,,,,,,,
+186,CXXIX/1,Column CXXIX — Pairs of Angels ruling Wands.,INTENTIONALLY_EMPTY,,,,,,,,,,
+187,CXXXII/0,Column CXXXII — Pairs of Angels ruling Coins.,INTENTIONALLY_EMPTY,,,,,,,,,,
+188,CXXXII/1,Column CXXXII — Pairs of Angels ruling Coins.,FILLED,0,The Root of the Powers of Earth,0,LATIN,latin_ordinal,324,,derived,none.,worker-22
+189,CXXXV/0,Column CXXXV — Titles and Attributions of the Sword Suit [Spades],INTENTIONALLY_EMPTY,,,,,,,,,,
+190,CLXXVII/11,Column CLXXVII — Geomantic Intelligences.,INTENTIONALLY_EMPTY,,,,,,,,,,
+191,CLXXVII/23,Column CLXXVII — Geomantic Intelligences.,INTENTIONALLY_EMPTY,,,,,,,,,,
+192,CLXXVII/31,Column CLXXVII — Geomantic Intelligences.,INTENTIONALLY_EMPTY,,,,,,,,,,
+193,CLXXVII/31 bis,Column CLXXVII — Geomantic Intelligences.,INTENTIONALLY_EMPTY,,,,,,,,,,
+194,CLXXVII/32 bis,Column CLXXVII — Geomantic Intelligences.,INTENTIONALLY_EMPTY,,,,,,,,,,
+195,CLXXX/31 bis,Column CLXXX — Title of Tarot Trumps.,INTENTIONALLY_EMPTY,,,,,,,,,,
+196,CLXXX/32 bis,Column CLXXX — Title of Tarot Trumps.,INTENTIONALLY_EMPTY,,,,,,,,,,
+197,CLXXXIV/1,Column CLXXXIV — Diseases (Typical),INTENTIONALLY_EMPTY,,,,,,,,,,
+198,CLXXXIV/2,Column CLXXXIV — Diseases (Typical),INTENTIONALLY_EMPTY,,,,,,,,,,
+199,CLXXXIV/3,Column CLXXXIV — Diseases (Typical),INTENTIONALLY_EMPTY,,,,,,,,,,
+200,CLXXXIV/10,Column CLXXXIV — Diseases (Typical),TRANSCRIPTION_GAP,,,,,,,,,,
+201,CLXXXV/4,Column CLXXXV — Numeration of Greek Alphabet,FILLED,0,5,0,GREEK,greek,5,,derived,none.,worker-22
+202,CLXXXV/7,Column CLXXXV — Numeration of Greek Alphabet,FILLED,0,5,0,GREEK,greek,5,,derived,none.,worker-22
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AL (אל),0,HEBREW,hebrew,31,,attested,"yes:HEBREW+GREEK(translit) — Weapon: Swastika or Fylfot Cross, Crown [The Lamp]. God-name of the Crown; the formula of Kether as AL. Greek AL=31 agrees via transliteration only (constructed tier).",worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AL (אל),1,GREEK,greek,31,,constructed,"yes:HEBREW+GREEK(translit) — Weapon: Swastika or Fylfot Cross, Crown [The Lamp]. God-name of the Crown; the formula of Kether as AL. Greek AL=31 agrees via transliteration only (constructed tier).",worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AL (אל),2,LATIN,latin_ordinal,13,,constructed,"yes:HEBREW+GREEK(translit) — Weapon: Swastika or Fylfot Cross, Crown [The Lamp]. God-name of the Crown; the formula of Kether as AL. Greek AL=31 agrees via transliteration only (constructed tier).",worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,AHIH (אהיה),0,HEBREW,hebrew,21,,attested,none.,worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,AHIH (אהיה),1,LATIN,latin_ordinal,26,,constructed,none.,worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,AHIH (אהיה),2,GREEK,greek,27,,constructed,none.,worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,IA (יא),0,HEBREW,hebrew,11,,attested,"yes:HEBREW+GREEK(translit) — Weapon: Swastika or Fylfot Cross, Crown [The Lamp]. IA, root of IAO; the concealed spark of the Crown.",worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,IA (יא),1,GREEK,greek,11,,constructed,"yes:HEBREW+GREEK(translit) — Weapon: Swastika or Fylfot Cross, Crown [The Lamp]. IA, root of IAO; the concealed spark of the Crown.",worker-10
+203,CLXXXVII/1,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,IA (יא),2,LATIN,latin_ordinal,10,,constructed,"yes:HEBREW+GREEK(translit) — Weapon: Swastika or Fylfot Cross, Crown [The Lamp]. IA, root of IAO; the concealed spark of the Crown.",worker-10
+204,CLXXXVII/8,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AMEN (אמן),0,HEBREW,hebrew,91,,attested,none.,worker-10
+204,CLXXXVII/8,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AMEN (אמן),1,LATIN,latin_ordinal,33,,constructed,none.,worker-10
+204,CLXXXVII/8,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AMEN (אמן),2,GREEK,greek,99,,constructed,none.,worker-10
+205,CLXXXVII/11,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,ALPH (אלף),0,HEBREW,hebrew,111,,attested,none.,worker-10
+205,CLXXXVII/11,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,ALPH (אלף),1,LATIN,latin_ordinal,37,,constructed,none.,worker-10
+205,CLXXXVII/11,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,ALPH (אלף),2,GREEK,greek,531,,constructed,none.,worker-10
+205,CLXXXVII/11,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,AIR (air),0,LATIN,latin_ordinal,28,,attested,none.,worker-10
+205,CLXXXVII/11,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,AIR (אויר),0,HEBREW,hebrew,217,,attested,none.,worker-10
+205,CLXXXVII/11,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,AIR (αήρ),0,GREEK,greek,109,,constructed,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,BITH (בית),0,HEBREW,hebrew,412,,attested,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,BITH (בית),1,LATIN,latin_ordinal,39,,constructed,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,BITH (בית),2,GREEK,greek,21,,constructed,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,HERMES (Ἑρμῆς),0,GREEK,greek,353,,attested,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,HERMES (Ἑρμῆς),1,LATIN,latin_ordinal,68,,constructed,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,HERMES (Ἑρμῆς),2,HEBREW,hebrew,305,,constructed,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,THOTH (Θώθ),0,GREEK,greek,818,,attested,none.,worker-10
+206,CLXXXVII/12,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,THOTH (Θώθ),1,LATIN,latin_ordinal,71,,constructed,none.,worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,HA (הא),0,HEBREW,hebrew,6,,attested,"yes:LATIN+GREEK(translit) — Weapon: The Horns, Energy, the Burin. Latin ordinal 9; agrees with Greek transliteration ΗΑ=9 — constructed-tier bridge.",worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,HA (הא),1,LATIN,latin_ordinal,9,,constructed,"yes:LATIN+GREEK(translit) — Weapon: The Horns, Energy, the Burin. Latin ordinal 9; agrees with Greek transliteration ΗΑ=9 — constructed-tier bridge.",worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,HA (הא),2,GREEK,greek,9,,constructed,"yes:LATIN+GREEK(translit) — Weapon: The Horns, Energy, the Burin. Latin ordinal 9; agrees with Greek transliteration ΗΑ=9 — constructed-tier bridge.",worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,ENERGY (energy),0,LATIN,latin_ordinal,74,,attested,none.,worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,AZOTH (azoth),0,LATIN,latin_ordinal,70,,constructed,none.,worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,AZOTH (azoth),1,GREEK,greek,817,,constructed,none.,worker-10
+207,CLXXXVII/15,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,AZOTH (azoth),2,HEBREW,hebrew,414,,constructed,none.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,ZIN (זין),0,HEBREW,hebrew,67,,attested,yes:HEBREW+GREEK(translit) — Weapon: The Tripod. Zain spelled in full; the formula OF the path. 67.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,ZIN (זין),1,GREEK,greek,67,,constructed,yes:HEBREW+GREEK(translit) — Weapon: The Tripod. Zain spelled in full; the formula OF the path. 67.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,ZIN (זין),2,LATIN,latin_ordinal,49,,constructed,yes:HEBREW+GREEK(translit) — Weapon: The Tripod. Zain spelled in full; the formula OF the path. 67.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,APOLLO (Ἀπόλλων),0,GREEK,greek,1061,,attested,none.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,APOLLO (Ἀπόλλων),1,LATIN,latin_ordinal,71,,constructed,none.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,DELPHI (Δελφοί),0,GREEK,greek,619,,attested,none.,worker-10
+208,CLXXXVII/17,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,DELPHI (Δελφοί),1,LATIN,latin_ordinal,54,,constructed,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,YVD (יוד),0,HEBREW,hebrew,20,,attested,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,YVD (יוד),1,LATIN,latin_ordinal,51,,constructed,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,YVD (יוד),2,GREEK,greek,404,,constructed,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,LVX (lux),0,LATIN,latin_ordinal,58,,attested,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,LVX (lux),1,GREEK,greek,490,,constructed,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,LECHEM (לחם),0,HEBREW,hebrew,78,,attested,none.,worker-10
+209,CLXXXVII/20,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,LECHEM (לחם),1,LATIN,latin_ordinal,46,,constructed,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,KPH (כף),0,HEBREW,hebrew,100,,attested,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,KPH (כף),1,LATIN,latin_ordinal,35,,constructed,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,KPH (כף),2,GREEK,greek,520,,constructed,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,JUPITER (jupiter),0,LATIN,latin_ordinal,99,,attested,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,ZEUS (Ζεύς),0,GREEK,greek,612,,attested,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,ZEUS (Ζεύς),1,LATIN,latin_ordinal,71,,constructed,none.,worker-10
+210,CLXXXVII/21,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,ZEUS (Ζεύς),2,HEBREW,hebrew,74,,constructed,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,LMD (למד),0,HEBREW,hebrew,74,,attested,yes:HEBREW+GREEK(translit) — Weapon: The Cross of Equilibrium. Lamed spelled in full; the formula OF the path. 74.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,LMD (למד),1,GREEK,greek,74,,constructed,yes:HEBREW+GREEK(translit) — Weapon: The Cross of Equilibrium. Lamed spelled in full; the formula OF the path. 74.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,LMD (למד),2,LATIN,latin_ordinal,29,,constructed,yes:HEBREW+GREEK(translit) — Weapon: The Cross of Equilibrium. Lamed spelled in full; the formula OF the path. 74.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,MIZNYM (מאזנים),0,HEBREW,hebrew,148,,attested,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,MIZNYM (מאזנים),1,LATIN,latin_ordinal,100,,constructed,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,MAAT (maat),0,HEBREW,hebrew,441,,derived,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,MAAT (maat),1,GREEK,greek,342,,constructed,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,MAAT (maat),2,LATIN,latin_ordinal,35,,constructed,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,LIBRA (libra),0,LATIN,latin_ordinal,42,,attested,none.,worker-10
+211,CLXXXVII/22,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,4,CROSS (cross),0,LATIN,latin_ordinal,74,,constructed,none.,worker-10
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AQUA,0,LATIN-ORDINAL,latin_ordinal,40,,constructed,none.,worker-11
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,AQUA,1,AGRIPPA,agrippa,272,,constructed,none.,worker-11
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,CALIX,0,LATIN-ORDINAL,latin_ordinal,49,,constructed,none.,worker-11
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,CALIX,1,AGRIPPA,agrippa,333,,constructed,none.,worker-11
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,VINUM,0,LATIN-ORDINAL,latin_ordinal,79,,constructed,none.,worker-11
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,VINUM,1,AGRIPPA,agrippa,479,,constructed,none.,worker-11
+212,CLXXXVII/23,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,מים,0,HEBREW,hebrew,90,,constructed,none.,worker-11
+213,CLXXXVII/27,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,GLADIUS,0,LATIN-ORDINAL,latin_ordinal,73,,constructed,none.,worker-11
+213,CLXXXVII/27,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,GLADIUS,1,AGRIPPA,agrippa,331,,constructed,none.,worker-11
+213,CLXXXVII/27,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,חרב,0,HEBREW,hebrew,210,,constructed,none.,worker-11
+213,CLXXXVII/27,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,FERRUM,0,LATIN-ORDINAL,latin_ordinal,81,,constructed,none.,worker-11
+213,CLXXXVII/27,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,FERRUM,1,AGRIPPA,agrippa,401,,constructed,none.,worker-11
+214,CLXXXVII/28,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,THUS,0,LATIN-ORDINAL,latin_ordinal,68,,constructed,none.,worker-11
+214,CLXXXVII/28,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,THUS,1,AGRIPPA,agrippa,398,,constructed,none.,worker-11
+214,CLXXXVII/28,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,קטרת,0,HEBREW,hebrew,709,,constructed,none.,worker-11
+214,CLXXXVII/28,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,θυμιαμα,0,GREEK,greek,501,,constructed,none.,worker-11
+215,CLXXXVII/29,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,SPECULUM,0,LATIN-ORDINAL,latin_ordinal,110,,constructed,none.,worker-11
+215,CLXXXVII/29,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,SPECULUM,1,AGRIPPA,agrippa,608,,constructed,none.,worker-11
+215,CLXXXVII/29,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,LUNA,0,LATIN-ORDINAL,latin_ordinal,48,,constructed,none.,worker-11
+215,CLXXXVII/29,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,LUNA,1,AGRIPPA,agrippa,261,,constructed,none.,worker-11
+215,CLXXXVII/29,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,מראה,0,HEBREW,hebrew,246,,constructed,none.,worker-11
+215,CLXXXVII/29,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,σεληνη,0,GREEK,greek,301,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,IGNIS,0,LATIN-ORDINAL,latin_ordinal,58,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,IGNIS,1,AGRIPPA,agrippa,155,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,אש,0,HEBREW,hebrew,301,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,LUX,0,LATIN-ORDINAL,latin_ordinal,57,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,LUX,1,AGRIPPA,agrippa,520,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,LAMPAS,0,LATIN-ORDINAL,latin_ordinal,62,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,LAMPAS,1,AGRIPPA,agrippa,202,,constructed,none.,worker-11
+216,CLXXXVII/31,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,4,πυρ,0,GREEK,greek,580,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,OVUM,0,LATIN-ORDINAL,latin_ordinal,71,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,OVUM,1,AGRIPPA,agrippa,480,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,רוח,0,HEBREW,hebrew,214,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,ביצה,0,HEBREW,hebrew,107,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,SPIRITUS,0,LATIN-ORDINAL,latin_ordinal,131,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,SPIRITUS,1,AGRIPPA,agrippa,638,,constructed,none.,worker-11
+217,CLXXXVII/31 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,4,πνευμα,0,GREEK,greek,576,,constructed,none.,worker-11
+218,CLXXXVII/32,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,FALX,0,LATIN-ORDINAL,latin_ordinal,43,,constructed,none.,worker-11
+218,CLXXXVII/32,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,FALX,1,AGRIPPA,agrippa,327,,constructed,none.,worker-11
+218,CLXXXVII/32,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,חרמש,0,HEBREW,hebrew,548,,constructed,none.,worker-11
+218,CLXXXVII/32,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,MESSIS,0,LATIN-ORDINAL,latin_ordinal,84,,constructed,none.,worker-11
+218,CLXXXVII/32,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,MESSIS,1,AGRIPPA,agrippa,314,,constructed,none.,worker-11
+218,CLXXXVII/32,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,αρπη,0,GREEK,greek,189,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,SAL,0,LATIN-ORDINAL,latin_ordinal,32,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,0,SAL,1,AGRIPPA,agrippa,111,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,1,מלח,0,HEBREW,hebrew,78,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,2,לחם,0,HEBREW,hebrew,78,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,TERRA,0,LATIN-ORDINAL,latin_ordinal,62,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,3,TERRA,1,AGRIPPA,agrippa,266,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,4,PANIS,0,LATIN-ORDINAL,latin_ordinal,59,,constructed,none.,worker-11
+219,CLXXXVII/32 bis,Column CLXXXVII — Magical Formulæ (see Col. XLI),FILLED,4,PANIS,1,AGRIPPA,agrippa,200,,constructed,none.,worker-11
+220,CXCI/31 bis,Column CXCI — The Four Noble Truths (Buddhism).,INTENTIONALLY_EMPTY,,,,,,,,,,

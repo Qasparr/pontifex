@@ -1,0 +1,534 @@
+[
+ {
+  "claim_key": "S036-P0-C1",
+  "cell_id": "XX/31 bis",
+  "bank": "hebrew",
+  "claimed": 447,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S037-P0-C1",
+  "cell_id": "XX/32 bis",
+  "bank": "hebrew",
+  "claimed": 62,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S050-P0-C1",
+  "cell_id": "XXIV/15",
+  "bank": "hebrew",
+  "claimed": 289,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S051-P0-C1",
+  "cell_id": "XXIV/17",
+  "bank": "hebrew",
+  "claimed": 133,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S051-P1-C1",
+  "cell_id": "XXIV/17",
+  "bank": "hebrew",
+  "claimed": 17,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S052-P0-C1",
+  "cell_id": "XXIV/18",
+  "bank": "hebrew",
+  "claimed": 181,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S052-P1-C1",
+  "cell_id": "XXIV/18",
+  "bank": "hebrew",
+  "claimed": 720,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S053-P0-C1",
+  "cell_id": "XXIV/19",
+  "bank": "hebrew",
+  "claimed": 480,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S053-P1-C1",
+  "cell_id": "XXIV/19",
+  "bank": "hebrew",
+  "claimed": 626,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S054-P0-C1",
+  "cell_id": "XXIV/20",
+  "bank": "hebrew",
+  "claimed": 269,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S054-P1-C1",
+  "cell_id": "XXIV/20",
+  "bank": "hebrew",
+  "claimed": 118,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S055-P0-C1",
+  "cell_id": "XXIV/21",
+  "bank": "hebrew",
+  "claimed": 776,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S055-P1-C1",
+  "cell_id": "XXIV/21",
+  "bank": "hebrew",
+  "claimed": 233,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S056-P0-C1",
+  "cell_id": "XXIV/22",
+  "bank": "hebrew",
+  "claimed": 511,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S056-P1-C1",
+  "cell_id": "XXIV/22",
+  "bank": "hebrew",
+  "claimed": 811,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S060-P0-C2",
+  "cell_id": "XXIV/27",
+  "bank": "hebrew",
+  "claimed": 123,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S063-P0-C2",
+  "cell_id": "XXIV/32",
+  "bank": "hebrew",
+  "claimed": 360,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S065-P0-C2",
+  "cell_id": "XXXIII/6",
+  "bank": "hebrew_fallback",
+  "claimed": 236,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S066-P0-C3",
+  "cell_id": "XXXIII/10",
+  "bank": "hebrew_gadol",
+  "claimed": 220,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S066-P1-C2",
+  "cell_id": "XXXIII/10",
+  "bank": "hebrew_fallback",
+  "claimed": 716,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S066-P1-C3",
+  "cell_id": "XXXIII/10",
+  "bank": "hebrew_gadol",
+  "claimed": 716,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S067-P0-C3",
+  "cell_id": "XXXIII/13",
+  "bank": "hebrew_gadol",
+  "claimed": 101,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S067-P1-C2",
+  "cell_id": "XXXIII/13",
+  "bank": "hebrew_fallback",
+  "claimed": 175,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S067-P1-C3",
+  "cell_id": "XXXIII/13",
+  "bank": "hebrew_gadol",
+  "claimed": 175,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S068-P0-C3",
+  "cell_id": "XXXIII/16",
+  "bank": "hebrew_gadol",
+  "claimed": 870,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S068-P1-C2",
+  "cell_id": "XXXIII/16",
+  "bank": "hebrew_fallback",
+  "claimed": 211,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S068-P1-C3",
+  "cell_id": "XXXIII/16",
+  "bank": "hebrew_gadol",
+  "claimed": 211,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S069-P0-C3",
+  "cell_id": "XXXIII/23",
+  "bank": "hebrew_gadol",
+  "claimed": 270,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S069-P1-C2",
+  "cell_id": "XXXIII/23",
+  "bank": "hebrew_fallback",
+  "claimed": 214,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S069-P1-C3",
+  "cell_id": "XXXIII/23",
+  "bank": "hebrew_gadol",
+  "claimed": 214,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S070-P0-C3",
+  "cell_id": "XXXIII/30",
+  "bank": "hebrew_gadol",
+  "claimed": 96,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S071-P0-C2",
+  "cell_id": "XXXIII/31",
+  "bank": "hebrew_fallback",
+  "claimed": 475,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S071-P0-C3",
+  "cell_id": "XXXIII/31",
+  "bank": "hebrew_gadol",
+  "claimed": 475,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S072-P0-C2",
+  "cell_id": "XXXIII/31 bis",
+  "bank": "hebrew_fallback",
+  "claimed": 71,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S072-P0-C3",
+  "cell_id": "XXXIII/31 bis",
+  "bank": "hebrew_gadol",
+  "claimed": 721,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S073-P0-C2",
+  "cell_id": "XXXIII/32 bis",
+  "bank": "hebrew_fallback",
+  "claimed": 716,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S073-P0-C3",
+  "cell_id": "XXXIII/32 bis",
+  "bank": "hebrew_gadol",
+  "claimed": 716,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S073-P1-C2",
+  "cell_id": "XXXIII/32 bis",
+  "bank": "hebrew_fallback",
+  "claimed": 206,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S073-P1-C3",
+  "cell_id": "XXXIII/32 bis",
+  "bank": "hebrew_gadol",
+  "claimed": 206,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S089-P0-C2",
+  "cell_id": "XLIV/4",
+  "bank": "hebrew",
+  "claimed": 46,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S090-P0-C2",
+  "cell_id": "XLIV/6",
+  "bank": "hebrew",
+  "claimed": 14,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S093-P0-C2",
+  "cell_id": "XLIV/14",
+  "bank": "hebrew",
+  "claimed": 758,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S095-P0-C2",
+  "cell_id": "XLIV/16",
+  "bank": "greek",
+  "claimed": 1190,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S096-P0-C2",
+  "cell_id": "XLIV/17",
+  "bank": "arabic_abjad",
+  "claimed": 340,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S097-P0-C2",
+  "cell_id": "XLIV/18",
+  "bank": "hebrew",
+  "claimed": 80,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S097-P1-C2",
+  "cell_id": "XLIV/18",
+  "bank": "hebrew",
+  "claimed": 683,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S132-P2-C0",
+  "cell_id": "XLVII/16",
+  "bank": "arabic_abjad",
+  "claimed": 86,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S132-P6-C0",
+  "cell_id": "XLVII/16",
+  "bank": "arabic_abjad",
+  "claimed": 344,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S136-P0-C0",
+  "cell_id": "XLVII/20",
+  "bank": "arabic_abjad",
+  "claimed": 172,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S136-P6-C0",
+  "cell_id": "XLVII/20",
+  "bank": "arabic_abjad",
+  "claimed": 472,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S137-P2-C0",
+  "cell_id": "XLVII/21",
+  "bank": "arabic_abjad",
+  "claimed": 343,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S137-P4-C0",
+  "cell_id": "XLVII/21",
+  "bank": "arabic_abjad",
+  "claimed": 431,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S143-P0-C1",
+  "cell_id": "XLVII/27",
+  "bank": "arabic_abjad",
+  "claimed": 280,
+  "reason": "PARTED — parent eyeball"
+ },
+ {
+  "claim_key": "S162-P0-C0",
+  "cell_id": "LVIII/31 bis",
+  "bank": "hebrew",
+  "claimed": 476,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S162-P1-C0",
+  "cell_id": "LVIII/31 bis",
+  "bank": "hebrew",
+  "claimed": 254,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S173-P0-C2",
+  "cell_id": "CVIII/1",
+  "bank": "greek",
+  "claimed": 552,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S173-P1-C2",
+  "cell_id": "CVIII/1",
+  "bank": "greek",
+  "claimed": 810,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S174-P0-C0",
+  "cell_id": "CVIII/2",
+  "bank": "hebrew",
+  "claimed": 119,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S174-P0-C2",
+  "cell_id": "CVIII/2",
+  "bank": "greek",
+  "claimed": 556,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S203-P0-C1",
+  "cell_id": "CLXXXVII/1",
+  "bank": "greek",
+  "claimed": 31,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S203-P1-C2",
+  "cell_id": "CLXXXVII/1",
+  "bank": "greek",
+  "claimed": 27,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S203-P2-C1",
+  "cell_id": "CLXXXVII/1",
+  "bank": "greek",
+  "claimed": 11,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S204-P0-C2",
+  "cell_id": "CLXXXVII/8",
+  "bank": "greek",
+  "claimed": 99,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S205-P0-C2",
+  "cell_id": "CLXXXVII/11",
+  "bank": "greek",
+  "claimed": 531,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S206-P0-C2",
+  "cell_id": "CLXXXVII/12",
+  "bank": "greek",
+  "claimed": 21,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S206-P1-C2",
+  "cell_id": "CLXXXVII/12",
+  "bank": "hebrew",
+  "claimed": 305,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S207-P2-C1",
+  "cell_id": "CLXXXVII/15",
+  "bank": "greek",
+  "claimed": 817,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S207-P2-C2",
+  "cell_id": "CLXXXVII/15",
+  "bank": "hebrew",
+  "claimed": 414,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S208-P0-C1",
+  "cell_id": "CLXXXVII/17",
+  "bank": "greek",
+  "claimed": 67,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S209-P0-C2",
+  "cell_id": "CLXXXVII/20",
+  "bank": "greek",
+  "claimed": 404,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S209-P1-C1",
+  "cell_id": "CLXXXVII/20",
+  "bank": "greek",
+  "claimed": 490,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S210-P0-C2",
+  "cell_id": "CLXXXVII/21",
+  "bank": "greek",
+  "claimed": 520,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S210-P2-C2",
+  "cell_id": "CLXXXVII/21",
+  "bank": "hebrew",
+  "claimed": 74,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S211-P0-C1",
+  "cell_id": "CLXXXVII/22",
+  "bank": "greek",
+  "claimed": 74,
+  "reason": "no script candidate"
+ },
+ {
+  "claim_key": "S211-P2-C0",
+  "cell_id": "CLXXXVII/22",
+  "bank": "hebrew",
+  "claimed": 441,
+  "reason": "no script candidate (own proposal)"
+ },
+ {
+  "claim_key": "S211-P2-C1",
+  "cell_id": "CLXXXVII/22",
+  "bank": "greek",
+  "claimed": 342,
+  "reason": "no script candidate"
+ }
+]
