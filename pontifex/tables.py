@@ -119,6 +119,162 @@ MERGERS = {
     'פ': ['f', 'p'],
 }
 
+# -- Japanese kana, THE GOJŪON MINT (CONSTRUCTED — house coinage, RATIFIED) --
+# ---------------------------------------------------------------------------
+# PROVENANCE — READ BEFORE EVERY OTHER BANK'S HABIT. Every bank above is
+# an ATTESTED copy, recorded as the tradition hands it down; the scribe
+# records and does not revise. THIS BANK IS NOT. It is a CONSTRUCTION,
+# coined at the desk under the founder's commission for the project
+# Complete the Tables in Japanese (Phase III: the gojūon mint), founded
+# as a proposal on 2026-11-12 (XII day of November, Dies Jovis, Anno
+# V:xii e.n.) and RATIFIED by the founder's stamp on 2026-11-13 (XIII
+# day of November, Dies Veneris): "Stamp the mint — the Tables stand."
+# From that ratification it is doctrine — the founder's mint, 2026 —
+# and it must not be cited as attested, traditional, or ancient: no
+# kana letter-value bank is attested before the 21st century, and this
+# one is dated 2026 on its face. (The gate verdict of record, THE
+# JAPANESE TABLES (MAGVS): the mint DOES NOT FAIL as the founder's
+# coinage; it FAILS as any claim of antiquity, at the same size, in
+# the same breath.) Source of record: THE-JAPANESE-TABLES-MAGVS.md —
+# Phase I (audit of the modern banks), Phase II (the rōmaji seam),
+# Phase III (the mint). The seat below is generated from the same grid
+# data, by the same construction, as the mint's first engine seat in
+# tools/ptk/weigh.py; parity between the two seats is proven by
+# test_kana_parity.py at the repository root, not asserted here.
+#
+# DOCTRINE — THE SEVEN RULINGS (reasoning in full in the Phase III
+# instrument and the MAGVS volume; the gap numbers are Phase I §VI's):
+#   G1 THE AXIS: gojūon positional, row-major in the spoken column
+#      order a-i-u-e-o (あ=1, い=2, う=3, え=4, お=5, か=6 …). The grid
+#      seats 47 (the や row's yi/ye cells and the わ row's wu cell are
+#      holes — no kana, no seat); ゐ・ゑ hold their grid seats (45, 46)
+#      as ARCHIVAL seats; を=47; ん, the hatsuon outside the fifty,
+#      takes the next seat, 48 — ONE value. Dual values are refused
+#      bank-wide (against Fukada's ン 1-or-10: a sign with two values
+#      is a fork in every sum it enters).
+#   G2 DAKUTEN LAW: continuation ON THE MINT'S OWN AXIS. No derived
+#      diacritic constant holds, and a constant chosen anyway would
+#      be invented, not derived — so the voiced rows take the next
+#      seats after the base inventory entire, in the grid's printed
+#      dakuten order: が行 49–53, ざ行 54–58, だ行 59–63, ば行 64–68,
+#      ぱ行 69–73. Subtraction (Yoshino) is refused: it drives totals
+#      negative, which no house bank admits.
+#   G3 CHŌON LAW: the mark ー is an operator, not a sign: it weighs
+#      the seat value of the vowel it lengthens (かー → あ's 1;
+#      とー → お's 5). Length is a second mora OF THAT VOWEL, against
+#      Yoshino's ー=0, which erases what the spelling declares. Length
+#      spelled with a vowel kana (おう, えい) is weighed as written
+#      (G6's fence); the seam that opens is exhibited in the Phase III
+#      instrument, not hidden — and not closed here.
+#   G4 YŌON LAW: a small kana weighs at its full-size form's seat
+#      (ゃ=ヤ 36, ゅ=ユ 37, ょ=ヨ 38; small vowels likewise; ゎ, ゕ,
+#      ゖ by the same law).
+#   G5 SOKUON LAW: っ/ッ weighs at つ/ツ's seat, 18 — its full-size
+#      form. The geminate mora is a full beat of blockage, not
+#      silence.
+#   G6 DEVOICING: the bank weighs the WRITTEN sign. Devoicing is
+#      phonology and belongs to the performance register (the Divine
+#      Nine vocal tool); it has no mechanic here, and the fence is
+#      declared, not silent.
+#   G7 REDUCTION: totals stand raw; digit-reduction rides beside,
+#      never instead.
+#
+# MECHANISM: the bank is generated from the grid rows below so the
+# table printed in the doctrine and the table in this engine are one
+# object, not two copies that can drift. Columns run a-i-u-e-o; a
+# sign's value is its sequence position; its column gives the vowel a
+# following ー weighs. Katakana is generated from hiragana by the
+# Unicode block offset (+0x60): one sign, two dresses — あ and ア
+# share a seat by construction.
+_KANA_GRID = [
+    ('あ', 'い', 'う', 'え', 'お'),
+    ('か', 'き', 'く', 'け', 'こ'),
+    ('さ', 'し', 'す', 'せ', 'そ'),
+    ('た', 'ち', 'つ', 'て', 'と'),
+    ('な', 'に', 'ぬ', 'ね', 'の'),
+    ('は', 'ひ', 'ふ', 'へ', 'ほ'),
+    ('ま', 'み', 'む', 'め', 'も'),
+    ('や', None, 'ゆ', None, 'よ'),   # holes: yi, ye — no kana, no seat
+    ('ら', 'り', 'る', 'れ', 'ろ'),
+    ('わ', 'ゐ', None, 'ゑ', 'を'),   # hole: wu; ゐ・ゑ ARCHIVAL seats
+]
+
+_KANA_DAKUTEN_ROWS = [
+    ('が', 'ぎ', 'ぐ', 'げ', 'ご'),
+    ('ざ', 'じ', 'ず', 'ぜ', 'ぞ'),
+    ('だ', 'ぢ', 'づ', 'で', 'ど'),
+    ('ば', 'び', 'ぶ', 'べ', 'ぼ'),
+    ('ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ'),
+]
+
+# MECHANISM: small kana seated by law, at their full-size partners'
+# seats — ゃゅょ and the small vowels by G4, ゎ・ゕ・ゖ by G4's same
+# law extended to the small forms the modern script still writes,
+# っ by G5 (the sokuon is listed here because its seat is a law,
+# not a grid position).
+_KANA_SMALL_PARTNER = {
+    'ぁ': 'あ', 'ぃ': 'い', 'ぅ': 'う', 'ぇ': 'え', 'ぉ': 'お',
+    'ゃ': 'や', 'ゅ': 'ゆ', 'ょ': 'よ',
+    'ゎ': 'わ', 'ゕ': 'か', 'ゖ': 'け',
+    'っ': 'つ',
+}
+
+
+def _build_kana():
+    """MECHANISM: seat the grid row-major (a-i-u-e-o), then ん, then
+    the dakuten block; record each sign's column-vowel seat value for
+    the ー operator (G3); seat the small kana at their partners
+    (G4/G5); mirror every seat into katakana by the block offset.
+    Returns (bank, vowel_map, base_signs) — base_signs is the seated
+    inventory in seating order (the 73), exported so the audit can
+    prove values 1–73 are each used exactly once across it. ん and
+    っ have no vowel: a ー after them weighs 0."""
+    bank, vowel, base = {}, {}, []
+    n = 0
+
+    def seat(rows):
+        nonlocal n
+        for row in rows:
+            for col, ch in enumerate(row):
+                if ch is None:
+                    continue
+                n += 1
+                bank[ch] = n
+                vowel[ch] = col + 1  # あ=1 い=2 う=3 え=4 お=5 by column
+                base.append(ch)
+
+    # MECHANISM: seating order is the rulings' order — the grid (G1),
+    # then ん at the next seat (G1), then the dakuten block after the
+    # base inventory entire (G2). The order is load-bearing: seat
+    # the dakuten rows before ん and every voiced value shifts by
+    # one — the kana self-test's むげつ case guards exactly this.
+    seat(_KANA_GRID)
+    n += 1
+    bank['ん'] = n  # G1: the hatsuon after the grid — seat 48
+    base.append('ん')
+    seat(_KANA_DAKUTEN_ROWS)
+    for small, partner in _KANA_SMALL_PARTNER.items():
+        bank[small] = bank[partner]
+        vowel[small] = vowel[partner]
+    # MECHANISM: the sokuon carries a seat (G5) but no vowel — its
+    # partner's vowel is not inherited, so a ー after っ weighs 0.
+    vowel.pop('っ', None)
+    for ch in list(bank):
+        kata = chr(ord(ch) + 0x60)
+        bank[kata] = bank[ch]
+        if ch in vowel:
+            vowel[kata] = vowel[ch]
+    return bank, vowel, base
+
+
+KANA, KANA_VOWEL, KANA_BASE = _build_kana()
+# DOCTRINE: ー (U+30FC) is deliberately NOT a key of KANA — it is an
+# operator (G3) and only engine.kana() may read it. A raw
+# weigh(word, 'kana') therefore skips it, and the skip is visible in
+# the breakdown; that visibility is intended. The long-vowel seam
+# (G3/G6) stands exhibited in the doctrine; this seat does not close
+# it and does not alter any value.
+
 # =============================================================================
 # Closing motto: "Live, Love, and let Love, Live."
 # 93. All Rights Reserved, Without Prejudice.

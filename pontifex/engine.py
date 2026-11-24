@@ -57,6 +57,7 @@ import unicodedata
 
 from .tables import (
     HEBREW, GREEK, LATIN_ORDINAL, AGRIPPA, ARABIC_ABJAD, BRAILLE,
+    KANA, KANA_VOWEL, KANA_BASE,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -76,6 +77,20 @@ SYSTEMS = {
     'agrippa':       {'table': AGRIPPA,       'provenance': 'ATTESTED'},
     'arabic_abjad':  {'table': ARABIC_ABJAD,  'provenance': 'ATTESTED'},
     'braille':       {'table': BRAILLE,       'provenance': 'CONSTRUCTED'},
+    # DOCTRINE: the GOJŪON MINT is the registry's one RATIFIED
+    # construction — house coinage, founded 2026-11-12, stamped by
+    # the founder 2026-11-13 ("Stamp the mint — the Tables stand").
+    # Its tier stays CONSTRUCTED because that is what it is: the
+    # ratification makes it the founder's doctrine, never the
+    # tradition's antiquity. The full fence stands at the bank in
+    # tables.py; it must not be cited as attested, traditional, or
+    # ancient. The ー operator is read by kana() below, not by
+    # weigh() — weigh() is the raw bank door, as in ptk.
+    'kana':          {'table': KANA,
+                      'provenance': 'CONSTRUCTED — the GOJŪON MINT: house '
+                                    'coinage ratified by the founder\'s '
+                                    'stamp 2026-11-13; NOT attested, '
+                                    'traditional, or ancient'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -245,6 +260,54 @@ def weigh_via_hebrew_fallback(latin_word):
     return result
 
 
+def kana(word):
+    """Weigh a Japanese word in the GOJŪON MINT, reading the ー operator.
+
+    MECHANISM: this is the mint's second door, ported from
+    tools/ptk/weigh.py's kana()/kana_breakdown() — the same account in
+    the engine's dress (a result dict, like weigh()). Sum the seated
+    signs (hiragana and katakana share seats); the mark ー is read
+    as an operator (G3): it adds the seat value of the vowel of the
+    sign it follows (とー weighs ト 20 + お 5). A ー with no vowel
+    before it (word-initial, or after ん/っ, which carry no vowel)
+    adds 0. Characters the bank does not know are skipped — and reset
+    the ー's memory, so length never reaches across a separator.
+    The breakdown shows ー with the value it actually contributed,
+    so the operator's work is auditable, never silent.
+
+    DOCTRINE: weigh(word, 'kana') is the raw bank door and skips ー,
+    exactly as ptk's raw weigh(word, KANA) does — ー is not a key of
+    the bank. This function is the only door that reads it. The bank
+    weighs the WRITTEN sign (G6); devoicing is not modelled. Totals
+    stand raw (G7).
+    """
+    total = 0
+    breakdown = []
+    prev_vowel = None
+    for ch in word:
+        if ch == 'ー':
+            v = prev_vowel if prev_vowel is not None else 0
+            breakdown.append((ch, v))
+            total += v
+            continue
+        if ch in KANA:
+            v = KANA[ch]
+            breakdown.append((ch, v))
+            total += v
+            prev_vowel = KANA_VOWEL.get(ch)
+        else:
+            # MECHANISM: an unknown character is silence, and it
+            # resets the operator's memory (ptk's exact behavior).
+            prev_vowel = None
+    return {
+        'word': word,
+        'system': 'kana',
+        'value': total,
+        'provenance': SYSTEMS['kana']['provenance'],
+        'breakdown': breakdown,
+    }
+
+
 def bridge(word1, system1, word2, system2):
     """Check a convergent point between two weighings.
 
@@ -392,6 +455,112 @@ def greek_checks():
     toks = ''.join(tok for tok, _ in weigh('ΘΕΛΗΜΑ', 'greek')['breakdown'])
     checks.append(('breakdown shows normalized letters (ΘΕΛΗΜΑ → θελημα)',
                    toks == 'θελημα', toks))
+    return checks
+
+
+def kana_checks():
+    """Self-checks for the GOJŪON MINT seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against the doctrine's own printed
+    numbers (THE-JAPANESE-TABLES-MAGVS.md, Part IV and the Phase III
+    calibration), the way greek_checks() pins the Greek repair.
+    Sign-for-sign parity against the mint's first engine seat
+    (tools/ptk) is a relation between two codebases and lives in
+    test_kana_parity.py at the repository root; this battery holds
+    the seat to the doctrine itself. Kept beside engine_checks()
+    rather than inside it, so the established checks stand untouched
+    as the no-collateral witness; run both for the full suite.
+
+    DOCTRINE — THE HEADS, PRINTED AS THE PROTOCOL PRINTS THEM (P4):
+    the mint's あくま and むげつ stand BESIDE their rōmaji seam twins
+    AKUMA 47 and MUGETSU 106, agreeing or not. The kana values are
+    40 and 103; the deltas (−7, −3) are coordinates of the seam,
+    exhibited — not failures, and never to be "repaired" by moving
+    a seat. The bridges (P2) are entered one by one, exact only:
+    かな 27 == KANA 27, しおん 65 == SHION 65, ゆず 93 == YUZU 93.
+    """
+    checks = []
+    # 1. The axis itself (G1): あいうえお = 1+2+3+4+5 = 15.
+    r = weigh('あいうえお', 'kana')
+    checks.append(('あいうえお/kana == 15 (G1 axis)', r['value'] == 15, r['value']))
+    # 2. The inventory: 73 seated signs, values 1–73 each exactly
+    #    once, を holding its grid seat at 47, ん at 48 — ONE value
+    #    (the elected dual refused).
+    vals = sorted(KANA[s] for s in KANA_BASE)
+    checks.append(('73 seats, values 1–73 each used exactly once',
+                   len(KANA_BASE) == 73 and vals == list(range(1, 74)),
+                   (len(KANA_BASE), vals[:3], vals[-3:])))
+    checks.append(('を == 47 (grid seat kept), ん == 48 (one value)',
+                   KANA['を'] == 47 and KANA['ん'] == 48 and KANA['ン'] == 48,
+                   (KANA['を'], KANA['ん'], KANA['ン'])))
+    # 3. The P4 heads at the raw bank door, beside their seam twins —
+    #    the deltas printed as coordinates (P3), at full size.
+    a = weigh('あくま', 'kana')['value']
+    a_twin = weigh('AKUMA', 'latin_ordinal')['value']
+    checks.append(('あくま == 40 beside AKUMA 47 (Δ −7, exhibited)',
+                   a == 40 and a_twin == 47 and a - a_twin == -7,
+                   (a, a_twin, a - a_twin)))
+    m = weigh('むげつ', 'kana')['value']
+    m_twin = weigh('MUGETSU', 'latin_ordinal')['value']
+    checks.append(('むげつ == 103 beside MUGETSU 106 (Δ −3, exhibited)',
+                   m == 103 and m_twin == 106 and m - m_twin == -3,
+                   (m, m_twin, m - m_twin)))
+    # 4. The three bridges, exact (P2): kana total == seam twin.
+    for kw, twin, want in (('かな', 'KANA', 27), ('しおん', 'SHION', 65),
+                           ('ゆず', 'YUZU', 93)):
+        kv = weigh(kw, 'kana')['value']
+        tv = weigh(twin, 'latin_ordinal')['value']
+        checks.append(('%s == %d == %s (bridge)' % (kw, want, twin),
+                       kv == tv == want, (kv, tv)))
+    # 5. The dakuten continuation (G2): が at 49, on the mint's own
+    #    axis after the base inventory entire.
+    r = weigh('ありがとう', 'kana')
+    checks.append(('ありがとう == 113, が == 49 (G2)',
+                   r['value'] == 113 and KANA['が'] == 49,
+                   (r['value'], KANA['が'])))
+    # 6. Yōon at the full-size seat (G4) and sokuon at ツ's seat (G5).
+    checks.append(('きゃ == 43 (G4: ゃ at や’s seat 36)',
+                   weigh('きゃ', 'kana')['value'] == 43
+                   and KANA['ゃ'] == KANA['や'] == 36,
+                   (weigh('きゃ', 'kana')['value'], KANA['ゃ'])))
+    checks.append(('ずっと == 94 (G5: っ at つ’s seat 18)',
+                   weigh('ずっと', 'kana')['value'] == 94
+                   and KANA['っ'] == KANA['つ'] == 18,
+                   (weigh('ずっと', 'kana')['value'], KANA['っ'])))
+    # 7. One sign, two dresses: every hiragana seat is its katakana
+    #    twin's seat, sign for sign, across the whole bank. (The
+    #    hiragana block runs ぁ U+3041 to ゖ U+3096 — ゕ・ゖ sit
+    #    above ん, and a range ending at ん would skip them unseen.)
+    hira = [(c, v) for c, v in KANA.items() if 'ぁ' <= c <= 'ゖ']
+    mirror = all(KANA[chr(ord(c) + 0x60)] == v for c, v in hira)
+    checks.append(('katakana mirrors hiragana, sign for sign (85 pairs)',
+                   len(hira) == 85 and mirror
+                   and weigh('かたかな', 'kana')['value']
+                   == weigh('カタカナ', 'kana')['value'] == 49,
+                   (len(hira), mirror, weigh('カタカナ', 'kana')['value'])))
+    # 8. The ー seam, exhibited at both doors (G3): the raw bank door
+    #    skips the operator (121, breakdown silent on it); the kana()
+    #    door reads it (122 = 39 + 1 + 34 + 48, the ー lengthening a).
+    raw = weigh('ラーメン', 'kana')
+    op = kana('ラーメン')
+    checks.append(('ラーメン: raw door 121 (ー skipped) / kana() door 122 (G3)',
+                   raw['value'] == 121
+                   and all(tok != 'ー' for tok, _ in raw['breakdown'])
+                   and op['value'] == 122
+                   and ('ー', 1) in op['breakdown'],
+                   (raw['value'], op['value'], op['breakdown'])))
+    # 9. The operator's edges: after ん (no vowel) and word-initial,
+    #    ー weighs 0 — length with nothing to lengthen.
+    checks.append(('んー == 48 and ー alone == 0 (operator edges)',
+                   kana('んー')['value'] == 48 and kana('ー')['value'] == 0,
+                   (kana('んー')['value'], kana('ー')['value'])))
+    # 10. The fence rides with every weighing: the provenance names
+    #     the coinage and refuses the antiquity claim on its face.
+    p = SYSTEMS['kana']['provenance']
+    checks.append(('kana provenance carries the fence (CONSTRUCTED, ratified '
+                   '2026-11-13, NOT attested)',
+                   p.startswith('CONSTRUCTED') and '2026-11-13' in p
+                   and 'NOT attested' in p, p))
     return checks
 
 
