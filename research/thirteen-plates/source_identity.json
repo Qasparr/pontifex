@@ -1,0 +1,13 @@
+{
+ "upload_pages": 123,
+ "upload_sha256": "bfb45413d09e416667c50781c3e260fc5372ad817632ab6b76a540ccad80c57a",
+ "upload_bytes": 3138900,
+ "house_pages": 85,
+ "house_sha256": "35e97b53ffd630fa1957663078f7156b6299687d08c41f4f60748c7c0eb8ca0a",
+ "house_bytes": 521398,
+ "stated_totals_found": true,
+ "section_headings_found": 221,
+ "partings_register_page": 103,
+ "notverifiable_register_page": 106,
+ "falsification_page": 121
+}

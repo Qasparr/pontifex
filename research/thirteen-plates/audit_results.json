@@ -1,0 +1,134 @@
+{
+ "verdict": "PASS",
+ "checks": [
+  {
+   "check": "completeness.claim_keys_exact",
+   "ok": true,
+   "detail": "mapped 504, unique 504, frozen 504"
+  },
+  {
+   "check": "completeness.plate_sums_reconcile",
+   "ok": true,
+   "detail": "plate sums: {'VERIFIED': 404, 'PARTED': 18, 'NOT VERIFIABLE': 82}"
+  },
+  {
+   "check": "completeness.frames_reconcile",
+   "ok": true,
+   "detail": "frames 221, claim-bearing 135, claimless 86"
+  },
+  {
+   "check": "fidelity.stated_totals_in_upload",
+   "ok": true,
+   "detail": "the upload's §II line 'Claims: 504 — VERIFIED 404 · PARTED 18 · NOT VERIFIABLE 82' found in its text layer"
+  },
+  {
+   "check": "fidelity.all_section_headings",
+   "ok": true,
+   "detail": "221 of 221 §III headings verbatim in the upload"
+  },
+  {
+   "check": "fidelity.parted_entire",
+   "ok": true,
+   "detail": "18 parted claims checked in the §IV segment; failing: none"
+  },
+  {
+   "check": "fidelity.plate_samples",
+   "ok": true,
+   "detail": "16 sampled claims across every non-empty plate; failing: none"
+  },
+  {
+   "check": "source.upload_hash_unchanged",
+   "ok": true,
+   "detail": "upload SHA-256 bfb45413d09e4166…"
+  }
+ ],
+ "plate_counts": {
+  "Greek": {
+   "claims": 38,
+   "verdicts": {
+    "VERIFIED": 21,
+    "NOT VERIFIABLE": 17
+   },
+   "sections": 26
+  },
+  "Hebrew": {
+   "claims": 146,
+   "verdicts": {
+    "VERIFIED": 93,
+    "PARTED": 11,
+    "NOT VERIFIABLE": 42
+   },
+   "sections": 83
+  },
+  "Arabic": {
+   "claims": 35,
+   "verdicts": {
+    "NOT VERIFIABLE": 1,
+    "VERIFIED": 27,
+    "PARTED": 7
+   },
+   "sections": 18
+  },
+  "Latin": {
+   "claims": 262,
+   "verdicts": {
+    "VERIFIED": 262
+   },
+   "sections": 104
+  },
+  "Japanese": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Ge'ez": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Armenian": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Coptic": {
+   "claims": 1,
+   "verdicts": {
+    "VERIFIED": 1
+   },
+   "sections": 1
+  },
+  "Georgian": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Cyrillic": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Glagolitic": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Korean": {
+   "claims": 0,
+   "verdicts": {},
+   "sections": 0
+  },
+  "Core": {
+   "claims": 22,
+   "verdicts": {
+    "NOT VERIFIABLE": 22
+   },
+   "sections": 9
+  }
+ },
+ "totals": {
+  "VERIFIED": 404,
+  "PARTED": 18,
+  "NOT VERIFIABLE": 82
+ }
+}
