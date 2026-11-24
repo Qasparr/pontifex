@@ -61,6 +61,7 @@ from .tables import (
     HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE,
     ARMENIAN,
     COPTIC, ARMENIAN_LATE,
+    GEORGIAN,
     ARAMAIC, ARAMAIC_IMPERIAL, ARAMAIC_SYRIAC,
     HANGUL, HANGUL_INITIAL, HANGUL_VOWEL, HANGUL_FINAL,
     HANGUL_NULL_INITIAL, HANGUL_1446,
@@ -211,6 +212,53 @@ SYSTEMS = {
     # weigh() casefolds Coptic input at its seam (the script
     # was caseless). coptic() below is the manuscript door: it
     # counts the numeral marks and prices none.
+    # DOCTRINE: the GEORGIAN bank is the second DESIGNED table in
+    # the registry — the classical 38-letter alphabet's own numeral
+    # system, audited 2026-11-24 as the Caucasus road's anchor and
+    # read as the control case against the Armenian bank beside it:
+    # two designed alphabets, one decimal class law, and the
+    # partings printed where they stand (the doubled 400 in the
+    # hundreds class; a native 10000 letter where Armenian seats
+    # none and reaches by the overline device instead). The bank is
+    # keyed in Mkhedruli, the dress the witnesses print; the older
+    # dresses (Asomtavruli, Nuskhuri) are the same table and are not
+    # re-keyed. The five obsolete letters seat IN this bank: they
+    # are original members of the classical alphabet, the mirror
+    # case of the Armenian additions (the audit's §VII D1). The
+    # script is unicase; no seam preparation applies.
+    'georgian':      {'table': GEORGIAN,
+                      'provenance': 'ATTESTED — the classical '
+                                    'Georgian alphabetic numeral '
+                                    'table: the designed alphabet\'s '
+                                    'own system (38 classical '
+                                    'letters valued in decimal '
+                                    'classes to a native 10000), '
+                                    'audited 2026-11-24 (two '
+                                    'witnesses read entire agree on '
+                                    'all 38 cells; the depth caveat '
+                                    'stands in the audit: the '
+                                    'witnesses are modern reference '
+                                    'works, Wikipedia\'s table '
+                                    'sourced to Makharoblidze 2009, '
+                                    'and no primary manuscript was '
+                                    're-read). Keyed in Mkhedruli, '
+                                    'the witnesses\' dress; the '
+                                    'older Asomtavruli and Nuskhuri '
+                                    'forms are the same table, not '
+                                    're-keyed. The hundreds class '
+                                    'carries the table\'s one '
+                                    'parting from the clean seat '
+                                    'law: 400 is doubled (ჳ and უ), '
+                                    'the seat law parts at '
+                                    'positions 23–28, and the bank '
+                                    'holds 37 distinct values in 38 '
+                                    'letters. NOT the Armenian '
+                                    'bank\'s case in two respects: '
+                                    'its five obsolete letters are '
+                                    'classical members and seat in '
+                                    'the bank (no annex), and its '
+                                    '10000 is a letter (ჵ), not a '
+                                    'device'},
     'coptic':        {'table': COPTIC,
                       'provenance': 'DERIVED — the Coptic alphabetic '
                                     'numeral table: the Greek '
@@ -1670,6 +1718,134 @@ def armenian_checks():
                    p.startswith('ATTESTED') and '36' in p
                    and 'halehame' in p and 'ARMENIAN_LATE' in p
                    and '10,000' in p, p))
+    return checks
+
+
+# MECHANISM: the classical alphabet in its own order — the audit's
+# coordinate for the seat. The value sequence is recomputed from
+# position in georgian_checks() below, never trusted from the
+# dict's shape.
+_GEORGIAN_ORDER = 'აბგდევზჱთიკლმნჲოპჟრსტჳუფქღყშჩცძწჭხჴჯჰჵ'
+
+
+def georgian_checks():
+    """Self-checks for the GEORGIAN seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against its audit of record
+    (THE-GEORGIAN-FIELD-PHASE-I-AUDIT.md): the class law recomputed
+    from position in both its formulations, the witnesses' worked
+    examples, the doubled seat and its shadow, the extent, the
+    obsolete five seated in the bank, and the absence of zero.
+    Sign-for-sign parity against the audit's frozen transcription
+    (research/caucasus-north/georgian-table.csv) is a relation
+    between two seats and lives in test_georgian_parity.py at the
+    repository root; this battery holds the seat to the doctrine
+    itself. Kept beside armenian_checks() rather than inside
+    engine_checks(), so the established checks stand untouched as
+    the no-collateral witness; run all for the full suite.
+
+    DOCTRINE — THE CONTROL CASE, AT THE SEAT: this bank and the
+    ARMENIAN bank carry the same value sequence over the shared
+    domain 1–9000 (every Armenian value is a Georgian value), and
+    part at exactly two value coordinates — 400, doubled here and
+    single there; 10000, seated here as a letter and absent there.
+    The checks below pin THIS bank's side; the comparison itself is
+    the audit's page and the parity battery's exhibit.
+    """
+    checks = []
+    # 1. The class law by value, recomputed from position: classes
+    #    9/9/10/9/1 by seat, every value digit x 10^class.
+    def power(pos):
+        return 0 if pos <= 9 else 1 if pos <= 18 else 2 if pos <= 28 \
+            else 3 if pos <= 37 else 4
+    law = [GEORGIAN[ch] for ch in _GEORGIAN_ORDER]
+    checks.append(('the class law by value at all 38 seats (every '
+                   'value digit x 10^class, digit 1..9, recomputed '
+                   'from position)',
+                   len(GEORGIAN) == 38
+                   and all(1 <= v // (10 ** power(p)) <= 9
+                           and v % (10 ** power(p)) == 0
+                           for p, v in enumerate(law, start=1)),
+                   law[:3] + law[-2:]))
+    # 2. The seat law and its parting: digit == within-class seat
+    #    index fails at exactly positions 23–28, the hundreds tail
+    #    downstream of the doubled 400.
+    counters, fails = {}, []
+    for p, ch in enumerate(_GEORGIAN_ORDER, start=1):
+        klass = power(p)
+        counters[klass] = counters.get(klass, 0) + 1
+        if GEORGIAN[ch] // (10 ** klass) != counters[klass]:
+            fails.append(p)
+    checks.append(('the seat law parts at exactly positions 23–28 '
+                   '(the doubled 400\'s shadow: უ at 23 carries '
+                   'digit 4 at seat-index 5)',
+                   fails == [23, 24, 25, 26, 27, 28], fails))
+    # 3. The doubled seat itself, and the extent it makes: 38
+    #    letters, 37 distinct values, sum 60395.
+    checks.append(('the doubled seat: 400 carried by exactly two '
+                   'letters (ჳ, უ); 38 letters, 37 distinct values, '
+                   'sum 60395',
+                   sorted(ch for ch, v in GEORGIAN.items() if v == 400)
+                   == ['უ', 'ჳ'] and len(set(GEORGIAN.values())) == 37
+                   and sum(GEORGIAN.values()) == 60395,
+                   (len(set(GEORGIAN.values())), sum(GEORGIAN.values()))))
+    # 4. The witnesses' worked examples at the seat, exact.
+    ex = (weigh('ჩღჲთ', 'georgian')['value'],
+          weigh('ჩყპზ', 'georgian')['value'],
+          weigh('ციბ', 'georgian')['value'],
+          weigh('ჩყმვ', 'georgian')['value'],
+          weigh('ცკვ', 'georgian')['value'])
+    checks.append(('the witnesses\' worked examples: 1769, 1887, '
+                   '2012, the Motsameta 1846, and 2026',
+                   ex == (1769, 1887, 2012, 1846, 2026), ex))
+    # 5. The obsolete five seat in the bank (the audit's D1), and
+    #    the system's maximum is a letter, not a device.
+    checks.append(('the obsolete five seat in the bank at their '
+                   'classical values (ჱ 8, ჲ 60, ჳ 400, ჴ 7000, '
+                   'ჵ 10000 — the maximum is the letter ჵ)',
+                   (GEORGIAN['ჱ'], GEORGIAN['ჲ'], GEORGIAN['ჳ'],
+                    GEORGIAN['ჴ'], GEORGIAN['ჵ'])
+                   == (8, 60, 400, 7000, 10000)
+                   and max(GEORGIAN.values()) == 10000,
+                   (GEORGIAN['ჱ'], GEORGIAN['ჵ'])))
+    # 6. The duplicate's living consequence: 494 carries two
+    #    spellings at this seat.
+    checks.append(('two spellings for one number: ჳჟდ == უჟდ == 494',
+                   weigh('ჳჟდ', 'georgian')['value']
+                   == weigh('უჟდ', 'georgian')['value'] == 494,
+                   (weigh('ჳჟდ', 'georgian')['value'],
+                    weigh('უჟდ', 'georgian')['value'])))
+    # 7. Zero: absence — no seat carries 0, and the witnesses'
+    #    unvalued tail stands outside the bank entire.
+    checks.append(('no zero seat, and the unvalued tail (ჶ ჷ ჸ ჹ ჺ '
+                   'ჼ ჻) weighs silence',
+                   0 not in GEORGIAN.values()
+                   and weigh('ჶჷჸ', 'georgian')['value'] == 0
+                   and weigh('ჶჷჸ', 'georgian')['breakdown'] == [],
+                   weigh('ჶჷჸ', 'georgian')['breakdown']))
+    # 8. The control case's shared domain, at this seat: every
+    #    Armenian value 1..9000 is a Georgian value.
+    checks.append(('CONTROL CASE — every Armenian value is a '
+                   'Georgian value (the shared domain 1..9000 '
+                   'entire)',
+                   set(ARMENIAN.values()) <= set(GEORGIAN.values()),
+                   len(set(ARMENIAN.values()) & set(GEORGIAN.values()))))
+    # 9. Computed data exhibits (computation, not attestation):
+    #    the alphabet's own name and the capital.
+    checks.append(('computed exhibits: ანბანი 114, თბილისი 271, '
+                   'საქართველო 1022',
+                   (weigh('ანბანი', 'georgian')['value'],
+                    weigh('თბილისი', 'georgian')['value'],
+                    weigh('საქართველო', 'georgian')['value'])
+                   == (114, 271, 1022),
+                   weigh('საქართველო', 'georgian')['value']))
+    # 10. The fence.
+    p = SYSTEMS['georgian']['provenance']
+    checks.append(('georgian provenance carries the fence '
+                   '(ATTESTED, 38, the doubled 400 and the 10000 '
+                   'letter stated, NOT the Armenian case)',
+                   p.startswith('ATTESTED') and '38' in p
+                   and '400' in p and '10000' in p, p[:60]))
     return checks
 
 

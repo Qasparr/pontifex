@@ -711,6 +711,76 @@ ARMENIAN_LATE = {
     'Ֆ': 20000, 'ֆ': 20000,
 }
 
+# -- Georgian: THE DESIGNED ALPHABET'S OWN TABLE (ATTESTED) ------------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — THE SECOND DESIGNED TABLE, stated against its neighbour
+# so the control case is never blurred. The Georgian alphabetic numeral
+# system (ქართული ანბანის სათვალავი) values the letters of the classical
+# 38-letter alphabet in decimal classes — units 1–9, tens 10–90,
+# hundreds 100–900, thousands 1000–9000 — and closes with a native
+# ten-thousands letter, ჵ = 10000. Audited 2026-11-24
+# (THE-GEORGIAN-FIELD-PHASE-I-AUDIT.md): two witnesses read entire
+# agree on all 38 cells — Wikipedia, "Georgian numerals" (its table
+# sourced there to Makharoblidze 2009) and georgianalphabet.com (its
+# per-letter value cards for the modern 33, its "Numeral letters"
+# section for the five obsolete letters) — every glyph verified
+# against the Unicode standard's names, and the witnesses' five worked
+# examples recomputed exact (ჩღჲთ 1769, ჩყპზ 1887, ციბ 2012, the
+# Motsameta inscription's ჩყმვ 1846, ცკვ 2026). Parity of this seat
+# against the audit's frozen transcription is proven by
+# test_georgian_parity.py at the repository root.
+#
+# THE DRESS COORDINATE, AT THE SAME SIZE AS THE VALUES: the system is
+# older than the script this bank is keyed in. The witnesses print the
+# table in MKHEDRULI (the modern script), and Mkhedruli codepoints are
+# what is seated here; historically the numerals ran in Asomtavruli
+# and Nuskhuri (the khutsuri church hand) — the audit verified in code
+# that every one of the 38 letters carries an Asomtavruli capital and
+# a Nuskhuri small partner under the standard's own names (38/38).
+# Those older forms are NOT re-keyed: the table is one table in three
+# dresses, and seating a second dress would seat one fact as two
+# banks (the Aramaic fence's discipline). The Mtavruli headline forms
+# (U+1C90–, a modern typographic case) are likewise unseated.
+#
+# THE DOUBLED SEAT — THE TABLE'S ONE PARTING FROM THE CLEAN SEAT LAW,
+# PRINTED AT FULL SIZE: the hundreds class holds TEN letters for nine
+# digits, because 400 is carried by TWO letters — ჳ (vie, obsolete)
+# and უ (un). Every value in the bank decomposes as digit x 10^class
+# (38/38), but the seat law (digit == within-class seat index) parts
+# at exactly six coordinates, positions 23–28: the whole hundreds
+# tail downstream of the second 400 (უ at position 23 carries digit 4
+# at seat-index 5, and ფ ქ ღ ყ შ follow one step behind their seats).
+# A consequence the witnesses' own system lives with: some numbers
+# carry two spellings (494 = ჳჟდ and უჟდ). Uniqueness, which the
+# Armenian bank holds entire (36 letters, 36 distinct values), does
+# NOT hold here: 38 letters, 37 distinct values, sum 60395.
+#
+# THE FIVE OBSOLETE LETTERS ARE SEATED IN THIS BANK — a desk decision
+# (the audit's §VII D1), and the reasoning is the mirror of the
+# Armenian annex: Օ and Ֆ are MEDIEVAL ADDITIONS to a classical
+# alphabet whose numeral table was already complete, so they stand a
+# tier below it in ARMENIAN_LATE. The Georgian five (ჱ ჲ ჳ ჴ ჵ) are
+# the opposite case — ORIGINAL members of the classical 38-letter
+# alphabet, coextensive with the numeral system itself, dropped from
+# ordinary writing only in the 1860s reform. A seat that refused them
+# would break sourced exhibits (ჩღჲთ = 1769 needs ჲ) and amputate the
+# system's own maximum (ჵ = 10000). They seat here at the classical
+# tier, their obsolete standing printed in the audit's data.
+#
+# THE TEN-THOUSANDS CONTRAST, FOR THE CONTROL CASE: where Armenian
+# stops at 9000 and reaches higher only by a DEVICE (the overline at
+# x10,000, resolution R2), Georgian seats 10000 as a LETTER and the
+# witnesses carry no multiplier device at all. And zero: neither
+# designed table has one — in both, zero is absence.
+GEORGIAN = {
+    'ა': 1, 'ბ': 2, 'გ': 3, 'დ': 4, 'ე': 5, 'ვ': 6, 'ზ': 7, 'ჱ': 8,
+    'თ': 9, 'ი': 10, 'კ': 20, 'ლ': 30, 'მ': 40, 'ნ': 50, 'ჲ': 60,
+    'ო': 70, 'პ': 80, 'ჟ': 90, 'რ': 100, 'ს': 200, 'ტ': 300, 'ჳ': 400,
+    'უ': 400, 'ფ': 500, 'ქ': 600, 'ღ': 700, 'ყ': 800, 'შ': 900,
+    'ჩ': 1000, 'ც': 2000, 'ძ': 3000, 'წ': 4000, 'ჭ': 5000, 'ხ': 6000,
+    'ჴ': 7000, 'ჯ': 8000, 'ჰ': 9000, 'ჵ': 10000,
+}
+
 # -- Aramaic: THE ABJAD BANK IN ITS OWN SCRIPTS (ATTESTED) -------------------
 # ---------------------------------------------------------------------------
 # PROVENANCE — THE MAP'S LAST SEAT, stated against its twin so the
