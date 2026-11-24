@@ -1,0 +1,23 @@
+n,phoenician,codepoint,name,meaning,sound,greek,greek_name,greek_value,latin,latin_value,arabic,arabic_name,arabic_value
+1,𐤀,U+10900,ʾālep,ox,ʾ,Α,alpha,1,A,1,ا,alif,1
+2,𐤁,U+10901,bēt,house,b,Β,beta,2,B,2,ب,bāʾ,2
+3,𐤂,U+10902,gīmel,camel / throwing stick,g,Γ,gamma,3,C,3,ج,jīm,3
+4,𐤃,U+10903,dālet,door / fish,d,Δ,delta,4,D,4,د,dāl,4
+5,𐤄,U+10904,hē,window / jubilation,h,Ε,epsilon,5,E,5,ه,hāʾ,5
+6,𐤅,U+10905,wāw,hook,w,Ϝ,digamma,6,F,6,و,wāw,6
+7,𐤆,U+10906,zayin,weapon / handcuff,z,Ζ,zeta,7,Z,26,ز,zāy,7
+8,𐤇,U+10907,ḥēt,courtyard / fence,ḥ,Η,eta,8,H,8,ح,ḥāʾ,8
+9,𐤈,U+10908,ṭēt,wheel,ṭ,Θ,theta,9,TH,,ط,ṭāʾ,9
+10,𐤉,U+10909,yōd,hand / arm,y,Ι,iota,10,I,9,ي,yāʾ,10
+11,𐤊,U+1090A,kāp,palm of the hand,k,Κ,kappa,20,K,11,ك,kāf,20
+12,𐤋,U+1090B,lāmed,goad,l,Λ,lambda,30,L,12,ل,lām,30
+13,𐤌,U+1090C,mēm,water,m,Μ,mu,40,M,13,م,mīm,40
+14,𐤍,U+1090D,nūn,fish / serpent,n,Ν,nu,50,N,14,ن,nūn,50
+15,𐤎,U+1090E,sāmek,support / pillar,s,Ξ,xi,60,X,24,س,sīn,60
+16,𐤏,U+1090F,ʿayin,eye,ʿ,Ο,omicron,70,O,15,ع,ʿayn,70
+17,𐤐,U+10910,pē,mouth / bend,p,Π,pi,80,P,16,ف,fāʾ,80
+18,𐤑,U+10911,ṣādē,plant / papyrus,ṣ,Ϻ,san,,,,ص,ṣād,90
+19,𐤒,U+10912,qōp,eye of the needle / monkey,q,Ϙ,koppa,90,Q,17,ق,qāf,100
+20,𐤓,U+10913,rēš,head,r,Ρ,rho,100,R,18,ر,rāʾ,200
+21,𐤔,U+10914,šīn,tooth / bow,š,Σ,sigma,200,S,19,ش,shīn,300
+22,𐤕,U+10915,tāw,mark,t,Τ,tau,300,T,20,ت,tāʾ,400
