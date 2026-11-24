@@ -1,0 +1,309 @@
+==============================================================================
+S0 — CALIBRATION
+==============================================================================
+θέλημα greek      = 93 [θ=9+ε=5+λ=30+η=8+μ=40+α=1]   (control: 93)
+VAPOUR ordinal    = 93 [V=22+A=1+P=16+O=15+U=21+R=18]   (the register's bridge: 93)
+σφίγξ greek       = 773 [σ=200+φ=500+ι=10+γ=3+ξ=60]   (control: 773)
+
+The Nine asserted against the engine (Greek bank):
+  Α   weigh('α','greek') =     1  OK
+  Ε   weigh('ε','greek') =     5  OK
+  Η   weigh('η','greek') =     8  OK
+  Ι   weigh('ι','greek') =    10  OK
+  Ο   weigh('ο','greek') =    70  OK
+  Υ   weigh('υ','greek') =   400  OK
+  Ω   weigh('ω','greek') =   800  OK
+  ΕΙ  weigh('ει','greek') =    15  OK
+  ΟΥ  weigh('ου','greek') =   470  OK
+  seven = 1294 (1294) · hybrids = 485 (485) · nine = 1779 (1779)
+  ASSERTION HOLDS.
+
+==============================================================================
+S1 — LEG 1: REDUCTION (digit-sum chains; mod-9; decade factorization)
+==============================================================================
+  Α       1 : 1                      root 1 · mod9 1 · decade (1, 0)
+  Ε       5 : 5                      root 5 · mod9 5 · decade (5, 0)
+  Η       8 : 8                      root 8 · mod9 8 · decade (8, 0)
+  Ι      10 : 10 → 1                 root 1 · mod9 1 · decade (1, 1)
+  Ο      70 : 70 → 7                 root 7 · mod9 7 · decade (7, 1)
+  Υ     400 : 400 → 4                root 4 · mod9 4 · decade (4, 2)
+  Ω     800 : 800 → 8                root 8 · mod9 8 · decade (8, 2)
+  ΕΙ     15 : 15 → 6                 root 6 · mod9 6 · decade None
+  ΟΥ    470 : 470 → 11 → 2           root 2 · mod9 2 · decade None
+
+  root multiset: [(1, ['Α', 'Ι']), (2, ['ΟΥ']), (4, ['Υ']), (5, ['Ε']), (6, ['ΕΙ']), (7, ['Ο']), (8, ['Η', 'Ω'])]
+  collisions: root 1 ×2 (Α, Ι); root 8 ×2 (Η, Ω)
+  empty roots: [3, 9]
+  distinct roots for nine vowels: 7
+
+  seven 1294    : 1294 → 16 → 7
+  hybrids 485   : 485 → 17 → 8
+  nine 1779     : 1779 → 24 → 6
+  ΟΥ 470        : 470 → 11 → 2
+  ΕΙ 15         : 15 → 6
+
+  Decade reading of the hybrids (the thesis grid: function × decade):
+    ΕΙ 15 = ε(5 ×1) + ι(1 ×10); components' decades: units + tens
+    ΟΥ 470 = ο(7 ×10) + υ(4 ×100); components' decades: tens + hundreds
+    decade(15) = None · decade(470) = None  (neither hybrid is a pure decade form)
+
+==============================================================================
+S2 — LEG 2: TRINITY PER VOWEL (Greek own tongue · Latin ordinal dress · Agrippa dress)
+==============================================================================
+  Α   greek     1 | A: ord 1 / agr 1
+  Ε   greek     5 | E: ord 5 / agr 5
+  Η   greek     8 | E: ord 5 / agr 5 · EI: ord 14 / agr 14
+  Ι   greek    10 | I: ord 9 / agr 9
+  Ο   greek    70 | O: ord 15 / agr 50
+  Υ   greek   400 | Y: ord 25 / agr 400 · V: ord 22 / agr 200 · U: ord 21 / agr 200
+  Ω   greek   800 | O: ord 15 / agr 50
+  ΕΙ  greek    15 | EI: ord 14 / agr 14 · I: ord 9 / agr 9
+  ΟΥ  greek   470 | OV: ord 37 / agr 250 · V: ord 22 / agr 200
+
+  The macron dresses weighed: Ō ordinal = 0, agrippa = 0 (silence in both banks — no seat); Ē ordinal = 0, agrippa = 0
+
+  Primary-dress totals: Greek 1779 · Latin ordinal 123 · Agrippa 584
+    Greek     1779: digit chain 1779 → 24 → 6 · prime factorization {3: 1, 593: 1}
+    Ordinal    123: digit chain 123 → 6 · prime factorization {3: 1, 41: 1}
+    Agrippa    584: digit chain 584 → 17 → 8 · prime factorization {2: 3, 73: 1}
+
+  The assembled grid (9 vowels × 3 banks = 27 cells, row-major in
+  canonical order × Trinity order); the hidden center is cell 14:
+    cell 14 = ('Ο', 'ordinal', 15)
+    grid sum = 2486 · chain 2486 → 20 → 2
+
+  The 13-Gate (QVANTVM §3 form: digit-sum chains; passage through 13 noted):
+    Α       1: 1
+    Ε       5: 5
+    Η       8: 8
+    Ι      10: 10 → 1
+    Ο      70: 70 → 7
+    Υ     400: 400 → 4
+    Ω     800: 800 → 8
+    ΕΙ     15: 15 → 6
+    ΟΥ    470: 470 → 11 → 2
+    sum 1294: 1294 → 16 → 7
+    sum 1779: 1779 → 24 → 6
+    sum 485: 485 → 17 → 8
+
+==============================================================================
+S3 — LEG 3: TRIANGULATION
+==============================================================================
+  (a) ORDER — Frame A: canonical order on the sketch nodes (angle
+      −90° + 40°·i, i = 0..8), triads as coded: (0,3,6) (1,4,7) (2,5,8).
+    Triad A0 ['Α', 'Ι', 'Ω']: sum 811 · chain 811 → 10 → 1
+    Triad A1 ['Ε', 'Ο', 'ΕΙ']: sum 90 · chain 90 → 9
+    Triad A2 ['Η', 'Υ', 'ΟΥ']: sum 878 · chain 878 → 23 → 5
+
+  (b) CLASS — Frame B: decade classes. Three stated rules for the
+      hybrids: value-class (digits of the sum), landing-class (the
+      glide's second component), onset-class (first component).
+    rule value   : class sizes [3, 3, 3] — TILES 3-3-3
+    rule landing : class sizes [3, 3, 3] — TILES 3-3-3
+    rule onset   : class sizes [4, 3, 2] — does not tile
+    Class triad B0 (by value) ['Α', 'Ε', 'Η']: sum 14 · chain 14 → 5
+    Class triad B1 (by value) ['Ι', 'ΕΙ', 'Ο']: sum 95 · chain 95 → 14 → 5
+    Class triad B2 (by value) ['Υ', 'ΟΥ', 'Ω']: sum 1670 · chain 1670 → 14 → 5
+
+  Frame agreement (triad index; position within triad by the frame's
+  own order — sketch: node order; class: value order):
+    Α   A(0, 0) vs B(0, 0) — TRIAD AGREES · position agrees
+    Ε   A(1, 0) vs B(0, 1) — triad parts
+    Η   A(2, 0) vs B(0, 2) — triad parts
+    Ι   A(0, 1) vs B(1, 0) — triad parts
+    Ο   A(1, 1) vs B(1, 2) — TRIAD AGREES
+    Υ   A(2, 1) vs B(2, 0) — TRIAD AGREES
+    Ω   A(0, 2) vs B(2, 2) — triad parts
+    ΕΙ  A(1, 2) vs B(1, 1) — TRIAD AGREES
+    ΟΥ  A(2, 2) vs B(2, 1) — TRIAD AGREES
+  Hybrid placement by triad index: ΕΙ A1/B1 · ΟΥ A2/B2
+
+  (c) THE SOLFEGGIO NINE (resonance/core/notes.py, as filed):
+    freqs: [174, 285, 396, 417, 528, 639, 741, 852, 963]
+    names: ['Foundation', 'Quantum', 'Liberation', 'Transmutation', 'Transformation', 'Connection', 'Expression', 'Intuition', 'Oneness']
+    reductions: ['174 → 12 → 3', '285 → 15 → 6', '396 → 18 → 9', '417 → 12 → 3', '528 → 15 → 6', '639 → 18 → 9', '741 → 12 → 3', '852 → 15 → 6', '963 → 18 → 9']
+    roots by position 1..9: [3, 6, 9, 3, 6, 9, 3, 6, 9]
+    root 3: positions [1, 4, 7] · freqs [174, 417, 741]
+    root 6: positions [2, 5, 8] · freqs [285, 528, 852]
+    root 9: positions [3, 6, 9] · freqs [396, 639, 963]
+    Order-pairing vowel k ↔ solfeggio k, roots compared:
+    Α   (root 1) ↔ 174 Hz Foundation (root 3) — roots part
+    Ε   (root 5) ↔ 285 Hz Quantum (root 6) — roots part
+    Η   (root 8) ↔ 396 Hz Liberation (root 9) — roots part
+    Ι   (root 1) ↔ 417 Hz Transmutation (root 3) — roots part
+    Ο   (root 7) ↔ 528 Hz Transformation (root 6) — roots part
+    Υ   (root 4) ↔ 639 Hz Connection (root 9) — roots part
+    Ω   (root 8) ↔ 741 Hz Expression (root 3) — roots part
+    ΕΙ  (root 6) ↔ 852 Hz Intuition (root 6) — ROOTS AGREE
+    ΟΥ  (root 2) ↔ 963 Hz Oneness (root 9) — roots part
+    root-agreeing pairs by order: [('ΕΙ', 852)]
+    vowel roots present: [1, 2, 4, 5, 6, 7, 8] · solfeggio roots present: [3, 6, 9] · shared roots: [6]
+
+  (d) FURTHER WITNESSES.
+    The tridecagram (build_divine_nine_vowel_table.py): 13 stations at
+    −90° + i·(360/13)°; labels in order: Α Ε Η Ι Ο Υ Ω ΕΙ ΟΥ · γʹ OFFSET ·
+    ϛʹ MIRROR · κʹ REFUSAL · οὐδέν ZERO. Star step {13/5} traversal:
+    Α → Υ → ϛʹ MIRROR → Η → ΕΙ → οὐδέν ZERO → Ο → γʹ OFFSET → Ε → Ω → κʹ REFUSAL → Ι → ΟΥ
+    abc_notes seats for the Latin faces (engine, system abc_notes):
+    A: 1 [A=1]
+    E: 5 [E=5]
+    I: 0 [no letters weighed]
+    O: 0 [no letters weighed]
+    V: 0 [no letters weighed]
+    Y: 0 [no letters weighed]
+
+==============================================================================
+S4 — LEG 4: ARCHON CONTROLS FROM THE CORPUS
+==============================================================================
+  ἄρχων greek      = 1551 [α=1+ρ=100+χ=600+ω=800+ν=50]  (ARCHONSTRATVMVXXX instrument: 1551)
+  ARCHON ordinal   = 59 [A=1+R=18+C=3+H=8+O=15+N=14]  (the instrument: 59)
+  ARCHON agrippa   = 182 [A=1+R=80+C=3+H=8+O=50+N=40]
+  ἀρχή greek       = 709 [α=1+ρ=100+χ=600+η=8]  (the root-word: beginning/rule)
+
+==============================================================================
+S5 — LEG 5: HYBRID-MARK CENSUS, THE CROSS TEST, THE KEY STRINGS
+==============================================================================
+  Hybridity marks in the corpus (documentary — citations in the instrument):
+    WITHIN THE NINE, corpus-marked: ΕΙ (improper diphthong, grammarians') ·
+    ΟΥ (improper diphthong, grammarians') · Υ (border-dweller: vowel that
+    served as a consonant's kin, essay §II; /y/ = /i/ tongue + /u/ lips,
+    vocal tool §II) → COUNT 3.
+    Η by heta: the wider tradition attests Η began as the aspirate
+    consonant heta; the founder's corpus NOWHERE marks it (searched).
+    WIDER FIELD, corpus-marked: ϛ stigma (letter-born, numeral-bound,
+    essay §VII) · VV (founder's clause, thesis §III: vowel or consonant
+    decided by the reading tongue) · V Latin (the dialect's own hybrid
+    letter, Latin essay §II) → wider count with the nine's three: 6 named
+    marks; the four-count is reached only by stated selection.
+
+  The candidate four (nine + heta admitted): ['Η', 'Υ', 'ΕΙ', 'ΟΥ'] values {'Η': 8, 'Υ': 400, 'ΕΙ': 15, 'ΟΥ': 470}
+    canonical positions: [3, 6, 8, 9]
+    Frame A triads: [2, 2, 1, 2] · Frame B classes: [0, 2, 1, 2]
+    sum 893 · chain 893 → 20 → 2
+    roots: [8, 4, 6, 2] (set [2, 4, 6, 8])
+    the non-hybrid five roots: [1, 5, 1, 7, 8]
+    9-ring quarters: 9/4 = 2.25 — not integral; no exact cardinal
+    cross seats on a nine-node ring. Nearest node sets to the quarters
+    (0°, 90°, 180°, 270° from node 0 at −90°): nodes 0, 2, 4 or 5, 7 —
+    approximations, printed as approximations.
+    tridecagram stations of the four: [3, 6, 8, 9] of 13; 13/4 = 3.25 — not integral either.
+
+  THE KEY STRINGS (byte-exact as given; expansions unruled):
+    VYX: ordinal 71 [V=22+Y=25+X=24] · agrippa 900 [V=200+Y=400+X=300] · chains ord 71 → 8 / agr 900 → 9
+    RRYYZZ: ordinal 138 [R=18+R=18+Y=25+Y=25+Z=26+Z=26] · agrippa 1960 [R=80+R=80+Y=400+Y=400+Z=500+Z=500] · chains ord 138 → 12 → 3 / agr 1960 → 16 → 7
+    WVII: ordinal 63 [W=23+V=22+I=9+I=9] · agrippa 218 [V=200+I=9+I=9] · chains ord 63 → 9 / agr 218 → 11 → 2
+    VVII: ordinal 62 [V=22+V=22+I=9+I=9] · agrippa 418 [V=200+V=200+I=9+I=9] · chains ord 62 → 8 / agr 418 → 13 → 4
+  Components:
+    R  : ordinal   18 · agrippa   80
+    Y  : ordinal   25 · agrippa  400
+    Z  : ordinal   26 · agrippa  500
+    V  : ordinal   22 · agrippa  200
+    W  : ordinal   23 · agrippa    0
+    X  : ordinal   24 · agrippa  300
+    I  : ordinal    9 · agrippa    9
+    RR : ordinal   36 · agrippa  160 · doubles map ord 36 / agr 160
+    YY : ordinal   50 · agrippa  800 · doubles map ord 50 / agr 800
+    ZZ : ordinal   52 · agrippa 1000 · doubles map ord 52 / agr 1000
+    VV : ordinal   44 · agrippa  400 · doubles map ord 44 / agr 400
+    II : ordinal   18 · agrippa   18 · doubles map ord 18 / agr 18
+    WW : ordinal   46 · agrippa    0 · doubles map ord 46 / agr 0
+  Roman instrument (numerals.py) on the doubles:
+    II: status lawful · value 2 · promotion None · hybrid_seat False
+    VV: status refused_hybrid · value None · promotion X · hybrid_seat True
+    XX: status lawful · value 20 · promotion None · hybrid_seat False
+    CC: status lawful · value 200 · promotion None · hybrid_seat False
+    MM: status lawful · value 2000 · promotion None · hybrid_seat False
+    LL: status refused · value None · promotion C · hybrid_seat False
+    DD: status refused · value None · promotion M · hybrid_seat False
+    roman_pair('VV') = {'letter': 'V', 'repeat': 2, 'status': 'refused_hybrid', 'value': None, 'promotion': 'X', 'hybrid_seat': True, 'promotion_value': 10} · roman_pair('II') = {'letter': 'I', 'repeat': 2, 'status': 'lawful', 'value': 2, 'promotion': None, 'hybrid_seat': False}
+    roman_parse('VVII') = 12
+    roman_parse('WVII') refuses: ValueError: not a numeral: 'WVII'
+  Greek dresses (stated equivalences: V→Υ, Y→Υ, X→Ξ, R→Ρ, Z→Ζ, W→ΥΥ, I→Ι):
+    VYX → υυξ: 860 [υ=400+υ=400+ξ=60] · chain 860 → 14 → 5
+    RRYYZZ → ρρυυζζ: 1014 [ρ=100+ρ=100+υ=400+υ=400+ζ=7+ζ=7] · chain 1014 → 6
+    WVII → υυυιι: 1220 [υ=400+υ=400+υ=400+ι=10+ι=10] · chain 1220 → 5
+    VVII → υυιι: 820 [υ=400+υ=400+ι=10+ι=10] · chain 820 → 10 → 1
+  Hebrew fallback dresses (the engine's own door, weigh_via_hebrew_fallback):
+    VYX: {'word': 'ויקס', 'system': 'hebrew', 'value': 176, 'provenance': 'ATTESTED', 'breakdown': [('ו', 6), ('י', 10), ('ק', 100), ('ס', 60)], 'rendering': 'ויקס', 'rendering_provenance': 'CONSTRUCTED', 'mergers': ['ו', 'י', 'ק'], 'via': 'hebrew_fallback'}
+    RRYYZZ: {'word': 'ררייזז', 'system': 'hebrew', 'value': 434, 'provenance': 'ATTESTED', 'breakdown': [('ר', 200), ('ר', 200), ('י', 10), ('י', 10), ('ז', 7), ('ז', 7)], 'rendering': 'ררייזז', 'rendering_provenance': 'CONSTRUCTED', 'mergers': ['י'], 'via': 'hebrew_fallback'}
+    WVII: {'word': 'וויי', 'system': 'hebrew', 'value': 32, 'provenance': 'ATTESTED', 'breakdown': [('ו', 6), ('ו', 6), ('י', 10), ('י', 10)], 'rendering': 'וויי', 'rendering_provenance': 'CONSTRUCTED', 'mergers': ['ו', 'י'], 'via': 'hebrew_fallback'}
+    VVII: {'word': 'וויי', 'system': 'hebrew', 'value': 32, 'provenance': 'ATTESTED', 'breakdown': [('ו', 6), ('ו', 6), ('י', 10), ('י', 10)], 'rendering': 'וויי', 'rendering_provenance': 'CONSTRUCTED', 'mergers': ['ו', 'י'], 'via': 'hebrew_fallback'}
+  Touch tests vs the hybrids' seats {15, 470, 485, root 8} and the house
+  numbers {93, 77, 1776, 1779, 1294}: equality / root-equality / Δ∈{1,3}:
+    VYX ordinal                71 root 8: root 8 = root of 8; root 8 = root of 485
+    VYX agrippa               900 root 9: no touch
+    RRYYZZ ordinal            138 root 3: no touch
+    RRYYZZ agrippa           1960 root 7: no touch
+    WVII ordinal               63 root 9: no touch
+    WVII agrippa              218 root 2: root 2 = root of 470
+    VVII ordinal               62 root 8: root 8 = root of 8; root 8 = root of 485
+    VVII agrippa              418 root 4: no touch
+    VYX greek dress           860 root 5: no touch
+    RRYYZZ greek dress       1014 root 6: root 6 = root of 15
+    WVII greek dress         1220 root 5: no touch
+    VVII greek dress          820 root 1: no touch
+  Dress-pair Δ (WVII vs VVII): ordinal Δ1 · agrippa Δ200
+
+==============================================================================
+S6 — LEG 5 EXTENSION: THE FOLD
+==============================================================================
+  The four ['Η', 'Υ', 'ΕΙ', 'ΟΥ']: values [8, 400, 15, 470]
+    sum 893 · chain 893 → 20 → 2
+    product 22560000 · chain 22560000 → 15 → 6
+    roots [8, 4, 6, 2] · root sum 20 · root product 384 · chain 384 → 15 → 6
+  ΗΗ weighed: greek 16 [η=8+η=8] · the figure 88 in Greek dress: πη 88 [π=80+η=8] · chain 88 → 16 → 7
+  HH ordinal 16 [H=8+H=8] · 88 = 8 × 11; 88 in the record: RGBXA88 (cited as coordinate only, unexpanded)
+  The hybrids' own road to 8: 485 → 485 → 17 → 8 (essay §III)
+
+==============================================================================
+S7 — LEG 6: THE TWELVE-TONGUES SWEEP (vowel seats from the tables)
+==============================================================================
+  HEBREW matres (א ה ו י): {'א': 1, 'ה': 5, 'ו': 6, 'י': 10}
+    sofit finals present: ['ך', 'ם', 'ן', 'ף', 'ץ']
+  ARABIC matres (ا و ي): {'ا': 1, 'و': 6, 'ي': 10}
+    tāʾ marbūṭa ة in table: False · weigh = 0 (breakdown [])
+  LATIN vowels: ordinal {'A': 1, 'E': 5, 'I': 9, 'O': 15, 'V': 22} · agrippa {'A': 1, 'E': 5, 'I': 9, 'O': 50, 'V': 200}
+  KANA vowel seats (KANA_VOWEL): {'あ': 1, 'い': 2, 'う': 3, 'え': 4, 'お': 5, 'か': 1, 'き': 2, 'く': 3, 'け': 4, 'こ': 5, 'さ': 1, 'し': 2, 'す': 3, 'せ': 4, 'そ': 5, 'た': 1, 'ち': 2, 'つ': 3, 'て': 4, 'と': 5, 'な': 1, 'に': 2, 'ぬ': 3, 'ね': 4, 'の': 5, 'は': 1, 'ひ': 2, 'ふ': 3, 'へ': 4, 'ほ': 5, 'ま': 1, 'み': 2, 'む': 3, 'め': 4, 'も': 5, 'や': 1, 'ゆ': 3, 'よ': 5, 'ら': 1, 'り': 2, 'る': 3, 'れ': 4, 'ろ': 5, 'わ': 1, 'ゐ': 2, 'ゑ': 4, 'を': 5, 'が': 1, 'ぎ': 2, 'ぐ': 3, 'げ': 4, 'ご': 5, 'ざ': 1, 'じ': 2, 'ず': 3, 'ぜ': 4, 'ぞ': 5, 'だ': 1, 'ぢ': 2, 'づ': 3, 'で': 4, 'ど': 5, 'ば': 1, 'び': 2, 'ぶ': 3, 'べ': 4, 'ぼ': 5, 'ぱ': 1, 'ぴ': 2, 'ぷ': 3, 'ぺ': 4, 'ぽ': 5, 'ぁ': 1, 'ぃ': 2, 'ぅ': 3, 'ぇ': 4, 'ぉ': 5, 'ゃ': 1, 'ゅ': 3, 'ょ': 5, 'ゎ': 1, 'ゕ': 1, 'ゖ': 4, 'ア': 1, 'イ': 2, 'ウ': 3, 'エ': 4, 'オ': 5, 'カ': 1, 'キ': 2, 'ク': 3, 'ケ': 4, 'コ': 5, 'サ': 1, 'シ': 2, 'ス': 3, 'セ': 4, 'ソ': 5, 'タ': 1, 'チ': 2, 'ツ': 3, 'テ': 4, 'ト': 5, 'ナ': 1, 'ニ': 2, 'ヌ': 3, 'ネ': 4, 'ノ': 5, 'ハ': 1, 'ヒ': 2, 'フ': 3, 'ヘ': 4, 'ホ': 5, 'マ': 1, 'ミ': 2, 'ム': 3, 'メ': 4, 'モ': 5, 'ヤ': 1, 'ユ': 3, 'ヨ': 5, 'ラ': 1, 'リ': 2, 'ル': 3, 'レ': 4, 'ロ': 5, 'ワ': 1, 'ヰ': 2, 'ヱ': 4, 'ヲ': 5, 'ガ': 1, 'ギ': 2, 'グ': 3, 'ゲ': 4, 'ゴ': 5, 'ザ': 1, 'ジ': 2, 'ズ': 3, 'ゼ': 4, 'ゾ': 5, 'ダ': 1, 'ヂ': 2, 'ヅ': 3, 'デ': 4, 'ド': 5, 'バ': 1, 'ビ': 2, 'ブ': 3, 'ベ': 4, 'ボ': 5, 'パ': 1, 'ピ': 2, 'プ': 3, 'ペ': 4, 'ポ': 5, 'ァ': 1, 'ィ': 2, 'ゥ': 3, 'ェ': 4, 'ォ': 5, 'ャ': 1, 'ュ': 3, 'ョ': 5, 'ヮ': 1, 'ヵ': 1, 'ヶ': 4}
+    ア: kana weigh = 1
+    イ: kana weigh = 2
+    ウ: kana weigh = 3
+    エ: kana weigh = 4
+    オ: kana weigh = 5
+  GEEZ: first-form sample {'ሀ': 1, 'ሁ': 1, 'ሂ': 1, 'ሃ': 1, 'ሄ': 1} · eighth-slot hole sign: ዐ
+  ARMENIAN vowels: {'Ա': 1, 'Ե': 5, 'Ը': 8, 'Ի': 20, 'Ո': 600, 'Ւ': 7000, 'Օ': None}
+    digraph ՈՒ (ու): weigh = 7600
+  COPTIC vowels: {'Ⲁ': None, 'Ⲉ': None, 'Ⲏ': None, 'Ⲓ': None, 'Ⲟ': None, 'Ⲩ': None, 'Ⲱ': None}
+    digraph ⲞⲨ: weigh = 470
+  GEORGIAN vowels: {'ა': 1, 'ე': 5, 'ი': 10, 'ო': 70, 'უ': 400, 'ჱ': 8}
+  CYRILLIC vowel candidates: {'А': 1, 'Е': 5, 'И': 8, 'І': 10, 'О': 70, 'У': 400, 'Ѹ': 400, 'Ѡ': 800, 'Ъ': None, 'Ь': None}
+  GLAGOLITIC vowel candidates: {'ⰰ': None, 'ⰵ': None, 'ⰻ': None, 'ⰹ': None, 'ⰿ': None, 'Ⱐ': None, 'Ⱒ': None, 'Ⱊ': None}
+  HANGUL vowel jamo (21): {'ᅡ': 1, 'ᅢ': 2, 'ᅣ': 3, 'ᅤ': 4, 'ᅥ': 5, 'ᅦ': 6, 'ᅧ': 7, 'ᅨ': 8, 'ᅩ': 9, 'ᅪ': 10, 'ᅫ': 11, 'ᅬ': 12, 'ᅭ': 13, 'ᅮ': 14, 'ᅯ': 15, 'ᅰ': 16, 'ᅱ': 17, 'ᅲ': 18, 'ᅳ': 19, 'ᅴ': 20, 'ᅵ': 21}
+    ᅡ: hangul weigh = 1
+    ᅢ: hangul weigh = 2
+    ᅣ: hangul weigh = 3
+    ᅤ: hangul weigh = 4
+    ᅥ: hangul weigh = 5
+    ᅦ: hangul weigh = 6
+    ᅧ: hangul weigh = 7
+    ᅨ: hangul weigh = 8
+    ᅩ: hangul weigh = 9
+    ᅪ: hangul weigh = 10
+    ᅫ: hangul weigh = 11
+    ᅬ: hangul weigh = 12
+    ᅭ: hangul weigh = 13
+    ᅮ: hangul weigh = 14
+    ᅯ: hangul weigh = 15
+    ᅰ: hangul weigh = 16
+    ᅱ: hangul weigh = 17
+    ᅲ: hangul weigh = 18
+    ᅳ: hangul weigh = 19
+    ᅴ: hangul weigh = 20
+    ᅵ: hangul weigh = 21
+  Kana dress check for the key strings (signs present in KANA table?):
+    ヴ: ABSENT
+    ク: present
+    ス: present
+    ル: present
+    ズ: present
+
+BATTERY COMPUTATION COMPLETE — all figures above are engine output.

@@ -1,0 +1,87 @@
+==============================================================================
+S8 — THE FOUR DIPHTHONGS
+==============================================================================
+  ΑΙ (proper): 11 [α=1+ι=10] · chain 11 → 2 · root 2
+  ΕΙ (improper): 15 [ε=5+ι=10] · chain 15 → 6 · root 6
+  ΟΙ (proper): 80 [ο=70+ι=10] · chain 80 → 8 · root 8
+  ΟΥ (improper): 470 [ο=70+υ=400] · chain 470 → 11 → 2 · root 2
+  proper pair   ΑΙ+ΟΙ = 91 · chain 91 → 10 → 1
+  improper pair ΕΙ+ΟΥ = 485 · chain 485 → 17 → 8 (the seated hybrids)
+  cross pairs: ΑΙ+ΟΥ = 481 · chain 481 → 13 → 4 · ΕΙ+ΟΙ = 95 · chain 95 → 14 → 5
+  THE FOUR SUM = 576 · chain 576 → 18 → 9 · root 9
+  square test: isqrt(576) = 24, 24² = 576 — EXACT SQUARE
+  product of the four = 6204000 · chain 6204000 → 12 → 3
+  roots of the four: [2, 6, 8, 2]
+
+  The Latin witness and the dress (stated as dress only):
+    AE (Latin heir of ΑΙ): ordinal 6 [A=1+E=5] · agrippa 6 [A=1+E=5]
+    'oo' (transliteration dress of ΟΥ's sound): ordinal 30 [O=15+O=15] · agrippa 100 [O=50+O=50]
+    'OU' (schoolbook dress): ordinal 36 [O=15+U=21] · agrippa 250 [O=50+U=200]
+
+  Structural consequence — the Eleven:
+    the nine extended by the proper pair: ['Α', 'ΑΙ', 'Ε', 'ΕΙ', 'Η', 'Ι', 'Ο', 'ΟΙ', 'ΟΥ', 'Υ', 'Ω']
+    eleven sum = 1870 · chain 1870 → 16 → 7 (the nine's 1779 + the proper pair's 91)
+    seats of the four inside the nine: ΕΙ = seat 8, ΟΥ = seat 9; ΑΙ and ΟΙ hold NO seat in the nine — the four straddle its edge.
+
+==============================================================================
+S9 — THE ALREADY-THERE PASS
+==============================================================================
+  FOUND 1 — THE TRIDECAGRAM PLATE (build_divine_nine_vowel_table.py,
+  the founder's engine, drawn 2026-11-09/24; essay plate addendum:
+  "nine vowels, three relations, one zero"). The plate seats, in
+  ring order: stations 1–9 the nine vowels in canonical order;
+  station 10 γʹ OFFSET (3) · 11 ϛʹ MIRROR (6) · 12 κʹ REFUSAL (20) ·
+  13 οὐδέν THE ZERO POINT. Operator values weighed:
+    OFFSET γʹ: 3 [γ=3]
+    MIRROR ϛʹ (stigma): 6 [ϛ=6]
+    REFUSAL κʹ: 20 [κ=20]
+    οὐδέν: 529 [ο=70+υ=400+δ=4+ε=5+ν=50] (the zero station's name weighed)
+    ring total: vowels 1779 + operators 29 = 1808 · chain 1808 → 17 → 8
+  FOUND 2 — THE SKETCH (build_divine_nine_sketch.py): nine nodes at
+  −90° + 40°·i around SOURCE / AETHER, labeled Roman I–IX only;
+  triads drawn (0,3,6) (1,4,7) (2,5,8). The geometry is FOUND; the
+  vowels' assignment to nodes is by canonical order (stated reading).
+  FOUND 3 — THE SOLFEGGIO ORDER (notes.py, as filed): the nine
+  frequencies in ascending order with their filed names; its
+  reduction structure (3-6-9 over the mod-3 position classes) is
+  computed in the first pass, S3(c).
+  FOUND 4 — THE THESIS GRID (THE-DIVINE-NINE-THESIS §II): nine
+  FUNCTIONS × three decades = the 27-slot grid; it seats functions
+  1–9, not vowels and not archons — a found nine-seat STRUCTURE
+  whose seats are numbers.
+  FOUND 5 — THE VOCAL TOOL ORDER (THE-DIVINE-NINE-VOCAL-TOOL §I–II):
+  the canonical order with acoustic seats (/a/ /e/ /ɛː/ /i/ /o/ /y/
+  /ɔː/) and VV seated over the /u/ family — a found seating of the
+  nine as SOUNDS, drawn for the engine, never named an archon seating.
+  FOUND 6 — THE DIAL (THE-DOUBLE-LETTER-DIAL): seats the PAIRS on a
+  pitch wheel under two traversals (POM/MOP); it does not seat the
+  nine vowels — searched for the pass, NOT a nine-seat structure.
+
+==============================================================================
+S10 — COPTIC / GLAGOLITIC / ARMENIAN VOWEL SEATS VIA weigh()
+==============================================================================
+  COPTIC (the bank folds case; singles weighed):
+    ⲁ: 1 [ⲁ=1]
+    ⲉ: 5 [ⲉ=5]
+    ⲏ: 8 [ⲏ=8]
+    ⲓ: 10 [ⲓ=10]
+    ⲟ: 70 [ⲟ=70]
+    ⲩ: 400 [ⲩ=400]
+    ⲱ: 800 [ⲱ=800]
+    digraph ⲟⲩ: 470 [ⲟ=70+ⲩ=400]
+  GLAGOLITIC (singles weighed):
+    ⰰ: 1 [Ⰰ=1]
+    ⰵ: 6 [Ⰵ=6]
+    ⰻ: 20 [Ⰻ=20]
+    ⰹ: 10 [Ⰹ=10]
+    ⰿ: 60 [Ⰿ=60]
+    Ⱐ: 0 [no letters weighed]
+    Ⱒ: 0 [no letters weighed]
+  ARMENIAN Օ/օ (the later ō letter) weighed:
+    Օ: 0 [no letters weighed] · օ: 0 [no letters weighed]
+  GEORGIAN ჱ weighed (the archaic e-family letter):
+    ჱ: 8 [ჱ=8]
+  CYRILLIC yers weighed (Ъ/Ь in the numeral bank):
+    Ъ: 0 [no letters weighed] · Ь: 0 [no letters weighed]
+
+SECOND PASS COMPLETE.
