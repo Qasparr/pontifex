@@ -62,6 +62,10 @@ from .tables import (
     ARMENIAN,
     COPTIC, ARMENIAN_LATE,
     ARAMAIC, ARAMAIC_IMPERIAL, ARAMAIC_SYRIAC,
+    HANGUL, HANGUL_INITIAL, HANGUL_VOWEL, HANGUL_FINAL,
+    HANGUL_NULL_INITIAL, HANGUL_1446,
+    HANGUL_1446_INITIAL, HANGUL_1446_VOWEL, HANGUL_1446_FINAL,
+    _jamo_conjoining,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -298,6 +302,66 @@ SYSTEMS = {
                                     'counts the manuscript marks '
                                     '(the overline; the raised '
                                     'point) and prices none'},
+    # DOCTRINE: the HANGUL MINT is a house coinage on a designed
+    # grid — the registry's third mint, after the gojūon and the
+    # Ge'ez. The Phase I audit (2026-11-24) verified the checked
+    # negative: Hangul has NO letter-numeral tradition (Korean
+    # numerals are native words and borrowed Chinese glyphs);
+    # what exists is the grid — Sejong's featural alphabet with
+    # canonical orders, audited from two witnesses and the
+    # Unicode standard's block order. The mint prices the jamo
+    # by their seats within the script's three positional strata
+    # (initial / vowel / final), the Aramaic face-law's shape on
+    # the triad's face. Its teeth stand on its face: the tense
+    # doubles are lawful at their seats (their prices are NOT
+    # doublings — the parting is printed at the bank); the final
+    # digraphs are refused initial seats (no choseong forms
+    # exist); the obsolete letters are refused modern seats
+    # (theirs is the 1446 annex, opt-in at the hangul() door,
+    # the ARMENIAN_LATE shape); and ㅇ is the hybrid hinge —
+    # a full letter as a final, the script's own ZERO as an
+    # initial, priced 0 at the door and counted, never silent.
+    # The North Korean orders part from the South and are not
+    # seated. hangul() below is the reading door: it decomposes
+    # syllable blocks by the standard's law and applies the
+    # null law; weigh() is the raw bank door and shows seats.
+    'hangul':        {'table': HANGUL,
+                      'provenance': 'CONSTRUCTED — the HANGUL MINT: '
+                                    'house coinage minted at the '
+                                    'desk 2026-11-24 under the '
+                                    'founder\'s Flagpole, on the '
+                                    'audited grid (Phase I audit: '
+                                    'two witnesses and the Unicode '
+                                    'standard agree on the orders; '
+                                    'NO letter-numeral tradition '
+                                    'exists for Hangul — the '
+                                    'negative is checked, not '
+                                    'assumed). The jamo are priced '
+                                    'by their canonical South '
+                                    'Korean seats within three '
+                                    'strata (initial 19, vowel 21, '
+                                    'final 27). Teeth: the tense '
+                                    'doubles are lawful at their '
+                                    'seats, their prices NOT '
+                                    'doublings (only ㄲ coincides '
+                                    'with twice its base); the '
+                                    'final digraphs are refused '
+                                    'modern initial seats; the '
+                                    'obsolete '
+                                    'letters (ㆁ ㅿ ㆆ ㆍ) are refused '
+                                    'modern seats — theirs is the '
+                                    '1446 annex at the hangul() '
+                                    'door\'s hist path. The hinge '
+                                    'ㅇ: full letter as a final '
+                                    '(seat 21), the script\'s own '
+                                    'zero as an initial — the '
+                                    'hangul() door prices it 0 '
+                                    'there and counts it; the raw '
+                                    'bank shows its seat (12). '
+                                    'The North Korean orders part '
+                                    'and are not seated; NOT '
+                                    'attested, traditional, or '
+                                    'ancient'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -804,6 +868,150 @@ def aramaic(word):
     result['overline_marks'] = overlines
     result['raised_point_marks'] = raised
     return result
+
+
+def _jamo_compat(conjoining):
+    """The compatibility form of a conjoining jamo, by name.
+
+    MECHANISM: the mirror of tables._jamo_conjoining — strip the
+    'HANGUL CHOSEONG/JUNGSEONG/JONGSEONG ' prefix to the name-tail
+    and find 'HANGUL LETTER <tail>' in the compatibility block.
+    Used so the hangul() door's breakdown shows the letters as
+    readers write them, not as the standard files them."""
+    name = unicodedata.name(conjoining, '')
+    for prefix in ('HANGUL CHOSEONG ', 'HANGUL JUNGSEONG ',
+                   'HANGUL JONGSEONG '):
+        if name.startswith(prefix):
+            tail = name[len(prefix):]
+            break
+    else:
+        return conjoining
+    for cp in range(0x3131, 0x3190):
+        if unicodedata.name(chr(cp), '') == 'HANGUL LETTER ' + tail:
+            return chr(cp)
+    return conjoining
+
+
+def hangul(word, hist=False):
+    """Weigh a Korean word in the Hangul mint, syllable dress.
+
+    MECHANISM: the mint's reading door for text as it is written.
+    The word is NFD-normalized, which decomposes every syllable
+    block into its conjoining jamo by the standard's own law
+    (block = (initial × 21 + vowel) × 28 + final, in the South
+    order); each jamo is then priced at its seat in its stratum.
+    Bare compatibility jamo are resolved by Unicode name: a vowel
+    to its vowel seat; a consonant to its INITIAL seat (the
+    door's convention for a letter standing alone — stated here
+    because the compatibility block cannot say which stratum a
+    bare letter means); a digraph, which has no initial form, to
+    its FINAL seat — the only seat it holds. The result carries
+    weigh()'s shape plus the dress made auditable: the three
+    strata subtotals, 'null_initials' (every placeholder ㅇ the
+    null law priced at 0 — the zero is counted, never silent),
+    'unseated' (signs the active grid refuses: obsolete letters
+    on the modern path, modern-only signs on the hist path), and
+    'hist_annex'. The breakdown shows each jamo's PRICED
+    contribution in compatibility dress, so its entries sum to
+    the value and the nulls show as ('ㅇ', 0).
+
+    DOCTRINE — THE NULL LAW: in the modern grid, a syllable-
+    initial ㅇ is the script's own zero, the silent placeholder —
+    phonologically exact in modern Korean, where an initial ㅇ is
+    always the placeholder and the letter's consonantal life is
+    final. The door prices it 0 and counts it. weigh(word,
+    'hangul') is the raw bank door: it reads conjoining jamo at
+    their seats and shows the initial ㅇ at seat 12 — the two
+    doors' parting is printed here and pinned in hangul_checks(),
+    the way kana()'s ー parts from the raw kana bank.
+
+    DOCTRINE — THE 1446 ANNEX (hist=True): the introduction grid
+    of the Hunminjeongeum, opt-in only — the ARMENIAN_LATE shape.
+    The classical bank is never blended: on the hist path the
+    modern-only signs (the tense doubles, the compound vowels)
+    are unseated, and the obsolete letters stand at their 1446
+    seats (ㆍ, the first vowel of 1446, at vowel seat 1). The
+    annex has NO null: its initial ㅇ prices its seat (15) — the
+    annex predates the placeholder convention's hardening, and
+    printing a modern zero into 1446 would be the forgery this
+    engine exists to refuse. The annex's finals are the 17
+    consonants at final seats in introduction order, a stated
+    construction (Phase I audit §X).
+    """
+    if hist:
+        strata = (HANGUL_1446_INITIAL, HANGUL_1446_VOWEL,
+                  HANGUL_1446_FINAL)
+    else:
+        strata = (HANGUL_INITIAL, HANGUL_VOWEL, HANGUL_FINAL)
+    total = 0
+    breakdown = []
+    subtotals = {'initial': 0, 'vowel': 0, 'final': 0}
+    nulls = 0
+    unseated = 0
+    for ch in unicodedata.normalize('NFD', word):
+        cp = ord(ch)
+        if 0x1100 <= cp <= 0x115E:
+            kind, bank = 'initial', strata[0]
+            shown = _jamo_compat(ch)
+        elif 0x1161 <= cp <= 0x11A7:
+            kind, bank = 'vowel', strata[1]
+            shown = _jamo_compat(ch)
+        elif 0x11A8 <= cp <= 0x11FF:
+            kind, bank = 'final', strata[2]
+            shown = _jamo_compat(ch)
+        elif 0x3131 <= cp <= 0x318D:
+            # MECHANISM: a bare compatibility jamo — the block
+            # runs to U+318D, where the archaic letters live —
+            # resolved by name, initial seat first (the door's
+            # convention), then vowel, then final (the digraphs'
+            # only seat).
+            shown = ch
+            resolved = None
+            for kind_try, bank_try in (('initial', strata[0]),
+                                       ('vowel', strata[1]),
+                                       ('final', strata[2])):
+                kind_name = {'initial': 'CHOSEONG',
+                             'vowel': 'JUNGSEONG',
+                             'final': 'JONGSEONG'}[kind_try]
+                try:
+                    conj = _jamo_conjoining(ch, kind_name)
+                except ValueError:
+                    continue
+                if conj in bank_try:
+                    resolved = (kind_try, bank_try, conj)
+                    break
+            if resolved is None:
+                unseated += 1
+                continue
+            kind, bank, ch = resolved
+        else:
+            continue  # not a jamo: silence, not false weight
+        if ch not in bank:
+            unseated += 1
+            continue
+        if (not hist and kind == 'initial'
+                and ch == HANGUL_NULL_INITIAL):
+            # THE NULL LAW: the placeholder prices 0, and shows.
+            breakdown.append((shown, 0))
+            nulls += 1
+            continue
+        priced = bank[ch]
+        breakdown.append((shown, priced))
+        subtotals[kind] += priced
+        total += priced
+    return {
+        'word': word,
+        'system': 'hangul',
+        'value': total,
+        'provenance': SYSTEMS['hangul']['provenance'],
+        'breakdown': breakdown,
+        'initial_subtotal': subtotals['initial'],
+        'vowel_subtotal': subtotals['vowel'],
+        'final_subtotal': subtotals['final'],
+        'null_initials': nulls,
+        'unseated': unseated,
+        'hist_annex': bool(hist),
+    }
 
 
 def bridge(word1, system1, word2, system2):
@@ -1765,6 +1973,153 @@ def aramaic_checks():
                    and 'Syriac' in p and 'never two witnesses' in p
                    and 'mispar gadol' in p and 'prices none' in p,
                    p))
+    return checks
+
+
+def hangul_checks():
+    """Verify the Hangul mint against its audit and its own laws.
+
+    MECHANISM: the seat's self-test — the strata's shapes, the
+    door's exhibits recomputed from the standard's decomposition,
+    the teeth as stated (the doubles' prices against doublings;
+    the digraphs' missing choseong forms), the null law and its
+    parting from the raw bank, the annex's seats and refusals,
+    and the fence. Kept beside aramaic_checks() rather than
+    inside engine_checks(), so the controls stay comparable
+    across seats. Parity against the audit's frozen transcription
+    is proven separately by test_korean_parity.py at the
+    repository root.
+    """
+    checks = []
+    # 1. The strata's shape: three strata, seats 1..n each used
+    #    exactly once, the merged bank disjoint by construction.
+    shape = (len(HANGUL_INITIAL), len(HANGUL_VOWEL),
+             len(HANGUL_FINAL), len(HANGUL))
+    checks.append(('the strata: initial 19, vowel 21, final 27, '
+                   'merged bank 67 keys; each stratum\'s values '
+                   'are its seats 1..n exactly once',
+                   shape == (19, 21, 27, 67)
+                   and sorted(HANGUL_INITIAL.values())
+                   == list(range(1, 20))
+                   and sorted(HANGUL_VOWEL.values())
+                   == list(range(1, 22))
+                   and sorted(HANGUL_FINAL.values())
+                   == list(range(1, 28)), shape))
+    # 2. The door's founding exhibits, decomposed by the
+    #    standard's law: 한글 (the witnesses' own syllable
+    #    example) and 한국.
+    r = hangul('한글')
+    checks.append(('hangul() decomposes by the block law: '
+                   '한글 == 52 (한 24 = ㅎ19+ㅏ1+ㄴ4; 글 28 = '
+                   'ㄱ1+ㅡ19+ㄹ8), strata 20/20/12',
+                   r['value'] == 52
+                   and r['initial_subtotal'] == 20
+                   and r['vowel_subtotal'] == 20
+                   and r['final_subtotal'] == 12
+                   and r['null_initials'] == 0,
+                   (r['value'], r['initial_subtotal'],
+                    r['vowel_subtotal'], r['final_subtotal'])))
+    checks.append(('hangul() 한국 == 40 (한 24 + 국 16 = '
+                   'ㄱ1+ㅜ14+ㄱ1)',
+                   hangul('한국')['value'] == 40,
+                   hangul('한국')['value']))
+    # 3. The raw door agrees on text with no null: the conjoining
+    #    spelling of 한 weighs its seats at weigh().
+    checks.append(('weigh() reads the raw bank: the conjoining '
+                   'spelling of 한 == 24 (19+1+4)',
+                   weigh('\u1112\u1161\u11ab', 'hangul')['value']
+                   == 24,
+                   weigh('\u1112\u1161\u11ab', 'hangul')['value']))
+    # 4. THE NULL LAW and its parting from the raw bank, printed:
+    #    아이 at the door is 22 with two nulls counted; at the
+    #    raw bank its spelling shows the seats (12+1 + 12+21).
+    d = hangul('아이')
+    raw = weigh('\u110b\u1161\u110b\u1175', 'hangul')['value']
+    checks.append(('the null law: hangul(아이) == 22 with '
+                   'null_initials 2; the raw bank shows 46 — the '
+                   'two doors part at the zero, by design',
+                   d['value'] == 22 and d['null_initials'] == 2
+                   and raw == 46, (d['value'], d['null_initials'],
+                                   raw)))
+    # 5. THE TEETH — the doubles' prices against doublings: only
+    #    ㄲ coincides with twice its base; the law is seats.
+    seats = {g: HANGUL_INITIAL[_jamo_conjoining(g, 'CHOSEONG')]
+             for g in 'ㄱㄲㄷㄸㅂㅃㅅㅆㅈㅉ'}
+    doubles = (seats['ㄲ'] == 2 * seats['ㄱ'],
+               seats['ㄸ'] == 2 * seats['ㄷ'],
+               seats['ㅃ'] == 2 * seats['ㅂ'],
+               seats['ㅆ'] == 2 * seats['ㅅ'],
+               seats['ㅉ'] == 2 * seats['ㅈ'])
+    checks.append(('the teeth: the tense doubles price by seat, '
+                   'not by doubling — ㄲ 2 == 2×ㄱ alone; ㄸ 5, '
+                   'ㅃ 9, ㅆ 11, ㅉ 14 against 8, 16, 20, 26',
+                   doubles == (True, False, False, False, False),
+                   (seats, doubles)))
+    # 6. THE TEETH — the digraphs' refusal, at its exact
+    #    coordinate: no digraph holds a MODERN initial seat.
+    #    Seven have no choseong form at all; four (ㄵ ㄶ ㅀ ㅄ)
+    #    keep only ARCHAIC Middle Korean cluster forms in the
+    #    standard's block, which the modern stratum does not
+    #    seat. Each digraph holds a final seat; a bare digraph
+    #    weighs there.
+    from .tables import _HANGUL_DIGRAPH_FINALS
+    archaic = []
+    for g in _HANGUL_DIGRAPH_FINALS:
+        try:
+            conj = _jamo_conjoining(g, 'CHOSEONG')
+            if conj not in HANGUL_INITIAL:
+                archaic.append(g)
+        except ValueError:
+            pass
+    checks.append(('the teeth: all 11 final digraphs are refused '
+                   'modern initial seats — 7 with no choseong '
+                   'form at all, 4 (ㄵㄶㅀㅄ) with only archaic '
+                   'cluster namesakes, unseated; a bare ㄳ weighs '
+                   'at its final seat 3',
+                   len(archaic) == 4
+                   and hangul('ㄳ')['value'] == 3
+                   and hangul('ㄳ')['final_subtotal'] == 3,
+                   (archaic, hangul('ㄳ')['value'])))
+    # 7. The modern refusals: the obsolete letters are unseated
+    #    on the modern path and counted, never silent.
+    d = hangul('ㆍ')
+    checks.append(('the modern refusal: ㆍ is unseated on the '
+                   'modern path (value 0, unseated 1)',
+                   d['value'] == 0 and d['unseated'] == 1,
+                   (d['value'], d['unseated'])))
+    # 8. THE ANNEX: its shape (17/11/17), ㆍ at vowel seat 1,
+    #    the annex's ㅇ at its seat (no null in 1446), and the
+    #    modern-only signs refused there.
+    shape = (len(HANGUL_1446_INITIAL), len(HANGUL_1446_VOWEL),
+             len(HANGUL_1446_FINAL))
+    a = hangul('ㆁㆍ', hist=True)
+    checks.append(('the 1446 annex: strata 17/11/17; ㆁㆍ == 4 '
+                   '(ㆁ at initial seat 3 + ㆍ at vowel seat 1); '
+                   'annex ㅇ prices 15 (no null in the annex); '
+                   'ㄲ is unseated there',
+                   shape == (17, 11, 17) and a['value'] == 4
+                   and hangul('ㅇ', hist=True)['value'] == 15
+                   and hangul('ㄲ', hist=True)['unseated'] == 1,
+                   (shape, a['value'],
+                    hangul('ㅇ', hist=True)['value'])))
+    # 9. The hinge at the door: a final ㅇ is a full letter —
+    #    강 (ㄱ+ㅏ+ㅇ) weighs 1+1+21 with no null counted.
+    d = hangul('강')
+    checks.append(('the hinge: final ㅇ is a full letter — '
+                   'hangul(강) == 23, final subtotal 21, no null',
+                   d['value'] == 23 and d['final_subtotal'] == 21
+                   and d['null_initials'] == 0,
+                   (d['value'], d['final_subtotal'])))
+    # 10. The fence: constructed, the negative and the teeth and
+    #     the parting on its face.
+    p = SYSTEMS['hangul']['provenance']
+    checks.append(('hangul provenance carries the fence '
+                   '(CONSTRUCTED, the checked negative, the '
+                   'teeth, the hinge, the North parting)',
+                   p.startswith('CONSTRUCTED')
+                   and 'NO letter-numeral tradition' in p
+                   and 'NOT doublings' in p
+                   and 'North Korean' in p, p[:60]))
     return checks
 
 

@@ -822,6 +822,181 @@ ARAMAIC_SYRIAC = {chr(cp): v for cp, v in zip(_SYRIAC_CPS,
                                               _ABJAD_VALUES)}
 ARAMAIC = {**ARAMAIC_IMPERIAL, **ARAMAIC_SYRIAC}
 
+# -- Korean: THE HANGUL MINT (CONSTRUCTED) + THE 1446 ANNEX -----------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — A HOUSE COINAGE ON A DESIGNED GRID. Read the fence
+# before the bank's habit. Hangul has NO letter-numeral tradition:
+# the Phase I audit (THE-EAST-ASIAN-FIELD-PHASE-I-AUDIT.md,
+# 2026-11-24) verified the negative from the witnesses — Korean
+# numerals are WORDS (the native system) and borrowed GLYPHS (the
+# Sino-Korean hanja, identical to the Chinese logographs); no
+# witness prices a jamo. What the field offers is the grid itself:
+# a designed featural alphabet (Sejong, 1443/1446) with canonical
+# orders, audited from two witnesses and the Unicode standard's
+# own block order (battery 12/12). This mint prices that grid by
+# its seats. It is the house's coinage entire — CONSTRUCTED under
+# the founder's Flagpole — and must never be cited as attested,
+# traditional, or ancient. The founder's Japanese mint is the
+# precedent and the shape: a grid priced by its own coordinates,
+# its seams printed.
+#
+# THE FACE-LAW SEATING (the triad's blueprint, from Aramaic): the
+# tongue's signs occupy the dial's seats as STRATA — here the
+# script's own three positional strata, initial (choseong), vowel
+# (jungseong), final (jongseong) — and a sign's price is its seat
+# WITHIN its stratum, the strata never blended: an initial ㄱ and
+# a final ㄱ are two seats that happen to share a price (1), and
+# ㅅ initial (10) and ㅅ final (19) share nothing but the letter.
+#
+# THE TEETH, STATED FROM THE MATERIAL (the Roman shape):
+#   LAWFUL DOUBLES — the five tense doubles ㄲ ㄸ ㅃ ㅆ ㅉ: the
+#     script's own derived signs, seated directly after their
+#     bases in the South order. Their prices are their SEATS',
+#     not doublings: ㄲ (2) alone coincides with twice its base;
+#     ㄸ is 5, not 8; ㅃ is 9, not 16; ㅆ is 11, not 20; ㅉ is
+#     14, not 26. The teeth-law's shape transfers (named lawful
+#     doubles); its Roman arithmetic (a double promotes) does
+#     not, and the parting is printed, not smoothed.
+#   REFUSED — the eleven heterogenous final digraphs (ㄳ ㄵ ㄶ
+#     ㄺ ㄻ ㄼ ㄽ ㄾ ㄿ ㅀ ㅄ) are refused INITIAL seats in the
+#     modern grid, so a digraph can never open a modern
+#     syllable: refused a promotion, in the Roman shape. The
+#     refusal's exact coordinate (hangul_checks §6): seven have
+#     no choseong form at all; four (ㄵ ㄶ ㅀ ㅄ) keep only
+#     ARCHAIC Middle Korean cluster forms in the standard's
+#     block (U+115C, U+115D, U+111A, U+1121), which the modern
+#     stratum does not seat — the refusal is the modern grid's,
+#     and the archaic forms stand in the block as its witnesses.
+#     As finals the digraphs stand at their block seats, because
+#     the syllable-block law itself seats them there (the 28
+#     final slots include them, and a syllable's decomposition
+#     names them as units) — the seat law and the block law
+#     agree, and the mint follows both.
+#     The four obsolete basic letters (ㆁ ㅿ ㆆ ㆍ) are refused a
+#     modern seat entire: their seat is the 1446 annex below.
+#   THE HYBRID HINGE — ㅇ: one sign, two natures, decided by
+#     position. As a final it is a full letter (/ŋ/) at seat 21.
+#     As an initial it is the script's own ZERO — the silent
+#     placeholder every vowel-initial syllable carries — and
+#     the hangul() door prices it 0 there and counts it in
+#     'null_initials', so the zero is visible in the audit
+#     trail, never silent. The raw bank holds its initial seat
+#     (12); the null law binds the door, the way the kana ー
+#     operator binds kana() and not weigh(). In modern Korean
+#     the law is phonologically exact: an initial ㅇ is always
+#     the placeholder; the letter's consonantal life is final.
+#
+# THE PARTING, PRINTED: the North Korean orders differ (the
+# doubles seated last, ㅇ last among initials, the basic vowels
+# first among vowels). They are NOT seated — the South order is
+# the standard's block order and the audit's — and the parting
+# stands here so no reader mistakes the mint for the peninsula's
+# one voice. Whether a North annex is ever wanted is the
+# founder's pen.
+#
+# MECHANISM: the strata are generated from the standard's
+# CONJOINING jamo blocks — choseong U+1100 + seat − 1, jungseong
+# U+1161 + seat − 1, jongseong U+11A8 + seat − 1 — because the
+# conjoining blocks are the only keying under which initial and
+# final seats cannot collide (the compatibility glyph ㄱ is one
+# codepoint for two seats). The compatibility sequences below
+# are the audit's frozen transcriptions (the South orders); the
+# builder resolves each compatibility glyph to its conjoining
+# counterpart BY UNICODE NAME (HANGUL LETTER X -> HANGUL
+# CHOSEONG/JUNGSEONG/JONGSEONG X) and asserts the resolution
+# lands exactly on the block seat — so the audit's order, the
+# standard's names, and the block seats are three testimonies
+# held to one sequence, and any drift fails the build.
+import unicodedata as _ud
+
+_HANGUL_SK_INITIAL = list('ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ')
+_HANGUL_SK_VOWEL = list('ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ')
+_HANGUL_SK_FINAL = list('ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ')
+_HANGUL_DIGRAPH_FINALS = list('ㄳㄵㄶㄺㄻㄼㄽㄾㄿㅀㅄ')
+
+
+def _jamo_conjoining(compat, kind):
+    """Resolve a compatibility jamo to its conjoining counterpart
+    by Unicode name. MECHANISM: strip 'HANGUL LETTER ' to the
+    letter's name-tail and find 'HANGUL <KIND> <tail>' in the
+    kind's block range; the standard's names are the dictionary
+    between the two encodings of the same letters."""
+    tail = _ud.name(compat).replace('HANGUL LETTER ', '', 1)
+    lo, hi = {'CHOSEONG': (0x1100, 0x1160),
+              'JUNGSEONG': (0x1161, 0x11A8),
+              'JONGSEONG': (0x11A8, 0x1200)}[kind]
+    for cp in range(lo, hi):
+        if _ud.name(chr(cp), '') == 'HANGUL %s %s' % (kind, tail):
+            return chr(cp)
+    raise ValueError('no %s form for %r' % (kind, compat))
+
+
+def _build_hangul():
+    """MECHANISM: price each stratum by its South-order seat,
+    resolving every compatibility glyph to its conjoining form
+    and asserting the resolution IS the block seat (choseong
+    U+1100 + seat − 1, and so on) — the audit's order and the
+    standard's seats proven one sequence. Returns the three
+    strata and the merged raw bank."""
+    initial, vowel, final = {}, {}, {}
+    for i, g in enumerate(_HANGUL_SK_INITIAL):
+        c = _jamo_conjoining(g, 'CHOSEONG')
+        assert ord(c) == 0x1100 + i, (g, c)
+        initial[c] = i + 1
+    for i, g in enumerate(_HANGUL_SK_VOWEL):
+        c = _jamo_conjoining(g, 'JUNGSEONG')
+        assert ord(c) == 0x1161 + i, (g, c)
+        vowel[c] = i + 1
+    for i, g in enumerate(_HANGUL_SK_FINAL):
+        c = _jamo_conjoining(g, 'JONGSEONG')
+        assert ord(c) == 0x11A8 + i, (g, c)
+        final[c] = i + 1
+    return initial, vowel, final
+
+
+HANGUL_INITIAL, HANGUL_VOWEL, HANGUL_FINAL = _build_hangul()
+HANGUL = {**HANGUL_INITIAL, **HANGUL_VOWEL, **HANGUL_FINAL}
+# DOCTRINE: the null initial's seat in the raw bank. The hangul()
+# door prices a syllable-initial ㅇ at 0 (the placeholder law);
+# weigh() reads the bank as keyed and shows the seat. Both facts
+# are printed wherever either door is described.
+HANGUL_NULL_INITIAL = _jamo_conjoining('ㅇ', 'CHOSEONG')
+
+# -- THE 1446 ANNEX (opt-in; the ARMENIAN_LATE shape) -----------------------
+# The introduction grid of the Hunminjeongeum: 17 consonants and
+# 11 vowels in the order the treatise introduces them, audited
+# from two witnesses (Phase I §VII). The annex prices them by
+# their 1446 seats. Its finals are the 17 consonants at final
+# seats in the same introduction order — a stated construction
+# (the witnesses print no separate 1446 final list). The vowel
+# ㆍ — the dot, earth, the FIRST vowel of 1446 — holds annex
+# seat 1 and no modern seat at all: the annex's own hinge, a
+# letter that is the grid's origin and its modern refusal. In
+# the annex the initial ㅇ prices its seat (15): the annex
+# predates the placeholder convention's hardening, and the
+# annex has no null. This dict is the table of NO system in the
+# registry: it weighs only through engine.hangul(word,
+# hist=True), and modern-only signs (the tense doubles, the
+# compound vowels) are unseated in it.
+_HANGUL_1446_CONSONANTS = list('ㄱㅋㆁㄷㅌㄴㅂㅍㅁㅈㅊㅅㆆㅎㅇㄹㅿ')
+_HANGUL_1446_VOWELS = list('ㆍㅡㅣㅗㅏㅜㅓㅛㅑㅠㅕ')
+
+
+def _build_hangul_1446():
+    initial, vowel, final = {}, {}, {}
+    for i, g in enumerate(_HANGUL_1446_CONSONANTS):
+        initial[_jamo_conjoining(g, 'CHOSEONG')] = i + 1
+        final[_jamo_conjoining(g, 'JONGSEONG')] = i + 1
+    for i, g in enumerate(_HANGUL_1446_VOWELS):
+        vowel[_jamo_conjoining(g, 'JUNGSEONG')] = i + 1
+    return initial, vowel, final
+
+
+HANGUL_1446_INITIAL, HANGUL_1446_VOWEL, HANGUL_1446_FINAL = \
+    _build_hangul_1446()
+HANGUL_1446 = {**HANGUL_1446_INITIAL, **HANGUL_1446_VOWEL,
+               **HANGUL_1446_FINAL}
+
 # =============================================================================
 # Closing motto: "Live, Love, and let Love, Live."
 # 93. All Rights Reserved, Without Prejudice.
