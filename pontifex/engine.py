@@ -62,6 +62,7 @@ from .tables import (
     ARMENIAN,
     COPTIC, ARMENIAN_LATE,
     GEORGIAN,
+    CYRILLIC, GLAGOLITIC,
     ARAMAIC, ARAMAIC_IMPERIAL, ARAMAIC_SYRIAC,
     HANGUL, HANGUL_INITIAL, HANGUL_VOWEL, HANGUL_FINAL,
     HANGUL_NULL_INITIAL, HANGUL_1446,
@@ -259,6 +260,88 @@ SYSTEMS = {
                                     'the bank (no annex), and its '
                                     '10000 is a letter (ჵ), not a '
                                     'device'},
+    # DOCTRINE: the CYRILLIC bank is the registry's second DERIVED
+    # table — the Greek Milesian values received entire into a
+    # second script, audited 2026-11-24 as the Slavonic pair's
+    # inheritance test (the Coptic test run again in a second
+    # family): all 27 seats agree with the 'greek' bank at the
+    # witnesses' own Greek pairings. Its fence carries the descent
+    # and its partings: the variant letterforms seated at three
+    # seats (a multiplicity of form, not of value), the western
+    # pair refused whole (Ч at 90 only; Ҁ in silence), the titlo
+    # an unpriced mark, and the thousands sign ҂ a priced
+    # multiplier (x1000) read at the cyrillic() door, never by
+    # weigh(). The bank is keyed in capitals; weigh() folds
+    # Cyrillic input to capitals at its seam.
+    'cyrillic':      {'table': CYRILLIC,
+                      'provenance': 'DERIVED — the Cyrillic '
+                                    'alphabetic numeral table: the '
+                                    'Greek Milesian values received '
+                                    'entire by script descent (all '
+                                    '27 canonical seats agree with '
+                                    'the \'greek\' bank at the '
+                                    'witnesses\' own pairings), '
+                                    'audited 2026-11-24 (two '
+                                    'witnesses read entire agree on '
+                                    'every seat). The tradition\'s '
+                                    'USE is its own and attested '
+                                    '(First Bulgarian Empire, late '
+                                    '10th c.; Russian use to the '
+                                    'early 18th; Church Slavonic '
+                                    'books still) — the tier names '
+                                    'the VALUES\' provenance, not '
+                                    'the use. Variant letterforms '
+                                    'seat at 400 (Ѵ, Ꙋ, Ѹ beside У), '
+                                    '800 (Ѿ, Ꙍ beside Ѡ) and 900 '
+                                    '(Ѧ beside Ц): 33 letters, 27 '
+                                    'distinct values. The western '
+                                    'pair is REFUSED whole: Ч '
+                                    'stands at 90 only and Ҁ '
+                                    'weighs silence. The titlo is '
+                                    'an unpriced mark; the '
+                                    'thousands sign ҂ multiplies '
+                                    'the following letter by 1000 '
+                                    'at the cyrillic() door only'},
+    # DOCTRINE: the GLAGOLITIC bank is the pair's other law — a
+    # table priced by its own alphabet's ORDER, audited 2026-11-24
+    # beside the Cyrillic inheritance as the region's control case
+    # proper. Its values are the tradition's OWN assignment (not
+    # inherited), so the tier is ATTESTED — with the questioned
+    # range carried on the fence at full size, as the chief witness
+    # itself prints it. The bank is keyed in capitals; weigh()
+    # folds Glagolitic input to capitals at its seam.
+    'glagolitic':    {'table': GLAGOLITIC,
+                      'provenance': 'ATTESTED — the Glagolitic '
+                                    'alphabetic numeral table: '
+                                    'values assigned by the native '
+                                    'order of the Glagolitic '
+                                    'alphabet itself, NOT by Greek '
+                                    'values (the tradition\'s own '
+                                    'assignment; 9th c. by general '
+                                    'agreement), audited 2026-11-24 '
+                                    '(W1 read entire; the second '
+                                    'witness concurring on all 20 '
+                                    'cells it prints in text). The '
+                                    'partings ride the fence: the '
+                                    '10-seat\'s holder is disputed '
+                                    '(Ⰺ or Ⰹ — both seat at 10; '
+                                    'the value is not in dispute); '
+                                    'three letters inside the '
+                                    'valued span are HOLES carrying '
+                                    'no value (Ⱊ, Ⱐ, Ⱒ); 6000–8000 '
+                                    'have no single letters (W1 '
+                                    'prints composite spellings, '
+                                    'refused). THE QUESTIONED '
+                                    'RANGE at full size: values '
+                                    'greater than 999 are '
+                                    'uncertain in the chief '
+                                    'witness itself, and the '
+                                    'validity of 3000 and greater '
+                                    'is questioned in its sources; '
+                                    'the thousands seats stand as '
+                                    'its table prints them, under '
+                                    'that warning. 34 letters, 33 '
+                                    'distinct values'},
     'coptic':        {'table': COPTIC,
                       'provenance': 'DERIVED — the Coptic alphabetic '
                                     'numeral table: the Greek '
@@ -530,12 +613,15 @@ def weigh(word, system):
     # capitals (its tables are keyed in capitals); Armenian folds the
     # same way (its table is keyed in the majuscules the system was
     # created in, and case carries no numeral value — the alphabet's
-    # own table pairs the cases at one value); Greek is casefolded
+    # own table pairs the cases at one value); Cyrillic and Glagolitic
+    # fold the same way again (their banks are keyed in the capitals
+    # the witnesses print, and case carries no Slavonic numeral value); Greek is casefolded
     # and stripped of diacritics (its table is keyed in bare lowercase,
     # and neither case nor accent carries Milesian value); Coptic is
     # casefolded to its small-letter bank (the script was caseless —
     # case is a modern convention — so the fold is pure preparation).
-    if system in ('latin_ordinal', 'agrippa', 'armenian'):
+    if system in ('latin_ordinal', 'agrippa', 'armenian',
+                  'cyrillic', 'glagolitic'):
         w = word.upper()
     elif system == 'greek':
         w = _normalize_greek(word)
@@ -820,6 +906,91 @@ def armenian(word, late=False):
         'overline_marks': marks_total,
         'overline_factor': 10000,
         'late_annex': bool(late),
+    }
+
+
+def cyrillic(word):
+    """Weigh a Cyrillic numeral in manuscript dress, devices priced.
+
+    MECHANISM: the bank's reading door for text as the tradition
+    writes it. The thousands sign ҂ (U+0482) PRECEDES the letter it
+    multiplies, so the door walks the word left to right carrying a
+    pending multiplier: each ҂ multiplies the pending factor by
+    1000, and the next seated letter is priced at its face value x
+    the pending factor, which then resets. The titlo (U+0483)
+    FOLLOWS letters and is the numeral mark — counted, priced
+    never. The higher encircling signs (⃝ U+20DD, ҈ U+0488,
+    ҉ U+0489, ꙰ U+A670, ꙱ U+A671, ꙲ U+A672) also follow letters
+    and are counted, priced never (see the doctrine below).
+    Letters are folded per letter to the capitals the bank is
+    keyed in — the seam's preparation, done here because the signs
+    must be read in place. The result carries weigh()'s shape plus
+    the dress made auditable: 'thousands_marks',
+    'thousands_factor' (1000), 'titlo_marks', 'higher_marks'
+    (counted, unpriced). The breakdown shows each letter's PRICED
+    contribution, so its entries sum to the value. On unmarked
+    text this door and weigh(word, 'cyrillic') agree exactly.
+
+    DOCTRINE — THE THOUSANDS SIGN, PRICED: the sources agree the
+    ҂ multiplies the following letter by 1000 (W1: ҂Ѕ is 6000,
+    while ҂Л҂В is parsed as 30,000 + 2000, making 32,000 — each
+    sign binding its own letter; W2 concurs, ҂а = 1000 through
+    ҂ѳ = 9000). No source parts on the factor, so the door prices
+    it — the Armenian overline's shape (a priced device), at the
+    Cyrillic factor, against the Coptic overline's refusal (an
+    unpriced marker): the three devices are three, and Phase III
+    prints them side by side.
+
+    DOCTRINE — THE HIGHER SIGNS, COUNTED AND NOT PRICED: beyond
+    the thousands, the tradition encircles letters with signs
+    whose multipliers the sources print under TWO scales — the
+    Lesser count (⃝ 10^4, ҈ 10^5, ҉ 10^6, ꙰ 10^7, ꙱ 10^8,
+    ꙲ 10^9) and the Greater count (the same signs squared away to
+    10^48 and beyond). The scales part by orders of magnitude;
+    pricing either silently would falsify the other. The door
+    therefore counts the signs and prices none — the Aramaic
+    raised point's discipline (counted, not priced) — and the
+    choice of scale stands open for the founder's pen
+    (THE-SLAVONIC-PAIR.md §VII Q1).
+    """
+    THOUSANDS = '\u0482'
+    TITLO = '\u0483'
+    HIGHER = {'\u20dd', '\u0488', '\u0489', '\ua670', '\ua671',
+              '\ua672'}
+    total = 0
+    breakdown = []
+    pending = 1
+    thousands_marks = 0
+    higher_marks = 0
+    for ch in word:
+        if ch == THOUSANDS:
+            thousands_marks += 1
+            pending *= 1000
+            continue
+        if ch == TITLO:
+            continue  # the mark rides its letter; counted below
+        if ch in HIGHER:
+            higher_marks += 1
+            continue
+        folded = ch.upper()
+        if folded in CYRILLIC:
+            priced = CYRILLIC[folded] * pending
+            breakdown.append((folded, priced))
+            total += priced
+        # MECHANISM: a pending ҂ is spent by the next letter,
+        # seated or not — the sign binds what follows it, and an
+        # unseated letter spends it in silence.
+        pending = 1
+    return {
+        'word': word,
+        'system': 'cyrillic',
+        'value': total,
+        'provenance': SYSTEMS['cyrillic']['provenance'],
+        'breakdown': breakdown,
+        'thousands_marks': thousands_marks,
+        'thousands_factor': 1000,
+        'titlo_marks': word.count(TITLO),
+        'higher_marks': higher_marks,
     }
 
 
@@ -1846,6 +2017,216 @@ def georgian_checks():
                    'letter stated, NOT the Armenian case)',
                    p.startswith('ATTESTED') and '38' in p
                    and '400' in p and '10000' in p, p[:60]))
+    return checks
+
+
+# MECHANISM: the canonical seats in Milesian order, with the
+# witnesses' Greek pairings — the audit's coordinate for the seat.
+# The inheritance is recomputed against the living GREEK bank in
+# cyrillic_checks() below, never trusted from the dict's shape.
+_CYRILLIC_ORDER = 'АВГДЕЅЗИѲІКЛМНѮОПЧРСТУФХѰѠЦ'
+_CYRILLIC_GREEK = 'ΑΒΓΔΕϚΖΗΘΙΚΛΜΝΞΟΠϞΡΣΤΥΦΧΨΩϠ'
+
+
+def cyrillic_checks():
+    """Self-checks for the CYRILLIC seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against its audit of record
+    (THE-SLAVONIC-PAIR.md): the inheritance recomputed against the
+    living GREEK bank at the witnesses' pairings, the witnesses'
+    worked examples, the variant forms, the western refusal, and
+    the manuscript door (the ҂ priced at x1000, the titlo and the
+    higher signs counted and not priced). Sign-for-sign parity
+    against the audit's frozen transcription
+    (research/caucasus-north/cyrillic-table.csv) lives in
+    test_cyrillic_parity.py; this battery holds the seat to the
+    doctrine itself.
+    """
+    checks = []
+    # 1. The inheritance, recomputed: every canonical seat equals
+    #    the living GREEK bank at its printed pairing.
+    checks.append(('the inheritance at all 27 seats: every '
+                   'canonical value == the living GREEK bank at '
+                   'the witnesses\' Greek pairings',
+                   all(CYRILLIC[c] == GREEK[g.lower()]
+                       for c, g in zip(_CYRILLIC_ORDER,
+                                       _CYRILLIC_GREEK)),
+                   [CYRILLIC[c] for c in _CYRILLIC_ORDER[:3]]))
+    # 2. Extent: 33 letters (27 canonical + 6 variant forms), 27
+    #    distinct values, canonical sum 4995, full sum 8695.
+    canon = {c: CYRILLIC[c] for c in _CYRILLIC_ORDER}
+    checks.append(('extent: 27 canonical seats summing to 4995 '
+                   '(the Milesian sum); 33 letters with the '
+                   'variant forms, 27 distinct values, sum 8695',
+                   len(canon) == 27 and sum(canon.values()) == 4995
+                   and len(CYRILLIC) == 33
+                   and len(set(CYRILLIC.values())) == 27
+                   and sum(CYRILLIC.values()) == 8695,
+                   (sum(canon.values()), sum(CYRILLIC.values()))))
+    # 3. The witnesses' worked examples at the seat.
+    ex = (weigh('ѰЗ', 'cyrillic')['value'],
+          weigh('ЦЧѲ', 'cyrillic')['value'],
+          weigh('РНГ', 'cyrillic')['value'],
+          weigh('КЗ', 'cyrillic')['value'],
+          weigh('ОВ', 'cyrillic')['value'])
+    checks.append(('the witnesses\' worked examples: 707, 999, '
+                   '153, 27, 72', ex == (707, 999, 153, 27, 72), ex))
+    # 4. The variant forms at their seats.
+    checks.append(('the variant forms seat at their seats: Ѵ Ꙋ Ѹ '
+                   'at 400, Ѿ Ꙍ at 800, Ѧ at 900',
+                   (CYRILLIC['Ѵ'], CYRILLIC['Ꙋ'], CYRILLIC['Ѹ'],
+                    CYRILLIC['Ѿ'], CYRILLIC['Ꙍ'], CYRILLIC['Ѧ'])
+                   == (400, 400, 400, 800, 800, 900),
+                   CYRILLIC['Ѧ']))
+    # 5. The western refusal: Ч at 90 only; Ҁ in silence.
+    checks.append(('the western pair refused whole: Ч == 90 at '
+                   'this seat and Ҁ weighs silence',
+                   CYRILLIC['Ч'] == 90
+                   and weigh('Ҁ', 'cyrillic')['value'] == 0
+                   and weigh('Ҁ', 'cyrillic')['breakdown'] == [],
+                   weigh('Ҁ', 'cyrillic')['breakdown']))
+    # 6. Case: the seam folds the smalls to the bank.
+    checks.append(('case at the seat: ѱз == ѰЗ == 707 (the seam '
+                   'folds to the capitals)',
+                   weigh('ѱз', 'cyrillic')['value'] == 707,
+                   weigh('ѱз', 'cyrillic')['value']))
+    # 7. The door: the thousands sign priced at x1000, each sign
+    #    binding its own letter (W1's parses, exact).
+    d = (cyrillic('҂Ѕ'), cyrillic('҂Л҂В'), cyrillic('҂АѰЕ'),
+         cyrillic('҂ЗРИІ'))
+    checks.append(('the manuscript door prices ҂ at x1000: ҂Ѕ '
+                   '6000, ҂Л҂В 32000, ҂АѰЕ 1705 (the coin year), '
+                   '҂ЗРИІ 7118 (the teens written ones-first)',
+                   tuple(x['value'] for x in d)
+                   == (6000, 32000, 1705, 7118)
+                   and d[1]['thousands_marks'] == 2
+                   and d[1]['thousands_factor'] == 1000,
+                   tuple(x['value'] for x in d)))
+    # 8. The door on unmarked text agrees with weigh() exactly.
+    checks.append(('the door and weigh() agree on unmarked text '
+                   '(ѰЗ == 707 at both)',
+                   cyrillic('ѰЗ')['value']
+                   == weigh('ѰЗ', 'cyrillic')['value'] == 707
+                   and cyrillic('ѰЗ')['thousands_marks'] == 0,
+                   cyrillic('ѰЗ')['value']))
+    # 9. The titlo: counted, priced never.
+    t = cyrillic('А\u0483')
+    checks.append(('the titlo is a mark, not a price: А҃ weighs 1 '
+                   'with 1 titlo counted',
+                   t['value'] == 1 and t['titlo_marks'] == 1,
+                   (t['value'], t['titlo_marks'])))
+    # 10. The higher signs: counted, priced never (the two scales
+    #     part; the door chooses neither).
+    h = cyrillic('А\u0489')
+    checks.append(('the higher signs counted, not priced: А҉ '
+                   'weighs 1 with 1 higher mark counted (its '
+                   'million belongs to a scale this door does not '
+                   'choose)',
+                   h['value'] == 1 and h['higher_marks'] == 1,
+                   (h['value'], h['higher_marks'])))
+    # 11. The fence.
+    p = SYSTEMS['cyrillic']['provenance']
+    checks.append(('cyrillic provenance carries the fence '
+                   '(DERIVED, 27 seats == greek, the western '
+                   'refusal and the priced ҂ stated)',
+                   p.startswith('DERIVED') and '27' in p
+                   and 'REFUSED' in p and '1000' in p, p[:60]))
+    return checks
+
+
+# MECHANISM: the valued letters in block order — the audit's
+# coordinate for the seat. The order law is recomputed from the
+# block in glagolitic_checks() below, never trusted from the
+# dict's shape.
+_GLAGOLITIC_ORDER = 'ⰀⰁⰂⰃⰄⰅⰆⰇⰈⰉⰊⰋⰌⰍⰎⰏⰐⰑⰒⰓⰔⰕⰖⰗⰘⰙⰛⰜⰝⰞⰟⰡⰣⰤ'
+
+
+def glagolitic_checks():
+    """Self-checks for the GLAGOLITIC seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against its audit of record
+    (THE-SLAVONIC-PAIR.md): the order law recomputed from the
+    block, the witnesses' worked examples, the doubled 10, the
+    holes' silence, the extent, and the parting exhibited against
+    the living CYRILLIC seat. Sign-for-sign parity against the
+    audit's frozen transcription
+    (research/caucasus-north/glagolitic-table.csv) lives in
+    test_glagolitic_parity.py; this battery holds the seat to the
+    doctrine itself.
+
+    DOCTRINE — THE CONTROL CASE, AT THE SEAT: this bank and the
+    CYRILLIC bank price the same sounds by two laws — inheritance
+    there, order here — and the parting is exhibited in the audit
+    (33 sound rows: 15 AGREE, 18 PART). The checks below pin THIS
+    bank's side and two of the parting's sharpest coordinates.
+    """
+    checks = []
+    # 1. The order law over the valued letters in block order,
+    #    and its partings at exactly ten letters.
+    valued = [ch for ch in _GLAGOLITIC_ORDER]
+    breaks, idx = [], {}
+    for ch in valued:
+        v = GLAGOLITIC[ch]
+        p = 0 if v < 10 else 1 if v < 100 else 2 if v < 1000 else 3
+        idx[p] = idx.get(p, 0) + 1
+        if v // (10 ** p) != idx[p]:
+            breaks.append(ch)
+    checks.append(('the order law over the valued letters in '
+                   'block order, parting at exactly ten letters '
+                   '(the tens tail Ⰺ–Ⱂ downstream of the doubled '
+                   '10, and Ⱔ at the thousands tail)',
+                   breaks == ['Ⰺ', 'Ⰻ', 'Ⰼ', 'Ⰽ', 'Ⰾ', 'Ⰿ', 'Ⱀ',
+                              'Ⱁ', 'Ⱂ', 'Ⱔ']
+                   and len(GLAGOLITIC) == 34, breaks))
+    # 2. Extent: 34 letters, 33 distinct values, sum 29005.
+    checks.append(('extent: 34 letters, 33 distinct values, sum '
+                   '29005',
+                   len(set(GLAGOLITIC.values())) == 33
+                   and sum(GLAGOLITIC.values()) == 29005,
+                   (len(set(GLAGOLITIC.values())),
+                    sum(GLAGOLITIC.values()))))
+    # 3. The witnesses' worked examples at the seat.
+    ex = (weigh('ⰗⰑⰂ', 'glagolitic')['value'],
+          weigh('ⰅⰊ', 'glagolitic')['value'],
+          weigh('ⰝⰔⰑ', 'glagolitic')['value'])
+    checks.append(('the witnesses\' worked examples: ⰗⰑⰂ 583, '
+                   'ⰅⰊ 16 (the teens reversal), the Vinodol '
+                   'ⰝⰔⰑ 1280', ex == (583, 16, 1280), ex))
+    # 4. The doubled 10: both printed holders seat at 10.
+    checks.append(('the doubled 10: Ⰹ == Ⰺ == 10 (the seat\'s '
+                   'value undisputed, its holder disputed in the '
+                   'record — both seat)',
+                   GLAGOLITIC['Ⰹ'] == GLAGOLITIC['Ⰺ'] == 10,
+                   (GLAGOLITIC['Ⰹ'], GLAGOLITIC['Ⰺ'])))
+    # 5. The holes' silence, and the refused letters'.
+    checks.append(('the holes weigh silence: Ⱊ Ⱐ Ⱒ (inside the '
+                   'valued span) and Ⱗ (W1b\'s variant 6000) '
+                   'carry no seat',
+                   weigh('ⰚⰠⰢⰧ', 'glagolitic')['value'] == 0
+                   and weigh('ⰚⰠⰢⰧ', 'glagolitic')['breakdown']
+                   == [],
+                   weigh('ⰚⰠⰢⰧ', 'glagolitic')['breakdown']))
+    # 6. Case: the seam folds the smalls to the bank.
+    checks.append(('case at the seat: ⰰⰱ == ⰀⰁ == 3 (the seam '
+                   'folds to the capitals)',
+                   weigh('ⰰⰱ', 'glagolitic')['value'] == 3,
+                   weigh('ⰰⰱ', 'glagolitic')['value']))
+    # 7. The parting exhibited at the seats: the sharpest
+    #    coordinates against the living Cyrillic bank.
+    checks.append(('THE PARTING at the seats: /ch/ — Cyrillic Ч '
+                   '90 against Glagolitic Ⱍ 1000; the omega seat '
+                   '— Ѡ 800 against Ⱉ 700',
+                   CYRILLIC['Ч'] == 90 and GLAGOLITIC['Ⱍ'] == 1000
+                   and CYRILLIC['Ѡ'] == 800
+                   and GLAGOLITIC['Ⱉ'] == 700,
+                   (CYRILLIC['Ч'], GLAGOLITIC['Ⱍ'])))
+    # 8. The fence.
+    p = SYSTEMS['glagolitic']['provenance']
+    checks.append(('glagolitic provenance carries the fence '
+                   '(ATTESTED, the order law, the questioned range '
+                   'at full size)',
+                   p.startswith('ATTESTED') and '34' in p
+                   and 'QUESTIONED' in p and '999' in p, p[:60]))
     return checks
 
 

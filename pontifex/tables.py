@@ -781,6 +781,120 @@ GEORGIAN = {
     'ჴ': 7000, 'ჯ': 8000, 'ჰ': 9000, 'ჵ': 10000,
 }
 
+# -- Cyrillic: THE MILESIAN INHERITANCE, SECOND HEIR (DERIVED) ---------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — A RECEIVED TABLE, stated against its parent so the
+# descent is never blurred. The Cyrillic numeral system is the Greek
+# Milesian system received entire into the Cyrillic script (developed
+# in the First Bulgarian Empire, late 10th century; in Russian use to
+# the early 18th): its letters carry the Milesian values seat for
+# seat under the Greek order, NOT the Cyrillic alphabetical order —
+# all 27 seats agree with the GREEK bank above at the witnesses' own
+# printed Greek pairings, verified in code by the Phase II audit
+# (THE-SLAVONIC-PAIR.md, 2026-11-24): two witnesses read entire agree
+# on every seat (Wikipedia, "Cyrillic numerals"; languagesandnumbers,
+# "Old Church Slavonic numbers", its lists sourced there to Krause &
+# Slocum's Old Church Slavonic Online). Parity of this seat against
+# the audit's frozen transcription is proven by
+# test_cyrillic_parity.py at the repository root.
+#
+# WHAT DESCENT PRESERVED, AND WHAT IT ALTERED — the partings ride
+# here at the same size as the values:
+#   * THE VALUES: total agreement, 27/27 seats, sum 4995 — the
+#     Milesian sum itself. No value parting exists.
+#   * THE HOLDERS: the seats are held by the Cyrillic letters of the
+#     corresponding Greek SOUNDS where Cyrillic has them, and by
+#     borrowed or kept Greek letters where it does not (Ѕ, Ѯ, Ѱ, Ѳ
+#     are Greek letters naturalized). Two Greek seats changed their
+#     holder's shape in the receiving: the 6-seat is held by Ѕ
+#     (dzelo) where Greek's epissemon stigma is a sign, and the
+#     90-seat by Ч where Greek's koppa had died.
+#   * THE VARIANT FORMS seated beside the canonical letters: the
+#     400-seat's letter UK is written У, Ꙋ/Ѹ (the digraph), and Ѵ
+#     (izhitsa, for the Greek upsilon's shape) — all three forms
+#     seat at 400, a sourced multiplicity of FORM at one seat, not
+#     of value; likewise Ѿ and Ꙍ beside Ѡ at 800, and Ѧ beside Ц
+#     at 900. 33 letters, 27 distinct values, sum 8695.
+#   * THE REFUSED WESTERN PAIR, printed at full size: in some
+#     Western varieties Ч carried 60 and Ҁ carried 90 (W1's dagger
+#     note). Ч's western 60 contradicts its canonical 90 in the
+#     same bank, and the pair travels together — so NEITHER is
+#     seated: Ч stands at 90 only, Ҁ weighs silence. A regional
+#     system, recorded whole in the audit's data, refused whole at
+#     this seat rather than halved.
+#   * THE DEVICES: the titlo (U+0483) is the numeral MARK — it
+#     distinguishes numbers from text and prices nothing. The
+#     thousands sign ҂ (U+0482) is a priced MULTIPLIER, x1000,
+#     binding the letter that FOLLOWS it (҂Ѕ = 6000; ҂Л҂В = 32000)
+#     — priced at the cyrillic() door in the engine, never by
+#     weigh(). The higher encircling signs (⃝ ҈ ҉ ꙰ ꙱ ꙲) carry
+#     TWO scales in the sources (the Lesser and Greater counts,
+#     parting by orders of magnitude); the door counts them and
+#     prices none — choosing a scale silently would falsify one.
+CYRILLIC = {
+    'А': 1, 'В': 2, 'Г': 3, 'Д': 4, 'Е': 5, 'Ѕ': 6, 'З': 7, 'И': 8,
+    'Ѳ': 9, 'І': 10, 'К': 20, 'Л': 30, 'М': 40, 'Н': 50, 'Ѯ': 60,
+    'О': 70, 'П': 80, 'Ч': 90, 'Р': 100, 'С': 200, 'Т': 300,
+    'У': 400, 'Ѵ': 400, 'Ꙋ': 400, 'Ѹ': 400, 'Ф': 500, 'Х': 600,
+    'Ѱ': 700, 'Ѡ': 800, 'Ѿ': 800, 'Ꙍ': 800, 'Ц': 900, 'Ѧ': 900,
+}
+
+# -- Glagolitic: ORDER-PRICING, THE SCRIPT'S OWN LAW (ATTESTED) --------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — THE SIBLING PRICED BY ITS OWN ORDER. The Glagolitic
+# numeral system assigns values by the native alphabetic order of
+# the Glagolitic alphabet itself — not by Greek values (Wikipedia,
+# "Glagolitic numerals", after Schenker 1995 and Lunt 2001; the
+# system generally agreed to date to the 9th century). Audited
+# 2026-11-24 (THE-SLAVONIC-PAIR.md): W1's table read entire, diffed
+# on the 20 cells the second witness (languagesandnumbers, the same
+# OCS page's Glagolitic list, printed in smalls) carries in text —
+# TOTAL AGREEMENT on those 20, including the 10-seat's holder.
+# Parity of this seat against the audit's frozen transcription is
+# proven by test_glagolitic_parity.py at the repository root.
+#
+# THE ORDER LAW AND ITS PARTINGS, PRINTED AT FULL SIZE (the audit
+# holds every coordinate): valued letters run in block order in
+# classes of 9 / 10 / 9 / 6, and the digit law (digit == run index
+# within class) parts at exactly ten letters —
+#   * THE DOUBLED 10: the 10-seat's HOLDER is disputed in the record
+#     between two adjacent letters — W1 prints "Ⰺ or Ⰹ"; W2 seats
+#     Ⰺ. The seat's VALUE is not in dispute, only its holder, so
+#     BOTH letters seat at 10 (the audit's D1; the Georgian doubled
+#     seat is the house precedent for a sourced doubling). The
+#     doubling's shadow falls on the whole tens tail: Ⰻ–Ⱂ carry
+#     digits one step behind their run indices.
+#   * THE HOLES: three letters inside the valued span carry NO
+#     value in W1's table — Ⱊ (block seat 27, inside the hundreds
+#     run), Ⱐ (33) and Ⱒ (35) (inside the thousands run). They
+#     weigh silence; the runs pass over them.
+#   * THE THOUSANDS TAIL: 6000–8000 have NO single letters in W1 —
+#     it prints composite spellings (refused at this seat: spellings
+#     are not letters), so the thousands run's digits go 1,2,3,4,5,9
+#     and Ⱔ (9000) stands at run-index 6 carrying digit 9. W1b (the
+#     2017 edition of the Cyrillic article) records variant readings
+#     — Ⱐ as an alternative 3000, Ⱗ as a single-letter 6000 —
+#     printed in the audit's data, not seated.
+#   * THE QUESTIONED RANGE, on the fence at full size: W1 itself
+#     warns that values greater than 999 are uncertain and that the
+#     validity of 3000 and greater is questioned (its refs:
+#     Chrisomalis 2010; Mathiesen 2004). The thousands seats below
+#     stand as W1's table prints them, under that warning; the
+#     1–900 domain is the firm ground (two witnesses + the order
+#     law + the Vinodol statute's own 1280).
+# Extent: 34 letters, 33 distinct values, sum 29005. Zero: absence —
+# no letter carries 0; numerals are marked by dots or the titlo, as
+# in the sibling system. A Glagolitic thousands sign is attested as
+# evidence in W1 but its form is not fixed there; no door prices it.
+GLAGOLITIC = {
+    'Ⰰ': 1, 'Ⰱ': 2, 'Ⰲ': 3, 'Ⰳ': 4, 'Ⰴ': 5, 'Ⰵ': 6, 'Ⰶ': 7,
+    'Ⰷ': 8, 'Ⰸ': 9, 'Ⰹ': 10, 'Ⰺ': 10, 'Ⰻ': 20, 'Ⰼ': 30, 'Ⰽ': 40,
+    'Ⰾ': 50, 'Ⰿ': 60, 'Ⱀ': 70, 'Ⱁ': 80, 'Ⱂ': 90, 'Ⱃ': 100,
+    'Ⱄ': 200, 'Ⱅ': 300, 'Ⱆ': 400, 'Ⱇ': 500, 'Ⱈ': 600, 'Ⱉ': 700,
+    'Ⱋ': 800, 'Ⱌ': 900, 'Ⱍ': 1000, 'Ⱎ': 2000, 'Ⱏ': 3000,
+    'Ⱑ': 4000, 'Ⱓ': 5000, 'Ⱔ': 9000,
+}
+
 # -- Aramaic: THE ABJAD BANK IN ITS OWN SCRIPTS (ATTESTED) -------------------
 # ---------------------------------------------------------------------------
 # PROVENANCE — THE MAP'S LAST SEAT, stated against its twin so the

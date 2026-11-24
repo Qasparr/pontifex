@@ -1,0 +1,34 @@
+sound,cyrillic_letter,cyrillic_value,glagolitic_letter,glagolitic_value,relation,reasoning
+a,А,1,Ⰰ,1,AGREE,az — the opening letter of both alphabets
+b,Б,,Ⰱ,2,PART — Cyrillic unseated,buky — Cyrillic Б descends from the same letter; the Cyrillic numeral table seats no Б
+v,В,2,Ⰲ,3,PART,"vede — one sound, two seats of two laws"
+g,Г,3,Ⰳ,4,PART,glagoli
+d,Д,4,Ⰴ,5,PART,dobro
+e,Е,5,Ⰵ,6,PART,yest
+zh,Ж,,Ⰶ,7,PART — Cyrillic unseated,zhivete — Cyrillic Ж seats nothing
+dz,Ѕ,6,Ⰷ,8,PART,dzelo
+z,З,7,Ⰸ,9,PART,zemlja
+i (from eta),И,8,Ⰹ,10,PART,izhe — the 10-seat's disputed holder on the Glagolitic side
+i (from iota),І,10,Ⰺ,10,AGREE,i — the 10-seat's other holder
+k,К,20,Ⰻ,20,AGREE,kako
+l,Л,30,Ⰼ,30,AGREE,ljudie
+m,М,40,Ⰽ,40,AGREE,myslite
+n,Н,50,Ⰾ,50,AGREE,nash
+o,О,70,Ⱀ,70,AGREE,on
+p,П,80,Ⱁ,80,AGREE,pokoj
+r,Р,100,Ⱃ,100,AGREE,rьci
+s,С,200,Ⱄ,200,AGREE,slovo
+t,Т,300,Ⱅ,300,AGREE,tvrьdo
+u,У,400,Ⱆ,400,AGREE,ukъ
+f,Ф,500,Ⱇ,500,AGREE,frьtъ
+kh,Х,600,Ⱈ,600,AGREE,xěrъ
+omega/ot,Ѡ,800,Ⱉ,700,PART,"the long-o seat: Cyrillic omega, Glagolitic otъ"
+ts,Ц,900,Ⱌ,900,AGREE,ci
+ch,Ч,90,Ⱍ,1000,PART,chrьvъ — the sharpest parting on the page
+sh,Ш,,Ⱎ,2000,PART — Cyrillic unseated,sha — Cyrillic Ш seats nothing
+sht,Щ,,Ⱋ,800,PART — Cyrillic unseated,shta — Cyrillic Щ seats nothing
+small yus,Ѧ,900,Ⱔ,9000,PART,"the yus seat: a Cyrillic variant at 900, a Glagolitic thousands letter at 9000 (questioned range)"
+fita/theta,Ѳ,9,Ⱚ,,PART — Glagolitic unseated,fita — Glagolitic Ⱚ seats nothing in W1's table
+izhitsa,Ѵ,400,Ⱛ,,PART — Glagolitic unseated,izhitsa — a Cyrillic variant at 400; Glagolitic Ⱛ seats nothing
+ksi,Ѯ,60,,,PART — Glagolitic unseated,a Greek-borrowed seat: Cyrillic only
+psi,Ѱ,700,,,PART — Glagolitic unseated,a Greek-borrowed seat: Cyrillic only
