@@ -275,6 +275,228 @@ KANA, KANA_VOWEL, KANA_BASE = _build_kana()
 # (G3/G6) stands exhibited in the doctrine; this seat does not close
 # it and does not alter any value.
 
+# -- Ge'ez: THE HALEHAME WITNESS and THE GE'EZ MINT (two banks, one builder) -
+# ---------------------------------------------------------------------------
+# PROVENANCE — TWO BANKS, TWO DIFFERENT HONESTIES. Read both fences
+# before either bank's habit.
+#
+# THE WITNESS (HALEHAME) is a SOURCED FOLK TABLE: the Debtera
+# (halehame) enumeration of the Ethiopian debtera, transcribed from
+# geez.org, "Numerology" (read entire, 2026-11-24) and corroborated
+# independently by Ayele Bekerie, Ethiopic, An African Writing
+# System (1997), via Peter T. Daniels' H-Net review — endpoints
+# h = 1 … p = 800, multiplier examples hu = 2, lu = 4, po = 5600.
+# Its first-form values are SOURCED 26 of 26 and recompute exact
+# against the class law (units 1–10, tens 11–19, hundreds 20–26);
+# its worked example ክርስቶስ = 80 is the tradition's own. Three
+# caveats ride on its face, at the same size as its values: (1) the
+# multiplier grid (a form at order n worth n × its base) is
+# PRINTED entire in the source but its use is UNEXHIBITED — both
+# scholarly witnesses agree worked examples use first forms only;
+# (2) the practice's antiquity is UNDATED in every source read —
+# no manuscript exemplar was sourced; (3) its register is
+# folk-magical, expressly NOT liturgical. By the founder's ruling
+# of 2026-11-24 under his END-GOAL RULE ("do the best for the end
+# goal always"), halehame stands as WITNESS beside the mint —
+# calibration, not the bank: it values 26 first forms of 202
+# classical signs, and its labiovelar columns carry no value in
+# any source (the audit's GAP rows), so it cannot carry the
+# engine's weighing surface. It is NOT the house's coinage, and
+# the mint's arrival corrects NOTHING in it: the folk ×6 at
+# order 6 stands in this bank unaltered, forever (seam rule S4).
+#
+# THE MINT (GEEZ) is a CONSTRUCTION — house coinage, minted at
+# the desk on 2026-11-24 under the founder's HYBRID LAW of the
+# same morning (the Divine Nine seats on the fidäl by the
+# tongue's own fusion devices) and under his three standing
+# rules: chart the road through where one exists; PROOF-ENOUGH
+# (what passes its tests and the full tower audit stands
+# approved by his word); and the END-GOAL RULE, under which
+# every fork below was decided at the desk — marked DESK
+# RULINGS, revisable by his pen, never his words. No stamp is
+# claimed for this bank beyond that proof: it stands if its
+# batteries pass, and it must not be cited as attested,
+# traditional, or ancient — liturgical Ge'ez has no letter
+# values, and this bank is dated 2026 on its face. Source of
+# record: THE-GEEZ-TABLES-PHASE-I-AUDIT.md (the inventory, the
+# halehame audit, the Nine seating design) and THE-GEEZ-TABLES-
+# PHASE-II-III-THE-SEAM-AND-THE-MINT.md (the seam protocol,
+# the axis law and its failed candidates, the calibration).
+# Parity between this seat and the Phase I audit's data is
+# proven by test_geez_parity.py at the repository root.
+#
+# DOCTRINE — THE MINT'S RULINGS (reasoning in full in the
+# Phase II–III instrument; the Phase I audit's §VII questions
+# are answered at M3 and M5):
+#   M1 THE AXIS: value(sign) = first-form value of its base ×
+#      m(order), where m(order) = the order's own number — the
+#      folk multiplier, the tongue's only printed axis — with
+#      ONE correction: m(6) = 0 (M3). The failed candidates
+#      stand printed in the instrument: the pure folk axis
+#      (fails M3's declaration), the positional axis (fails
+#      M2's calibration), the additive constant (no derivation
+#      holds — two attempts printed failing, on the kana G2
+#      pattern), Greek-station multipliers and station
+#      additives (a transfer of Milesian values into a foreign
+#      bank, and a merger of the citation column into the
+#      first-form column besides).
+#   M2 CALIBRATION BY CONSTRUCTION: the mint's first-form
+#      column IS halehame — the 26 first-form values seated
+#      exactly as the folk table gives them, so the mint's
+#      first-form reading of ክርስቶስ is 80 by identity, not
+#      by approximation. The witness calibrates the mint at
+#      its first column; everywhere else the mint reads by
+#      its own axis and the deltas print (seam rule S3).
+#   M3 THE ORDER-6 DECLARATION (Phase I Q3, settled by the
+#      end-goal rule): the mint obeys the KEY's station
+#      reading at order 6 — the Zero seat — not the folk
+#      multiplier. Every order-6 sign weighs 0 in the mint
+#      (30 signs: 26 grid + 4 labiovelar). The folk ×6 stands
+#      unaltered in the witness; the coordinate (order 6:
+#      key 0, folk ×6) is the seam's boundary, printed at
+#      its head. A Ge'ez weighing must declare its bank
+#      (seam rule S1) precisely because the banks part here.
+#   M4 THE LABIOVELAR COLUMN: the 20 classical labiovelar
+#      signs — the tongue's own fusion device, consonant + ʷ
+#      in one glyph, carrying the Nine's ΟΥ station — are
+#      seated in the mint at their orders {1,3,4,5,6} under
+#      the same axis law (no u-form, no o-form exist: the
+#      glide absorbs them). The witness seats NONE of them:
+#      its GAP stands beside the mint's column, printed.
+#   M5 THE ΕΙ COLUMN (Phase I Q2, settled by the end-goal
+#      rule): ΕΙ seats at the grid's eighth slot, generalized
+#      — the only candidate that is a COLUMN (25 of 26 bases;
+#      the labiovelar i-forms reach 4 bases and already carry
+#      order 3's Ι seat, and a sign holds one seat). ዐ alone
+#      has no eighth glyph — the standard leaves its slot
+#      unassigned — so ዐ's ΕΙ cell is a HOLE: no glyph, no
+#      seat, printed as a hole (the kana yi/ye precedent).
+#      m(8) = 8 by the axis law's own arithmetic: the folk
+#      multipliers ARE the order numbers at every printed
+#      coordinate, so the eighth order's multiplier is 8
+#      without a new constant entering. The correction set
+#      of the whole law is exactly {6}.
+#   M6 THE NINE IN THE MINT: the Nine names STATIONS; the
+#      axis law prices ORDERS; the registers do not convert.
+#      Order 6 is the one coordinate where name and price
+#      coincide (station ZERO, multiplier 0). Order 8's
+#      station is ΕΙ (Milesian 15, a Greek value, living in
+#      the Greek bank) while its price is ×8 (an order
+#      number) — the mint weighs no sign at 15 for ΕΙ's sake.
+#      Η and Ω take no seat in the mint either: the fidäl
+#      marks no vowel length, and the mint does not invent
+#      what the audit printed as a gap.
+#   M7 REDUCTION AND SINGLENESS: totals stand raw; every
+#      sign carries exactly ONE value — the bank is a plain
+#      dict, so a dual value is not merely ruled out, it is
+#      unrepresentable in the instrument (the kana gate's
+#      form, carried over).
+#
+# MECHANISM: ONE builder seats both banks from one base list,
+# so the seam between them is mechanical, not editorial: the
+# banks share the inventory and the first-form column entire,
+# and differ by exactly (a) the multiplier at order 6, (b)
+# coverage — the witness seats the 182 grid signs only; the
+# mint seats those, the 20 labiovelars, and the 25 eighth-slot
+# glyphs of the ΕΙ column (227 keys). Glyphs are generated by
+# codepoint arithmetic on the audit's verified frame: each
+# classical series occupies consecutive codepoints (order n
+# at base + n − 1, the eighth slot at base + 7); the
+# labiovelar series sit at offsets {1:0, 3:2, 4:3, 5:4, 6:5}
+# from their series heads — offset +1 is unassigned in the
+# standard precisely because the u-form does not exist.
+_GEEZ_BASES = [
+    ('ሀ', 1), ('ለ', 2), ('ሐ', 3), ('መ', 4), ('ሠ', 5), ('ረ', 6),
+    ('ሰ', 7), ('ቀ', 8), ('በ', 9), ('ተ', 10), ('ኀ', 20), ('ነ', 30),
+    ('አ', 40), ('ከ', 50), ('ወ', 60), ('ዐ', 70), ('ዘ', 80), ('የ', 90),
+    ('ደ', 100), ('ገ', 200), ('ጠ', 300), ('ጰ', 400), ('ጸ', 500),
+    ('ፀ', 600), ('ፈ', 700), ('ፐ', 800),
+]
+
+# MECHANISM: the classical labiovelar series heads and the base
+# consonant whose first-form value prices them. The two
+# post-classical series Unicode encodes (of ቐ, of ኸ) are NOT
+# seated: the audit's field is the classical inventory, and the
+# post-classical signs stand inventoried in the audit's data,
+# unseated here — marked, not vanished.
+_GEEZ_LABIOVELAR_HEADS = [
+    ('ቈ', 'ቀ'), ('ኈ', 'ኀ'), ('ኰ', 'ከ'), ('ጐ', 'ገ'),
+]
+_GEEZ_LABIOVELAR_OFFSETS = {1: 0, 3: 2, 4: 3, 5: 4, 6: 5}
+
+# MECHANISM: ዐ (Ayin) is the one classical base whose eighth
+# slot the standard leaves unassigned (U+12D7) — the audit
+# verified 25 of 26 slots filled against the Unicode standard.
+# The hole is named here so the builder prints a hole, not a
+# guess; test_geez_parity.py holds the exception against
+# unicodedata and the audit's inventory, sign by sign.
+_GEEZ_EIGHTH_SLOT_HOLE = 'ዐ'
+
+
+def _geez_mint_multiplier(order):
+    """The mint's axis (M1/M3): the order's own number, corrected
+    at order 6 to the Zero. The folk multiplier is the identity
+    function on orders and needs no function of its own — the
+    witness builder below multiplies by the order directly, so
+    the two laws stand side by side in the code as they do in
+    the seam: one shared axis, one named correction."""
+    return 0 if order == 6 else order
+
+
+def _build_geez_banks():
+    """Seat the witness and the mint from the one base list.
+
+    MECHANISM: the witness first — the 182 grid signs at
+    first × order, the printed folk grid entire, ×6 standing —
+    with its first-form map (each sign → its base's first-form
+    value) for the practiced reading door. Then the mint: the
+    same 182 at first × m(order), the 20 labiovelars at their
+    orders, the 25 eighth-slot glyphs at first × 8, with its
+    own first-form map (the calibration door: every seated
+    sign → its base's first-form value, labiovelars to their
+    base consonant's, eighth-slot glyphs to their base's).
+    Returns (witness, witness_first, mint, mint_first,
+    mint_seating_order) — the seating order exported so the
+    batteries can prove the surface: 182 grid + 20 labiovelar
+    + 25 eighth-slot = 227 seats, the classical 202 first.
+    """
+    folk_first = dict(_GEEZ_BASES)
+    witness, witness_first = {}, {}
+    mint, mint_first, seating = {}, {}, []
+    for base, fv in _GEEZ_BASES:
+        cp0 = ord(base)
+        for order in range(1, 8):
+            ch = chr(cp0 + order - 1)
+            witness[ch] = fv * order
+            witness_first[ch] = fv
+            mint[ch] = fv * _geez_mint_multiplier(order)
+            mint_first[ch] = fv
+            seating.append(ch)
+    for head, base in _GEEZ_LABIOVELAR_HEADS:
+        fv = folk_first[base]
+        cp0 = ord(head)
+        for order, off in _GEEZ_LABIOVELAR_OFFSETS.items():
+            ch = chr(cp0 + off)
+            mint[ch] = fv * _geez_mint_multiplier(order)
+            mint_first[ch] = fv
+            seating.append(ch)
+    for base, fv in _GEEZ_BASES:
+        if base == _GEEZ_EIGHTH_SLOT_HOLE:
+            continue  # M5: no glyph, no seat — the hole stands
+        ch = chr(ord(base) + 7)
+        mint[ch] = fv * _geez_mint_multiplier(8)
+        mint_first[ch] = fv
+        seating.append(ch)
+    return witness, witness_first, mint, mint_first, seating
+
+
+HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE = _build_geez_banks()
+# DOCTRINE: the Ethiopic numerals (፩–፼) are keys of NEITHER bank —
+# they are a separate glyph system for writing numbers and assign
+# no values to fidäl letters (Phase I audit, both derivation
+# parties agreeing on the operative point). A weighing that meets
+# one skips it: silence, not false weight.
+
 # =============================================================================
 # Closing motto: "Live, Love, and let Love, Live."
 # 93. All Rights Reserved, Without Prejudice.

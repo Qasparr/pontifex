@@ -58,6 +58,7 @@ import unicodedata
 from .tables import (
     HEBREW, GREEK, LATIN_ORDINAL, AGRIPPA, ARABIC_ABJAD, BRAILLE,
     KANA, KANA_VOWEL, KANA_BASE,
+    HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -91,6 +92,49 @@ SYSTEMS = {
                                     'coinage ratified by the founder\'s '
                                     'stamp 2026-11-13; NOT attested, '
                                     'traditional, or ancient'},
+    # DOCTRINE: the HALEHAME WITNESS is a sourced folk table, not
+    # a house coinage — the Debtera enumeration as published,
+    # audited 2026-11-24. Its fence carries its three caveats
+    # (multiplier printed but unexhibited in use; antiquity
+    # undated; register folk-magical, not liturgical) into every
+    # weighing. It stands as WITNESS beside the Ge'ez mint by
+    # the founder's end-goal ruling of 2026-11-24 — calibration,
+    # not the bank. weigh() reads its printed grid as written;
+    # halehame() below reads its practiced first-form law.
+    'halehame':      {'table': HALEHAME,
+                      'provenance': 'FOLK TABLE — WITNESS: the Debtera '
+                                    '(halehame) enumeration as published '
+                                    '(geez.org, read 2026-11-24), audited '
+                                    '2026-11-24 — first-form values '
+                                    'sourced 26/26; the multiplier grid '
+                                    'as printed, its use UNEXHIBITED; '
+                                    'antiquity UNDATED; register '
+                                    'folk-magical, not liturgical. '
+                                    'Stands as witness beside the '
+                                    'Ge\'ez mint (the founder\'s '
+                                    'end-goal ruling, 2026-11-24); '
+                                    'NOT the house\'s coinage'},
+    # DOCTRINE: the GE'EZ MINT is the registry's second house
+    # coinage — minted at the desk 2026-11-24 under the
+    # founder's hybrid law and his three standing rules (the
+    # road rule, the proof-enough rule, the end-goal rule);
+    # its fork decisions are desk rulings under the end-goal
+    # rule, revisable by his pen. NO stamp is claimed beyond
+    # that proof. Its axis is the folk multiplier corrected at
+    # order 6 to the Zero (M3) — so a Ge'ez total is ambiguous
+    # unless it declares its bank (seam rule S1). weigh()
+    # reads signs as written; geez() below reads the mint's
+    # first-form (calibration) door. The full fence stands at
+    # the banks in tables.py.
+    'geez':          {'table': GEEZ,
+                      'provenance': 'CONSTRUCTED — the GE\'EZ MINT: '
+                                    'house coinage minted at the desk '
+                                    '2026-11-24 under the founder\'s '
+                                    'hybrid law and end-goal rule, '
+                                    'calibrated by construction to the '
+                                    'halehame witness (first-form '
+                                    'column identical, 26/26); NOT '
+                                    'attested, traditional, or ancient'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -304,6 +348,94 @@ def kana(word):
         'system': 'kana',
         'value': total,
         'provenance': SYSTEMS['kana']['provenance'],
+        'breakdown': breakdown,
+    }
+
+
+def geez(word):
+    """Weigh a Ge'ez word in the GE'EZ MINT's first-form reading.
+
+    MECHANISM: the mint's calibration door. Every seated sign is
+    read at its BASE's first-form value — the sign's order is set
+    aside and the base speaks (ክ weighs what ከ weighs, 50).
+    Signs the mint does not seat (the post-classical inventory,
+    the Ethiopic numerals, anything foreign) are skipped —
+    silence, not false weight. The breakdown shows each written
+    sign with the value it actually contributed, so the reading
+    is auditable sign by sign.
+
+    DOCTRINE: weigh(word, 'geez') is the mint's protocol door —
+    signs as written, each at its order's seat under the axis
+    law (seam rule S1's mint side). This door exists for one
+    purpose: CALIBRATION (M2). The mint's first-form column IS
+    halehame, so this reading of any word over the 182 grid
+    signs returns exactly the witness's practiced total —
+    ክርስቶስ = 80 here, as in halehame() below — by identity of
+    construction, not by approximation, and the seam records
+    that agreement as calibration, never as a bridge (the two
+    banks are calibrated, not independent, at this door). Over
+    the signs only the mint seats — the labiovelars, the ΕΙ
+    column — this door reads each at its base's value where
+    the witness is silent: the coverage coordinate, printed in
+    the seam, not hidden by the door.
+    """
+    total = 0
+    breakdown = []
+    for ch in word:
+        if ch in GEEZ_FIRST:
+            v = GEEZ_FIRST[ch]
+            breakdown.append((ch, v))
+            total += v
+        # else: silence, not false weight (see above).
+    return {
+        'word': word,
+        'system': 'geez',
+        'value': total,
+        'provenance': SYSTEMS['geez']['provenance'],
+        'breakdown': breakdown,
+    }
+
+
+def halehame(word):
+    """Weigh a Ge'ez word in the HALEHAME WITNESS's practiced reading.
+
+    MECHANISM: the witness's reading door — the first-form law
+    the debtera actually practice. Every grid sign is read at
+    its base's first-form value (the source's own statement:
+    example usage "invariably uses the letters of a word in the
+    first form only"). Signs the folk table does not reach —
+    the labiovelar series, the eighth-slot glyphs, the
+    later-added bases — are skipped: the folk table assigns
+    them no value, and the door reports silence where the
+    table is silent (the audit's GAP rows, at the door). The
+    breakdown shows each written sign with the value it
+    contributed.
+
+    DOCTRINE: weigh(word, 'halehame') is the witness's raw
+    door — the PRINTED grid, a form at order n at n × its base,
+    ×6 standing at order 6 unaltered (seam rule S4: the mint
+    corrects its own axis, never the witness's). The printed
+    grid's use is unexhibited in every worked example the
+    sources carry; THIS door is the practiced law, and the
+    seam's protocol (S1) requires every witness total to name
+    its door, because the two doors part — ክርስቶስ reads 80
+    here and 490 at the raw door, and both numbers are the
+    witness's own, at different doors, with the caveat riding
+    on the printed one.
+    """
+    total = 0
+    breakdown = []
+    for ch in word:
+        if ch in HALEHAME_FIRST:
+            v = HALEHAME_FIRST[ch]
+            breakdown.append((ch, v))
+            total += v
+        # else: silence — the folk table's gap, reported as such.
+    return {
+        'word': word,
+        'system': 'halehame',
+        'value': total,
+        'provenance': SYSTEMS['halehame']['provenance'],
         'breakdown': breakdown,
     }
 
@@ -561,6 +693,236 @@ def kana_checks():
                    '2026-11-13, NOT attested)',
                    p.startswith('CONSTRUCTED') and '2026-11-13' in p
                    and 'NOT attested' in p, p))
+    return checks
+
+
+# MECHANISM: the folk first-form values, transcribed from geez.org's
+# published Debtera table (read 2026-11-24) — the doctrine's own
+# printed numbers for the Ge'ez seats, held here so both Ge'ez
+# batteries pin the banks to the source, not to each other. The
+# Phase I audit battery holds an independent transcription of the
+# same table; test_geez_parity.py runs it as a control.
+_GEEZ_FOLK_FIRST = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+                    20, 30, 40, 50, 60, 70, 80, 90, 100,
+                    200, 300, 400, 500, 600, 700, 800]
+
+
+def geez_checks():
+    """Self-checks for the GE'EZ MINT seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the mint against its own instrument of
+    record (THE-GEEZ-TABLES-PHASE-II-III: the axis law M1, the
+    calibration M2, the order-6 declaration M3, the columns M4/M5)
+    and against the witness it was calibrated to. Sign-for-sign
+    parity against the Phase I audit's independent data seat
+    (the inventory and values CSVs) is a relation between two
+    seats and lives in test_geez_parity.py at the repository
+    root; this battery holds the seat to the doctrine itself.
+    Kept beside kana_checks() rather than inside engine_checks(),
+    so the established checks stand untouched as the
+    no-collateral witness; run all for the full suite.
+
+    DOCTRINE — THE HEADS, PRINTED AS THE SEAM PRINTS THEM (S3):
+    the mint's ክርስቶስ stands at the head of its calibration
+    beside the witness's 80 — agreeing at the first-form doors
+    BY CONSTRUCTION (calibration, not a bridge) and parting at
+    the protocol doors by exactly the order-6 correction:
+    70 as written, Δ −10, the delta being three order-6 signs
+    the folk practice reduces to their bases and the mint
+    reads at the Zero. The delta is a coordinate, exhibited —
+    not a failure, and never to be "repaired" by moving a seat.
+    """
+    checks = []
+    # 1. The axis itself (M1) on the first base's row: ሀ (first
+    #    form 1) prices its orders at the order numbers, with
+    #    the single correction standing in the row: 1,2,3,4,5,0,7.
+    row = [GEEZ[chr(ord('ሀ') + o)] for o in range(7)]
+    checks.append(('ሀ row prices the axis (M1): 1,2,3,4,5,0,7 — '
+                   'the correction inside the row',
+                   row == [1, 2, 3, 4, 5, 0, 7], row))
+    # 2. The surface: 227 seats in seating order — the classical
+    #    202 first (182 grid + 20 labiovelar), then the 25 of
+    #    the ΕΙ column; every seated sign a key, no duplicates.
+    strata = (len(GEEZ_BASE[:182]), len(GEEZ_BASE[182:202]),
+              len(GEEZ_BASE[202:]))
+    checks.append(('227 seats: 182 grid + 20 labiovelar (the classical '
+                   '202) + 25 of the ΕΙ column, each exactly once',
+                   strata == (182, 20, 25) and len(GEEZ) == 227
+                   and len(set(GEEZ_BASE)) == 227
+                   and all(s in GEEZ for s in GEEZ_BASE),
+                   (strata, len(GEEZ))))
+    # 3. Calibration by construction (M2): the mint's first-form
+    #    column IS the folk table — all 26 first forms identical
+    #    to the transcribed source values, in both banks.
+    firsts = [GEEZ_BASE[i * 7] for i in range(26)]
+    checks.append(('first-form column == the folk table, 26/26 (M2)',
+                   [GEEZ[g] for g in firsts] == _GEEZ_FOLK_FIRST
+                   and [HALEHAME[g] for g in firsts] == _GEEZ_FOLK_FIRST
+                   and [GEEZ_FIRST[g] for g in firsts] == _GEEZ_FOLK_FIRST,
+                   [GEEZ[g] for g in firsts]))
+    # 4. The head, at all four doors (S1/S3): ክርስቶስ — the
+    #    tradition's own worked example. Practiced readings 80
+    #    and 80 (identity); protocol doors part: mint as written
+    #    70 (Δ −10, the order-6 correction at work), the
+    #    witness's printed grid 490 (the caveat's number).
+    mw = weigh('ክርስቶስ', 'geez')['value']
+    mf = geez('ክርስቶስ')['value']
+    wf = halehame('ክርስቶስ')['value']
+    wp = weigh('ክርስቶስ', 'halehame')['value']
+    checks.append(('ክርስቶስ: mint-written 70 / mint first-form 80 / '
+                   'witness practiced 80 / witness printed 490',
+                   (mw, mf, wf, wp) == (70, 80, 80, 490),
+                   (mw, mf, wf, wp)))
+    # 5. The corroborated multiplier exhibits (Bekerie via
+    #    Daniels) hold in the mint as written — the mint's axis
+    #    IS the folk axis at every exhibited coordinate but one:
+    #    hu = 2, lu = 4, to = 70, po = 5600.
+    ex = (weigh('ሁ', 'geez')['value'], weigh('ሉ', 'geez')['value'],
+          weigh('ቶ', 'geez')['value'], weigh('ፖ', 'geez')['value'])
+    checks.append(('multiplier exhibits hold as written: ሁ 2, ሉ 4, '
+                   'ቶ 70, ፖ 5600 (Bekerie)',
+                   ex == (2, 4, 70, 5600), ex))
+    # 6. The order-6 declaration (M3), proven in code: the mint
+    #    reads the Zero law — ል = 0, ፕ = 0, and exactly 30 signs
+    #    weigh 0 (26 grid + 4 labiovelar) — while the witness's
+    #    printed grid reads ×6 unaltered at the same signs.
+    zeros = sum(1 for v in GEEZ.values() if v == 0)
+    checks.append(('order 6 (M3): mint ል/ፕ == 0 with exactly 30 zero '
+                   'signs; witness printed ል 12, ፕ 4800 (×6 stands)',
+                   GEEZ['ል'] == 0 and GEEZ['ፕ'] == 0 and zeros == 30
+                   and HALEHAME['ል'] == 12 and HALEHAME['ፕ'] == 4800,
+                   (GEEZ['ል'], GEEZ['ፕ'], zeros,
+                    HALEHAME['ል'], HALEHAME['ፕ'])))
+    # 7. The labiovelar column (M4): seated in the mint at the
+    #    axis's prices, the Zero reaching into the column (ቍ);
+    #    the witness seats none of the twenty — its GAP at the
+    #    door, not a silent zero of ours.
+    lab = GEEZ_BASE[182:202]
+    checks.append(('labiovelars (M4): ቈ == 8, ቍ == 0 in the mint; '
+                   'none of the 20 in the witness',
+                   GEEZ['ቈ'] == 8 and GEEZ['ቍ'] == 0
+                   and all(s not in HALEHAME for s in lab),
+                   (GEEZ['ቈ'], GEEZ['ቍ'],
+                    sum(1 for s in lab if s in HALEHAME))))
+    # 8. The ΕΙ column (M5): the eighth slot priced at ×8 —
+    #    ሇ == 8, ኧ == 320 — and ዐ's cell a HOLE: the glyph the
+    #    standard does not encode is a key of neither bank.
+    hole = chr(ord('ዐ') + 7)
+    checks.append(('the ΕΙ column (M5): ሇ == 8, ኧ == 320 at ×8; '
+                   'ዐ’s slot a hole in both banks',
+                   GEEZ['ሇ'] == 8 and GEEZ['አ'] * 8 == GEEZ['ኧ'] == 320
+                   and hole not in GEEZ and hole not in HALEHAME,
+                   (GEEZ['ሇ'], GEEZ['ኧ'], hole in GEEZ)))
+    # 9. The honesty coordinate, printed not smoothed: the mint
+    #    is NOT a unique-value bank. Its axis is a calibrated
+    #    class axis, and its 227 seats return 90 distinct
+    #    values — collisions inherited from the folk class
+    #    structure (ሁ weighs 2, which is also ለ's first form).
+    #    What the law claims is singleness — one value per
+    #    sign, no duals — never uniqueness.
+    checks.append(('90 distinct values over 227 seats (collisions '
+                   'printed; singleness claimed, uniqueness not)',
+                   len(set(GEEZ.values())) == 90
+                   and GEEZ['ሁ'] == GEEZ['ለ'] == 2,
+                   (len(set(GEEZ.values())), GEEZ['ሁ'])))
+    # 10. The desk exhibit word, all four doors (ሰላም, "peace" —
+    #     weighed first in the Phase II–III instrument, at
+    #     [CONSTRUCTED] exhibit tier): the readings part exactly
+    #     at ም, the word's one order-6 sign.
+    sw = (weigh('ሰላም', 'geez')['value'], geez('ሰላም')['value'],
+          halehame('ሰላም')['value'], weigh('ሰላም', 'halehame')['value'])
+    checks.append(('ሰላም at four doors: 15 / 13 / 13 / 39 (the '
+                   'parting at ም, its order-6 sign)',
+                   sw == (15, 13, 13, 39), sw))
+    # 11. The fence rides with every weighing.
+    p = SYSTEMS['geez']['provenance']
+    checks.append(('geez provenance carries the fence (CONSTRUCTED, '
+                   'minted 2026-11-24, NOT attested)',
+                   p.startswith('CONSTRUCTED') and '2026-11-24' in p
+                   and 'NOT attested' in p, p))
+    return checks
+
+
+def halehame_checks():
+    """Self-checks for the HALEHAME WITNESS seat. [(name, passed, got)].
+
+    MECHANISM: these pin the witness to its sources — the
+    transcribed folk table, Bekerie's corroborated exhibits,
+    the tradition's own worked example — and to its fences:
+    the coverage boundary (the 182 grid signs, no more), the
+    unaltered ×6 (S4), and the practiced door's law. Parity
+    against the Phase I audit's data seat lives in
+    test_geez_parity.py; the audit's own battery is run there
+    as a control. Kept beside geez_checks(); the witness is
+    audited, never corrected, by the mint's arrival.
+    """
+    checks = []
+    # 1. Coverage, exactly the folk table's reach: the 182 grid
+    #    signs — and NOT the labiovelars, NOT the eighth slot,
+    #    NOT the post-classical series. The gaps are the folk
+    #    table's own boundaries, printed in the audit's GAP
+    #    rows; a witness key beyond the 182 would be a forgery
+    #    of coverage.
+    lab = GEEZ_BASE[182:202]
+    eighth = GEEZ_BASE[202:]
+    checks.append(('coverage: exactly the 182 grid signs; no '
+                   'labiovelar, no eighth-slot key',
+                   len(HALEHAME) == 182
+                   and all(s not in HALEHAME for s in lab)
+                   and all(s not in HALEHAME for s in eighth),
+                   (len(HALEHAME),
+                    sum(1 for s in lab + eighth if s in HALEHAME))))
+    # 2. The first-form values are the transcribed table's,
+    #    sign for sign, class law and all.
+    firsts = [GEEZ_BASE[i * 7] for i in range(26)]
+    checks.append(('first-form values == the published table, 26/26',
+                   [HALEHAME[g] for g in firsts] == _GEEZ_FOLK_FIRST,
+                   [HALEHAME[g] for g in firsts]))
+    # 3. The printed grid entire at its corroborated exhibits:
+    #    Bekerie's multipliers (hu = 2, lu = 4, po = 5600) and
+    #    the audit battery's spot checks (ተ at order 7 = 70;
+    #    ኀ at order 5 = 100 — ኄ, the grid form).
+    ex = (weigh('ሁ', 'halehame')['value'], weigh('ሉ', 'halehame')['value'],
+          weigh('ቶ', 'halehame')['value'], weigh('ኄ', 'halehame')['value'],
+          weigh('ፖ', 'halehame')['value'])
+    checks.append(('printed grid at its exhibits: ሁ 2, ሉ 4, ቶ 70, '
+                   'ኄ 100, ፖ 5600',
+                   ex == (2, 4, 70, 100, 5600), ex))
+    # 4. The tradition's worked example at the practiced door:
+    #    ክርስቶስ = 80, exact — the calibration the audit ran
+    #    before trusting any derived number, run here at the
+    #    engine's door.
+    r = halehame('ክርስቶስ')
+    checks.append(('ክርስቶስ == 80 at the practiced door (the '
+                   'tradition’s own example)',
+                   r['value'] == 80
+                   and r['breakdown'] == [('ክ', 50), ('ር', 6), ('ስ', 7),
+                                          ('ቶ', 10), ('ስ', 7)],
+                   (r['value'], r['breakdown'])))
+    # 5. The ×6 stands (S4): the mint's correction is the
+    #    mint's; the witness's printed order-6 column is the
+    #    folk law's, unaltered — ፕ at 4800, the folk maximum's
+    #    heaviest printed form.
+    checks.append(('the folk ×6 stands unaltered: ፕ == 4800 printed',
+                   weigh('ፕ', 'halehame')['value'] == 4800
+                   and HALEHAME_FIRST['ፕ'] == 800,
+                   (HALEHAME['ፕ'], HALEHAME_FIRST['ፕ'])))
+    # 6. The practiced door's silence at the gaps: a labiovelar
+    #    weighs NOTHING at this door — skipped, not zeroed by
+    #    us — while the same glyph speaks in the mint. The
+    #    asymmetry is the coverage coordinate, at the doors.
+    checks.append(('practiced door silent on labiovelars (ቈ skipped); '
+                   'the mint reads it 8',
+                   halehame('ቈ')['value'] == 0
+                   and halehame('ቈ')['breakdown'] == []
+                   and weigh('ቈ', 'geez')['value'] == 8,
+                   (halehame('ቈ')['value'], weigh('ቈ', 'geez')['value'])))
+    # 7. The fence: folk table, witness standing, caveats named.
+    p = SYSTEMS['halehame']['provenance']
+    checks.append(('halehame provenance carries the fence (FOLK '
+                   'TABLE — WITNESS, UNDATED, UNEXHIBITED multiplier)',
+                   p.startswith('FOLK TABLE') and 'WITNESS' in p
+                   and 'UNDATED' in p and 'UNEXHIBITED' in p, p))
     return checks
 
 
