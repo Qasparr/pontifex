@@ -553,17 +553,45 @@ HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE = _build_geez_banks()
 # the numerals article says they "sometimes have a numerical
 # value assigned to them" (10000 / 20000), and the alphabet
 # article's own table prints NO numerical value for either. That
-# is a weaker attestation than any cell of the 36, so the seat
-# stops at the classical table and the additions' values stand
-# as an OPEN coordinate for the founder's pen (Phase I audit
-# §VII Q1). A weighing that meets Օ or Ֆ skips it — silence at
-# the boundary, printed here, never a smuggled 10000.
+# is a weaker attestation than any cell of the 36. As first
+# seated, the additions stood unseated entirely — an open
+# coordinate for the founder's pen (Phase I audit §VII Q1) — and
+# a classical weighing that meets Օ or Ֆ still skips it: silence
+# at this bank's boundary, printed here, never a smuggled 10000.
 #
-# THE OVERLINE is likewise not implemented: the sources agree a
-# line over a letter multiplies it, and part on the factor —
-# x10,000 (Wikipedia; MELA) against x1,000 (Omniglot). The
-# engine's armenian() door counts overline marks and applies NO
-# factor; the choice is the founder's pen (audit §VII Q2).
+# RESOLUTION R1 (the founder's ruling, 2026-11-24: the Armenian
+# questions decided "in order of Synergy not argument as
+# previously ruled"): the additions are seated in the LATE ANNEX
+# below (ARMENIAN_LATE), NOT in this bank. Synergy's reasoning:
+# this bank's purity is load-bearing — its fence reads "complete
+# 36, attested" and the halehame control case leans on it, so
+# medieval values are not blended in; yet the "sometimes" values
+# are SOURCED, and the house leaves no sourced value homeless;
+# and 10000 / 20000 continue the class law's own pattern,
+# opening the next class past the thousands. The annex stands a
+# tier BELOW the classical 36 (medieval; "sometimes"; one
+# article against another's silence) and is OPT-IN: it weighs
+# only at the engine's armenian() door under the explicit late
+# path, so օ inside an ordinary word still weighs nothing at
+# the classical door.
+#
+# THE OVERLINE — RESOLUTION R2 (same ruling, same standard).
+# As first seated, the door counted marks and applied NO
+# factor: the sources agree a line over a letter multiplies it
+# and parted on the factor — x10,000 (Wikipedia; MELA) against
+# x1,000 (Omniglot). Synergy decides by the table's own law:
+# this bank holds UNIQUENESS (36 letters, 36 distinct values).
+# At x1,000 the overlined units (Ա–Թ -> 1000–9000) collide with
+# the plain thousands class — nine collisions, the mark adding
+# nothing there; at x10,000 every overlined value at every
+# class lands in an empty seat (overlined Ա = 10,000; overlined
+# Ջ = 9,000,000, MELA's own exhibit) — zero collisions across
+# all 36. The factor that keeps the whole working together is
+# x10,000, and it also carries the two stronger witnesses.
+# Omniglot's x1,000 stands recorded as the parted source —
+# marked, not vanished. The engine's armenian() door applies
+# x10,000 per overline mark; armenian_checks() proves the
+# collision sweep in code.
 ARMENIAN = {
     'Ա': 1, 'Բ': 2, 'Գ': 3, 'Դ': 4, 'Ե': 5, 'Զ': 6, 'Է': 7, 'Ը': 8,
     'Թ': 9, 'Ժ': 10, 'Ի': 20, 'Լ': 30, 'Խ': 40, 'Ծ': 50, 'Կ': 60,
@@ -571,6 +599,40 @@ ARMENIAN = {
     'Շ': 500, 'Ո': 600, 'Չ': 700, 'Պ': 800, 'Ջ': 900, 'Ռ': 1000,
     'Ս': 2000, 'Վ': 3000, 'Տ': 4000, 'Ր': 5000, 'Ց': 6000, 'Ւ': 7000,
     'Փ': 8000, 'Ք': 9000,
+}
+
+# -- Armenian: THE LATE ANNEX (the medieval additions, opt-in) ----------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — A TIER BELOW THE CLASSICAL TABLE, stated at its own
+# depth. Օ (U+0555) and Ֆ (U+0556) entered the alphabet in the
+# Middle Ages (13th c. per the alphabet article), after Arabic
+# numerals were already in use; the numerals article says they
+# "sometimes have a numerical value assigned to them" — Օ 10000,
+# Ֆ 20000 — and the alphabet article's own table prints no value
+# for either. Seated here by RESOLUTION R1 under the founder's
+# ruling of 2026-11-24 (the Armenian questions decided "in order
+# of Synergy not argument as previously ruled"): the values are
+# sourced, so they are not left homeless; they continue the
+# class law's own pattern, opening the class past the thousands;
+# and they stand in an ANNEX, not in the classical bank above,
+# whose "complete 36, attested" purity is load-bearing. The
+# annex pattern is the house's proven shape — the kana mint's
+# derived seats, the Ge'ez mint's labiovelar column: a later
+# stratum seated beside its bank, at its own tier, never blended
+# into it.
+#
+# MECHANISM: keyed in BOTH cases — the annex is entered letter by
+# letter at the door, and both forms are stored so that no case
+# preparation decides anything. This dict is the table of NO
+# system in the registry: weigh(word, 'armenian') never sees it.
+# It weighs only through engine.armenian(word, late=True) — the
+# explicit annex path. At weigh() and at the default door, Օ and
+# Ֆ in either case still weigh nothing: օ is a living letter of
+# ordinary words (օր, "day"), and the annex must never fire by
+# accident.
+ARMENIAN_LATE = {
+    'Օ': 10000, 'օ': 10000,
+    'Ֆ': 20000, 'ֆ': 20000,
 }
 
 # =============================================================================

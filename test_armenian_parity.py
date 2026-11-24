@@ -47,6 +47,20 @@
 #   The agreement is a property of two attested value sequences,
 #   printed as a coordinate — it is NOT a bridge: no word is weighed
 #   on both banks here, and none is claimed.
+#
+# RESOLUTIONS (appended 2026-11-24, the founder's ruling of the
+#   same day: the Armenian questions decided "in order of Synergy
+#   not argument as previously ruled"; the audit's RESOLUTIONS
+#   section is the record): R1 seats the medieval additions in a
+#   LATE ANNEX (ARMENIAN_LATE, Օ 10000 / Ֆ 20000, both cases) —
+#   the classical bank unblended, the annex reachable only at
+#   armenian(word, late=True); R2 prices the overline at x10,000,
+#   the factor the bank's uniqueness law selects (x1,000 collides
+#   with the plain thousands class in nine seats; x10,000 in
+#   none). The checks below were extended to prove both
+#   resolutions and to prove the classical exhibits above stand
+#   exactly as they stood — the boundary at weigh() and at the
+#   default door is unchanged.
 # ============================================================================
 
 import csv
@@ -63,7 +77,7 @@ from pontifex.engine import (
     engine_checks, greek_checks, kana_checks, geez_checks,
     halehame_checks, armenian_checks,
 )
-from pontifex.tables import ARMENIAN, HALEHAME_FIRST
+from pontifex.tables import ARMENIAN, ARMENIAN_LATE, HALEHAME_FIRST
 from pontifex.doubles import doubles_checks
 from pontifex.cubes import cubes_checks
 
@@ -211,16 +225,56 @@ check('case at the seat: աբգ == ԱԲԳ == 6 (the seam folds to the '
       (weigh('աբգ', 'armenian')['value'], weigh('ԱԲԳ', 'armenian')['value']))
 d = armenian('Ռ' + '\u0305' + 'ՋՀԵ')
 check('the manuscript door: armenian() counts the overline (1) and '
-      'applies NO factor — overlined ՌՋՀԵ weighs 1975 at face',
-      d['value'] == 1975 and d['overline_marks'] == 1
+      'prices it at the resolved factor (R2) — overlined ՌՋՀԵ '
+      'weighs 10000975 (Ռ x10,000 + 975 at face)',
+      d['value'] == 10000975 and d['overline_marks'] == 1
+      and d['overline_factor'] == 10000
       and d['word'] == 'Ռ' + '\u0305' + 'ՋՀԵ',
       (d['value'], d['overline_marks']))
+check('the witnesses’ overline exhibits at the resolved factor: '
+      'overlined Ա == 10000 (Wikipedia; MELA); overlined Ջ == '
+      '9000000 (MELA)',
+      armenian('Ա' + '\u0305')['value'] == 10000
+      and armenian('Ջ' + '\u0305')['value'] == 9000000,
+      (armenian('Ա' + '\u0305')['value'],
+       armenian('Ջ' + '\u0305')['value']))
+plain = set(ARMENIAN.values())
+check('THE SYNERGY SWEEP — the factor’s proof: at x10,000 the 36 '
+      'overlined values are distinct and disjoint from the plain '
+      '36 (0 collisions); at x1,000 they strike the plain '
+      'thousands class in exactly 9 seats',
+      len({v * 10000 for v in plain}) == 36
+      and {v * 10000 for v in plain}.isdisjoint(plain)
+      and len({v * 1000 for v in plain} & plain) == 9,
+      (len({v * 10000 for v in plain} & plain),
+       len({v * 1000 for v in plain} & plain)))
+
+# --- The late annex (R1) ------------------------------------------------------------
+check('the annex in the data seat: the audit’s OPEN rows are '
+      'exactly the annex letters, and ARMENIAN_LATE carries their '
+      '"sometimes" values at both cases',
+      [r['uppercase'] for r in OPENED] == ['Օ', 'Ֆ']
+      and ARMENIAN_LATE == {'Օ': 10000, 'օ': 10000,
+                            'Ֆ': 20000, 'ֆ': 20000},
+      ARMENIAN_LATE)
+check('the annex is opt-in, never accidental: the default door '
+      'hears silence on օ (օր == 5000, the Ր alone); the explicit '
+      'late path weighs the annex exact (օր == 15000)',
+      armenian('Օ')['value'] == 0
+      and armenian('օր')['value'] == 5000
+      and armenian('օր')['late_annex'] is False
+      and armenian('Օ', late=True)['value'] == 10000
+      and armenian('օ', late=True)['value'] == 10000
+      and armenian('Ֆ', late=True)['value'] == 20000
+      and armenian('ֆ', late=True)['value'] == 20000
+      and armenian('օր', late=True)['value'] == 15000,
+      (armenian('օր')['value'], armenian('օր', late=True)['value']))
 
 # --- The fences ---------------------------------------------------------------------
 p = SYSTEMS['armenian']['provenance']
 check('the seat’s registry provenance carries its fence',
       p.startswith('ATTESTED') and '36' in p and 'halehame' in p
-      and 'NOT seated' in p, p)
+      and 'ARMENIAN_LATE' in p and '10,000' in p, p)
 p = SYSTEMS['halehame']['provenance']
 check('the witness’s fence stands unaltered beside the new seat',
       p.startswith('FOLK TABLE') and 'WITNESS' in p

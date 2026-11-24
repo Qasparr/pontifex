@@ -59,7 +59,7 @@ from .tables import (
     HEBREW, GREEK, LATIN_ORDINAL, AGRIPPA, ARABIC_ABJAD, BRAILLE,
     KANA, KANA_VOWEL, KANA_BASE,
     HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE,
-    ARMENIAN,
+    ARMENIAN, ARMENIAN_LATE,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -145,12 +145,16 @@ SYSTEMS = {
     # two read as a control case: halehame is a folk enumeration
     # (26 first forms of 202 signs, undated, multiplier
     # unexhibited); this is a complete liturgical table. The
-    # medieval additions (Օ, Ֆ) are NOT seated — their "sometimes"
-    # values are an open coordinate for the founder's pen. The
-    # bank is keyed in majuscules; weigh() folds Armenian input
-    # to capitals at its seam. armenian() below is the
-    # manuscript-dress door: it counts overline marks and applies
-    # no multiplier, the sources parting on the factor.
+    # medieval additions (Օ, Ֆ) are NOT seated in this bank: by
+    # the founder's ruling of 2026-11-24 (the Armenian questions
+    # decided in order of synergy, not argument) they stand in
+    # the ARMENIAN_LATE annex at their "sometimes" values, a tier
+    # below the classical 36, weighing only at the armenian()
+    # door's explicit late path. The bank is keyed in majuscules;
+    # weigh() folds Armenian input to capitals at its seam.
+    # armenian() below is the manuscript-dress door: it prices
+    # the overline at x10,000 per mark — the factor the table's
+    # own uniqueness law selects (resolution R2).
     'armenian':      {'table': ARMENIAN,
                       'provenance': 'ATTESTED — the classical Armenian '
                                     'numeral table: the designed '
@@ -167,9 +171,22 @@ SYSTEMS = {
                                     '26 first forms of 202 signs, '
                                     'antiquity undated, its multiplier '
                                     'unexhibited. The medieval '
-                                    'additions (Օ, Ֆ) are NOT seated; '
-                                    'their "sometimes" values stand '
-                                    'open for the founder\'s pen'},
+                                    'additions (Օ, Ֆ) are NOT seated '
+                                    'in this bank: by the founder\'s '
+                                    'ruling of 2026-11-24 (the Armenian '
+                                    'questions decided in order of '
+                                    'synergy, not argument) they stand '
+                                    'in the ARMENIAN_LATE annex at '
+                                    'their "sometimes" values '
+                                    '(10000 / 20000), a tier below the '
+                                    'classical 36, weighing only at '
+                                    'the armenian() door\'s explicit '
+                                    'late path. The overline '
+                                    'multiplies by 10,000 — the factor '
+                                    'the table\'s own uniqueness law '
+                                    'selects; Omniglot\'s x1,000 '
+                                    'stands recorded as the parted '
+                                    'source'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -478,39 +495,98 @@ def halehame(word):
     }
 
 
-def armenian(word):
+def armenian(word, late=False):
     """Weigh an Armenian word in the classical table, manuscript dress.
 
     MECHANISM: the bank's reading door for text as manuscripts and
-    colophons write it. It strips the combining overline (U+0305) —
-    the line the sources draw over a numeral letter — COUNTS the
-    marks it removed, and weighs the bare letters in the attested
-    table (case folded at weigh()'s seam). The result is weigh()'s
-    result on the bare word, with 'word' restored to the input as
-    given and the count carried as 'overline_marks', so the mark's
-    presence is auditable, never silent.
+    colophons write it. The combining overline (U+0305) FOLLOWS the
+    letter it multiplies, so the door walks the word letter by
+    letter, groups each letter with the marks riding on it, and
+    prices that letter at its face value x 10,000 per mark.
+    Letters are folded per letter to the majuscules the bank is
+    keyed in — the seam's preparation, done here because the marks
+    must be read before any fold could scatter them. The result
+    carries weigh()'s shape (word as given, system, value,
+    provenance, breakdown) plus the dress made auditable:
+    'overline_marks' (every mark seen, including any orphan mark
+    that prices nothing), 'overline_factor' (10000), and
+    'late_annex' (whether the annex path stood open). The
+    breakdown shows each letter's PRICED contribution, so its
+    entries sum to the value — the audit trail shows the
+    multiplication, never hides it. On unmarked classical text
+    this door and weigh(word, 'armenian') agree exactly.
 
-    DOCTRINE: the overline is a MULTIPLIER in the sources, and the
-    sources part on its factor — x10,000 (Wikipedia, "Armenian
-    numerals"; MELA: an overlined Ա is 10,000, 20,000 an overlined
-    Բ) against x1,000 (Omniglot: an overlined Ժ is 10,000, an
-    overlined Ռ is 1,000,000). A disputed multiplier is not
-    implemented by the desk: this door applies NO factor, weighs
-    the letters at their face values, and reports the marks it
-    saw. The choice between the factors — and whether the engine
-    ever multiplies — is an open coordinate for the founder's pen
-    (Phase I audit §VII Q2). weigh(word, 'armenian') is the raw
-    bank door: it folds case the same way and skips an overline
-    mark as it skips any character the table does not know; only
-    this door counts them. There is no second reading to declare:
-    the system is additive as written, one letter one value, and
-    the door exists for the mark, not for a rival law.
+    DOCTRINE — THE OVERLINE, RESOLVED (R2): the overline is a
+    MULTIPLIER in the sources, and the sources parted on its
+    factor — x10,000 (Wikipedia, "Armenian numerals"; MELA: an
+    overlined Ա is 10,000, an overlined Ջ is 9,000,000) against
+    x1,000 (Omniglot: an overlined Ժ is 10,000, an overlined Ռ is
+    1,000,000). As first seated, this door counted marks and
+    applied NO factor, the choice standing open for the founder's
+    pen (Phase I audit §VII Q2). His ruling of 2026-11-24 decided
+    the Armenian questions "in order of Synergy not argument as
+    previously ruled", and synergy reads the table's own law: the
+    classical bank holds UNIQUENESS — 36 letters, 36 distinct
+    values. Priced at x1,000, the overlined units (Ա–Թ ->
+    1000–9000) collide with the plain thousands class — nine
+    collisions, the mark adding nothing there. Priced at
+    x10,000, every overlined value at every class lands in an
+    empty seat — zero collisions across all 36 — and the factor
+    also carries the two stronger witnesses. So this door
+    multiplies by 10,000 per mark. Omniglot's x1,000 stands
+    recorded here as the parted source — marked, not vanished.
+    armenian_checks() proves the collision sweep in code.
+
+    DOCTRINE — THE LATE ANNEX, RESOLVED (R1, same ruling): the
+    medieval additions Օ/Ֆ carry "sometimes" values (10000 /
+    20000) a tier below the classical 36. They are seated in
+    tables.ARMENIAN_LATE and weigh ONLY when the caller opens the
+    annex path (late=True): the classical bank is never blended,
+    and օ — a living letter of ordinary words (օր, "day") —
+    still weighs nothing on the default path, so the annex can
+    never fire by accident. weigh(word, 'armenian') is the raw
+    bank door: it never sees the annex or the factor at all.
+    There is no second reading to declare: the system is additive
+    as written, one letter one value, and the door exists for the
+    mark and the annex, not for a rival law.
     """
-    marks = word.count('\u0305')  # the combining overline
-    result = weigh(word.replace('\u0305', ''), 'armenian')
-    result['word'] = word
-    result['overline_marks'] = marks
-    return result
+    marks_total = word.count('\u0305')  # every combining overline
+    # MECHANISM: first pass — group each letter with the marks
+    # that ride on it. A mark with no letter before it is counted
+    # in overline_marks (above) and prices nothing.
+    letters = []
+    for ch in word:
+        if ch == '\u0305':
+            if letters:
+                letters[-1][1] += 1
+            continue
+        letters.append([ch, 0])
+    total = 0
+    breakdown = []
+    for ch, marks in letters:
+        folded = ch.upper()
+        if folded in ARMENIAN:
+            base = ARMENIAN[folded]
+        elif late and (ch in ARMENIAN_LATE
+                       or folded in ARMENIAN_LATE):
+            # MECHANISM: the annex is keyed in both cases; the raw
+            # letter is tried first, the fold second — same seat.
+            base = ARMENIAN_LATE.get(ch, ARMENIAN_LATE.get(folded))
+        else:
+            continue  # silence, not false weight
+        priced = base * (10000 ** marks) if marks else base
+        breakdown.append((folded, priced))
+        total += priced
+    return {
+        'word': word,
+        'system': 'armenian',
+        'value': total,
+        'provenance': SYSTEMS['armenian']['provenance'],
+        'breakdown': breakdown,
+        'overline_marks': marks_total,
+        'overline_factor': 10000,
+        'late_annex': bool(late),
+    }
 
 
 def bridge(word1, system1, word2, system2):
@@ -1011,15 +1087,18 @@ def armenian_checks():
     MECHANISM: these pin the seat against its audit of record
     (THE-ARMENIAN-TABLE-PHASE-I-AUDIT.md): the class law recomputed
     from position, the witnesses' worked examples, MELA's era date,
-    the boundary at the medieval additions, and the overline door's
-    refusal to multiply. Sign-for-sign parity against the audit's
-    frozen transcription (research/twelve-tongues/armenian-table.csv)
-    is a relation between two seats and lives in
-    test_armenian_parity.py at the repository root; this battery
-    holds the seat to the doctrine itself. Kept beside
-    halehame_checks() rather than inside engine_checks(), so the
-    established checks stand untouched as the no-collateral witness;
-    run all for the full suite.
+    the boundary at the medieval additions, and — since the
+    founder's resolutions of 2026-11-24 (the audit's RESOLUTIONS
+    section) — the late annex's exact values and opt-in silence,
+    the overline priced at x10,000, and the collision sweep that
+    is the factor's synergy proof. Sign-for-sign parity against
+    the audit's frozen transcription
+    (research/twelve-tongues/armenian-table.csv) is a relation
+    between two seats and lives in test_armenian_parity.py at the
+    repository root; this battery holds the seat to the doctrine
+    itself. Kept beside halehame_checks() rather than inside
+    engine_checks(), so the established checks stand untouched as
+    the no-collateral witness; run all for the full suite.
 
     DOCTRINE — THE CONTROL CASE, AT THE SEAT: this bank and the
     halehame witness carry the same value sequence over their
@@ -1081,35 +1160,91 @@ def armenian_checks():
     checks.append(('case folds at the seam: աբգ == ԱԲԳ == 6; the '
                    'corpus head ախոնեմե == 1251',
                    a == b == 6 and x == 1251, (a, b, x)))
-    # 8. The boundary at the door: the medieval additions are not
-    #    keys — a weighing that meets one hears silence, in either
-    #    case, and the "sometimes" 10000 never fires.
-    checks.append(('the boundary: Օ, Ֆ, օ, ֆ weigh nothing (not '
-                   'seated; no smuggled 10000)',
+    # 8. The boundary at the classical door (R1 keeps it): the
+    #    medieval additions are not keys of the bank — through
+    #    weigh() and through the DEFAULT door a weighing that
+    #    meets one hears silence, in either case, and the
+    #    "sometimes" 10000 never fires by accident: օր ("day")
+    #    weighs its Ր alone, 5000, the օ silent.
+    checks.append(('the boundary at the classical door: Օ, Ֆ, օ, '
+                   'ֆ weigh nothing through weigh() or the default '
+                   'door (annex opt-in; no accidental 10000)',
                    'Օ' not in ARMENIAN and 'Ֆ' not in ARMENIAN
                    and weigh('Օ', 'armenian')['value'] == 0
                    and weigh('Օ', 'armenian')['breakdown'] == []
-                   and weigh('ֆ', 'armenian')['value'] == 0,
+                   and weigh('ֆ', 'armenian')['value'] == 0
+                   and armenian('Օ')['value'] == 0
+                   and armenian('օր')['value'] == 5000,
                    (weigh('Օ', 'armenian')['value'],
-                    weigh('ֆ', 'armenian')['value'])))
-    # 9. The overline door: marks counted, NO factor applied — an
-    #    overlined Ռ weighs its face 1000 beside its letters, under
-    #    either disputed factor it would not; the refusal is the
-    #    doctrine, proven here in code.
+                    armenian('օր')['value'])))
+    # 9. The overline door, priced (R2): an overlined Ռ weighs
+    #    1000 x 10,000 beside its letters at face — 10,000,975,
+    #    one mark counted; the unmarked word is untouched.
     d = armenian('Ռ' + '\u0305' + 'ՋՀԵ')
-    checks.append(('armenian() counts the overline and applies no '
-                   'factor: overlined ՌՋՀԵ == 1975 at face, 1 mark',
-                   d['value'] == 1975 and d['overline_marks'] == 1
+    checks.append(('armenian() prices the overline at x10,000: '
+                   'overlined ՌՋՀԵ == 10000975, 1 mark; the '
+                   'unmarked word weighs 1975, 0 marks',
+                   d['value'] == 10000975 and d['overline_marks'] == 1
+                   and d['overline_factor'] == 10000
+                   and armenian('ՌՋՀԵ')['value'] == 1975
                    and armenian('ՌՋՀԵ')['overline_marks'] == 0,
                    (d['value'], d['overline_marks'])))
-    # 10. The fence: attested, complete, the difference from the
-    #     folk witness named, the additions' openness on its face.
+    # 10. The witnesses' overline exhibits at the resolved factor:
+    #     overlined Ա = 10,000 (Wikipedia; MELA) and overlined
+    #     Ջ = 9,000,000 (MELA) — the numbers the factor was
+    #     chosen among, reproduced at the door.
+    checks.append(('the overline exhibits: overlined Ա == 10000; '
+                   'overlined Ջ == 9000000 (MELA)',
+                   armenian('Ա' + '\u0305')['value'] == 10000
+                   and armenian('Ջ' + '\u0305')['value'] == 9000000,
+                   (armenian('Ա' + '\u0305')['value'],
+                    armenian('Ջ' + '\u0305')['value'])))
+    # 11. THE SYNERGY PROOF, in code: the classical bank's
+    #     uniqueness law is the factor's judge. At x10,000 the 36
+    #     overlined values are 36 distinct seats, disjoint from
+    #     the 36 plain values — zero collisions. At x1,000 the
+    #     overlined set strikes the plain thousands class in
+    #     exactly nine seats. The factor that keeps the whole
+    #     working together is the one this door applies.
+    plain = set(ARMENIAN.values())
+    over10k = {v * 10000 for v in plain}
+    over1k = {v * 1000 for v in plain}
+    checks.append(('the synergy sweep: x10,000 collides nowhere '
+                   '(36 distinct overlined values, disjoint from '
+                   'the plain 36); x1,000 collides in exactly 9',
+                   len(over10k) == 36 and over10k.isdisjoint(plain)
+                   and len(over1k & plain) == 9,
+                   (len(over10k & plain), len(over1k & plain))))
+    # 12. The late annex (R1): seated apart, exact at both cases,
+    #     reachable only on the explicit path — օր weighs 15000
+    #     with the annex open (օ 10000 + Ր 5000) against 5000
+    #     shut (check 8); the classical bank stands unblended
+    #     at 36 keys, the annex at its four.
+    checks.append(('the late annex: ARMENIAN_LATE exact '
+                   '(Օ/օ 10000, Ֆ/ֆ 20000); the late path weighs '
+                   'օր == 15000; the classical bank unblended',
+                   ARMENIAN_LATE == {'Օ': 10000, 'օ': 10000,
+                                     'Ֆ': 20000, 'ֆ': 20000}
+                   and armenian('Օ', late=True)['value'] == 10000
+                   and armenian('օ', late=True)['value'] == 10000
+                   and armenian('Ֆ', late=True)['value'] == 20000
+                   and armenian('ֆ', late=True)['value'] == 20000
+                   and armenian('օր', late=True)['value'] == 15000
+                   and armenian('օր', late=True)['late_annex'] is True
+                   and len(ARMENIAN) == 36,
+                   (armenian('Օ', late=True)['value'],
+                    armenian('օր', late=True)['value'])))
+    # 13. The fence: attested, complete, the difference from the
+    #     folk witness named, the annex and the resolved factor
+    #     on its face.
     p = SYSTEMS['armenian']['provenance']
     checks.append(('armenian provenance carries the fence '
                    '(ATTESTED, complete 36, NOT halehame\'s case, '
-                   'additions NOT seated)',
+                   'ARMENIAN_LATE annex and the x10,000 factor '
+                   'stated)',
                    p.startswith('ATTESTED') and '36' in p
-                   and 'halehame' in p and 'NOT seated' in p, p))
+                   and 'halehame' in p and 'ARMENIAN_LATE' in p
+                   and '10,000' in p, p))
     return checks
 
 
