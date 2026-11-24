@@ -497,6 +497,82 @@ HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE = _build_geez_banks()
 # parties agreeing on the operative point). A weighing that meets
 # one skips it: silence, not false weight.
 
+# -- Armenian: THE CLASSICAL TABLE (ATTESTED, complete) ----------------------
+# ---------------------------------------------------------------------------
+# PROVENANCE — A SOURCED TABLE AT THE FULL DEPTH, stated against its
+# control case so the difference is never blurred. The classical
+# Armenian numeral system is the designed alphabet's OWN table:
+# created with the majuscules of Mashtots' alphabet (c. 405 CE), it
+# values EVERY one of the 36 classical letters — units ա–թ = 1–9,
+# tens ժ–ղ = 10–90, hundreds ճ–ջ = 100–900, thousands ռ–ք =
+# 1000–9000 — and it stands in continuous manuscript use, era dates
+# in colophons written ԹՎ + numerals (era epoch AD 552), a practice
+# the MELA cataloging manual documents for working catalogers.
+# Audited 2026-11-24 (THE-ARMENIAN-TABLE-PHASE-I-AUDIT.md): three
+# witnesses read entire agree on all 36 cells (Wikipedia, "Armenian
+# numerals"; Omniglot, "Numbers in Armenian"; Wikipedia, "Armenian
+# alphabet", Numerical value column), a fourth (MELA) agrees on the
+# 12 cells its worked examples exhibit; the class law holds at every
+# cell; the witnesses' worked example ՌՋՀԵ = 1975 recomputes exact;
+# parity of this seat against the audit's frozen transcription is
+# proven by test_armenian_parity.py at the repository root.
+#
+# THE DIFFERENCE FROM HALEHAME, PLAINLY (the founder ordered the
+# two read as a control case — same decimal class-law shape,
+# opposite attestation depth): halehame is a FOLK table — it values
+# 26 first forms of the fidäl's 202 classical signs, its antiquity
+# is undated in every source, its register is folk-magical and
+# expressly not liturgical, and its extension axis (the order
+# multiplier) is printed but unexhibited in use. This bank is the
+# opposite on every axis: complete (36 of 36 classical letters),
+# liturgical in its manuscript life, and valued at the full
+# four-class extent. Both are witness banks — sourced, not house
+# coinage — and the fences keep their depths distinct: do not cite
+# halehame at this bank's depth, nor this bank as a folk practice.
+# On the shared domain the two laws agree in VALUE at all 26
+# positions and part in DERIVATION at exactly position 10
+# (Armenian reaches 10 by the class step — Ժ, first tens letter;
+# halehame inside the units run — ተ, tenth units letter): the
+# control case's boundary coordinate, printed in the audit.
+#
+# MECHANISM: the bank is keyed in the MAJUSCULES — the forms the
+# system was created in ("created using the majuscules of the
+# Armenian alphabet"). The minuscules are the same letters' case
+# pairs (the alphabet's own table pairs them, form by form, at one
+# value), and engine.weigh() folds Armenian input to capitals at
+# its seam, so both cases weigh — the preparation happens at the
+# door, never by duplicating the bank. Singleness AND uniqueness
+# both hold here: 36 letters, 36 distinct values (the Ge'ez mint's
+# honesty coordinate — 90 values over 227 seats — does not arise;
+# this is a ciphered table, one letter one value, all different).
+#
+# THE BOUNDARY, AT THE SAME SIZE AS THE VALUES: the two medieval
+# additions, Օ (U+0555) and Ֆ (U+0556), are NOT keys of this bank.
+# They entered the alphabet in the Middle Ages (13th c. per the
+# alphabet article), after Arabic numerals were already in use;
+# the numerals article says they "sometimes have a numerical
+# value assigned to them" (10000 / 20000), and the alphabet
+# article's own table prints NO numerical value for either. That
+# is a weaker attestation than any cell of the 36, so the seat
+# stops at the classical table and the additions' values stand
+# as an OPEN coordinate for the founder's pen (Phase I audit
+# §VII Q1). A weighing that meets Օ or Ֆ skips it — silence at
+# the boundary, printed here, never a smuggled 10000.
+#
+# THE OVERLINE is likewise not implemented: the sources agree a
+# line over a letter multiplies it, and part on the factor —
+# x10,000 (Wikipedia; MELA) against x1,000 (Omniglot). The
+# engine's armenian() door counts overline marks and applies NO
+# factor; the choice is the founder's pen (audit §VII Q2).
+ARMENIAN = {
+    'Ա': 1, 'Բ': 2, 'Գ': 3, 'Դ': 4, 'Ե': 5, 'Զ': 6, 'Է': 7, 'Ը': 8,
+    'Թ': 9, 'Ժ': 10, 'Ի': 20, 'Լ': 30, 'Խ': 40, 'Ծ': 50, 'Կ': 60,
+    'Հ': 70, 'Ձ': 80, 'Ղ': 90, 'Ճ': 100, 'Մ': 200, 'Յ': 300, 'Ն': 400,
+    'Շ': 500, 'Ո': 600, 'Չ': 700, 'Պ': 800, 'Ջ': 900, 'Ռ': 1000,
+    'Ս': 2000, 'Վ': 3000, 'Տ': 4000, 'Ր': 5000, 'Ց': 6000, 'Ւ': 7000,
+    'Փ': 8000, 'Ք': 9000,
+}
+
 # =============================================================================
 # Closing motto: "Live, Love, and let Love, Live."
 # 93. All Rights Reserved, Without Prejudice.

@@ -1,0 +1,32 @@
+position,armenian_letter,armenian_value,armenian_class,halehame_base,halehame_value,halehame_class,relation,note
+1,Ա,1,units,ሀ,1,units,"AGREE — same value, same units law (value = position)",
+2,Բ,2,units,ለ,2,units,"AGREE — same value, same units law (value = position)",
+3,Գ,3,units,ሐ,3,units,"AGREE — same value, same units law (value = position)",
+4,Դ,4,units,መ,4,units,"AGREE — same value, same units law (value = position)",
+5,Ե,5,units,ሠ,5,units,"AGREE — same value, same units law (value = position)",
+6,Զ,6,units,ረ,6,units,"AGREE — same value, same units law (value = position)",
+7,Է,7,units,ሰ,7,units,"AGREE — same value, same units law (value = position)",
+8,Ը,8,units,ቀ,8,units,"AGREE — same value, same units law (value = position)",
+9,Թ,9,units,በ,9,units,"AGREE — same value, same units law (value = position)",
+10,Ժ,10,tens,ተ,10,units,"AGREE in value (10 = 10) — PART in law: Armenian reaches 10 by the class step (Ժ, first tens letter, 1 x 10); halehame reaches it inside the units run (ተ, tenth units letter). THE BOUNDARY COORDINATE: total value agreement, first law parting",
+11,Ի,20,tens,ኀ,20,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+12,Լ,30,tens,ነ,30,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+13,Խ,40,tens,አ,40,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+14,Ծ,50,tens,ከ,50,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+15,Կ,60,tens,ወ,60,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+16,Հ,70,tens,ዐ,70,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+17,Ձ,80,tens,ዘ,80,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+18,Ղ,90,tens,የ,90,tens,"AGREE in value — class membership offset by one seat: Armenian tens run 10–18, halehame tens 11–19",
+19,Ճ,100,hundreds,ደ,100,tens,AGREE in value (100 = 100) — THE HINGE: Armenian's first hundreds letter (Ճ) is halehame's last tens letter (ደ),
+20,Մ,200,hundreds,ገ,200,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+21,Յ,300,hundreds,ጠ,300,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+22,Ն,400,hundreds,ጰ,400,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+23,Շ,500,hundreds,ጸ,500,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+24,Ո,600,hundreds,ፀ,600,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+25,Չ,700,hundreds,ፈ,700,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+26,Պ,800,hundreds,ፐ,800,hundreds,"AGREE in value — Armenian hundreds run 19–27, halehame hundreds 20–26",
+EXTENT,,,,,,,PART — extent,"Armenian: four classes over 36 seats, maximum letter value 9000 (Ք), maximum writable number 9999. Halehame: three classes over 26 seats, maximum first-form value 800 (ፐ). Armenian positions 27–36 (Ջ 900; Ռ–Ք 1000–9000) have no halehame counterpart."
+COVERAGE,,,,,,,PART — coverage against the whole script,"Armenian values 36 of 36 classical letters — the whole classical alphabet is the table (the 2 medieval additions stand outside it, OPEN). Halehame values 26 first forms of 202 classical signs (26/202); its labiovelar columns and later-added bases carry no value in any source."
+EXTENSION,,,,,,,PART — the axis beyond the table,"Armenian extends by MORE LETTERS (the thousands class) and by the OVERLINE: a line over a letter multiplies it — by 10,000 per Wikipedia and MELA (overlined Ա = 10,000; overlined Ջ = 9,000,000), by 1,000 per Omniglot (overlined Ժ = 10,000; overlined Ռ = 1,000,000). THE FACTOR IS DISPUTED IN THE SOURCES; neither is implemented. Halehame extends by the ORDER MULTIPLIER: a form at order n at n x its base, the printed grid reaching 5600 — printed entire, its use unexhibited."
+ZERO,,,,,,,AGREE — the zero coordinate,"Neither table has a zero: Armenian — ""There is no symbol for zero"" (Wikipedia, on its face); missing powers are simply not written. Halehame — no zero value in the folk table. Both are zero-less additive systems."
+ATTESTATION,,,,,,,PART — attestation depth (the control case itself),"Armenian: the designed alphabet's own numeral system, in manuscript use for era dating in colophons (MELA documents the practice; era epoch AD 552, years written ԹՎ + numerals) — three modern witnesses read entire agree on all 36 cells, a scholarly manual's examples agree on the 12 cells they exhibit. Halehame: a living folk-magical enumeration, published modernly, antiquity undated in every source, register expressly not liturgical. Same class-law shape; opposite attestation depth."

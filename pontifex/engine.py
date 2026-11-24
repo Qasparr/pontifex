@@ -59,6 +59,7 @@ from .tables import (
     HEBREW, GREEK, LATIN_ORDINAL, AGRIPPA, ARABIC_ABJAD, BRAILLE,
     KANA, KANA_VOWEL, KANA_BASE,
     HALEHAME, HALEHAME_FIRST, GEEZ, GEEZ_FIRST, GEEZ_BASE,
+    ARMENIAN,
     LATIN_TO_HEBREW_DIGRAPHS, LATIN_TO_HEBREW, MERGERS,
 )
 from .music import weigh_melody
@@ -135,6 +136,40 @@ SYSTEMS = {
                                     'halehame witness (first-form '
                                     'column identical, 26/26); NOT '
                                     'attested, traditional, or ancient'},
+    # DOCTRINE: the ARMENIAN bank is a sourced table at the full
+    # depth — the designed alphabet's own numeral system, complete
+    # at 36 of 36 classical letters, in liturgical manuscript use
+    # for era dating; audited 2026-11-24, three witnesses agreeing
+    # on every cell. Its fence states the difference from the
+    # halehame witness plainly, because the founder ordered the
+    # two read as a control case: halehame is a folk enumeration
+    # (26 first forms of 202 signs, undated, multiplier
+    # unexhibited); this is a complete liturgical table. The
+    # medieval additions (Օ, Ֆ) are NOT seated — their "sometimes"
+    # values are an open coordinate for the founder's pen. The
+    # bank is keyed in majuscules; weigh() folds Armenian input
+    # to capitals at its seam. armenian() below is the
+    # manuscript-dress door: it counts overline marks and applies
+    # no multiplier, the sources parting on the factor.
+    'armenian':      {'table': ARMENIAN,
+                      'provenance': 'ATTESTED — the classical Armenian '
+                                    'numeral table: the designed '
+                                    'alphabet\'s own system (Mashtots, '
+                                    'c. 405 CE), all 36 classical '
+                                    'letters valued in four decimal '
+                                    'classes to 9000, audited '
+                                    '2026-11-24 (three witnesses agree '
+                                    'on all 36 cells; MELA\'s colophon '
+                                    'examples concur). A complete '
+                                    'liturgical table — NOT the '
+                                    'halehame witness\'s case: that '
+                                    'bank is a folk enumeration valuing '
+                                    '26 first forms of 202 signs, '
+                                    'antiquity undated, its multiplier '
+                                    'unexhibited. The medieval '
+                                    'additions (Օ, Ֆ) are NOT seated; '
+                                    'their "sometimes" values stand '
+                                    'open for the founder\'s pen'},
     'abc_notes':     {'weigher': weigh_melody,
                       'provenance': 'ATTESTED values; CONSTRUCTED extraction '
                                      '(see MUSIC_CONVENTIONS)'},
@@ -252,10 +287,13 @@ def weigh(word, system):
     # value — check the pair before the singles.
     # MECHANISM: each script is prepared at this one seam, so all three
     # doors (Python, CLI, HTTP) weigh the same letters: Latin folds to
-    # capitals (its tables are keyed in capitals); Greek is casefolded
+    # capitals (its tables are keyed in capitals); Armenian folds the
+    # same way (its table is keyed in the majuscules the system was
+    # created in, and case carries no numeral value — the alphabet's
+    # own table pairs the cases at one value); Greek is casefolded
     # and stripped of diacritics (its table is keyed in bare lowercase,
     # and neither case nor accent carries Milesian value).
-    if system in ('latin_ordinal', 'agrippa'):
+    if system in ('latin_ordinal', 'agrippa', 'armenian'):
         w = word.upper()
     elif system == 'greek':
         w = _normalize_greek(word)
@@ -438,6 +476,41 @@ def halehame(word):
         'provenance': SYSTEMS['halehame']['provenance'],
         'breakdown': breakdown,
     }
+
+
+def armenian(word):
+    """Weigh an Armenian word in the classical table, manuscript dress.
+
+    MECHANISM: the bank's reading door for text as manuscripts and
+    colophons write it. It strips the combining overline (U+0305) —
+    the line the sources draw over a numeral letter — COUNTS the
+    marks it removed, and weighs the bare letters in the attested
+    table (case folded at weigh()'s seam). The result is weigh()'s
+    result on the bare word, with 'word' restored to the input as
+    given and the count carried as 'overline_marks', so the mark's
+    presence is auditable, never silent.
+
+    DOCTRINE: the overline is a MULTIPLIER in the sources, and the
+    sources part on its factor — x10,000 (Wikipedia, "Armenian
+    numerals"; MELA: an overlined Ա is 10,000, 20,000 an overlined
+    Բ) against x1,000 (Omniglot: an overlined Ժ is 10,000, an
+    overlined Ռ is 1,000,000). A disputed multiplier is not
+    implemented by the desk: this door applies NO factor, weighs
+    the letters at their face values, and reports the marks it
+    saw. The choice between the factors — and whether the engine
+    ever multiplies — is an open coordinate for the founder's pen
+    (Phase I audit §VII Q2). weigh(word, 'armenian') is the raw
+    bank door: it folds case the same way and skips an overline
+    mark as it skips any character the table does not know; only
+    this door counts them. There is no second reading to declare:
+    the system is additive as written, one letter one value, and
+    the door exists for the mark, not for a rival law.
+    """
+    marks = word.count('\u0305')  # the combining overline
+    result = weigh(word.replace('\u0305', ''), 'armenian')
+    result['word'] = word
+    result['overline_marks'] = marks
+    return result
 
 
 def bridge(word1, system1, word2, system2):
@@ -923,6 +996,120 @@ def halehame_checks():
                    'TABLE — WITNESS, UNDATED, UNEXHIBITED multiplier)',
                    p.startswith('FOLK TABLE') and 'WITNESS' in p
                    and 'UNDATED' in p and 'UNEXHIBITED' in p, p))
+    return checks
+
+
+# MECHANISM: the classical letters in Mashtots' order — the audit's
+# coordinate for the seat. The class law is recomputed from position
+# in armenian_checks() below, never trusted from the dict's shape.
+_ARMENIAN_ORDER = 'ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔ'
+
+
+def armenian_checks():
+    """Self-checks for the ARMENIAN seat. Returns [(name, passed, got)].
+
+    MECHANISM: these pin the seat against its audit of record
+    (THE-ARMENIAN-TABLE-PHASE-I-AUDIT.md): the class law recomputed
+    from position, the witnesses' worked examples, MELA's era date,
+    the boundary at the medieval additions, and the overline door's
+    refusal to multiply. Sign-for-sign parity against the audit's
+    frozen transcription (research/twelve-tongues/armenian-table.csv)
+    is a relation between two seats and lives in
+    test_armenian_parity.py at the repository root; this battery
+    holds the seat to the doctrine itself. Kept beside
+    halehame_checks() rather than inside engine_checks(), so the
+    established checks stand untouched as the no-collateral witness;
+    run all for the full suite.
+
+    DOCTRINE — THE CONTROL CASE, AT THE SEAT: this bank and the
+    halehame witness carry the same value sequence over their
+    shared domain (positions 1–26 identical), reached by laws that
+    part at position 10 and held at opposite attestation depths.
+    The checks below pin THIS bank's side: complete, unique-valued,
+    liturgical. The comparison itself is the audit's page and the
+    parity battery's exhibit, not a weighing either bank performs.
+    """
+    checks = []
+    # 1. The class law entire, recomputed from position: four
+    #    classes of nine, value = digit x 10^class, at all 36 seats.
+    def cls(pos):
+        return (((pos - 1) % 9) + 1) * (10 ** ((pos - 1) // 9))
+    law = [ARMENIAN[ch] for ch in _ARMENIAN_ORDER]
+    checks.append(('the class law at all 36 seats (four classes of '
+                   'nine, recomputed from position)',
+                   law == [cls(p) for p in range(1, 37)]
+                   and len(ARMENIAN) == 36, law[:4] + law[-2:]))
+    # 2. Uniqueness, printed against the mint's coordinate: 36
+    #    letters, 36 distinct values — a ciphered table, not a
+    #    class axis with collisions.
+    checks.append(('36 letters, 36 distinct values (uniqueness '
+                   'holds; singleness and uniqueness both)',
+                   len(set(ARMENIAN.values())) == 36
+                   and sum(ARMENIAN.values()) == 49995,
+                   (len(set(ARMENIAN.values())), sum(ARMENIAN.values()))))
+    # 3. Calibration: the witnesses' own worked example, exact —
+    #    the number the audit trusted before any derived number.
+    r = weigh('ՌՋՀԵ', 'armenian')
+    checks.append(('ՌՋՀԵ == 1975 (the witnesses\' worked example)',
+                   r['value'] == 1975
+                   and r['breakdown'] == [('Ռ', 1000), ('Ջ', 900),
+                                          ('Հ', 70), ('Ե', 5)],
+                   (r['value'], r['breakdown'])))
+    # 4. The examples both text witnesses share: 2222, 2004, 120, 50.
+    ex = (weigh('ՍՄԻԲ', 'armenian')['value'],
+          weigh('ՍԴ', 'armenian')['value'],
+          weigh('ՃԻ', 'armenian')['value'],
+          weigh('Ծ', 'armenian')['value'])
+    checks.append(('shared examples: ՍՄԻԲ 2222, ՍԴ 2004, ՃԻ 120, '
+                   'Ծ 50', ex == (2222, 2004, 120, 50), ex))
+    # 5. MELA's era date at the door of practice: ՌՆԾԵ = 1455, the
+    #    year the manual's colophon writes after the ԹՎ siglum.
+    checks.append(('ՌՆԾԵ == 1455 (MELA\'s era date)',
+                   weigh('ՌՆԾԵ', 'armenian')['value'] == 1455,
+                   weigh('ՌՆԾԵ', 'armenian')['value']))
+    # 6. The system's own arithmetic: the largest number writable
+    #    without the overline — one letter per class, descending.
+    checks.append(('ՔՋՂԹ == 9999 (the maximum without the overline)',
+                   weigh('ՔՋՂԹ', 'armenian')['value'] == 9999,
+                   weigh('ՔՋՂԹ', 'armenian')['value']))
+    # 7. Case: the seam folds minuscules to the majuscule bank —
+    #    աբգ and ԱԲԳ are one weighing, and the sweep's corpus head
+    #    crosses at its recorded value through the fold.
+    a = weigh('աբգ', 'armenian')['value']
+    b = weigh('ԱԲԳ', 'armenian')['value']
+    x = weigh('ախոնեմե', 'armenian')['value']
+    checks.append(('case folds at the seam: աբգ == ԱԲԳ == 6; the '
+                   'corpus head ախոնեմե == 1251',
+                   a == b == 6 and x == 1251, (a, b, x)))
+    # 8. The boundary at the door: the medieval additions are not
+    #    keys — a weighing that meets one hears silence, in either
+    #    case, and the "sometimes" 10000 never fires.
+    checks.append(('the boundary: Օ, Ֆ, օ, ֆ weigh nothing (not '
+                   'seated; no smuggled 10000)',
+                   'Օ' not in ARMENIAN and 'Ֆ' not in ARMENIAN
+                   and weigh('Օ', 'armenian')['value'] == 0
+                   and weigh('Օ', 'armenian')['breakdown'] == []
+                   and weigh('ֆ', 'armenian')['value'] == 0,
+                   (weigh('Օ', 'armenian')['value'],
+                    weigh('ֆ', 'armenian')['value'])))
+    # 9. The overline door: marks counted, NO factor applied — an
+    #    overlined Ռ weighs its face 1000 beside its letters, under
+    #    either disputed factor it would not; the refusal is the
+    #    doctrine, proven here in code.
+    d = armenian('Ռ' + '\u0305' + 'ՋՀԵ')
+    checks.append(('armenian() counts the overline and applies no '
+                   'factor: overlined ՌՋՀԵ == 1975 at face, 1 mark',
+                   d['value'] == 1975 and d['overline_marks'] == 1
+                   and armenian('ՌՋՀԵ')['overline_marks'] == 0,
+                   (d['value'], d['overline_marks'])))
+    # 10. The fence: attested, complete, the difference from the
+    #     folk witness named, the additions' openness on its face.
+    p = SYSTEMS['armenian']['provenance']
+    checks.append(('armenian provenance carries the fence '
+                   '(ATTESTED, complete 36, NOT halehame\'s case, '
+                   'additions NOT seated)',
+                   p.startswith('ATTESTED') and '36' in p
+                   and 'halehame' in p and 'NOT seated' in p, p))
     return checks
 
 
