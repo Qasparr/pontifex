@@ -1,0 +1,37 @@
+CONTROLS
+  thelema greek   = 93 (expect 93)
+  VAPOUR ordinal  = 93 (expect 93)
+  sphinx greek    = 773 (expect 773)
+
+T2(b) THE TRAVERSAL AND ITS INVERSE
+  forward {13/5} : Α → Υ → MIRROR ϛʹ → Η → ΕΙ → ZERO οὐδέν → Ο → OFFSET γʹ → Ε → Ω → REFUSAL κʹ → Ι → ΟΥ
+  inverse {-5}   : Α → ΟΥ → Ι → REFUSAL κʹ → Ω → Ε → OFFSET γʹ → Ο → ZERO οὐδέν → ΕΙ → Η → MIRROR ϛʹ → Υ
+  inverse == forward reversed, station for station: True
+  inverse visits all 13 stations exactly once: True
+  step check: -5 mod 13 = 8 (the {13/8} polygon)
+
+T2(b) SECOND WITNESS — THE OFFSET LAW INVERSION
+  1779 final digit 9, inverted 6; 9 - 6 = 3 ; 1779 - 3 = 1776 (the closure is exact, remainder 0)
+
+T1 VALUE INPUTS (re-weighed from the engine)
+  greek Α = 1 (battery 1) OK
+  greek Ε = 5 (battery 5) OK
+  greek Η = 8 (battery 8) OK
+  greek Ι = 10 (battery 10) OK
+  greek Ο = 70 (battery 70) OK
+  greek Υ = 400 (battery 400) OK
+  greek Ω = 800 (battery 800) OK
+  greek ΕΙ = 15 (battery 15) OK
+  greek ΟΥ = 470 (battery 470) OK
+  coptic ⲟⲩ = 470 (battery 470 — ΟΥ value-mark)
+  coptic ⲏ  = 8 (battery 8 — five-tongue 8)
+  coptic ⲓ  = 10 (battery 10 — Ι mirror value)
+  coptic ⲱ  = 800 (battery 800 — Ω mirror value)
+  upsilon Y-dress, Agrippa = 400 (battery 400 — Υ carries its own Greek price abroad)
+  epsilon dress E: ordinal 5 / Agrippa 5 (battery 5/5 — Ε bank-invariant, like Α)
+  iota dress I: ordinal 9 (battery 9 — Ι dress PARTS from its Greek price 10)
+  omega dress O: ordinal 15 (battery 15 — Ω dress PARTS from its Greek price 800)
+  diphthong four: ΑΙ 11 + ΕΙ 15 + ΟΙ 80 + ΟΥ 470 = 576 (576 = 24^2: True )
+  οὐδέν = 529 (529 = 23^2: True )
+
+93 — Live, Love, and let Love, Live.
