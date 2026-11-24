@@ -61,6 +61,11 @@ from .chinese import (
     read_chinese_numerals,
     chinese_checks,
 )
+from .triad import (
+    triad_weigh,
+    triad_zero,
+    triad_checks,
+)
 from .music import (
     NOTE_VALUES,
     MUSIC_CONVENTIONS,
@@ -107,6 +112,9 @@ __all__ = [
     'hangul',
     'read_chinese_numerals',
     'chinese_checks',
+    'triad_weigh',
+    'triad_zero',
+    'triad_checks',
     'weigh_via_hebrew_fallback',
     'bridge',
     'transliterate_latin_to_hebrew',
