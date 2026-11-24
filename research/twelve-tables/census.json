@@ -1,0 +1,179 @@
+{
+ "frame_rows": 371,
+ "word_cells": 285,
+ "non_word_cells": 86,
+ "sections": 221,
+ "filled_sections": 135,
+ "empty_sections": 85,
+ "gap_sections": 1,
+ "by_column": {
+  "Column CIII — The Ten Divisions of the Body of God.": {
+   "NON-WORD": 1
+  },
+  "Column CIX — The Dukes of Edom.": {
+   "NON-WORD": 4
+  },
+  "Column CLXXVII — Geomantic Intelligences.": {
+   "NON-WORD": 5
+  },
+  "Column CLXXX — Title of Tarot Trumps.": {
+   "NON-WORD": 2
+  },
+  "Column CLXXXIV — Diseases (Typical)": {
+   "NON-WORD": 4
+  },
+  "Column CLXXXV — Numeration of Greek Alphabet": {
+   "WORD": 2
+  },
+  "Column CLXXXVII — Magical Formulæ (see Col. XLI)": {
+   "WORD": 61
+  },
+  "Column CVI — The Ten Hells in Seven Palaces.": {
+   "NON-WORD": 1
+  },
+  "Column CVIII — Some Princes of the Qliphoth": {
+   "NON-WORD": 1,
+   "WORD": 3
+  },
+  "Column CXCI — The Four Noble Truths (Buddhism).": {
+   "NON-WORD": 1
+  },
+  "Column CXII — Alchemical Tree of Life (i.)": {
+   "NON-WORD": 1
+  },
+  "Column CXVII — The Soul (Hindu).": {
+   "NON-WORD": 1
+  },
+  "Column CXX — Magical Images of the Sephiroth.": {
+   "NON-WORD": 1
+  },
+  "Column CXXII — The Ten Plagues of Egypt.": {
+   "NON-WORD": 1
+  },
+  "Column CXXIII — English of Col. VIII. Lines 1-10": {
+   "NON-WORD": 1
+  },
+  "Column CXXIX — Pairs of Angels ruling Wands.": {
+   "NON-WORD": 1
+  },
+  "Column CXXVIII — Meaning of Col. CXXVII. (Seven Heavens of the Arabs)": {
+   "NON-WORD": 1
+  },
+  "Column CXXXII — Pairs of Angels ruling Coins.": {
+   "NON-WORD": 1,
+   "WORD": 1
+  },
+  "Column CXXXV — Titles and Attributions of the Sword Suit [Spades]": {
+   "NON-WORD": 1
+  },
+  "Column III — English of Col. II": {
+   "WORD": 2
+  },
+  "Column IV — Consciousness of the Adept.": {
+   "NON-WORD": 1
+  },
+  "Column IX — The Sword and the Serpent": {
+   "NON-WORD": 3
+  },
+  "Column L — Transcendental Morality.": {
+   "NON-WORD": 1
+  },
+  "Column LI — The Coptic Alphabet — Numeration of Col. LI.": {
+   "NON-WORD": 3,
+   "WORD": 1
+  },
+  "Column LII — Numeration of Arabic Alphabet": {
+   "NON-WORD": 3
+  },
+  "Column LIII — The Greek Alphabet.": {
+   "WORD": 1
+  },
+  "Column LIX — Archangels of the Quarters.": {
+   "NON-WORD": 1
+  },
+  "Column LVI — The Four Rivers.": {
+   "WORD": 2
+  },
+  "Column LVII — The Four Quarters.": {
+   "WORD": 3
+  },
+  "Column LVIII — Supreme Elemental Kings (source sic 'Supereme').": {
+   "WORD": 3
+  },
+  "Column LXIII — The Four Worlds.": {
+   "WORD": 2
+  },
+  "Column LXVIII — The Demon Kings.": {
+   "NON-WORD": 1
+  },
+  "Column LXXXIV — Divine Names of Briah.": {
+   "NON-WORD": 1
+  },
+  "Column LXXXVIII — Translation of Col. LXXXVII.": {
+   "NON-WORD": 1
+  },
+  "Column VI — The Heavens of Assiah": {
+   "NON-WORD": 1,
+   "WORD": 6
+  },
+  "Column VIII — Orders of Qliphoth.": {
+   "NON-WORD": 1,
+   "WORD": 9
+  },
+  "Column XCII — The Angelic Functions in the World of Yetzirah.": {
+   "NON-WORD": 1
+  },
+  "Column XCIX — Archangels of Assiah.": {
+   "NON-WORD": 1
+  },
+  "Column XCV — Contents of Col. XCIV. (Heavens of Assiah)": {
+   "NON-WORD": 1
+  },
+  "Column XI — Elements (with their Planetary Rulers)": {
+   "NON-WORD": 8
+  },
+  "Column XII — The Tree of Life.": {
+   "NON-WORD": 1
+  },
+  "Column XIII — The Paths of the Sepher Yetzirah": {
+   "NON-WORD": 3
+  },
+  "Column XLIII — Vegetable Drugs.": {
+   "NON-WORD": 1,
+   "WORD": 20
+  },
+  "Column XLIV — Mineral Drugs": {
+   "WORD": 40
+  },
+  "Column XLVI — System of Taoism": {
+   "WORD": 23
+  },
+  "Column XLVII — Kings and Princes of the Jinn": {
+   "NON-WORD": 9,
+   "WORD": 51
+  },
+  "Column XVI — The Queen Scale of Colour (h).": {
+   "NON-WORD": 1
+  },
+  "Column XX — Complete Practical Attribution of Egyptian Gods.": {
+   "WORD": 2
+  },
+  "Column XXI — The Perfected Man.": {
+   "WORD": 8
+  },
+  "Column XXIV — Certain of the Hindu and Buddhist Results.": {
+   "NON-WORD": 5,
+   "WORD": 31
+  },
+  "Column XXXIII — Some Scandinavian Gods.": {
+   "NON-WORD": 1,
+   "WORD": 14
+  },
+  "Column XXXV — Some Roman Gods.": {
+   "NON-WORD": 1
+  },
+  "Column XXXVI — Selection of Christian Gods (10); Apostles (12); Evangelists (4) and Churches of Asia (7)": {
+   "NON-WORD": 8
+  }
+ }
+}

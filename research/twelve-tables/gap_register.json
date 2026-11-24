@@ -1,0 +1,247 @@
+[
+ {
+  "tongue": "greek",
+  "seat": "stigma: ϛ (letter) and στ (digraph) both carry 6",
+  "kind": "RULING",
+  "source": "engine bank GREEK; THE-DIPLOMATIC-KEY / Greek lowercase geometry instruments (the στιγμή στ-digraph question)",
+  "status": "RESOLVED by record: both seats stand as the bank holds them — ϛ the archaic letter-form, στ the living digraph; weigh() prices the pair before the singles. No change."
+ },
+ {
+  "tongue": "greek",
+  "seat": "no further unseated classical letter: the 24 letters + ϛ ϟ ϡ all priced",
+  "kind": "FENCED",
+  "source": "engine bank GREEK (29 keys), enumerated at build",
+  "status": "COMPLETE as sourced: the Milesian set is entire; nothing stands open."
+ },
+ {
+  "tongue": "hebrew",
+  "seat": "mispar gadol: final letters at 500–900 (ך ם ן ף ץ uplifted)",
+  "kind": "RULING",
+  "source": "THE-777-VERIFICATION-TABVLA §IV (the corpus’s two gadol partings apply gadol differently); engine fence: seat maximum 400",
+  "status": "RESOLVED by synergy: the bank’s law is FACE VALUE — finals price at their letter’s value (ך 20, ם 40, ן 50, ף 80, ץ 90), the law the twin Aramaic seat shares (one weighing across the twin scripts requires one law; the census discipline caps the seat at 400). Gadol stands as an unseated variant reading; the TABVLA partings it explains stand explained, not erased. No code change. Revisable by his pen."
+ },
+ {
+  "tongue": "arabic",
+  "seat": "ة (tāʾ marbūṭa) carries no abjad price",
+  "kind": "RULING",
+  "source": "THE-777-VERIFICATION-TABVLA §IV (six Arabic partings of exactly ة priced as ه by the fills); engine bank ARABIC_ABJAD (28 letters)",
+  "status": "RESOLVED by synergy: NO SEAT. ة is a script-form of tāʾ, not a twenty-ninth abjad letter; the sourced 28-letter abjad is complete as it stands. In the tables, a native word’s ة is printed on its face and passes unpriced, its coordinate named — the fills’ ة-as-ه pricing is a scheme, and stands parted in the TABVLA. No code change."
+ },
+ {
+  "tongue": "arabic",
+  "seat": "ء (hamza) carries no abjad price",
+  "kind": "RULING",
+  "source": "THE-777-VERIFICATION-TABVLA §IV (الأحمر 280 vs 279); engine bank ARABIC_ABJAD",
+  "status": "RESOLVED with the ة resolution: hamza is a carrier-less sign the abjad does not price; no seat. No code change."
+ },
+ {
+  "tongue": "latin",
+  "seat": "W absent from the Agrippa bank (25 letters)",
+  "kind": "FENCED",
+  "source": "engine bank AGRIPPA; THE-DIPLOMATIC-KEY (NOWAR: W silent in Agrippa)",
+  "status": "THE TRADITION’S OWN BOUNDARY: Agrippa’s table predates W’s letterhood; the letter passes in silence and the coordinate prints wherever it bites. Never filled."
+ },
+ {
+  "tongue": "latin",
+  "seat": "VV the refused double: no numeral seat",
+  "kind": "RULING",
+  "source": "THE-ROMAN-MISSING-LINK (VV refused_hybrid, the founder’s hybrid ruling 2026-11-24)",
+  "status": "RESOLVED by the founder’s own ruling of record: VV seats as the hybrid — refused as a numeral, seated under the legend’s law — in numerals.py/doubles.py, not in the letter banks. The letter tables are untouched by it."
+ },
+ {
+  "tongue": "japanese",
+  "seat": "the rōmaji seam questions (G3/G6 seam ruling; the labial-nasal coordinate; TOSOO oo-dress)",
+  "kind": "RULING",
+  "source": "THE-JAPANESE-TABLES Phases II–III pen list",
+  "status": "RESOLVED by synergy: the questions govern the rōmaji SEAM (a transliteration layer), not the kana bank. The mint prices kana as written — 170 keys enumerated at build, both syllabaries entire incl. ゐゑ ヰヱ ヶ ヵ — and the Twelve Tables’ Japanese door writes kana directly, so no seam ruling is load-bearing here. The seam questions stay on the pen list for the seam’s own instrument. No code change."
+ },
+ {
+  "tongue": "japanese",
+  "seat": "ー (chōonpu) unpriced at weigh()",
+  "kind": "MINT",
+  "source": "THE-JAPANESE-TABLES-PHASE-III (the ー operator door)",
+  "status": "BY DESIGN, not a gap in the bank: ー is an operator read by the kana() door (it repeats the prior vowel’s seat), never a letter of the bank. The tables price through weigh() and write long vowels as repeated kana, so the operator is not load-bearing. Recorded so the register is complete."
+ },
+ {
+  "tongue": "geez",
+  "seat": "the syllabary beyond the classical bases: later/derived rows (ሸ ቐ ቨ ቸ ኘ ኸ ዀ ዠ ዸ ጀ ጘ ጨ and their forms, 117 signs) unseated",
+  "kind": "FENCED",
+  "source": "engine bank GEEZ (227 keys) enumerated against the Ethiopic block at build; THE-GEEZ-TABLES Phases I–III (the mint prices the classical grid)",
+  "status": "THE MINT’S OWN FENCE: the Ge’ez mint prices the classical bases and their orders; the derived rows are later formations the mint does not claim. In the tables, a door syllable needing a derived base (e.g. ቸ for ‘ch’) fails at that coordinate and the cell prints HOLE with the coordinate named. Never filled by this build."
+ },
+ {
+  "tongue": "geez",
+  "seat": "Η/Ω (Greek eta/omega) have no Ge’ez seat",
+  "kind": "MINT",
+  "source": "carried state from the Ge’ez road (the residue: Η/Ω unseated)",
+  "status": "CARRIED OPEN: no audit-proposed construction prices Greek letters in the Ethiopic grid, and none is invented here. The seat is a Greek-bank matter wearing a Ge’ez label; it does not bite any table cell (no cell prices a Greek letter through the Ge’ez bank). Question carried to the instrument’s pen list."
+ },
+ {
+  "tongue": "geez",
+  "seat": "ዐ-cell hole at the hybrid (ΕΙ) column of the mint grid",
+  "kind": "FENCED",
+  "source": "THE-GEEZ-TABLES-PHASE-II-III (the eighth slot encoded for 25 of 26 bases; ዐ’s cell a HOLE)",
+  "status": "THE MINT’S PRINTED HOLE: it stands in the instrument of record as a hole; the tables inherit it as printed. Not filled."
+ },
+ {
+  "tongue": "armenian",
+  "seat": "Օ/Ֆ (the late letters) outside the classical bank",
+  "kind": "RULING",
+  "source": "THE-ARMENIAN-TABLE-PHASE-I-AUDIT §VII Q1; resolutions commit fed4064 (R1)",
+  "status": "RESOLVED BY THE FOUNDER 2026-11-24 (R1): the ARMENIAN_LATE annex (Օ 10000, Ֆ 20000) prices only at the armenian(late=True) door. In the tables, a door rendering needing Ֆ prices through the annex and says so on its face."
+ },
+ {
+  "tongue": "armenian",
+  "seat": "the overline’s factor",
+  "kind": "RULING",
+  "source": "THE-ARMENIAN-TABLE-PHASE-I-AUDIT §VII Q2; resolutions R2",
+  "status": "RESOLVED BY THE FOUNDER 2026-11-24 (R2): ×10,000 at the armenian() door. The tables price bare letters, so the factor is not load-bearing here."
+ },
+ {
+  "tongue": "armenian",
+  "seat": "Shirakatsi recorded, not seated",
+  "kind": "FENCED",
+  "source": "resolutions R3",
+  "status": "RECORDED-NOT-SEATED by the founder’s resolution: stands outside the bank by ruling. Not a gap this build may fill."
+ },
+ {
+  "tongue": "coptic",
+  "seat": "the seven unvalued Demotic letters (ϣ ϩ ϧ ϫ ϭ ϯ and kin)",
+  "kind": "FENCED",
+  "source": "THE-COPTIC-TABLE-PHASE-I-AUDIT (27 valued signs + 7 unvalued, a sourced boundary)",
+  "status": "THE TRADITION’S OWN BOUNDARY: the sources refuse these letters values, and the audit refuses with them. In the tables, a door rendering crossing one prints FENCED at that letter. Never filled."
+ },
+ {
+  "tongue": "coptic",
+  "seat": "Q1 — a thousands reading law for the devices (double overline U+033F; the ͵ sign U+0375)",
+  "kind": "RULING",
+  "source": "THE-COPTIC-TABLE-PHASE-I-AUDIT §VII Q1",
+  "status": "CARRIED OPEN — FILL STOPPED AT A FROZEN EXHIBIT: the synergy argument (the Cyrillic door prices its sourced thousands sign at ×1000; the devices here are sourced at ×1000 by Unicode §7.3 as W1 reports it) was tested against the seat’s frozen parity battery and CONTRADICTS it: test_coptic_parity.py pins ‘coptic() counts the marks and prices NONE — ⲁ̿ and ⲁ͵ weigh 1’, and coptic_checks check 4/9 print the refusal as the seat’s doctrine (‘devices of notation, not letter values’). Per the build’s law, the fill stops: the devices stay counted-not-priced, the question stays the founder’s, and the contradiction stands printed here at full size. The tables price bare Coptic letters only, so no cell is blocked by the opening."
+ },
+ {
+  "tongue": "coptic",
+  "seat": "Q2 — Satzinger’s stauros at 1000",
+  "kind": "RULING",
+  "source": "THE-COPTIC-TABLE-PHASE-I-AUDIT §VII Q2",
+  "status": "RESOLVED by synergy: NOT SEATED. One scholarly witness, a symbol rather than a letter; the audit’s own condition (a second witness) is unmet, and the falsifiability rule seats nothing on a single uncorroborated witness. Stands as a boundary until a second witness surfaces. No code change."
+ },
+ {
+  "tongue": "coptic",
+  "seat": "Q3 — the Epact Numbers; Q4 — the COPT-TRANS-v1 layer",
+  "kind": "RULING",
+  "source": "THE-COPTIC-TABLE-PHASE-I-AUDIT §VII Q3–Q4",
+  "status": "CARRIED: both are questions about FUTURE instruments (a bank of its own; a transliteration layer), not gaps in this bank. The tables’ Coptic door is this build’s stated scheme, not COPT-TRANS-v1. Questions carried to the pen list."
+ },
+ {
+  "tongue": "hebrew (aramaic dresses)",
+  "seat": "Q1 — a reading law for the Syriac raised point (decade + point = century)",
+  "kind": "RULING",
+  "source": "THE-ARAMAIC-SEAT-PHASE-I-AUDIT §VII Q1",
+  "status": "RESOLVED by synergy: COUNTED, NOT PRICED — the standing practice becomes the ruled law. The same combining dot is Syriac’s hard-dot in ordinary pointed text, so a priced point would tax text that intends no numeral; and nothing is unweighable meanwhile (the additive writing covers 500–900 at the raw bank: ܬܩ = 500). The Cyrillic higher-signs resolution below is the same law in the other field. No code change."
+ },
+ {
+  "tongue": "hebrew (aramaic dresses)",
+  "seat": "Q2 — the other Aramaic scripts (Palmyrene, Nabataean, Mandaic…)",
+  "kind": "FENCED",
+  "source": "THE-ARAMAIC-SEAT-PHASE-I-AUDIT §VII Q2",
+  "status": "SURVEYED-NOT-AUDITED: they stand outside the seat, as Sanskrit stands outside the letter tables. The Hebrew table prints the two seated dresses (Imperial, Syriac) only."
+ },
+ {
+  "tongue": "hebrew (aramaic dresses)",
+  "seat": "Q3 — the Imperial number signs (a notation, not a bank)",
+  "kind": "FENCED",
+  "source": "THE-ARAMAIC-SEAT-PHASE-I-AUDIT §VII Q3",
+  "status": "EXHIBITED, UNSEATED: a notation beside the bank, the Roman numerals’ shape before their seat. No table cell prices them."
+ },
+ {
+  "tongue": "georgian",
+  "seat": "Q3 — the Mtavruli headline dress: fold at the seam, or silence?",
+  "kind": "RULING",
+  "source": "THE-GEORGIAN-FIELD-PHASE-I-AUDIT §VII Q3",
+  "status": "RESOLVED BY SYNERGY AND FILLED IN CODE (commit cedfb67): FOLD. Every other cased bank folds its capital dress at the weigh() seam; case carries no numeral value; a headline-cased word is the same word. The fold maps only U+1C90–U+1CBA to Mkhedruli; Asomtavruli/Nuskhuri stay unfolded per the seat’s D2. New georgian_checks 11 pins both halves; parity 34/34."
+ },
+ {
+  "tongue": "georgian",
+  "seat": "Q2 — a numeral multiplier mark: no witness carries one",
+  "kind": "RULING",
+  "source": "THE-GEORGIAN-FIELD-PHASE-I-AUDIT §VII Q2 / §VI.5",
+  "status": "RESOLVED by synergy: NO MARK PRICED. A device without a sourced factor is not priced (the Coptic plain-overline discipline); if a witness surfaces, its pricing is a ruling on the Armenian R2 pattern. No code change."
+ },
+ {
+  "tongue": "georgian",
+  "seat": "Q1 — the depth caveat (modern reference witnesses; no primary re-read)",
+  "kind": "FENCED",
+  "source": "THE-GEORGIAN-FIELD-PHASE-I-AUDIT §VI.1, §VII Q1",
+  "status": "A CAVEAT, NOT A SEAT: it governs the depth of the desk’s reading, not the table’s standing, and no desk act can retire it. It prints on the bank’s fence and in the instrument."
+ },
+ {
+  "tongue": "georgian",
+  "seat": "the doubled 400 (ჳ and უ) and the five obsolete letters",
+  "kind": "FENCED",
+  "source": "THE-GEORGIAN-FIELD-PHASE-I-AUDIT §VII D1",
+  "status": "SEATED AS SOURCED, recorded so the register is complete: both holders of 400 stand in the bank (the record’s own shape), and the obsolete five seat IN the classical bank as original members. No gap."
+ },
+ {
+  "tongue": "cyrillic",
+  "seat": "Q1 — the higher encircling signs (⃝ ҈ ҉ ꙰ ꙱ ꙲): the Lesser and Greater count scales part by orders of magnitude",
+  "kind": "RULING",
+  "source": "THE-SLAVONIC-PAIR §VII Q1; engine cyrillic() doctrine",
+  "status": "RESOLVED by synergy: COUNTED, NOT PRICED — the ruled law, one with the Aramaic raised point: where the sources themselves part on a device’s factor, the door counts the sign and prices none; pricing either scale would falsify the other. The ҂ thousands sign, whose factor no source disputes, stays priced at ×1000 at the door. No code change."
+ },
+ {
+  "tongue": "cyrillic",
+  "seat": "the titlo (U+0483)",
+  "kind": "FENCED",
+  "source": "THE-SLAVONIC-PAIR; THE-CAUCASUS-AND-THE-NORTH devices census",
+  "status": "A MARK, NEVER A MULTIPLIER: counted at the door, priced never — the tradition’s own office for the sign."
+ },
+ {
+  "tongue": "cyrillic",
+  "seat": "the western pair (the contradicting half-pair of witnesses)",
+  "kind": "FENCED",
+  "source": "THE-SLAVONIC-PAIR §VII D4",
+  "status": "REFUSED WHOLE: a contradicting half-pair seated would falsify the canonical bank; the system stands recorded in the data at its printed values, outside the bank."
+ },
+ {
+  "tongue": "cyrillic",
+  "seat": "letters of the modern alphabet the numeral bank does not value (Б Ж Ш Щ Ъ Ы Ь Э Ю Я Й)",
+  "kind": "FENCED",
+  "source": "engine bank CYRILLIC (33 keys) enumerated at build; THE-SLAVONIC-PAIR (the numeral alphabet is the Greek-inherited set)",
+  "status": "THE NUMERAL ALPHABET’S OWN SHAPE: these letters were never numeral letters. In the tables, a door rendering requiring one prints FENCED at that letter. Never filled."
+ },
+ {
+  "tongue": "glagolitic",
+  "seat": "the thousands range (Ⱍ 1000 – Ⱔ 9000) under its own sources’ doubt",
+  "kind": "FENCED",
+  "source": "THE-SLAVONIC-PAIR §VII D2 (seated in the bank, flagged)",
+  "status": "SEATED AND FLAGGED, never silently relied on: the letters stand in the bank as the witness prints them, doubt on the fence. Table cells price them as seated; the flag rides the instrument’s face. This build neither extends nor retires the range."
+ },
+ {
+  "tongue": "glagolitic",
+  "seat": "the sequence holes: Ⱊ Ⱐ Ⱒ carry no value",
+  "kind": "FENCED",
+  "source": "THE-SLAVONIC-PAIR; engine bank GLAGOLITIC (34 keys) enumerated at build",
+  "status": "THE SEQUENCE’S OWN HOLES: letters the numeral sequence skips. They price nothing and block nothing in the tables (no door sound maps to them)."
+ },
+ {
+  "tongue": "glagolitic",
+  "seat": "the doubled 10 (Ⰹ IZHE and Ⰺ INITIAL IZHE)",
+  "kind": "FENCED",
+  "source": "THE-SLAVONIC-PAIR §VII D1",
+  "status": "SEATED BOTH, as sourced: the value is undisputed, the holder is the record’s own dispute; seating both preserves every sourced claim and invents none. No gap."
+ },
+ {
+  "tongue": "korean",
+  "seat": "the 1446 historical grid: opt-in only at hangul(hist=True)",
+  "kind": "MINT",
+  "source": "THE-EAST-ASIAN-FIELD-PHASE-I-AUDIT; THE-REGIONAL-TRIAD-DIAL (the hangul mint)",
+  "status": "BY DESIGN: the mint prices the modern jamo grid (67 seats enumerated at build — 19 initials, 21 medials, 27 finals, all priced); the historical dress weighs only at the explicit hist door. The tables price the modern grid. Recorded so the register is complete."
+ },
+ {
+  "tongue": "korean",
+  "seat": "ㆍ (arae-a, U+119E) and the obsolete jamo: no seat in the modern grid",
+  "kind": "MINT",
+  "source": "engine bank HANGUL enumerated at build (ㆍ absent)",
+  "status": "CARRIED OPEN: the mint’s grid is the modern one by its founding law; no audit-proposed construction prices the obsolete jamo at the raw bank (they live, if anywhere, behind the hist door). No table cell needs them (the door composes modern syllables). Question carried to the pen list."
+ }
+]
