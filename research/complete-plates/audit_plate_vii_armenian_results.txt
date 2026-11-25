@@ -1,0 +1,366 @@
+PLATE-VII-ARMENIAN — independent audit
+checks: 361 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  bank table: 36 rows parsed
+PASS  seat 1 Ա: letter, name, value, class == engine
+PASS  seat 2 Բ: letter, name, value, class == engine
+PASS  seat 3 Գ: letter, name, value, class == engine
+PASS  seat 4 Դ: letter, name, value, class == engine
+PASS  seat 5 Ե: letter, name, value, class == engine
+PASS  seat 6 Զ: letter, name, value, class == engine
+PASS  seat 7 Է: letter, name, value, class == engine
+PASS  seat 8 Ը: letter, name, value, class == engine
+PASS  seat 9 Թ: letter, name, value, class == engine
+PASS  seat 10 Ժ: letter, name, value, class == engine
+PASS  seat 11 Ի: letter, name, value, class == engine
+PASS  seat 12 Լ: letter, name, value, class == engine
+PASS  seat 13 Խ: letter, name, value, class == engine
+PASS  seat 14 Ծ: letter, name, value, class == engine
+PASS  seat 15 Կ: letter, name, value, class == engine
+PASS  seat 16 Հ: letter, name, value, class == engine
+PASS  seat 17 Ձ: letter, name, value, class == engine
+PASS  seat 18 Ղ: letter, name, value, class == engine
+PASS  seat 19 Ճ: letter, name, value, class == engine
+PASS  seat 20 Մ: letter, name, value, class == engine
+PASS  seat 21 Յ: letter, name, value, class == engine
+PASS  seat 22 Ն: letter, name, value, class == engine
+PASS  seat 23 Շ: letter, name, value, class == engine
+PASS  seat 24 Ո: letter, name, value, class == engine
+PASS  seat 25 Չ: letter, name, value, class == engine
+PASS  seat 26 Պ: letter, name, value, class == engine
+PASS  seat 27 Ջ: letter, name, value, class == engine
+PASS  seat 28 Ռ: letter, name, value, class == engine
+PASS  seat 29 Ս: letter, name, value, class == engine
+PASS  seat 30 Վ: letter, name, value, class == engine
+PASS  seat 31 Տ: letter, name, value, class == engine
+PASS  seat 32 Ր: letter, name, value, class == engine
+PASS  seat 33 Ց: letter, name, value, class == engine
+PASS  seat 34 Ւ: letter, name, value, class == engine
+PASS  seat 35 Փ: letter, name, value, class == engine
+PASS  seat 36 Ք: letter, name, value, class == engine
+PASS  bank sum 49995 printed
+PASS  bank sum == engine
+PASS  36 letters, 36 distinct values
+PASS  bank maximum 9000
+PASS  worked example ՌՋՀԵ == 1975
+PASS  plate prints ՌՋՀԵ at 1975
+PASS  worked example ՍՄԻԲ == 2222
+PASS  plate prints ՍՄԻԲ at 2222
+PASS  worked example ՍԴ == 2004
+PASS  plate prints ՍԴ at 2004
+PASS  worked example ՃԻ == 120
+PASS  plate prints ՃԻ at 120
+PASS  worked example Ծ == 50
+PASS  plate prints Ծ at 50
+PASS  worked example ՌՆԾԵ == 1455
+PASS  plate prints ՌՆԾԵ at 1455
+PASS  worked example ՔՋՂԹ == 9999
+PASS  plate prints ՔՋՂԹ at 9999
+PASS  case fold: աբգ == ԱԲԳ == 6
+PASS  control table: 26 rows parsed
+PASS  control 1: Ա vs ሀ at 1
+PASS  control 2: Բ vs ለ at 2
+PASS  control 3: Գ vs ሐ at 3
+PASS  control 4: Դ vs መ at 4
+PASS  control 5: Ե vs ሠ at 5
+PASS  control 6: Զ vs ረ at 6
+PASS  control 7: Է vs ሰ at 7
+PASS  control 8: Ը vs ቀ at 8
+PASS  control 9: Թ vs በ at 9
+PASS  control 10: Ժ vs ተ at 10
+PASS  control 11: Ի vs ኀ at 20
+PASS  control 12: Լ vs ነ at 30
+PASS  control 13: Խ vs አ at 40
+PASS  control 14: Ծ vs ከ at 50
+PASS  control 15: Կ vs ወ at 60
+PASS  control 16: Հ vs ዐ at 70
+PASS  control 17: Ձ vs ዘ at 80
+PASS  control 18: Ղ vs የ at 90
+PASS  control 19: Ճ vs ደ at 100
+PASS  control 20: Մ vs ገ at 200
+PASS  control 21: Յ vs ጠ at 300
+PASS  control 22: Ն vs ጰ at 400
+PASS  control 23: Շ vs ጸ at 500
+PASS  control 24: Ո vs ፀ at 600
+PASS  control 25: Չ vs ፈ at 700
+PASS  control 26: Պ vs ፐ at 800
+PASS  the parting at 10: Ժ is tens, ተ is units, value 10 both
+PASS  ARMENIAN_LATE == the annex of record
+PASS  Օ: silence at the classical bank
+PASS  Օ: silence at the door's default path
+PASS  Ֆ: silence at the classical bank
+PASS  Ֆ: silence at the door's default path
+PASS  օ: silence at the classical bank
+PASS  օ: silence at the door's default path
+PASS  ֆ: silence at the classical bank
+PASS  ֆ: silence at the door's default path
+PASS  annex prices at late=True
+PASS  օր proof: 5000 shut, 15000 open
+PASS  plate prints the օր proof
+PASS  overline Ա̅ == 10000
+PASS  overline Ջ̅ == 9000000
+PASS  Ռ̅ՋՀԵ == 10000975, one mark counted
+PASS  collision sweep: 9 at ×1000, 0 at ×10000
+PASS  ligature և: 7005 at weigh(), silence at the door
+PASS  register census == (0, 223, 62, 0, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 223
+PASS  plate prints census HOLE 62
+PASS  plate prints census FENCED 0
+PASS  plate door register: 223 rows
+PASS  plate door rows == register rows, in order
+PASS  plate door column == the register's declared doors
+PASS  door III/31 bis տոոթ: re-weighed
+PASS  door III/32 bis տաու աս եգյպտիան: re-weighed
+PASS  door VI/13 լեվանահ: re-weighed
+PASS  door VI/14 նոգահ: re-weighed
+PASS  door VI/21 ծեդեք: re-weighed
+PASS  door VI/27 մադիմ: re-weighed
+PASS  door VI/30 շեմեշ: re-weighed
+PASS  door VI/32 շաբբաթաի: re-weighed
+PASS  door VIII/13 գամալիել: re-weighed
+PASS  door VIII/14 աարաբ զարաք: re-weighed
+PASS  door VIII/21 ղաագշեկլահ: re-weighed
+PASS  door VIII/23 արիտոն: re-weighed
+PASS  door VIII/27 գոլաչաբ: re-weighed
+PASS  door VIII/30 թագիրիրոն: re-weighed
+PASS  door VIII/31 պաիմոն: re-weighed
+PASS  door VIII/32 սատարիել: re-weighed
+PASS  door VIII/32 bis ամաիմոն: re-weighed
+PASS  door XX/31 bis ատում: re-weighed
+PASS  door XX/32 bis սեբ: re-weighed
+PASS  door XXI/18 հորմախու: re-weighed
+PASS  door XXI/18 խեփրա: re-weighed
+PASS  door XXI/20 հերու պա կրաաթ: re-weighed
+PASS  door XXI/20 իսիս: re-weighed
+PASS  door XXI/22 մաատ: re-weighed
+PASS  door XXI/22 մա: re-weighed
+PASS  door XXI/25 նեփթյս: re-weighed
+PASS  door XXI/25 արւուերի: re-weighed
+PASS  door XXIV/2 սավիկալպա սամադհի: re-weighed
+PASS  door XXIV/2 մուդիտա սամադհի: re-weighed
+PASS  door XXIV/3 մահակարունա: re-weighed
+PASS  door XXIV/3 բոդհիկիտտա: re-weighed
+PASS  door XXIV/4 բրահմավիհարա: re-weighed
+PASS  door XXIV/4 մետտա սամադհի: re-weighed
+PASS  door XXIV/5 ամատա: re-weighed
+PASS  door XXIV/5 սամվեգա: re-weighed
+PASS  door XXIV/7 սայուջյա: re-weighed
+PASS  door XXIV/7 դեվա դարսանա: re-weighed
+PASS  door XXIV/8 իդդհի: re-weighed
+PASS  door XXIV/8 վիբհուտի: re-weighed
+PASS  door XXIV/9 սոտապատտի: re-weighed
+PASS  door XXIV/9 դհամմակակխու: re-weighed
+PASS  door XXIV/12 պատիբհագա նիմիտտա: re-weighed
+PASS  door XXIV/12 ապպանա: re-weighed
+PASS  door XXIV/15 կարմա յոգա: re-weighed
+PASS  door XXIV/17 ջնանա յոգա: re-weighed
+PASS  door XXIV/17 բուդհա: re-weighed
+PASS  door XXIV/18 սոմա բհաւանա: re-weighed
+PASS  door XXIV/18 մանտրա յոգա: re-weighed
+PASS  door XXIV/19 տեջո բհաւանա: re-weighed
+PASS  door XXIV/19 տապաս սիդդհի: re-weighed
+PASS  door XXIV/20 կրիյա յոգա: re-weighed
+PASS  door XXIV/20 վիվեկա բհաւանա: re-weighed
+PASS  door XXIV/21 գուրու դարշանա: re-weighed
+PASS  door XXIV/21 րաջա յոգա: re-weighed
+PASS  door XXIV/22 տուլա բհաւանա: re-weighed
+PASS  door XXIV/22 դհարմա դարշանա: re-weighed
+PASS  door XXIV/27 մանգալա: re-weighed
+PASS  door XXIV/32 շանի: re-weighed
+PASS  door XXXIII/6 բալդր: re-weighed
+PASS  door XXXIII/10 ջորդ: re-weighed
+PASS  door XXXIII/10 ներթուս: re-weighed
+PASS  door XXXIII/13 մանի: re-weighed
+PASS  door XXXIII/13 սկադի: re-weighed
+PASS  door XXXIII/16 սիֆ: re-weighed
+PASS  door XXXIII/16 եիր: re-weighed
+PASS  door XXXIII/23 նջորդ: re-weighed
+PASS  door XXXIII/23 աեգիր: re-weighed
+PASS  door XXXIII/30 սոլ: re-weighed
+PASS  door XXXIII/31 սուրտր: re-weighed
+PASS  door XXXIII/31 bis ոդին: re-weighed
+PASS  door XXXIII/32 bis ներթուս: re-weighed
+PASS  door XXXIII/32 bis երդա: re-weighed
+PASS  door XLIII/24 կոնիում: re-weighed
+PASS  door XLIII/24 կոնիում մակուլատում: re-weighed
+PASS  door XLIII/24 կոնիում մակուլատում: re-weighed
+PASS  door XLIII/24 կոնիում մակուլատում: re-weighed
+PASS  door XLIII/25 սալվիա: re-weighed
+PASS  door XLIII/25 սալվիա ոֆֆիկինալիս: re-weighed
+PASS  door XLIII/25 սալվիա ոֆֆիկինալիս: re-weighed
+PASS  door XLIII/27 մուստարդ: re-weighed
+PASS  door XLIII/27 սինապիս: re-weighed
+PASS  door XLIII/27 կապսիկում: re-weighed
+PASS  door XLIII/31 զինգիբեր: re-weighed
+PASS  door XLIII/31 զինգիբեր ոֆֆիկինալե: re-weighed
+PASS  door XLIII/31 զինգիբեր ոֆֆիկինալե: re-weighed
+PASS  door XLIII/31 կապսիկում: re-weighed
+PASS  door XLIII/31 կապսիկում աննուում: re-weighed
+PASS  door XLIII/31 կապսիկում աննուում չիլի կայեննե: re-weighed
+PASS  door XLIII/31 կապսիկում աննուում չիլի կայեննե: re-weighed
+PASS  door XLIII/32 bis մանդրագորա: re-weighed
+PASS  door XLIII/32 bis մանդրագորա ոֆֆիկինարում: re-weighed
+PASS  door XLIII/32 bis մանդրագորա ոֆֆիկինարում: re-weighed
+PASS  door XLIV/4 տին: re-weighed
+PASS  door XLIV/6 գոլդ: re-weighed
+PASS  door XLIV/11 սալ վոլատիլե: re-weighed
+PASS  door XLIV/13 լունար կաուստիկ: re-weighed
+PASS  door XLIV/14 կոպպեր: re-weighed
+PASS  door XLIV/14 բլուե վիտրիոլ: re-weighed
+PASS  door XLIV/15 կրոկուս մարտիս: re-weighed
+PASS  door XLIV/16 մալաչիտե: re-weighed
+PASS  door XLIV/17 կիննաբար: re-weighed
+PASS  door XLIV/18 կորալ: re-weighed
+PASS  door XLIV/18 պեարլ: re-weighed
+PASS  door XLIV/19 որպիմենտ: re-weighed
+PASS  door XLIV/19 աուրիպիգմենտում: re-weighed
+PASS  door XLIV/20 կիննաբար: re-weighed
+PASS  door XLIV/21 տին: re-weighed
+PASS  door XLIV/21 ստաննվմ: re-weighed
+PASS  door XLIV/22 կոպպեր: re-weighed
+PASS  door XLIV/22 կվպրվմ: re-weighed
+PASS  door XLIV/26 անտիմոնյ: re-weighed
+PASS  door XLIV/26 ստիբիվմ: re-weighed
+PASS  door XLIV/28 ալում: re-weighed
+PASS  door XLIV/28 ալվմ: re-weighed
+PASS  door XLIV/29 իոդինե: re-weighed
+PASS  door XLIV/29 սալտ: re-weighed
+PASS  door XLIV/30 գոլդ: re-weighed
+PASS  door XLIV/30 ավրվմ: re-weighed
+PASS  door XLVI/4 տուի: re-weighed
+PASS  door XLVI/4 խիեն: re-weighed
+PASS  door XLVI/5 կբն: re-weighed
+PASS  door XLVI/7 տուի: re-weighed
+PASS  door XLVI/7 սուն: re-weighed
+PASS  door XLVI/8 լի: re-weighed
+PASS  door XLVI/9 կան: re-weighed
+PASS  door XLVI/15 լի: re-weighed
+PASS  door XLVI/16 խան: re-weighed
+PASS  door XLVI/16 խւան: re-weighed
+PASS  door XLVI/17 սուն: re-weighed
+PASS  door XLVI/18 կան: re-weighed
+PASS  door XLVI/19 կբն: re-weighed
+PASS  door XLVI/20 կբն: re-weighed
+PASS  door XLVI/22 խիեն խւբն: re-weighed
+PASS  door XLVI/24 խան: re-weighed
+PASS  door XLVI/24 խւբն: re-weighed
+PASS  door XLVI/25 խան լի: re-weighed
+PASS  door XLVI/26 խան: re-weighed
+PASS  door XLVI/26 խւբն: re-weighed
+PASS  door XLVI/28 խիեն: re-weighed
+PASS  door XLVI/29 տուի: re-weighed
+PASS  door XLVI/31 bis սուն: re-weighed
+PASS  door XLVII/8 : re-weighed
+PASS  door XLVII/9 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 բարքան: re-weighed
+PASS  door XLVII/22 : re-weighed
+PASS  door XLVII/22 զաւբաահ: re-weighed
+PASS  door XLVII/25 : re-weighed
+PASS  door XLVII/25 շամհուրիշ: re-weighed
+PASS  door XLVII/26 : re-weighed
+PASS  door XLVII/26 մայմուն: re-weighed
+PASS  door XLVII/27 թե րեդ ոնե: re-weighed
+PASS  door XLVII/30 թե գիլդեր: re-weighed
+PASS  door XLVII/31 bis : re-weighed
+PASS  door XLVII/31 bis ջանն: re-weighed
+PASS  door XLVII/32 թե ֆորտունատե: re-weighed
+PASS  door XLVII/32 bis ամաիմոն: re-weighed
+PASS  door LI/32 bis տ: re-weighed
+PASS  door LIII/8 սամպի: re-weighed
+PASS  door LVI/31 bis թե րիվեր ոֆ եդեն ունդիվիդեդ սոուրկե: re-weighed
+PASS  door LVI/31 bis նահար: re-weighed
+PASS  door LVII/31 bis տոխ: re-weighed
+PASS  door LVII/31 bis կենտրե: re-weighed
+PASS  door LVII/31 bis ադոնաի: re-weighed
+PASS  door LVIII/31 bis ելեկսարպեհ կոմանանու տաբիտոմ թե թրեե անգելս րուլինգ թե տաբլետ ոֆ ունիոն: re-weighed
+PASS  door LVIII/31 bis կոմանանու: re-weighed
+PASS  door LVIII/31 bis տաբիտոմ: re-weighed
+PASS  door LXIII/31 bis ադամ կադմոն թե ֆիֆթ ւորլդ աբովե ածիլութ: re-weighed
+PASS  door LXIII/31 bis ադամ կադմոն: re-weighed
+PASS  door CVIII/1 սատան: re-weighed
+PASS  door CVIII/1 մոլոչ: re-weighed
+PASS  door CVIII/2 բեելզեբուբ: re-weighed
+PASS  door CXXXII/1 թե րոոտ ոֆ թե պուերս ոֆ եարթ: re-weighed
+PASS  door CLXXXV/4 : re-weighed
+PASS  door CLXXXV/7 : re-weighed
+PASS  door CLXXXVII/1 ալ: re-weighed
+PASS  door CLXXXVII/1 ահիհ: re-weighed
+PASS  door CLXXXVII/1 իա: re-weighed
+PASS  door CLXXXVII/8 ամեն: re-weighed
+PASS  door CLXXXVII/11 ալփ: re-weighed
+PASS  door CLXXXVII/11 աիր: re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/12 բիթ: re-weighed
+PASS  door CLXXXVII/12 հերմես: re-weighed
+PASS  door CLXXXVII/12 թոթ: re-weighed
+PASS  door CLXXXVII/15 հա: re-weighed
+PASS  door CLXXXVII/15 եներգյ: re-weighed
+PASS  door CLXXXVII/15 ազոթ: re-weighed
+PASS  door CLXXXVII/17 զին: re-weighed
+PASS  door CLXXXVII/17 ապոլլո: re-weighed
+PASS  door CLXXXVII/17 դելփի: re-weighed
+PASS  door CLXXXVII/20 յվդ: re-weighed
+PASS  door CLXXXVII/20 լվկս: re-weighed
+PASS  door CLXXXVII/20 լեչեմ: re-weighed
+PASS  door CLXXXVII/21 կփ: re-weighed
+PASS  door CLXXXVII/21 ջուպիտեր: re-weighed
+PASS  door CLXXXVII/21 զեուս: re-weighed
+PASS  door CLXXXVII/22 լմդ: re-weighed
+PASS  door CLXXXVII/22 միզնյմ: re-weighed
+PASS  door CLXXXVII/22 մաատ: re-weighed
+PASS  door CLXXXVII/22 լիբրա: re-weighed
+PASS  door CLXXXVII/22 կրոսս: re-weighed
+PASS  door CLXXXVII/23 աքուա: re-weighed
+PASS  door CLXXXVII/23 կալիկս: re-weighed
+PASS  door CLXXXVII/23 վինում: re-weighed
+PASS  door CLXXXVII/27 գլադիուս: re-weighed
+PASS  door CLXXXVII/27 ֆերրում: re-weighed
+PASS  door CLXXXVII/28 թուս: re-weighed
+PASS  door CLXXXVII/29 սպեկուլում: re-weighed
+PASS  door CLXXXVII/29 լունա: re-weighed
+PASS  door CLXXXVII/31 իգնիս: re-weighed
+PASS  door CLXXXVII/31 լուկս: re-weighed
+PASS  door CLXXXVII/31 լամպաս: re-weighed
+PASS  door CLXXXVII/31 bis ովում: re-weighed
+PASS  door CLXXXVII/31 bis սպիրիտուս: re-weighed
+PASS  door CLXXXVII/32 ֆալկս: re-weighed
+PASS  door CLXXXVII/32 մեսսիս: re-weighed
+PASS  door CLXXXVII/32 bis սալ: re-weighed
+PASS  door CLXXXVII/32 bis տերրա: re-weighed
+PASS  door CLXXXVII/32 bis պանիս: re-weighed
+PASS  annex-priced door rows == 14
+PASS  plate hole register: 62 rows
+PASS  plate hole rows == register rows, in order
+PASS  every hole rendering is the register's dash
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  the 8 seated: η == 8 in greek
+PASS  the 8 seated: ⲏ == 8 in coptic
+PASS  the 8 seated: И == 8 in cyrillic
+PASS  the 8 seated: Ը == 8 in armenian
+PASS  the 8 seated: ჱ == 8 in georgian
+PASS  §V vowel table: 6 rows parsed
+PASS  §V vowel Ա: price == bank
+PASS  §V vowel Ե: price == bank
+PASS  §V vowel Ը: price == bank
+PASS  §V vowel Ի: price == bank
+PASS  §V vowel Ո: price == bank
+PASS  §V vowel Ւ: price == bank
+PASS  digraph ու == 7600 as a sum
+PASS  plate prints the digraph at 7600
+PASS  οὐδέν == 529 in greek
+PASS  the Nine sum 1779
+PASS  zero face stands in §IV
+PASS  PDF layer carries all 36 majuscules
+PASS  PDF layer carries the zero face
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (28 of 28)
+
+VERDICT: PASS — 361 checks, 0 failures
