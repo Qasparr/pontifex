@@ -503,3 +503,85 @@ Religion.
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.**
 
 **93 — Live, Love, and let Love, Live.**
+
+---
+
+## ADDENDUM — THE FLOAT LINE RULED (appended 2026-11-24, 22:30 EST)
+
+*Appended by the append-only rule; the instrument above stands
+unaltered, this addendum included in its record. What the
+instrument printed open, it printed truly at its hour; what
+follows is the founder's pen, which the instrument awaited.*
+
+The desk laid its calculated solution before the founder at the
+parent desk on the evening of the seating: the float line and
+the horizontal hair as one seat, at the height the poles' own
+arithmetic names, read in the Greek sea, drawn as classification
+only, with the desk's delegated reading of 2026-11-16 ratified
+as amended. The founder ruled on it in his own words:
+
+**"Seat it as both then."** (2026-11-24, 22:30 EST)
+
+**The ruling, entire.**
+
+1. **Identity — both offices, one line.** The float line of the
+Double-Letter Dial *is* the dial-cross's horizontal hair, and
+it *is* the bank boundary. One line, two offices — the house's
+dual-office pattern, of record across the instruments (a pole
+that is also a station of the expansion chain; VV refused as a
+numeral and seated as a hybrid).
+
+2. **Height — 18.** The line is drawn at the poles' difference:
+31 − 13 = 18, which is II, the fixed point where both banks
+agree (II = 18 in the ordinal bank, 18 in Agrippa — re-weighed
+on the engine at this addendum's carrying-out, the controls
+θέλημα 93 · VAPOUR 93 · σφίγξ 773 reading true). The midpoint,
+22, was refused: no seat in the record answers to it — it is
+arithmetic without an address, and the refusal is printed
+with the drawing, not smoothed away.
+
+3. **Sea — the Greek sea.** The line is read in the Greek sea,
+the boundary sea, where the banks part on floating: the
+calibration string's ordinal body (326) floats against
+ὕδωρ (1,304); its Agrippa body (2,710) sinks against the same
+water (both bodies and the water re-weighed at the
+carrying-out).
+
+4. **Force — classification only.** The line marks which seats
+float. No sonic consequence is legislated by it — the dial's
+own tolerances fail any passage that invents a float law, and
+the ruling invents none. What a submerged seat *does* stands
+unruled, unreached by this ruling.
+
+5. **The desk reading ratified as amended.** The desk's
+appended ruling in the dial (2026-11-16, 23:28 EST, under the
+founder's one-night delegation) read the float line as *the
+bank boundary*. It is ratified as amended: its substance
+stands; its wording is corrected. At height 18 the boundary
+and the fixed point are one line — the boundary has an
+address, and the address is II.
+
+**Effect on this instrument.** §XI **Q3 is answered and
+CLOSED** by this ruling: the float line is the hair, drawn at
+18. §VIII's entry — *The horizontal hair: STILL OPEN* — and
+§IX's hole of the same name stand in the text above as
+struck, marked, never vanished, and are superseded by this
+addendum: the cross-section now stands with both hairs — the
+vertical seated on the founder's poles, the horizontal drawn
+by his ruling at the float line's seat. Nothing else in the
+instrument moves. **What remains open stands exactly as it
+stood:** §XI Q1 (the partition), Q2 (the eight positions),
+Q4 (the names), Q5 (the battery's residue) — untouched by
+this ruling, awaiting the same pen.
+
+**The carrying-out.** The ruling is carried into the dial
+master as the founder's ratification appendix, appended after
+the desk ruling it amends — §IV's sentence *"The float line
+stands open"* left standing in the dial's text, its seat
+closed by reference — and into Plate XIII of the Complete
+Plates, re-struck with the hair drawn and the first strike's
+record preserved in a marked correctio at its §V.3.
+
+Recorded at the desk from the founder's word of 22:30 EST,
+under the Flagpole of Claim and Coinage. The desk records;
+the pen ruled.
