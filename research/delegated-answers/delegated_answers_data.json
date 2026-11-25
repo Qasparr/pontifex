@@ -1,0 +1,1185 @@
+{
+ "controls": {
+  "thelema_greek": 93,
+  "vapour_latin_ordinal": 93,
+  "sphinx_greek": 773
+ },
+ "tabvla_q1": {
+  "names": [
+   {
+    "name": "BALDR",
+    "door_rendering": "BALDR as באלדר",
+    "door_value": 237,
+    "scheme_claimed": 236,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "VERIFIED",
+    "scheme_claimed_c3": 236
+   },
+   {
+    "name": "JORD",
+    "door_rendering": "",
+    "door_value": 220,
+    "scheme_claimed": 220,
+    "door_verdict": "VERIFIED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 220
+   },
+   {
+    "name": "NERTHUS",
+    "door_rendering": "NERTHUS as נהרתוס",
+    "door_value": 721,
+    "scheme_claimed": 716,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 716
+   },
+   {
+    "name": "MANI",
+    "door_rendering": "",
+    "door_value": 101,
+    "scheme_claimed": 101,
+    "door_verdict": "VERIFIED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 101
+   },
+   {
+    "name": "SKADI",
+    "door_rendering": "SKADI as סכאדי",
+    "door_value": 95,
+    "scheme_claimed": 175,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 175
+   },
+   {
+    "name": "SIF",
+    "door_rendering": "",
+    "door_value": 150,
+    "scheme_claimed": 150,
+    "door_verdict": "VERIFIED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 870
+   },
+   {
+    "name": "EIR",
+    "door_rendering": "EIR as היר",
+    "door_value": 215,
+    "scheme_claimed": 211,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 211
+   },
+   {
+    "name": "NJORD",
+    "door_rendering": "",
+    "door_value": 270,
+    "scheme_claimed": 270,
+    "door_verdict": "VERIFIED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 270
+   },
+   {
+    "name": "AEGIR",
+    "door_rendering": "AEGIR as אהגיר",
+    "door_value": 219,
+    "scheme_claimed": 214,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 214
+   },
+   {
+    "name": "SOL",
+    "door_rendering": "",
+    "door_value": 96,
+    "scheme_claimed": 96,
+    "door_verdict": "VERIFIED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 96
+   },
+   {
+    "name": "SURTR",
+    "door_rendering": "SURTR as סורתר",
+    "door_value": 866,
+    "scheme_claimed": 475,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 475
+   },
+   {
+    "name": "ODIN",
+    "door_rendering": "ODIN as ודינ",
+    "door_value": 70,
+    "scheme_claimed": 71,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 721
+   },
+   {
+    "name": "ERDA",
+    "door_rendering": "ERDA as הרדא",
+    "door_value": 210,
+    "scheme_claimed": 206,
+    "door_verdict": "PARTED",
+    "scheme_verdict": "NOT VERIFIABLE",
+    "scheme_claimed_c3": 206
+   }
+  ],
+  "door_claims_total": 14,
+  "door_claims_verified": 5,
+  "door_verified_names": [
+   "JORD",
+   "MANI",
+   "SIF",
+   "NJORD",
+   "SOL"
+  ],
+  "parted_claims": 9,
+  "parted": [
+   {
+    "name": "BALDR",
+    "scheme": 236,
+    "door": 237,
+    "delta": 1
+   },
+   {
+    "name": "NERTHUS",
+    "scheme": 716,
+    "door": 721,
+    "delta": 5
+   },
+   {
+    "name": "SKADI",
+    "scheme": 175,
+    "door": 95,
+    "delta": -80
+   },
+   {
+    "name": "EIR",
+    "scheme": 211,
+    "door": 215,
+    "delta": 4
+   },
+   {
+    "name": "AEGIR",
+    "scheme": 214,
+    "door": 219,
+    "delta": 5
+   },
+   {
+    "name": "SURTR",
+    "scheme": 475,
+    "door": 866,
+    "delta": 391
+   },
+   {
+    "name": "ODIN",
+    "scheme": 71,
+    "door": 70,
+    "delta": -1
+   },
+   {
+    "name": "ERDA",
+    "scheme": 206,
+    "door": 210,
+    "delta": 4
+   }
+  ],
+  "baldr_scheme_word": "בלדר",
+  "baldr_scheme_value": 236,
+  "baldr_door_word": "באלדר",
+  "baldr_door_value": 237,
+  "nerthus_door_claims": 2
+ },
+ "tabvla_q2": {
+  "partings": [
+   {
+    "claim_key": "S132-P2-C0",
+    "word": "ةولهم",
+    "claimed": 86,
+    "recomputed": 81,
+    "delta": 5,
+    "taa_count": 1,
+    "with_taa_priced_as_ha": 86
+   },
+   {
+    "claim_key": "S132-P6-C0",
+    "word": "عطهم ةولهم حوميلم",
+    "claimed": 344,
+    "recomputed": 339,
+    "delta": 5,
+    "taa_count": 1,
+    "with_taa_priced_as_ha": 344
+   },
+   {
+    "claim_key": "S136-P0-C0",
+    "word": "ةمطحيسم",
+    "claimed": 172,
+    "recomputed": 167,
+    "delta": 5,
+    "taa_count": 1,
+    "with_taa_priced_as_ha": 172
+   },
+   {
+    "claim_key": "S136-P6-C0",
+    "word": "ةمطحيسم هنقم فهك",
+    "claimed": 472,
+    "recomputed": 467,
+    "delta": 5,
+    "taa_count": 1,
+    "with_taa_priced_as_ha": 472
+   },
+   {
+    "claim_key": "S137-P2-C0",
+    "word": "ةروعبس",
+    "claimed": 343,
+    "recomputed": 338,
+    "delta": 5,
+    "taa_count": 1,
+    "with_taa_priced_as_ha": 343
+   },
+   {
+    "claim_key": "S137-P4-C0",
+    "word": "حديوس ةروعبس",
+    "claimed": 431,
+    "recomputed": 426,
+    "delta": 5,
+    "taa_count": 1,
+    "with_taa_priced_as_ha": 431
+   }
+  ],
+  "all_delta_five": true,
+  "all_reproduce_with_taa_priced": true,
+  "taa_alone_in_bank": 0,
+  "verified_depending_on_silence": [
+   {
+    "word": "مرة",
+    "claimed": 240,
+    "bank": 240,
+    "if_taa_priced": 245
+   },
+   {
+    "word": "زوبعة",
+    "claimed": 85,
+    "bank": 85,
+    "if_taa_priced": 90
+   }
+  ]
+ },
+ "tabvla_q3": {
+  "word": "الأحمر",
+  "bank_value": 279,
+  "hamza_alone_in_bank": 0,
+  "verified_claim": 279,
+  "parted_claim": 280,
+  "delta": 1
+ },
+ "tabvla_q4": {
+  "madim": {
+   "word": "מאדים",
+   "hechrechi": 95,
+   "full_gadol": 655,
+   "nun_only": 95,
+   "claimed": 655
+  },
+  "adam_kadmon": {
+   "word": "אדם קדמון",
+   "hechrechi": 245,
+   "full_gadol": 1455,
+   "nun_only": 895,
+   "claimed": 895
+  },
+  "gadol_bank_seated": false
+ },
+ "tabvla_q5_populations": {
+  "hebrew": 29,
+  "hebrew_gadol": 13,
+  "greek": 17,
+  "arabic_abjad": 1,
+  "hebrew_pinyin_fallback": 11,
+  "stroke_count_prc": 11
+ },
+ "tabvla_q5_hebrew": {
+  "population": 29,
+  "door_agrees_exactly": 3,
+  "door_agree_keys": [
+   "S036-P0-C1",
+   "S162-P1-C0",
+   "S207-P2-C2"
+  ],
+  "rows": [
+   {
+    "claim_key": "S036-P0-C1",
+    "name": "Atum",
+    "claimed": 447,
+    "door_word": "אתומ",
+    "door_value": 447,
+    "agree": true
+   },
+   {
+    "claim_key": "S037-P0-C1",
+    "name": "Seb",
+    "claimed": 62,
+    "door_word": "סהב",
+    "door_value": 67,
+    "agree": false
+   },
+   {
+    "claim_key": "S050-P0-C1",
+    "name": "Success in Karma-yoga",
+    "claimed": 289,
+    "door_word": "סוקקהססינכארמאיוגא",
+    "door_value": 733,
+    "agree": false
+   },
+   {
+    "claim_key": "S051-P0-C1",
+    "name": "Success in Jnana-yoga",
+    "claimed": 133,
+    "door_word": "סוקקהססינינאנאיוגא",
+    "door_value": 583,
+    "agree": false
+   },
+   {
+    "claim_key": "S051-P1-C1",
+    "name": "Vision of Budha",
+    "claimed": 17,
+    "door_word": "ויסיונופבודהא",
+    "door_value": 246,
+    "agree": false
+   },
+   {
+    "claim_key": "S052-P0-C1",
+    "name": "Soma-bhawana",
+    "claimed": 181,
+    "door_word": "סומאבהאואנא",
+    "door_value": 173,
+    "agree": false
+   },
+   {
+    "claim_key": "S052-P1-C1",
+    "name": "Success in Mantra-yoga",
+    "claimed": 720,
+    "door_word": "סוקקהססינמאנתראיוגא",
+    "door_value": 1163,
+    "agree": false
+   },
+   {
+    "claim_key": "S053-P0-C1",
+    "name": "Tejo-bhawana",
+    "claimed": 480,
+    "door_word": "תהיובהאואנא",
+    "door_value": 487,
+    "agree": false
+   },
+   {
+    "claim_key": "S053-P1-C1",
+    "name": "Tapas-siddhi",
+    "claimed": 626,
+    "door_word": "תאפאססידדהי",
+    "door_value": 635,
+    "agree": false
+   },
+   {
+    "claim_key": "S054-P0-C1",
+    "name": "Success in Kriya-yoga",
+    "claimed": 269,
+    "door_word": "סוקקהססינכרייאיוגא",
+    "door_value": 712,
+    "agree": false
+   },
+   {
+    "claim_key": "S054-P1-C1",
+    "name": "Viveka-bhawana",
+    "claimed": 118,
+    "door_word": "ויוהכאבהאואנא",
+    "door_value": 114,
+    "agree": false
+   },
+   {
+    "claim_key": "S055-P0-C1",
+    "name": "Guru-darshana",
+    "claimed": 776,
+    "door_word": "גורודארשאנא",
+    "door_value": 772,
+    "agree": false
+   },
+   {
+    "claim_key": "S055-P1-C1",
+    "name": "Success in Raja-yoga",
+    "claimed": 233,
+    "door_word": "סוקקהססינראיאיוגא",
+    "door_value": 683,
+    "agree": false
+   },
+   {
+    "claim_key": "S056-P0-C1",
+    "name": "Tula-bhawana",
+    "claimed": 511,
+    "door_word": "תולאבהאואנא",
+    "door_value": 503,
+    "agree": false
+   },
+   {
+    "claim_key": "S056-P1-C1",
+    "name": "Dharma-darshana",
+    "claimed": 811,
+    "door_word": "דהארמאדארשאנא",
+    "door_value": 808,
+    "agree": false
+   },
+   {
+    "claim_key": "S060-P0-C2",
+    "name": "Vision of Mangala",
+    "claimed": 123,
+    "door_word": "ויסיונופמאנגאלא",
+    "door_value": 354,
+    "agree": false
+   },
+   {
+    "claim_key": "S063-P0-C2",
+    "name": "Vision of Shani",
+    "claimed": 360,
+    "door_word": "ויסיונופשאני",
+    "door_value": 589,
+    "agree": false
+   },
+   {
+    "claim_key": "S089-P0-C2",
+    "name": "Tin",
+    "claimed": 46,
+    "door_word": "תינ",
+    "door_value": 460,
+    "agree": false
+   },
+   {
+    "claim_key": "S090-P0-C2",
+    "name": "Gold",
+    "claimed": 14,
+    "door_word": "גולד",
+    "door_value": 43,
+    "agree": false
+   },
+   {
+    "claim_key": "S093-P0-C2",
+    "name": "Copper",
+    "claimed": 758,
+    "door_word": "קופפהר",
+    "door_value": 471,
+    "agree": false
+   },
+   {
+    "claim_key": "S097-P0-C2",
+    "name": "Coral",
+    "claimed": 80,
+    "door_word": "קוראל",
+    "door_value": 337,
+    "agree": false
+   },
+   {
+    "claim_key": "S097-P1-C2",
+    "name": "Pearl",
+    "claimed": 683,
+    "door_word": "פהארל",
+    "door_value": 316,
+    "agree": false
+   },
+   {
+    "claim_key": "S162-P0-C0",
+    "name": "Elexarpeh, Comananu, Tabitom - the Three Angels ruling the Tablet of Union",
+    "claimed": 476,
+    "door_word": "הלהקסארפההקומאנאנותאביתומתהתרההאנגהלסרולינגתהתאבלהתופוניונ",
+    "door_value": 4518,
+    "agree": false
+   },
+   {
+    "claim_key": "S162-P1-C0",
+    "name": "Comananu",
+    "claimed": 254,
+    "door_word": "קומאנאנו",
+    "door_value": 254,
+    "agree": true
+   },
+   {
+    "claim_key": "S174-P0-C0",
+    "name": "Beelzebub",
+    "claimed": 119,
+    "door_word": "בההלזהבוב",
+    "door_value": 64,
+    "agree": false
+   },
+   {
+    "claim_key": "S206-P1-C2",
+    "name": "HERMES",
+    "claimed": 305,
+    "door_word": "ההרמהס",
+    "door_value": 315,
+    "agree": false
+   },
+   {
+    "claim_key": "S207-P2-C2",
+    "name": "AZOTH",
+    "claimed": 414,
+    "door_word": "אזות",
+    "door_value": 414,
+    "agree": true
+   },
+   {
+    "claim_key": "S210-P2-C2",
+    "name": "ZEUS",
+    "claimed": 74,
+    "door_word": "זהוס",
+    "door_value": 78,
+    "agree": false
+   },
+   {
+    "claim_key": "S211-P2-C0",
+    "name": "MAAT",
+    "claimed": 441,
+    "door_word": "מאאת",
+    "door_value": 442,
+    "agree": false
+   }
+  ],
+  "nearest_miss": {
+   "name": "MAAT",
+   "claimed": 441,
+   "door_value": 442
+  }
+ },
+ "tabvla_q5_greek": {
+  "population": 17,
+  "plain_map_agrees": 10,
+  "rows": [
+   {
+    "claim_key": "S095-P0-C2",
+    "proposal": "Malachite",
+    "claimed": 1190,
+    "plain_dress": "ΜΑΛΑΚΗΙΤΕ",
+    "plain_value": 415,
+    "agree": false
+   },
+   {
+    "claim_key": "S173-P0-C2",
+    "proposal": "Satan",
+    "claimed": 552,
+    "plain_dress": "ΣΑΤΑΝ",
+    "plain_value": 552,
+    "agree": true
+   },
+   {
+    "claim_key": "S173-P1-C2",
+    "proposal": "Moloch",
+    "claimed": 810,
+    "plain_dress": "ΜΟΛΟΚΗ",
+    "plain_value": 238,
+    "agree": false
+   },
+   {
+    "claim_key": "S174-P0-C2",
+    "proposal": "Beelzebub",
+    "claimed": 556,
+    "plain_dress": "ΒΕΕΛΖΕΒΥΒ",
+    "plain_value": 458,
+    "agree": false
+   },
+   {
+    "claim_key": "S203-P0-C1",
+    "proposal": "AL (אל)",
+    "claimed": 31,
+    "plain_dress": "ΑΛ",
+    "plain_value": 31,
+    "agree": true
+   },
+   {
+    "claim_key": "S203-P1-C2",
+    "proposal": "AHIH (אהיה)",
+    "claimed": 27,
+    "plain_dress": "ΑΗΙΗ",
+    "plain_value": 27,
+    "agree": true
+   },
+   {
+    "claim_key": "S203-P2-C1",
+    "proposal": "IA (יא)",
+    "claimed": 11,
+    "plain_dress": "ΙΑ",
+    "plain_value": 11,
+    "agree": true
+   },
+   {
+    "claim_key": "S204-P0-C2",
+    "proposal": "AMEN (אמן)",
+    "claimed": 99,
+    "plain_dress": "ΑΜΝ",
+    "plain_value": 91,
+    "agree": false
+   },
+   {
+    "claim_key": "S205-P0-C2",
+    "proposal": "ALPH (אלף)",
+    "claimed": 531,
+    "plain_dress": "ΑΛΦ",
+    "plain_value": 531,
+    "agree": true
+   },
+   {
+    "claim_key": "S206-P0-C2",
+    "proposal": "BITH (בית)",
+    "claimed": 21,
+    "plain_dress": "ΒΙΤ",
+    "plain_value": 312,
+    "agree": false
+   },
+   {
+    "claim_key": "S207-P2-C1",
+    "proposal": "AZOTH (azoth)",
+    "claimed": 817,
+    "plain_dress": "ΑΖΟΤΗ",
+    "plain_value": 386,
+    "agree": false
+   },
+   {
+    "claim_key": "S208-P0-C1",
+    "proposal": "ZIN (זין)",
+    "claimed": 67,
+    "plain_dress": "ΖΙΝ",
+    "plain_value": 67,
+    "agree": true
+   },
+   {
+    "claim_key": "S209-P0-C2",
+    "proposal": "YVD (יוד)",
+    "claimed": 404,
+    "plain_dress": "ΙΥΔ",
+    "plain_value": 414,
+    "agree": false
+   },
+   {
+    "claim_key": "S209-P1-C1",
+    "proposal": "LVX (lux)",
+    "claimed": 490,
+    "plain_dress": "ΛΥΞ",
+    "plain_value": 490,
+    "agree": true
+   },
+   {
+    "claim_key": "S210-P0-C2",
+    "proposal": "KPH (כף)",
+    "claimed": 520,
+    "plain_dress": "ΚΦ",
+    "plain_value": 520,
+    "agree": true
+   },
+   {
+    "claim_key": "S211-P0-C1",
+    "proposal": "LMD (למד)",
+    "claimed": 74,
+    "plain_dress": "ΛΜΔ",
+    "plain_value": 74,
+    "agree": true
+   },
+   {
+    "claim_key": "S211-P2-C1",
+    "proposal": "MAAT (maat)",
+    "claimed": 342,
+    "plain_dress": "ΜΑΑΤ",
+    "plain_value": 342,
+    "agree": true
+   }
+  ],
+  "joints": {
+   "bith_via_theta": {
+    "dress": "ΒΙΘ",
+    "value": 21,
+    "claimed": 21,
+    "witness": "Θώθ VERIFIED at 818 in the same column — tav reads theta in the letter-name tradition"
+   },
+   "azoth_via_omega": {
+    "dress": "ΑΖΩΘ",
+    "value": 817,
+    "claimed": 817
+   },
+   "amen_received": {
+    "dress": "ΑΜΗΝ",
+    "value": 99,
+    "claimed": 99,
+    "witness": "the received Greek spelling of the word itself"
+   },
+   "yvd_residue": {
+    "claimed": 404,
+    "coincidence": {
+     "dress": "ΥΔ",
+     "value": 404
+    }
+   }
+  }
+ },
+ "tabvla_q6": {
+  "pinyin": [
+   {
+    "claim_key": "S115-P0-C2",
+    "proposal": "Kbn [1]",
+    "claimed": 58
+   },
+   {
+    "claim_key": "S116-P0-C2",
+    "proposal": "Kbn [1]",
+    "claimed": 58
+   },
+   {
+    "claim_key": "S117-P0-C2",
+    "proposal": "Khien and Khwbn",
+    "claimed": 237
+   },
+   {
+    "claim_key": "S118-P0-C2",
+    "proposal": "Khan [2]",
+    "claimed": 71
+   },
+   {
+    "claim_key": "S118-P1-C2",
+    "proposal": "Khwbn [0]",
+    "claimed": 76
+   },
+   {
+    "claim_key": "S119-P0-C2",
+    "proposal": "Khan and Li",
+    "claimed": 111
+   },
+   {
+    "claim_key": "S120-P0-C2",
+    "proposal": "Khan [2]",
+    "claimed": 71
+   },
+   {
+    "claim_key": "S120-P1-C2",
+    "proposal": "Khwbn [0]",
+    "claimed": 76
+   },
+   {
+    "claim_key": "S121-P0-C2",
+    "proposal": "Khien [7]",
+    "claimed": 161
+   },
+   {
+    "claim_key": "S122-P0-C2",
+    "proposal": "Tui [6]",
+    "claimed": 20
+   },
+   {
+    "claim_key": "S123-P0-C2",
+    "proposal": "Sun [3]",
+    "claimed": 216
+   }
+  ],
+  "stroke": [
+   {
+    "claim_key": "S115-P0-C3",
+    "proposal": "Kbn [1]",
+    "claimed": 6
+   },
+   {
+    "claim_key": "S116-P0-C3",
+    "proposal": "Kbn [1]",
+    "claimed": 6
+   },
+   {
+    "claim_key": "S117-P0-C3",
+    "proposal": "Khien and Khwbn",
+    "claimed": 19
+   },
+   {
+    "claim_key": "S118-P0-C3",
+    "proposal": "Khan [2]",
+    "claimed": 7
+   },
+   {
+    "claim_key": "S118-P1-C3",
+    "proposal": "Khwbn [0]",
+    "claimed": 8
+   },
+   {
+    "claim_key": "S119-P0-C3",
+    "proposal": "Khan and Li",
+    "claimed": 17
+   },
+   {
+    "claim_key": "S120-P0-C3",
+    "proposal": "Khan [2]",
+    "claimed": 7
+   },
+   {
+    "claim_key": "S120-P1-C3",
+    "proposal": "Khwbn [0]",
+    "claimed": 8
+   },
+   {
+    "claim_key": "S121-P0-C3",
+    "proposal": "Khien [7]",
+    "claimed": 11
+   },
+   {
+    "claim_key": "S122-P0-C3",
+    "proposal": "Tui [6]",
+    "claimed": 7
+   },
+   {
+    "claim_key": "S123-P0-C3",
+    "proposal": "Sun [3]",
+    "claimed": 12
+   }
+  ],
+  "pinyin_count": 11,
+  "stroke_count": 11,
+  "cjk_chars_in_corpus": 0,
+  "pinyin_label_in_corpus": true,
+  "hebrew_chars_in_xlvi_section": 0
+ },
+ "tabvla_q7": {
+  "pontifex_copy_bytes": 163795,
+  "goal_copy_bytes": 154961,
+  "apparatus_notes_pontifex": 44,
+  "apparatus_notes_goal": 0,
+  "notes_that_reweigh": 44
+ },
+ "tabvla_q8": {
+  "gap_cells_per_table": 1,
+  "gap_cell_id": [
+   "CLXXXIV/10"
+  ]
+ },
+ "tt_q2": {
+  "states": {
+   "DOOR": 205,
+   "EMPTY": 85,
+   "HOLE": 80,
+   "GAP": 1
+  },
+  "holes": 80,
+  "holes_fail_at_ch": 6,
+  "holes_cross_unseated": 12,
+  "holes_no_latin_form": 62,
+  "derived_bases": [
+   "ሸ",
+   "ቐ",
+   "ቨ",
+   "ቸ",
+   "ኘ",
+   "ኸ",
+   "ዀ",
+   "ዠ",
+   "ዸ",
+   "ጀ",
+   "ጘ",
+   "ጨ"
+  ],
+  "armenian_annex_sourced": {
+   "omin": 10000,
+   "ef": 20000
+  },
+  "derived_base_in_mint": false,
+  "derived_base_in_halehame": false
+ },
+ "tt_q4": {
+  "native_by_tongue": {
+   "greek": 11,
+   "hebrew": 45,
+   "arabic": 11,
+   "latin": 178,
+   "japanese": 0,
+   "geez": 0,
+   "armenian": 0,
+   "coptic": 0,
+   "georgian": 0,
+   "cyrillic": 0,
+   "glagolitic": 0,
+   "korean": 0
+  },
+  "native_total": 245,
+  "word_cells_per_table": 285
+ },
+ "tt_q5": {
+  "kana_checks": [
+   [
+    "あいうえお/kana == 15 (G1 axis)",
+    true,
+    15
+   ],
+   [
+    "73 seats, values 1–73 each used exactly once",
+    true,
+    [
+     73,
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      71,
+      72,
+      73
+     ]
+    ]
+   ],
+   [
+    "を == 47 (grid seat kept), ん == 48 (one value)",
+    true,
+    [
+     47,
+     48,
+     48
+    ]
+   ],
+   [
+    "あくま == 40 beside AKUMA 47 (Δ −7, exhibited)",
+    true,
+    [
+     40,
+     47,
+     -7
+    ]
+   ],
+   [
+    "むげつ == 103 beside MUGETSU 106 (Δ −3, exhibited)",
+    true,
+    [
+     103,
+     106,
+     -3
+    ]
+   ],
+   [
+    "かな == 27 == KANA (bridge)",
+    true,
+    [
+     27,
+     27
+    ]
+   ],
+   [
+    "しおん == 65 == SHION (bridge)",
+    true,
+    [
+     65,
+     65
+    ]
+   ],
+   [
+    "ゆず == 93 == YUZU (bridge)",
+    true,
+    [
+     93,
+     93
+    ]
+   ],
+   [
+    "ありがとう == 113, が == 49 (G2)",
+    true,
+    [
+     113,
+     49
+    ]
+   ],
+   [
+    "きゃ == 43 (G4: ゃ at や’s seat 36)",
+    true,
+    [
+     43,
+     36
+    ]
+   ],
+   [
+    "ずっと == 94 (G5: っ at つ’s seat 18)",
+    true,
+    [
+     94,
+     18
+    ]
+   ],
+   [
+    "katakana mirrors hiragana, sign for sign (85 pairs)",
+    true,
+    [
+     85,
+     true,
+     49
+    ]
+   ],
+   [
+    "ラーメン: raw door 121 (ー skipped) / kana() door 122 (G3)",
+    true,
+    [
+     121,
+     122,
+     [
+      [
+       "ラ",
+       39
+      ],
+      [
+       "ー",
+       1
+      ],
+      [
+       "メ",
+       34
+      ],
+      [
+       "ン",
+       48
+      ]
+     ]
+    ]
+   ],
+   [
+    "んー == 48 and ー alone == 0 (operator edges)",
+    true,
+    [
+     48,
+     0
+    ]
+   ],
+   [
+    "kana provenance carries the fence (CONSTRUCTED, ratified 2026-11-13, NOT attested)",
+    true,
+    "CONSTRUCTED — the GOJŪON MINT: house coinage ratified by the founder's stamp 2026-11-13; NOT attested, traditional, or ancient"
+   ]
+  ],
+  "geez_checks": [
+   [
+    "ሀ row prices the axis (M1): 1,2,3,4,5,0,7 — the correction inside the row",
+    true,
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0,
+     7
+    ]
+   ],
+   [
+    "227 seats: 182 grid + 20 labiovelar (the classical 202) + 25 of the ΕΙ column, each exactly once",
+    true,
+    [
+     [
+      182,
+      20,
+      25
+     ],
+     227
+    ]
+   ],
+   [
+    "first-form column == the folk table, 26/26 (M2)",
+    true,
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     20,
+     30,
+     40,
+     50,
+     60,
+     70,
+     80,
+     90,
+     100,
+     200,
+     300,
+     400,
+     500,
+     600,
+     700,
+     800
+    ]
+   ],
+   [
+    "ክርስቶስ: mint-written 70 / mint first-form 80 / witness practiced 80 / witness printed 490",
+    true,
+    [
+     70,
+     80,
+     80,
+     490
+    ]
+   ],
+   [
+    "multiplier exhibits hold as written: ሁ 2, ሉ 4, ቶ 70, ፖ 5600 (Bekerie)",
+    true,
+    [
+     2,
+     4,
+     70,
+     5600
+    ]
+   ],
+   [
+    "order 6 (M3): mint ል/ፕ == 0 with exactly 30 zero signs; witness printed ል 12, ፕ 4800 (×6 stands)",
+    true,
+    [
+     0,
+     0,
+     30,
+     12,
+     4800
+    ]
+   ],
+   [
+    "labiovelars (M4): ቈ == 8, ቍ == 0 in the mint; none of the 20 in the witness",
+    true,
+    [
+     8,
+     0,
+     0
+    ]
+   ],
+   [
+    "the ΕΙ column (M5): ሇ == 8, ኧ == 320 at ×8; ዐ’s slot a hole in both banks",
+    true,
+    [
+     8,
+     320,
+     false
+    ]
+   ],
+   [
+    "90 distinct values over 227 seats (collisions printed; singleness claimed, uniqueness not)",
+    true,
+    [
+     90,
+     2
+    ]
+   ],
+   [
+    "ሰላም at four doors: 15 / 13 / 13 / 39 (the parting at ም, its order-6 sign)",
+    true,
+    [
+     15,
+     13,
+     13,
+     39
+    ]
+   ],
+   [
+    "geez provenance carries the fence (CONSTRUCTED, minted 2026-11-24, NOT attested)",
+    true,
+    "CONSTRUCTED — the GE'EZ MINT: house coinage minted at the desk 2026-11-24 under the founder's hybrid law and end-goal rule, calibrated by construction to the halehame witness (first-form column identical, 26/26); NOT attested, traditional, or ancient"
+   ]
+  ]
+ },
+ "tt_q7": {
+  "chinese_in_systems": false,
+  "reader_seated": true
+ }
+}

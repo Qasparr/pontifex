@@ -1,0 +1,61 @@
+PASS  controls 93/93/773  
+PASS  Q1 door claims 14 = 5 verified + 9 parted  
+PASS  Q1 BALDR scheme 236 / door 237  
+PASS  Q1 SURTR coordinate 475 vs 866  
+PASS  Q2 six partings, each delta exactly 5, each one taa  
+PASS  Q2 bank prices taa at silence  
+PASS  Q2 verified counterweights stand on the silence  
+PASS  Q3 al-Ahmar bank 279, hamza silent  
+PASS  Q4 Maadim: hechrechi 95, full gadol 655  
+PASS  Q4 Adam Kadmon: hechrechi 245, nun-only 895, full 1455  
+PASS  Q4 no gadol bank seated in the engine  
+PASS  Q5 population 60 = 29 + 17 + 13 + 1  
+PASS  Q5 door reproduces exactly 3 of the 29 Hebrew claims  agree=3
+PASS  Q5 Greek joints: BITH 21, AZOTH 817, AMEN 99  
+PASS  Q5 YVD residue coincidence printed as coincidence  
+PASS  Q6 population 22 = 11 pinyin + 11 stroke  
+PASS  Q6 corpus prints zero CJK characters  
+PASS  Q7 apparatus: 44 notes in the pontifex copy, 0 in the goal  
+PASS  Q7 copy sizes 163,795 / 154,961 bytes  163795/154961
+PASS  Q8 exactly one GAP cell, at CLXXXIV/10  
+PASS  TT Q2 Ge'ez states: DOOR 205, HOLE 80, EMPTY 85, GAP 1  
+PASS  TT Q2 hole species 62 + 12 + 6 = 80  
+PASS  TT Q2 Armenian annex values are the sourced 10000/20000  
+PASS  TT Q2 derived base in neither Ge'ez bank  
+PASS  TT Q4 NATIVE total across the twelve tables is 245  native=245
+PASS  TT Q5 door check functions pass entire  
+PASS  TT Q5 parity battery test_kana_parity.py green  
+PASS  TT Q5 parity battery test_geez_parity.py green  
+PASS  TT Q7 Chinese: reader seated, no weighing bank  
+PASS  master quotes: Make your recommendations the pen's decision…  
+PASS  master quotes: The fallback door against the workers' schem…  
+PASS  master quotes: Seat a priced ة in the Arabic bank…  
+PASS  master quotes: The same question as Q2 at size one…  
+PASS  master quotes: which application is canonical…  
+PASS  master quotes: the population becomes recomputable…  
+PASS  master quotes: Build seats for them…  
+PASS  master quotes: do the copies stand as two witnesses…  
+PASS  master quotes: not filled by invention…  
+PASS  master quotes: let counted-not-priced stand as the law…  
+PASS  master quotes: keep the holes as the mint's honest edge…  
+PASS  master quotes: Commission them as mint work…  
+PASS  master quotes: does the corpus-bounded depth stand…  
+PASS  master quotes: amends by correctio…  
+PASS  master quotes: standing outside as surveyed…  
+PASS  master quotes: the seam is the pen's to name…  
+PASS  master: thirteen desk decisions printed  count=13
+PASS  master: killing evidence with the decisions  count=13
+PASS  master: UNCHARTED at its three coordinates  count=15
+PASS  master: the register of decisions stands  
+PASS  PDF footer resolves on every page  pages=18, footers found=18
+PASS  PDF layer: no Hebrew-block codepoint  
+PASS  PDF layer: no Arabic-block codepoint  
+PASS  PDF layer carries: THE DELEGATED ANSWERS  
+PASS  PDF layer carries: documented second door  
+PASS  PDF layer carries: honest edge  
+PASS  PDF layer carries: UNCHARTED  
+PASS  PDF layer carries: Flagpole of Claim and Coinage  
+PASS  PDF layer carries: [U+1311]  
+PASS  PDF layer carries: Killing evidence  
+
+AUDIT PASS — 59/59 checks, 0 failures
