@@ -1,0 +1,378 @@
+PLATE-XII-KOREAN — independent audit
+checks: 373 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  hangul_checks() stands 11/11
+PASS  bank census: 67 keys
+PASS  plate prints the 67-key census
+PASS  initial register: 19 rows parsed
+PASS  initial seat 1: ㄱ price 1 == engine
+PASS  initial seat 2: ㄲ price 2 == engine
+PASS  initial seat 3: ㄴ price 3 == engine
+PASS  initial seat 4: ㄷ price 4 == engine
+PASS  initial seat 5: ㄸ price 5 == engine
+PASS  initial seat 6: ㄹ price 6 == engine
+PASS  initial seat 7: ㅁ price 7 == engine
+PASS  initial seat 8: ㅂ price 8 == engine
+PASS  initial seat 9: ㅃ price 9 == engine
+PASS  initial seat 10: ㅅ price 10 == engine
+PASS  initial seat 11: ㅆ price 11 == engine
+PASS  initial seat 12: ㅇ price 12 == engine
+PASS  initial seat 13: ㅈ price 13 == engine
+PASS  initial seat 14: ㅉ price 14 == engine
+PASS  initial seat 15: ㅊ price 15 == engine
+PASS  initial seat 16: ㅋ price 16 == engine
+PASS  initial seat 17: ㅌ price 17 == engine
+PASS  initial seat 18: ㅍ price 18 == engine
+PASS  initial seat 19: ㅎ price 19 == engine
+PASS  initial stratum sum == 190
+PASS  vowel register: 21 rows parsed
+PASS  vowel seat 1: ㅏ price 1 == engine
+PASS  vowel seat 2: ㅐ price 2 == engine
+PASS  vowel seat 3: ㅑ price 3 == engine
+PASS  vowel seat 4: ㅒ price 4 == engine
+PASS  vowel seat 5: ㅓ price 5 == engine
+PASS  vowel seat 6: ㅔ price 6 == engine
+PASS  vowel seat 7: ㅕ price 7 == engine
+PASS  vowel seat 8: ㅖ price 8 == engine
+PASS  vowel seat 9: ㅗ price 9 == engine
+PASS  vowel seat 10: ㅘ price 10 == engine
+PASS  vowel seat 11: ㅙ price 11 == engine
+PASS  vowel seat 12: ㅚ price 12 == engine
+PASS  vowel seat 13: ㅛ price 13 == engine
+PASS  vowel seat 14: ㅜ price 14 == engine
+PASS  vowel seat 15: ㅝ price 15 == engine
+PASS  vowel seat 16: ㅞ price 16 == engine
+PASS  vowel seat 17: ㅟ price 17 == engine
+PASS  vowel seat 18: ㅠ price 18 == engine
+PASS  vowel seat 19: ㅡ price 19 == engine
+PASS  vowel seat 20: ㅢ price 20 == engine
+PASS  vowel seat 21: ㅣ price 21 == engine
+PASS  vowel stratum sum == 231
+PASS  final register: 27 rows parsed
+PASS  final seat 1: ㄱ price 1 == engine
+PASS  final seat 2: ㄲ price 2 == engine
+PASS  final seat 3: ㄳ price 3 == engine
+PASS  final seat 4: ㄴ price 4 == engine
+PASS  final seat 5: ㄵ price 5 == engine
+PASS  final seat 6: ㄶ price 6 == engine
+PASS  final seat 7: ㄷ price 7 == engine
+PASS  final seat 8: ㄹ price 8 == engine
+PASS  final seat 9: ㄺ price 9 == engine
+PASS  final seat 10: ㄻ price 10 == engine
+PASS  final seat 11: ㄼ price 11 == engine
+PASS  final seat 12: ㄽ price 12 == engine
+PASS  final seat 13: ㄾ price 13 == engine
+PASS  final seat 14: ㄿ price 14 == engine
+PASS  final seat 15: ㅀ price 15 == engine
+PASS  final seat 16: ㅁ price 16 == engine
+PASS  final seat 17: ㅂ price 17 == engine
+PASS  final seat 18: ㅄ price 18 == engine
+PASS  final seat 19: ㅅ price 19 == engine
+PASS  final seat 20: ㅆ price 20 == engine
+PASS  final seat 21: ㅇ price 21 == engine
+PASS  final seat 22: ㅈ price 22 == engine
+PASS  final seat 23: ㅊ price 23 == engine
+PASS  final seat 24: ㅋ price 24 == engine
+PASS  final seat 25: ㅌ price 25 == engine
+PASS  final seat 26: ㅍ price 26 == engine
+PASS  final seat 27: ㅎ price 27 == engine
+PASS  final stratum sum == 378
+PASS  bank total == 799
+PASS  distinct values are 1–27, max 27
+PASS  teeth: only ㄲ coincides with twice its base
+PASS  digraph ㄳ: holds its final seat
+PASS  digraph ㄵ: no modern initial seat
+PASS  digraph ㄵ: holds its final seat
+PASS  digraph ㄶ: no modern initial seat
+PASS  digraph ㄶ: holds its final seat
+PASS  digraph ㄺ: holds its final seat
+PASS  digraph ㄻ: holds its final seat
+PASS  digraph ㄼ: holds its final seat
+PASS  digraph ㄽ: holds its final seat
+PASS  digraph ㄾ: holds its final seat
+PASS  digraph ㄿ: holds its final seat
+PASS  digraph ㅀ: no modern initial seat
+PASS  digraph ㅀ: holds its final seat
+PASS  digraph ㅄ: no modern initial seat
+PASS  digraph ㅄ: holds its final seat
+PASS  teeth: four digraphs keep archaic namesakes (ㄵㄶㅀㅄ)
+PASS  teeth: seven digraphs have no choseong form
+PASS  obsolete ㆁ: no modern seat in any stratum
+PASS  obsolete ㅿ: no modern seat in any stratum
+PASS  obsolete ㆆ: no modern seat in any stratum
+PASS  obsolete ㆍ: no modern seat in any stratum
+PASS  ㆅ unseated at the initial stratum
+PASS  hinge: raw initial ㅇ seat == 12
+PASS  hinge: hangul(아이) == 22 with 2 nulls
+PASS  hinge: the raw bank parts — spelling of 아이 == 46
+PASS  hinge: hangul(아) == 1 with 1 null (the Triad's exhibit)
+PASS  hinge: final ㅇ a full letter — hangul(강) == 23, no null
+PASS  door: 한글 == 52, strata 20/20/12
+PASS  door: 한국 == 40
+PASS  door: bare ㄳ == 3 at its final seat
+PASS  door: ㆍ modern == 0 with 1 unseated
+PASS  annex registers: 45 rows parsed
+PASS  annex rows == engine annex, in order
+PASS  annex sums == (153, 66, 153)
+PASS  annex exhibits: ㆁㆍ == 4 through the hist door
+PASS  annex exhibits: ㅇ hist == 15 (no null in 1446)
+PASS  annex exhibits: ㆍ hist == 1 at vowel seat 1
+PASS  annex exhibits: ㄲ refused on the hist path
+PASS  register census == (0, 223, 62, 0, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 223
+PASS  plate prints census HOLE 62
+PASS  plate prints census FENCED 0
+PASS  plate door register: 223 rows
+PASS  plate door rows == register rows, in order
+PASS  door III/31 bis 토옷흐: re-weighed through hangul()
+PASS  door III/32 bis 타우 앗 에그으프티안: re-weighed through hangul()
+PASS  door VI/13 레바나흐: re-weighed through hangul()
+PASS  door VI/14 노가흐: re-weighed through hangul()
+PASS  door VI/21 트제데크: re-weighed through hangul()
+PASS  door VI/27 마딤: re-weighed through hangul()
+PASS  door VI/30 스헤멧흐: re-weighed through hangul()
+PASS  door VI/32 스합밧하이: re-weighed through hangul()
+PASS  door VIII/13 가마리엘: re-weighed through hangul()
+PASS  door VIII/14 아아랍 자라크: re-weighed through hangul()
+PASS  door VIII/21 그하악스헥라흐: re-weighed through hangul()
+PASS  door VIII/23 아리톤: re-weighed through hangul()
+PASS  door VIII/27 고라찹: re-weighed through hangul()
+PASS  door VIII/30 타기리론: re-weighed through hangul()
+PASS  door VIII/31 파이몬: re-weighed through hangul()
+PASS  door VIII/32 사타리엘: re-weighed through hangul()
+PASS  door VIII/32 bis 아마이몬: re-weighed through hangul()
+PASS  door XX/31 bis 아툼: re-weighed through hangul()
+PASS  door XX/32 bis 셉: re-weighed through hangul()
+PASS  door XXI/18 호르막후: re-weighed through hangul()
+PASS  door XXI/18 켑흐라: re-weighed through hangul()
+PASS  door XXI/20 헤루 파 크라앗흐: re-weighed through hangul()
+PASS  door XXI/20 이싯: re-weighed through hangul()
+PASS  door XXI/22 마앗: re-weighed through hangul()
+PASS  door XXI/22 마: re-weighed through hangul()
+PASS  door XXI/25 넵흐트으스: re-weighed through hangul()
+PASS  door XXI/25 아르우에리: re-weighed through hangul()
+PASS  door XXIV/2 사비칼파 사맛히: re-weighed through hangul()
+PASS  door XXIV/2 무디타 사맛히: re-weighed through hangul()
+PASS  door XXIV/3 마하카루나: re-weighed through hangul()
+PASS  door XXIV/3 봇히킷타: re-weighed through hangul()
+PASS  door XXIV/4 브라흐마비하라: re-weighed through hangul()
+PASS  door XXIV/4 멧타 사맛히: re-weighed through hangul()
+PASS  door XXIV/5 아마타: re-weighed through hangul()
+PASS  door XXIV/5 삼베가: re-weighed through hangul()
+PASS  door XXIV/7 사우쟈: re-weighed through hangul()
+PASS  door XXIV/7 데바 다르사나: re-weighed through hangul()
+PASS  door XXIV/8 잇드히: re-weighed through hangul()
+PASS  door XXIV/8 빕후티: re-weighed through hangul()
+PASS  door XXIV/9 소타팟티: re-weighed through hangul()
+PASS  door XXIV/9 드함마칵쿠: re-weighed through hangul()
+PASS  door XXIV/12 파팁하가 니밋타: re-weighed through hangul()
+PASS  door XXIV/12 압파나: re-weighed through hangul()
+PASS  door XXIV/15 카르마 오가: re-weighed through hangul()
+PASS  door XXIV/17 즈나나 오가: re-weighed through hangul()
+PASS  door XXIV/17 붓하: re-weighed through hangul()
+PASS  door XXIV/18 소마 브하아나: re-weighed through hangul()
+PASS  door XXIV/18 만트라 오가: re-weighed through hangul()
+PASS  door XXIV/19 테조 브하아나: re-weighed through hangul()
+PASS  door XXIV/19 타팟 싯드히: re-weighed through hangul()
+PASS  door XXIV/20 크리아 오가: re-weighed through hangul()
+PASS  door XXIV/20 비베카 브하아나: re-weighed through hangul()
+PASS  door XXIV/21 구루 다르스하나: re-weighed through hangul()
+PASS  door XXIV/21 라자 오가: re-weighed through hangul()
+PASS  door XXIV/22 투라 브하아나: re-weighed through hangul()
+PASS  door XXIV/22 드하르마 다르스하나: re-weighed through hangul()
+PASS  door XXIV/27 마느가라: re-weighed through hangul()
+PASS  door XXIV/32 스하니: re-weighed through hangul()
+PASS  door XXXIII/6 발드르: re-weighed through hangul()
+PASS  door XXXIII/10 조르드: re-weighed through hangul()
+PASS  door XXXIII/10 네르툿: re-weighed through hangul()
+PASS  door XXXIII/13 마니: re-weighed through hangul()
+PASS  door XXXIII/13 스카디: re-weighed through hangul()
+PASS  door XXXIII/16 시프: re-weighed through hangul()
+PASS  door XXXIII/16 에이르: re-weighed through hangul()
+PASS  door XXXIII/23 느조르드: re-weighed through hangul()
+PASS  door XXXIII/23 애기르: re-weighed through hangul()
+PASS  door XXXIII/30 솔: re-weighed through hangul()
+PASS  door XXXIII/31 수르트르: re-weighed through hangul()
+PASS  door XXXIII/31 bis 오딘: re-weighed through hangul()
+PASS  door XXXIII/32 bis 네르툿: re-weighed through hangul()
+PASS  door XXXIII/32 bis 에르다: re-weighed through hangul()
+PASS  door XLIII/24 코니움: re-weighed through hangul()
+PASS  door XLIII/24 코니움 마쿠라툼: re-weighed through hangul()
+PASS  door XLIII/24 코니움 마쿠라툼: re-weighed through hangul()
+PASS  door XLIII/24 코니움 마쿠라툼: re-weighed through hangul()
+PASS  door XLIII/25 살비아: re-weighed through hangul()
+PASS  door XLIII/25 살비아 오프피키나릿: re-weighed through hangul()
+PASS  door XLIII/25 살비아 오프피키나릿: re-weighed through hangul()
+PASS  door XLIII/27 뭇타르드: re-weighed through hangul()
+PASS  door XLIII/27 시나핏: re-weighed through hangul()
+PASS  door XLIII/27 캅시쿰: re-weighed through hangul()
+PASS  door XLIII/31 지느기베르: re-weighed through hangul()
+PASS  door XLIII/31 지느기베르 오프피키나레: re-weighed through hangul()
+PASS  door XLIII/31 지느기베르 오프피키나레: re-weighed through hangul()
+PASS  door XLIII/31 캅시쿰: re-weighed through hangul()
+PASS  door XLIII/31 캅시쿰 안누움: re-weighed through hangul()
+PASS  door XLIII/31 캅시쿰 안누움 치리 카엔네: re-weighed through hangul()
+PASS  door XLIII/31 캅시쿰 안누움 치리 카엔네: re-weighed through hangul()
+PASS  door XLIII/32 bis 만드라고라: re-weighed through hangul()
+PASS  door XLIII/32 bis 만드라고라 오프피키나룸: re-weighed through hangul()
+PASS  door XLIII/32 bis 만드라고라 오프피키나룸: re-weighed through hangul()
+PASS  door XLIV/4 틴: re-weighed through hangul()
+PASS  door XLIV/6 골드: re-weighed through hangul()
+PASS  door XLIV/11 살 보라티레: re-weighed through hangul()
+PASS  door XLIV/13 루나르 카웃티크: re-weighed through hangul()
+PASS  door XLIV/14 콥페르: re-weighed through hangul()
+PASS  door XLIV/14 브루에 빗리올: re-weighed through hangul()
+PASS  door XLIV/15 크로쿳 마르팃: re-weighed through hangul()
+PASS  door XLIV/16 마라치테: re-weighed through hangul()
+PASS  door XLIV/17 킨나바르: re-weighed through hangul()
+PASS  door XLIV/18 코랄: re-weighed through hangul()
+PASS  door XLIV/18 페아르르: re-weighed through hangul()
+PASS  door XLIV/19 오르피멘트: re-weighed through hangul()
+PASS  door XLIV/19 아우리픽멘툼: re-weighed through hangul()
+PASS  door XLIV/20 킨나바르: re-weighed through hangul()
+PASS  door XLIV/21 틴: re-weighed through hangul()
+PASS  door XLIV/21 스탄느브므: re-weighed through hangul()
+PASS  door XLIV/22 콥페르: re-weighed through hangul()
+PASS  door XLIV/22 크브프르브므: re-weighed through hangul()
+PASS  door XLIV/26 안티모느으: re-weighed through hangul()
+PASS  door XLIV/26 스티비브므: re-weighed through hangul()
+PASS  door XLIV/28 아룸: re-weighed through hangul()
+PASS  door XLIV/28 알브므: re-weighed through hangul()
+PASS  door XLIV/29 이오디네: re-weighed through hangul()
+PASS  door XLIV/29 살트: re-weighed through hangul()
+PASS  door XLIV/30 골드: re-weighed through hangul()
+PASS  door XLIV/30 아브르브므: re-weighed through hangul()
+PASS  door XLVI/4 틔: re-weighed through hangul()
+PASS  door XLVI/4 키엔: re-weighed through hangul()
+PASS  door XLVI/5 크브느: re-weighed through hangul()
+PASS  door XLVI/7 틔: re-weighed through hangul()
+PASS  door XLVI/7 순: re-weighed through hangul()
+PASS  door XLVI/8 리: re-weighed through hangul()
+PASS  door XLVI/9 칸: re-weighed through hangul()
+PASS  door XLVI/15 리: re-weighed through hangul()
+PASS  door XLVI/16 칸: re-weighed through hangul()
+PASS  door XLVI/16 콴: re-weighed through hangul()
+PASS  door XLVI/17 순: re-weighed through hangul()
+PASS  door XLVI/18 칸: re-weighed through hangul()
+PASS  door XLVI/19 크브느: re-weighed through hangul()
+PASS  door XLVI/20 크브느: re-weighed through hangul()
+PASS  door XLVI/22 키엔 크으브느: re-weighed through hangul()
+PASS  door XLVI/24 칸: re-weighed through hangul()
+PASS  door XLVI/24 크으브느: re-weighed through hangul()
+PASS  door XLVI/25 칸 리: re-weighed through hangul()
+PASS  door XLVI/26 칸: re-weighed through hangul()
+PASS  door XLVI/26 크으브느: re-weighed through hangul()
+PASS  door XLVI/28 키엔: re-weighed through hangul()
+PASS  door XLVI/29 틔: re-weighed through hangul()
+PASS  door XLVI/31 bis 순: re-weighed through hangul()
+PASS  door XLVII/8 (empty): re-weighed through hangul()
+PASS  door XLVII/9 (empty): re-weighed through hangul()
+PASS  door XLVII/17 (empty): re-weighed through hangul()
+PASS  door XLVII/17 (empty): re-weighed through hangul()
+PASS  door XLVII/17 (empty): re-weighed through hangul()
+PASS  door XLVII/17 바르칸: re-weighed through hangul()
+PASS  door XLVII/22 (empty): re-weighed through hangul()
+PASS  door XLVII/22 자으바아흐: re-weighed through hangul()
+PASS  door XLVII/25 (empty): re-weighed through hangul()
+PASS  door XLVII/25 스함후릿흐: re-weighed through hangul()
+PASS  door XLVII/26 (empty): re-weighed through hangul()
+PASS  door XLVII/26 마으문: re-weighed through hangul()
+PASS  door XLVII/27 테 렛 오네: re-weighed through hangul()
+PASS  door XLVII/30 테 길데르: re-weighed through hangul()
+PASS  door XLVII/31 bis (empty): re-weighed through hangul()
+PASS  door XLVII/31 bis 잔느: re-weighed through hangul()
+PASS  door XLVII/32 테 포르투나테: re-weighed through hangul()
+PASS  door XLVII/32 bis 아마이몬: re-weighed through hangul()
+PASS  door LI/32 bis 트: re-weighed through hangul()
+PASS  door LIII/8 삼피: re-weighed through hangul()
+PASS  door LVI/31 bis 테 리베르 오프 에덴 운디비뎃 소우르케: re-weighed through hangul()
+PASS  door LVI/31 bis 나하르: re-weighed through hangul()
+PASS  door LVII/31 bis 톡흐: re-weighed through hangul()
+PASS  door LVII/31 bis 켄트레: re-weighed through hangul()
+PASS  door LVII/31 bis 아도나이: re-weighed through hangul()
+PASS  door LVIII/31 bis 에레카르페흐 코마나누 타비톰 테 트레에 아느겔스 루링 테 탑렛 오프 우니온: re-weighed through hangul()
+PASS  door LVIII/31 bis 코마나누: re-weighed through hangul()
+PASS  door LVIII/31 bis 타비톰: re-weighed through hangul()
+PASS  door LXIII/31 bis 아담 캇몬 테 피프트 오르르드 아보베 앗지룻흐: re-weighed through hangul()
+PASS  door LXIII/31 bis 아담 캇몬: re-weighed through hangul()
+PASS  door CVIII/1 사탄: re-weighed through hangul()
+PASS  door CVIII/1 모로츠: re-weighed through hangul()
+PASS  door CVIII/2 베엘제붑: re-weighed through hangul()
+PASS  door CXXXII/1 테 로옷 오프 테 포에르스 오프 에아르트: re-weighed through hangul()
+PASS  door CLXXXV/4 (empty): re-weighed through hangul()
+PASS  door CLXXXV/7 (empty): re-weighed through hangul()
+PASS  door CLXXXVII/1 알: re-weighed through hangul()
+PASS  door CLXXXVII/1 아히흐: re-weighed through hangul()
+PASS  door CLXXXVII/1 이아: re-weighed through hangul()
+PASS  door CLXXXVII/8 아멘: re-weighed through hangul()
+PASS  door CLXXXVII/11 알프: re-weighed through hangul()
+PASS  door CLXXXVII/11 아이르: re-weighed through hangul()
+PASS  door CLXXXVII/11 (empty): re-weighed through hangul()
+PASS  door CLXXXVII/11 (empty): re-weighed through hangul()
+PASS  door CLXXXVII/12 빗흐: re-weighed through hangul()
+PASS  door CLXXXVII/12 헤르멧: re-weighed through hangul()
+PASS  door CLXXXVII/12 톳흐: re-weighed through hangul()
+PASS  door CLXXXVII/15 하: re-weighed through hangul()
+PASS  door CLXXXVII/15 에네르그으: re-weighed through hangul()
+PASS  door CLXXXVII/15 아좃흐: re-weighed through hangul()
+PASS  door CLXXXVII/17 진: re-weighed through hangul()
+PASS  door CLXXXVII/17 아폴로: re-weighed through hangul()
+PASS  door CLXXXVII/17 델피: re-weighed through hangul()
+PASS  door CLXXXVII/20 으브드: re-weighed through hangul()
+PASS  door CLXXXVII/20 르브크: re-weighed through hangul()
+PASS  door CLXXXVII/20 레쳄: re-weighed through hangul()
+PASS  door CLXXXVII/21 크프: re-weighed through hangul()
+PASS  door CLXXXVII/21 주피테르: re-weighed through hangul()
+PASS  door CLXXXVII/21 즛: re-weighed through hangul()
+PASS  door CLXXXVII/22 르므드: re-weighed through hangul()
+PASS  door CLXXXVII/22 미즈느으므: re-weighed through hangul()
+PASS  door CLXXXVII/22 마앗: re-weighed through hangul()
+PASS  door CLXXXVII/22 립라: re-weighed through hangul()
+PASS  door CLXXXVII/22 크롯스: re-weighed through hangul()
+PASS  door CLXXXVII/23 아쿠아: re-weighed through hangul()
+PASS  door CLXXXVII/23 카리크: re-weighed through hangul()
+PASS  door CLXXXVII/23 비눔: re-weighed through hangul()
+PASS  door CLXXXVII/27 그라디웃: re-weighed through hangul()
+PASS  door CLXXXVII/27 페르룸: re-weighed through hangul()
+PASS  door CLXXXVII/28 툿: re-weighed through hangul()
+PASS  door CLXXXVII/29 스페쿠룸: re-weighed through hangul()
+PASS  door CLXXXVII/29 루나: re-weighed through hangul()
+PASS  door CLXXXVII/31 익닛: re-weighed through hangul()
+PASS  door CLXXXVII/31 루크: re-weighed through hangul()
+PASS  door CLXXXVII/31 람팟: re-weighed through hangul()
+PASS  door CLXXXVII/31 bis 오붐: re-weighed through hangul()
+PASS  door CLXXXVII/31 bis 스피리툿: re-weighed through hangul()
+PASS  door CLXXXVII/32 팔크: re-weighed through hangul()
+PASS  door CLXXXVII/32 멧싯: re-weighed through hangul()
+PASS  door CLXXXVII/32 bis 살: re-weighed through hangul()
+PASS  door CLXXXVII/32 bis 테르라: re-weighed through hangul()
+PASS  door CLXXXVII/32 bis 파닛: re-weighed through hangul()
+PASS  the register's 13 empty-rendering door rows, all filed 0
+PASS  plate hole register: 62 rows
+PASS  plate hole rows == register rows, in order
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  vowel seats 1–21 in canonical order
+PASS  ㅖ at vowel seat 8
+PASS  ㅖ is a fused sign
+PASS  compound class counts eleven
+PASS  the five tongues' 8: Η == 8 in greek
+PASS  the five tongues' 8: ⲏ == 8 in coptic
+PASS  the five tongues' 8: И == 8 in cyrillic
+PASS  the five tongues' 8: Ը == 8 in armenian
+PASS  the five tongues' 8: ჱ == 8 in georgian
+PASS  the Nine sum 1779 without VV
+PASS  zero face stands in §IV
+PASS  the PLACEHOLDER coordinate stands in §V
+PASS  the series state stands on the plate
+PASS  PDF layer carries exhibit 한글
+PASS  PDF layer carries exhibit 한국
+PASS  PDF layer carries the zero face
+PASS  PDF layer carries all 19 initial signs
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (28 of 28)
+
+VERDICT: PASS — 373 checks, 0 failures
