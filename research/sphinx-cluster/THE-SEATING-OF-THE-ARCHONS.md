@@ -615,3 +615,25 @@ the pen ruled.
 Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice.
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## DECISIONS UNDER DELEGATION — Q1, Q2, Q5 (2026-11-24, 22:47 EST)
+
+**The founder's delegation, verbatim: "Make your recommendations the pen's decisions."** The decisions below were made by the desk under that delegation, on the recommendations the desk presented and the founder read. Each is revisable by the founder's pen at any time; each is logged here at the strength it was made — a desk decision under delegation, not a founder's ruling, and the distinction is printed so no later reader upgrades it.
+
+**Q1 — THE PARTITION: Frame B governs.** The triads of the four value-standing vowels are taken from the decade-class frame, whose every triad reduces to root 5 (14→5 · 95→5 · 1670→5): **Triad I {Α, Ε, Η} · Triad II {Ι, ΕΙ, Ο} · Triad III {Υ, ΟΥ, Ω}** — Ε and Η to I, Ι to II, Ω to III. Frame A stands as the order of presentation, the order the Nine are written in; it does not govern the triads.
+
+**Q2 — THE TRAVERSAL: reading order, not seats.** The clock's road ({13/5} from Α) is the dial's reading order — the order the face is walked. It does not fix positions. The eight open positions stand open exactly as the thesis test left them; if positions are ever ruled, the traversal is the road they are ruled by.
+
+**Q5a — THE CANON: the branches stay branches.** ΑΙ and ΟΙ are NOT admitted to the Nine. They stand as the hybrid branches outside the canon, their sum 576 = 24² a property of their exteriority; admission (Eleven, 1,870 → 7) would break the Nine's mirror closure 1,779 → 1,776, on which this instrument's structure-marks stand.
+
+**Q5b — THE KEY: VVII.** The key's specification is VVII — parsed by the Roman instrument (12), touching twice at home (ordinal 62 → 8 · Agrippa 418 → 13 → 4), its two dresses one word in Hebrew (וויי = 32, Δ0). VYX stands as witness of the 8 (ordinal 71 → 8, one touch). RRYYZZ stands as witness of the value (ordinal 138, the number INRI carries in Agrippa). Each at its earned strength; no candidate averaged into another.
+
+**Q5c — THE FOLD: a finding, not a machine.** The crazy-88 stands as a DERIVED finding by the cube road — Η is both a member of the four and 8 = 2³ itself; the four fold into the 8 because the 8 was one of them all along. It is NOT seated as an operation, and no folding law is defined. The compass road stands refused (the eight winds are seated nowhere), the arithmetic road a coordinate (88 = πηʹ in Greek dress; Η its units digit).
+
+**§XI thereby stands entire:** Q1 answered · Q2 answered · Q3 closed by the founder's ruling · Q4 answered by the founder's ratification · Q5 answered entire. The seating's open register is reduced to what no delegation can fill: eight of nine positions, and the Archons' names — none, by Q4's ruling.
+
+Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice.
+
+93 — Live, Love, and let Love, Live.

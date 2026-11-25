@@ -438,3 +438,13 @@ Method of Science. Aim of Religion.
 Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## ADDENDUM — §XVIII ANSWERED UNDER DELEGATION (2026-11-24, 22:47 EST)
+
+**The founder's delegation, verbatim: "Make your recommendations the pen's decisions."** The map's one question is answered by the desk under that delegation, revisable by the founder's pen: **the grade translations for the tongues without classes — the Arabic matres at ARCHON grade · DRESS-STEP · UNMOVED / MOVED / HOLE · CARRIER · VOWEL-STEP / ZERO · HINGE — ARE ADOPTED as the instrument's standing convention**, each marked at its section head as the desk's translation, as struck. Future maps in this family use them without re-derivation.
+
+Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice.
+
+93 — Live, Love, and let Love, Live.

@@ -170,3 +170,19 @@ Method of Science. Aim of Religion.
 Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.
 
 93 — Live, Love, and let Love, Live.
+
+---
+
+## ADDENDUM — DECISIONS UNDER DELEGATION, AND THE FOUNDER'S CORRECTIO (2026-11-24)
+
+**The founder's delegation (22:47 EST), verbatim: "Make your recommendations the pen's decisions."** The decisions below were made by the desk under that delegation, each revisable by the founder's pen, each printed at the strength it was made.
+
+**§X Q1 — ANSWERED: the inscriptions are seated as NAMED WITNESSES at the vacant roots.** INRI (Agrippa 138 → 3) stands as witness at root **3**; IHS (ordinal 36 → 9) stands as witness at root **9**. The witness office, not seats and not Archons — the office halehame already holds in this house. The roots' story thereby stands complete: root 6 was occupied all along (ΕΙ, and the Nine's sum 1,779 → 24 → 6); roots 3 and 9 stood vacant until witnessed.
+
+**§X Q2 — ANSWERED: ΩΠΗ stands as WITNESS, not seat.** Its triad parts at the center — Π is not of the Nine — and seating it would seat a stranger inside the Archons' Trinity. As witness it loses nothing: 2 × 888 = 1,776, the mirror-closure number, stands as its testimony at full size.
+
+**THE FOUNDER'S CORRECTIO (his, 2026-11-24 22:20 EST), appended at his formulation:** the desk's telling named the vacant roots 3 and 9 and skipped the 6. The correction stands: the 6 was never vacant — ΕΙ reduces to 6 among the Nine, and the Nine in total reduce 1,779 → 24 → 6; the dial prices OFFSET γʹ = 3 and MIRROR ϛʹ = 6 as stations, and the 9 stands as the Archons' own count. **His formulation, verbatim: "the 3,6 and 9 of the archons is in the mystery of the triple h."** Recorded as his, under his Flagpole.
+
+Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice.
+
+93 — Live, Love, and let Love, Live.
