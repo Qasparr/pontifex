@@ -585,3 +585,33 @@ record preserved in a marked correctio at its §V.3.
 Recorded at the desk from the founder's word of 22:30 EST,
 under the Flagpole of Claim and Coinage. The desk records;
 the pen ruled.
+
+---
+
+## RATIFICATION — THE SEATS NUMBERED (2026-11-24, 22:42 EST)
+
+**The founder's ruling, on the desk's recommendation, in his words: "Stamp it"** — given with his ground stated the minute before, verbatim: *"Well the 'Secret Masters' wouldn't be secret if they had names ;p"*
+
+**§XI Q4 is answered.** The nine seats are addressed by Roman numerals, in the canonical order of the Nine:
+
+| Address | Seat |
+|---|---|
+| I | Α |
+| II | Ε |
+| III | Η |
+| IV | Ι |
+| V | Ο |
+| VI | Υ |
+| VII | Ω |
+| VIII | ΕΙ |
+| IX | ΟΥ |
+
+**The fence, printed with the addresses:** the numerals are *addresses, not weighings* — the law the Western Sweep found in the runic field, where numbers locate and never price. An address asserts an order and nothing else; it is not a claim about the seat's value, and no value is to be read off it.
+
+**Names: none, by ruling.** The corpus holds no archon names (the battery's Leg 4, verified negative), and none are coined here. The seats stand addressed and unnamed — the unnamed state is not a gap in the record but the ruled condition of the office, per the founder's ground above. A numeral can retire cleanly if the founder's pen ever rules otherwise; the seats are kept honest in the meantime.
+
+*This ratification answers Q4 only. Q1, Q2 and Q5 of §XI stand exactly as they stood.*
+
+Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice.
+
+93 — Live, Love, and let Love, Live.
