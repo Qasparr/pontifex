@@ -1,0 +1,439 @@
+PLATE-IX-GEORGIAN — independent audit
+checks: 434 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  bank table: 38 rows parsed
+PASS  seat 1 ა: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 2 ბ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 3 გ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 4 დ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 5 ე: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 6 ვ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 7 ზ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 8 ჱ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 9 თ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 10 ი: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 11 კ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 12 ლ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 13 მ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 14 ნ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 15 ჲ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 16 ო: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 17 პ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 18 ჟ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 19 რ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 20 ს: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 21 ტ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 22 ჳ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 23 უ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 24 ფ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 25 ქ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 26 ღ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 27 ყ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 28 შ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 29 ჩ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 30 ც: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 31 ძ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 32 წ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 33 ჭ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 34 ხ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 35 ჴ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 36 ჯ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 37 ჰ: letter, partners, name, value, class == engine + frozen CSV
+PASS  seat 38 ჵ: letter, partners, name, value, class == engine + frozen CSV
+PASS  the seat law parts at exactly positions 23–28
+PASS  bank sum 60395 printed
+PASS  bank sum == engine
+PASS  38 letters, 37 distinct values
+PASS  bank maximum 10000 (ჵ)
+PASS  class sums 45/450/4900/45000/10000
+PASS  worked example ჩღჲთ == 1769
+PASS  plate prints ჩღჲთ at 1769
+PASS  worked example ჩყპზ == 1887
+PASS  plate prints ჩყპზ at 1887
+PASS  worked example ციბ == 2012
+PASS  plate prints ციბ at 2012
+PASS  worked example ჩყმვ == 1846
+PASS  plate prints ჩყმვ at 1846
+PASS  worked example ცკვ == 2026
+PASS  plate prints ცკვ at 2026
+PASS  494 in two spellings: ჳჟდ == უჟდ == 494
+PASS  the largest writable: ჵჰშჟთ == 19999
+PASS  control-case table: 37 rows parsed
+PASS  plate rows == frozen CSV rows, in order
+PASS  control 1: seat counts recomputed from both banks
+PASS  control 2: seat counts recomputed from both banks
+PASS  control 3: seat counts recomputed from both banks
+PASS  control 4: seat counts recomputed from both banks
+PASS  control 5: seat counts recomputed from both banks
+PASS  control 6: seat counts recomputed from both banks
+PASS  control 7: seat counts recomputed from both banks
+PASS  control 8: seat counts recomputed from both banks
+PASS  control 9: seat counts recomputed from both banks
+PASS  control 10: seat counts recomputed from both banks
+PASS  control 20: seat counts recomputed from both banks
+PASS  control 30: seat counts recomputed from both banks
+PASS  control 40: seat counts recomputed from both banks
+PASS  control 50: seat counts recomputed from both banks
+PASS  control 60: seat counts recomputed from both banks
+PASS  control 70: seat counts recomputed from both banks
+PASS  control 80: seat counts recomputed from both banks
+PASS  control 90: seat counts recomputed from both banks
+PASS  control 100: seat counts recomputed from both banks
+PASS  control 200: seat counts recomputed from both banks
+PASS  control 300: seat counts recomputed from both banks
+PASS  control 400: seat counts recomputed from both banks
+PASS  control 500: seat counts recomputed from both banks
+PASS  control 600: seat counts recomputed from both banks
+PASS  control 700: seat counts recomputed from both banks
+PASS  control 800: seat counts recomputed from both banks
+PASS  control 900: seat counts recomputed from both banks
+PASS  control 1000: seat counts recomputed from both banks
+PASS  control 2000: seat counts recomputed from both banks
+PASS  control 3000: seat counts recomputed from both banks
+PASS  control 4000: seat counts recomputed from both banks
+PASS  control 5000: seat counts recomputed from both banks
+PASS  control 6000: seat counts recomputed from both banks
+PASS  control 7000: seat counts recomputed from both banks
+PASS  control 8000: seat counts recomputed from both banks
+PASS  control 9000: seat counts recomputed from both banks
+PASS  control 10000: seat counts recomputed from both banks
+PASS  relations: 35 AGREE · 2 PART, at 400 and 10000
+PASS  the shared domain entire: every Armenian value is a Georgian value
+PASS  the doubled seat: ჳ == უ == 400, both in the bank
+PASS  the five obsolete letters seated in the bank
+PASS  Ⴀ (ა partner): silence at the bank
+PASS  ⴀ (ა partner): silence at the bank
+PASS  Ⴁ (ბ partner): silence at the bank
+PASS  ⴁ (ბ partner): silence at the bank
+PASS  Ⴂ (გ partner): silence at the bank
+PASS  ⴂ (გ partner): silence at the bank
+PASS  Ⴃ (დ partner): silence at the bank
+PASS  ⴃ (დ partner): silence at the bank
+PASS  Ⴄ (ე partner): silence at the bank
+PASS  ⴄ (ე partner): silence at the bank
+PASS  Ⴅ (ვ partner): silence at the bank
+PASS  ⴅ (ვ partner): silence at the bank
+PASS  Ⴆ (ზ partner): silence at the bank
+PASS  ⴆ (ზ partner): silence at the bank
+PASS  Ⴡ (ჱ partner): silence at the bank
+PASS  ⴡ (ჱ partner): silence at the bank
+PASS  Ⴇ (თ partner): silence at the bank
+PASS  ⴇ (თ partner): silence at the bank
+PASS  Ⴈ (ი partner): silence at the bank
+PASS  ⴈ (ი partner): silence at the bank
+PASS  Ⴉ (კ partner): silence at the bank
+PASS  ⴉ (კ partner): silence at the bank
+PASS  Ⴊ (ლ partner): silence at the bank
+PASS  ⴊ (ლ partner): silence at the bank
+PASS  Ⴋ (მ partner): silence at the bank
+PASS  ⴋ (მ partner): silence at the bank
+PASS  Ⴌ (ნ partner): silence at the bank
+PASS  ⴌ (ნ partner): silence at the bank
+PASS  Ⴢ (ჲ partner): silence at the bank
+PASS  ⴢ (ჲ partner): silence at the bank
+PASS  Ⴍ (ო partner): silence at the bank
+PASS  ⴍ (ო partner): silence at the bank
+PASS  Ⴎ (პ partner): silence at the bank
+PASS  ⴎ (პ partner): silence at the bank
+PASS  Ⴏ (ჟ partner): silence at the bank
+PASS  ⴏ (ჟ partner): silence at the bank
+PASS  Ⴐ (რ partner): silence at the bank
+PASS  ⴐ (რ partner): silence at the bank
+PASS  Ⴑ (ს partner): silence at the bank
+PASS  ⴑ (ს partner): silence at the bank
+PASS  Ⴒ (ტ partner): silence at the bank
+PASS  ⴒ (ტ partner): silence at the bank
+PASS  Ⴣ (ჳ partner): silence at the bank
+PASS  ⴣ (ჳ partner): silence at the bank
+PASS  Ⴓ (უ partner): silence at the bank
+PASS  ⴓ (უ partner): silence at the bank
+PASS  Ⴔ (ფ partner): silence at the bank
+PASS  ⴔ (ფ partner): silence at the bank
+PASS  Ⴕ (ქ partner): silence at the bank
+PASS  ⴕ (ქ partner): silence at the bank
+PASS  Ⴖ (ღ partner): silence at the bank
+PASS  ⴖ (ღ partner): silence at the bank
+PASS  Ⴗ (ყ partner): silence at the bank
+PASS  ⴗ (ყ partner): silence at the bank
+PASS  Ⴘ (შ partner): silence at the bank
+PASS  ⴘ (შ partner): silence at the bank
+PASS  Ⴙ (ჩ partner): silence at the bank
+PASS  ⴙ (ჩ partner): silence at the bank
+PASS  Ⴚ (ც partner): silence at the bank
+PASS  ⴚ (ც partner): silence at the bank
+PASS  Ⴛ (ძ partner): silence at the bank
+PASS  ⴛ (ძ partner): silence at the bank
+PASS  Ⴜ (წ partner): silence at the bank
+PASS  ⴜ (წ partner): silence at the bank
+PASS  Ⴝ (ჭ partner): silence at the bank
+PASS  ⴝ (ჭ partner): silence at the bank
+PASS  Ⴞ (ხ partner): silence at the bank
+PASS  ⴞ (ხ partner): silence at the bank
+PASS  Ⴤ (ჴ partner): silence at the bank
+PASS  ⴤ (ჴ partner): silence at the bank
+PASS  Ⴟ (ჯ partner): silence at the bank
+PASS  ⴟ (ჯ partner): silence at the bank
+PASS  Ⴠ (ჰ partner): silence at the bank
+PASS  ⴠ (ჰ partner): silence at the bank
+PASS  Ⴥ (ჵ partner): silence at the bank
+PASS  ⴥ (ჵ partner): silence at the bank
+PASS  the Mtavruli fold: Ა == 1; ᲐᲑᲒ weighs as აბგ == 6
+PASS  register census == (0, 223, 62, 0, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 223
+PASS  plate prints census HOLE 62
+PASS  plate prints census FENCED 0
+PASS  plate door register: 223 rows
+PASS  plate door rows == register rows, in order
+PASS  door III/31 bis ტოოთ: re-weighed
+PASS  door III/32 bis ტაუ ას ეგიპტიან: re-weighed
+PASS  door VI/13 ლევანაჰ: re-weighed
+PASS  door VI/14 ნოგაჰ: re-weighed
+PASS  door VI/21 წედეყ: re-weighed
+PASS  door VI/27 მადიმ: re-weighed
+PASS  door VI/30 შემეშ: re-weighed
+PASS  door VI/32 შაბბათაი: re-weighed
+PASS  door VIII/13 გამალიელ: re-weighed
+PASS  door VIII/14 აარაბ ზარაყ: re-weighed
+PASS  door VIII/21 ღააგშეკლაჰ: re-weighed
+PASS  door VIII/23 არიტონ: re-weighed
+PASS  door VIII/27 გოლაჩაბ: re-weighed
+PASS  door VIII/30 თაგირირონ: re-weighed
+PASS  door VIII/31 პაიმონ: re-weighed
+PASS  door VIII/32 სატარიელ: re-weighed
+PASS  door VIII/32 bis ამაიმონ: re-weighed
+PASS  door XX/31 bis ატუმ: re-weighed
+PASS  door XX/32 bis სებ: re-weighed
+PASS  door XXI/18 ჰორმახუ: re-weighed
+PASS  door XXI/18 ხეფრა: re-weighed
+PASS  door XXI/20 ჰერუ პა კრაათ: re-weighed
+PASS  door XXI/20 ისის: re-weighed
+PASS  door XXI/22 მაატ: re-weighed
+PASS  door XXI/22 მა: re-weighed
+PASS  door XXI/25 ნეფთის: re-weighed
+PASS  door XXI/25 არვუერი: re-weighed
+PASS  door XXIV/2 სავიკალპა სამადჰი: re-weighed
+PASS  door XXIV/2 მუდიტა სამადჰი: re-weighed
+PASS  door XXIV/3 მაჰაკარუნა: re-weighed
+PASS  door XXIV/3 ბოდჰიკიტტა: re-weighed
+PASS  door XXIV/4 ბრაჰმავიჰარა: re-weighed
+PASS  door XXIV/4 მეტტა სამადჰი: re-weighed
+PASS  door XXIV/5 ამატა: re-weighed
+PASS  door XXIV/5 სამვეგა: re-weighed
+PASS  door XXIV/7 საიუჯია: re-weighed
+PASS  door XXIV/7 დევა დარსანა: re-weighed
+PASS  door XXIV/8 იდდჰი: re-weighed
+PASS  door XXIV/8 ვიბჰუტი: re-weighed
+PASS  door XXIV/9 სოტაპატტი: re-weighed
+PASS  door XXIV/9 დჰამმაკაკხუ: re-weighed
+PASS  door XXIV/12 პატიბჰაგა ნიმიტტა: re-weighed
+PASS  door XXIV/12 აპპანა: re-weighed
+PASS  door XXIV/15 კარმა იოგა: re-weighed
+PASS  door XXIV/17 ჯნანა იოგა: re-weighed
+PASS  door XXIV/17 ბუდჰა: re-weighed
+PASS  door XXIV/18 სომა ბჰავანა: re-weighed
+PASS  door XXIV/18 მანტრა იოგა: re-weighed
+PASS  door XXIV/19 ტეჯო ბჰავანა: re-weighed
+PASS  door XXIV/19 ტაპას სიდდჰი: re-weighed
+PASS  door XXIV/20 კრიია იოგა: re-weighed
+PASS  door XXIV/20 ვივეკა ბჰავანა: re-weighed
+PASS  door XXIV/21 გურუ დარშანა: re-weighed
+PASS  door XXIV/21 რაჯა იოგა: re-weighed
+PASS  door XXIV/22 ტულა ბჰავანა: re-weighed
+PASS  door XXIV/22 დჰარმა დარშანა: re-weighed
+PASS  door XXIV/27 მანგალა: re-weighed
+PASS  door XXIV/32 შანი: re-weighed
+PASS  door XXXIII/6 ბალდრ: re-weighed
+PASS  door XXXIII/10 ჯორდ: re-weighed
+PASS  door XXXIII/10 ნერთუს: re-weighed
+PASS  door XXXIII/13 მანი: re-weighed
+PASS  door XXXIII/13 სკადი: re-weighed
+PASS  door XXXIII/16 სიფ: re-weighed
+PASS  door XXXIII/16 ეირ: re-weighed
+PASS  door XXXIII/23 ნჯორდ: re-weighed
+PASS  door XXXIII/23 აეგირ: re-weighed
+PASS  door XXXIII/30 სოლ: re-weighed
+PASS  door XXXIII/31 სურტრ: re-weighed
+PASS  door XXXIII/31 bis ოდინ: re-weighed
+PASS  door XXXIII/32 bis ნერთუს: re-weighed
+PASS  door XXXIII/32 bis ერდა: re-weighed
+PASS  door XLIII/24 კონიუმ: re-weighed
+PASS  door XLIII/24 კონიუმ მაკულატუმ: re-weighed
+PASS  door XLIII/24 კონიუმ მაკულატუმ: re-weighed
+PASS  door XLIII/24 კონიუმ მაკულატუმ: re-weighed
+PASS  door XLIII/25 სალვია: re-weighed
+PASS  door XLIII/25 სალვია ოფფიკინალის: re-weighed
+PASS  door XLIII/25 სალვია ოფფიკინალის: re-weighed
+PASS  door XLIII/27 მუსტარდ: re-weighed
+PASS  door XLIII/27 სინაპის: re-weighed
+PASS  door XLIII/27 კაპსიკუმ: re-weighed
+PASS  door XLIII/31 ზინგიბერ: re-weighed
+PASS  door XLIII/31 ზინგიბერ ოფფიკინალე: re-weighed
+PASS  door XLIII/31 ზინგიბერ ოფფიკინალე: re-weighed
+PASS  door XLIII/31 კაპსიკუმ: re-weighed
+PASS  door XLIII/31 კაპსიკუმ ანნუუმ: re-weighed
+PASS  door XLIII/31 კაპსიკუმ ანნუუმ ჩილი კაიენნე: re-weighed
+PASS  door XLIII/31 კაპსიკუმ ანნუუმ ჩილი კაიენნე: re-weighed
+PASS  door XLIII/32 bis მანდრაგორა: re-weighed
+PASS  door XLIII/32 bis მანდრაგორა ოფფიკინარუმ: re-weighed
+PASS  door XLIII/32 bis მანდრაგორა ოფფიკინარუმ: re-weighed
+PASS  door XLIV/4 ტინ: re-weighed
+PASS  door XLIV/6 გოლდ: re-weighed
+PASS  door XLIV/11 სალ ვოლატილე: re-weighed
+PASS  door XLIV/13 ლუნარ კაუსტიკ: re-weighed
+PASS  door XLIV/14 კოპპერ: re-weighed
+PASS  door XLIV/14 ბლუე ვიტრიოლ: re-weighed
+PASS  door XLIV/15 კროკუს მარტის: re-weighed
+PASS  door XLIV/16 მალაჩიტე: re-weighed
+PASS  door XLIV/17 კინნაბარ: re-weighed
+PASS  door XLIV/18 კორალ: re-weighed
+PASS  door XLIV/18 პეარლ: re-weighed
+PASS  door XLIV/19 ორპიმენტ: re-weighed
+PASS  door XLIV/19 აურიპიგმენტუმ: re-weighed
+PASS  door XLIV/20 კინნაბარ: re-weighed
+PASS  door XLIV/21 ტინ: re-weighed
+PASS  door XLIV/21 სტანნვმ: re-weighed
+PASS  door XLIV/22 კოპპერ: re-weighed
+PASS  door XLIV/22 კვპრვმ: re-weighed
+PASS  door XLIV/26 ანტიმონი: re-weighed
+PASS  door XLIV/26 სტიბივმ: re-weighed
+PASS  door XLIV/28 ალუმ: re-weighed
+PASS  door XLIV/28 ალვმ: re-weighed
+PASS  door XLIV/29 იოდინე: re-weighed
+PASS  door XLIV/29 სალტ: re-weighed
+PASS  door XLIV/30 გოლდ: re-weighed
+PASS  door XLIV/30 ავრვმ: re-weighed
+PASS  door XLVI/4 ტუი: re-weighed
+PASS  door XLVI/4 ხიენ: re-weighed
+PASS  door XLVI/5 კბნ: re-weighed
+PASS  door XLVI/7 ტუი: re-weighed
+PASS  door XLVI/7 სუნ: re-weighed
+PASS  door XLVI/8 ლი: re-weighed
+PASS  door XLVI/9 კან: re-weighed
+PASS  door XLVI/15 ლი: re-weighed
+PASS  door XLVI/16 ხან: re-weighed
+PASS  door XLVI/16 ხვან: re-weighed
+PASS  door XLVI/17 სუნ: re-weighed
+PASS  door XLVI/18 კან: re-weighed
+PASS  door XLVI/19 კბნ: re-weighed
+PASS  door XLVI/20 კბნ: re-weighed
+PASS  door XLVI/22 ხიენ ხვბნ: re-weighed
+PASS  door XLVI/24 ხან: re-weighed
+PASS  door XLVI/24 ხვბნ: re-weighed
+PASS  door XLVI/25 ხან ლი: re-weighed
+PASS  door XLVI/26 ხან: re-weighed
+PASS  door XLVI/26 ხვბნ: re-weighed
+PASS  door XLVI/28 ხიენ: re-weighed
+PASS  door XLVI/29 ტუი: re-weighed
+PASS  door XLVI/31 bis სუნ: re-weighed
+PASS  door XLVII/8 : re-weighed
+PASS  door XLVII/9 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 ბარყან: re-weighed
+PASS  door XLVII/22 : re-weighed
+PASS  door XLVII/22 ზავბააჰ: re-weighed
+PASS  door XLVII/25 : re-weighed
+PASS  door XLVII/25 შამჰურიშ: re-weighed
+PASS  door XLVII/26 : re-weighed
+PASS  door XLVII/26 მაიმუნ: re-weighed
+PASS  door XLVII/27 თე რედ ონე: re-weighed
+PASS  door XLVII/30 თე გილდერ: re-weighed
+PASS  door XLVII/31 bis : re-weighed
+PASS  door XLVII/31 bis ჯანნ: re-weighed
+PASS  door XLVII/32 თე ფორტუნატე: re-weighed
+PASS  door XLVII/32 bis ამაიმონ: re-weighed
+PASS  door LI/32 bis ტ: re-weighed
+PASS  door LIII/8 სამპი: re-weighed
+PASS  door LVI/31 bis თე რივერ ოფ ედენ უნდივიდედ სოურკე: re-weighed
+PASS  door LVI/31 bis ნაჰარ: re-weighed
+PASS  door LVII/31 bis ტოხ: re-weighed
+PASS  door LVII/31 bis კენტრე: re-weighed
+PASS  door LVII/31 bis ადონაი: re-weighed
+PASS  door LVIII/31 bis ელეკსარპეჰ კომანანუ ტაბიტომ თე თრეე ანგელს რულინგ თე ტაბლეტ ოფ უნიონ: re-weighed
+PASS  door LVIII/31 bis კომანანუ: re-weighed
+PASS  door LVIII/31 bis ტაბიტომ: re-weighed
+PASS  door LXIII/31 bis ადამ კადმონ თე ფიფთ ვორლდ აბოვე აწილუთ: re-weighed
+PASS  door LXIII/31 bis ადამ კადმონ: re-weighed
+PASS  door CVIII/1 სატან: re-weighed
+PASS  door CVIII/1 მოლოჩ: re-weighed
+PASS  door CVIII/2 ბეელზებუბ: re-weighed
+PASS  door CXXXII/1 თე როოტ ოფ თე პოვერს ოფ ეართ: re-weighed
+PASS  door CLXXXV/4 : re-weighed
+PASS  door CLXXXV/7 : re-weighed
+PASS  door CLXXXVII/1 ალ: re-weighed
+PASS  door CLXXXVII/1 აჰიჰ: re-weighed
+PASS  door CLXXXVII/1 ია: re-weighed
+PASS  door CLXXXVII/8 ამენ: re-weighed
+PASS  door CLXXXVII/11 ალფ: re-weighed
+PASS  door CLXXXVII/11 აირ: re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/12 ბით: re-weighed
+PASS  door CLXXXVII/12 ჰერმეს: re-weighed
+PASS  door CLXXXVII/12 თოთ: re-weighed
+PASS  door CLXXXVII/15 ჰა: re-weighed
+PASS  door CLXXXVII/15 ენერგი: re-weighed
+PASS  door CLXXXVII/15 აზოთ: re-weighed
+PASS  door CLXXXVII/17 ზინ: re-weighed
+PASS  door CLXXXVII/17 აპოლლო: re-weighed
+PASS  door CLXXXVII/17 დელფი: re-weighed
+PASS  door CLXXXVII/20 ივდ: re-weighed
+PASS  door CLXXXVII/20 ლვკს: re-weighed
+PASS  door CLXXXVII/20 ლეჩემ: re-weighed
+PASS  door CLXXXVII/21 კფ: re-weighed
+PASS  door CLXXXVII/21 ჯუპიტერ: re-weighed
+PASS  door CLXXXVII/21 ზეუს: re-weighed
+PASS  door CLXXXVII/22 ლმდ: re-weighed
+PASS  door CLXXXVII/22 მიზნიმ: re-weighed
+PASS  door CLXXXVII/22 მაატ: re-weighed
+PASS  door CLXXXVII/22 ლიბრა: re-weighed
+PASS  door CLXXXVII/22 კროსს: re-weighed
+PASS  door CLXXXVII/23 აყუა: re-weighed
+PASS  door CLXXXVII/23 კალიკს: re-weighed
+PASS  door CLXXXVII/23 ვინუმ: re-weighed
+PASS  door CLXXXVII/27 გლადიუს: re-weighed
+PASS  door CLXXXVII/27 ფერრუმ: re-weighed
+PASS  door CLXXXVII/28 თუს: re-weighed
+PASS  door CLXXXVII/29 სპეკულუმ: re-weighed
+PASS  door CLXXXVII/29 ლუნა: re-weighed
+PASS  door CLXXXVII/31 იგნის: re-weighed
+PASS  door CLXXXVII/31 ლუკს: re-weighed
+PASS  door CLXXXVII/31 ლამპას: re-weighed
+PASS  door CLXXXVII/31 bis ოვუმ: re-weighed
+PASS  door CLXXXVII/31 bis სპირიტუს: re-weighed
+PASS  door CLXXXVII/32 ფალკს: re-weighed
+PASS  door CLXXXVII/32 მესსის: re-weighed
+PASS  door CLXXXVII/32 bis სალ: re-weighed
+PASS  door CLXXXVII/32 bis ტერრა: re-weighed
+PASS  door CLXXXVII/32 bis პანის: re-weighed
+PASS  plate hole register: 62 rows
+PASS  plate hole rows == register rows, in order
+PASS  every hole rendering is the register's dash
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  plate prints the claim count: 0
+PASS  the zero face stands in §IV
+PASS  §V vowel table: 5 rows parsed
+PASS  §V vowel ა: price == bank
+PASS  §V vowel ე: price == bank
+PASS  §V vowel ი: price == bank
+PASS  §V vowel ო: price == bank
+PASS  §V vowel უ: price == bank
+PASS  the living five at the Greek prices 1/5/10/70/400
+PASS  the 8 seated: η == 8 in greek
+PASS  the 8 seated: ⲏ == 8 in coptic
+PASS  the 8 seated: И == 8 in cyrillic
+PASS  the 8 seated: Ը == 8 in armenian
+PASS  the 8 seated: ჱ == 8 in georgian
+PASS  οὐδέν == 529 in greek
+PASS  the Nine sum 1779
+PASS  PDF layer carries all 38 letters
+PASS  PDF layer carries the zero face's statement
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (27 of 27)
+
+VERDICT: PASS — 434 checks, 0 failures
