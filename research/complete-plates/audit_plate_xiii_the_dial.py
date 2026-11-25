@@ -45,8 +45,15 @@
 #   6. the crosshairs: the poles' arithmetic re-weighed
 #      (31 + 13 = 44 = VV ordinal; 31 − 13 = 18 = II in
 #      both banks); the seated hair and office standing
-#      in §V; the horizontal hair STILL OPEN, the float
-#      line named, Q3 printed NOT RULED BY THIS PLATE;
+#      in §V; the horizontal hair DRAWN under the
+#      founder's ruling of 2026-11-24 22:30 EST — his
+#      words entire, the ruled height 18, the midpoint
+#      refused without an address, the Greek sea
+#      re-weighed (ὕδωρ 1,304; the string's bodies 326
+#      and 2,710), the classification-only fence, the
+#      desk reading ratified as amended, and the first
+#      strike's open-printing confined to §V.3's
+#      correctio;
 #   7. the holes at full size: the eight positions, the
 #      four unsettled triads, the unnamed seats, the
 #      founder's Zero Point definition entire;
@@ -56,7 +63,7 @@
 #      verified in the repository;
 #   9. if the MAGVS PDF stands beside the master, its
 #      text layer carries the stations' key signs, the
-#      definition's gloss, the poles, the open hair's
+#      definition's gloss, the poles, the ruling's
 #      statement; its footer resolves; and no
 #      Hebrew-block codepoint stands in the layer.
 # Output is filed to audit_plate_xiii_the_dial_results.txt
@@ -295,16 +302,41 @@ check("the vertical hair stands SEATED in §V.1",
       "### §V.1 — The vertical hair: SEATED" in sec5)
 check("the inversion office stands SEATED in §V.2",
       "### §V.2 — The inversion office: SEATED" in sec5)
-check("the horizontal hair stands STILL OPEN in §V.3",
-      "### §V.3 — The horizontal hair: STILL OPEN" in sec5)
-check("no E–W hair drawn: the record statement stands",
-      "No E–W hair stands drawn" in sec5)
-check("the float line named at the open seat",
-      "float line" in sec5 and "left open in his name" in sec5)
-check("Q3 printed NOT RULED BY THIS PLATE",
-      "NOT RULED BY THIS PLATE" in sec5)
+check("the horizontal hair stands DRAWN under the ruling in §V.3",
+      "### §V.3 — The horizontal hair: DRAWN" in sec5)
+check("the founder's words stand entire in §V",
+      "Seat it as both then" in sec5)
+check("the float line named as the hair's seat",
+      "float line" in sec5)
+check("the ruled height stands in §V (Height 18)",
+      "Height 18" in sec5)
+check("float line height: the derivation recomputed "
+      "(31 − 13 == 18 == II in both banks)",
+      31 - 13 == 18 == value("II", "latin_ordinal")
+      == value("II", "agrippa"))
+check("the midpoint 22 refused without an address in §V",
+      "without an address" in sec5)
+check("the Greek sea re-weighed: ὕδωρ 1,304; the string's "
+      "ordinal body floats, its Agrippa body sinks",
+      value("ὕδωρ", "greek") == 1304
+      and value("XXZZPPLLKKVVEEOOVVAIEE", "latin_ordinal") == 326
+      and value("XXZZPPLLKKVVEEOOVVAIEE", "agrippa") == 2710
+      and 326 < 1304 < 2710)
+check("the classification-only fence stands in §V",
+      "no sonic consequence is legislated" in sec5)
+check("the desk reading ratified as amended in §V",
+      "ratified as amended" in sec5)
 check("the dial appendix's desk ruling cited, not hidden",
       "bank boundary" in sec5)
+_corr = sec5.find("Correctio")
+check("the correctio stands in §V.3", _corr != -1)
+for _phrase in ("STILL OPEN", "NOT RULED BY THIS PLATE",
+                "The seat stands OPEN on this plate"):
+    _idxs = [m.start() for m in
+             re.finditer(re.escape(_phrase), sec5)]
+    check(f"open-printing confined to the correctio: {_phrase}",
+          bool(_idxs) and all(i > _corr for i in _idxs),
+          f"{len(_idxs)} occurrence(s)")
 
 # --- 7. the holes and the definition ---------------------------------------
 check("the founder's Zero Point definition stands entire",
@@ -379,7 +411,8 @@ check("series register: the XIII row stands",
 if PDF.exists():
     layer = subprocess.run(["pdftotext", str(PDF), "-"],
                            capture_output=True, text=True).stdout
-    for w in ("οὐδέν", "529", "13 N", "31 S", "STILL OPEN",
+    for w in ("οὐδέν", "529", "13 N", "31 S", "DRAWN",
+              "Seat it as both then", "Correctio",
               "float line", "Zero equals Two", "1,808",
               "MIRROR ϛʹ", "REFUSAL κʹ", "OFFSET γʹ"):
         check(f"PDF layer carries {w}", w in layer)

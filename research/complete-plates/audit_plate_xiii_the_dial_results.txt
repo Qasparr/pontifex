@@ -1,5 +1,5 @@
 PLATE-XIII-THE-DIAL — independent audit
-checks: 164 · failed: 0
+checks: 175 · failed: 0
 
 PASS  control θέλημα == 93
 PASS  control VAPOUR == 93
@@ -104,11 +104,20 @@ PASS  poles: 31 − 13 == 18 == II in both banks
 PASS  the poles stand in §V (13 N / 31 S)
 PASS  the vertical hair stands SEATED in §V.1
 PASS  the inversion office stands SEATED in §V.2
-PASS  the horizontal hair stands STILL OPEN in §V.3
-PASS  no E–W hair drawn: the record statement stands
-PASS  the float line named at the open seat
-PASS  Q3 printed NOT RULED BY THIS PLATE
+PASS  the horizontal hair stands DRAWN under the ruling in §V.3
+PASS  the founder's words stand entire in §V
+PASS  the float line named as the hair's seat
+PASS  the ruled height stands in §V (Height 18)
+PASS  float line height: the derivation recomputed (31 − 13 == 18 == II in both banks)
+PASS  the midpoint 22 refused without an address in §V
+PASS  the Greek sea re-weighed: ὕδωρ 1,304; the string's ordinal body floats, its Agrippa body sinks
+PASS  the classification-only fence stands in §V
+PASS  the desk reading ratified as amended in §V
 PASS  the dial appendix's desk ruling cited, not hidden
+PASS  the correctio stands in §V.3
+PASS  open-printing confined to the correctio: STILL OPEN
+PASS  open-printing confined to the correctio: NOT RULED BY THIS PLATE
+PASS  open-printing confined to the correctio: The seat stands OPEN on this plate
 PASS  the founder's Zero Point definition stands entire
 PASS  the eight open positions named in §III.5
 PASS  the four unsettled triads named in §III.5
@@ -156,7 +165,9 @@ PASS  PDF layer carries οὐδέν
 PASS  PDF layer carries 529
 PASS  PDF layer carries 13 N
 PASS  PDF layer carries 31 S
-PASS  PDF layer carries STILL OPEN
+PASS  PDF layer carries DRAWN
+PASS  PDF layer carries Seat it as both then
+PASS  PDF layer carries Correctio
 PASS  PDF layer carries float line
 PASS  PDF layer carries Zero equals Two
 PASS  PDF layer carries 1,808
@@ -164,6 +175,6 @@ PASS  PDF layer carries MIRROR ϛʹ
 PASS  PDF layer carries REFUSAL κʹ
 PASS  PDF layer carries OFFSET γʹ
 PASS  PDF layer: no Hebrew-block codepoint
-PASS  PDF footer resolves (17 of 17)
+PASS  PDF footer resolves (18 of 18)
 
-VERDICT: PASS — 164 checks, 0 failures
+VERDICT: PASS — 175 checks, 0 failures
