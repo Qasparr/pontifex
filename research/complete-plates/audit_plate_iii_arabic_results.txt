@@ -1,0 +1,109 @@
+1. CONTROLS
+  [OK] control θελημα = 93 
+  [OK] control VAPOUR = 93 
+  [OK] control σφιγξ = 773 
+2. THE BANK — 28 keys re-weighed, plate rows parsed
+  [OK] bank ا = 1, dress ʾ (engine 1, plate (1, 'ʾ'))
+  [OK] bank ب = 2, dress b (engine 2, plate (2, 'b'))
+  [OK] bank ج = 3, dress j (engine 3, plate (3, 'j'))
+  [OK] bank د = 4, dress d (engine 4, plate (4, 'd'))
+  [OK] bank ه = 5, dress h (engine 5, plate (5, 'h'))
+  [OK] bank و = 6, dress w (engine 6, plate (6, 'w'))
+  [OK] bank ز = 7, dress z (engine 7, plate (7, 'z'))
+  [OK] bank ح = 8, dress ḥ (engine 8, plate (8, 'ḥ'))
+  [OK] bank ط = 9, dress ṭ (engine 9, plate (9, 'ṭ'))
+  [OK] bank ي = 10, dress y (engine 10, plate (10, 'y'))
+  [OK] bank ك = 20, dress k (engine 20, plate (20, 'k'))
+  [OK] bank ل = 30, dress l (engine 30, plate (30, 'l'))
+  [OK] bank م = 40, dress m (engine 40, plate (40, 'm'))
+  [OK] bank ن = 50, dress n (engine 50, plate (50, 'n'))
+  [OK] bank س = 60, dress s (engine 60, plate (60, 's'))
+  [OK] bank ع = 70, dress ʿ (engine 70, plate (70, 'ʿ'))
+  [OK] bank ف = 80, dress f (engine 80, plate (80, 'f'))
+  [OK] bank ص = 90, dress ṣ (engine 90, plate (90, 'ṣ'))
+  [OK] bank ق = 100, dress q (engine 100, plate (100, 'q'))
+  [OK] bank ر = 200, dress r (engine 200, plate (200, 'r'))
+  [OK] bank ش = 300, dress š (engine 300, plate (300, 'š'))
+  [OK] bank ت = 400, dress t (engine 400, plate (400, 't'))
+  [OK] bank ث = 500, dress ṯ (engine 500, plate (500, 'ṯ'))
+  [OK] bank خ = 600, dress ḵ (engine 600, plate (600, 'ḵ'))
+  [OK] bank ذ = 700, dress ḏ (engine 700, plate (700, 'ḏ'))
+  [OK] bank ض = 800, dress ḍ (engine 800, plate (800, 'ḍ'))
+  [OK] bank ظ = 900, dress ẓ (engine 900, plate (900, 'ẓ'))
+  [OK] bank غ = 1000, dress ġ (engine 1000, plate (1000, 'ġ'))
+  [OK] plate prints all 28 bank rows (28)
+3. SUMS, THE IDENTITY, MATRES, SILENCE, THE KEY
+  [OK] class sums 45 · 450 · 5,500; bank total 5,995 
+  [OK] the first 22 sum to 1,495 = the Hebrew bank's 22 
+  [OK] matres {'ا': 1, 'و': 6, 'ي': 10}, sum 17 — three, not four 
+  [OK] unseated sign ة returns silence (0, empty breakdown) 
+  [OK] unseated sign أ returns silence (0, empty breakdown) 
+  [OK] unseated sign ء returns silence (0, empty breakdown) 
+  [OK] the KEY: مفتاح = 529 · מפתח = 528 (Δ1) 
+4. THE CLAIMS — 35, keys on the plate, words re-weighed
+  [OK] register carries 35 Arabic claims 
+  [OK] all 35 claim keys stand on the plate (missing: [])
+  [OK] S127-P0-C0 برقان = 353 (bank) (register recomputed 353, claimed 353, VERIFIED)
+  [OK] S128-P0-C0 مرة = 240 (bank) (register recomputed 240, claimed 240, VERIFIED)
+  [OK] S131-P0-C0 كتمطمح = 517 (bank) (register recomputed 517, claimed 517, VERIFIED)
+  [OK] S131-P0-C1 كتمطمح = 517 (bank) (register recomputed 517, claimed 517, VERIFIED)
+  [OK] S132-P0-C0 عطهم = 124 (bank) (register recomputed 124, claimed 124, VERIFIED)
+  [OK] S132-P2-C0 ةولهم = 81 (bank) (register recomputed 81, claimed 86, PARTED)
+  [OK] S132-P4-C0 حوميلم = 134 (bank) (register recomputed 134, claimed 134, VERIFIED)
+  [OK] S132-P6-C0 عطهم ةولهم حوميلم = 339 (bank) (register recomputed 339, claimed 344, PARTED)
+  [OK] S133-P0-C0 برقان = 353 (bank) (register recomputed 353, claimed 353, VERIFIED)
+  [OK] S133-P1-C0 بورقان = 359 (bank) (register recomputed 359, claimed 359, VERIFIED)
+  [OK] S133-P2-C0 الملك الاسود = 223 (bank) (register recomputed 223, claimed 223, VERIFIED)
+  [OK] S134-P0-C0 طيهم = 64 (bank) (register recomputed 64, claimed 64, VERIFIED)
+  [OK] S134-P2-C0 لايل = 71 (bank) (register recomputed 71, claimed 71, VERIFIED)
+  [OK] S134-P4-C0 طيهم لايل = 135 (bank) (register recomputed 135, claimed 135, VERIFIED)
+  [OK] S135-P0-C0 حللد = 72 (bank) (register recomputed 72, claimed 72, VERIFIED)
+  [OK] S135-P2-C0 طهسم = 114 (bank) (register recomputed 114, claimed 114, VERIFIED)
+  [OK] S135-P4-C0 حللد طهسم = 186 (bank) (register recomputed 186, claimed 186, VERIFIED)
+  [OK] S136-P0-C0 ةمطحيسم = 167 (bank) (register recomputed 167, claimed 172, PARTED)
+  [OK] S136-P2-C0 هنقم = 195 (bank) (register recomputed 195, claimed 195, VERIFIED)
+  [OK] S136-P4-C0 فهك = 105 (bank) (register recomputed 105, claimed 105, VERIFIED)
+  [OK] S136-P6-C0 ةمطحيسم هنقم فهك = 467 (bank) (register recomputed 467, claimed 472, PARTED)
+  [OK] S137-P0-C0 حديوس = 88 (bank) (register recomputed 88, claimed 88, VERIFIED)
+  [OK] S137-P2-C0 ةروعبس = 338 (bank) (register recomputed 338, claimed 343, PARTED)
+  [OK] S137-P4-C0 حديوس ةروعبس = 426 (bank) (register recomputed 426, claimed 431, PARTED)
+  [OK] S138-P0-C0 زوبعة = 85 (bank) (register recomputed 85, claimed 85, VERIFIED)
+  [OK] S139-P0-C0 حوميلم = 134 (bank) (register recomputed 134, claimed 134, VERIFIED)
+  [OK] S139-P0-C1 حوميلم = 134 (bank) (register recomputed 134, claimed 134, VERIFIED)
+  [OK] S141-P0-C0 شمهورش = 851 (bank) (register recomputed 851, claimed 851, VERIFIED)
+  [OK] S142-P0-C0 ميمون = 146 (bank) (register recomputed 146, claimed 146, VERIFIED)
+  [OK] S143-P0-C0 الأحمر = 279 (bank) (register recomputed 279, claimed 279, VERIFIED)
+  [OK] S143-P0-C1 الأحمر = 279 (bank) (register recomputed 279, claimed 280, PARTED)
+  [OK] S146-P0-C0 المذهب = 778 (bank) (register recomputed 778, claimed 778, VERIFIED)
+  [OK] S148-P0-C0 جان = 54 (bank) (register recomputed 54, claimed 54, VERIFIED)
+  [OK] S149-P0-C0 ميمون = 146 (bank) (register recomputed 146, claimed 146, VERIFIED)
+  [OK] register verdicts {'NOT VERIFIABLE': 1, 'VERIFIED': 27, 'PARTED': 7} 
+  [OK] register subseats {'arabic_abjad': 35} — the one subseat 
+  [OK] plate prints the verdict counts entire 
+  [OK] all 7 parting coordinates stand entire on the plate 
+  [OK] the two species: six ة partings at Δ5, one hamza parting at Δ1 
+  [OK] the one NOT VERIFIABLE coordinate stands entire 
+  [OK] all 3 VERIFIED coordinates stand entire 
+  [OK] no bridge annotations in the register; the plate prints the absence 
+5. THE NATIVES — 11 renderings re-weighed
+  [OK] native XLVII/15 كتمطمح = 517 
+  [OK] native XLVII/16 عطهم = 124 
+  [OK] native XLVII/16 حوميلم = 134 
+  [OK] native XLVII/18 طيهم = 64 
+  [OK] native XLVII/18 لايل = 71 
+  [OK] native XLVII/19 حللد = 72 
+  [OK] native XLVII/19 طهسم = 114 
+  [OK] native XLVII/20 هنقم = 195 
+  [OK] native XLVII/20 فهك = 105 
+  [OK] native XLVII/21 حديوس = 88 
+  [OK] native XLVII/23 حوميلم = 134 
+  [OK] eleven NATIVE cells audited (11)
+6. THE MAGVS PDF — text layer and furniture
+  [OK] all 35 claim keys in the PDF text layer (absent: [])
+  [OK] footer count resolves (last: ('15', '15'))
+  [OK] no Arabic-block or Hebrew-block codepoint stands in the text layer — the declared substitution is entire (found: [])
+  [OK] the dress of ةولهم (Twlhm) stands in the text layer 
+  [OK] the substitution's declaration stands in the layer 
+
+PRICED CELLS RE-WEIGHED: 82
+AUDIT VERDICT: PASS
