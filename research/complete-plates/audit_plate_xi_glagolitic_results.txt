@@ -1,0 +1,364 @@
+PLATE-XI-GLAGOLITIC — independent audit
+checks: 359 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  valued table: 34 rows parsed
+PASS  block seat 1 Ⰰ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 2 Ⰱ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 3 Ⰲ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 4 Ⰳ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 5 Ⰴ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 6 Ⰵ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 7 Ⰶ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 8 Ⰷ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 9 Ⰸ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 10 Ⰹ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 11 Ⰺ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 12 Ⰻ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 13 Ⰼ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 14 Ⰽ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 15 Ⰾ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 16 Ⰿ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 17 Ⱀ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 18 Ⱁ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 19 Ⱂ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 20 Ⱃ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 21 Ⱄ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 22 Ⱅ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 23 Ⱆ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 24 Ⱇ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 25 Ⱈ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 26 Ⱉ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 28 Ⱋ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 29 Ⱌ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 30 Ⱍ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 31 Ⱎ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 32 Ⱏ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 34 Ⱑ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 36 Ⱓ: letter, name, value, class == engine + frozen CSV
+PASS  block seat 37 Ⱔ: letter, name, value, class == engine + frozen CSV
+PASS  the digit law parts at exactly the ten letters
+PASS  bank sum 29,005 printed
+PASS  class sums 45/460/4500/24000
+PASS  hole table: 3 rows parsed
+PASS  hole block seat 27 Ⱊ: letter, name == frozen CSV; silence in the engine
+PASS  hole block seat 33 Ⱐ: letter, name == frozen CSV; silence in the engine
+PASS  hole block seat 35 Ⱒ: letter, name == frozen CSV; silence in the engine
+PASS  34 keys, 33 distinct values, sum 29005, maximum 9000
+PASS  firm domain (1–900) sums 5005
+PASS  firm sum 5,005 printed
+PASS  worked example ⰗⰑⰂ == 583
+PASS  plate prints ⰗⰑⰂ at 583
+PASS  worked example ⰅⰊ == 16
+PASS  plate prints ⰅⰊ at 16
+PASS  worked example ⰝⰔⰑ == 1280
+PASS  plate prints ⰝⰔⰑ at 1280
+PASS  parting table: 33 rows parsed
+PASS  parting a: row == frozen table
+PASS  parting b: row == frozen table
+PASS  parting v: row == frozen table
+PASS  parting g: row == frozen table
+PASS  parting d: row == frozen table
+PASS  parting e: row == frozen table
+PASS  parting zh: row == frozen table
+PASS  parting dz: row == frozen table
+PASS  parting z: row == frozen table
+PASS  parting i (from eta): row == frozen table
+PASS  parting i (from iota): row == frozen table
+PASS  parting k: row == frozen table
+PASS  parting l: row == frozen table
+PASS  parting m: row == frozen table
+PASS  parting n: row == frozen table
+PASS  parting o: row == frozen table
+PASS  parting p: row == frozen table
+PASS  parting r: row == frozen table
+PASS  parting s: row == frozen table
+PASS  parting t: row == frozen table
+PASS  parting u: row == frozen table
+PASS  parting f: row == frozen table
+PASS  parting kh: row == frozen table
+PASS  parting omega/ot: row == frozen table
+PASS  parting ts: row == frozen table
+PASS  parting ch: row == frozen table
+PASS  parting sh: row == frozen table
+PASS  parting sht: row == frozen table
+PASS  parting small yus: row == frozen table
+PASS  parting fita/theta: row == frozen table
+PASS  parting izhitsa: row == frozen table
+PASS  parting ksi: row == frozen table
+PASS  parting psi: row == frozen table
+PASS  the count recomputed: 15 AGREE, 18 PART
+PASS  the sharpest coordinate: /ch/ — Ч == 90 (cyrillic), Ⱍ == 1000 (glagolitic)
+PASS  the hundreds parting: Ѡ == 800 (cyrillic), Ⱉ == 700 (glagolitic)
+PASS  refused table: 5 rows parsed
+PASS  refused composites as filed: 6000, 7000, 8000
+PASS  refused variants as filed: Ⱐ at 3000, Ⱗ at 6000
+PASS  Ⱗ's silence: == 0, empty breakdown
+PASS  the case fold: ⰰⰱ == 3
+PASS  register census == (0, 223, 62, 0, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 223
+PASS  plate prints census HOLE 62
+PASS  plate prints census FENCED 0
+PASS  plate door register: 223 rows
+PASS  plate door rows == register rows, in order
+PASS  door III/31 bis ⰕⰑⰑⰤ: re-weighed
+PASS  door III/32 bis ⰕⰀⰖ ⰀⰔ ⰅⰃⰋⰒⰕⰉⰀⰐ: re-weighed
+PASS  door VI/13 ⰎⰅⰂⰀⰐⰀⰘ: re-weighed
+PASS  door VI/14 ⰐⰑⰃⰀⰘ: re-weighed
+PASS  door VI/21 ⰕⰈⰅⰄⰅⰍ: re-weighed
+PASS  door VI/27 ⰏⰀⰄⰉⰏ: re-weighed
+PASS  door VI/30 ⰞⰅⰏⰅⰞ: re-weighed
+PASS  door VI/32 ⰞⰀⰁⰁⰀⰤⰀⰉ: re-weighed
+PASS  door VIII/13 ⰃⰀⰏⰀⰎⰉⰅⰎ: re-weighed
+PASS  door VIII/14 ⰀⰀⰓⰀⰁ ⰈⰀⰓⰀⰍ: re-weighed
+PASS  door VIII/21 ⰃⰘⰀⰀⰃⰞⰅⰍⰎⰀⰘ: re-weighed
+PASS  door VIII/23 ⰀⰓⰉⰕⰑⰐ: re-weighed
+PASS  door VIII/27 ⰃⰑⰎⰀⰝⰀⰁ: re-weighed
+PASS  door VIII/30 ⰤⰀⰃⰉⰓⰉⰓⰑⰐ: re-weighed
+PASS  door VIII/31 ⰒⰀⰉⰏⰑⰐ: re-weighed
+PASS  door VIII/32 ⰔⰀⰕⰀⰓⰉⰅⰎ: re-weighed
+PASS  door VIII/32 bis ⰀⰏⰀⰉⰏⰑⰐ: re-weighed
+PASS  door XX/31 bis ⰀⰕⰖⰏ: re-weighed
+PASS  door XX/32 bis ⰔⰅⰁ: re-weighed
+PASS  door XXI/18 ⰘⰑⰓⰏⰀⰘⰖ: re-weighed
+PASS  door XXI/18 ⰘⰅⰗⰓⰀ: re-weighed
+PASS  door XXI/20 ⰘⰅⰓⰖ ⰒⰀ ⰍⰓⰀⰀⰤ: re-weighed
+PASS  door XXI/20 ⰉⰔⰉⰔ: re-weighed
+PASS  door XXI/22 ⰏⰀⰀⰕ: re-weighed
+PASS  door XXI/22 ⰏⰀ: re-weighed
+PASS  door XXI/25 ⰐⰅⰗⰤⰋⰔ: re-weighed
+PASS  door XXI/25 ⰀⰓⰂⰖⰅⰓⰉ: re-weighed
+PASS  door XXIV/2 ⰔⰀⰂⰉⰍⰀⰎⰒⰀ ⰔⰀⰏⰀⰄⰘⰉ: re-weighed
+PASS  door XXIV/2 ⰏⰖⰄⰉⰕⰀ ⰔⰀⰏⰀⰄⰘⰉ: re-weighed
+PASS  door XXIV/3 ⰏⰀⰘⰀⰍⰀⰓⰖⰐⰀ: re-weighed
+PASS  door XXIV/3 ⰁⰑⰄⰘⰉⰍⰉⰕⰕⰀ: re-weighed
+PASS  door XXIV/4 ⰁⰓⰀⰘⰏⰀⰂⰉⰘⰀⰓⰀ: re-weighed
+PASS  door XXIV/4 ⰏⰅⰕⰕⰀ ⰔⰀⰏⰀⰄⰘⰉ: re-weighed
+PASS  door XXIV/5 ⰀⰏⰀⰕⰀ: re-weighed
+PASS  door XXIV/5 ⰔⰀⰏⰂⰅⰃⰀ: re-weighed
+PASS  door XXIV/7 ⰔⰀⰣⰌⰡ: re-weighed
+PASS  door XXIV/7 ⰄⰅⰂⰀ ⰄⰀⰓⰔⰀⰐⰀ: re-weighed
+PASS  door XXIV/8 ⰉⰄⰄⰘⰉ: re-weighed
+PASS  door XXIV/8 ⰂⰉⰁⰘⰖⰕⰉ: re-weighed
+PASS  door XXIV/9 ⰔⰑⰕⰀⰒⰀⰕⰕⰉ: re-weighed
+PASS  door XXIV/9 ⰄⰘⰀⰏⰏⰀⰍⰀⰍⰘⰖ: re-weighed
+PASS  door XXIV/12 ⰒⰀⰕⰉⰁⰘⰀⰃⰀ ⰐⰉⰏⰉⰕⰕⰀ: re-weighed
+PASS  door XXIV/12 ⰀⰒⰒⰀⰐⰀ: re-weighed
+PASS  door XXIV/15 ⰍⰀⰓⰏⰀ ⰋⰑⰃⰀ: re-weighed
+PASS  door XXIV/17 ⰌⰐⰀⰐⰀ ⰋⰑⰃⰀ: re-weighed
+PASS  door XXIV/17 ⰁⰖⰄⰘⰀ: re-weighed
+PASS  door XXIV/18 ⰔⰑⰏⰀ ⰁⰘⰀⰂⰀⰐⰀ: re-weighed
+PASS  door XXIV/18 ⰏⰀⰐⰕⰓⰀ ⰋⰑⰃⰀ: re-weighed
+PASS  door XXIV/19 ⰕⰅⰌⰑ ⰁⰘⰀⰂⰀⰐⰀ: re-weighed
+PASS  door XXIV/19 ⰕⰀⰒⰀⰔ ⰔⰉⰄⰄⰘⰉ: re-weighed
+PASS  door XXIV/20 ⰍⰓⰉⰡ ⰋⰑⰃⰀ: re-weighed
+PASS  door XXIV/20 ⰂⰉⰂⰅⰍⰀ ⰁⰘⰀⰂⰀⰐⰀ: re-weighed
+PASS  door XXIV/21 ⰃⰖⰓⰖ ⰄⰀⰓⰞⰀⰐⰀ: re-weighed
+PASS  door XXIV/21 ⰓⰀⰌⰀ ⰋⰑⰃⰀ: re-weighed
+PASS  door XXIV/22 ⰕⰖⰎⰀ ⰁⰘⰀⰂⰀⰐⰀ: re-weighed
+PASS  door XXIV/22 ⰄⰘⰀⰓⰏⰀ ⰄⰀⰓⰞⰀⰐⰀ: re-weighed
+PASS  door XXIV/27 ⰏⰀⰐⰃⰀⰎⰀ: re-weighed
+PASS  door XXIV/32 ⰞⰀⰐⰉ: re-weighed
+PASS  door XXXIII/6 ⰁⰀⰎⰄⰓ: re-weighed
+PASS  door XXXIII/10 ⰌⰑⰓⰄ: re-weighed
+PASS  door XXXIII/10 ⰐⰅⰓⰤⰖⰔ: re-weighed
+PASS  door XXXIII/13 ⰏⰀⰐⰉ: re-weighed
+PASS  door XXXIII/13 ⰔⰍⰀⰄⰉ: re-weighed
+PASS  door XXXIII/16 ⰔⰉⰗ: re-weighed
+PASS  door XXXIII/16 ⰅⰉⰓ: re-weighed
+PASS  door XXXIII/23 ⰐⰌⰑⰓⰄ: re-weighed
+PASS  door XXXIII/23 ⰀⰅⰃⰉⰓ: re-weighed
+PASS  door XXXIII/30 ⰔⰑⰎ: re-weighed
+PASS  door XXXIII/31 ⰔⰖⰓⰕⰓ: re-weighed
+PASS  door XXXIII/31 bis ⰑⰄⰉⰐ: re-weighed
+PASS  door XXXIII/32 bis ⰐⰅⰓⰤⰖⰔ: re-weighed
+PASS  door XXXIII/32 bis ⰅⰓⰄⰀ: re-weighed
+PASS  door XLIII/24 ⰍⰑⰐⰉⰖⰏ: re-weighed
+PASS  door XLIII/24 ⰍⰑⰐⰉⰖⰏ ⰏⰀⰍⰖⰎⰀⰕⰖⰏ: re-weighed
+PASS  door XLIII/24 ⰍⰑⰐⰉⰖⰏ ⰏⰀⰍⰖⰎⰀⰕⰖⰏ: re-weighed
+PASS  door XLIII/24 ⰍⰑⰐⰉⰖⰏ ⰏⰀⰍⰖⰎⰀⰕⰖⰏ: re-weighed
+PASS  door XLIII/25 ⰔⰀⰎⰂⰉⰀ: re-weighed
+PASS  door XLIII/25 ⰔⰀⰎⰂⰉⰀ ⰑⰗⰗⰉⰍⰉⰐⰀⰎⰉⰔ: re-weighed
+PASS  door XLIII/25 ⰔⰀⰎⰂⰉⰀ ⰑⰗⰗⰉⰍⰉⰐⰀⰎⰉⰔ: re-weighed
+PASS  door XLIII/27 ⰏⰖⰔⰕⰀⰓⰄ: re-weighed
+PASS  door XLIII/27 ⰔⰉⰐⰀⰒⰉⰔ: re-weighed
+PASS  door XLIII/27 ⰍⰀⰒⰔⰉⰍⰖⰏ: re-weighed
+PASS  door XLIII/31 ⰈⰉⰐⰃⰉⰁⰅⰓ: re-weighed
+PASS  door XLIII/31 ⰈⰉⰐⰃⰉⰁⰅⰓ ⰑⰗⰗⰉⰍⰉⰐⰀⰎⰅ: re-weighed
+PASS  door XLIII/31 ⰈⰉⰐⰃⰉⰁⰅⰓ ⰑⰗⰗⰉⰍⰉⰐⰀⰎⰅ: re-weighed
+PASS  door XLIII/31 ⰍⰀⰒⰔⰉⰍⰖⰏ: re-weighed
+PASS  door XLIII/31 ⰍⰀⰒⰔⰉⰍⰖⰏ ⰀⰐⰐⰖⰖⰏ: re-weighed
+PASS  door XLIII/31 ⰍⰀⰒⰔⰉⰍⰖⰏ ⰀⰐⰐⰖⰖⰏ ⰝⰉⰎⰉ ⰍⰀⰋⰅⰐⰐⰅ: re-weighed
+PASS  door XLIII/31 ⰍⰀⰒⰔⰉⰍⰖⰏ ⰀⰐⰐⰖⰖⰏ ⰝⰉⰎⰉ ⰍⰀⰋⰅⰐⰐⰅ: re-weighed
+PASS  door XLIII/32 bis ⰏⰀⰐⰄⰓⰀⰃⰑⰓⰀ: re-weighed
+PASS  door XLIII/32 bis ⰏⰀⰐⰄⰓⰀⰃⰑⰓⰀ ⰑⰗⰗⰉⰍⰉⰐⰀⰓⰖⰏ: re-weighed
+PASS  door XLIII/32 bis ⰏⰀⰐⰄⰓⰀⰃⰑⰓⰀ ⰑⰗⰗⰉⰍⰉⰐⰀⰓⰖⰏ: re-weighed
+PASS  door XLIV/4 ⰕⰉⰐ: re-weighed
+PASS  door XLIV/6 ⰃⰑⰎⰄ: re-weighed
+PASS  door XLIV/11 ⰔⰀⰎ ⰂⰑⰎⰀⰕⰉⰎⰅ: re-weighed
+PASS  door XLIV/13 ⰎⰖⰐⰀⰓ ⰍⰀⰖⰔⰕⰉⰍ: re-weighed
+PASS  door XLIV/14 ⰍⰑⰒⰒⰅⰓ: re-weighed
+PASS  door XLIV/14 ⰁⰎⰖⰅ ⰂⰉⰕⰓⰉⰑⰎ: re-weighed
+PASS  door XLIV/15 ⰍⰓⰑⰍⰖⰔ ⰏⰀⰓⰕⰉⰔ: re-weighed
+PASS  door XLIV/16 ⰏⰀⰎⰀⰝⰉⰕⰅ: re-weighed
+PASS  door XLIV/17 ⰍⰉⰐⰐⰀⰁⰀⰓ: re-weighed
+PASS  door XLIV/18 ⰍⰑⰓⰀⰎ: re-weighed
+PASS  door XLIV/18 ⰒⰅⰀⰓⰎ: re-weighed
+PASS  door XLIV/19 ⰑⰓⰒⰉⰏⰅⰐⰕ: re-weighed
+PASS  door XLIV/19 ⰀⰖⰓⰉⰒⰉⰃⰏⰅⰐⰕⰖⰏ: re-weighed
+PASS  door XLIV/20 ⰍⰉⰐⰐⰀⰁⰀⰓ: re-weighed
+PASS  door XLIV/21 ⰕⰉⰐ: re-weighed
+PASS  door XLIV/21 ⰔⰕⰀⰐⰐⰂⰏ: re-weighed
+PASS  door XLIV/22 ⰍⰑⰒⰒⰅⰓ: re-weighed
+PASS  door XLIV/22 ⰍⰂⰒⰓⰂⰏ: re-weighed
+PASS  door XLIV/26 ⰀⰐⰕⰉⰏⰑⰐⰋ: re-weighed
+PASS  door XLIV/26 ⰔⰕⰉⰁⰉⰂⰏ: re-weighed
+PASS  door XLIV/28 ⰀⰎⰖⰏ: re-weighed
+PASS  door XLIV/28 ⰀⰎⰂⰏ: re-weighed
+PASS  door XLIV/29 ⰉⰑⰄⰉⰐⰅ: re-weighed
+PASS  door XLIV/29 ⰔⰀⰎⰕ: re-weighed
+PASS  door XLIV/30 ⰃⰑⰎⰄ: re-weighed
+PASS  door XLIV/30 ⰀⰂⰓⰂⰏ: re-weighed
+PASS  door XLVI/4 ⰕⰖⰉ: re-weighed
+PASS  door XLVI/4 ⰘⰉⰅⰐ: re-weighed
+PASS  door XLVI/5 ⰍⰁⰐ: re-weighed
+PASS  door XLVI/7 ⰕⰖⰉ: re-weighed
+PASS  door XLVI/7 ⰔⰖⰐ: re-weighed
+PASS  door XLVI/8 ⰎⰉ: re-weighed
+PASS  door XLVI/9 ⰍⰀⰐ: re-weighed
+PASS  door XLVI/15 ⰎⰉ: re-weighed
+PASS  door XLVI/16 ⰘⰀⰐ: re-weighed
+PASS  door XLVI/16 ⰘⰂⰀⰐ: re-weighed
+PASS  door XLVI/17 ⰔⰖⰐ: re-weighed
+PASS  door XLVI/18 ⰍⰀⰐ: re-weighed
+PASS  door XLVI/19 ⰍⰁⰐ: re-weighed
+PASS  door XLVI/20 ⰍⰁⰐ: re-weighed
+PASS  door XLVI/22 ⰘⰉⰅⰐ ⰘⰂⰁⰐ: re-weighed
+PASS  door XLVI/24 ⰘⰀⰐ: re-weighed
+PASS  door XLVI/24 ⰘⰂⰁⰐ: re-weighed
+PASS  door XLVI/25 ⰘⰀⰐ ⰎⰉ: re-weighed
+PASS  door XLVI/26 ⰘⰀⰐ: re-weighed
+PASS  door XLVI/26 ⰘⰂⰁⰐ: re-weighed
+PASS  door XLVI/28 ⰘⰉⰅⰐ: re-weighed
+PASS  door XLVI/29 ⰕⰖⰉ: re-weighed
+PASS  door XLVI/31 bis ⰔⰖⰐ: re-weighed
+PASS  door XLVII/8 : re-weighed
+PASS  door XLVII/9 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 ⰁⰀⰓⰍⰀⰐ: re-weighed
+PASS  door XLVII/22 : re-weighed
+PASS  door XLVII/22 ⰈⰀⰂⰁⰀⰀⰘ: re-weighed
+PASS  door XLVII/25 : re-weighed
+PASS  door XLVII/25 ⰞⰀⰏⰘⰖⰓⰉⰞ: re-weighed
+PASS  door XLVII/26 : re-weighed
+PASS  door XLVII/26 ⰏⰀⰋⰏⰖⰐ: re-weighed
+PASS  door XLVII/27 ⰤⰅ ⰓⰅⰄ ⰑⰐⰅ: re-weighed
+PASS  door XLVII/30 ⰤⰅ ⰃⰉⰎⰄⰅⰓ: re-weighed
+PASS  door XLVII/31 bis : re-weighed
+PASS  door XLVII/31 bis ⰌⰀⰐⰐ: re-weighed
+PASS  door XLVII/32 ⰤⰅ ⰗⰑⰓⰕⰖⰐⰀⰕⰅ: re-weighed
+PASS  door XLVII/32 bis ⰀⰏⰀⰉⰏⰑⰐ: re-weighed
+PASS  door LI/32 bis Ⱅ: re-weighed
+PASS  door LIII/8 ⰔⰀⰏⰒⰉ: re-weighed
+PASS  door LVI/31 bis ⰤⰅ ⰓⰉⰂⰅⰓ ⰑⰗ ⰅⰄⰅⰐ ⰖⰐⰄⰉⰂⰉⰄⰅⰄ ⰔⰑⰖⰓⰍⰅ: re-weighed
+PASS  door LVI/31 bis ⰐⰀⰘⰀⰓ: re-weighed
+PASS  door LVII/31 bis ⰕⰑⰘ: re-weighed
+PASS  door LVII/31 bis ⰍⰅⰐⰕⰓⰅ: re-weighed
+PASS  door LVII/31 bis ⰀⰄⰑⰐⰀⰉ: re-weighed
+PASS  door LVIII/31 bis ⰅⰎⰅⰍⰔⰀⰓⰒⰅⰘ ⰍⰑⰏⰀⰐⰀⰐⰖ ⰕⰀⰁⰉⰕⰑⰏ ⰤⰅ ⰤⰓⰅⰅ ⰀⰐⰃⰅⰎⰔ ⰓⰖⰎⰉⰐⰃ ⰤⰅ ⰕⰀⰁⰎⰅⰕ ⰑⰗ ⰖⰐⰉⰑⰐ: re-weighed
+PASS  door LVIII/31 bis ⰍⰑⰏⰀⰐⰀⰐⰖ: re-weighed
+PASS  door LVIII/31 bis ⰕⰀⰁⰉⰕⰑⰏ: re-weighed
+PASS  door LXIII/31 bis ⰀⰄⰀⰏ ⰍⰀⰄⰏⰑⰐ ⰤⰅ ⰗⰉⰗⰤ ⰂⰑⰓⰎⰄ ⰀⰁⰑⰂⰅ ⰀⰕⰈⰉⰎⰖⰤ: re-weighed
+PASS  door LXIII/31 bis ⰀⰄⰀⰏ ⰍⰀⰄⰏⰑⰐ: re-weighed
+PASS  door CVIII/1 ⰔⰀⰕⰀⰐ: re-weighed
+PASS  door CVIII/1 ⰏⰑⰎⰑⰝ: re-weighed
+PASS  door CVIII/2 ⰁⰅⰅⰎⰈⰅⰁⰖⰁ: re-weighed
+PASS  door CXXXII/1 ⰤⰅ ⰓⰑⰑⰕ ⰑⰗ ⰤⰅ ⰒⰑⰂⰅⰓⰔ ⰑⰗ ⰅⰀⰓⰤ: re-weighed
+PASS  door CLXXXV/4 : re-weighed
+PASS  door CLXXXV/7 : re-weighed
+PASS  door CLXXXVII/1 ⰀⰎ: re-weighed
+PASS  door CLXXXVII/1 ⰀⰘⰉⰘ: re-weighed
+PASS  door CLXXXVII/1 ⰉⰀ: re-weighed
+PASS  door CLXXXVII/8 ⰀⰏⰅⰐ: re-weighed
+PASS  door CLXXXVII/11 ⰀⰎⰗ: re-weighed
+PASS  door CLXXXVII/11 ⰀⰉⰓ: re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/12 ⰁⰉⰤ: re-weighed
+PASS  door CLXXXVII/12 ⰘⰅⰓⰏⰅⰔ: re-weighed
+PASS  door CLXXXVII/12 ⰤⰑⰤ: re-weighed
+PASS  door CLXXXVII/15 ⰘⰀ: re-weighed
+PASS  door CLXXXVII/15 ⰅⰐⰅⰓⰃⰋ: re-weighed
+PASS  door CLXXXVII/15 ⰀⰈⰑⰤ: re-weighed
+PASS  door CLXXXVII/17 ⰈⰉⰐ: re-weighed
+PASS  door CLXXXVII/17 ⰀⰒⰑⰎⰎⰑ: re-weighed
+PASS  door CLXXXVII/17 ⰄⰅⰎⰗⰉ: re-weighed
+PASS  door CLXXXVII/20 ⰋⰂⰄ: re-weighed
+PASS  door CLXXXVII/20 ⰎⰂⰍⰔ: re-weighed
+PASS  door CLXXXVII/20 ⰎⰅⰝⰅⰏ: re-weighed
+PASS  door CLXXXVII/21 ⰍⰗ: re-weighed
+PASS  door CLXXXVII/21 ⰌⰖⰒⰉⰕⰅⰓ: re-weighed
+PASS  door CLXXXVII/21 ⰈⰅⰖⰔ: re-weighed
+PASS  door CLXXXVII/22 ⰎⰏⰄ: re-weighed
+PASS  door CLXXXVII/22 ⰏⰉⰈⰐⰋⰏ: re-weighed
+PASS  door CLXXXVII/22 ⰏⰀⰀⰕ: re-weighed
+PASS  door CLXXXVII/22 ⰎⰉⰁⰓⰀ: re-weighed
+PASS  door CLXXXVII/22 ⰍⰓⰑⰔⰔ: re-weighed
+PASS  door CLXXXVII/23 ⰀⰍⰖⰀ: re-weighed
+PASS  door CLXXXVII/23 ⰍⰀⰎⰉⰍⰔ: re-weighed
+PASS  door CLXXXVII/23 ⰂⰉⰐⰖⰏ: re-weighed
+PASS  door CLXXXVII/27 ⰃⰎⰀⰄⰉⰖⰔ: re-weighed
+PASS  door CLXXXVII/27 ⰗⰅⰓⰓⰖⰏ: re-weighed
+PASS  door CLXXXVII/28 ⰤⰖⰔ: re-weighed
+PASS  door CLXXXVII/29 ⰔⰒⰅⰍⰖⰎⰖⰏ: re-weighed
+PASS  door CLXXXVII/29 ⰎⰖⰐⰀ: re-weighed
+PASS  door CLXXXVII/31 ⰉⰃⰐⰉⰔ: re-weighed
+PASS  door CLXXXVII/31 ⰎⰖⰍⰔ: re-weighed
+PASS  door CLXXXVII/31 ⰎⰀⰏⰒⰀⰔ: re-weighed
+PASS  door CLXXXVII/31 bis ⰑⰂⰖⰏ: re-weighed
+PASS  door CLXXXVII/31 bis ⰔⰒⰉⰓⰉⰕⰖⰔ: re-weighed
+PASS  door CLXXXVII/32 ⰗⰀⰎⰍⰔ: re-weighed
+PASS  door CLXXXVII/32 ⰏⰅⰔⰔⰉⰔ: re-weighed
+PASS  door CLXXXVII/32 bis ⰔⰀⰎ: re-weighed
+PASS  door CLXXXVII/32 bis ⰕⰅⰓⰓⰀ: re-weighed
+PASS  door CLXXXVII/32 bis ⰒⰀⰐⰉⰔ: re-weighed
+PASS  plate hole register: 62 rows
+PASS  plate hole rows == register rows, in order
+PASS  every hole rendering is the register's dash
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  plate prints the claim count: 0
+PASS  the zero face stands in §IV
+PASS  §V vowel table: 8 rows parsed
+PASS  §V vowel Ⰰ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⰵ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⰹ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⰺ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⰻ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⱁ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⱆ: name, price == bank; flag only on the thousands vowel
+PASS  §V vowel Ⱑ: name, price == bank; flag only on the thousands vowel
+PASS  no vowel of this bank stands at 8
+PASS  the 8-seat's holder: Ⰷ == 8 (dzelo, a consonant)
+PASS  the 8 seated: η == 8 in greek
+PASS  the 8 seated: ⲏ == 8 in coptic
+PASS  the 8 seated: И == 8 in cyrillic
+PASS  the 8 seated: Ը == 8 in armenian
+PASS  the 8 seated: ჱ == 8 in georgian
+PASS  the battery's quoted price: ⰰ == 1 through the fold
+PASS  the battery's quoted price: ⰵ == 6 through the fold
+PASS  the battery's quoted price: ⰻ == 20 through the fold
+PASS  the battery's quoted price: ⰹ == 10 through the fold
+PASS  the battery's quoted price: ⰿ == 60 through the fold
+PASS  οὐδέν == 529 in greek
+PASS  the Nine sum 1779
+PASS  PDF layer carries all 34 letters
+PASS  PDF layer carries the zero face's statement
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (28 of 28)
+
+VERDICT: PASS — 359 checks, 0 failures
