@@ -1,0 +1,524 @@
+PLATE-V-JAPANESE — independent audit
+checks: 519 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  bank census: 170 keys
+PASS  bank census: 85 hiragana + 85 katakana
+PASS  plate prints the 170-key census
+PASS  seat register: 73 rows parsed
+PASS  seat 1: あ price 1 == engine
+PASS  seat 1: katakana dress ア shares the seat
+PASS  seat 2: い price 2 == engine
+PASS  seat 2: katakana dress イ shares the seat
+PASS  seat 3: う price 3 == engine
+PASS  seat 3: katakana dress ウ shares the seat
+PASS  seat 4: え price 4 == engine
+PASS  seat 4: katakana dress エ shares the seat
+PASS  seat 5: お price 5 == engine
+PASS  seat 5: katakana dress オ shares the seat
+PASS  seat 6: か price 6 == engine
+PASS  seat 6: katakana dress カ shares the seat
+PASS  seat 7: き price 7 == engine
+PASS  seat 7: katakana dress キ shares the seat
+PASS  seat 8: く price 8 == engine
+PASS  seat 8: katakana dress ク shares the seat
+PASS  seat 9: け price 9 == engine
+PASS  seat 9: katakana dress ケ shares the seat
+PASS  seat 10: こ price 10 == engine
+PASS  seat 10: katakana dress コ shares the seat
+PASS  seat 11: さ price 11 == engine
+PASS  seat 11: katakana dress サ shares the seat
+PASS  seat 12: し price 12 == engine
+PASS  seat 12: katakana dress シ shares the seat
+PASS  seat 13: す price 13 == engine
+PASS  seat 13: katakana dress ス shares the seat
+PASS  seat 14: せ price 14 == engine
+PASS  seat 14: katakana dress セ shares the seat
+PASS  seat 15: そ price 15 == engine
+PASS  seat 15: katakana dress ソ shares the seat
+PASS  seat 16: た price 16 == engine
+PASS  seat 16: katakana dress タ shares the seat
+PASS  seat 17: ち price 17 == engine
+PASS  seat 17: katakana dress チ shares the seat
+PASS  seat 18: つ price 18 == engine
+PASS  seat 18: katakana dress ツ shares the seat
+PASS  seat 19: て price 19 == engine
+PASS  seat 19: katakana dress テ shares the seat
+PASS  seat 20: と price 20 == engine
+PASS  seat 20: katakana dress ト shares the seat
+PASS  seat 21: な price 21 == engine
+PASS  seat 21: katakana dress ナ shares the seat
+PASS  seat 22: に price 22 == engine
+PASS  seat 22: katakana dress ニ shares the seat
+PASS  seat 23: ぬ price 23 == engine
+PASS  seat 23: katakana dress ヌ shares the seat
+PASS  seat 24: ね price 24 == engine
+PASS  seat 24: katakana dress ネ shares the seat
+PASS  seat 25: の price 25 == engine
+PASS  seat 25: katakana dress ノ shares the seat
+PASS  seat 26: は price 26 == engine
+PASS  seat 26: katakana dress ハ shares the seat
+PASS  seat 27: ひ price 27 == engine
+PASS  seat 27: katakana dress ヒ shares the seat
+PASS  seat 28: ふ price 28 == engine
+PASS  seat 28: katakana dress フ shares the seat
+PASS  seat 29: へ price 29 == engine
+PASS  seat 29: katakana dress ヘ shares the seat
+PASS  seat 30: ほ price 30 == engine
+PASS  seat 30: katakana dress ホ shares the seat
+PASS  seat 31: ま price 31 == engine
+PASS  seat 31: katakana dress マ shares the seat
+PASS  seat 32: み price 32 == engine
+PASS  seat 32: katakana dress ミ shares the seat
+PASS  seat 33: む price 33 == engine
+PASS  seat 33: katakana dress ム shares the seat
+PASS  seat 34: め price 34 == engine
+PASS  seat 34: katakana dress メ shares the seat
+PASS  seat 35: も price 35 == engine
+PASS  seat 35: katakana dress モ shares the seat
+PASS  seat 36: や price 36 == engine
+PASS  seat 36: katakana dress ヤ shares the seat
+PASS  seat 37: ゆ price 37 == engine
+PASS  seat 37: katakana dress ユ shares the seat
+PASS  seat 38: よ price 38 == engine
+PASS  seat 38: katakana dress ヨ shares the seat
+PASS  seat 39: ら price 39 == engine
+PASS  seat 39: katakana dress ラ shares the seat
+PASS  seat 40: り price 40 == engine
+PASS  seat 40: katakana dress リ shares the seat
+PASS  seat 41: る price 41 == engine
+PASS  seat 41: katakana dress ル shares the seat
+PASS  seat 42: れ price 42 == engine
+PASS  seat 42: katakana dress レ shares the seat
+PASS  seat 43: ろ price 43 == engine
+PASS  seat 43: katakana dress ロ shares the seat
+PASS  seat 44: わ price 44 == engine
+PASS  seat 44: katakana dress ワ shares the seat
+PASS  seat 45: ゐ price 45 == engine
+PASS  seat 45: katakana dress ヰ shares the seat
+PASS  seat 46: ゑ price 46 == engine
+PASS  seat 46: katakana dress ヱ shares the seat
+PASS  seat 47: を price 47 == engine
+PASS  seat 47: katakana dress ヲ shares the seat
+PASS  seat 48: ん price 48 == engine
+PASS  seat 48: katakana dress ン shares the seat
+PASS  seat 49: が price 49 == engine
+PASS  seat 49: katakana dress ガ shares the seat
+PASS  seat 50: ぎ price 50 == engine
+PASS  seat 50: katakana dress ギ shares the seat
+PASS  seat 51: ぐ price 51 == engine
+PASS  seat 51: katakana dress グ shares the seat
+PASS  seat 52: げ price 52 == engine
+PASS  seat 52: katakana dress ゲ shares the seat
+PASS  seat 53: ご price 53 == engine
+PASS  seat 53: katakana dress ゴ shares the seat
+PASS  seat 54: ざ price 54 == engine
+PASS  seat 54: katakana dress ザ shares the seat
+PASS  seat 55: じ price 55 == engine
+PASS  seat 55: katakana dress ジ shares the seat
+PASS  seat 56: ず price 56 == engine
+PASS  seat 56: katakana dress ズ shares the seat
+PASS  seat 57: ぜ price 57 == engine
+PASS  seat 57: katakana dress ゼ shares the seat
+PASS  seat 58: ぞ price 58 == engine
+PASS  seat 58: katakana dress ゾ shares the seat
+PASS  seat 59: だ price 59 == engine
+PASS  seat 59: katakana dress ダ shares the seat
+PASS  seat 60: ぢ price 60 == engine
+PASS  seat 60: katakana dress ヂ shares the seat
+PASS  seat 61: づ price 61 == engine
+PASS  seat 61: katakana dress ヅ shares the seat
+PASS  seat 62: で price 62 == engine
+PASS  seat 62: katakana dress デ shares the seat
+PASS  seat 63: ど price 63 == engine
+PASS  seat 63: katakana dress ド shares the seat
+PASS  seat 64: ば price 64 == engine
+PASS  seat 64: katakana dress バ shares the seat
+PASS  seat 65: び price 65 == engine
+PASS  seat 65: katakana dress ビ shares the seat
+PASS  seat 66: ぶ price 66 == engine
+PASS  seat 66: katakana dress ブ shares the seat
+PASS  seat 67: べ price 67 == engine
+PASS  seat 67: katakana dress ベ shares the seat
+PASS  seat 68: ぼ price 68 == engine
+PASS  seat 68: katakana dress ボ shares the seat
+PASS  seat 69: ぱ price 69 == engine
+PASS  seat 69: katakana dress パ shares the seat
+PASS  seat 70: ぴ price 70 == engine
+PASS  seat 70: katakana dress ピ shares the seat
+PASS  seat 71: ぷ price 71 == engine
+PASS  seat 71: katakana dress プ shares the seat
+PASS  seat 72: ぺ price 72 == engine
+PASS  seat 72: katakana dress ペ shares the seat
+PASS  seat 73: ぽ price 73 == engine
+PASS  seat 73: katakana dress ポ shares the seat
+PASS  values 1–73 each exactly once
+PASS  grid cell あ — 1: price == engine
+PASS  grid cell い — 2: price == engine
+PASS  grid cell う — 3: price == engine
+PASS  grid cell え — 4: price == engine
+PASS  grid cell お — 5: price == engine
+PASS  grid row the vowel row (あ行): sum == printed
+PASS  grid cell か — 6: price == engine
+PASS  grid cell き — 7: price == engine
+PASS  grid cell く — 8: price == engine
+PASS  grid cell け — 9: price == engine
+PASS  grid cell こ — 10: price == engine
+PASS  grid row the か row: sum == printed
+PASS  grid cell さ — 11: price == engine
+PASS  grid cell し — 12: price == engine
+PASS  grid cell す — 13: price == engine
+PASS  grid cell せ — 14: price == engine
+PASS  grid cell そ — 15: price == engine
+PASS  grid row the さ row: sum == printed
+PASS  grid cell た — 16: price == engine
+PASS  grid cell ち — 17: price == engine
+PASS  grid cell つ — 18: price == engine
+PASS  grid cell て — 19: price == engine
+PASS  grid cell と — 20: price == engine
+PASS  grid row the た row: sum == printed
+PASS  grid cell な — 21: price == engine
+PASS  grid cell に — 22: price == engine
+PASS  grid cell ぬ — 23: price == engine
+PASS  grid cell ね — 24: price == engine
+PASS  grid cell の — 25: price == engine
+PASS  grid row the な row: sum == printed
+PASS  grid cell は — 26: price == engine
+PASS  grid cell ひ — 27: price == engine
+PASS  grid cell ふ — 28: price == engine
+PASS  grid cell へ — 29: price == engine
+PASS  grid cell ほ — 30: price == engine
+PASS  grid row the は row: sum == printed
+PASS  grid cell ま — 31: price == engine
+PASS  grid cell み — 32: price == engine
+PASS  grid cell む — 33: price == engine
+PASS  grid cell め — 34: price == engine
+PASS  grid cell も — 35: price == engine
+PASS  grid row the ま row: sum == printed
+PASS  grid cell や — 36: price == engine
+PASS  grid cell ゆ — 37: price == engine
+PASS  grid cell よ — 38: price == engine
+PASS  grid row the や row: sum == printed
+PASS  grid cell ら — 39: price == engine
+PASS  grid cell り — 40: price == engine
+PASS  grid cell る — 41: price == engine
+PASS  grid cell れ — 42: price == engine
+PASS  grid cell ろ — 43: price == engine
+PASS  grid row the ら row: sum == printed
+PASS  grid cell わ — 44: price == engine
+PASS  grid cell ゐ — 45: price == engine
+PASS  grid cell ゑ — 46: price == engine
+PASS  grid cell を — 47: price == engine
+PASS  grid row the わ row: sum == printed
+PASS  dakuten cell が — 49: price == engine
+PASS  dakuten cell ぎ — 50: price == engine
+PASS  dakuten cell ぐ — 51: price == engine
+PASS  dakuten cell げ — 52: price == engine
+PASS  dakuten cell ご — 53: price == engine
+PASS  dakuten row the が row: sum == printed
+PASS  dakuten cell ざ — 54: price == engine
+PASS  dakuten cell じ — 55: price == engine
+PASS  dakuten cell ず — 56: price == engine
+PASS  dakuten cell ぜ — 57: price == engine
+PASS  dakuten cell ぞ — 58: price == engine
+PASS  dakuten row the ざ row: sum == printed
+PASS  dakuten cell だ — 59: price == engine
+PASS  dakuten cell ぢ — 60: price == engine
+PASS  dakuten cell づ — 61: price == engine
+PASS  dakuten cell で — 62: price == engine
+PASS  dakuten cell ど — 63: price == engine
+PASS  dakuten row the だ row: sum == printed
+PASS  dakuten cell ば — 64: price == engine
+PASS  dakuten cell び — 65: price == engine
+PASS  dakuten cell ぶ — 66: price == engine
+PASS  dakuten cell べ — 67: price == engine
+PASS  dakuten cell ぼ — 68: price == engine
+PASS  dakuten row the ば row: sum == printed
+PASS  dakuten cell ぱ — 69: price == engine
+PASS  dakuten cell ぴ — 70: price == engine
+PASS  dakuten cell ぷ — 71: price == engine
+PASS  dakuten cell ぺ — 72: price == engine
+PASS  dakuten cell ぽ — 73: price == engine
+PASS  dakuten row the ぱ row: sum == printed
+PASS  column total a: printed == engine
+PASS  column total i: printed == engine
+PASS  column total u: printed == engine
+PASS  column total e: printed == engine
+PASS  column total o: printed == engine
+PASS  inventory total 2701 on the plate
+PASS  inventory total: sum of base == 2701
+PASS  small-kana table: 12 rows parsed
+PASS  small ぁ: partner あ's seat 1
+PASS  small ぃ: partner い's seat 2
+PASS  small ぅ: partner う's seat 3
+PASS  small ぇ: partner え's seat 4
+PASS  small ぉ: partner お's seat 5
+PASS  small ゃ: partner や's seat 36
+PASS  small ゅ: partner ゆ's seat 37
+PASS  small ょ: partner よ's seat 38
+PASS  small ゎ: partner わ's seat 44
+PASS  small ゕ: partner か's seat 6
+PASS  small ゖ: partner け's seat 9
+PASS  small っ: partner つ's seat 18
+PASS  かー through the door == 7
+PASS  とー through the door == 25
+PASS  んー through the door == 48
+PASS  word-initial ー through the door == 0
+PASS  raw weigh(かー) skips the mark == 6
+PASS  ー is not a key of the bank
+PASS  seam as written: おう == 8
+PASS  seam as written: えい == 6
+PASS  yōon exhibit: きゃ == 43
+PASS  bridge ゆず == 93 in kana
+PASS  bridge YUZU == 93 in latin_ordinal
+PASS  bridge ゆず stands on the plate
+PASS  bridge かな == 27 in kana
+PASS  bridge KANA == 27 in latin_ordinal
+PASS  bridge かな stands on the plate
+PASS  bridge しおん == 65 in kana
+PASS  bridge SHION == 65 in latin_ordinal
+PASS  bridge しおん stands on the plate
+PASS  register census == (0, 211, 74, 0, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 211
+PASS  plate prints census HOLE 74
+PASS  plate prints census FENCED 0
+PASS  plate door register: 211 rows
+PASS  plate door rows == register rows, in order
+PASS  door III/31 bis とおとふ: re-weighed
+PASS  door VI/13 ればなふ: re-weighed
+PASS  door VI/14 のがふ: re-weighed
+PASS  door VI/21 とぜでく: re-weighed
+PASS  door VI/27 までぃむ: re-weighed
+PASS  door VI/30 しぇめしゅ: re-weighed
+PASS  door VI/32 しゃっばとはい: re-weighed
+PASS  door VIII/13 がまりえる: re-weighed
+PASS  door VIII/14 ああらぶ ざらく: re-weighed
+PASS  door VIII/21 ぐはあぐしぇくらふ: re-weighed
+PASS  door VIII/23 ありとん: re-weighed
+PASS  door VIII/27 ごらちゃぶ: re-weighed
+PASS  door VIII/30 とはぎりろん: re-weighed
+PASS  door VIII/31 ぱいもん: re-weighed
+PASS  door VIII/32 さたりえる: re-weighed
+PASS  door VIII/32 bis あまいもん: re-weighed
+PASS  door XX/31 bis あとぅむ: re-weighed
+PASS  door XX/32 bis せぶ: re-weighed
+PASS  door XXI/18 ほるまくふ: re-weighed
+PASS  door XXI/18 くへぷふら: re-weighed
+PASS  door XXI/20 へる ぱ くらあとふ: re-weighed
+PASS  door XXI/20 いしす: re-weighed
+PASS  door XXI/22 まあと: re-weighed
+PASS  door XXI/22 ま: re-weighed
+PASS  door XXIV/2 さびかるぱ さまどひ: re-weighed
+PASS  door XXIV/2 むでぃた さまどひ: re-weighed
+PASS  door XXIV/3 まはかるな: re-weighed
+PASS  door XXIV/3 ぼどひきった: re-weighed
+PASS  door XXIV/4 ぶらふまびはら: re-weighed
+PASS  door XXIV/4 めった さまどひ: re-weighed
+PASS  door XXIV/5 あまた: re-weighed
+PASS  door XXIV/5 さむべが: re-weighed
+PASS  door XXIV/7 さゆじゅや: re-weighed
+PASS  door XXIV/7 でば だるさな: re-weighed
+PASS  door XXIV/8 いっどひ: re-weighed
+PASS  door XXIV/8 びぶふてぃ: re-weighed
+PASS  door XXIV/9 そたぱってぃ: re-weighed
+PASS  door XXIV/9 どはっまかっくふ: re-weighed
+PASS  door XXIV/12 ぱてぃぶはが にみった: re-weighed
+PASS  door XXIV/12 あっぱな: re-weighed
+PASS  door XXIV/15 かるま よが: re-weighed
+PASS  door XXIV/17 じゅなな よが: re-weighed
+PASS  door XXIV/17 ぶどは: re-weighed
+PASS  door XXIV/18 そま ぶはわな: re-weighed
+PASS  door XXIV/18 まんとら よが: re-weighed
+PASS  door XXIV/19 てじょ ぶはわな: re-weighed
+PASS  door XXIV/19 たぱす しっどひ: re-weighed
+PASS  door XXIV/20 くりや よが: re-weighed
+PASS  door XXIV/20 びべか ぶはわな: re-weighed
+PASS  door XXIV/21 ぐる だるしゃな: re-weighed
+PASS  door XXIV/21 らじゃ よが: re-weighed
+PASS  door XXIV/22 とぅら ぶはわな: re-weighed
+PASS  door XXIV/22 どはるま だるしゃな: re-weighed
+PASS  door XXIV/27 まんがら: re-weighed
+PASS  door XXIV/32 しゃに: re-weighed
+PASS  door XXXIII/6 ばるどる: re-weighed
+PASS  door XXXIII/10 じょるど: re-weighed
+PASS  door XXXIII/10 ねるとふす: re-weighed
+PASS  door XXXIII/13 まに: re-weighed
+PASS  door XXXIII/13 すかでぃ: re-weighed
+PASS  door XXXIII/16 しふ: re-weighed
+PASS  door XXXIII/16 えいる: re-weighed
+PASS  door XXXIII/23 んじょるど: re-weighed
+PASS  door XXXIII/23 あえぎる: re-weighed
+PASS  door XXXIII/30 そる: re-weighed
+PASS  door XXXIII/31 するとる: re-weighed
+PASS  door XXXIII/31 bis おでぃん: re-weighed
+PASS  door XXXIII/32 bis ねるとふす: re-weighed
+PASS  door XXXIII/32 bis えるだ: re-weighed
+PASS  door XLIII/24 こにうむ: re-weighed
+PASS  door XLIII/24 こにうむ まくらとぅむ: re-weighed
+PASS  door XLIII/24 こにうむ まくらとぅむ: re-weighed
+PASS  door XLIII/24 こにうむ まくらとぅむ: re-weighed
+PASS  door XLIII/25 さるびあ: re-weighed
+PASS  door XLIII/25 さるびあ おっふぃきなりす: re-weighed
+PASS  door XLIII/25 さるびあ おっふぃきなりす: re-weighed
+PASS  door XLIII/27 むすたるど: re-weighed
+PASS  door XLIII/27 しなぴす: re-weighed
+PASS  door XLIII/27 かぷしくむ: re-weighed
+PASS  door XLIII/31 じんぎべる: re-weighed
+PASS  door XLIII/31 じんぎべる おっふぃきなれ: re-weighed
+PASS  door XLIII/31 じんぎべる おっふぃきなれ: re-weighed
+PASS  door XLIII/31 かぷしくむ: re-weighed
+PASS  door XLIII/31 かぷしくむ あんぬうむ: re-weighed
+PASS  door XLIII/32 bis まんどらごら: re-weighed
+PASS  door XLIII/32 bis まんどらごら おっふぃきなるむ: re-weighed
+PASS  door XLIII/32 bis まんどらごら おっふぃきなるむ: re-weighed
+PASS  door XLIV/4 てぃん: re-weighed
+PASS  door XLIV/6 ごるど: re-weighed
+PASS  door XLIV/11 さる ぼらてぃれ: re-weighed
+PASS  door XLIV/13 るなる かうすてぃく: re-weighed
+PASS  door XLIV/14 こっぺる: re-weighed
+PASS  door XLIV/14 ぶるえ びとりおる: re-weighed
+PASS  door XLIV/15 くろくす まるてぃす: re-weighed
+PASS  door XLIV/16 まらちて: re-weighed
+PASS  door XLIV/17 きんなばる: re-weighed
+PASS  door XLIV/18 こらる: re-weighed
+PASS  door XLIV/18 ぺあるる: re-weighed
+PASS  door XLIV/19 おるぴめんと: re-weighed
+PASS  door XLIV/19 あうりぴぐめんとぅむ: re-weighed
+PASS  door XLIV/20 きんなばる: re-weighed
+PASS  door XLIV/21 てぃん: re-weighed
+PASS  door XLIV/21 すたんんぶむ: re-weighed
+PASS  door XLIV/22 こっぺる: re-weighed
+PASS  door XLIV/22 くぶぷるぶむ: re-weighed
+PASS  door XLIV/26 すてぃびぶむ: re-weighed
+PASS  door XLIV/28 あるむ: re-weighed
+PASS  door XLIV/28 あるぶむ: re-weighed
+PASS  door XLIV/29 いおでぃね: re-weighed
+PASS  door XLIV/29 さると: re-weighed
+PASS  door XLIV/30 ごるど: re-weighed
+PASS  door XLIV/30 あぶるぶむ: re-weighed
+PASS  door XLVI/4 とぅい: re-weighed
+PASS  door XLVI/4 くひえん: re-weighed
+PASS  door XLVI/5 くぶん: re-weighed
+PASS  door XLVI/7 とぅい: re-weighed
+PASS  door XLVI/7 すん: re-weighed
+PASS  door XLVI/8 り: re-weighed
+PASS  door XLVI/9 かん: re-weighed
+PASS  door XLVI/15 り: re-weighed
+PASS  door XLVI/16 くはん: re-weighed
+PASS  door XLVI/16 くふわん: re-weighed
+PASS  door XLVI/17 すん: re-weighed
+PASS  door XLVI/18 かん: re-weighed
+PASS  door XLVI/19 くぶん: re-weighed
+PASS  door XLVI/20 くぶん: re-weighed
+PASS  door XLVI/24 くはん: re-weighed
+PASS  door XLVI/25 くはん り: re-weighed
+PASS  door XLVI/26 くはん: re-weighed
+PASS  door XLVI/28 くひえん: re-weighed
+PASS  door XLVI/29 とぅい: re-weighed
+PASS  door XLVI/31 bis すん: re-weighed
+PASS  door XLVII/8 (empty): re-weighed
+PASS  door XLVII/9 (empty): re-weighed
+PASS  door XLVII/17 (empty): re-weighed
+PASS  door XLVII/17 (empty): re-weighed
+PASS  door XLVII/17 (empty): re-weighed
+PASS  door XLVII/17 ばるかん: re-weighed
+PASS  door XLVII/22 (empty): re-weighed
+PASS  door XLVII/25 (empty): re-weighed
+PASS  door XLVII/25 しゃむふりしゅ: re-weighed
+PASS  door XLVII/26 (empty): re-weighed
+PASS  door XLVII/26 まゆむん: re-weighed
+PASS  door XLVII/27 とへ れど おね: re-weighed
+PASS  door XLVII/30 とへ ぎるでる: re-weighed
+PASS  door XLVII/31 bis (empty): re-weighed
+PASS  door XLVII/31 bis じゃんん: re-weighed
+PASS  door XLVII/32 とへ ふぉるとぅなて: re-weighed
+PASS  door XLVII/32 bis あまいもん: re-weighed
+PASS  door LI/32 bis と: re-weighed
+PASS  door LIII/8 さむぴ: re-weighed
+PASS  door LVI/31 bis とへ りべる おふ えでん うんでぃびでど そうるけ: re-weighed
+PASS  door LVI/31 bis なはる: re-weighed
+PASS  door LVII/31 bis とくふ: re-weighed
+PASS  door LVII/31 bis けんとれ: re-weighed
+PASS  door LVII/31 bis あどない: re-weighed
+PASS  door LVIII/31 bis えれくさるぺふ こまなぬ たびとむ とへ とふれえ あんげるす るりんぐ とへ たぶれと おふ うにおん: re-weighed
+PASS  door LVIII/31 bis こまなぬ: re-weighed
+PASS  door LVIII/31 bis たびとむ: re-weighed
+PASS  door LXIII/31 bis あだむ かどもん とへ ふぃふとふ をるるど あぼべ あとじるとふ: re-weighed
+PASS  door LXIII/31 bis あだむ かどもん: re-weighed
+PASS  door CVIII/1 さたん: re-weighed
+PASS  door CVIII/1 もろちゅ: re-weighed
+PASS  door CVIII/2 べえるぜぶぶ: re-weighed
+PASS  door CXXXII/1 とへ ろおと おふ とへ ぽゑるす おふ えあるとふ: re-weighed
+PASS  door CLXXXV/4 (empty): re-weighed
+PASS  door CLXXXV/7 (empty): re-weighed
+PASS  door CLXXXVII/1 ある: re-weighed
+PASS  door CLXXXVII/1 あひふ: re-weighed
+PASS  door CLXXXVII/1 いあ: re-weighed
+PASS  door CLXXXVII/8 あめん: re-weighed
+PASS  door CLXXXVII/11 あるぷふ: re-weighed
+PASS  door CLXXXVII/11 あいる: re-weighed
+PASS  door CLXXXVII/11 (empty): re-weighed
+PASS  door CLXXXVII/11 (empty): re-weighed
+PASS  door CLXXXVII/12 びとふ: re-weighed
+PASS  door CLXXXVII/12 へるめす: re-weighed
+PASS  door CLXXXVII/12 とほとふ: re-weighed
+PASS  door CLXXXVII/15 は: re-weighed
+PASS  door CLXXXVII/15 あぞとふ: re-weighed
+PASS  door CLXXXVII/17 じん: re-weighed
+PASS  door CLXXXVII/17 あぽっろ: re-weighed
+PASS  door CLXXXVII/17 でるぷひ: re-weighed
+PASS  door CLXXXVII/20 ゆぶど: re-weighed
+PASS  door CLXXXVII/20 るぶくす: re-weighed
+PASS  door CLXXXVII/20 れちぇむ: re-weighed
+PASS  door CLXXXVII/21 くぷふ: re-weighed
+PASS  door CLXXXVII/21 じゅぴてる: re-weighed
+PASS  door CLXXXVII/21 ぜうす: re-weighed
+PASS  door CLXXXVII/22 るむど: re-weighed
+PASS  door CLXXXVII/22 まあと: re-weighed
+PASS  door CLXXXVII/22 りぶら: re-weighed
+PASS  door CLXXXVII/22 くろっす: re-weighed
+PASS  door CLXXXVII/23 あくあ: re-weighed
+PASS  door CLXXXVII/23 かりくす: re-weighed
+PASS  door CLXXXVII/23 びぬむ: re-weighed
+PASS  door CLXXXVII/27 ぐらでぃうす: re-weighed
+PASS  door CLXXXVII/27 ふぇっるむ: re-weighed
+PASS  door CLXXXVII/28 とふす: re-weighed
+PASS  door CLXXXVII/29 すぺくるむ: re-weighed
+PASS  door CLXXXVII/29 るな: re-weighed
+PASS  door CLXXXVII/31 いぐにす: re-weighed
+PASS  door CLXXXVII/31 るくす: re-weighed
+PASS  door CLXXXVII/31 らむぱす: re-weighed
+PASS  door CLXXXVII/31 bis おぶむ: re-weighed
+PASS  door CLXXXVII/31 bis すぴりとぅす: re-weighed
+PASS  door CLXXXVII/32 ふぁるくす: re-weighed
+PASS  door CLXXXVII/32 めっしす: re-weighed
+PASS  door CLXXXVII/32 bis さる: re-weighed
+PASS  door CLXXXVII/32 bis てっら: re-weighed
+PASS  door CLXXXVII/32 bis ぱにす: re-weighed
+PASS  the register's 13 empty-rendering door rows, all filed 0
+PASS  plate hole register: 74 rows
+PASS  plate hole rows == register rows, in order
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  vowel seat あ == 1
+PASS  vowel seat い == 2
+PASS  vowel seat う == 3
+PASS  vowel seat え == 4
+PASS  vowel seat お == 5
+PASS  station α == 1
+PASS  station ε == 5
+PASS  station ι == 10
+PASS  station ο == 70
+PASS  the Nine sum 1779 without VV
+PASS  zero face stands in §IV
+PASS  PDF layer carries bridge ゆず
+PASS  PDF layer carries bridge かな
+PASS  PDF layer carries bridge しおん
+PASS  PDF layer carries the zero face
+PASS  PDF layer carries all 73 base hiragana
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (26 of 26)
+
+VERDICT: PASS — 519 checks, 0 failures
