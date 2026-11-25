@@ -1,0 +1,349 @@
+PLATE-X-CYRILLIC — independent audit
+checks: 344 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  canonical table: 27 rows parsed
+PASS  seat 1 А: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 2 В: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 3 Г: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 4 Д: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 5 Е: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 6 Ѕ: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 7 З: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 8 И: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 9 Ѳ: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 10 І: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 11 К: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 12 Л: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 13 М: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 14 Н: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 15 Ѯ: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 16 О: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 17 П: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 18 Ч: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 19 Р: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 20 С: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 21 Т: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 22 У: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 23 Ф: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 24 Х: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 25 Ѱ: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 26 Ѡ: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  seat 27 Ц: letter, parent, name, value, class == engine + frozen CSV + living GREEK
+PASS  canonical sum 4995 printed
+PASS  canonical sum == Milesian sum
+PASS  class sums 45/450/4500
+PASS  variant table: 6 rows parsed
+PASS  variant Ѵ: seat, holder, name, value == bank + frozen CSV
+PASS  variant Ꙋ: seat, holder, name, value == bank + frozen CSV
+PASS  variant Ѹ: seat, holder, name, value == bank + frozen CSV
+PASS  variant Ѿ: seat, holder, name, value == bank + frozen CSV
+PASS  variant Ꙍ: seat, holder, name, value == bank + frozen CSV
+PASS  variant Ѧ: seat, holder, name, value == bank + frozen CSV
+PASS  the 400-seat carries 4 writings in the bank
+PASS  the 800-seat carries 3 writings in the bank
+PASS  the 900-seat carries 2 writings in the bank
+PASS  33 keys, 27 distinct values, sum 8695, maximum 900
+PASS  bank sum 8695 printed
+PASS  the descent's value sets identical: canonical values == the parent's 27 seat values
+PASS  worked example ѰЗ == 707
+PASS  plate prints ѰЗ at 707
+PASS  worked example ЦЧѲ == 999
+PASS  plate prints ЦЧѲ at 999
+PASS  worked example РНГ == 153
+PASS  plate prints РНГ at 153
+PASS  worked example КЗ == 27
+PASS  plate prints КЗ at 27
+PASS  worked example ОВ == 72
+PASS  plate prints ОВ at 72
+PASS  door exhibit ҂Ѕ == 6000
+PASS  plate prints ҂Ѕ at 6000
+PASS  door exhibit ҂Л҂В == 32000
+PASS  plate prints ҂Л҂В at 32000
+PASS  door exhibit ҂АѰЕ == 1705
+PASS  plate prints ҂АѰЕ at 1705
+PASS  door exhibit ҂ЗРИІ == 7118
+PASS  plate prints ҂ЗРИІ at 7118
+PASS  the titlo counted, priced never: А҃ == 1, 1 titlo
+PASS  the higher signs counted, priced none: А҉ == 1, 1 higher mark
+PASS  weigh() prices no thousands sign: ҂Ѕ == 6 at the raw bank
+PASS  cherv at its canonical price: Ч == 90
+PASS  the koppa-letter's silence: Ҁ == 0, empty breakdown
+PASS  refused-pair table: 2 rows parsed
+PASS  refused pair as filed: Ч/60 refused, Ҁ/90 refused
+PASS  modern letter Б: silence at the bank
+PASS  modern letter Ж: silence at the bank
+PASS  modern letter Ш: silence at the bank
+PASS  modern letter Щ: silence at the bank
+PASS  modern letter Ъ: silence at the bank
+PASS  modern letter Ы: silence at the bank
+PASS  modern letter Ь: silence at the bank
+PASS  modern letter Э: silence at the bank
+PASS  modern letter Ю: silence at the bank
+PASS  modern letter Я: silence at the bank
+PASS  modern letter Й: silence at the bank
+PASS  the case fold: и == 8; ѹ == 400; ѱз == 707
+PASS  register census == (0, 180, 62, 43, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 180
+PASS  plate prints census HOLE 62
+PASS  plate prints census FENCED 43
+PASS  plate door register: 180 rows
+PASS  plate door rows == register rows, in order
+PASS  door III/31 bis ТООѲ: re-weighed
+PASS  door III/32 bis ТАУ АС ЕГІПТІАН: re-weighed
+PASS  door VI/13 ЛЕВАНАХ: re-weighed
+PASS  door VI/14 НОГАХ: re-weighed
+PASS  door VI/21 ТЗЕДЕК: re-weighed
+PASS  door VI/27 МАДІМ: re-weighed
+PASS  door VIII/13 ГАМАЛІЕЛ: re-weighed
+PASS  door VIII/23 АРІТОН: re-weighed
+PASS  door VIII/30 ѲАГІРІРОН: re-weighed
+PASS  door VIII/31 ПАІМОН: re-weighed
+PASS  door VIII/32 САТАРІЕЛ: re-weighed
+PASS  door VIII/32 bis АМАІМОН: re-weighed
+PASS  door XX/31 bis АТУМ: re-weighed
+PASS  door XXI/18 ХОРМАХУ: re-weighed
+PASS  door XXI/18 ХЕФРА: re-weighed
+PASS  door XXI/20 ХЕРУ ПА КРААѲ: re-weighed
+PASS  door XXI/20 ІСІС: re-weighed
+PASS  door XXI/22 МААТ: re-weighed
+PASS  door XXI/22 МА: re-weighed
+PASS  door XXI/25 НЕФѲІС: re-weighed
+PASS  door XXI/25 АРВУЕРІ: re-weighed
+PASS  door XXIV/2 САВІКАЛПА САМАДХІ: re-weighed
+PASS  door XXIV/2 МУДІТА САМАДХІ: re-weighed
+PASS  door XXIV/3 МАХАКАРУНА: re-weighed
+PASS  door XXIV/4 МЕТТА САМАДХІ: re-weighed
+PASS  door XXIV/5 АМАТА: re-weighed
+PASS  door XXIV/5 САМВЕГА: re-weighed
+PASS  door XXIV/7 ДЕВА ДАРСАНА: re-weighed
+PASS  door XXIV/8 ІДДХІ: re-weighed
+PASS  door XXIV/9 СОТАПАТТІ: re-weighed
+PASS  door XXIV/9 ДХАММАКАКХУ: re-weighed
+PASS  door XXIV/12 АППАНА: re-weighed
+PASS  door XXIV/15 КАРМА ІОГА: re-weighed
+PASS  door XXIV/17 ІНАНА ІОГА: re-weighed
+PASS  door XXIV/18 МАНТРА ІОГА: re-weighed
+PASS  door XXIV/19 ТАПАС СІДДХІ: re-weighed
+PASS  door XXIV/21 РАІА ІОГА: re-weighed
+PASS  door XXIV/27 МАНГАЛА: re-weighed
+PASS  door XXXIII/10 ІОРД: re-weighed
+PASS  door XXXIII/10 НЕРѲУС: re-weighed
+PASS  door XXXIII/13 МАНІ: re-weighed
+PASS  door XXXIII/13 СКАДІ: re-weighed
+PASS  door XXXIII/16 СІФ: re-weighed
+PASS  door XXXIII/16 ЕІР: re-weighed
+PASS  door XXXIII/23 НІОРД: re-weighed
+PASS  door XXXIII/23 АЕГІР: re-weighed
+PASS  door XXXIII/30 СОЛ: re-weighed
+PASS  door XXXIII/31 СУРТР: re-weighed
+PASS  door XXXIII/31 bis ОДІН: re-weighed
+PASS  door XXXIII/32 bis НЕРѲУС: re-weighed
+PASS  door XXXIII/32 bis ЕРДА: re-weighed
+PASS  door XLIII/24 КОНІУМ: re-weighed
+PASS  door XLIII/24 КОНІУМ МАКУЛАТУМ: re-weighed
+PASS  door XLIII/24 КОНІУМ МАКУЛАТУМ: re-weighed
+PASS  door XLIII/24 КОНІУМ МАКУЛАТУМ: re-weighed
+PASS  door XLIII/25 САЛВІА: re-weighed
+PASS  door XLIII/25 САЛВІА ОФФІКІНАЛІС: re-weighed
+PASS  door XLIII/25 САЛВІА ОФФІКІНАЛІС: re-weighed
+PASS  door XLIII/27 МУСТАРД: re-weighed
+PASS  door XLIII/27 СІНАПІС: re-weighed
+PASS  door XLIII/27 КАѰІКУМ: re-weighed
+PASS  door XLIII/31 КАѰІКУМ: re-weighed
+PASS  door XLIII/31 КАѰІКУМ АННУУМ: re-weighed
+PASS  door XLIII/31 КАѰІКУМ АННУУМ ЧІЛІ КАІЕННЕ: re-weighed
+PASS  door XLIII/31 КАѰІКУМ АННУУМ ЧІЛІ КАІЕННЕ: re-weighed
+PASS  door XLIII/32 bis МАНДРАГОРА: re-weighed
+PASS  door XLIII/32 bis МАНДРАГОРА ОФФІКІНАРУМ: re-weighed
+PASS  door XLIII/32 bis МАНДРАГОРА ОФФІКІНАРУМ: re-weighed
+PASS  door XLIV/4 ТІН: re-weighed
+PASS  door XLIV/6 ГОЛД: re-weighed
+PASS  door XLIV/11 САЛ ВОЛАТІЛЕ: re-weighed
+PASS  door XLIV/13 ЛУНАР КАУСТІК: re-weighed
+PASS  door XLIV/14 КОППЕР: re-weighed
+PASS  door XLIV/15 КРОКУС МАРТІС: re-weighed
+PASS  door XLIV/16 МАЛАЧІТЕ: re-weighed
+PASS  door XLIV/18 КОРАЛ: re-weighed
+PASS  door XLIV/18 ПЕАРЛ: re-weighed
+PASS  door XLIV/19 ОРПІМЕНТ: re-weighed
+PASS  door XLIV/19 АУРІПІГМЕНТУМ: re-weighed
+PASS  door XLIV/21 ТІН: re-weighed
+PASS  door XLIV/21 СТАННВМ: re-weighed
+PASS  door XLIV/22 КОППЕР: re-weighed
+PASS  door XLIV/22 КВПРВМ: re-weighed
+PASS  door XLIV/26 АНТІМОНІ: re-weighed
+PASS  door XLIV/28 АЛУМ: re-weighed
+PASS  door XLIV/28 АЛВМ: re-weighed
+PASS  door XLIV/29 ІОДІНЕ: re-weighed
+PASS  door XLIV/29 САЛТ: re-weighed
+PASS  door XLIV/30 ГОЛД: re-weighed
+PASS  door XLIV/30 АВРВМ: re-weighed
+PASS  door XLVI/4 ТУІ: re-weighed
+PASS  door XLVI/4 ХІЕН: re-weighed
+PASS  door XLVI/7 ТУІ: re-weighed
+PASS  door XLVI/7 СУН: re-weighed
+PASS  door XLVI/8 ЛІ: re-weighed
+PASS  door XLVI/9 КАН: re-weighed
+PASS  door XLVI/15 ЛІ: re-weighed
+PASS  door XLVI/16 ХАН: re-weighed
+PASS  door XLVI/16 ХВАН: re-weighed
+PASS  door XLVI/17 СУН: re-weighed
+PASS  door XLVI/18 КАН: re-weighed
+PASS  door XLVI/24 ХАН: re-weighed
+PASS  door XLVI/25 ХАН ЛІ: re-weighed
+PASS  door XLVI/26 ХАН: re-weighed
+PASS  door XLVI/28 ХІЕН: re-weighed
+PASS  door XLVI/29 ТУІ: re-weighed
+PASS  door XLVI/31 bis СУН: re-weighed
+PASS  door XLVII/8 : re-weighed
+PASS  door XLVII/9 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/22 : re-weighed
+PASS  door XLVII/25 : re-weighed
+PASS  door XLVII/26 : re-weighed
+PASS  door XLVII/26 МАІМУН: re-weighed
+PASS  door XLVII/27 ѲЕ РЕД ОНЕ: re-weighed
+PASS  door XLVII/30 ѲЕ ГІЛДЕР: re-weighed
+PASS  door XLVII/31 bis : re-weighed
+PASS  door XLVII/31 bis ІАНН: re-weighed
+PASS  door XLVII/32 ѲЕ ФОРТУНАТЕ: re-weighed
+PASS  door XLVII/32 bis АМАІМОН: re-weighed
+PASS  door LI/32 bis Т: re-weighed
+PASS  door LIII/8 САМПІ: re-weighed
+PASS  door LVI/31 bis ѲЕ РІВЕР ОФ ЕДЕН УНДІВІДЕД СОУРКЕ: re-weighed
+PASS  door LVI/31 bis НАХАР: re-weighed
+PASS  door LVII/31 bis ТОХ: re-weighed
+PASS  door LVII/31 bis КЕНТРЕ: re-weighed
+PASS  door LVII/31 bis АДОНАІ: re-weighed
+PASS  door LVIII/31 bis КОМАНАНУ: re-weighed
+PASS  door LXIII/31 bis АДАМ КАДМОН: re-weighed
+PASS  door CVIII/1 САТАН: re-weighed
+PASS  door CVIII/1 МОЛОЧ: re-weighed
+PASS  door CXXXII/1 ѲЕ РООТ ОФ ѲЕ ПОВЕРС ОФ ЕАРѲ: re-weighed
+PASS  door CLXXXV/4 : re-weighed
+PASS  door CLXXXV/7 : re-weighed
+PASS  door CLXXXVII/1 АЛ: re-weighed
+PASS  door CLXXXVII/1 АХІХ: re-weighed
+PASS  door CLXXXVII/1 ІА: re-weighed
+PASS  door CLXXXVII/8 АМЕН: re-weighed
+PASS  door CLXXXVII/11 АЛФ: re-weighed
+PASS  door CLXXXVII/11 АІР: re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/12 ХЕРМЕС: re-weighed
+PASS  door CLXXXVII/12 ѲОѲ: re-weighed
+PASS  door CLXXXVII/15 ХА: re-weighed
+PASS  door CLXXXVII/15 ЕНЕРГІ: re-weighed
+PASS  door CLXXXVII/15 АЗОѲ: re-weighed
+PASS  door CLXXXVII/17 ЗІН: re-weighed
+PASS  door CLXXXVII/17 АПОЛЛО: re-weighed
+PASS  door CLXXXVII/17 ДЕЛФІ: re-weighed
+PASS  door CLXXXVII/20 ІВД: re-weighed
+PASS  door CLXXXVII/20 ЛВѮ: re-weighed
+PASS  door CLXXXVII/20 ЛЕЧЕМ: re-weighed
+PASS  door CLXXXVII/21 КФ: re-weighed
+PASS  door CLXXXVII/21 ІУПІТЕР: re-weighed
+PASS  door CLXXXVII/21 ЗЕУС: re-weighed
+PASS  door CLXXXVII/22 ЛМД: re-weighed
+PASS  door CLXXXVII/22 МІЗНІМ: re-weighed
+PASS  door CLXXXVII/22 МААТ: re-weighed
+PASS  door CLXXXVII/22 КРОСС: re-weighed
+PASS  door CLXXXVII/23 АКУА: re-weighed
+PASS  door CLXXXVII/23 КАЛІѮ: re-weighed
+PASS  door CLXXXVII/23 ВІНУМ: re-weighed
+PASS  door CLXXXVII/27 ГЛАДІУС: re-weighed
+PASS  door CLXXXVII/27 ФЕРРУМ: re-weighed
+PASS  door CLXXXVII/28 ѲУС: re-weighed
+PASS  door CLXXXVII/29 СПЕКУЛУМ: re-weighed
+PASS  door CLXXXVII/29 ЛУНА: re-weighed
+PASS  door CLXXXVII/31 ІГНІС: re-weighed
+PASS  door CLXXXVII/31 ЛУѮ: re-weighed
+PASS  door CLXXXVII/31 ЛАМПАС: re-weighed
+PASS  door CLXXXVII/31 bis ОВУМ: re-weighed
+PASS  door CLXXXVII/31 bis СПІРІТУС: re-weighed
+PASS  door CLXXXVII/32 ФАЛѮ: re-weighed
+PASS  door CLXXXVII/32 МЕССІС: re-weighed
+PASS  door CLXXXVII/32 bis САЛ: re-weighed
+PASS  door CLXXXVII/32 bis ТЕРРА: re-weighed
+PASS  door CLXXXVII/32 bis ПАНІС: re-weighed
+PASS  plate fenced register: 43 rows
+PASS  plate fenced rows == register rows, in order
+PASS  fenced VI/30 ШЕМЕШ: crosses a fenced letter, value the dash
+PASS  fenced VI/32 ШАББАѲАІ: crosses a fenced letter, value the dash
+PASS  fenced VIII/14 ААРАБ ЗАРАК: crosses a fenced letter, value the dash
+PASS  fenced VIII/21 ГХААГШЕКЛАХ: crosses a fenced letter, value the dash
+PASS  fenced VIII/27 ГОЛАЧАБ: crosses a fenced letter, value the dash
+PASS  fenced XX/32 bis СЕБ: crosses a fenced letter, value the dash
+PASS  fenced XXIV/3 БОДХІКІТТА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/4 БРАХМАВІХАРА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/7 САЮІЯ: crosses a fenced letter, value the dash
+PASS  fenced XXIV/8 ВІБХУТІ: crosses a fenced letter, value the dash
+PASS  fenced XXIV/12 ПАТІБХАГА НІМІТТА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/17 БУДХА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/18 СОМА БХАВАНА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/19 ТЕІО БХАВАНА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/20 КРІЯ ІОГА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/20 ВІВЕКА БХАВАНА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/21 ГУРУ ДАРШАНА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/22 ТУЛА БХАВАНА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/22 ДХАРМА ДАРШАНА: crosses a fenced letter, value the dash
+PASS  fenced XXIV/32 ШАНІ: crosses a fenced letter, value the dash
+PASS  fenced XXXIII/6 БАЛДР: crosses a fenced letter, value the dash
+PASS  fenced XLIII/31 ЗІНГІБЕР: crosses a fenced letter, value the dash
+PASS  fenced XLIII/31 ЗІНГІБЕР ОФФІКІНАЛЕ: crosses a fenced letter, value the dash
+PASS  fenced XLIII/31 ЗІНГІБЕР ОФФІКІНАЛЕ: crosses a fenced letter, value the dash
+PASS  fenced XLIV/14 БЛУЕ ВІТРІОЛ: crosses a fenced letter, value the dash
+PASS  fenced XLIV/17 КІННАБАР: crosses a fenced letter, value the dash
+PASS  fenced XLIV/20 КІННАБАР: crosses a fenced letter, value the dash
+PASS  fenced XLIV/26 СТІБІВМ: crosses a fenced letter, value the dash
+PASS  fenced XLVI/5 КБН: crosses a fenced letter, value the dash
+PASS  fenced XLVI/19 КБН: crosses a fenced letter, value the dash
+PASS  fenced XLVI/20 КБН: crosses a fenced letter, value the dash
+PASS  fenced XLVI/22 ХІЕН ХВБН: crosses a fenced letter, value the dash
+PASS  fenced XLVI/24 ХВБН: crosses a fenced letter, value the dash
+PASS  fenced XLVI/26 ХВБН: crosses a fenced letter, value the dash
+PASS  fenced XLVII/17 БАРКАН: crosses a fenced letter, value the dash
+PASS  fenced XLVII/22 ЗАВБААХ: crosses a fenced letter, value the dash
+PASS  fenced XLVII/25 ШАМХУРІШ: crosses a fenced letter, value the dash
+PASS  fenced LVIII/31 bis ЕЛЕѮАРПЕХ КОМАНАНУ ТАБІТОМ ѲЕ ѲРЕЕ АНГЕЛС РУЛІНГ ѲЕ ТАБЛЕТ ОФ УНІОН: crosses a fenced letter, value the dash
+PASS  fenced LVIII/31 bis ТАБІТОМ: crosses a fenced letter, value the dash
+PASS  fenced LXIII/31 bis АДАМ КАДМОН ѲЕ ФІФѲ ВОРЛД АБОВЕ АТЗІЛУѲ: crosses a fenced letter, value the dash
+PASS  fenced CVIII/2 БЕЕЛЗЕБУБ: crosses a fenced letter, value the dash
+PASS  fenced CLXXXVII/12 БІѲ: crosses a fenced letter, value the dash
+PASS  fenced CLXXXVII/22 ЛІБРА: crosses a fenced letter, value the dash
+PASS  plate hole register: 62 rows
+PASS  plate hole rows == register rows, in order
+PASS  every hole rendering is the register's dash
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  plate prints the claim count: 0
+PASS  the zero face stands in §IV
+PASS  §V vowel table: 7 rows parsed
+PASS  §V vowel А: price == bank
+PASS  §V vowel Е: price == bank
+PASS  §V vowel И: price == bank
+PASS  §V vowel І: price == bank
+PASS  §V vowel О: price == bank
+PASS  §V vowel У: price == bank
+PASS  §V vowel Ѡ: price == bank
+PASS  the mirror seven at the Greek prices 1/5/8/10/70/400/800
+PASS  the 8 seated: η == 8 in greek
+PASS  the 8 seated: ⲏ == 8 in coptic
+PASS  the 8 seated: И == 8 in cyrillic
+PASS  the 8 seated: Ը == 8 in armenian
+PASS  the 8 seated: ჱ == 8 in georgian
+PASS  the mirror witnesses: І == 10, Ѡ == 800 in cyrillic
+PASS  the counterweights: Latin I == 9 (ordinal); O == 15 (ordinal), 50 (Agrippa)
+PASS  οὐδέν == 529 in greek
+PASS  the Nine sum 1779
+PASS  PDF layer carries all 33 letters
+PASS  PDF layer carries the zero face's statement
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (28 of 28)
+
+VERDICT: PASS — 344 checks, 0 failures
