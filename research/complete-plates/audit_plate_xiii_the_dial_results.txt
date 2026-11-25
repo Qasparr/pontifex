@@ -1,0 +1,169 @@
+PLATE-XIII-THE-DIAL — independent audit
+checks: 164 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  station register: 13 rows
+PASS  stations in ring order 1–13
+PASS  station 1 Α: price re-weighed
+PASS  station 2 Ε: price re-weighed
+PASS  station 3 Η: price re-weighed
+PASS  station 4 Ι: price re-weighed
+PASS  station 5 Ο: price re-weighed
+PASS  station 6 Υ: price re-weighed
+PASS  station 7 Ω: price re-weighed
+PASS  station 8 ΕΙ: price re-weighed
+PASS  station 9 ΟΥ: price re-weighed
+PASS  station 10 γʹ: price re-weighed
+PASS  station 11 ϛʹ: price re-weighed
+PASS  station 12 κʹ: price re-weighed
+PASS  station 13 οὐδέν: price re-weighed
+PASS  οὐδέν letter by letter [70, 400, 4, 5, 50]
+PASS  529 == 23²
+PASS  the nine sum 1,779
+PASS  the relations sum 29
+PASS  the ring totals 1,808
+PASS  Frame A sums 811/90/878, roots 1/9/5
+PASS  Frame B sums 14/95/1670, roots 5/5/5
+PASS  coverage table: 9 rows
+PASS  coverage Α: frame columns recomputed
+PASS  coverage Α: class == POSITION
+PASS  coverage Ε: frame columns recomputed
+PASS  coverage Ε: class == VALUE
+PASS  coverage Η: frame columns recomputed
+PASS  coverage Η: class == VALUE
+PASS  coverage Ι: frame columns recomputed
+PASS  coverage Ι: class == VALUE
+PASS  coverage Ο: frame columns recomputed
+PASS  coverage Ο: class == TRIAD
+PASS  coverage Υ: frame columns recomputed
+PASS  coverage Υ: class == TRIAD
+PASS  coverage Ω: frame columns recomputed
+PASS  coverage Ω: class == VALUE
+PASS  coverage ΕΙ: frame columns recomputed
+PASS  coverage ΕΙ: class == TRIAD
+PASS  coverage ΟΥ: frame columns recomputed
+PASS  coverage ΟΥ: class == TRIAD
+PASS  dress table: 9 rows
+PASS  dress Α → A: Greek price re-weighed
+PASS  dress Α → A: ordinal re-weighed
+PASS  dress Α → A: Agrippa re-weighed
+PASS  dress Ε → E: Greek price re-weighed
+PASS  dress Ε → E: ordinal re-weighed
+PASS  dress Ε → E: Agrippa re-weighed
+PASS  dress Η → E: Greek price re-weighed
+PASS  dress Η → E: ordinal re-weighed
+PASS  dress Η → E: Agrippa re-weighed
+PASS  dress Ι → I: Greek price re-weighed
+PASS  dress Ι → I: ordinal re-weighed
+PASS  dress Ι → I: Agrippa re-weighed
+PASS  dress Ο → O: Greek price re-weighed
+PASS  dress Ο → O: ordinal re-weighed
+PASS  dress Ο → O: Agrippa re-weighed
+PASS  dress Υ → V: Greek price re-weighed
+PASS  dress Υ → V: ordinal re-weighed
+PASS  dress Υ → V: Agrippa re-weighed
+PASS  dress Ω → O: Greek price re-weighed
+PASS  dress Ω → O: ordinal re-weighed
+PASS  dress Ω → O: Agrippa re-weighed
+PASS  dress ΕΙ → EI: Greek price re-weighed
+PASS  dress ΕΙ → EI: ordinal re-weighed
+PASS  dress ΕΙ → EI: Agrippa re-weighed
+PASS  dress ΟΥ → OV: Greek price re-weighed
+PASS  dress ΟΥ → OV: ordinal re-weighed
+PASS  dress ΟΥ → OV: Agrippa re-weighed
+PASS  dress totals 123 ordinal / 584 Agrippa
+PASS  alternate Η → EI 14/14
+PASS  alternate Υ → Y 25/400, U 21/200
+PASS  alternate ΟΥ → V 22/200 (sound-dress)
+PASS  mirror ⲟⲩ == 470 in coptic
+PASS  mirror ⲏ == 8 in coptic
+PASS  mirror ⲓ == 10 in coptic
+PASS  mirror ⲱ == 800 in coptic
+PASS  mirror І == 10 in cyrillic
+PASS  mirror Ѡ == 800 in cyrillic
+PASS  mirror И == 8 in cyrillic
+PASS  mirror Ը == 8 in armenian
+PASS  mirror ჱ == 8 in georgian
+PASS  note bank: A == 1, E == 5
+PASS  PAIR: root(ΕΙ) == root(852) == 6
+PASS  PAIR: 852 is the solfeggio eighth; ΕΙ the canonical eighth
+PASS  diphthong four sum 576 == 24²
+PASS  Trinity grid total 2,486
+PASS  mirror closure: 1,779 − 3 == 1,776; 9 − 6 == 3 == γʹ
+PASS  step check: −5 mod 13 == 8 (the {13/8} polygon)
+PASS  inverse == forward reversed, station for station
+PASS  each traversal visits all 13 stations exactly once
+PASS  §IV forward sequence printed entire
+PASS  §IV inverse sequence printed entire
+PASS  §IV forward == re-derived forward
+PASS  §IV inverse == re-derived inverse
+PASS  poles: 31 + 13 == 44 == VV ordinal
+PASS  poles: 31 − 13 == 18 == II in both banks
+PASS  the poles stand in §V (13 N / 31 S)
+PASS  the vertical hair stands SEATED in §V.1
+PASS  the inversion office stands SEATED in §V.2
+PASS  the horizontal hair stands STILL OPEN in §V.3
+PASS  no E–W hair drawn: the record statement stands
+PASS  the float line named at the open seat
+PASS  Q3 printed NOT RULED BY THIS PLATE
+PASS  the dial appendix's desk ruling cited, not hidden
+PASS  the founder's Zero Point definition stands entire
+PASS  the eight open positions named in §III.5
+PASS  the four unsettled triads named in §III.5
+PASS  the Archons stand unnamed on the plate
+PASS  the hybrid placement law stands in §III.2
+PASS  series register: 12 tongue rows
+PASS  series I Greek: filed audit PASS
+PASS  series I Greek: plate row == filed register
+PASS  series I Greek: commit 196025e in repository
+PASS  series II Hebrew: filed audit PASS
+PASS  series II Hebrew: plate row == filed register
+PASS  series II Hebrew: commit 1389c16 in repository
+PASS  series III Arabic: filed audit PASS
+PASS  series III Arabic: plate row == filed register
+PASS  series III Arabic: commit 5f0b4bd in repository
+PASS  series IV Latin: filed audit PASS
+PASS  series IV Latin: plate row == filed register
+PASS  series IV Latin: commit 8e6f01e in repository
+PASS  series V Japanese: filed audit PASS
+PASS  series V Japanese: plate row == filed register
+PASS  series V Japanese: commit 8d6cd59 in repository
+PASS  series VI Ge'ez: filed audit PASS
+PASS  series VI Ge'ez: plate row == filed register
+PASS  series VI Ge'ez: commit 67d5acc in repository
+PASS  series VII Armenian: filed audit PASS
+PASS  series VII Armenian: plate row == filed register
+PASS  series VII Armenian: commit 5c03d88 in repository
+PASS  series VIII Coptic: filed audit PASS
+PASS  series VIII Coptic: plate row == filed register
+PASS  series VIII Coptic: commit 645bcbb in repository
+PASS  series IX Georgian: filed audit PASS
+PASS  series IX Georgian: plate row == filed register
+PASS  series IX Georgian: commit 933f8fd in repository
+PASS  series X Cyrillic: filed audit PASS
+PASS  series X Cyrillic: plate row == filed register
+PASS  series X Cyrillic: commit 052fd28 in repository
+PASS  series XI Glagolitic: filed audit PASS
+PASS  series XI Glagolitic: plate row == filed register
+PASS  series XI Glagolitic: commit b40abac in repository
+PASS  series XII Korean: filed audit PASS
+PASS  series XII Korean: plate row == filed register
+PASS  series XII Korean: commit 2ef9ba9 in repository
+PASS  series register: the XIII row stands
+PASS  PDF layer carries οὐδέν
+PASS  PDF layer carries 529
+PASS  PDF layer carries 13 N
+PASS  PDF layer carries 31 S
+PASS  PDF layer carries STILL OPEN
+PASS  PDF layer carries float line
+PASS  PDF layer carries Zero equals Two
+PASS  PDF layer carries 1,808
+PASS  PDF layer carries MIRROR ϛʹ
+PASS  PDF layer carries REFUSAL κʹ
+PASS  PDF layer carries OFFSET γʹ
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (17 of 17)
+
+VERDICT: PASS — 164 checks, 0 failures
