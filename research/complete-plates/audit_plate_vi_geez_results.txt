@@ -1,0 +1,1170 @@
+PLATE-VI-GEEZ — independent audit
+checks: 1165 · failed: 0
+
+PASS  control θέλημα == 93
+PASS  control VAPOUR == 93
+PASS  control σφίγξ == 773
+PASS  bases table: 26 rows parsed
+PASS  base 1 ሀ: first form 1 == both banks
+PASS  base 1 ሀ: class units
+PASS  fixed point at 1: value == position
+PASS  base 2 ለ: first form 2 == both banks
+PASS  base 2 ለ: class units
+PASS  fixed point at 2: value == position
+PASS  base 3 ሐ: first form 3 == both banks
+PASS  base 3 ሐ: class units
+PASS  fixed point at 3: value == position
+PASS  base 4 መ: first form 4 == both banks
+PASS  base 4 መ: class units
+PASS  fixed point at 4: value == position
+PASS  base 5 ሠ: first form 5 == both banks
+PASS  base 5 ሠ: class units
+PASS  fixed point at 5: value == position
+PASS  base 6 ረ: first form 6 == both banks
+PASS  base 6 ረ: class units
+PASS  fixed point at 6: value == position
+PASS  base 7 ሰ: first form 7 == both banks
+PASS  base 7 ሰ: class units
+PASS  fixed point at 7: value == position
+PASS  base 8 ቀ: first form 8 == both banks
+PASS  base 8 ቀ: class units
+PASS  fixed point at 8: value == position
+PASS  base 9 በ: first form 9 == both banks
+PASS  base 9 በ: class units
+PASS  fixed point at 9: value == position
+PASS  base 10 ተ: first form 10 == both banks
+PASS  base 10 ተ: class units
+PASS  fixed point at 10: value == position
+PASS  base 11 ኀ: first form 20 == both banks
+PASS  base 11 ኀ: class tens
+PASS  base 12 ነ: first form 30 == both banks
+PASS  base 12 ነ: class tens
+PASS  base 13 አ: first form 40 == both banks
+PASS  base 13 አ: class tens
+PASS  base 14 ከ: first form 50 == both banks
+PASS  base 14 ከ: class tens
+PASS  base 15 ወ: first form 60 == both banks
+PASS  base 15 ወ: class tens
+PASS  base 16 ዐ: first form 70 == both banks
+PASS  base 16 ዐ: class tens
+PASS  base 17 ዘ: first form 80 == both banks
+PASS  base 17 ዘ: class tens
+PASS  base 18 የ: first form 90 == both banks
+PASS  base 18 የ: class tens
+PASS  base 19 ደ: first form 100 == both banks
+PASS  base 19 ደ: class tens
+PASS  base 20 ገ: first form 200 == both banks
+PASS  base 20 ገ: class hundreds
+PASS  base 21 ጠ: first form 300 == both banks
+PASS  base 21 ጠ: class hundreds
+PASS  base 22 ጰ: first form 400 == both banks
+PASS  base 22 ጰ: class hundreds
+PASS  base 23 ጸ: first form 500 == both banks
+PASS  base 23 ጸ: class hundreds
+PASS  base 24 ፀ: first form 600 == both banks
+PASS  base 24 ፀ: class hundreds
+PASS  base 25 ፈ: first form 700 == both banks
+PASS  base 25 ፈ: class hundreds
+PASS  base 26 ፐ: first form 800 == both banks
+PASS  base 26 ፐ: class hundreds
+PASS  fixed point parts at 11: ኀ == 20 at position 11
+PASS  first-form sum 4095 printed
+PASS  first-form sum == 4095
+PASS  mint grid: 26 rows parsed
+PASS  mint row head ሀ (1)
+PASS  mint row ሀ: 7 cells
+PASS  mint cell ሀ: price == engine
+PASS  mint cell ሁ: price == engine
+PASS  mint cell ሂ: price == engine
+PASS  mint cell ሃ: price == engine
+PASS  mint cell ሄ: price == engine
+PASS  mint cell ህ: price == engine
+PASS  mint cell ሆ: price == engine
+PASS  mint row ሀ: sum == printed
+PASS  mint row head ለ (2)
+PASS  mint row ለ: 7 cells
+PASS  mint cell ለ: price == engine
+PASS  mint cell ሉ: price == engine
+PASS  mint cell ሊ: price == engine
+PASS  mint cell ላ: price == engine
+PASS  mint cell ሌ: price == engine
+PASS  mint cell ል: price == engine
+PASS  mint cell ሎ: price == engine
+PASS  mint row ለ: sum == printed
+PASS  mint row head ሐ (3)
+PASS  mint row ሐ: 7 cells
+PASS  mint cell ሐ: price == engine
+PASS  mint cell ሑ: price == engine
+PASS  mint cell ሒ: price == engine
+PASS  mint cell ሓ: price == engine
+PASS  mint cell ሔ: price == engine
+PASS  mint cell ሕ: price == engine
+PASS  mint cell ሖ: price == engine
+PASS  mint row ሐ: sum == printed
+PASS  mint row head መ (4)
+PASS  mint row መ: 7 cells
+PASS  mint cell መ: price == engine
+PASS  mint cell ሙ: price == engine
+PASS  mint cell ሚ: price == engine
+PASS  mint cell ማ: price == engine
+PASS  mint cell ሜ: price == engine
+PASS  mint cell ም: price == engine
+PASS  mint cell ሞ: price == engine
+PASS  mint row መ: sum == printed
+PASS  mint row head ሠ (5)
+PASS  mint row ሠ: 7 cells
+PASS  mint cell ሠ: price == engine
+PASS  mint cell ሡ: price == engine
+PASS  mint cell ሢ: price == engine
+PASS  mint cell ሣ: price == engine
+PASS  mint cell ሤ: price == engine
+PASS  mint cell ሥ: price == engine
+PASS  mint cell ሦ: price == engine
+PASS  mint row ሠ: sum == printed
+PASS  mint row head ረ (6)
+PASS  mint row ረ: 7 cells
+PASS  mint cell ረ: price == engine
+PASS  mint cell ሩ: price == engine
+PASS  mint cell ሪ: price == engine
+PASS  mint cell ራ: price == engine
+PASS  mint cell ሬ: price == engine
+PASS  mint cell ር: price == engine
+PASS  mint cell ሮ: price == engine
+PASS  mint row ረ: sum == printed
+PASS  mint row head ሰ (7)
+PASS  mint row ሰ: 7 cells
+PASS  mint cell ሰ: price == engine
+PASS  mint cell ሱ: price == engine
+PASS  mint cell ሲ: price == engine
+PASS  mint cell ሳ: price == engine
+PASS  mint cell ሴ: price == engine
+PASS  mint cell ስ: price == engine
+PASS  mint cell ሶ: price == engine
+PASS  mint row ሰ: sum == printed
+PASS  mint row head ቀ (8)
+PASS  mint row ቀ: 7 cells
+PASS  mint cell ቀ: price == engine
+PASS  mint cell ቁ: price == engine
+PASS  mint cell ቂ: price == engine
+PASS  mint cell ቃ: price == engine
+PASS  mint cell ቄ: price == engine
+PASS  mint cell ቅ: price == engine
+PASS  mint cell ቆ: price == engine
+PASS  mint row ቀ: sum == printed
+PASS  mint row head በ (9)
+PASS  mint row በ: 7 cells
+PASS  mint cell በ: price == engine
+PASS  mint cell ቡ: price == engine
+PASS  mint cell ቢ: price == engine
+PASS  mint cell ባ: price == engine
+PASS  mint cell ቤ: price == engine
+PASS  mint cell ብ: price == engine
+PASS  mint cell ቦ: price == engine
+PASS  mint row በ: sum == printed
+PASS  mint row head ተ (10)
+PASS  mint row ተ: 7 cells
+PASS  mint cell ተ: price == engine
+PASS  mint cell ቱ: price == engine
+PASS  mint cell ቲ: price == engine
+PASS  mint cell ታ: price == engine
+PASS  mint cell ቴ: price == engine
+PASS  mint cell ት: price == engine
+PASS  mint cell ቶ: price == engine
+PASS  mint row ተ: sum == printed
+PASS  mint row head ኀ (20)
+PASS  mint row ኀ: 7 cells
+PASS  mint cell ኀ: price == engine
+PASS  mint cell ኁ: price == engine
+PASS  mint cell ኂ: price == engine
+PASS  mint cell ኃ: price == engine
+PASS  mint cell ኄ: price == engine
+PASS  mint cell ኅ: price == engine
+PASS  mint cell ኆ: price == engine
+PASS  mint row ኀ: sum == printed
+PASS  mint row head ነ (30)
+PASS  mint row ነ: 7 cells
+PASS  mint cell ነ: price == engine
+PASS  mint cell ኑ: price == engine
+PASS  mint cell ኒ: price == engine
+PASS  mint cell ና: price == engine
+PASS  mint cell ኔ: price == engine
+PASS  mint cell ን: price == engine
+PASS  mint cell ኖ: price == engine
+PASS  mint row ነ: sum == printed
+PASS  mint row head አ (40)
+PASS  mint row አ: 7 cells
+PASS  mint cell አ: price == engine
+PASS  mint cell ኡ: price == engine
+PASS  mint cell ኢ: price == engine
+PASS  mint cell ኣ: price == engine
+PASS  mint cell ኤ: price == engine
+PASS  mint cell እ: price == engine
+PASS  mint cell ኦ: price == engine
+PASS  mint row አ: sum == printed
+PASS  mint row head ከ (50)
+PASS  mint row ከ: 7 cells
+PASS  mint cell ከ: price == engine
+PASS  mint cell ኩ: price == engine
+PASS  mint cell ኪ: price == engine
+PASS  mint cell ካ: price == engine
+PASS  mint cell ኬ: price == engine
+PASS  mint cell ክ: price == engine
+PASS  mint cell ኮ: price == engine
+PASS  mint row ከ: sum == printed
+PASS  mint row head ወ (60)
+PASS  mint row ወ: 7 cells
+PASS  mint cell ወ: price == engine
+PASS  mint cell ዉ: price == engine
+PASS  mint cell ዊ: price == engine
+PASS  mint cell ዋ: price == engine
+PASS  mint cell ዌ: price == engine
+PASS  mint cell ው: price == engine
+PASS  mint cell ዎ: price == engine
+PASS  mint row ወ: sum == printed
+PASS  mint row head ዐ (70)
+PASS  mint row ዐ: 7 cells
+PASS  mint cell ዐ: price == engine
+PASS  mint cell ዑ: price == engine
+PASS  mint cell ዒ: price == engine
+PASS  mint cell ዓ: price == engine
+PASS  mint cell ዔ: price == engine
+PASS  mint cell ዕ: price == engine
+PASS  mint cell ዖ: price == engine
+PASS  mint row ዐ: sum == printed
+PASS  mint row head ዘ (80)
+PASS  mint row ዘ: 7 cells
+PASS  mint cell ዘ: price == engine
+PASS  mint cell ዙ: price == engine
+PASS  mint cell ዚ: price == engine
+PASS  mint cell ዛ: price == engine
+PASS  mint cell ዜ: price == engine
+PASS  mint cell ዝ: price == engine
+PASS  mint cell ዞ: price == engine
+PASS  mint row ዘ: sum == printed
+PASS  mint row head የ (90)
+PASS  mint row የ: 7 cells
+PASS  mint cell የ: price == engine
+PASS  mint cell ዩ: price == engine
+PASS  mint cell ዪ: price == engine
+PASS  mint cell ያ: price == engine
+PASS  mint cell ዬ: price == engine
+PASS  mint cell ይ: price == engine
+PASS  mint cell ዮ: price == engine
+PASS  mint row የ: sum == printed
+PASS  mint row head ደ (100)
+PASS  mint row ደ: 7 cells
+PASS  mint cell ደ: price == engine
+PASS  mint cell ዱ: price == engine
+PASS  mint cell ዲ: price == engine
+PASS  mint cell ዳ: price == engine
+PASS  mint cell ዴ: price == engine
+PASS  mint cell ድ: price == engine
+PASS  mint cell ዶ: price == engine
+PASS  mint row ደ: sum == printed
+PASS  mint row head ገ (200)
+PASS  mint row ገ: 7 cells
+PASS  mint cell ገ: price == engine
+PASS  mint cell ጉ: price == engine
+PASS  mint cell ጊ: price == engine
+PASS  mint cell ጋ: price == engine
+PASS  mint cell ጌ: price == engine
+PASS  mint cell ግ: price == engine
+PASS  mint cell ጎ: price == engine
+PASS  mint row ገ: sum == printed
+PASS  mint row head ጠ (300)
+PASS  mint row ጠ: 7 cells
+PASS  mint cell ጠ: price == engine
+PASS  mint cell ጡ: price == engine
+PASS  mint cell ጢ: price == engine
+PASS  mint cell ጣ: price == engine
+PASS  mint cell ጤ: price == engine
+PASS  mint cell ጥ: price == engine
+PASS  mint cell ጦ: price == engine
+PASS  mint row ጠ: sum == printed
+PASS  mint row head ጰ (400)
+PASS  mint row ጰ: 7 cells
+PASS  mint cell ጰ: price == engine
+PASS  mint cell ጱ: price == engine
+PASS  mint cell ጲ: price == engine
+PASS  mint cell ጳ: price == engine
+PASS  mint cell ጴ: price == engine
+PASS  mint cell ጵ: price == engine
+PASS  mint cell ጶ: price == engine
+PASS  mint row ጰ: sum == printed
+PASS  mint row head ጸ (500)
+PASS  mint row ጸ: 7 cells
+PASS  mint cell ጸ: price == engine
+PASS  mint cell ጹ: price == engine
+PASS  mint cell ጺ: price == engine
+PASS  mint cell ጻ: price == engine
+PASS  mint cell ጼ: price == engine
+PASS  mint cell ጽ: price == engine
+PASS  mint cell ጾ: price == engine
+PASS  mint row ጸ: sum == printed
+PASS  mint row head ፀ (600)
+PASS  mint row ፀ: 7 cells
+PASS  mint cell ፀ: price == engine
+PASS  mint cell ፁ: price == engine
+PASS  mint cell ፂ: price == engine
+PASS  mint cell ፃ: price == engine
+PASS  mint cell ፄ: price == engine
+PASS  mint cell ፅ: price == engine
+PASS  mint cell ፆ: price == engine
+PASS  mint row ፀ: sum == printed
+PASS  mint row head ፈ (700)
+PASS  mint row ፈ: 7 cells
+PASS  mint cell ፈ: price == engine
+PASS  mint cell ፉ: price == engine
+PASS  mint cell ፊ: price == engine
+PASS  mint cell ፋ: price == engine
+PASS  mint cell ፌ: price == engine
+PASS  mint cell ፍ: price == engine
+PASS  mint cell ፎ: price == engine
+PASS  mint row ፈ: sum == printed
+PASS  mint row head ፐ (800)
+PASS  mint row ፐ: 7 cells
+PASS  mint cell ፐ: price == engine
+PASS  mint cell ፑ: price == engine
+PASS  mint cell ፒ: price == engine
+PASS  mint cell ፓ: price == engine
+PASS  mint cell ፔ: price == engine
+PASS  mint cell ፕ: price == engine
+PASS  mint cell ፖ: price == engine
+PASS  mint row ፐ: sum == printed
+PASS  witness grid: 26 rows parsed
+PASS  witness row head ሀ (1)
+PASS  witness row ሀ: 7 cells
+PASS  witness cell ሀ: price == engine
+PASS  witness cell ሁ: price == engine
+PASS  witness cell ሂ: price == engine
+PASS  witness cell ሃ: price == engine
+PASS  witness cell ሄ: price == engine
+PASS  witness cell ህ: price == engine
+PASS  witness cell ሆ: price == engine
+PASS  witness row ሀ: sum == printed
+PASS  witness row head ለ (2)
+PASS  witness row ለ: 7 cells
+PASS  witness cell ለ: price == engine
+PASS  witness cell ሉ: price == engine
+PASS  witness cell ሊ: price == engine
+PASS  witness cell ላ: price == engine
+PASS  witness cell ሌ: price == engine
+PASS  witness cell ል: price == engine
+PASS  witness cell ሎ: price == engine
+PASS  witness row ለ: sum == printed
+PASS  witness row head ሐ (3)
+PASS  witness row ሐ: 7 cells
+PASS  witness cell ሐ: price == engine
+PASS  witness cell ሑ: price == engine
+PASS  witness cell ሒ: price == engine
+PASS  witness cell ሓ: price == engine
+PASS  witness cell ሔ: price == engine
+PASS  witness cell ሕ: price == engine
+PASS  witness cell ሖ: price == engine
+PASS  witness row ሐ: sum == printed
+PASS  witness row head መ (4)
+PASS  witness row መ: 7 cells
+PASS  witness cell መ: price == engine
+PASS  witness cell ሙ: price == engine
+PASS  witness cell ሚ: price == engine
+PASS  witness cell ማ: price == engine
+PASS  witness cell ሜ: price == engine
+PASS  witness cell ም: price == engine
+PASS  witness cell ሞ: price == engine
+PASS  witness row መ: sum == printed
+PASS  witness row head ሠ (5)
+PASS  witness row ሠ: 7 cells
+PASS  witness cell ሠ: price == engine
+PASS  witness cell ሡ: price == engine
+PASS  witness cell ሢ: price == engine
+PASS  witness cell ሣ: price == engine
+PASS  witness cell ሤ: price == engine
+PASS  witness cell ሥ: price == engine
+PASS  witness cell ሦ: price == engine
+PASS  witness row ሠ: sum == printed
+PASS  witness row head ረ (6)
+PASS  witness row ረ: 7 cells
+PASS  witness cell ረ: price == engine
+PASS  witness cell ሩ: price == engine
+PASS  witness cell ሪ: price == engine
+PASS  witness cell ራ: price == engine
+PASS  witness cell ሬ: price == engine
+PASS  witness cell ር: price == engine
+PASS  witness cell ሮ: price == engine
+PASS  witness row ረ: sum == printed
+PASS  witness row head ሰ (7)
+PASS  witness row ሰ: 7 cells
+PASS  witness cell ሰ: price == engine
+PASS  witness cell ሱ: price == engine
+PASS  witness cell ሲ: price == engine
+PASS  witness cell ሳ: price == engine
+PASS  witness cell ሴ: price == engine
+PASS  witness cell ስ: price == engine
+PASS  witness cell ሶ: price == engine
+PASS  witness row ሰ: sum == printed
+PASS  witness row head ቀ (8)
+PASS  witness row ቀ: 7 cells
+PASS  witness cell ቀ: price == engine
+PASS  witness cell ቁ: price == engine
+PASS  witness cell ቂ: price == engine
+PASS  witness cell ቃ: price == engine
+PASS  witness cell ቄ: price == engine
+PASS  witness cell ቅ: price == engine
+PASS  witness cell ቆ: price == engine
+PASS  witness row ቀ: sum == printed
+PASS  witness row head በ (9)
+PASS  witness row በ: 7 cells
+PASS  witness cell በ: price == engine
+PASS  witness cell ቡ: price == engine
+PASS  witness cell ቢ: price == engine
+PASS  witness cell ባ: price == engine
+PASS  witness cell ቤ: price == engine
+PASS  witness cell ብ: price == engine
+PASS  witness cell ቦ: price == engine
+PASS  witness row በ: sum == printed
+PASS  witness row head ተ (10)
+PASS  witness row ተ: 7 cells
+PASS  witness cell ተ: price == engine
+PASS  witness cell ቱ: price == engine
+PASS  witness cell ቲ: price == engine
+PASS  witness cell ታ: price == engine
+PASS  witness cell ቴ: price == engine
+PASS  witness cell ት: price == engine
+PASS  witness cell ቶ: price == engine
+PASS  witness row ተ: sum == printed
+PASS  witness row head ኀ (20)
+PASS  witness row ኀ: 7 cells
+PASS  witness cell ኀ: price == engine
+PASS  witness cell ኁ: price == engine
+PASS  witness cell ኂ: price == engine
+PASS  witness cell ኃ: price == engine
+PASS  witness cell ኄ: price == engine
+PASS  witness cell ኅ: price == engine
+PASS  witness cell ኆ: price == engine
+PASS  witness row ኀ: sum == printed
+PASS  witness row head ነ (30)
+PASS  witness row ነ: 7 cells
+PASS  witness cell ነ: price == engine
+PASS  witness cell ኑ: price == engine
+PASS  witness cell ኒ: price == engine
+PASS  witness cell ና: price == engine
+PASS  witness cell ኔ: price == engine
+PASS  witness cell ን: price == engine
+PASS  witness cell ኖ: price == engine
+PASS  witness row ነ: sum == printed
+PASS  witness row head አ (40)
+PASS  witness row አ: 7 cells
+PASS  witness cell አ: price == engine
+PASS  witness cell ኡ: price == engine
+PASS  witness cell ኢ: price == engine
+PASS  witness cell ኣ: price == engine
+PASS  witness cell ኤ: price == engine
+PASS  witness cell እ: price == engine
+PASS  witness cell ኦ: price == engine
+PASS  witness row አ: sum == printed
+PASS  witness row head ከ (50)
+PASS  witness row ከ: 7 cells
+PASS  witness cell ከ: price == engine
+PASS  witness cell ኩ: price == engine
+PASS  witness cell ኪ: price == engine
+PASS  witness cell ካ: price == engine
+PASS  witness cell ኬ: price == engine
+PASS  witness cell ክ: price == engine
+PASS  witness cell ኮ: price == engine
+PASS  witness row ከ: sum == printed
+PASS  witness row head ወ (60)
+PASS  witness row ወ: 7 cells
+PASS  witness cell ወ: price == engine
+PASS  witness cell ዉ: price == engine
+PASS  witness cell ዊ: price == engine
+PASS  witness cell ዋ: price == engine
+PASS  witness cell ዌ: price == engine
+PASS  witness cell ው: price == engine
+PASS  witness cell ዎ: price == engine
+PASS  witness row ወ: sum == printed
+PASS  witness row head ዐ (70)
+PASS  witness row ዐ: 7 cells
+PASS  witness cell ዐ: price == engine
+PASS  witness cell ዑ: price == engine
+PASS  witness cell ዒ: price == engine
+PASS  witness cell ዓ: price == engine
+PASS  witness cell ዔ: price == engine
+PASS  witness cell ዕ: price == engine
+PASS  witness cell ዖ: price == engine
+PASS  witness row ዐ: sum == printed
+PASS  witness row head ዘ (80)
+PASS  witness row ዘ: 7 cells
+PASS  witness cell ዘ: price == engine
+PASS  witness cell ዙ: price == engine
+PASS  witness cell ዚ: price == engine
+PASS  witness cell ዛ: price == engine
+PASS  witness cell ዜ: price == engine
+PASS  witness cell ዝ: price == engine
+PASS  witness cell ዞ: price == engine
+PASS  witness row ዘ: sum == printed
+PASS  witness row head የ (90)
+PASS  witness row የ: 7 cells
+PASS  witness cell የ: price == engine
+PASS  witness cell ዩ: price == engine
+PASS  witness cell ዪ: price == engine
+PASS  witness cell ያ: price == engine
+PASS  witness cell ዬ: price == engine
+PASS  witness cell ይ: price == engine
+PASS  witness cell ዮ: price == engine
+PASS  witness row የ: sum == printed
+PASS  witness row head ደ (100)
+PASS  witness row ደ: 7 cells
+PASS  witness cell ደ: price == engine
+PASS  witness cell ዱ: price == engine
+PASS  witness cell ዲ: price == engine
+PASS  witness cell ዳ: price == engine
+PASS  witness cell ዴ: price == engine
+PASS  witness cell ድ: price == engine
+PASS  witness cell ዶ: price == engine
+PASS  witness row ደ: sum == printed
+PASS  witness row head ገ (200)
+PASS  witness row ገ: 7 cells
+PASS  witness cell ገ: price == engine
+PASS  witness cell ጉ: price == engine
+PASS  witness cell ጊ: price == engine
+PASS  witness cell ጋ: price == engine
+PASS  witness cell ጌ: price == engine
+PASS  witness cell ግ: price == engine
+PASS  witness cell ጎ: price == engine
+PASS  witness row ገ: sum == printed
+PASS  witness row head ጠ (300)
+PASS  witness row ጠ: 7 cells
+PASS  witness cell ጠ: price == engine
+PASS  witness cell ጡ: price == engine
+PASS  witness cell ጢ: price == engine
+PASS  witness cell ጣ: price == engine
+PASS  witness cell ጤ: price == engine
+PASS  witness cell ጥ: price == engine
+PASS  witness cell ጦ: price == engine
+PASS  witness row ጠ: sum == printed
+PASS  witness row head ጰ (400)
+PASS  witness row ጰ: 7 cells
+PASS  witness cell ጰ: price == engine
+PASS  witness cell ጱ: price == engine
+PASS  witness cell ጲ: price == engine
+PASS  witness cell ጳ: price == engine
+PASS  witness cell ጴ: price == engine
+PASS  witness cell ጵ: price == engine
+PASS  witness cell ጶ: price == engine
+PASS  witness row ጰ: sum == printed
+PASS  witness row head ጸ (500)
+PASS  witness row ጸ: 7 cells
+PASS  witness cell ጸ: price == engine
+PASS  witness cell ጹ: price == engine
+PASS  witness cell ጺ: price == engine
+PASS  witness cell ጻ: price == engine
+PASS  witness cell ጼ: price == engine
+PASS  witness cell ጽ: price == engine
+PASS  witness cell ጾ: price == engine
+PASS  witness row ጸ: sum == printed
+PASS  witness row head ፀ (600)
+PASS  witness row ፀ: 7 cells
+PASS  witness cell ፀ: price == engine
+PASS  witness cell ፁ: price == engine
+PASS  witness cell ፂ: price == engine
+PASS  witness cell ፃ: price == engine
+PASS  witness cell ፄ: price == engine
+PASS  witness cell ፅ: price == engine
+PASS  witness cell ፆ: price == engine
+PASS  witness row ፀ: sum == printed
+PASS  witness row head ፈ (700)
+PASS  witness row ፈ: 7 cells
+PASS  witness cell ፈ: price == engine
+PASS  witness cell ፉ: price == engine
+PASS  witness cell ፊ: price == engine
+PASS  witness cell ፋ: price == engine
+PASS  witness cell ፌ: price == engine
+PASS  witness cell ፍ: price == engine
+PASS  witness cell ፎ: price == engine
+PASS  witness row ፈ: sum == printed
+PASS  witness row head ፐ (800)
+PASS  witness row ፐ: 7 cells
+PASS  witness cell ፐ: price == engine
+PASS  witness cell ፑ: price == engine
+PASS  witness cell ፒ: price == engine
+PASS  witness cell ፓ: price == engine
+PASS  witness cell ፔ: price == engine
+PASS  witness cell ፕ: price == engine
+PASS  witness cell ፖ: price == engine
+PASS  witness row ፐ: sum == printed
+PASS  mint column 1 == 4095 × 1
+PASS  witness column 1 == 4095 × 1
+PASS  mint column 2 == 4095 × 2
+PASS  witness column 2 == 4095 × 2
+PASS  mint column 3 == 4095 × 3
+PASS  witness column 3 == 4095 × 3
+PASS  mint column 4 == 4095 × 4
+PASS  witness column 4 == 4095 × 4
+PASS  mint column 5 == 4095 × 5
+PASS  witness column 5 == 4095 × 5
+PASS  mint column 6 == 4095 × 0
+PASS  witness column 6 == 4095 × 6
+PASS  mint column 7 == 4095 × 7
+PASS  witness column 7 == 4095 × 7
+PASS  grids' difference == witness order-6 column (24570)
+PASS  labiovelar table: 20 rows parsed
+PASS  labiovelar ቈ: seat and mint price == engine
+PASS  labiovelar ቈ: witness silence
+PASS  labiovelar ቊ: seat and mint price == engine
+PASS  labiovelar ቊ: witness silence
+PASS  labiovelar ቋ: seat and mint price == engine
+PASS  labiovelar ቋ: witness silence
+PASS  labiovelar ቌ: seat and mint price == engine
+PASS  labiovelar ቌ: witness silence
+PASS  labiovelar ቍ: seat and mint price == engine
+PASS  labiovelar ቍ: witness silence
+PASS  labiovelar ኈ: seat and mint price == engine
+PASS  labiovelar ኈ: witness silence
+PASS  labiovelar ኊ: seat and mint price == engine
+PASS  labiovelar ኊ: witness silence
+PASS  labiovelar ኋ: seat and mint price == engine
+PASS  labiovelar ኋ: witness silence
+PASS  labiovelar ኌ: seat and mint price == engine
+PASS  labiovelar ኌ: witness silence
+PASS  labiovelar ኍ: seat and mint price == engine
+PASS  labiovelar ኍ: witness silence
+PASS  labiovelar ኰ: seat and mint price == engine
+PASS  labiovelar ኰ: witness silence
+PASS  labiovelar ኲ: seat and mint price == engine
+PASS  labiovelar ኲ: witness silence
+PASS  labiovelar ኳ: seat and mint price == engine
+PASS  labiovelar ኳ: witness silence
+PASS  labiovelar ኴ: seat and mint price == engine
+PASS  labiovelar ኴ: witness silence
+PASS  labiovelar ኵ: seat and mint price == engine
+PASS  labiovelar ኵ: witness silence
+PASS  labiovelar ጐ: seat and mint price == engine
+PASS  labiovelar ጐ: witness silence
+PASS  labiovelar ጒ: seat and mint price == engine
+PASS  labiovelar ጒ: witness silence
+PASS  labiovelar ጓ: seat and mint price == engine
+PASS  labiovelar ጓ: witness silence
+PASS  labiovelar ጔ: seat and mint price == engine
+PASS  labiovelar ጔ: witness silence
+PASS  labiovelar ጕ: seat and mint price == engine
+PASS  labiovelar ጕ: witness silence
+PASS  labiovelar total 3614 printed
+PASS  labiovelar total == engine
+PASS  eighth column: 25 priced rows parsed
+PASS  eighth ሀ: glyph ሇ == base + 7, price == first × 8
+PASS  eighth ለ: glyph ሏ == base + 7, price == first × 8
+PASS  eighth ሐ: glyph ሗ == base + 7, price == first × 8
+PASS  eighth መ: glyph ሟ == base + 7, price == first × 8
+PASS  eighth ሠ: glyph ሧ == base + 7, price == first × 8
+PASS  eighth ረ: glyph ሯ == base + 7, price == first × 8
+PASS  eighth ሰ: glyph ሷ == base + 7, price == first × 8
+PASS  eighth ቀ: glyph ቇ == base + 7, price == first × 8
+PASS  eighth በ: glyph ቧ == base + 7, price == first × 8
+PASS  eighth ተ: glyph ቷ == base + 7, price == first × 8
+PASS  eighth ኀ: glyph ኇ == base + 7, price == first × 8
+PASS  eighth ነ: glyph ኗ == base + 7, price == first × 8
+PASS  eighth አ: glyph ኧ == base + 7, price == first × 8
+PASS  eighth ከ: glyph ኯ == base + 7, price == first × 8
+PASS  eighth ወ: glyph ዏ == base + 7, price == first × 8
+PASS  eighth ዘ: glyph ዟ == base + 7, price == first × 8
+PASS  eighth የ: glyph ዯ == base + 7, price == first × 8
+PASS  eighth ደ: glyph ዷ == base + 7, price == first × 8
+PASS  eighth ገ: glyph ጏ == base + 7, price == first × 8
+PASS  eighth ጠ: glyph ጧ == base + 7, price == first × 8
+PASS  eighth ጰ: glyph ጷ == base + 7, price == first × 8
+PASS  eighth ጸ: glyph ጿ == base + 7, price == first × 8
+PASS  eighth ፀ: glyph ፇ == base + 7, price == first × 8
+PASS  eighth ፈ: glyph ፏ == base + 7, price == first × 8
+PASS  eighth ፐ: glyph ፗ == base + 7, price == first × 8
+PASS  the hole stands on the plate: ዐ + U+12D7 + HOLE
+PASS  U+12D7 is unassigned in the standard
+PASS  U+12D7 is not a key of the mint
+PASS  eighth total 32200 printed
+PASS  eighth total == engine
+PASS  seat register: 227 rows parsed
+PASS  seat 1 ሀ: base/order/prices == engine
+PASS  seat 2 ሁ: base/order/prices == engine
+PASS  seat 3 ሂ: base/order/prices == engine
+PASS  seat 4 ሃ: base/order/prices == engine
+PASS  seat 5 ሄ: base/order/prices == engine
+PASS  seat 6 ህ: base/order/prices == engine
+PASS  seat 7 ሆ: base/order/prices == engine
+PASS  seat 8 ለ: base/order/prices == engine
+PASS  seat 9 ሉ: base/order/prices == engine
+PASS  seat 10 ሊ: base/order/prices == engine
+PASS  seat 11 ላ: base/order/prices == engine
+PASS  seat 12 ሌ: base/order/prices == engine
+PASS  seat 13 ል: base/order/prices == engine
+PASS  seat 14 ሎ: base/order/prices == engine
+PASS  seat 15 ሐ: base/order/prices == engine
+PASS  seat 16 ሑ: base/order/prices == engine
+PASS  seat 17 ሒ: base/order/prices == engine
+PASS  seat 18 ሓ: base/order/prices == engine
+PASS  seat 19 ሔ: base/order/prices == engine
+PASS  seat 20 ሕ: base/order/prices == engine
+PASS  seat 21 ሖ: base/order/prices == engine
+PASS  seat 22 መ: base/order/prices == engine
+PASS  seat 23 ሙ: base/order/prices == engine
+PASS  seat 24 ሚ: base/order/prices == engine
+PASS  seat 25 ማ: base/order/prices == engine
+PASS  seat 26 ሜ: base/order/prices == engine
+PASS  seat 27 ም: base/order/prices == engine
+PASS  seat 28 ሞ: base/order/prices == engine
+PASS  seat 29 ሠ: base/order/prices == engine
+PASS  seat 30 ሡ: base/order/prices == engine
+PASS  seat 31 ሢ: base/order/prices == engine
+PASS  seat 32 ሣ: base/order/prices == engine
+PASS  seat 33 ሤ: base/order/prices == engine
+PASS  seat 34 ሥ: base/order/prices == engine
+PASS  seat 35 ሦ: base/order/prices == engine
+PASS  seat 36 ረ: base/order/prices == engine
+PASS  seat 37 ሩ: base/order/prices == engine
+PASS  seat 38 ሪ: base/order/prices == engine
+PASS  seat 39 ራ: base/order/prices == engine
+PASS  seat 40 ሬ: base/order/prices == engine
+PASS  seat 41 ር: base/order/prices == engine
+PASS  seat 42 ሮ: base/order/prices == engine
+PASS  seat 43 ሰ: base/order/prices == engine
+PASS  seat 44 ሱ: base/order/prices == engine
+PASS  seat 45 ሲ: base/order/prices == engine
+PASS  seat 46 ሳ: base/order/prices == engine
+PASS  seat 47 ሴ: base/order/prices == engine
+PASS  seat 48 ስ: base/order/prices == engine
+PASS  seat 49 ሶ: base/order/prices == engine
+PASS  seat 50 ቀ: base/order/prices == engine
+PASS  seat 51 ቁ: base/order/prices == engine
+PASS  seat 52 ቂ: base/order/prices == engine
+PASS  seat 53 ቃ: base/order/prices == engine
+PASS  seat 54 ቄ: base/order/prices == engine
+PASS  seat 55 ቅ: base/order/prices == engine
+PASS  seat 56 ቆ: base/order/prices == engine
+PASS  seat 57 በ: base/order/prices == engine
+PASS  seat 58 ቡ: base/order/prices == engine
+PASS  seat 59 ቢ: base/order/prices == engine
+PASS  seat 60 ባ: base/order/prices == engine
+PASS  seat 61 ቤ: base/order/prices == engine
+PASS  seat 62 ብ: base/order/prices == engine
+PASS  seat 63 ቦ: base/order/prices == engine
+PASS  seat 64 ተ: base/order/prices == engine
+PASS  seat 65 ቱ: base/order/prices == engine
+PASS  seat 66 ቲ: base/order/prices == engine
+PASS  seat 67 ታ: base/order/prices == engine
+PASS  seat 68 ቴ: base/order/prices == engine
+PASS  seat 69 ት: base/order/prices == engine
+PASS  seat 70 ቶ: base/order/prices == engine
+PASS  seat 71 ኀ: base/order/prices == engine
+PASS  seat 72 ኁ: base/order/prices == engine
+PASS  seat 73 ኂ: base/order/prices == engine
+PASS  seat 74 ኃ: base/order/prices == engine
+PASS  seat 75 ኄ: base/order/prices == engine
+PASS  seat 76 ኅ: base/order/prices == engine
+PASS  seat 77 ኆ: base/order/prices == engine
+PASS  seat 78 ነ: base/order/prices == engine
+PASS  seat 79 ኑ: base/order/prices == engine
+PASS  seat 80 ኒ: base/order/prices == engine
+PASS  seat 81 ና: base/order/prices == engine
+PASS  seat 82 ኔ: base/order/prices == engine
+PASS  seat 83 ን: base/order/prices == engine
+PASS  seat 84 ኖ: base/order/prices == engine
+PASS  seat 85 አ: base/order/prices == engine
+PASS  seat 86 ኡ: base/order/prices == engine
+PASS  seat 87 ኢ: base/order/prices == engine
+PASS  seat 88 ኣ: base/order/prices == engine
+PASS  seat 89 ኤ: base/order/prices == engine
+PASS  seat 90 እ: base/order/prices == engine
+PASS  seat 91 ኦ: base/order/prices == engine
+PASS  seat 92 ከ: base/order/prices == engine
+PASS  seat 93 ኩ: base/order/prices == engine
+PASS  seat 94 ኪ: base/order/prices == engine
+PASS  seat 95 ካ: base/order/prices == engine
+PASS  seat 96 ኬ: base/order/prices == engine
+PASS  seat 97 ክ: base/order/prices == engine
+PASS  seat 98 ኮ: base/order/prices == engine
+PASS  seat 99 ወ: base/order/prices == engine
+PASS  seat 100 ዉ: base/order/prices == engine
+PASS  seat 101 ዊ: base/order/prices == engine
+PASS  seat 102 ዋ: base/order/prices == engine
+PASS  seat 103 ዌ: base/order/prices == engine
+PASS  seat 104 ው: base/order/prices == engine
+PASS  seat 105 ዎ: base/order/prices == engine
+PASS  seat 106 ዐ: base/order/prices == engine
+PASS  seat 107 ዑ: base/order/prices == engine
+PASS  seat 108 ዒ: base/order/prices == engine
+PASS  seat 109 ዓ: base/order/prices == engine
+PASS  seat 110 ዔ: base/order/prices == engine
+PASS  seat 111 ዕ: base/order/prices == engine
+PASS  seat 112 ዖ: base/order/prices == engine
+PASS  seat 113 ዘ: base/order/prices == engine
+PASS  seat 114 ዙ: base/order/prices == engine
+PASS  seat 115 ዚ: base/order/prices == engine
+PASS  seat 116 ዛ: base/order/prices == engine
+PASS  seat 117 ዜ: base/order/prices == engine
+PASS  seat 118 ዝ: base/order/prices == engine
+PASS  seat 119 ዞ: base/order/prices == engine
+PASS  seat 120 የ: base/order/prices == engine
+PASS  seat 121 ዩ: base/order/prices == engine
+PASS  seat 122 ዪ: base/order/prices == engine
+PASS  seat 123 ያ: base/order/prices == engine
+PASS  seat 124 ዬ: base/order/prices == engine
+PASS  seat 125 ይ: base/order/prices == engine
+PASS  seat 126 ዮ: base/order/prices == engine
+PASS  seat 127 ደ: base/order/prices == engine
+PASS  seat 128 ዱ: base/order/prices == engine
+PASS  seat 129 ዲ: base/order/prices == engine
+PASS  seat 130 ዳ: base/order/prices == engine
+PASS  seat 131 ዴ: base/order/prices == engine
+PASS  seat 132 ድ: base/order/prices == engine
+PASS  seat 133 ዶ: base/order/prices == engine
+PASS  seat 134 ገ: base/order/prices == engine
+PASS  seat 135 ጉ: base/order/prices == engine
+PASS  seat 136 ጊ: base/order/prices == engine
+PASS  seat 137 ጋ: base/order/prices == engine
+PASS  seat 138 ጌ: base/order/prices == engine
+PASS  seat 139 ግ: base/order/prices == engine
+PASS  seat 140 ጎ: base/order/prices == engine
+PASS  seat 141 ጠ: base/order/prices == engine
+PASS  seat 142 ጡ: base/order/prices == engine
+PASS  seat 143 ጢ: base/order/prices == engine
+PASS  seat 144 ጣ: base/order/prices == engine
+PASS  seat 145 ጤ: base/order/prices == engine
+PASS  seat 146 ጥ: base/order/prices == engine
+PASS  seat 147 ጦ: base/order/prices == engine
+PASS  seat 148 ጰ: base/order/prices == engine
+PASS  seat 149 ጱ: base/order/prices == engine
+PASS  seat 150 ጲ: base/order/prices == engine
+PASS  seat 151 ጳ: base/order/prices == engine
+PASS  seat 152 ጴ: base/order/prices == engine
+PASS  seat 153 ጵ: base/order/prices == engine
+PASS  seat 154 ጶ: base/order/prices == engine
+PASS  seat 155 ጸ: base/order/prices == engine
+PASS  seat 156 ጹ: base/order/prices == engine
+PASS  seat 157 ጺ: base/order/prices == engine
+PASS  seat 158 ጻ: base/order/prices == engine
+PASS  seat 159 ጼ: base/order/prices == engine
+PASS  seat 160 ጽ: base/order/prices == engine
+PASS  seat 161 ጾ: base/order/prices == engine
+PASS  seat 162 ፀ: base/order/prices == engine
+PASS  seat 163 ፁ: base/order/prices == engine
+PASS  seat 164 ፂ: base/order/prices == engine
+PASS  seat 165 ፃ: base/order/prices == engine
+PASS  seat 166 ፄ: base/order/prices == engine
+PASS  seat 167 ፅ: base/order/prices == engine
+PASS  seat 168 ፆ: base/order/prices == engine
+PASS  seat 169 ፈ: base/order/prices == engine
+PASS  seat 170 ፉ: base/order/prices == engine
+PASS  seat 171 ፊ: base/order/prices == engine
+PASS  seat 172 ፋ: base/order/prices == engine
+PASS  seat 173 ፌ: base/order/prices == engine
+PASS  seat 174 ፍ: base/order/prices == engine
+PASS  seat 175 ፎ: base/order/prices == engine
+PASS  seat 176 ፐ: base/order/prices == engine
+PASS  seat 177 ፑ: base/order/prices == engine
+PASS  seat 178 ፒ: base/order/prices == engine
+PASS  seat 179 ፓ: base/order/prices == engine
+PASS  seat 180 ፔ: base/order/prices == engine
+PASS  seat 181 ፕ: base/order/prices == engine
+PASS  seat 182 ፖ: base/order/prices == engine
+PASS  seat 183 ቈ: base/order/prices == engine
+PASS  seat 184 ቊ: base/order/prices == engine
+PASS  seat 185 ቋ: base/order/prices == engine
+PASS  seat 186 ቌ: base/order/prices == engine
+PASS  seat 187 ቍ: base/order/prices == engine
+PASS  seat 188 ኈ: base/order/prices == engine
+PASS  seat 189 ኊ: base/order/prices == engine
+PASS  seat 190 ኋ: base/order/prices == engine
+PASS  seat 191 ኌ: base/order/prices == engine
+PASS  seat 192 ኍ: base/order/prices == engine
+PASS  seat 193 ኰ: base/order/prices == engine
+PASS  seat 194 ኲ: base/order/prices == engine
+PASS  seat 195 ኳ: base/order/prices == engine
+PASS  seat 196 ኴ: base/order/prices == engine
+PASS  seat 197 ኵ: base/order/prices == engine
+PASS  seat 198 ጐ: base/order/prices == engine
+PASS  seat 199 ጒ: base/order/prices == engine
+PASS  seat 200 ጓ: base/order/prices == engine
+PASS  seat 201 ጔ: base/order/prices == engine
+PASS  seat 202 ጕ: base/order/prices == engine
+PASS  seat 203 ሇ: base/order/prices == engine
+PASS  seat 204 ሏ: base/order/prices == engine
+PASS  seat 205 ሗ: base/order/prices == engine
+PASS  seat 206 ሟ: base/order/prices == engine
+PASS  seat 207 ሧ: base/order/prices == engine
+PASS  seat 208 ሯ: base/order/prices == engine
+PASS  seat 209 ሷ: base/order/prices == engine
+PASS  seat 210 ቇ: base/order/prices == engine
+PASS  seat 211 ቧ: base/order/prices == engine
+PASS  seat 212 ቷ: base/order/prices == engine
+PASS  seat 213 ኇ: base/order/prices == engine
+PASS  seat 214 ኗ: base/order/prices == engine
+PASS  seat 215 ኧ: base/order/prices == engine
+PASS  seat 216 ኯ: base/order/prices == engine
+PASS  seat 217 ዏ: base/order/prices == engine
+PASS  seat 218 ዟ: base/order/prices == engine
+PASS  seat 219 ዯ: base/order/prices == engine
+PASS  seat 220 ዷ: base/order/prices == engine
+PASS  seat 221 ጏ: base/order/prices == engine
+PASS  seat 222 ጧ: base/order/prices == engine
+PASS  seat 223 ጷ: base/order/prices == engine
+PASS  seat 224 ጿ: base/order/prices == engine
+PASS  seat 225 ፇ: base/order/prices == engine
+PASS  seat 226 ፏ: base/order/prices == engine
+PASS  seat 227 ፗ: base/order/prices == engine
+PASS  thirty Zero signs in the mint
+PASS  every Zero sign stands at order 6
+PASS  the plate prints the thirty Zero signs entire
+PASS  ክርስቶስ MW == 70
+PASS  ክርስቶስ MF == 80
+PASS  ክርስቶስ WP == 80
+PASS  ክርስቶስ WG == 490
+PASS  plate prints ክርስቶስ MF == 80
+PASS  plate prints ክርስቶስ WP == 80
+PASS  plate prints ክርስቶስ MW == 70
+PASS  plate prints ክርስቶስ WG == 490
+PASS  ሰላም doors == 15/13/13/39
+PASS  derived sign ሸ: silence in both banks
+PASS  derived sign ቸ: silence in both banks
+PASS  derived sign ቐ: silence in both banks
+PASS  derived sign ጀ: silence in both banks
+PASS  numeral ፩ skipped in both banks
+PASS  mint total 125904 printed
+PASS  mint total == engine
+PASS  witness total 114660 printed
+PASS  witness total == engine
+PASS  mint grid total 90090 printed
+PASS  mint: 90 distinct values, max 6400
+PASS  witness: 87 distinct values, max 5600
+PASS  folk examples in the grid: ሁ 2 · ሉ 4 · ፖ 5600
+PASS  register census == (0, 205, 80, 0, 85, 1)
+PASS  plate prints census NATIVE 0
+PASS  plate prints census DOOR 205
+PASS  plate prints census HOLE 80
+PASS  plate prints census FENCED 0
+PASS  plate door register: 205 rows
+PASS  plate door rows == register rows, in order
+PASS  door III/31 bis ቶኦት: re-weighed
+PASS  door III/32 bis ታኡ ኣስ ኤጕይፕቲኣን: re-weighed
+PASS  door VI/13 ሌባናህ: re-weighed
+PASS  door VI/14 ኖጓህ: re-weighed
+PASS  door VI/21 ጼዴቅ: re-weighed
+PASS  door VI/27 ማዲም: re-weighed
+PASS  door VI/30 ሤሜሥ: re-weighed
+PASS  door VI/32 ሣብባታኢ: re-weighed
+PASS  door VIII/13 ጓማሊኤል: re-weighed
+PASS  door VIII/14 ኣኣራብ ዛራቅ: re-weighed
+PASS  door VIII/21 ጓኣጕሤክላህ: re-weighed
+PASS  door VIII/23 ኣሪቶን: re-weighed
+PASS  door VIII/30 ታጒሪሮን: re-weighed
+PASS  door VIII/31 ፓኢሞን: re-weighed
+PASS  door VIII/32 ሳታሪኤል: re-weighed
+PASS  door VIII/32 bis ኣማኢሞን: re-weighed
+PASS  door XX/31 bis ኣቱም: re-weighed
+PASS  door XX/32 bis ሴብ: re-weighed
+PASS  door XXI/18 ኴፍራ: re-weighed
+PASS  door XXI/20 ሄሩ ፓ ክራኣት: re-weighed
+PASS  door XXI/20 ኢሲስ: re-weighed
+PASS  door XXI/22 ማኣት: re-weighed
+PASS  door XXI/22 ማ: re-weighed
+PASS  door XXI/25 ኔፍትይስ: re-weighed
+PASS  door XXI/25 ኣርዉኤሪ: re-weighed
+PASS  door XXIV/2 ሳቢካልፓ ሳማዲ: re-weighed
+PASS  door XXIV/2 ሙዲታ ሳማዲ: re-weighed
+PASS  door XXIV/3 ማሃካሩና: re-weighed
+PASS  door XXIV/3 ቦዲኪትታ: re-weighed
+PASS  door XXIV/4 ብራህማቢሃራ: re-weighed
+PASS  door XXIV/4 ሜትታ ሳማዲ: re-weighed
+PASS  door XXIV/5 ኣማታ: re-weighed
+PASS  door XXIV/5 ሳምቤጓ: re-weighed
+PASS  door XXIV/7 ሳዩጕያ: re-weighed
+PASS  door XXIV/7 ዴባ ዳርሳና: re-weighed
+PASS  door XXIV/8 ኢድዲ: re-weighed
+PASS  door XXIV/8 ቢብሁቲ: re-weighed
+PASS  door XXIV/9 ሶታፓትቲ: re-weighed
+PASS  door XXIV/12 ፓቲብሃጓ ኒሚትታ: re-weighed
+PASS  door XXIV/12 ኣፕፓና: re-weighed
+PASS  door XXIV/15 ካርማ ዮጓ: re-weighed
+PASS  door XXIV/17 ጕናና ዮጓ: re-weighed
+PASS  door XXIV/17 ቡዳ: re-weighed
+PASS  door XXIV/18 ሶማ ብሃዋና: re-weighed
+PASS  door XXIV/18 ማንትራ ዮጓ: re-weighed
+PASS  door XXIV/19 ታፓስ ሲድዲ: re-weighed
+PASS  door XXIV/20 ክሪያ ዮጓ: re-weighed
+PASS  door XXIV/20 ቢቤካ ብሃዋና: re-weighed
+PASS  door XXIV/21 ራጓ ዮጓ: re-weighed
+PASS  door XXIV/22 ቱላ ብሃዋና: re-weighed
+PASS  door XXIV/22 ዳርማ ዳርሣና: re-weighed
+PASS  door XXIV/27 ማንጓላ: re-weighed
+PASS  door XXIV/32 ሣኒ: re-weighed
+PASS  door XXXIII/6 ባልድር: re-weighed
+PASS  door XXXIII/10 ኔርቱስ: re-weighed
+PASS  door XXXIII/13 ማኒ: re-weighed
+PASS  door XXXIII/13 ስካዲ: re-weighed
+PASS  door XXXIII/16 ሲፍ: re-weighed
+PASS  door XXXIII/16 ኤኢር: re-weighed
+PASS  door XXXIII/23 ኣኤጒር: re-weighed
+PASS  door XXXIII/30 ሶል: re-weighed
+PASS  door XXXIII/31 ሱርትር: re-weighed
+PASS  door XXXIII/31 bis ኦዲን: re-weighed
+PASS  door XXXIII/32 bis ኔርቱስ: re-weighed
+PASS  door XXXIII/32 bis ኤርዳ: re-weighed
+PASS  door XLIII/24 ኮኒኡም: re-weighed
+PASS  door XLIII/24 ኮኒኡም ማኩላቱም: re-weighed
+PASS  door XLIII/24 ኮኒኡም ማኩላቱም: re-weighed
+PASS  door XLIII/24 ኮኒኡም ማኩላቱም: re-weighed
+PASS  door XLIII/25 ሳልቢኣ: re-weighed
+PASS  door XLIII/25 ሳልቢኣ ኦፍፊኪናሊስ: re-weighed
+PASS  door XLIII/25 ሳልቢኣ ኦፍፊኪናሊስ: re-weighed
+PASS  door XLIII/27 ሙስታርድ: re-weighed
+PASS  door XLIII/27 ሲናፒስ: re-weighed
+PASS  door XLIII/27 ካፕሲኩም: re-weighed
+PASS  door XLIII/31 ዚንጒቤር: re-weighed
+PASS  door XLIII/31 ዚንጒቤር ኦፍፊኪናሌ: re-weighed
+PASS  door XLIII/31 ዚንጒቤር ኦፍፊኪናሌ: re-weighed
+PASS  door XLIII/31 ካፕሲኩም: re-weighed
+PASS  door XLIII/31 ካፕሲኩም ኣንኑኡም: re-weighed
+PASS  door XLIV/4 ቲን: re-weighed
+PASS  door XLIV/11 ሳል ቦላቲሌ: re-weighed
+PASS  door XLIV/13 ሉናር ካኡስቲክ: re-weighed
+PASS  door XLIV/14 ኮፕፔር: re-weighed
+PASS  door XLIV/14 ብሉኤ ቢትሪኦል: re-weighed
+PASS  door XLIV/15 ክሮኩስ ማርቲስ: re-weighed
+PASS  door XLIV/17 ኪንናባር: re-weighed
+PASS  door XLIV/18 ኮራል: re-weighed
+PASS  door XLIV/18 ፔኣርል: re-weighed
+PASS  door XLIV/19 ኦርፒሜንት: re-weighed
+PASS  door XLIV/19 ኣኡሪፒጕሜንቱም: re-weighed
+PASS  door XLIV/20 ኪንናባር: re-weighed
+PASS  door XLIV/21 ቲን: re-weighed
+PASS  door XLIV/21 ስታንንብም: re-weighed
+PASS  door XLIV/22 ኮፕፔር: re-weighed
+PASS  door XLIV/22 ክብፕርብም: re-weighed
+PASS  door XLIV/26 ኣንቲሞንይ: re-weighed
+PASS  door XLIV/26 ስቲቢብም: re-weighed
+PASS  door XLIV/28 ኣሉም: re-weighed
+PASS  door XLIV/28 ኣልብም: re-weighed
+PASS  door XLIV/29 ኢኦዲኔ: re-weighed
+PASS  door XLIV/29 ሳልት: re-weighed
+PASS  door XLIV/30 ኣብርብም: re-weighed
+PASS  door XLVI/4 ቱኢ: re-weighed
+PASS  door XLVI/4 ኲኤን: re-weighed
+PASS  door XLVI/5 ክብን: re-weighed
+PASS  door XLVI/7 ቱኢ: re-weighed
+PASS  door XLVI/7 ሱን: re-weighed
+PASS  door XLVI/8 ሊ: re-weighed
+PASS  door XLVI/9 ካን: re-weighed
+PASS  door XLVI/15 ሊ: re-weighed
+PASS  door XLVI/16 ኳን: re-weighed
+PASS  door XLVI/16 ኵዋን: re-weighed
+PASS  door XLVI/17 ሱን: re-weighed
+PASS  door XLVI/18 ካን: re-weighed
+PASS  door XLVI/19 ክብን: re-weighed
+PASS  door XLVI/20 ክብን: re-weighed
+PASS  door XLVI/22 ኲኤን ኵውብን: re-weighed
+PASS  door XLVI/24 ኳን: re-weighed
+PASS  door XLVI/24 ኵውብን: re-weighed
+PASS  door XLVI/25 ኳን ሊ: re-weighed
+PASS  door XLVI/26 ኳን: re-weighed
+PASS  door XLVI/26 ኵውብን: re-weighed
+PASS  door XLVI/28 ኲኤን: re-weighed
+PASS  door XLVI/29 ቱኢ: re-weighed
+PASS  door XLVI/31 bis ሱን: re-weighed
+PASS  door XLVII/8 : re-weighed
+PASS  door XLVII/9 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 : re-weighed
+PASS  door XLVII/17 ባርቃን: re-weighed
+PASS  door XLVII/22 : re-weighed
+PASS  door XLVII/22 ዛውባኣህ: re-weighed
+PASS  door XLVII/25 : re-weighed
+PASS  door XLVII/25 ሣምሁሪሥ: re-weighed
+PASS  door XLVII/26 : re-weighed
+PASS  door XLVII/26 ማይሙን: re-weighed
+PASS  door XLVII/27 ቴ ሬድ ኦኔ: re-weighed
+PASS  door XLVII/30 ቴ ጒልዴር: re-weighed
+PASS  door XLVII/31 bis : re-weighed
+PASS  door XLVII/31 bis ጓንን: re-weighed
+PASS  door XLVII/32 ቴ ፎርቱናቴ: re-weighed
+PASS  door XLVII/32 bis ኣማኢሞን: re-weighed
+PASS  door LI/32 bis ት: re-weighed
+PASS  door LIII/8 ሳምፒ: re-weighed
+PASS  door LVI/31 bis ቴ ሪቤር ኦፍ ኤዴን ኡንዲቢዴድ ሶኡርኬ: re-weighed
+PASS  door LVI/31 bis ናሃር: re-weighed
+PASS  door LVII/31 bis ቶኵ: re-weighed
+PASS  door LVII/31 bis ኬንትሬ: re-weighed
+PASS  door LVII/31 bis ኣዶናኢ: re-weighed
+PASS  door LVIII/31 bis ኤሌክሳርፔህ ኮማናኑ ታቢቶም ቴ ትሬኤ ኣንጔልስ ሩሊንጕ ቴ ታብሌት ኦፍ ኡኒኦን: re-weighed
+PASS  door LVIII/31 bis ኮማናኑ: re-weighed
+PASS  door LVIII/31 bis ታቢቶም: re-weighed
+PASS  door LXIII/31 bis ኣዳም ካድሞን ቴ ፊፍት ዎርልድ ኣቦቤ ኣጺሉት: re-weighed
+PASS  door LXIII/31 bis ኣዳም ካድሞን: re-weighed
+PASS  door CVIII/1 ሳታን: re-weighed
+PASS  door CVIII/2 ቤኤልዜቡብ: re-weighed
+PASS  door CXXXII/1 ቴ ሮኦት ኦፍ ቴ ፖዌርስ ኦፍ ኤኣርት: re-weighed
+PASS  door CLXXXV/4 : re-weighed
+PASS  door CLXXXV/7 : re-weighed
+PASS  door CLXXXVII/1 ኣል: re-weighed
+PASS  door CLXXXVII/1 ኣሂህ: re-weighed
+PASS  door CLXXXVII/1 ኢኣ: re-weighed
+PASS  door CLXXXVII/8 ኣሜን: re-weighed
+PASS  door CLXXXVII/11 ኣልፍ: re-weighed
+PASS  door CLXXXVII/11 ኣኢር: re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/11 : re-weighed
+PASS  door CLXXXVII/12 ቢት: re-weighed
+PASS  door CLXXXVII/12 ሄርሜስ: re-weighed
+PASS  door CLXXXVII/12 ቶት: re-weighed
+PASS  door CLXXXVII/15 ሃ: re-weighed
+PASS  door CLXXXVII/15 ኤኔርጕይ: re-weighed
+PASS  door CLXXXVII/15 ኣዞት: re-weighed
+PASS  door CLXXXVII/17 ዚን: re-weighed
+PASS  door CLXXXVII/17 ኣፖልሎ: re-weighed
+PASS  door CLXXXVII/17 ዴልፊ: re-weighed
+PASS  door CLXXXVII/20 ይብድ: re-weighed
+PASS  door CLXXXVII/20 ልብክስ: re-weighed
+PASS  door CLXXXVII/21 ክፍ: re-weighed
+PASS  door CLXXXVII/21 ዜኡስ: re-weighed
+PASS  door CLXXXVII/22 ልምድ: re-weighed
+PASS  door CLXXXVII/22 ሚዝንይም: re-weighed
+PASS  door CLXXXVII/22 ማኣት: re-weighed
+PASS  door CLXXXVII/22 ሊብራ: re-weighed
+PASS  door CLXXXVII/22 ክሮስስ: re-weighed
+PASS  door CLXXXVII/23 ኣቁኣ: re-weighed
+PASS  door CLXXXVII/23 ካሊክስ: re-weighed
+PASS  door CLXXXVII/23 ቢኑም: re-weighed
+PASS  door CLXXXVII/27 ጕላዲኡስ: re-weighed
+PASS  door CLXXXVII/27 ፌርሩም: re-weighed
+PASS  door CLXXXVII/28 ቱስ: re-weighed
+PASS  door CLXXXVII/29 ስፔኩሉም: re-weighed
+PASS  door CLXXXVII/29 ሉና: re-weighed
+PASS  door CLXXXVII/31 ኢጕኒስ: re-weighed
+PASS  door CLXXXVII/31 ሉክስ: re-weighed
+PASS  door CLXXXVII/31 ላምፓስ: re-weighed
+PASS  door CLXXXVII/31 bis ኦቡም: re-weighed
+PASS  door CLXXXVII/31 bis ስፒሪቱስ: re-weighed
+PASS  door CLXXXVII/32 ፋልክስ: re-weighed
+PASS  door CLXXXVII/32 ሜስሲስ: re-weighed
+PASS  door CLXXXVII/32 bis ሳል: re-weighed
+PASS  door CLXXXVII/32 bis ቴርራ: re-weighed
+PASS  door CLXXXVII/32 bis ፓኒስ: re-weighed
+PASS  plate hole register: 80 rows
+PASS  plate hole rows == register rows, in order
+PASS  hole species: shown renderings cross unseated signs
+PASS  GAP cell CLXXXIV/10 on the plate
+PASS  the 8 seated: η == 8 in greek
+PASS  the 8 seated: ⲏ == 8 in coptic
+PASS  the 8 seated: И == 8 in cyrillic
+PASS  the 8 seated: Ը == 8 in armenian
+PASS  the 8 seated: ჱ == 8 in georgian
+PASS  οὐδέν == 529 in greek
+PASS  the Nine sum 1779
+PASS  zero face stands in §IV
+PASS  PDF layer carries the calibration head ክርስቶስ
+PASS  PDF layer carries all 26 base signs
+PASS  PDF layer carries the zero face
+PASS  PDF layer carries token [U+12B1]
+PASS  PDF layer carries token [U+1311]
+PASS  PDF layer carries token [U+1316]
+PASS  PDF layer: no Hebrew-block codepoint
+PASS  PDF footer resolves (35 of 35)
+
+VERDICT: PASS — 1165 checks, 0 failures
