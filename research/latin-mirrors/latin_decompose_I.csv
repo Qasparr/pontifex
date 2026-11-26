@@ -1,0 +1,3 @@
+face,iou,covers_I,I_covers,I_ink,composite_ink,verdict
+Serif,0.2909,0.6061,0.3588,4422,7470,PARTED
+Sans,0.2401,0.5773,0.2913,3520,6976,FAILS
