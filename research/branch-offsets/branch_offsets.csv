@@ -1,0 +1,352 @@
+branch,seat,parent_letter,parent_value,branch_letter,branch_value,offset,status,pairing,reasoning
+greek-cyrillic,1,Α,1,А,1,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,2,Β,2,В,2,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,3,Γ,3,Г,3,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,4,Δ,4,Д,4,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,5,Ε,5,Е,5,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,6,Ϛ,6,Ѕ,6,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,7,Ζ,7,З,7,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,8,Η,8,И,8,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,9,Θ,9,Ѳ,9,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,10,Ι,10,І,10,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,11,Κ,20,К,20,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,12,Λ,30,Л,30,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,13,Μ,40,М,40,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,14,Ν,50,Н,50,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,15,Ξ,60,Ѯ,60,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,16,Ο,70,О,70,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,17,Π,80,П,80,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,18,Ϟ,90,Ч,90,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,19,Ρ,100,Р,100,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,20,Σ,200,С,200,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,21,Τ,300,Т,300,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,22,Υ,400,У,400,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,23,Φ,500,Ф,500,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,24,Χ,600,Х,600,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,25,Ψ,700,Ѱ,700,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,26,Ω,800,Ѡ,800,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,27,Ϡ,900,Ц,900,0,AGREE,sound,"the census seat: the Cyrillic letter at its Greek pair, both values recomputed from the living banks"
+greek-cyrillic,variant,Υ,400,Ѵ,400,0,VARIANT,seat,"a variant glyph at a seat already held; printed in the annex, never in the main count"
+greek-cyrillic,variant,Υ,400,Ꙋ,400,0,VARIANT,seat,"a variant glyph at a seat already held; printed in the annex, never in the main count"
+greek-cyrillic,variant,Υ,400,Ѹ,400,0,VARIANT,seat,"a variant glyph at a seat already held; printed in the annex, never in the main count"
+greek-cyrillic,variant,Ω,800,Ѿ,800,0,VARIANT,seat,"a variant glyph at a seat already held; printed in the annex, never in the main count"
+greek-cyrillic,variant,Ω,800,Ꙍ,800,0,VARIANT,seat,"a variant glyph at a seat already held; printed in the annex, never in the main count"
+greek-cyrillic,variant,Ϡ,900,Ѧ,900,0,VARIANT,seat,"a variant glyph at a seat already held; printed in the annex, never in the main count"
+greek-cyrillic,refused,,,Ч,60,,REFUSED,seat,"a western witness reading the house refuses; printed refused, never offset"
+greek-cyrillic,refused,,,Ҁ,90,,REFUSED,seat,"a western witness reading the house refuses; printed refused, never offset"
+greek-glagolitic,Α,Α,1,Ⰰ,1,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Β,Β,2,Ⰲ,3,1,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Β,Β,2,Ⰱ,2,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Γ,Γ,3,Ⰳ,4,1,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Δ,Δ,4,Ⰴ,5,1,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ε,Ε,5,Ⰵ,6,1,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ϛ,Ϛ,6,Ⰷ,8,2,OFFSET,seat,"seat — the dz sound has no Greek letter; Cyrillic seats Ѕ at the stigma seat, and the chain follows the seat"
+greek-glagolitic,Ζ,Ζ,7,Ⰸ,9,2,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Η,Η,8,Ⰹ,10,2,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Θ,Θ,9,Ⱚ,,,BRANCH-UNSEATED,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own; the Glagolitic letter stands in the alphabet and seats no value in the sourced table"
+greek-glagolitic,Ι,Ι,10,Ⰺ,10,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Κ,Κ,20,Ⰻ,20,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Λ,Λ,30,Ⰼ,30,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Μ,Μ,40,Ⰽ,40,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ν,Ν,50,Ⰾ,50,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ξ,Ξ,60,,,,BRANCH-ABSENT,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ο,Ο,70,Ⱀ,70,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Π,Π,80,Ⱁ,80,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ϟ,Ϟ,90,Ⱍ,1000,910,OFFSET,seat,"seat — the ch sound has no Greek letter; Cyrillic seats Ч at the koppa seat, and the chain follows the seat"
+greek-glagolitic,Ρ,Ρ,100,Ⱃ,100,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Σ,Σ,200,Ⱄ,200,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Τ,Τ,300,Ⱅ,300,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Υ,Υ,400,Ⱆ,400,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Υ,Υ,400,Ⱛ,,,BRANCH-UNSEATED,sound,"the variant heir: izhitsa, Cyrillic’s second upsilon letter, chained through the parting’s izhitsa row; the Glagolitic letter stands in the alphabet and seats no value in the sourced table"
+greek-glagolitic,Φ,Φ,500,Ⱇ,500,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Χ,Χ,600,Ⱈ,600,0,AGREE,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ψ,Ψ,700,,,,BRANCH-ABSENT,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ω,Ω,800,Ⱉ,700,-100,OFFSET,sound,"the chained sound: Greek pair to Cyrillic heir to Glagolitic letter, both alignments the census’s own"
+greek-glagolitic,Ϡ,Ϡ,900,Ⱌ,900,0,AGREE,seat,"seat — the ts sound has no Greek letter; Cyrillic seats Ц at the sampi seat, and the chain follows the seat"
+greek-glagolitic,native,,,Ⰶ,7,,GAP-NO-PARENT,none,"zh — a Slavic sound with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,native,,,Ⱋ,800,,GAP-NO-PARENT,none,"sht — a Slavic cluster with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,native,,,Ⱎ,2000,,GAP-NO-PARENT,none,"sh — a Slavic sound with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,native,,,Ⱏ,3000,,GAP-NO-PARENT,none,"yeru — a Slavic vowel with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,native,,,Ⱑ,4000,,GAP-NO-PARENT,none,"yati — a Slavic vowel with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,native,,,Ⱓ,5000,,GAP-NO-PARENT,none,"yu — a Slavic sound with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,native,,,Ⱔ,9000,,GAP-NO-PARENT,none,"small yus — a nasal vowel with no Greek letter; the branch’s own seat, printed with no parent and no offset"
+greek-glagolitic,hole,,,Ⱊ,,,BRANCH-UNSEATED,none,"a letter of the alphabet no witness seats (the Plate XI holes); printed as a hole, never offset"
+greek-glagolitic,hole,,,Ⱐ,,,BRANCH-UNSEATED,none,"a letter of the alphabet no witness seats (the Plate XI holes); printed as a hole, never offset"
+greek-glagolitic,hole,,,Ⱒ,,,BRANCH-UNSEATED,none,"a letter of the alphabet no witness seats (the Plate XI holes); printed as a hole, never offset"
+greek-coptic,1,α,1,ⲁ,1,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,2,β,2,ⲃ,2,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,3,γ,3,ⲅ,3,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,4,δ,4,ⲇ,4,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,5,ε,5,ⲉ,5,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,6,ϛ,6,ⲋ,6,0,AGREE,sound,"a parting of kind: an epissemon sign on both banks, numeral-only in both tongues; the value descends entire [descent table: AGREE in value — PART in kind: the epissemon seat. Greek ϛ (…]"
+greek-coptic,7,ζ,7,ⲍ,7,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,8,η,8,ⲏ,8,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,9,θ,9,ⲑ,9,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,10,ι,10,ⲓ,10,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,20,κ,20,ⲕ,20,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,30,λ,30,ⲗ,30,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,40,μ,40,ⲙ,40,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,50,ν,50,ⲛ,50,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,60,ξ,60,ⲝ,60,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,70,ο,70,ⲟ,70,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,80,π,80,ⲡ,80,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,90,ϟ,90,ϥ,90,0,AGREE,seat,"the one parting of lineage: Greek’s holder ϟ (koppa) was a dead letter; Coptic seats ϥ (fai), a living Demotic letter, at the seat — kinship of seat, not of glyph [descent table: AGREE in value — PART IN LINEAGE, the descent's one seat-cha…]"
+greek-coptic,100,ρ,100,ⲣ,100,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,200,σ,200,ⲥ,200,0,AGREE,sound,a parting of form: Greek carries two glyphs (σ and final ς) at this seat; Coptic ⲥ is one letter [descent table: AGREE in value — PART in form: the Greek bank carries two gl…]
+greek-coptic,300,τ,300,ⲧ,300,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,400,υ,400,ⲩ,400,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,500,φ,500,ⲫ,500,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,600,χ,600,ⲭ,600,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,700,ψ,700,ⲯ,700,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,800,ω,800,ⲱ,800,0,AGREE,sound,"descent preserved the seat entire — the Coptic sign is the Greek letter’s own heir [descent table: AGREE — same value, and the Coptic sign is the Greek letter'…]"
+greek-coptic,900,ϡ,900,ⳁ,900,0,AGREE,sound,"a parting of kind: an epissemon sign on both banks, numeral-only in both tongues; the value descends entire [descent table: AGREE in value — PART in kind: Greek ϡ (sampi) is an archaic…]"
+greek-coptic,fenced,,,ϣ,,,FENCED,none,"shai — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+greek-coptic,fenced,,,ϧ,,,FENCED,none,"khai (Bohairic) — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+greek-coptic,fenced,,,ⳉ,,,FENCED,none,"khai (Akhmimic) — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+greek-coptic,fenced,,,ϩ,,,FENCED,none,"hori — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+greek-coptic,fenced,,,ϫ,,,FENCED,none,"gangia — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+greek-coptic,fenced,,,ϭ,,,FENCED,none,"shima — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+greek-coptic,fenced,,,ϯ,,,FENCED,none,"dei — a Demotic letter the attested system leaves valueless; the Milesian grid arrived full and no witness seats it. Fenced: printed, never offset"
+aramaic-hebrew,1,𐡀,1,א,1,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,1,𐡀,1,ا,1,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,2,𐡁,2,ב,2,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,2,𐡁,2,ب,2,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,3,𐡂,3,ג,3,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,3,𐡂,3,ج,3,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,4,𐡃,4,ד,4,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,4,𐡃,4,د,4,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,5,𐡄,5,ה,5,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,5,𐡄,5,ه,5,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,6,𐡅,6,ו,6,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,6,𐡅,6,و,6,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,7,𐡆,7,ז,7,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,7,𐡆,7,ز,7,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,8,𐡇,8,ח,8,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,8,𐡇,8,ح,8,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,9,𐡈,9,ט,9,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,9,𐡈,9,ط,9,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,10,𐡉,10,י,10,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,10,𐡉,10,ي,10,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,11,𐡊,20,כ,20,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,11,𐡊,20,ك,20,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,12,𐡋,30,ל,30,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,12,𐡋,30,ل,30,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,13,𐡌,40,מ,40,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,13,𐡌,40,م,40,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,14,𐡍,50,נ,50,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,14,𐡍,50,ن,50,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,15,𐡎,60,ס,60,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,15,𐡎,60,س,60,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,16,𐡏,70,ע,70,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,16,𐡏,70,ع,70,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,17,𐡐,80,פ,80,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,17,𐡐,80,ف,80,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,18,𐡑,90,צ,90,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,18,𐡑,90,ص,90,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,19,𐡒,100,ק,100,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,19,𐡒,100,ق,100,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,20,𐡓,200,ר,200,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,20,𐡓,200,ر,200,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,21,𐡔,300,ש,300,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,21,𐡔,300,ش,300,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-hebrew,22,𐡕,400,ת,400,0,AGREE,sound,the table’s own Hebrew equivalent; both strata of the parent agree in value at this seat
+aramaic-arabic,22,𐡕,400,ت,400,0,AGREE,order,the shared abjad order: Aramaic seat n against the n-th letter of the Arabic abjad bank
+aramaic-arabic,extension,,,ث,500,,EXTENSION,none,an Arabic letter beyond the 22 of the shared order — the branch’s own extension (the letters of the Arabic sounds the parent stock had no seats for)
+aramaic-arabic,extension,,,خ,600,,EXTENSION,none,an Arabic letter beyond the 22 of the shared order — the branch’s own extension (the letters of the Arabic sounds the parent stock had no seats for)
+aramaic-arabic,extension,,,ذ,700,,EXTENSION,none,an Arabic letter beyond the 22 of the shared order — the branch’s own extension (the letters of the Arabic sounds the parent stock had no seats for)
+aramaic-arabic,extension,,,ض,800,,EXTENSION,none,an Arabic letter beyond the 22 of the shared order — the branch’s own extension (the letters of the Arabic sounds the parent stock had no seats for)
+aramaic-arabic,extension,,,ظ,900,,EXTENSION,none,an Arabic letter beyond the 22 of the shared order — the branch’s own extension (the letters of the Arabic sounds the parent stock had no seats for)
+aramaic-arabic,extension,,,غ,1000,,EXTENSION,none,an Arabic letter beyond the 22 of the shared order — the branch’s own extension (the letters of the Arabic sounds the parent stock had no seats for)
+greek-latin,1,Α,1,A,1,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,1,Α,1,A,1,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,2,Β,2,B,2,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,2,Β,2,B,2,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,3,Γ,3,C,3,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,3,Γ,3,C,3,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,4,Δ,4,D,4,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,4,Δ,4,D,4,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,5,Ε,5,E,5,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,5,Ε,5,E,5,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,6,Ϝ,6,F,6,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,6,Ϝ,6,F,6,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,7,Ζ,7,Z,26,19,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,7,Ζ,7,Z,500,493,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,8,Η,8,H,8,0,AGREE,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,8,Η,8,H,8,0,AGREE,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,9,Θ,9,TH,,,GAP-NO-BRANCH,sound,"no single Latin letter carries this sound (the map files the digraph TH unpriced, and the ṣādē row stands empty); the gap prints, no offset"
+greek-latin,10,Ι,10,I,9,-1,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,10,Ι,10,I,9,-1,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,11,Κ,20,K,11,-9,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,11,Κ,20,K,10,-10,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,12,Λ,30,L,12,-18,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,12,Λ,30,L,20,-10,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,13,Μ,40,M,13,-27,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,13,Μ,40,M,30,-10,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,14,Ν,50,N,14,-36,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,14,Ν,50,N,40,-10,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,15,Ξ,60,X,24,-36,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,15,Ξ,60,X,300,240,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,16,Ο,70,O,15,-55,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,16,Ο,70,O,50,-20,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,17,Π,80,P,16,-64,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,17,Π,80,P,60,-20,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,18,Ϻ,,,,,GAP-NO-PARENT,sound,"san carries no Milesian value (san, the Phoenician ṣādē’s Greek heir, stands outside the numeral grid); no parent value, no offset"
+greek-latin,19,Ϙ,90,Q,17,-73,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,19,Ϙ,90,Q,70,-20,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,20,Ρ,100,R,18,-82,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,20,Ρ,100,R,80,-20,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,21,Σ,200,S,19,-181,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,21,Σ,200,S,90,-110,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+greek-latin,22,Τ,300,T,20,-280,OFFSET,sound,the map’s row: Milesian parent against the Latin ordinal heir
+greek-latin-agrippa,22,Τ,300,T,100,-200,OFFSET,sound,the same row on Latin’s second bank: Agrippa’s published values against the Milesian parent
+armenian-vs-greek,a,α,1,Ա,1,0,AGREE,sound,the head of both alphabets
+armenian-vs-greek,b,β,2,Բ,2,0,AGREE,sound,the shared second seat
+armenian-vs-greek,g,γ,3,Գ,3,0,AGREE,sound,the shared third seat
+armenian-vs-greek,d,δ,4,Դ,4,0,AGREE,sound,the shared fourth seat
+armenian-vs-greek,e,ε,5,Ե,5,0,AGREE,sound,the shared fifth seat
+armenian-vs-greek,z,ζ,7,Զ,6,-1,OFFSET,sound,"Armenian seats z sixth in its own order; Greek seats ζ seventh, after the epissemon"
+armenian-vs-greek,ē,η,8,Է,7,-1,OFFSET,sound,"the long-e vowel; Greek seats η eighth, after the epissemon"
+armenian-vs-greek,ə,,,Ը,8,,GAP-NO-PARENT,none,the schwa — Greek has no letter for it
+armenian-vs-greek,t',θ,9,Թ,9,0,AGREE,sound,the aspirated t; both grids seat it ninth
+armenian-vs-greek,ž,,,Ժ,10,,GAP-NO-PARENT,none,no Greek letter for /ʒ/
+armenian-vs-greek,i,ι,10,Ի,20,10,OFFSET,sound,"Armenian’s tens open with ž (a native letter) at 10, so its i stands at 20 against iota’s 10"
+armenian-vs-greek,l,λ,30,Լ,30,0,AGREE,sound,the shared l
+armenian-vs-greek,x,χ,600,Խ,40,-560,OFFSET,sound,"Armenian x is the velar fricative /x/; its Greek sound-heir is χ, seated at the hundreds tail of the Milesian grid"
+armenian-vs-greek,c,,,Ծ,50,,GAP-NO-PARENT,none,no Greek letter for /ts/
+armenian-vs-greek,k,κ,20,Կ,60,40,OFFSET,sound,the shared k
+armenian-vs-greek,h,,,Հ,70,,GAP-NO-PARENT,none,"Greek seats no /h/ letter in the numeral grid (the rough breathing is a mark, not a letter)"
+armenian-vs-greek,j,,,Ձ,80,,GAP-NO-PARENT,none,no Greek letter for /dz/
+armenian-vs-greek,ġ,,,Ղ,90,,GAP-NO-PARENT,none,no Greek letter for /ʁ/
+armenian-vs-greek,č,,,Ճ,100,,GAP-NO-PARENT,none,no Greek letter for /tʃ/
+armenian-vs-greek,m,μ,40,Մ,200,160,OFFSET,sound,the shared m
+armenian-vs-greek,y,,,Յ,300,,GAP-NO-PARENT,none,Armenian y is /h/ — no Greek letter
+armenian-vs-greek,n,ν,50,Ն,400,350,OFFSET,sound,the shared n
+armenian-vs-greek,š,,,Շ,500,,GAP-NO-PARENT,none,no Greek letter for /ʃ/
+armenian-vs-greek,o,ο,70,Ո,600,530,OFFSET,sound,the shared o vowel
+armenian-vs-greek,č',,,Չ,700,,GAP-NO-PARENT,none,no Greek letter for the aspirated affricate
+armenian-vs-greek,p,π,80,Պ,800,720,OFFSET,sound,the shared p
+armenian-vs-greek,ǰ,,,Ջ,900,,GAP-NO-PARENT,none,no Greek letter for /dʒ/
+armenian-vs-greek,ṙ,ρ,100,Ռ,1000,900,EXTENSION,sound,"the trilled r against rho — beyond the Milesian grid’s cap (900): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-greek,s,σ,200,Ս,2000,1800,EXTENSION,sound,"the plain s against sigma — seated in Armenian’s thousands extension, so the row prints as EXTENSION — beyond the Milesian grid’s cap (900): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-greek,v,Ϝ,6,Վ,3000,2994,EXTENSION,sound,"the w-line: Armenian v descends from /w/; Greek’s w letter is the digamma, priced 6 by the Phoenician map (the living GREEK bank seats the stigma at that value) — beyond the Milesian grid’s cap (900): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-greek,t,τ,300,Տ,4000,3700,EXTENSION,sound,"the plain t against tau — seated in Armenian’s thousands extension, so the row prints as EXTENSION — beyond the Milesian grid’s cap (900): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-greek,r,ρ,100,Ր,5000,4900,EXTENSION,doublet,"Armenian’s second r letter against the same rho — a doublet, printed as such — beyond the Milesian grid’s cap (900): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-greek,c',,,Ց,6000,,GAP-NO-PARENT,none,no second Greek ts letter
+armenian-vs-greek,w,,,Ւ,7000,,GAP-NO-PARENT,none,a second w-line letter; the digamma seat is already claimed by v in this alignment
+armenian-vs-greek,p',,,Փ,8000,,GAP-NO-PARENT,none,"the aspirated p — Greek’s aspirate seat is φ, already the pair of plain p’s line in the Latin tradition; printed as a gap rather than a second claim"
+armenian-vs-greek,k',,,Ք,9000,,GAP-NO-PARENT,none,the aspirated k — no second Greek k letter
+armenian-vs-hebrew,a,א,1,Ա,1,0,AGREE,sound,the head of the abjad
+armenian-vs-hebrew,b,ב,2,Բ,2,0,AGREE,sound,the shared second seat
+armenian-vs-hebrew,g,ג,3,Գ,3,0,AGREE,sound,the shared third seat
+armenian-vs-hebrew,d,ד,4,Դ,4,0,AGREE,sound,the shared fourth seat
+armenian-vs-hebrew,e,ה,5,Ե,5,0,AGREE,seat,"the abjad’s fifth seat; the SOUND parts (Armenian e is a vowel, ה is /h/) — a seat pair, printed as such"
+armenian-vs-hebrew,z,ז,7,Զ,6,-1,OFFSET,sound,the shared zayin sound
+armenian-vs-hebrew,ē,,,Է,7,,GAP-NO-PARENT,none,no Hebrew letter for the long e
+armenian-vs-hebrew,ə,,,Ը,8,,GAP-NO-PARENT,none,no Hebrew letter for the schwa
+armenian-vs-hebrew,t',ט,9,Թ,9,0,AGREE,sound,"the t line: Armenian aspirate against the abjad’s plain t, both ninth"
+armenian-vs-hebrew,ž,,,Ժ,10,,GAP-NO-PARENT,none,no Hebrew letter for /ʒ/
+armenian-vs-hebrew,i,י,10,Ի,20,10,OFFSET,sound,the yod sound; Armenian’s i stands at 20 (its tens open with ž) against yod’s 10
+armenian-vs-hebrew,l,ל,30,Լ,30,0,AGREE,sound,the shared lamed
+armenian-vs-hebrew,x,ח,8,Խ,40,32,OFFSET,sound,the Semitic back fricative: Armenian /x/ against ħet /ħ/
+armenian-vs-hebrew,c,צ,90,Ծ,50,-40,OFFSET,sound,the ts line: Armenian /ts/ against ṣadē
+armenian-vs-hebrew,k,כ,20,Կ,60,40,OFFSET,sound,the shared kap
+armenian-vs-hebrew,h,ה,5,Հ,70,65,OFFSET,sound,the /h/ letter against he
+armenian-vs-hebrew,j,,,Ձ,80,,GAP-NO-PARENT,none,no Hebrew letter for /dz/
+armenian-vs-hebrew,ġ,,,Ղ,90,,GAP-NO-PARENT,none,no Hebrew letter for /ʁ/
+armenian-vs-hebrew,č,,,Ճ,100,,GAP-NO-PARENT,none,no Hebrew letter for /tʃ/
+armenian-vs-hebrew,m,מ,40,Մ,200,160,OFFSET,sound,the shared mem
+armenian-vs-hebrew,y,,,Յ,300,,GAP-NO-PARENT,none,"Armenian y is /h/; the he seat is claimed by h in this alignment — printed as a gap, not a third claim"
+armenian-vs-hebrew,n,נ,50,Ն,400,350,OFFSET,sound,the shared nun
+armenian-vs-hebrew,š,ש,300,Շ,500,200,EXTENSION,sound,"the shin sound — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,o,,,Ո,600,,GAP-NO-PARENT,gap,"the o vowel — the abjad has no o letter; some traditions pair o with ʿayin by seat, printed here as a sound gap, not a pair"
+armenian-vs-hebrew,č',,,Չ,700,,GAP-NO-PARENT,none,no Hebrew letter for the aspirated affricate
+armenian-vs-hebrew,p,פ,80,Պ,800,720,EXTENSION,sound,"the shared pe — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,ǰ,,,Ջ,900,,GAP-NO-PARENT,none,no Hebrew letter for /dʒ/
+armenian-vs-hebrew,ṙ,ר,200,Ռ,1000,800,EXTENSION,sound,"the trilled r against resh — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,s,ס,60,Ս,2000,1940,EXTENSION,sound,"the plain /s/ against samekh — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,v,ו,6,Վ,3000,2994,EXTENSION,sound,"the waw line: /w/ seated as v — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,t,ת,400,Տ,4000,3600,EXTENSION,sound,"the plain t against taw — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,r,ר,200,Ր,5000,4800,EXTENSION,doublet,"the second r against the same resh — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,c',צ,90,Ց,6000,5910,EXTENSION,doublet,"the aspirated ts against the same ṣadē — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,w,ו,6,Ւ,7000,6994,EXTENSION,doublet,"the second w-line letter against waw — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,p',פ,80,Փ,8000,7920,EXTENSION,doublet,"the aspirated p against the same pe — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+armenian-vs-hebrew,k',ק,100,Ք,9000,8900,EXTENSION,sound,"the back k against qof — the abjad’s own k/q distinction — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+georgian-vs-greek,an,α,1,ა,1,0,AGREE,sound,the head of both alphabets
+georgian-vs-greek,ban,β,2,ბ,2,0,AGREE,sound,the shared second seat
+georgian-vs-greek,gan,γ,3,გ,3,0,AGREE,sound,the shared third seat
+georgian-vs-greek,don,δ,4,დ,4,0,AGREE,sound,the shared fourth seat
+georgian-vs-greek,en,ε,5,ე,5,0,AGREE,sound,the shared fifth seat
+georgian-vs-greek,vin,Ϝ,6,ვ,6,0,AGREE,sound,"the w-line: Georgian v against the digamma, priced 6 by the Phoenician map"
+georgian-vs-greek,zen,ζ,7,ზ,7,0,AGREE,sound,the shared z
+georgian-vs-greek,he,η,8,ჱ,8,0,AGREE,sound,the obsolete long-e letter against eta
+georgian-vs-greek,tan,θ,9,თ,9,0,AGREE,sound,"the aspirated t, ninth in both"
+georgian-vs-greek,in,ι,10,ი,10,0,AGREE,sound,the shared i
+georgian-vs-greek,k'an,κ,20,კ,20,0,AGREE,sound,"Georgian k’an is the ejective k; against kappa, the plain k of the parent grid"
+georgian-vs-greek,las,λ,30,ლ,30,0,AGREE,sound,the shared l
+georgian-vs-greek,man,μ,40,მ,40,0,AGREE,sound,the shared m
+georgian-vs-greek,nar,ν,50,ნ,50,0,AGREE,sound,the shared n
+georgian-vs-greek,yad,,,ჲ,60,,GAP-NO-PARENT,none,"the obsolete yad letter: it HOLDS the 60 seat of the grid with no Greek sound pair (Greek’s 60 is ξ, /ks/) — a seat filled natively, printed as a gap"
+georgian-vs-greek,on,ο,70,ო,70,0,AGREE,sound,the shared o
+georgian-vs-greek,p'ar,π,80,პ,80,0,AGREE,sound,"Georgian p’ar is the ejective p; against pi, the plain p of the parent grid"
+georgian-vs-greek,zhan,,,ჟ,90,,GAP-NO-PARENT,none,a native letter at the 90 seat: Greek’s 90 is the koppa sign; no sound pair — a seat filled natively
+georgian-vs-greek,rae,ρ,100,რ,100,0,AGREE,sound,the shared r
+georgian-vs-greek,san,σ,200,ს,200,0,AGREE,sound,the shared s
+georgian-vs-greek,t'ar,τ,300,ტ,300,0,AGREE,sound,the aspirated t against tau
+georgian-vs-greek,vie,υ,400,ჳ,400,0,AGREE,seat,"the obsolete w-letter at upsilon’s seat — a seat pair: the sound parts (w against u), the seat is the tradition’s own (the Plate IX doubled seat)"
+georgian-vs-greek,un,υ,400,უ,400,0,AGREE,sound,the u vowel against upsilon — the second holder of the doubled 400 seat
+georgian-vs-greek,par,φ,500,ფ,500,0,AGREE,sound,the aspirated p (par) against phi — in the classical parent φ was itself /pʰ/
+georgian-vs-greek,kan,χ,600,ქ,600,0,AGREE,sound,the aspirated k (kan) against chi — in the classical parent χ was itself /kʰ/
+georgian-vs-greek,ghan,,,ღ,700,,GAP-NO-PARENT,none,no Greek letter for /ʁ/
+georgian-vs-greek,q'ar,,,ყ,800,,GAP-NO-PARENT,none,no Greek letter for the ejective q
+georgian-vs-greek,shin,,,შ,900,,GAP-NO-PARENT,none,no Greek letter for /ʃ/
+georgian-vs-greek,chin,,,ჩ,1000,,GAP-NO-PARENT,none,no Greek letter for /tʃ/
+georgian-vs-greek,tsan,,,ც,2000,,GAP-NO-PARENT,none,no Greek letter for /ts/
+georgian-vs-greek,dzil,,,ძ,3000,,GAP-NO-PARENT,none,no Greek letter for /dz/
+georgian-vs-greek,ts'il,,,წ,4000,,GAP-NO-PARENT,none,no Greek letter for the aspirated ts
+georgian-vs-greek,ch'ar,,,ჭ,5000,,GAP-NO-PARENT,none,no Greek letter for the aspirated affricate
+georgian-vs-greek,khan,,,ხ,6000,,GAP-NO-PARENT,none,"the /x/ letter (khan): Greek’s fricative seat is already claimed by kan (the classical aspirate pair); printed as a gap, not a second claim"
+georgian-vs-greek,khar,,,ჴ,7000,,GAP-NO-PARENT,none,the obsolete khar letter (7000): no Greek pair stands in the shared grid
+georgian-vs-greek,jan,,,ჯ,8000,,GAP-NO-PARENT,none,no Greek letter for /dʒ/
+georgian-vs-greek,hae,,,ჰ,9000,,GAP-NO-PARENT,none,Greek seats no /h/ letter in the numeral grid
+georgian-vs-greek,hoe,,,ჵ,10000,,GAP-NO-PARENT,none,"the obsolete long-o letter (hoe, 10000): its sound pair would be ω, beyond the shared grid — printed in the extension block of the testimony"
+georgian-vs-hebrew,an,א,1,ა,1,0,AGREE,sound,the head of the abjad
+georgian-vs-hebrew,ban,ב,2,ბ,2,0,AGREE,sound,the shared second seat
+georgian-vs-hebrew,gan,ג,3,გ,3,0,AGREE,sound,the shared third seat
+georgian-vs-hebrew,don,ד,4,დ,4,0,AGREE,sound,the shared fourth seat
+georgian-vs-hebrew,en,ה,5,ე,5,0,AGREE,seat,the abjad’s fifth seat; the sound parts (a vowel against /h/) — a seat pair
+georgian-vs-hebrew,vin,ו,6,ვ,6,0,AGREE,sound,the waw line: /w/ seated as v
+georgian-vs-hebrew,zen,ז,7,ზ,7,0,AGREE,sound,the shared zayin sound
+georgian-vs-hebrew,he,,,ჱ,8,,GAP-NO-PARENT,none,no Hebrew letter for the long e
+georgian-vs-hebrew,tan,ט,9,თ,9,0,AGREE,sound,"the t line, ninth in both"
+georgian-vs-hebrew,in,י,10,ი,10,0,AGREE,sound,the yod sound
+georgian-vs-hebrew,k'an,כ,20,კ,20,0,AGREE,sound,the k line against kap
+georgian-vs-hebrew,las,ל,30,ლ,30,0,AGREE,sound,the shared lamed
+georgian-vs-hebrew,man,מ,40,მ,40,0,AGREE,sound,the shared mem
+georgian-vs-hebrew,nar,נ,50,ნ,50,0,AGREE,sound,the shared nun
+georgian-vs-hebrew,yad,,,ჲ,60,,GAP-NO-PARENT,none,no Hebrew letter for the yad letter
+georgian-vs-hebrew,on,,,ო,70,,GAP-NO-PARENT,gap,"the o vowel — the abjad has no o letter; its value 70 coincides with ʿayin’s seat, printed as a coincidence, not a pair"
+georgian-vs-hebrew,p'ar,פ,80,პ,80,0,AGREE,sound,the p line against pe
+georgian-vs-hebrew,zhan,,,ჟ,90,,GAP-NO-PARENT,none,no Hebrew letter for /ʒ/
+georgian-vs-hebrew,rae,ר,200,რ,100,-100,OFFSET,sound,the r against resh
+georgian-vs-hebrew,san,ס,60,ს,200,140,OFFSET,sound,"the plain /s/ against samekh (the tradition’s other s, ש, is /ʃ/ and is not this letter’s pair)"
+georgian-vs-hebrew,t'ar,ת,400,ტ,300,-100,OFFSET,sound,the t line against taw
+georgian-vs-hebrew,vie,,,ჳ,400,,GAP-NO-PARENT,none,the obsolete w-letter: the waw seat is claimed by vin in this alignment — printed as a gap
+georgian-vs-hebrew,un,,,უ,400,,GAP-NO-PARENT,none,the abjad has no u vowel letter
+georgian-vs-hebrew,par,פ,80,ფ,500,420,EXTENSION,doublet,"the aspirated p against the same pe — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+georgian-vs-hebrew,kan,ק,100,ქ,600,500,EXTENSION,sound,"the back k against qof — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+georgian-vs-hebrew,ghan,,,ღ,700,,GAP-NO-PARENT,none,no Hebrew letter for /ʁ/
+georgian-vs-hebrew,q'ar,,,ყ,800,,GAP-NO-PARENT,none,the ejective q: the qof seat is claimed by kan in this alignment — printed as a gap
+georgian-vs-hebrew,shin,,,შ,900,,GAP-NO-PARENT,none,no Hebrew letter for /ʃ/ (shin is /ʃ/ in its later reading but stands in the tradition as the sh of the abjad’s own s-line; printed as a gap rather than a contested claim)
+georgian-vs-hebrew,chin,,,ჩ,1000,,GAP-NO-PARENT,none,no Hebrew letter for /tʃ/
+georgian-vs-hebrew,tsan,,,ც,2000,,GAP-NO-PARENT,none,"the ts sound: its abjad pair would be ṣadē, whose Georgian sound-heir by the fricative line is not this letter — printed as a gap"
+georgian-vs-hebrew,dzil,,,ძ,3000,,GAP-NO-PARENT,none,no Hebrew letter for /dz/
+georgian-vs-hebrew,ts'il,,,წ,4000,,GAP-NO-PARENT,none,no Hebrew letter for the aspirated ts
+georgian-vs-hebrew,ch'ar,,,ჭ,5000,,GAP-NO-PARENT,none,no Hebrew letter for the aspirated affricate
+georgian-vs-hebrew,khan,ח,8,ხ,6000,5992,EXTENSION,sound,"the /x/ fricative against ħet — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+georgian-vs-hebrew,khar,,,ჴ,7000,,GAP-NO-PARENT,none,the obsolete khar letter: no Hebrew pair
+georgian-vs-hebrew,jan,,,ჯ,8000,,GAP-NO-PARENT,none,no Hebrew letter for /dʒ/
+georgian-vs-hebrew,hae,ה,5,ჰ,9000,8995,EXTENSION,doublet,"the /h/ letter against the same he — beyond the Hebrew grid’s cap (400): the branch counts its own alphabet here; printed, excluded from the agreement count"
+georgian-vs-hebrew,hoe,,,ჵ,10000,,GAP-NO-PARENT,none,the obsolete long-o letter: no Hebrew pair
+limit-cases,kana,,,,,,NO-PARENT-BANK,none,"kana is a notation seat: its letters descend from Chinese characters, and the house seats Chinese as a reader only — no Chinese value bank stands in the engine, so there is no parent value for an offset to part from. The kana mint’s own values are the branch’s internal affair."
+limit-cases,hangul,,,,,,NO-PARENT-BANK,none,"hangul is a featural invention (1443/46): designed, not descended. Its jamo values are its own mint’s law. A script with no parent has no offset — it is its own root."
+limit-cases,geez-halehame,,,,,,NO-PARENT-BANK,none,"the Ge’ez line’s parent is the South Arabian (Musnad) stock, which stands in no in-house bank; the gap prints. (The halehame witness against the Ge’ez mint is one tongue’s internal affair — a witness relation, not a branch offset — and is not computed here.)"

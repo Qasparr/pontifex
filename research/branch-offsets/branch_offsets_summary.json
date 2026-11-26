@@ -1,0 +1,487 @@
+{
+ "greek-cyrillic": {
+  "rows": 35,
+  "computed": 27,
+  "agree": 27,
+  "offset": 0,
+  "histogram": {
+   "0": 27
+  },
+  "statuses": {
+   "AGREE": 27,
+   "VARIANT": 6,
+   "REFUSED": 2
+  }
+ },
+ "greek-glagolitic": {
+  "rows": 39,
+  "computed": 25,
+  "agree": 16,
+  "offset": 9,
+  "histogram": {
+   "-100": 1,
+   "0": 16,
+   "1": 4,
+   "2": 3,
+   "910": 1
+  },
+  "statuses": {
+   "AGREE": 16,
+   "OFFSET": 9,
+   "BRANCH-UNSEATED": 5,
+   "BRANCH-ABSENT": 2,
+   "GAP-NO-PARENT": 7
+  }
+ },
+ "greek-coptic": {
+  "rows": 34,
+  "computed": 27,
+  "agree": 27,
+  "offset": 0,
+  "histogram": {
+   "0": 27
+  },
+  "statuses": {
+   "AGREE": 27,
+   "FENCED": 7
+  }
+ },
+ "aramaic-hebrew": {
+  "rows": 22,
+  "computed": 22,
+  "agree": 22,
+  "offset": 0,
+  "histogram": {
+   "0": 22
+  },
+  "statuses": {
+   "AGREE": 22
+  },
+  "head_77": {
+   "hebrew": 77,
+   "aramaic": 77,
+   "arabic_abjad": 77
+  }
+ },
+ "aramaic-arabic": {
+  "rows": 28,
+  "computed": 22,
+  "agree": 22,
+  "offset": 0,
+  "histogram": {
+   "0": 22
+  },
+  "statuses": {
+   "AGREE": 22,
+   "EXTENSION": 6
+  },
+  "head_77": {
+   "hebrew": 77,
+   "aramaic": 77,
+   "arabic_abjad": 77
+  }
+ },
+ "greek-latin": {
+  "rows": 22,
+  "computed": 20,
+  "agree": 7,
+  "offset": 13,
+  "histogram": {
+   "-280": 1,
+   "-181": 1,
+   "-82": 1,
+   "-73": 1,
+   "-64": 1,
+   "-55": 1,
+   "-36": 2,
+   "-27": 1,
+   "-18": 1,
+   "-9": 1,
+   "-1": 1,
+   "0": 7,
+   "19": 1
+  },
+  "statuses": {
+   "AGREE": 7,
+   "OFFSET": 13,
+   "GAP-NO-BRANCH": 1,
+   "GAP-NO-PARENT": 1
+  }
+ },
+ "greek-latin-agrippa": {
+  "rows": 20,
+  "computed": 20,
+  "agree": 7,
+  "offset": 13,
+  "histogram": {
+   "-200": 1,
+   "-110": 1,
+   "-20": 4,
+   "-10": 4,
+   "-1": 1,
+   "0": 7,
+   "240": 1,
+   "493": 1
+  },
+  "statuses": {
+   "AGREE": 7,
+   "OFFSET": 13
+  }
+ },
+ "armenian-vs-greek": {
+  "rows": 36,
+  "computed": 16,
+  "agree": 7,
+  "offset": 9,
+  "histogram": {
+   "-560": 1,
+   "-1": 2,
+   "0": 7,
+   "10": 1,
+   "40": 1,
+   "160": 1,
+   "350": 1,
+   "530": 1,
+   "720": 1
+  },
+  "statuses": {
+   "AGREE": 7,
+   "OFFSET": 9,
+   "GAP-NO-PARENT": 15,
+   "EXTENSION": 5
+  },
+  "extension_rows": 5,
+  "ingrid_pairs": 16,
+  "ingrid_agree": 7,
+  "ingrid_delta1": 2
+ },
+ "armenian-vs-hebrew": {
+  "rows": 36,
+  "computed": 15,
+  "agree": 7,
+  "offset": 8,
+  "histogram": {
+   "-40": 1,
+   "-1": 1,
+   "0": 7,
+   "10": 1,
+   "32": 1,
+   "40": 1,
+   "65": 1,
+   "160": 1,
+   "350": 1
+  },
+  "statuses": {
+   "AGREE": 7,
+   "OFFSET": 8,
+   "GAP-NO-PARENT": 10,
+   "EXTENSION": 11
+  },
+  "extension_rows": 11,
+  "ingrid_pairs": 15,
+  "ingrid_agree": 7,
+  "ingrid_delta1": 1
+ },
+ "georgian-vs-greek": {
+  "rows": 38,
+  "computed": 23,
+  "agree": 23,
+  "offset": 0,
+  "histogram": {
+   "0": 23
+  },
+  "statuses": {
+   "AGREE": 23,
+   "GAP-NO-PARENT": 15
+  },
+  "extension_rows": 0,
+  "ingrid_pairs": 23,
+  "ingrid_agree": 23,
+  "ingrid_delta1": 0
+ },
+ "georgian-vs-hebrew": {
+  "rows": 38,
+  "computed": 17,
+  "agree": 14,
+  "offset": 3,
+  "histogram": {
+   "-100": 2,
+   "0": 14,
+   "140": 1
+  },
+  "statuses": {
+   "AGREE": 14,
+   "GAP-NO-PARENT": 17,
+   "OFFSET": 3,
+   "EXTENSION": 4
+  },
+  "extension_rows": 4,
+  "ingrid_pairs": 17,
+  "ingrid_agree": 14,
+  "ingrid_delta1": 0
+ },
+ "limit-cases": {
+  "rows": 3,
+  "computed": 0,
+  "agree": 0,
+  "offset": 0,
+  "histogram": {},
+  "statuses": {
+   "NO-PARENT-BANK": 3
+  }
+ },
+ "_patterns": {
+  "latin_tens_law": {
+   "law": "offset = -9j at the j-th inherited tens seat",
+   "residuals": {
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0
+   }
+  },
+  "latin_hundreds_law": {
+   "law": "offset = 17 - 99j at the j-th inherited hundreds seat",
+   "residuals": {
+    "20": 0,
+    "21": 0,
+    "22": 0
+   }
+  },
+  "agrippa_tens_constant": {
+   "law": "a constant offset at the four inherited tens seats",
+   "values": [
+    -10,
+    -10,
+    -10,
+    -10
+   ],
+   "constant": -10
+  },
+  "glagolitic_units": {
+   "rows": [
+    [
+     "Α",
+     0
+    ],
+    [
+     "Β",
+     1
+    ],
+    [
+     "Β",
+     0
+    ],
+    [
+     "Γ",
+     1
+    ],
+    [
+     "Δ",
+     1
+    ],
+    [
+     "Ε",
+     1
+    ],
+    [
+     "Ϛ",
+     2
+    ],
+    [
+     "Ζ",
+     2
+    ],
+    [
+     "Η",
+     2
+    ],
+    [
+     "Ι",
+     0
+    ],
+    [
+     "Κ",
+     0
+    ],
+    [
+     "Λ",
+     0
+    ],
+    [
+     "Μ",
+     0
+    ],
+    [
+     "Ν",
+     0
+    ],
+    [
+     "Ο",
+     0
+    ],
+    [
+     "Π",
+     0
+    ],
+    [
+     "Ϟ",
+     910
+    ],
+    [
+     "Ρ",
+     0
+    ],
+    [
+     "Σ",
+     0
+    ],
+    [
+     "Τ",
+     0
+    ],
+    [
+     "Υ",
+     0
+    ],
+    [
+     "Φ",
+     0
+    ],
+    [
+     "Χ",
+     0
+    ],
+    [
+     "Ω",
+     -100
+    ],
+    [
+     "Ϡ",
+     0
+    ]
+   ]
+  }
+ },
+ "_signed_offsets": [
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Β",
+   "offset": 1,
+   "signed_as": "the Glagolitic seat of value 1",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Γ",
+   "offset": 1,
+   "signed_as": "the Glagolitic seat of value 1",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Δ",
+   "offset": 1,
+   "signed_as": "the Glagolitic seat of value 1",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Ε",
+   "offset": 1,
+   "signed_as": "the Glagolitic seat of value 1",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Ϛ",
+   "offset": 2,
+   "signed_as": "the Glagolitic seat of value 2",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Ζ",
+   "offset": 2,
+   "signed_as": "the Glagolitic seat of value 2",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Η",
+   "offset": 2,
+   "signed_as": "the Glagolitic seat of value 2",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-glagolitic",
+   "seat": "Ω",
+   "offset": -100,
+   "signed_as": "the Glagolitic seat of value 100",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "greek-latin",
+   "seat": "10",
+   "offset": -1,
+   "signed_as": "I",
+   "grid": "the Roman numeral seats"
+  },
+  {
+   "branch": "greek-latin-agrippa",
+   "seat": "10",
+   "offset": -1,
+   "signed_as": "I",
+   "grid": "the Roman numeral seats"
+  },
+  {
+   "branch": "greek-latin-agrippa",
+   "seat": "11",
+   "offset": -10,
+   "signed_as": "X",
+   "grid": "the Roman numeral seats"
+  },
+  {
+   "branch": "greek-latin-agrippa",
+   "seat": "12",
+   "offset": -10,
+   "signed_as": "X",
+   "grid": "the Roman numeral seats"
+  },
+  {
+   "branch": "greek-latin-agrippa",
+   "seat": "13",
+   "offset": -10,
+   "signed_as": "X",
+   "grid": "the Roman numeral seats"
+  },
+  {
+   "branch": "greek-latin-agrippa",
+   "seat": "14",
+   "offset": -10,
+   "signed_as": "X",
+   "grid": "the Roman numeral seats"
+  },
+  {
+   "branch": "armenian-vs-greek",
+   "seat": "z",
+   "offset": -1,
+   "signed_as": "the unit — the branch’s own first seat",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "armenian-vs-greek",
+   "seat": "ē",
+   "offset": -1,
+   "signed_as": "the unit — the branch’s own first seat",
+   "grid": "the branch’s own grid"
+  },
+  {
+   "branch": "armenian-vs-hebrew",
+   "seat": "z",
+   "offset": -1,
+   "signed_as": "the unit — the branch’s own first seat",
+   "grid": "the branch’s own grid"
+  }
+ ]
+}
