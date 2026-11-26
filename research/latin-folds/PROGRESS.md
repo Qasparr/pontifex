@@ -8,6 +8,6 @@ of the FOLD. Build: pontifex/diplomatic_folds.py + research/latin-folds/.
 - [x] builder research/latin-folds/measure_latin_folds.py + frozen CSVs
 - [x] parity battery test_diplomatic_folds_parity.py
 - [x] full test run, counts printed, no regressions
-- [ ] commit + push pontifex (this build's files only)
-- [ ] announcement both houses (authorship + Flagpole; verdict plain)
-- [ ] ~/memory/2026-11-26.md delivery appended; CHECKPOINT updated
+- [x] commit + push pontifex (this build's files only) — bd11c4e, verified at remote
+- [ ] announcement both houses — PENDING FOUNDER APPROVAL: profile post approval card timed out 2026-11-26 (connector-attempt-be8d7b9c), action NOT performed; Page post not fired. Copy stands ready in the delivery log entry.
+- [x] ~/memory/2026-11-26.md delivery appended; CHECKPOINT updated
