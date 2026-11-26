@@ -1,0 +1,36 @@
+{
+  "file": "blend-curves-proof.mp3",
+  "gain_applied_db": -6.06,
+  "integrated_lufs": -13.99,
+  "true_peak_dbtp": -12.08,
+  "bit_rate": 321689,
+  "ratios": [
+    {
+      "segment": "symmetric",
+      "weight_at_midpoint": 0.5,
+      "predicted_ratio": 1.0,
+      "predicted_db": 0.0,
+      "measured_ratio": 0.9999830227727646,
+      "measured_db": -0.0001474635738916258,
+      "error_db": 0.0001474635738916258
+    },
+    {
+      "segment": "late_snap",
+      "weight_at_midpoint": 0.03125,
+      "predicted_ratio": 0.03225806451612903,
+      "predicted_db": -29.827233876685455,
+      "measured_ratio": 0.03293915551185115,
+      "measured_db": -29.645750787748156,
+      "error_db": 0.1814830889372995
+    },
+    {
+      "segment": "early_lean",
+      "weight_at_midpoint": 0.890625,
+      "predicted_ratio": 8.142857142857142,
+      "predicted_db": 18.21553631316469,
+      "measured_ratio": 8.024374165016136,
+      "measured_db": 18.08822342022044,
+      "error_db": 0.12731289294424883
+    }
+  ]
+}

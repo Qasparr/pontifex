@@ -1,0 +1,317 @@
+{
+ "seats": [
+  {
+   "address": "I",
+   "seat": "Α",
+   "value": 1,
+   "root": 1
+  },
+  {
+   "address": "II",
+   "seat": "Ε",
+   "value": 5,
+   "root": 5
+  },
+  {
+   "address": "III",
+   "seat": "Η",
+   "value": 8,
+   "root": 8
+  },
+  {
+   "address": "IV",
+   "seat": "Ι",
+   "value": 10,
+   "root": 1
+  },
+  {
+   "address": "V",
+   "seat": "Ο",
+   "value": 70,
+   "root": 7
+  },
+  {
+   "address": "VI",
+   "seat": "Υ",
+   "value": 400,
+   "root": 4
+  },
+  {
+   "address": "VII",
+   "seat": "Ω",
+   "value": 800,
+   "root": 8
+  },
+  {
+   "address": "VIII",
+   "seat": "ΕΙ",
+   "value": 15,
+   "root": 6
+  },
+  {
+   "address": "IX",
+   "seat": "ΟΥ",
+   "value": 470,
+   "root": 2
+  }
+ ],
+ "nine_sum": 1779,
+ "nine_sum_root": 6,
+ "triads": [
+  {
+   "triad": "I",
+   "seats": [
+    "Α",
+    "Ε",
+    "Η"
+   ],
+   "total": 14,
+   "root": 5
+  },
+  {
+   "triad": "II",
+   "seats": [
+    "Ι",
+    "ΕΙ",
+    "Ο"
+   ],
+   "total": 95,
+   "root": 5
+  },
+  {
+   "triad": "III",
+   "seats": [
+    "Υ",
+    "ΟΥ",
+    "Ω"
+   ],
+   "total": 1670,
+   "root": 5
+  }
+ ],
+ "frame1_address": {
+  "pairs": [
+   {
+    "seat": "Α",
+    "address": "I",
+    "value": 1,
+    "gate": 0,
+    "gate_name": "YALDABAOTH/Saturn",
+    "residue": "1"
+   },
+   {
+    "seat": "Ε",
+    "address": "II",
+    "value": 5,
+    "gate": -1,
+    "gate_name": "IAO/Jupiter",
+    "residue": "-1"
+   },
+   {
+    "seat": "Η",
+    "address": "III",
+    "value": 8,
+    "gate": -2,
+    "gate_name": "SABAOTH/Mars",
+    "residue": "1/2"
+   },
+   {
+    "seat": "Ι",
+    "address": "IV",
+    "value": 10,
+    "gate": -3,
+    "gate_name": "ADONAIOS/Sun",
+    "residue": "-1/6"
+   },
+   {
+    "seat": "Ο",
+    "address": "V",
+    "value": 70,
+    "gate": -4,
+    "gate_name": "ELOAIOS/Mercury (plate)",
+    "residue": "1/24"
+   },
+   {
+    "seat": "Υ",
+    "address": "VI",
+    "value": 400,
+    "gate": -5,
+    "gate_name": "ORAIOS/Venus (plate)",
+    "residue": "-1/120"
+   },
+   {
+    "seat": "Ω",
+    "address": "VII",
+    "value": 800,
+    "gate": -6,
+    "gate_name": "ASTAPHAIOS/Moon (plate)",
+    "residue": "1/720"
+   }
+  ],
+  "gateless": [
+   {
+    "seat": "ΕΙ",
+    "address": "VIII",
+    "value": 15
+   },
+   {
+    "seat": "ΟΥ",
+    "address": "IX",
+    "value": 470
+   }
+  ],
+  "gateless_total": 485,
+  "gateless_root": 8,
+  "gated_string": "ΑΕΗΙΟΥΩ",
+  "gateless_string": "ΕΙΟΥ"
+ },
+ "frame2_triads": {
+  "pairs": [
+   {
+    "triad": "I",
+    "seat": "Α",
+    "value": 1,
+    "gate": 0,
+    "gate_name": "YALDABAOTH/Saturn"
+   },
+   {
+    "triad": "I",
+    "seat": "Ε",
+    "value": 5,
+    "gate": -1,
+    "gate_name": "IAO/Jupiter"
+   },
+   {
+    "triad": "I",
+    "seat": "Η",
+    "value": 8,
+    "gate": -2,
+    "gate_name": "SABAOTH/Mars"
+   },
+   {
+    "triad": "II",
+    "seat": "Ι",
+    "value": 10,
+    "gate": -3,
+    "gate_name": "ADONAIOS/Sun"
+   },
+   {
+    "triad": "II",
+    "seat": "ΕΙ",
+    "value": 15,
+    "gate": -4,
+    "gate_name": "ELOAIOS/Mercury (plate)"
+   },
+   {
+    "triad": "II",
+    "seat": "Ο",
+    "value": 70,
+    "gate": -5,
+    "gate_name": "ORAIOS/Venus (plate)"
+   },
+   {
+    "triad": "III",
+    "seat": "Υ",
+    "value": 400,
+    "gate": -6,
+    "gate_name": "ASTAPHAIOS/Moon (plate)"
+   }
+  ],
+  "gateless": [
+   {
+    "triad": "III",
+    "seat": "ΟΥ",
+    "value": 470
+   },
+   {
+    "triad": "III",
+    "seat": "Ω",
+    "value": 800
+   }
+  ],
+  "gateless_total": 1270,
+  "gateless_root": 1,
+  "gateless_string": "ΟΥΩ"
+ },
+ "frames_parting": {
+  "frame1_gateless": "ΕΙΟΥ",
+  "frame2_gateless": "ΟΥΩ",
+  "gateless_in_both": "ΟΥ",
+  "note": "ΟΥ (IX, 470) is gateless under both frames; ΕΙ is gated only in Frame 2 (at -4, inside Triad II); Ω is gated only in Frame 1 (at -6, the last address)."
+ },
+ "corners_dial_cross": {
+  "ends": {
+   "north": 13,
+   "south": 31,
+   "hair_end_a": 18,
+   "hair_end_b": 18
+  },
+  "total": 80,
+  "root": 8,
+  "pole_difference": 18
+ },
+ "corners_triad_grid": {
+  "seats": [
+   "Α",
+   "Η",
+   "Υ",
+   "Ω"
+  ],
+  "values": [
+   1,
+   8,
+   400,
+   800
+  ],
+  "roots": [
+   1,
+   8,
+   4,
+   8
+  ],
+  "total": 1209,
+  "root": 3,
+  "string": "ΑΗΥΩ"
+ },
+ "root_frame_check": {
+  "roots_in_address_order": [
+   1,
+   5,
+   8,
+   1,
+   7,
+   4,
+   8,
+   6,
+   2
+  ],
+  "distinct_sorted": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "collisions": {
+   "root_1": [
+    "Α",
+    "Ι"
+   ],
+   "root_8": [
+    "Η",
+    "Ω"
+   ]
+  },
+  "absent_roots": [
+   3,
+   9
+  ],
+  "verdict": "A root-to-gate bijection fails by collision: 9 seats, 7 distinct roots, 7 gates — two gates would have to be double-seated and none left gateless, against both frames above. Printed as a measured non-fit."
+ },
+ "founder_guess": {
+  "as_given": "VRXM",
+  "treatment": "Recorded byte-exact as a guess-in-formation under his Flagpole. Not expanded, not decoded, not built on. Computed strings of this construction: gated core ΑΕΗΙΟΥΩ (Frame 1); gateless ΕΙΟΥ (Frame 1) and ΟΥΩ (Frame 2); triad-grid corners ΑΗΥΩ. None spells the guess; the comparison stands as a printed observation only."
+ }
+}
