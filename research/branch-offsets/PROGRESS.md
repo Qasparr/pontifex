@@ -13,12 +13,12 @@ VV−X = 20 = XX, the lawful double).
   coptic-descent}.csv; maps/phoenician-cypher-glyph-map (Greek↔Latin
   22-row line); class-walk fence (Coptic Demotic seven).
 - [x] S1 Computation script + frozen data (branch_offsets.csv/json)
-- [ ] S2 Register MD (Teacher's Edition) in goal files
-- [ ] S3 Font-coverage audit + MAGVS PDF
-- [ ] S4 Parity battery + all repo batteries re-run
-- [ ] S5 Commit + push (this build's files only)
-- [ ] S6 Announce both houses
-- [ ] S7 Log (~/memory/2026-11-26.md) + CHECKPOINT → COMPLETED
+- [x] S2 Register MD (Teacher's Edition) in goal files
+- [x] S3 Font-coverage audit + MAGVS PDF
+- [x] S4 Parity battery + all repo batteries re-run
+- [x] S5 Commit + push (this build's files only)
+- [x] S6 Announce both houses
+- [x] S7 Log (~/memory/2026-11-26.md) + CHECKPOINT → COMPLETED
 
 ## Alignment discipline (frozen at S0)
 - Greek→Cyrillic: cyrillic-table.csv greek_pair (27 SOURCED seats);
