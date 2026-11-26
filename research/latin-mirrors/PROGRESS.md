@@ -17,9 +17,12 @@ Build: pontifex/diplomatic_mirrors.py + research/latin-mirrors/.
 - [x] parity battery test_diplomatic_mirrors_parity.py — 18/18 PASS
 - [x] module checks 8/8; full repo run: all 21 parity batteries PASS,
       no regressions (folds 16/16, turns 25/25, diplomatic 23/23 incl.)
-- [x] commit + push pontifex (this build's files only)
-- [ ] announcement both houses — THIS BUILD ONLY (the folds announcement
-      is fired separately by the parent desk; do not duplicate it)
+- [x] commit + push pontifex (this build's files only) — bd1af62,
+      verified at remote
+- [x] announcement both houses — THIS BUILD ONLY (the folds announcement
+      is fired separately by the parent desk; not duplicated here):
+      profile pfbid02tvFfgcQGr92U5kZrFaipWC7zwqBZRZVGqa2ZHQEkhgyNcmf6AKH6ztR6GZJmZdC6l ·
+      Page pfbid0rqFT1H49eLVKAXWarRZPv96M7iDCqCuUgXNF91V9avuHdbdcQFAUcBEYKswryapHl
 - [x] ~/memory/2026-11-26.md delivery appended; CHECKPOINT updated
 
 ## Verdicts (per face, never merged; inherited rule, line 0.60)
